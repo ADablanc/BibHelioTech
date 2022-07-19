@@ -1,5 +1,5 @@
 # Name: 1010292020JA028861_bibheliotech_V1;
-# Creation Date: 2022-07-18T17:05:44.946439;
+# Creation Date: 2022-07-19T09:52:19.792415;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1029/2020JA028861". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
