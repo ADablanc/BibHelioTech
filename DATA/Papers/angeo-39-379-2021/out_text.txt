@@ -1,0 +1,1503 @@
+Ann. Geophys., 39, 379-396, 2021
+https://doi.org/10.5194/angeo-39-379-2021
+
+© Author(s) 2021. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+
+Annales
+Geophysicae
+
+Warm protons at comet 67P/Churyumov—Gerasimenko —
+implications for the infant bow shock
+
+Charlotte Goetz!*, Herbert Gunell>*, Fredrik Johansson°, Kristie LLera®, Hans Nilsson’, Karl-Heinz Glassmeier’,
+
+and Matthew G. G. T. Taylor!
+
+'European Space Research and Technology Centre, European Space Agency, Keplerlaan 1,
+
+2201 AZ Noordwijk, the Netherlands
+
+*Tnstitut fiir Geophysik und extraterrestrische Physik, Technische Universitat Braunschweig,
+
+Mendelssohnstr. 3, 38106 Braunschweig, Germany
+
+>Department of Physics, Umea University, 901 87 Umea, Sweden
+
+4Royal Belgian Institute for Space Aeronomy (BIRA-IASB), Avenue Circulaire 3, 1180 Brussels, Belgium
+“Institutet for rymdfysik, Ligerhyddsvagen 1, 752 37 Uppsala, Sweden
+
+©Southwest Research Institute, 6220 Culebra Road, San Antonio, TX 78238-5166, USA
+
+Institutet for rymdfysik, Rymdcampus 1, Kiruna, Sweden
+
+Correspondence: Charlotte Goetz (charlotte.goetz @esa.int)
+
+Received: 22 September 2020 — Discussion started: 16 October 2020
+Revised: 11 March 2021 — Accepted: 18 March 2021 — Published: 5 May 2021
+
+Abstract. The plasma around comet 67P/Churyumov—
+Gerasimenko showed remarkable variability throughout the
+entire Rosetta mission. Plasma boundaries such as the diamagnetic cavity, solar wind ion cavity and infant bow shock
+separate regions with distinct plasma parameters from each
+other. Here, we focus on a particular feature in the plasma:
+warm, slow solar wind protons. We investigate this particular proton population further by focusing on the proton behaviour and surveying all of the Rosetta comet phase data.
+We find over 300 events where Rosetta transited from a region with fast, cold protons into a region with warm, slow
+protons. We investigate the properties of the plasma and magnetic field at this boundary and the location where it can be
+found. We find that the protons are preferentially detected
+at intermediate gas production rates with a slight trend towards larger cometocentric distances for higher gas production rates. The events can mostly be found in the positive
+convective electric field hemisphere. These results agree well
+with simulations of the infant bow shock (IBS), an asymmetric structure in the plasma environment previously detected
+on only 2d during the comet phase. The properties of the
+plasma on both sides of this structure are harder to constrain,
+but there is a trend towards higher electron flux, lower magnetic field, higher magnetic field power spectral density and
+
+higher density in the region that contains the warm protons.
+This is in partial agreement with the previous IBS definitions;
+however, it also indicates that the plasma and this structure
+are highly non-stationary. For future research, Comet Interceptor, with its multi-point measurements, can help to disentangle the spatial and temporal effects and give more clarity on the influence of changing upstream conditions on the
+movement of boundaries in this unusual environment.
+
+1 Introduction
+
+The plasma around comet 67P/Churyumov—Gerasimenko
+(67P) has been explored in depth by the instruments on board
+the European Space Agency’s Rosetta mission (Glassmeier
+et al., 2007a). The Rosetta orbiter (referred to as Rosetta
+from here on) arrived at the comet in August 2014, and it was
+passivated and impacted the surface in September 2016. The
+long duration of the mission enables us to explore different
+stages in the interaction between a comet and the solar wind.
+As a comet moves from aphelion to perihelion, this interaction evolves from an almost asteroid-like interaction regime
+with very low neutral-gas production to one where a fully
+formed bow shock and diamagnetic cavity are formed (e.g.
+
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+380
+
+Glassmeier, 2017; Goetz et al., 2017; Nilsson et al., 2017)
+along with a plethora of other identified boundaries (Mandt
+et al., 2016). For a more thorough review of the plasma environment of comets, see Gotz et al. (2019).
+
+As a comet approaches the Sun, energy input into the surface increases, which increases the amount of ice that is sublimated and escapes into space. The neutral gases, mostly
+water and carbon dioxide, undergo photoionization or electron impact ionization and form a cloud of heavy ions around
+the comet (HAssig et al., 2015). As this cloud encounters the
+solar wind, the cometary ions are accelerated by the convective electric field and eventually assimilated into the solar
+wind flow. This process of mass-loading results in a deceleration and deflection of the solar wind in the vicinity of the
+comet.
+
+Biermann et al. (1967) find that the addition of mass can be
+described as a source term in the mass conservation equation
+of a fluid description of the plasma. More recently, hybrid
+simulations or multi-fluid simulations have been the tool of
+choice to model this environment, because the large ion gyroradii of the cometary ions cannot be accurately described
+in a single-fluid or magnetohydrodynamic (MHD) approach.
+This is especially important for comet 67P, where ion gyroradii can be greater than 10000km, whereas the plasma
+cloud around the comet is restricted to radii smaller than
+1000 km (see e.g. Koenders et al., 2016b). In this regime the
+cometary ions are accelerated by the convective electric field
+far upstream of the comet and a polarization and ambipolar electric field closer to the nucleus (Nilsson et al., 2018;
+Gunell et al., 2019). The presence of the convective electric field induces an asymmetry in the interaction region that
+has consequences for all plasma parameters (Koenders et al.,
+2016a, b; Edberg et al., 2019). At higher gas production rates
+this asymmetry is less pronounced and the influence of the
+cometary ion gyroradius is diminished, because the magnetic
+field pileup at the comet results in higher field magnitudes
+and thus smaller gyroradil.
+
+Boundaries in the plasma at 67P have been identified and
+characterized in many publications. The three main boundaries that were observable by Rosetta were, in order of decreasing cometocentric distance, the solar wind ion cavity
+(e.g. Nilsson et al., 2017), a collisionopause (Mandt et al.,
+2016) and the diamagnetic cavity (e.g. Goetz et al., 2016a, b).
+The solar wind ion cavity is the region where no solar wind
+ions can be observed in the plasma; from May 2015 to January 2016 Rosetta was almost exclusively within this region.
+The collisionopause demarcates the tenuous boundary where
+1on-neutral or electron-neutral collisions become important,
+and it has been shown to lie within the solar wind ion cavity. Finally the diamagnetic cavity is the innermost observed
+region, where the magnetic field is very close to zero. For
+a more detailed overview of these boundaries, see e.g. Gotz
+et al. (2019).
+
+Another boundary in the plasma environment of a comet,
+not observed by Rosetta, is the bow shock. In the classical
+
+Ann. Geophys., 39, 379-396, 2021
+
+C. Goetz et al.: Warm Protons at 67P
+
+fluid description by Biermann et al. (1967) and Flammer and
+Mendis (1991), the mass-loading of the solar wind flow results in a deceleration until a critical point is reached and
+no mass can be added. A cometary number density of just a
+few percent is sufficient here, so the critical point is reached
+already far upstream of the nucleus. There, the interaction
+between the solar wind and the comet cannot be described
+by mass-loading alone; instead, the flow changes from supersonic to subsonic, and a bow shock forms. This prediction is shown to fit well with observations at, for example,
+comet Halley (Neubauer et al., 1986), where the bow shock
+was detected 1.15 x 10° km from the nucleus. The transition
+from unshocked to shocked solar wind was identified by a decrease in speed, increase in density and temperature, and an
+increase in the magnetic field (Coates et al., 1990). The shock
+was identified as a low Mach number shock, in agreement
+with the model, which predicted a gradual slowing of the solar wind flow already upstream of the shock due to the incorporation of the cometary ions. The cometary ion density is
+often neglected in bow shock models at high-activity comets,
+because it only reaches 1.5 %—2.5 % of the total density. Observations of bow shocks at other comets were quite similar,
+although at the lower-activity comets Giacobini—Zinner (GZ)
+and Grigg—Skjellerup (GS), the bow shock is often termed a
+bow wave, due to the lack of a sharp boundary (Smith et al.,
+1986). At GS, a strong non-gyrotropy of the cometary ions
+could be observed near the bow wave, together with wave activity triggered by this unstable distribution function (Coates
+et al., 1996). Koenders et al. (2013) compare the bow shock
+distances from a simple single-fluid model with distances
+gained from hybrid simulations and find that the fluid models predicted consistently higher stand-off distances. Thus,
+the ion gyroradius effects are pronounced even in the most
+fluid-like stage of the plasma around comet 67P.
+
+The shock itself forms by waves steepening into the nonlinear regime. The speed of the steepened wave is faster than
+that of the linear wave, but steepening is counteracted by dissipation. If an obstacle and a plasma are in relative motion
+faster than the speed of linear waves, the waves steepen until
+an equilibrium is reached where the shock becomes a stationary wave in the obstacle’s (the comet’s) frame of reference
+(Balogh and Treumann, 2013).
+
+Bow shocks have been studied at comets (Simon Wedlund
+et al., 2017) and elsewhere in the solar system (see e.g. Martinecz et al., 2008; Fahr and Siewert, 2015; Hall et al., 2016),
+but so far the development of a bow shock could not be observed, simply because a bow shock had already been fully
+formed. Comets provide an excellent laboratory to investigate the process of bow shock formation, where the gradual increase in gas production rate over weeks or months
+means that the intermediate stages of this interaction can be
+observed and studied.
+
+The precursor of a bow shock, the infant bow shock (IBS),
+was first reported by Gunell et al. (2018). They show two
+cases from different days of fast changes in the cometary
+
+https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P
+
+plasma and associate these changes to an asymmetric structure in the solar wind flow that is also found in hybrid simulations. To detect the IBS, the authors looked for a change in
+the magnetic field direction. This ensures that the IBS moves
+over the spacecraft fairly quickly and that the boundary is
+clearly detectable. This is necessary as Rosetta has a negligible velocity with respect to the boundary. From 2d of
+data, it was found that the magnetic field reversal was coincident with an increase in magnitude and wave activity. At
+the same time, the proton velocity distribution function became broader, and the bulk velocity decreased. The electron
+flux and energy increases. These observations are compared
+with hybrid simulations of the comet at similar gas production rates. While the reversal of the magnetic field is used to
+ensure a fast transition of the bow shock from one side of
+the comet to the other, the main signature of the infant bow
+shock is the presence of warm, slow protons. According to
+Balogh and Treumann (2013), the slowing down and heating
+of the medium over a narrow layer or boundary is the defining feature of any shock. A highly asymmetric boundary is
+seen in the simulations, and the simulated proton spectra are
+very similar to what is observed by Rosetta. Thus, the observations are found to be consistent with the detection of
+an asymmetric boundary. As this boundary is similar to a
+bow shock at a fully developed comet, it is termed the infant bow shock. Prior to the first identification of an IBS, it
+was observed that similar signatures seen earlier in the mission could possibly be the result of “the crossing of a plasma
+boundary” (Edberg et al., 2016).
+
+This work aims to study the warm proton signatures first
+associated with this infant bow shock but with a broader
+scope. We then characterize the plasma changes at the boundary as well as its location and discuss how these signatures
+are related to the infant bow shock and its characteristics.
+
+2 Data
+2.1 Instruments
+
+For this study we use all sensors of the Rosetta Plasma Consortium (Carr et al., 2007) as well as the neutral-gas monitor
+ROSINA-COPS (Balsiger et al., 2007), which provides the
+neutral-gas density as context for the plasma measurements.
+
+The ion composition analyser (ICA; Nilsson et al., 2007)
+can provide mass-separated differential energy flux with a
+temporal resolution of 192s. The field of view (FoV) is 90°
+in elevation and 360° in azimuth, but there are some obstructions from the spacecraft. Thus, the solar wind signal is not
+always detected even when it is present in the plasma. Especially rotations of the spacecraft and of the magnetic field
+can lead to a loss of the solar wind signature. Such loss in
+the signature is typically seen as a drastic reduction in the
+solar wind flux or density. Often, the signal is then still visible in the Ion and Electron Sensor (IES), as the FoV is par
+https://doi.org/10.5194/angeo-39-379-2021
+
+381
+
+tially complementary (rotated by 60°); a detailed description of the FoV can be found in the ICA user guide on the
+PSA (Planetary Science Archive).! Solar wind densities near
+the comet also decrease due to significant charge-exchange
+losses (Simon Wedlund et al., 2019). This caused rather low
+densities at the times when Rosetta was just outside the solar wind ion cavity. The RPC-ICA solar wind moments, including the temperature, used in this study are integrations of
+the RPC-ICA PSA L4 PHYS-MASS dataset, also delivered
+to the Planetary Science Archive (PSA) as the RPC-ICA L5
+MOMENT dataset.
+
+The ion and electron sensor (IES; Burch et al., 2007) provides differential energy flux for electrons and ions (without
+mass resolution). The time resolution is at least 256s, and
+the measurements at low energies are disturbed by the spacecraft potential, which is between 0 and —20 V most of the
+time. For a quantitative analysis of the electron flux, we use
+the method detailed in Lavraud and Larson (2016) to correct
+the fluxes and energy bins for the spacecraft potential. We
+also calculate the flux at 60 and 120 eV as a time series for
+the statistical study.
+
+The LAngmuir Probe instrument (LAP; Eriksson et al.,
+2007) and the mutual impedance probe (MIP; Trotignon
+et al., 2007) are used to provide plasma density estimates (see
+e.g. Breuillard et al., 2019; Johansson et al., 2020) and measurements of the spacecraft potential (Odelstad et al., 2015).
+Although the absolute uncertainty of each individual LAP
+measurement of spacecraft potential may become large (typically 30 %), the random noise of the spacecraft potential and
+the cross-calibrated LAP-MIP density dataset is believed to
+be only a few percent, and as such it is suitable for statistical
+studies (Johansson et al., 2020). For this study, we use the
+density estimate to characterize the plasma.
+
+The magnetic field measurements are provided by the
+MAGnetometer (MAG; Glassmeier et al., 2007b). Although
+the maximum sampling rate of the instrument is 20 Hz, only
+resampled data with | Hz sampling rate are used here, which
+is sufficient for the study of large-scale structures. The magnetic field can only be determined within an accuracy of ~
+3 nT per component, due to the influences of spacecraft fields
+and sensor temperature variations (Goetz et al., 2016a, 2017).
+
+2.2 Selection of intervals
+
+In this study we investigate where and when warm protons
+are detected near the comet. We aim to identify the regions
+with warm protons and the boundary that separates the warm
+and colder proton populations as well as how the plasma
+properties react to this boundary. Since we are interested in
+intervals where Rosetta can still measure the solar wind ions,
+we do not examine days in which Rosetta was in the solar wind ion cavity (Nilsson et al., 2017), 1.e. approximately
+
+'https://cosmos.esa.int/web/psa/rosetta (last access: 28 April
+2021)
+
+Ann. Geophys., 39, 379-396, 2021
+382
+
+6 months around perihelion (August 2015). All days with
+characteristics similar to those shown in Gunell et al. (2018)
+are then flagged. We find 152d with detections.
+
+To constrain the regions with warm, slow plasma, we then
+inspect every preselected day and set start and end times for
+each interval in which warm, light ions are detected. This
+is done according to the following criteria: firstly the solar
+wind ions measured by ICA and/or IES need to be at significantly lower energies (smaller mean speeds), and secondly
+they need to show a broader (higher temperature) distribution
+as compared to surrounding intervals. For the first criterion,
+the threshold was a shift of the peak of the ion spectra by
+at least three energy bins, corresponding to at least 60 eV.
+We only use these two criteria for detection. For verification,
+we evaluate additional properties like the ICA-derived proton
+temperature, plasma density, suprathermal electron fluxes,
+magnetic field magnitude power spectral density in the frequency range between 50 and 75 mHz, and the magnetic field
+magnitude. However, the direction of change (increase or decrease) is not considered, because the change in parameters
+is simply an indicator that the change in proton energy and
+flux is not due to instrumental or spacecraft effects. The measurements of the electron energy are changing over time as
+one-half of the detector decreases in sensitivity. Thus, even
+small changes in spacecraft attitude or magnetic field direction can have significant consequences in the electron count
+rate. An additional parameter for characterization is the angle
+0, defined by its cosine:
+
+E-x _ (-vx B)-x
+
+cos (0) = ——_— = ——__—__
+sae JE|-|x| |v x BY - |x|
+
+(1)
+where x is the spacecraft position in Cometocentric Solar EQuatorial (CSEQ) coordinates, v is the velocity of the
+undisturbed solar wind and B is the magnetic field. The angle 0 was introduced by Gunell et al. (2018) to facilitate a
+comparison between observations and simulations such as
+those conducted by Lindkvist et al. (2018). A positive value
+of the observational cos (@) corresponds to a location in the
++E, hemisphere of simulation space, that is to say, where
+the coordinate pointing in the same direction as the convective electric field of the solar wind is positive. We also use
+the Sun aspect angles of the spacecraft to exclude an attitude
+change of the spacecraft as a reason for a change in the proton
+signal. These are defined as the angles of the three spacecraft
+axes to the Sun—comet line.” Events that coincide with major
+attitude changes (> 10°) are not included in the study.
+
+This selection is slightly different than the criteria used
+in Gunell et al. (2018), because we would like to investigate the occurrence of the warm protons regardless of the
+direction and variability of the magnetic field. Other parameter changes like solar wind velocity and density as well as
+cometary ion density can also move the boundary, causing
+
+See https://www.cosmos.esa.int/web/spice/spice-for-rosetta
+(last access: 28 April 2021).
+
+Ann. Geophys., 39, 379-396, 2021
+
+C. Goetz et al.: Warm Protons at 67P
+
+warm protons to appear at the spacecraft (as stated in Gunell
+et al., 2018). Thus, limiting the dataset to cases with magnetic
+field reversals would unnecessarily constrain the number of
+events.
+
+Event selection was carried out manually rather than automated. Due to the complicated nature of instrument operations by Rosetta, one cannot expect a consistent set of data
+for all events that could be used in a detection algorithm. For
+example, a slew of the spacecraft may have rotated the solar
+wind ions out of the FoV of ICA, meaning that we would
+not be able to characterize this interval. However, visual inspection quickly shows that the solar wind ions are now in
+the FoV of IES, allowing for a characterization of the event.
+No combined dataset exists so far. Thus, a selection by hand
+was determined to be the best course of action. For replicability, the list of events with start and end times is given in
+the Supplement.
+
+3 Analysis
+
+From the observations, we identify a total of 370 events
+where Rosetta observed warm protons. In analogy to the simulation, we will refer to the part of the plasma that is warm
+as the downstream (index d) part of the plasma, while the
+plasma with more pristine solar wind is referred to as the
+upstream (index uw) region. In some cases, the identification
+of the downstream plasma is impossible due to data gaps. In
+this case, the event ends (or begins) at the data gap. As the
+particle spectra are especially difficult to condense into simple scalar parameters that are statistically representative of a
+large dataset, we start by examining a subset of 13 events in
+Sect. 3.1. This is complemented by a statistical treatment of
+some quantities derived from the whole dataset in Sect. 3.2.
+
+3.1 Detailed investigation of a small subset of events
+
+We begin with a detailed investigation of a smaller subset of
+events. These events were chosen somewhat arbitrarily so as
+to represent a broad picture of the situation; however, emphaSIS was put on events that were easily visible for illustration
+purposes. Thus, we have chosen 13 events, as listed in Table 1.
+
+Figure 1 shows one example event; observations for the
+other events can be found in the appendix (Figs. Al and A2).
+The blue line indicates the time when Rosetta passed from
+the upstream to the downstream region, and the magenta
+line shows the outbound pass. From top to bottom, we see
+a pronounced decrease in the proton energy as well as a
+broadening of the energy band in the downstream region.
+This was the criterion of selection for the events. The energy of the heavy ions (panel b) is increased slightly. The
+IES signal of the protons (panel c) is lost at first, but then
+the protons return to the field of view and appear broader
+and slower. The Het and He?* ions show a very similar be
+https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P
+
+383
+
+Table 1. List of 13 events chosen for a more detailed study and list of parameter changes when crossing from upstream to downstream
+(inward, left) and from downstream to upstream (outward, right). The last line summarizes events by giving a median change. Missing
+symbols indicate that no data were available, and “—” indicates no change.
+
+Start time Ht E/gq tes. Bm Pp cos)
+7 December 2014 03:49 a} t — ay —
+25 December 2014 09:50 a} t ay ay —
+4 January 2015 12:19 ay t - 1 —
+4 January 2015 19:55 sl t t — _
+7 March 2015 05:48 L + + + +
+10 February 2016 09:02
+
+26 February 2016 05:50 ay — - - 29 February 2016 00:27 a} — — - ay
+8 April 2016 03:27 a} + ay ay t
+8 April 2016 07:58 sl t uF t —
+1 June 2016 12:11 ap + t t t
+9 July 2016 12:43 a} + t t —
+9 July 2016 15:52 a} + ay ay —
+Median L + _ _ _
+
+haviour to the protons (panel a), decreasing and broadening
+in energy, but their signatures remain distinct from each other
+at all times. The IES electron signature (panel d) increases
+in energy and flux. Interestingly, the flux diminishes at the
+same time that the proton energy increases gradually, implying that the spacecraft moved slowly upstream in a shockfixed frame of reference into a region with less electron heating and a less slowed-down proton distribution. This is similar to what was observed already by Gunell et al. (2018).
+The magnetic field (panel e) decreases in magnitude, and the
+z component changes sign. The power spectral density of
+the magnetic field (panel f) is decreased. The angle 0 does
+not change significantly (panel g), but the magnetic field direction does change. This is because @ represents the angle
+between the x axis and electric field; thus, it does not reflect changes in the z component of the magnetic field very
+well. The plasma density (panel h) as well as the proton temperature (panel i) are higher in the downstream region. For
+this initial study, we have categorized the change at the two
+boundary regions for all 13 events. Since no data are available for the outbound pass for one event and for the inbound
+pass for one event, we have a total of 12 events for the inbound and outbound passes. The parameters that we use to
+characterize how the plasma changes at the boundary are
+the proton energy H* E/q, the flux of the electrons Iygs ¢,
+the magnetic field magnitude By, the power spectral density of the magnetic field Pp, the angle cos(@), the plasma
+density np, and the proton temperature 7,. The changes are
+indicated in Table 1. Here, we are only looking at the qualitative changes; quantitative changes will be assessed in the
+next section, where the larger statistics should make up for
+the large uncertainty for each event. These clear, qualitative
+events can then be used to verify the quantitative, statistical
+outcome.
+
+https://doi.org/10.5194/angeo-39-379-2021
+
+Mp Tp | HtE/q Tes Bm Pp cos(@) np Tp
+
+_ + + _ _ _ _ _ _
+t t Y - - 1
+t t - - 4 - 1
+- t Y to Y t
+Y t Y 4, Y t Y YY \ tf
+- = t - 4 Y - = t 1 YoY t - ft
+t t \ tf 1 1
+to t Y to 1 4,otft
+tft t Y - Y - oy
+tft t Y - t , 4
+-t tI] ft \ - 1 - oy
+
+From these events, we can conclude the following. Since
+the proton energy was used as a selection criterion, the proton energy in the downstream region is always lower than
+upstream. The proton temperature is almost always higher
+in the downstream region. For the other parameters, we find
+that the energy of the electrons is almost always increased
+and that the density is often higher in the downstream region.
+For the other parameters, no such clear pattern emerges. The
+magnetic field and magnetic field power spectral density are
+sometimes increased and sometimes decreased, with no apparent pattern. The angle of the field can change, but events
+without field changes also exist. It is also interesting to note
+that not all events have a sharp boundary. For example, the
+event on 10 February 2016 (Fig. Al, bottom right) shows
+that the transition can sometimes be very broad. We see that
+it takes about 20 min for the magnetic field to change direction and for the proton flux to gradually increase in width and
+decrease in energy. The beginning and end of this transition
+period are marked with two lines, both magenta in colour.
+
+3.2 A statistical study of the entire event dataset
+
+Here, we expand the discussion to the entire dataset of 370
+events.
+
+We investigate the behaviour of the same parameters as
+above but now for all events. The statistical assessment of
+the proton flux is complicated by an incomplete FoV and
+the broad distribution of the protons. Therefore, moments of
+the distribution function are less representative in the situation at comet 67P. Therefore, a direct statistical study of the
+moments cannot be conducted. To assess the electron flux
+changes, we chose two energy values (60 and 120eV) to
+extract a 1D time series of the flux at these energies. They
+were chosen based on an inspection of the subset of events,
+where these energy bands showed the clearest change. But
+
+Ann. Geophys., 39, 379-396, 2021
+384 C. Goetz et al.: Warm Protons at 67P
+
+lg(Tica)
+
+lg(Tica)
+
+ON FOTO OO NY BF ODO
+
+a
+NO
+
+00
+lg(Cimsi
+
+lg(Tins.)
+
+0
+14:00 14:30 15:00 15:30 16:00 16:30 17:00 17:30 18:00 18:30 19:00
+09 Jul 2016
+
+Figure 1. Observations of the event on 9 July 2016. From top to bottom, (a) ICA solar wind ions, (b) ICA heavy ions, (c) IES ions, (d) IES
+electrons, (e) magnetic field in CSEQ coordinates, (f) magnetic power spectral density in the frequency range between 2 and 15 mHz,
+(g) angle between spacecraft position and convective electric field, (h) plasma density from LAP, and (i) 1D proton temperature from ICA.
+
+Ann. Geophys., 39, 379-396, 2021 https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P
+
+byl b,,
+
+120
+
+100
+
+Abundance
+(o>) [ee)
+(@) (o@)
+
+aS
+ie)
+
+20
+
+385
+
+120
+
+60
+
+100
+
+80
+
+60
+
+0) 2 4
+tr(P.,)
+
+Figure 2. Comparison of the upstream and downstream mean values for four of the seven parameters chosen for investigation. From left to
+right: electron flux Ie at 60eV (blue) and at 120 eV (red), magnetic field strength Bm, trace of the magnetic field power spectral density
+
+tr(Pg), and plasma density np).
+
+we should also bear in mind that the IES electron detector
+decreased in sensitivity in the latter half of 2015 (Madanian
+et al., 2020); thus, electron fluxes may be below the noise
+level quite often, especially in 2016. We have not included
+the angle @ in this investigation, because the angle of the field
+is very susceptible to magnetometer offset problems, especially for low field regimes and requires a visual inspection
+that is not possible for a statistical study.
+
+Figure 2 shows histograms of the ratio of the downstream
+to the upstream mean parameters, Wg/y. To calculate this
+ratio, we use an interval of 18 min before and after the event,
+as well as all the observations of the downstream plasma. The
+interval length was also varied from 10 min up to an hour, but
+the overall results were not impacted by that.
+
+These larger statistics agree mostly with the observations
+from the 13 events that were categorized manually. From left
+to right, the following parameters are outlined.
+
+I’. — in our smaller subset, the energy of the electrons
+in the 60 and 120eV band increases in 10 of the 12
+inbound passes and decreases in 8 of the 12 outbound
+passes. In the entire dataset the electron energy is increased in the downstream region in 60 % of all cases.
+The fact that the larger statistics do not show the same
+behaviour may in part be because the energy-dependent
+electron flux is difficult to condense to a single parameter and that the instrument sensitivity declined significantly after perihelion. We have observed cases where
+the flux was very low and thus changes were not visible.
+
+Bm — the magnetic field decreases in 68 % of cases. This
+is consistent with the case studies above.
+
+https://doi.org/10.5194/angeo-39-379-2021
+
+tr(Pp) — the trace power spectral density increases
+downstream in 58 % of all cases.
+
+Np| — the plasma density increases in 52 % of all cases.
+This is consistent with the case studies, where the density was either increased downstream or not changed at
+all.
+
+3.3. Location of the events
+
+From Gunell et al. (2018), the expectation is that the IBS
+and the associated warm ions are detected preferentially at
+the intermediate activity stage of comet 67P. To investigate
+this, we estimate the gas production rate Q from the in situ
+neutral-gas density measurements under the assumption of a
+simple, spherical outgassing model (Haser, 1957).
+
+Figure 3 shows the occurrence location of the events dependent on the outgassing rate and heliocentric distance. To
+check for observation bias, the trajectory of the spacecraft
+is indicated in grey. We find that most detections are made
+between O = 102° 5! and O=6~x 102/ s—!, which corresponds roughly to heliocentric distances between 1.7 and
+2.7 AU. The cometocentric distance of the events increases
+with increasing gas production rate.
+
+The convective electric field E. in the solar wind accelerates the cometary ions in only one direction, and, to conserve
+momentum, the solar wind is deflected in the opposite direction (Coates et al., 2015; Deca et al., 2017). We transform the
+position of the events that we identified into a cometocentric
+solar electric field (CSE) system. Specifically, the z axis is
+aligned with —vyy <x B, where B is the measured magnetic
+field at the spacecraft location, and vw is the solar wind velocity. For this comparison, the solar wind direction is sim
+Ann. Geophys., 39, 379-396, 2021
+386
+
+Q (1/s)
+
+C. Goetz et al.: Warm Protons at 67P
+
+Figure 3. Cometocentric distance of the spacecraft over gas production rate (a) and heliocentric distance (b). The gas production rate was
+derived from measured neutral-gas densities using a spherically symmetric model. The grey lines show the position during the entire Rosetta
+
+mission, while the red dots indicate boundary crossings.
+
+ply assumed as the direction away from the Sun. This has
+been shown to be a good estimator for the CSE system (Edberg et al., 2019). The local solar wind velocity at this stage
+in the cometary development is not representative of the upstream solar wind direction because of deflection (Nilsson
+et al., 2017). This can also be seen in simulations (e.g. Fig. 5),
+where the deflection of the solar wind ions becomes significant very close to the infant bow shock, exactly in the region that is used for calculation of the electric field direction.
+Thus, a more accurate estimate is impossible as undisturbed
+solar wind observations are not available at the comet.
+
+The left panel of Fig. 4 shows the location of the spacecraft
+in this CSE system binned in 300s intervals. There is very
+good coverage of the entire coma in the terminator plane.
+We chose to limit our investigation to the ycsp—zcsg plane,
+because Rosetta was for most of the time very close to the
+nucleus in a terminator (x = 0) orbit, and coverage in the
+x direction is insufficient. In the middle panel, the location
+of the events is shown in the same coordinate system. The
+right panel shows the occurrence rate of warm proton detections. Most detections are in the (+y, +£,) quadrant, at
+about 70 km from the nucleus.
+
+4 Discussion
+
+We have performed a statistical study of periods where
+Rosetta observed protons with higher temperature and lower
+mean energy than the solar wind. It is worthwhile to discuss
+whether all or only a subset of these were observations of an
+infant bow shock as reported by Gunell et al. (2018).
+
+On average, the flux of electrons does increase downstream of the structure, which is in agreement with the properties of the IBS as reported in the previous study. However
+many events also show an opposite behaviour. The agreement
+is better in the smaller dataset of 13 cases than in the com
+Ann. Geophys., 39, 379-396, 2021
+
+plete dataset. Thus, at least some of this discrepancy might
+be attributable to the inability of the flux at 60 or 120eV
+to accurately represent the electron spectra due to FoV and
+spacecraft charging effects (see Sect. 2.1).
+
+For the power spectral density of the magnetic field, one
+would, for a shock, expect an increase downstream of the
+shock where oscillations are known to occur. We see this
+in 58 % of the cases of the whole dataset but only in 32 %
+of the cases in the smaller subset. Although events without
+an enhanced suprathermal electron flux or increased magnetic power spectral density could be examples of phenomena other than an IBS, it is not necessarily so. The region
+downstream of a shock is structured. Oscillations are expected to peak close to the shock and decay farther downstream (Ziegler and Schindler, 1988); also, the scale lengths
+are different for electrons, protons and heavy ions. It is thus
+possible for the spacecraft to probe only a region with hot
+protons without passing through regions with hot electrons
+or large-amplitude wave activity. This would mean that the
+spacecraft probed parts of the equivalent to a planetary magnetosheath, whose properties depend on the presence of a
+bow shock but without crossing the bow shock itself. This
+must at times occur, given the slow motion of the spacecraft
+of the order of 1ms7!.
+
+As the spacecraft moves very slowly, the observations
+rely on changes in the upstream conditions for the spacecraft to pass from one region to another. Gunell et al. (2018)
+only showed events where the location of the spacecraft in
+a convective electric field aligned system changed, which
+is caused by a change of the direction of the interplanetary
+magnetic field. In this study, we do not rely on the convective electric field to change (represented by the angle 6). Any
+change in upstream conditions that moves the boundary can
+also allow Rosetta to cross it. This gives us access to a larger
+set of events, but we do not know what upstream condition
+
+https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P
+
+Abundance (300s)
+1 100
+
+10000
+
+eeeapens
+
+Abundance
+
+387
+
+(C) Occurrence rate (%)
+0 0.5 1
+
+eeangeeenqeasscegecscagecsssgpescasgensuequacscagesssegeesesy === anna gee enn np ante ge teen gee eenepensee geese geanscngeessaguasscnpenenegenssaguscscapesssegecesaquesssepenssageeeeny,
+
+= = 100): = = 100}:
+
+ss x x
+
+LU LL LL
+
+63 Q O0- H 0
+
+N N dnd N fess
+
+mn WY 100) W100 i t
+
+-100 0 100 -100 0 100 -100 0 100
+Voge (km) Voge (km) Voge «™)
+
+Figure 4. Abundance of the position of the spacecraft (a), position at which warm protons were detected (b) and occurrence rate of detections
+normalized to the spacecraft dwell time (c). The +E, hemisphere is that of zcgz > 0.
+
+-100 km < y < 100 km
+
+Pe cl ce et eee
+
+Cr A A a
+
+Ce A a ee et ee 13
+a a A ee ae
+1000 ee ae ee
+6 Sf ef ef ower ree 11
+‘o ° ee ee ee iw
+& 500 - f a << ee _
+SS . oe /ve= - / J I\fwewrwr ere ee ee 9 f
+D =
+dp) O “ 8 4 : Veer er ree ee T
+P ‘ ' a ee ee _
+= Pe a ee ee 7 os
+7-800
+-1000 5
+-1500 3
+-2000
+-2000 -1000 0 1000 2000
+x (km)
+
+Figure 5. Density and direction of the flux of the protons from the
+hybrid simulations. The simulation was run for a case of Q = 3.2 x
+1077 s—!. For a more detailed list of parameters, see Gunell et al.
+(2018). Here, the Sun is to the right. The IBS is roughly located
+where the proton density reaches its highest values (yellow).
+
+change leads to the boundary movement. Our observations
+will therefore be affected not only by the change of one specific solar wind parameter but also by the correlation between
+the different solar wind parameters that change together systematically. We have also shown that some events have very
+broad transition regions (tens of minutes), a scale over which
+the plasma has previously been shown to be extremely variable. The relevant gyroperiods of 0.5 s (protons) and 9 s (water ions) are much smaller than any of the transition times we
+observe. The behaviour of the magnetic field magnitude is
+an example of this. In shock modelling, the magnetic field is
+
+https://doi.org/10.5194/angeo-39-379-2021
+
+generally stronger on the downstream than the upstream side
+of the shock. In our statistics, we have many cases of the opposite behaviour. One possibility is that an increase in the solar wind dynamic pressure increases the mass-loading threshold of the plasma (Biermann et al., 1967), which means that
+the critical condition for a shock is met later in the flow and
+thus closer to the comet. This moves the IBS further towards
+the nucleus, and Rosetta passes into the upstream region. But
+at the same time, the magnitude of the interplanetary field
+increases, resulting in a new, stronger magnetic field. Evidence for such a correlation in the solar wind has been found
+before (see Fig. 4 of Maggiolo et al., 2017). To separate the
+behaviour of the solar wind itself from the cometary response
+to the solar wind, one would need an upstream monitor in the
+vicinity of the comet. Thus, the observations are not inconsistent with the theory of an infant bow shock.
+
+We can also consider just the subset of events where the
+plasma behaves as expected for an IBS (the magnetic field
+increases downstream along with an increase in the power
+spectral density and increase in electron flux). About 10 %
+of the cases where all parameters were evaluated, the magnetic field included, behave as expected at the same time.
+One such event is shown in Fig. 6. Although the ICA data
+are missing for the first half of the event (before 06:30 UTC),
+we can clearly see warm proton fluxes in the IES data while
+ICA is off. Once ICA is running, the protons do appear in
+the ICA energy spectra. The electron flux, magnetic field
+magnitude and power spectral density are increased in the
+region with warm protons. This event is very similar to that
+shown in Gunell et al. (2018). We therefore conclude that
+these 10 % of cases are definitely the same IBS structure as
+reported before. For the events that do not comply with these
+criteria, we have examined if they only occur under specific
+circumstances (i.e. position, gas production rate, spacecraft
+potential), but no apparent pattern emerges. There are also
+
+Ann. Geophys., 39, 379-396, 2021
+388 C. Goetz et al.: Warm Protons at 67P
+
+(a)
+
+3
+
+oO <
+
+@ 102 4 =
+
+Fe
+RPC-ICA light ions
+10! ! 0
+
+(b)
+
+= 103
+
+>.
+
+~
+
+<a
+
+RPC-ICA heavy ions
+
+lg(Uirs i
+
+lg(Tis,c)
+
+0
+03:00 04:00 05:00 06:00 07:00 08:00 09:00 # 10:00 11:00
+10 Feb 2016
+
+Figure 6. Observations of the event on 10 February 2016. From top to bottom, (a) ICA solar wind ions, (b) ICA heavy ions, (c) IES ions,
+(d) IES electrons, (e) magnetic field in CSEQ coordinates, (f) magnetic power spectral density in the frequency range between 2 and 15 mHz,
+(g) angle between spacecraft position and convective electric field, and (h) spacecraft attitude.
+
+Ann. Geophys., 39, 379-396, 2021 https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P
+
+no correlations between the changes in field and changes in
+the electron flux. For the events where the magnetic field increases, the flux of electrons can both increase and decrease.
+The same goes for the plasma density, as well as the power
+spectral density.
+
+We present here also for the first time the plasma density measurements for this boundary. We find that the density of the plasma on average does not change significantly
+at the boundary. In fact, events where the plasma density increases, decreases or is unchanged can all be found in the
+dataset. This was expected, as the plasma density at 67P at
+this point is dominated by the heavy ions and not the solar
+wind. We can estimate the fraction of cometary ions for the
+event shown in Fig. |. The cometary ion density is of the order of 1000 cm~?, and we can estimate the maximum proton
+density from a simple back-of-the-envelope calculation: assuming a solar wind density of 3cm~? (typical for heliocentric distances around 2 AU) and a compression factor of ~ 4,
+we get a proton density of 12cm7>. This is close to what
+is also observed in the simulation used below. This gives a
+fraction of ~ 99 % cometary ions. Even if this estimate is
+very rough, it is clear that the cometary ions are at this point
+clearly dominating the plasma density, and the solar wind has
+only very little influence density-wise. Instead, Williamson
+et al. (2020) found that the solar wind and cometary ion momentum are of similar importance at the intermediate stage
+of cometary activity.
+
+From the observations, we learn that the warm protons are
+mostly found in the (+ y, +E.) quadrant in a solar wind convective electric field frame. We can compare this to hybrid
+simulations of the plasma environment at similar gas production rates (Lindkvist et al., 2018). Figure 5 shows the proton
+density and flux (arrows) in a hybrid simulation. For a detailed description of the simulations and the input conditions
+used, see Lindkvist et al. (2018) and Gunell et al. (2018). The
+infant bow shock as identified in the previous study is visible
+as the large asymmetric region of enhanced proton density.
+The purple box shows the approximate region that Rosetta
+was able to measure in. The simulation reveals a more detailed structure than a simple test particle picture. For example, the proton density enhancement in the upper left corner
+as well as the secondary IBS structure is due to the gyration
+of the protons. As the protons are accelerated by the electric
+field, their trajectories form cycloids. In these two regions
+many of these cycloidal trajectories reach their cusps where
+the velocity is low, thus giving a higher density (see also Behar et al., 2018, upper panel in Fig. 7). A similar overshoot
+for the magnetic field has also been seen in simulations (upper left panel of Fig. 1; Lindkvist et al., 2018). The gyroradii
+of protons in the 200-400 km s~! range are 100-200 km ina
+20 nT magnetic field. This is comparable to the thickness of
+the infant bow shock. The typical length scale of the structure
+in the upper left corner of Fig. 5 is about 10° km, corresponding to approximately two gyroradii in the weaker magnetic
+field (~ 10 nT) in that region.
+
+https://doi.org/10.5194/angeo-39-379-2021
+
+389
+
+This structure 1s seen to extend farther into the — E, hemisphere than the +, hemisphere. However, it is also seen
+in Fig. 5 that the box showing the area covered by Rosetta
+barely reaches the IBS in that hemisphere. Instead we would
+actually expect to observe events in the +, hemisphere.
+This is what is also seen in the observations shown in the
+right panel of Fig. 4. We have said above that the plasma
+and boundaries in it, such as the IBS, are necessarily nonstationary for Rosetta to be able to observe them. Nevertheless, a picture emerges of a plasma that is structured much
+like the stationary images obtained from the simulation results but with deformation and translation of the structure
+being driven by changes in the solar wind.
+
+Despite searching the entire dataset for which proton data
+are available, most events are found at intermediate gas production rates (see Fig. 3), but where we do observe higher
+gas production rates, the warm protons are observed further
+from the nucleus than for low gas production rates. The IBS
+is a Structure that was speculated to form only at intermediate
+gas production rates, where the mass loading is sufficient to
+slow down the solar wind, but not significant enough to form
+a large bow shock. Thus, the IBS location does agree with
+our findings for warm protons.
+
+In order to provide proof that a boundary in a plasma is
+a shock, usually Rankine—Hugoniot (R—-H) conditions are
+evaluated. However, the plasma environment of the comet
+is far from a single-fluid MHD plasma where the R-H conditions could be used to investigate the transition. Such an
+approach has been employed in the past in the analysis of the
+Giotto flybys of comets 1 P/Halley and 26P/Grigg—Skjellerup
+(Coates et al., 1990, 1997). Kessel et al. (1994) expanded
+the fluid theory to include effects of multiple ion species.
+For our situation, multi-ion and kinetic scale effects and
+the non-stationarity of the shock need to be accounted for.
+Motschmann et al. (1991a, b) derive multi-fluid R-H conditions and investigate the consequences of the second ion
+population on the behaviour of both ion flows at the shock.
+Fahr and Siewert (2015) show that including the kinetic effects from a multi-ion plasma changes the R-H conditions.
+They also found that the two ion populations can have a different behaviour when crossing the shock; for example, the
+protons are still supersonic downstream of the shock, while
+the electrons and pickup ions are not. This demonstrates the
+complexity of multi-ion shocks. This seems to be the case
+here as well. While the solar wind ions are shocked, the
+plasma density used here is derived from electron densities
+which are a mixture of solar wind electrons and photoelectrons. Thus, the overall plasma density does not change at
+the shock, which means that for the calculation of the R-H
+conditions one should actually use an estimate of the solar
+wind ion density instead. Unfortunately this is not available.
+The proton density estimate from ICA shows a large scatter,
+of which some may be an instrumental effect, and thus we
+cannot use the data to test the shock conditions. Most models
+of shocks assume that the shock is in a stationary state. As
+
+Ann. Geophys., 39, 379-396, 2021
+390
+
+already mentioned above, this is not the case for the observations with Rosetta, because to observe the transition, the
+shock needs to move over the spacecraft and thus is not in a
+stationary state.
+
+Omidi and Winske (1987) conducted one-dimensional hybrid simulations with the aim of modelling the spacecraft encounters with comets 1P/Halley and 21P/Giacobini—Zinner.
+They found that, for oblique interaction (cone angle 55°),
+shocklets form in a region of large-amplitude wave activity. These shocklets convect downstream, where they break
+up due to dispersion, and new ones form further upstream.
+Thus, the process is repeated in a way that resembles shock
+reformation at planets (e.g. Balogh and Treumann, 2013). Although it is possible that shocklets form and shock reformation occurs also at comet 67P under certain conditions, it is
+not the cause of the observations reported here. The shock
+encounters shown in Figs. 1, 6, Al and A2 do not display the
+repetitive transitions in a wave-dominated region that would
+be expected for the shocklets reported by Omidi and Winske
+(1987).
+
+Behar et al. (2017) reported similar features in the ICA
+data as those used for our event detection. They made an attempt to describe the observations with a simple ion test particle picture. The model produces results similar to those of
+the hybrid simulations and fits with the deflection of the solar
+wind ions. It predicts a “caustic”, an intersection of particle
+trajectories, as the boundary between the solar wind ion cavity and the solar wind dominated plasma. Our study concerns
+a similar structure, but we investigate, here for the first time,
+the response of the plasma to such a change in the proton
+energy and thus broaden our understanding of the plasma.
+Although the test particle description agrees well with the
+deflection of the ions, it does not explain the heating of the
+ions and electrons. This is expected for a model that does
+not include the feedback of the particle motion on the fields.
+However, it is entirely possible that those events that do not
+exhibit heating of the electrons are more similar to a model
+that treats the ions only as test particles with little influence
+on the behaviour of the plasma, while still including both
+electric and magnetic fields.
+
+In future research, simultaneous observations at multiple
+points in space (G6tz et al., 2019) would be a major advance in the ability to distinguish spatial and temporal dependence, and it is a necessity in assessing the stationarity
+or non-stationarity of the infant bow shock. ESA’s new Fclass mission, Comet Interceptor, will be the first mission
+to provide multi-point measurements needed for this (Snodgrass and Jones, 2019), depending on conditions at the target
+comet. In hybrid simulations, the IBS response to solar wind
+variability could both shed light on the physics of cometary—
+solar wind interaction and aid in the interpretation of spacecraft data. There is, however, a vast range of cometary and
+solar wind parameters that must be sampled to obtain a complete picture. To understand the microphysics of shocks in
+general and infant bow shocks in particular, one must also
+
+Ann. Geophys., 39, 379-396, 2021
+
+C. Goetz et al.: Warm Protons at 67P
+
+progress from hybrid simulations to simulations that accurately model electrons as well as ions. To address the microphysics, using spacecraft-based instruments, it is likewise
+important to resolve electron scales, both temporal and spatial. This could be done in 3D fully kinetic simulations.
+
+5 Conclusions
+
+We have expanded the previous study of the infant bow shock
+(Gunell et al., 2018) by searching for intervals with warm
+protons in the plasma around 67P. We first examined 13
+cases in detail, and we have performed a statistical study of
+the whole Rosetta dataset. The results from both are similar.
+On average, the electron flux is increased in the downstream
+region, while the magnetic field magnitude decreases, and
+the magnetic field power spectral density and the density increase. All parameters, except for the magnetic field magnitude, behave according to what was defined for the infant
+bow shock. About 10 % of all events identified here behave
+exactly as expected for the IBS. Since the Rosetta spacecraft moved at speeds of only approximately 1 ms~!, it is
+only when the infant bow shock reacts to changes in the upstream plasma that the spacecraft crosses it. Our large statistical dataset therefore includes observations not only of IBS
+crossings but also detections of shocked plasma downstream
+of the IBS itself, which nevertheless confirms its presence
+upstream of the spacecraft position. We therefore conclude
+that these warm protons are associated with the IBS in a very
+non-stationary plasma.
+
+Most detections took place between Q = 1 and
+QO =6x 10°’s~!, which approximately corresponds to heliocentric distances between 1.7 and 2.7 AU. It was observed
+preferentially in the +E, hemisphere due to its asymmetry.
+
+While the precise nature of the IBS and the physics causing its formation remain to be revealed in future studies, we
+conclude that it is an asymmetric structure with many shocklike traits that is observed persistently during intermediate
+outgassing conditions. It may be that the infant bow shock is
+the low gas production rate manifestation of what becomes
+the more developed cometary bow shock as observed at
+larger comets such as Halley. This observation demonstrates
+again the uniqueness of the laboratory that the cometary environment can provide for the larger scope of plasma physics.
+
+(26 g7!
+
+https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P 391
+
+Appendix A: Additional events
+
+Ig(Tica)
+
+Ig(Tica)
+
+lg(T resi
+
+g(Tres.)
+
+0 4 J. 4. 4 4. rt 4 4 4 a 0 i 4 n n n
+02:00 02:30 03:00 03:30 04:00 04:30 05:00 05:30 06:00 06:30 07:00 08: 00 08:30 09:00 09:30 10: 00 10: 30 11: 00 i: 30 12:00 12:30 13:00 11:00 12:00 13:00 14:00 15:00 16:00 17:00
+07 Dec 2014 25 Dec 2014 04 Jan 2015
+
+Ig(Tica)
+
+iii
+HAMM
+
+lg(Ties;)
+
+Ig(T resi)
+
+g(Ties.e)
+
+poly ah aM Lin ‘
+
+Mp [em~9]
+WD A
+oo Nn >}
+
+0 4. 1 4. L A A
+18:00 19:00 20:00 21:00 22:00 23:00 00:00
+04 Jan 2015
+
+0 i L 4 A 4 i 4. 4 0 a
+04:00 04:30 05:00 05:30 06:00 06:30 07:00 07:30 08:00 08:30 09:00 08:00 08:30
+
+09:00 09:30 10:00 10:30 11:00
+07 Mar 2015
+
+10 Feb 2016
+
+Figure A1. Observations of the plasma for the events shown in Table |. The format is the same as in Fig. 1.
+
+https://doi.org/10.5194/angeo-39-379-2021 Ann. Geophys., 39, 379-396, 2021
+392 C. Goetz et al.: Warm Protons at 67P
+
+ON BOO
+Ig(Tica)
+
+Eq [V]
+
+w e
+
+° °
+
+N ww
+
+oN 8 OO
+ON BO
+Ig(Tica)
+
+°o
+_
+
+ON fF DO
+Ig(Tica)
+ON FD OC
+lg(Tica)
+
+a
+Ig(Cies,i)
+
+Wee webs Wes ST ARs gta AALS nea an Melt nh Ab A gal?
+
+mh ile
+h % aor i, 4 Marl gaily 4 ‘ re A 4
+A A aug a ay Rh
+
+hu!
+
+1 j 0 1 1 1 J 0 1 1 1 i 1 i n
+09:00 10:00 00:00 00:30 01:00 01:30 02:00 02:30 03:00 02:00 02:30 03:00 03:30 04:00 04:30 05:00 05:30 06:00
+26 Feb 2016 29 Feb 2016 08 Apr 2016
+
+0 : f h 1
+04:00 05:00 06:00 07:00 08:00
+
+Ig(Tica) Ig(Tica)
+
+oN SOO ON FD
+
+ee
+on
+
+Ig(U resi)
+
+VIN Ae emt A> 4
+ita gh i i
+Anh AMR |
+
+ny [cm]
+
+1 4
+
+0 i i
+06:00 06:30 07:00 07:30 08:00 08:30 09:00
+
+A. 0 4 4 4 4 1 4 0 4 1 4 4 4 4 4 4 4
+09:30 10:00 11:00 11:30 12:00 12:30 13:00 13:30 14:00 11:00 11:30 12:00 12:30 13:00 13:30 14:00 14:30 15:00 15:30 16:00
+08 Apr 2016 01 Jun 2016 09 Jul 2016
+
+Figure A2. Observations of the plasma for the events shown in Table 1. The format is the same as in Fig. 1.
+
+Ann. Geophys., 39, 379-396, 2021 https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P
+
+Data availability. Datasets of the RPC and ROSINA instruments
+on board Rosetta are available at the ESA Planetary Science Archive
+(http://archives.esac.esa.int/psa, last access: 28 April 2021; Besse
+et al., 2018, https://doi.org/10.1016/j.pss.2017.07.013).
+
+Supplement. The supplement related to this article is available online at: https://doi.org/10.5 194/angeo-39-379-2021-supplement.
+
+Author contributions. CG performed the analysis and selection of
+intervals in collaboration with HG. HN contributed the interpretation of the ICA observations, KL contributed that of the IES observations and FJ contributed that of the LAP observations. KHG and
+MGGTT contributed to the interpretation of the results. All authors
+contributed to the writing of the final article as well as the interpretation of the data.
+
+Competing interests. The authors declare that they have no conflict
+of interest.
+
+Acknowledgements. The authors acknowledge the support from the
+DLR. Charlotte Goetz acknowledges the supported from an ESA
+Research Fellowship. Herbert Gunell acknowledges the supported
+from the Swedish National Space Agency and the Belgian Science
+Policy Office.
+
+Financial support. This research has been supported partly by
+the Deutsches Zentrum fiir Luft- und Raumfahrt (DLR) (project
+no. 50 QP 1401). Charlotte Goetz has been supported by an ESA
+Research Fellowship. Herbert Gunell has been supported by the
+Swedish National Space Agency (grant no. 108/18) and by the Belgian Science Policy Office through the Solar-Terrestrial Centre of
+Excellence.
+
+Review statement. This paper was edited by Elias Roussos and reviewed by three anonymous referees.
+
+References
+
+Balogh, A. and Treumann, R. A.: Physics of Collisionless Shocks,
+vol. 12 of ISSI Scientific Report Series, Springer, New York, NY,
+https://doi.org/10.1007/978-1-4614-6099-2, 2013.
+
+Balsiger, H., Altwegg, K., Bochsler, P., Eberhardt, P., Fischer, J.,
+Graf, S., Jackel, A., Kopp, E., Langer, U., Mildner, M., Miiller,
+J., Riesen, T., Rubin, M., Scherer, S., Wurz, P., Wiithrich, S.,
+Aris, E., Delanoye, S., De Keyser, J., Neefs, E., Nevejans, D.,
+Réme, H., Aoustin, C., Mazelle, C., Médale, J.-L., Sauvaud,
+J. A., Berthelier, J.-J., Bertaux, J.-L., Duvet, L., [lliano, J.M., Fuselier, S. A., Ghielmetti, A. G., Magoncelli, T., Shelley, E. G., Korth, A., Heerlein, K., Lauche, H., Livi, S., Loose,
+A., Mall, U., Wilken, B., Gliem, F., Fiethe, B., Gombosi, T. [L.,
+Block, B., Carignan, G. R., Fisk, L. A., Waite, J. H., Young,
+
+https://doi.org/10.5194/angeo-39-379-2021
+
+393
+
+D. T., and Wollnik, H.: Rosina Rosetta Orbiter Spectrometer
+for Ion and Neutral Analysis, Space Sci. Rev., 128, 745-801,
+https://doi.org/10.1007/s 11214-006-8335-3, 2007.
+
+Behar, E., Nilsson, H., Alho, M., Goetz, C., and Tsurutani, B.:
+The birth and growth of a solar wind cavity around a comet —
+Rosetta observations, Mon. Not. R. Astron. Soc., 469, S396—
+S403, https://doi.org/10.1093/mnras/stx 1871, 2017.
+
+Behar, E., Tabone, B., Saillenfest, M., Henri, P., Deca, J., Lindkvist, J., Holmstr6m, M., and Nilsson, H.: A global 2D analytical
+model of the solar wind dynamics around a comet, Astron. Astrophys., 620, A35, https://doi.org/10.1051/0004-636 1/201832736,
+2018.
+
+Besse, S., Vallat, C., Barthelemy, M., Coia, D., Costa, M.,
+De Marchi, G., Fraga, D., Grotheer, E., Heather, D.,
+Lim, T., Martinez, S., Arviset, C., Barbarisi, I., Docasal,
+R., Macfarlane, A., Rios, C., Saiz, J., and Vallejo, F:
+ESA’s Planetary Science Archive: Preserve and present reliable scientific data sets, Planet. Space Sci., 150, 131-140,
+https://doi.org/10.1016/j.pss.2017.07.013, 2018 (data available
+at: http://archives.esac.esa.int/psa, last access: 28 April 2021).
+
+Biermann, L., Brosowski, B., and Schmidt, H. U.: The interactions of the solar wind with a comet, Sol. Phys., 1, 254-284,
+https://doi.org/10.1007/BF00150860, 1967.
+
+Breuillard, H., Henri, P., Bucciantini, L., Volwerk, M., Karlsson,
+T., Eriksson, A., Johansson, F., Odelstad, E., Richter, I., Goetz,
+C., Vallieres, X., and Hajra, R.: The properties of the singing
+comet waves in the 67P/Churyumov—Gerasimenko plasma environment as observed by the Rosetta mission, Astron. Astrophys.,
+630, A39, https://doi.org/10.105 1/0004-6361/201834876, 2019.
+
+Burch, J. L., Goldstein, R., Cravens, T. E., Gibson, W. C.,
+Lundin, R. N., Pollock, C. J., Winningham, J. D., and
+Young, D. T.: RPC-IES: The Ion and Electron Sensor of the
+Rosetta Plasma Consortium, Space Sci. Rev., 128, 697-712,
+https://doi.org/10.1007/s11214-006-9002-4, 2007.
+
+Carr, C., Cupido, E., Lee, C. G. Y., Balogh, A., Beek, T., Burch,
+J. L., Dunford, C. N., Eriksson, A. I., Gill, R., Glassmeier, K. H.,
+Goldstein, R., Lagoutte, D., Lundin, R., Lundin, K., Lybekk, B.,
+Michau, J. L., Musmann, G., Nilsson, H., Pollock, C., Richter,
+I., and Trotignon, J. G.: RPC: The Rosetta Plasma Consortium,
+Space Sci. Rev., 128, 629-647, https://doi.org/10.1007/s11214006-9136-4, 2007.
+
+Coates, A. J., Johnstone, A. D., Kessel, R. L., Huddleston,
+D. E., and Wilken, B.: Plasma Parameters Near the Comet
+Halley Bow Shock, J. Geophys. Res., 95, 20701-20716,
+https://doi.org/10.1029/JA0951A12p20701, 1990.
+
+Coates, A. J., Johnstone, A. D., and Neubauer, F M.:
+Cometary ion pressure anisotropies at comets Halley and
+Grigg-Skjellerup, J. Geophys. Res., 101, 27573-27584,
+https://doi.org/10.1029/96JA02524, 1996.
+
+Coates, A. J., Mazelle, C., and Neubauer, F. M.: Bow shock analysis
+at comets Halley and Grigg-Skjellerup, J. Geophys. Res., 102,
+7105-7113, https://doi.org/10.1029/96JA04002, 1997.
+
+Coates, A. J., Burch, J. L., Goldstein, R., Nilsson, H., Wieser, G. S.,
+Behar, E., and the RPC team: Ion pickup observed at comet 67P
+with the Rosetta Plasma Consortium (RPC) particle sensors: similarities with previous observations and AMPTE releases, and
+effects of increasing activity, J. Phys. Conf. Ser., 642, 012005,
+https://doi.org/10.1088/1742-6596/642/1/012005, 2015.
+
+Ann. Geophys., 39, 379-396, 2021
+394
+
+Deca, J., Divin, A., Henri, P., Eriksson, A., Markidis, S.,
+Olshevsky, V., and Horanyi, M.: Electron and Ion Dynamics of the Solar Wind Interaction with a Weakly
+Outgassing Comet, Phys. Rev. Lett, 118, 205101,
+https://doi.org/10.1103/PhysRevLett.118.205101, 2017.
+
+Edberg, N. J. T., Eriksson, A. I., Odelstad, E., Vigren, E., Andrews, D. J., Johansson, F., Burch, J. L., Carr, C. M., Cupido, E., Glassmeier, K.-H., Goldstein, R., Halekas, J. S., Henri,
+P., Koenders, C., Mandt, K., Mokashi, P., Nemeth, Z., Nilsson, H., Ramstad, R., Richter, I., and Wieser, G. S.: Solar wind interaction with comet 67P: Impacts of corotating
+interaction regions, J. Geophys. Res.-Space, 121, 949-965,
+https://doi.org/10.1002/2015JA022147, 2016.
+
+Edberg, N. J. T., Eriksson, A. I., Vigren, E., Johansson, F. L., Goetz,
+C., Nilsson, H., Gilet, N., and Henri, P.: The Convective Electric
+Field Influence on the Cold Plasma and Diamagnetic Cavity of
+Comet 67P, Astronom. J., 158, 71, https://doi.org/10.3847/1538388 1/ab2d28, 2019.
+
+Eriksson, A. I., Bostrém, R., Gill, R., Ahlén, L., Jansson, S.-E.,
+Wahlund, J.-E., André, M., Malkki, A., Holtet, J. A., Lybekk,
+B., Pedersen, A., and Blomberg, L. G.: RPC-LAP: The Rosetta
+Langmuir Probe Instrument, Space Sci. Rev., 128, 729-744,
+https://doi.org/10.1007/s11214-006-9003-3, 2007.
+
+Fahr, H. J. and Siewert, M.: Entropy generation at multifluid magnetohydrodynamic shocks with emphasis to the solar wind termination shock, Astron. Astrophys., 576, A100,
+https://doi.org/10.105 1/0004-6361/201424485, 2015.
+
+Flammer, K. R. and Mendis, D. A.: A _ note on _ the
+mass-loaded MHD flow of the solar wind towards a
+cometary nucleus, Astrophys. Space Sci., 182, 155-162,
+https://doi.org/10.1007/BF00646450, 1991.
+
+Glassmeier, K.-H.: Interaction of the solar wind with comets: A
+Rosetta perspective, Philos. T. Roy. Soc. A, 375, 20160256,
+https://doi.org/10.1098/rsta.2016.0256, 2017.
+
+Glassmeier, K.-H., Boehnhardt, H., Koschny, D., Kihrt, E.,
+and Richter, I.: The Rosetta Mission: Flying Towards the
+Origin of the Solar System, Space Sci. Rev., 128, 1-21,
+https://doi.org/10.1007/s11214-006-9140-8, 2007a.
+
+Glassmeier, K.-H., Richter, I., Diedrich, A., Musmann, G., Auster,
+U., Motschmann, U., Balogh, A., Carr, C., Cupido, E., Coates,
+A., Rother, M., Schwingenschuh, K., Szegé, K., and Tsurutani, B.: RPC-MAG The Fluxgate Magnetometer in the
+ROSETTA Plasma Consortium, Space Sci. Rev., 128, 649-670,
+https://doi.org/10.1007/s11214-006-9114-x, 2007b.
+
+Goetz, C., Koenders, C., Hansen, K. C., Burch, J., Carr, C., Eriksson, A., Friihauff, D., Giittler, C., Henri, P., Nilsson, H., Richter,
+I., Rubin, M., Sierks, H., Tsurutani, B., Volwerk, M., and Glassmeier, K. H.: Structure and evolution of the diamagnetic cavity
+at comet 67P/Churyumov-Gerasimenko, Mon. Not. R. Astron.
+Soc., 462, S459-S467, https://doi.org/10.1093/mnras/stw3148,
+201 6a.
+
+Goetz, C., Koenders, C., Richter, I., Altwegg, K., Burch, J., Carr,
+C., Cupido, E., Eriksson, A., Giittler, C., Henri, P., Mokashi, P.,
+Nemeth, Z., Nilsson, H., Rubin, M., Sierks, H., Tsurutani, B.,
+Vallat, C., Volwerk, M., and Glassmeier, K.-H.: First detection
+of a diamagnetic cavity at comet 67P/Churyumov-Gerasimenko,
+Astron. Astrophys., 588, A24, https://doi.org/10.1051/00046361/201527728, 2016b.
+
+Ann. Geophys., 39, 379-396, 2021
+
+C. Goetz et al.: Warm Protons at 67P
+
+Goetz, C., Volwerk, M., Richter, I., and Glassmeier, K.-H.:
+Evolution of the magnetic field at comet 67P/ChuryumovGerasimenko, Mon. Not. R. Astron. Soc., 469, S268—S275,
+https://doi.org/10.1093/mnras/stx 1570, 2017.
+
+Gotz, C., Gunell, H., Volwerk, M., Beth, A., Eriksson, A., Galand,
+M., Henri, P., Nilsson, H., Wedlund, C. S., Alho, M., Andersson,
+L., Andre, N., De Keyser, J., Deca, J., Ge, Y., GlaBmeier, K.H., Hajra, R., Karlsson, T., Kasahara, S., Kolmasova, I., LLera,
+K., Madanian, H., Mann, I., Mazelle, C., Odelstad, E., Plaschke,
+F., Rubin, M., Sanchez-Cano, B., Snodgrass, C., and Vigren,
+E.: Cometary Plasma Science — A White Paper in response to
+the Voyage 2050 Call by the European Space Agency, arXiv
+[preprint], arXiv:1908.00377, 1 August 2019.
+
+Gunell, H., Goetz, C., Simon Wedlund, C., Lindkvist, J., Hamrin,
+M., Nilsson, H., Llera, K., Eriksson, A., and Holmstrém, M.:
+The infant bow shock: a new frontier at a weak activity comet,
+Astron. Astrophys., 619, L2,  https://doi.org/10.1051/00046361/201834225, 2018.
+
+Gunell, H., Lindkvist, J., Goetz, C., Nilsson, H., and
+Hamrin, M.: Polarisation of a _ small-scale cometary
+plasma environment: Particle-in-cell modelling of comet
+67P/Churyumov-Gerasimenko, Astron. Astrophys., 631, A174,
+https://doi.org/10.105 1/0004-6361/201936004, 2019.
+
+Hall, B. E. S., Lester, M., Sanchez-Cano, B., Nichols, J. D., Andrews, D. J., Edberg, N. J. T., Opgenoorth, H. J., Franz, M.,
+Holmstrom, M., Ramstad, R., Witasse, O., Cartacci, M., Cicchetti, A., Noschese, R., and Orosei, R.: Annual variations
+in the Martian bow shock location as observed by the Mars
+Express mission, J. Geophys. Res.-Space, 121, 11474-11494,
+https://doi.org/10.1002/2016JA023316, 2016.
+
+Haser, L.: Distribution d’intensité dans la téte d’une cométe, Bulletin de la Societe Royale des Sciences de Liege, 43, 740-750,
+1957.
+
+Hassig, M., Altwegg, K., Balsiger, H., Bar-Nun, A., Berthelier,
+J. J., Bieler, A., Bochsler, P., Briois, C., Calmonte, U., Combi,
+M., De Keyser, J., Eberhardt, P., Fiethe, B., Fuselier, S. A.,
+Galand, M., Gasc, S., Gombosi, T. I., Hansen, K. C., Jackel,
+A., Keller, H. U., Kopp, E., Korth, A., Kihrt, E., Le Roy, L.,
+Mall, U., Marty, B., Mousis, O., Neefs, E., Owen, T., Reme,
+H., Rubin, M., Sémon, T., Tornow, C., Tzou, C.-Y., Waite,
+J. H., and Wurz, P.: Time variability and heterogeneity in the
+coma of 67P/Churyumov-Gerasimenko, Science, 347, aaa0276,
+https://doi.org/10.1126/science.aaa0276, 2015.
+
+Johansson, F. L., Eriksson, A. I., Gilet, N., Henri, P, Wattieaux,
+G., Taylor, M. G. G. T., Imhof, C., and Cipriani, F.: A charging
+model for the Rosetta spacecraft, Astron. Astrophys., 642, A43,
+https://doi.org/10.105 1/0004-6361/202038592, 2020.
+
+Kessel, R. L., Coates, A. J., Motschmann, U., and Neubauer, F. M.:
+Shock normal determination for multiple-ion shocks, J. Geophys.
+Res., 99, 19359-19374, https://doi.org/10.1029/94JA01234,
+1994.
+
+Koenders, C., Glassmeier, K.-H., Richter, I., Motschmann, U., and
+Rubin, M.: Revisiting cometary bow shock positions, Planet.
+Space Sci., 87, 85—95, https://doi.org/10.1016/j.pss.2013.08.009,
+2013.
+
+Koenders, C., Goetz, C., Richter, I., Motschmann, U., and Glassmeier, K.-H.: Magnetic field pile-up and draping at intermediately active comets: results from comet 67P/Churyumov
+https://doi.org/10.5194/angeo-39-379-2021
+C. Goetz et al.: Warm Protons at 67P
+
+Gerasimenko at 2.0 AU, Mon. Not. R. Astron. Soc., 462, S235S241, https://doi.org/10.1093/mnras/stw2480, 2016a.
+
+Koenders, C., Perschke, C., Goetz, C., Richter, I., Motschmann,
+U., and Glassmeier, K. H.: Low-frequency waves at comet
+67P/Churyumov-Gerasimenko. Observations compared
+to numerical simulations, Astron. Astrophys., 594, A66,
+https://doi.org/10.105 1/0004-6361/201628803, 2016b.
+
+Lavraud, B. and Larson, D. E.: Correcting moments of in
+situ. particle distribution functions for spacecraft electrostatic charging, J. Geophys. Res.-Space, 121, 8462-8474,
+https://doi.org/10.1002/2016JA022591, 2016.
+
+Lindkvist, J., Hamrin, M., Gunell, H., Nilsson, H., Simon Wedlund, C., Kallio, E., Mann, I., Pitkanen, T., and Karlsson, T.:
+Energy conversion in cometary atmospheres Hybrid modeling
+of 67P/Churyumov-Gerasimenko, Astron. Astrophys., 616, A81,
+https://doi.org/10.105 1/0004-6361/201732353, 2018.
+
+Madanian, H., Burch, J. L., Eriksson, A. I., Cravens, T. E., Galand,
+M., Vigren, E., Goldstein, R., Nemeth, Z., Mokashi, P., Richter,
+I., and Rubin, M.: Electron dynamics near diamagnetic regions
+of comet 67P/Churyumov-Gerasimenko, Planet. Space Sci., 187,
+104924, https://doi.org/10.1016/j.pss.2020.104924, 2020.
+
+Maggiolo, R., Hamrin, M., De Keyser, J., Pitkanen, T., Cessateur,
+G., Gunell, H., and Maes, L.: The Delayed Time Response of Geomagnetic Activity to the Solar Wind, J. Geophys. Res.-Space,
+122, 11109-11127, https://doi.org/10.1002/2016JA023793,
+2017.
+
+Mandt, K. E., Eriksson, A., Edberg, N. J. T., Koenders, C., Broiles,
+T., Fuselier, S. A., Henri, P, Nemeth, Z., Alho, M., Biver,
+N., Beth, A., Burch, J., Carr, C., Chae, K., Coates, A. J., Cupido, E., Galand, M., Glassmeier, K.-H., Goetz, C., Goldstein,
+R., Hansen, K. C., Haiducek, J., Kallio, E., Lebreton, J.-P,
+Luspay-Kuti, A., Mokashi, P., Nilsson, H., Opitz, A., Richter,
+I., Samara, M., Szego, K., Tzou, C.-Y., Volwerk, M., Simon
+Wedlund, C., and Stenberg Wieser, G.: RPC observation of the
+development and evolution of plasma interaction boundaries at
+67P/Churyumov-Gerasimenko, Mon. Not. R. Astron. Soc., 462,
+S9-S22, https://doi.org/10.1093/mnras/stw 1736, 2016.
+
+Martinecz, C., Franz, M., Woch, J., Krupp, N., Roussos, E., Dubinin, E., Motschmann, U., Barabash, S., Lundin, R., Holmstrom, M., Andersson, H., Yamauchi, M., Grigoriev, A., Futaana, Y., Brinkfeldt, K., Gunell, H., Frahm, R. A., Winningham, J. D., Sharber, J. R., Scherrer, J., Coates, A. J., Linder,
+D. R., Kataria, D. O., Kallio, E., Sales, T., Schmidt, W., Riihela, P., Koskinen, H. E. J., Kozyra, J. U., Luhmann, J., Russell, C. T., Roelof, E. C., Brandt, P, Curtis, C. C., Hsieh,
+K. C., Sandel, B. R., Grande, M., Sauvaud, J.-A., Fedorov, A.,
+Thocaven, J.-J., Mazelle, C., McKenna-Lawler, S., Orsini, S.,
+Cerulli-Irelli, R., Maggi, M., Mura, A., Milillo, A., Wurz, P.,
+Galli, A., Bochsler, P., Asamura, K., Szego, K., Baumjohann,
+W., Zhang, T. L., and Lammer, H.: Location of the bow shock
+and ion composition boundaries at Venus—initial determinations
+from Venus Express ASPERA-4, Planet. Space Sci., 56, 780—
+784, https://doi.org/10.1016/j.pss.2007.07.007, 2008.
+
+Motschmann, U., Sauer, K., Roatsch, T., and McKenzie, J. F:
+Multiple-ion plasma boundaries, Adv. Space Res., 11, 69-72,
+https://doi.org/10.1016/0273-1177(91)90013-A, 199 1a.
+
+Motschmann, U., Sauer, K., Roatsch, T., and McKenzie, J. F.: Subcritical multiple-ion shocks, J. Geophys. Res., 96, 13841-13848,
+https://doi.org/10.1029/9 1JA00638, 199 1b.
+
+https://doi.org/10.5194/angeo-39-379-2021
+
+395
+
+Neubauer, F. M., Glassmeier, K. H., Pohl, M., Raeder, J., Acumfia,
+M. H., Burlaga, L. KF, Ness, N. EF, Musmann, G., Mariani, F.,
+Wallis, M. K., Ungstrup, E., and Schmidt, H. U.: First results
+from the Giotto magnetometer experiment at comet Halley, Nature, 321, 352-355, https://doi.org/10.1038/321352a0, 1986.
+
+Nilsson, H., Lundin, R., Lundin, K., Barabash, S., Borg, H., Norberg, O., Fedorov, A., Sauvaud, J.-A., Koskinen, H., Kallio, E.,
+Ruhela, P., and Burch, J. L.: RPC-ICA: The Ion Composition Analyzer of the Rosetta Plasma Consortium, Space Sci. Rev., 128,
+671-695, https://doi.org/10.1007/s11214-006-9031-z, 2007.
+
+Nilsson, H., Wieser, G. S., Behar, E., Gunell, H., Galand, M.,
+Simon Wedlund, C., Alho, M., Goetz, C., Yamauchi, M.,
+Henri, P., and Eriksson, E. O. A.: Evolution of the ion environment of comet 67P during the Rosetta mission as seen
+by RPC-ICA, Mon. Not. R. Astron. Soc., 469, S252-S261,
+https://doi.org/10.1093/mnras/stx 1491, 2017.
+
+Nilsson, H., Gunell, H., Karlsson, T., Brenning, N., Henri, P., Goetz,
+C., Eriksson, A. I., Behar, E., Stenberg Wieser, G., and Vallieres,
+X.: Size of a plasma cloud matters: The polarisation electric field
+of a small-scale comet ionosphere, Astron. Astrophys., 616, A50,
+https://doi.org/10.105 1/0004-6361/201833199, 2018.
+
+Odelstad, E., Eriksson, A. I., Edberg, N. J. T., Johansson,
+F., Vigren, E., André, M., Tzou, C. Y., Carr, C., and Cupido, E.: Evolution of the plasma environment of comet 67P
+from spacecraft potential measurements by the Rosetta Langmuir probe instrument, Geophys. Res. Lett., 42, 10126-10134,
+https://doi.org/10.1002/2015GL066599, 2015.
+
+Omidi, N. and Winske, D.: A Kinetic Study of Solar Wind Mass
+Loading and Cometary Bow Shocks, J. Geophys. Res., 92,
+13409-13426, https://doi.org/10.1029/JA092i1A 12p13409, 1987.
+
+Simon Wedlund, C., Alho, M., Gronoff, G., Kallio, E., Gunell,
+H., Nilsson, H., Lindkvist, J., Behar, E., Stenberg Wieser,
+G., and Miloch, W. J.: Hybrid modelling of cometary plasma
+environments. I. Impact of photoionisation, charge exchange,
+and electron ionisation on bow shock and cometopause at
+67P/Churyumov-Gerasimenko, Astron. Astrophys., 604, A73,
+https://doi.org/10.105 1/0004-6361/201730514, 2017.
+
+Simon Wedlund, C., Behar, E., Nilsson, H., Alho, M., Kallio,
+E., Gunell, H., Bodewits, D., Heritier, K., Galand, M., Beth,
+A., Rubin, M., Altwegg, K., Volwerk, M., Gronoff, G., and
+Hoekstra, R.: Solar wind charge exchange in cometary atmospheres — HI. Results from the Rosetta mission to comet
+67P/Churyumov-Gerasimenko, Astron. Astrophys., 630, A37,
+https://doi.org/10.105 1/0004-6361/201834881, 2019.
+
+Smith, E. J., Tsurutani, B. T., Slavin, J. A., Jones,
+D. E., Siscoe, G. L., and Mendis, D. A.: International
+Cometary Explorer Encounter with Giacobini-Zinner:
+Magnetic Field Observations, Science, 232, 382-385,
+https://doi.org/10.1126/science.232.4748.382, 1986.
+
+Snodgrass, C. and Jones, G. H.: The European Space Agency’s
+Comet Interceptor lies in wait, Nat. Commun., 10, 5418,
+https://doi.org/10.1038/s41467-019-13470-1, 2019.
+
+Trotignon, J. G., Michau, J. L., Lagoutte, D., Chabassiére, M.,
+Chalumeau, G., Colin, F, Décréau, P. M. E., Geiswiller, J., Gille,
+P., Grard, R., Hachemi, T., Hamelin, M., Eriksson, A., Laakso,
+H., Lebreton, J. P, Mazelle, C., Randriamboarison, O., Schmidt,
+W., Smit, A., Telljohann, U., and Zamora, P.: RPC-MIP: the
+Mutual Impedance Probe of the Rosetta Plasma Consortium,
+
+Ann. Geophys., 39, 379-396, 2021
+396
+
+Space Sci. Rev., 128, 713-728, https://doi.org/10.1007/s11214006-9005-1, 2007.
+
+Williamson, H. N., Nilsson, H., Stenberg Wieser, G., Eriksson,
+A. I., Richter, I., and Goetz, C.: Momentum and Pressure Balance of a Comet Ionosphere, Geophys. Res. Lett., 47, e88666,
+https://doi.org/10.1029/2020GL088666, 2020.
+
+Ann. Geophys., 39, 379-396, 2021
+
+C. Goetz et al.: Warm Protons at 67P
+
+Ziegler, H. J. and Schindler, K.: Structure of subcritical
+perpendicular shock waves, Phys. Fluids, 31, 570-576,
+https://do1.org/10.1063/1.866839, 1988.
+
+https://doi.org/10.5194/angeo-39-379-2021

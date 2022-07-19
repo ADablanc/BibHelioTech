@@ -1,0 +1,32 @@
+# Name: 1010292006GL027188_bibheliotech_V1;
+# Creation Date: 2022-07-18T17:07:13.152992;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1029/2006GL027188". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Parameter 1: id:column1; name:DOI; size:1; type:char;
+# Parameter 2: id:column2; name:SATS; size:1; type:char;
+# Parameter 3: id:column3; name:INSTS; size:1; type:char;
+# Parameter 4: id:column4; name:REGS; size:1; type:char;
+# Parameter 5: id:column5; name:D; size:1; type:int;
+# Parameter 6: id:column6; name:R; size:1; type:int;
+# Parameter 7: id:column7; name:SO; size:1; type:int;
+# Parameter 8: id:column8; name:occur_sat; size:1; type:int;
+# Parameter 9: id:column9; name:nb_durations; size:1; type:int;
+# Parameter 10: id:column10; name:conf; size:1; type:float;
+1998-12-25T05:00:00.000 1998-12-25T06:00:00.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 181 1 18 23 12 0.004373882364312986 
+1998-12-25T05:00:00.000 1998-12-25T06:00:00.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 4538 1 18 23 12 0.10966120535498526 
+1998-12-25T05:00:00.000 1998-12-25T05:00:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 4288 1 18 23 12 0.10361993137112754 
+1998-12-25T05:00:00.000 1998-12-25T05:00:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 5334 1 18 23 12 0.1288966217195882 
+1998-12-25T05:00:00.000 1998-12-25T06:00:00.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 9085 1 18 23 12 0.2195398965733894 
+1998-12-25T05:07:37.000 1998-12-25T05:28:57.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 7436 1 18 23 12 0.17969165337586387 
+1998-12-25T05:30:00.000 1998-12-25T05:30:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 6178 1 18 23 12 0.14929196268909187 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 6147 1 18 23 12 0.14854284471509352 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 1882 1 18 23 12 0.04547871055048089 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 1578 1 18 23 12 0.038132521386109904 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 1237 1 18 23 12 0.029892223672127977 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 1023 1 18 23 12 0.024720893141945772 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 734 1 18 23 12 0.01773718041660625 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 323 1 18 23 12 0.0078053259871441695 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 460 1 18 23 12 0.011115944130298197 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "" "Heliosphere.NearEarth" 2339 1 18 23 12 0.05652215939297279 
+1998-12-25T05:36:00.000 1998-12-25T05:36:59.000 https://doi.org/10.1029/2006GL027188 "Wind" "" "Heliosphere.NearEarth" 2299 1 1 23 12 1.0 
+1998-12-25T06:00:00.000 1998-12-25T06:00:59.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 6449 1 18 23 12 0.15584070368759365 
+1998-12-25T06:30:49.000 1998-12-25T06:32:57.000 https://doi.org/10.1029/2006GL027188 "ACE" "MAG,SWEPAM,EPAM" "Heliosphere.NearEarth" 7734 1 18 23 12 0.18689285196462227 

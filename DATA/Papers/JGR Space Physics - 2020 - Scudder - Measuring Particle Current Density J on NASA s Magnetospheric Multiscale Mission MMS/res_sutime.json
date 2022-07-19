@@ -1,0 +1,18 @@
+[
+    {
+        "end": 909,
+        "start": 898,
+        "text": "25 AUG 2020",
+        "timex-value": "2020-08-25",
+        "type": "DATE",
+        "value": "2020-08-25"
+    },
+    {
+        "end": 930,
+        "start": 919,
+        "text": "11 NOV 2020",
+        "timex-value": "2020-11-11",
+        "type": "DATE",
+        "value": "2020-11-11"
+    }
+]

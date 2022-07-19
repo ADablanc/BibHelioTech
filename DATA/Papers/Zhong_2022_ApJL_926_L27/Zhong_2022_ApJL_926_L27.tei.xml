@@ -1,0 +1,1378 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Stacked Electron Diffusion Regions and Electron Kelvin-Helmholtz Vortices within the Ion Diffusion Region of Collisionless Magnetic Reconnection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2022-02-21">2022 February 21</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhong</surname></persName>
+							<idno type="ORCID">0000-0003-0617-4418</idno>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yi-Hsin</forename><surname>Liu</surname></persName>
+							<idno type="ORCID">0000-0001-5880-2645</idno>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Deng</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>Tang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+							<idno type="ORCID">0000-0002-1046-746X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Song</surname></persName>
+							<idno type="ORCID">0000-0003-3934-2094</idno>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Man</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><surname>Pang</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><forename type="middle">V</forename><surname>Khotyaintsev</surname></persName>
+							<idno type="ORCID">0000-0001-5550-3113</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 Nanchang University, </orgName>
+								<address><addrLine>Nanchang 330031, Peopleʼs Republic of China</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 Department of Physics and Astronomy, Dartmouth College, </orgName>
+								<address><addrLine> Hanover, NH, USA Uppsala, Sweden</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 Swedish Institute of Space Physics,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Stacked Electron Diffusion Regions and Electron Kelvin-Helmholtz Vortices within the Ion Diffusion Region of Collisionless Magnetic Reconnection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-02-21">2022 February 21</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">1F490616ACDB3926FF90366B6595323F</idno>
+					<idno type="DOI">10.3847/2041-8213/ac4dee</idno>
+					<note type="submission">Received 2021 November 27; revised 2022 January 18; accepted 2022 January 22;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T14:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Solar magnetic reconnection (1504)</term>
+					<term>Space plasmas (1544)</term>
+					<term>Plasma physics (2089)</term>
+					<term>Planetary boundary layers (1245)</term>
+					<term>Solar wind (1534)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The structure of the electron diffusion region (EDR) is essential for determining how fast the magnetic energy converts to plasma energy during magnetic reconnection. Conventional knowledge of the diffusion region assumes that the EDR is a single layer embedded within the ion diffusion region (IDR). This paper reports the first observation of two EDRs that stack in parallel within an IDR by the Magnetospheric Multiscale mission. The oblique tearing modes can result in these stacked EDRs. Intense electron flow shear in the vicinity of two EDRs induced electron Kelvin-Helmholtz vortices, which subsequently generated kinetic-scale magnetic peak and holes, which may effectively trap electrons. Our analyses show that both the oblique tearing instability and electron Kelvin-Helmholtz instability are important in three-dimensional reconnection since they can control the electron dynamics and structure of the diffusion region through cross-scale coupling.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Magnetic reconnection is a fundamental magnetic energy release process in space, astrophysical, and laboratory plasma systems. It is a multiscale process that couples plasma systems from the magnetohydrodynamic (MHD) scale down to the particle's kinetic scale. In collisionless reconnection, a commonly recognized model is the Hall model that can account for the fast reconnection rate widely observed in space. An essential ingredient of this model is the two-dimensional (2D) nested diffusion region, which includes an ion-scale diffusion region (IDR) and an embedded electronscale diffusion region (EDR), where magnetic field lines break and reconnect to cause large-scale energy release <ref type="bibr" target="#b9">(Deng &amp; Matsumoto 2001;</ref><ref type="bibr" target="#b24">Øieroset et al. 2001;</ref><ref type="bibr" target="#b11">Eastwood et al. 2010;</ref><ref type="bibr" target="#b3">Burch et al. 2016b;</ref><ref type="bibr" target="#b37">Torbert et al. 2018)</ref>. However, this is a rough schematic of the diffusion region in a laminar current sheet. The diffusion region may develop three-dimensional (3D) structures that induce largeamplitude fluctuations and substantially affect the energy release process through reconnection.</p><p>Recent 3D kinetic simulations show that kinetic-scale instabilities significantly affect the electron dynamics, which alters the structure of the diffusion region, setting it apart from the conventional description. The lower hybrid drift instability developed along the X-line substantially disturbs the X-line and leads to a turbulent diffusion region <ref type="bibr" target="#b28">(Roytershteyn et al. 2012;</ref><ref type="bibr" target="#b27">Price et al. 2016)</ref>. The electron shear instability can drive the filamentation of reconnecting current sheets, providing anomalous viscosity for reconnection <ref type="bibr" target="#b6">(Che et al. 2011)</ref>. <ref type="bibr" target="#b19">Liu et al. (2013)</ref> demonstrate that multiple EDRs may be stacked within a broader ion-scale diffusion region due to the oblique tearing modes at different electron resonance layers. In situ observations are urgently required to resolve fine structures of the diffusion region.</p><p>Here we report the first evidence for two stacked EDRs and electron flow vortices generated by the cross-scale coupling of the oblique tearing instability and electron Kelvin-Helmholtz (K-H) instability within a single reconnection layer. The reconnection occurs in the magnetosheath downstream of the quasi-perpendicular bow shock and was observed by the Magnetospheric Multiscale (MMS) mission <ref type="bibr" target="#b2">(Burch et al. 2016a)</ref>. Data used in this study are from the following instruments of the MMS: The Fluxgate Magnetometer <ref type="bibr" target="#b29">(Russell et al. 2016)</ref>, the Fast Plasma Investigation <ref type="bibr" target="#b26">(Pollock et al. 2016)</ref>, and the Electric Double Probe <ref type="bibr" target="#b12">(Ergun et al. 2016;</ref><ref type="bibr" target="#b18">Lindqvist et al. 2016</ref>). The solar wind magnetic field is from the OMNI data set.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Event Overview</head><p>Figure <ref type="figure" target="#fig_1">1</ref> presents the OMNI data and MMS measurements during 06:15:00-07:10:00 UT on 2015 October 5, when MMS was around (7.9, 5.2, −0.1) R E in the Geocentric Solar Ecliptic (GSE) coordinates. The absence of an electron population above 1 keV (Figure <ref type="figure" target="#fig_1">1</ref>(e)) indicates that MMS was in the magnetosheath proper during this interval. Using the bow shock model <ref type="bibr" target="#b5">(Chao et al. 2002)</ref> based on the OMNI data, we find that MMS was downstream of the quasi-perpendicular bow shock.</p><p>Figure <ref type="figure" target="#fig_1">1</ref>(b) shows that the magnetic field B z reverses several times during this interval, while B x and B y are mostly negative and positive, respectively. The directions of the magnetic fields in the magnetosheath (Figure <ref type="figure" target="#fig_1">1</ref>(b)) correlate well with those in the solar wind (Figure <ref type="figure" target="#fig_1">1</ref>(a)). The structures characterized by B z reversals in the solar wind and magnetosheath are discontinuities or current sheets originating from the solar wind. The time delay of these current sheets observed by MMS relative to OMNI data is about 5-10 minutes as indicated by the black arrows in Figures <ref type="figure" target="#fig_1">1(a</ref>) and (b). In addition, intense magnetic field fluctuations with amplitude above 50% of the background magnetic field (Figure <ref type="figure" target="#fig_1">1</ref>(c)) were observed during the entire interval when MMS was in the magnetosheath. Thus, the current sheets were immersed within a turbulent plasma. In the following, we focus on one of these current sheets, which is highlighted by the magenta-shaded regions in Figure <ref type="figure" target="#fig_1">1</ref>. Its thickness in the solar wind was estimated as 55,800 km ∼ 547 d i (1 d i ∼ 102 km is the ion inertial length based on the average plasma density 5 cm −3 ) by using the solar wind speed ∼ 465 km s −1 .</p><p>Figures <ref type="figure" target="#fig_2">2(a</ref>)-(g) present the MMS observations around this current sheet after it crossed the bow shock. The sharp reversal of B z (Figure <ref type="figure" target="#fig_2">2</ref> Figure <ref type="figure" target="#fig_2">2</ref>(e) shows that the perpendicular ion temperature T i⊥ (blue curve) was greater than the parallel ion temperature T i∥ (red curve) during this interval. This significant ion temperature anisotropy satisfies the threshold of the ion-mirror instability (Figure <ref type="figure" target="#fig_2">2</ref></p><formula xml:id="formula_0">(f)), ( )  = - + &gt; b ^k 1 0 T T 1 i i i</formula><p>, where</p><formula xml:id="formula_1">b = ^î P P i B</formula><p>is the perpendicular ion plasma β. All these features imply that these quasi-monochromatic fluctuations were ionmirror-mode structures <ref type="bibr" target="#b0">(Ahmadi et al. 2017;</ref><ref type="bibr" target="#b45">Zhang et al. 2018)</ref>. The wavelength of the mirror-mode structures was about (2500-6250) km ∼ (58-145) d i (1 d i ∼ 43 km given the plasma density 28 cm −3 ), which is estimated by assuming mirror waves being convected with the background ion bulk flow. We take the average plasma and magnetic field properties (marked by the dashed lines in Figures <ref type="figure" target="#fig_2">2(b</ref>) and (c)) on the two sides of the current sheet as the initial undisturbed properties (before the excitation of the mirror-mode waves) on both sides of the current sheet (Table <ref type="table">A1</ref> in the Appendix), respectively. Then, we can investigate the effects of these ion-mirror-mode waves on the current sheet. The estimated initial shear angle of the magnetic field is about 68°and the difference of the ion plasma β, b = i P P i B , across the current sheet is Δβ i ≈ 8.6. In comparison, the shear angle is about 73°and Δβ i ≈ 32.2 when MMS was crossing the current sheet (Table <ref type="table">A1</ref>). These indicate that the mirror-mode waves did not substantially change the magnetic field shear angle, but significantly increased the asymmetry of ion plasma β between two sides of the current sheet, which will increase the drift velocity of the X-line due to the diamagnetic drift <ref type="bibr" target="#b34">(Swisdak et al., 2003)</ref>. Furthermore, the growth of the ion-mirror-mode waves likely perturbed the magnetic field in the direction normal to the current sheet (Figure <ref type="figure" target="#fig_2">2</ref>(h)).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Stacked EDRs and Oblique Tearing Modes</head><p>Figure <ref type="figure" target="#fig_3">3</ref> details the reconnection signatures of this current sheet in the local boundary normal (LMN) coordinate system. N points sunward along with the current sheet normal direction, L is the maximum variation direction that points in the direction of the reconnecting magnetic field component, and M completes a right-handed orthogonal coordinate system, i.e., M = N × L. The transformation from GSE to LMN coordinates, which was obtained by the minimum variance analysis <ref type="bibr" target="#b32">(Sonnerup &amp; Scheible 1998)</ref> on magnetic fields observed by MMS2 during the current sheet crossing between 06:36:18.660 and 06:36:20.410 UT, is given by L = (0.005, 0.397, 0.918), M = (0.165, −0.905, 0.391), N = (0.986, 0.150, −0.070). B L reverses from positive to negative (Figure <ref type="figure" target="#fig_3">3(a)</ref>) and the total magnetic field decreases from 48 to 13 nT associated with the electron density increasing from 20 to 30 cm −3 (Figure <ref type="figure" target="#fig_3">3(b)</ref>), suggesting an asymmetric current sheet.</p><p>The current sheet was convected downstream with the ambient flow at a speed of (V L , V M , V N ) ∼(50, −100, −60) km s −1 . This ambient flow has been removed from the measured ion and electron bulk velocity (Figures <ref type="figure" target="#fig_3">3(c</ref>) and (d)), respectively. The ion bulk velocity v iL increases by ∼ 25 km s −1 in the −L direction during the B L reversal interval (Figure <ref type="figure" target="#fig_3">3(c)</ref>). It is the reconnection outflow in the −L direction, with a speed about 28% of the asymmetric hybrid Alfvén speed ∼ 90 km s −1 (see Table <ref type="table">A2</ref> in the Appendix; <ref type="bibr" target="#b4">Cassak &amp; Shay 2007;</ref><ref type="bibr" target="#b35">Swisdak &amp; Drake 2007;</ref><ref type="bibr" target="#b23">Malakit et al. 2010;</ref><ref type="bibr" target="#b20">Liu et al. 2018a</ref>). This implies that the spacecraft may have crossed an IDR where the ion outflow has not fully developed. The above signatures indicate that MMS crossed a reconnecting current sheet on the −L side of an active X-line (Figure <ref type="figure" target="#fig_2">2</ref></p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>(i)).</head><p>There are four positive electron flows in the L direction (marked by +EF1, +EF2, +EF3, +EF4) observed by all four spacecraft in the current sheet (Figure <ref type="figure" target="#fig_3">3</ref> The structure of these electron flows is more complicated than that in a 2D simulation with a weak/zero guide field (e.g., <ref type="bibr" target="#b36">Swisdak et al. 2018)</ref>, implying that the 3D effects or guide field is important in this event. J M presents multiple peaks at ∼ 03:36:19.20, 03:36:19.60, and 03:36:19.90 UT (Figure <ref type="figure" target="#fig_3">3</ref>(e)), which is different from the bifurcated current sheet in previous studies (e.g., <ref type="bibr" target="#b30">Schindler &amp; Hesse 2008;</ref><ref type="bibr" target="#b39">Wang et al. 2018)</ref>. Flows +EF1 and +EF4 were located at the two edges of the current sheet, from which the magnetic field B L starts to decrease. The total current |J| and out-of-plane current J M are close to 0 outside these two edges (Figures 3(e), A1(e), A2(e), and A3(e)). Hence, +EF1 and +EF4 were the two electron inflows at two reconnection separatrices (marked by the yellow dashed lines). In addition, +EF2 and +EF3 are close to the current sheet center where B L = 0, which is different from the electron jets observed at the separatrix region reported by <ref type="bibr" target="#b38">Wang et al. (2017)</ref>. balances the E N during the plotted interval, suggesting that the normal electric field is the Hall electric field. MMS observed a negativepositive-negative variation (after removing the small-scale variations) of the current density J L (blue curve in Figure <ref type="figure" target="#fig_3">3(e)</ref>) during the current sheet crossing. It is consistent with the change of B M from positive to negative with respect to the negative guide field according to Ampere's law (Figure <ref type="figure" target="#fig_3">3(a)</ref>), indicating that the Hall magnetic field was observed by MMS in this current sheet as illustrated in Figure <ref type="figure" target="#fig_2">2</ref>(i). The observed Hall electromagnetic fields further imply that MMS detected an IDR (the gray shaded region). The normal speed of the current sheet was estimated to be ∼50 km s −1 using the multispacecraft timing method <ref type="bibr" target="#b31">(Schwartz 1998)</ref> on the reference point of B L = 0. This speed agrees with the ambient flow speed in the normal direction. Thus, the thickness of the IDR was estimated as 50 × 2.5 = 125 km ∼ 2.9 d i (1 d i ∼ 43 km, given plasma density 28 cm −3 in the magnetosheath). We conclude that an MHD-scale current sheet originating from the solar wind (Figure <ref type="figure" target="#fig_1">1(a)</ref>) was compressed to the kinetic scale as it passed through the bow shock <ref type="bibr" target="#b25">(Phan et al. 2007)</ref>.</p><p>There are two intense current filaments on either side of B L = 0, characterized by the two peaks in the total current density |J p | determined from plasma moments (Figure <ref type="figure" target="#fig_3">3(e)</ref>). They cannot be seen in the current density estimated by the curlometer method, i.e., J c = ∇ × B (Figure <ref type="figure" target="#fig_2">2</ref>(g)), implying that their spatial scale is smaller than the spacing (∼ 36 km on average) of the spacecraft. The currents of the two filaments were carried by electrons. Electrons decoupled from the magnetic field in these two current filaments characterized by the L and M components of the nonideal electric field, i.e., E + (v e × B) ≠ 0 (Figures <ref type="figure" target="#fig_3">3(f</ref>) and (g)), respectively. The large current density and nonideal electric field result in two strong energy dissipation layers that are associated with clear electron nongyrotropy manifested by the two peaks in the parameter Q 0.5 (Figure <ref type="figure" target="#fig_3">3</ref>(j)) <ref type="bibr" target="#b33">(Swisdak 2016)</ref>. The peaks of the parameter Q 0.5 at the first and second EDR are about 0.02-0.04 in four spacecraft observations, which are 2-4 times the ambient value (∼ 0.01) and are comparable to the Q 0.5 values in some of the EDRs reported by <ref type="bibr" target="#b42">Webster et al. (2018)</ref>. These indicate that these two current filaments are two EDRs <ref type="bibr" target="#b3">(Burch et al. 2016b;</ref><ref type="bibr" target="#b49">Zhou et al. 2017</ref><ref type="bibr" target="#b50">Zhou et al. , 2019;;</ref><ref type="bibr" target="#b37">Torbert et al. 2018;</ref><ref type="bibr" target="#b46">Zhong et al. 2018</ref><ref type="bibr" target="#b48">Zhong et al. , 2020))</ref>, which were stacked in parallel within a single IDR. Additionally, the nearly monotonic variation of B L as MMS crossed the current sheet further indicates that there are two EDRs, each of which is located on one side of B L = 0, rather than a single deformed EDR (see Figure <ref type="figure" target="#fig_11">A4</ref> in the Appendix). The thickness of the first EDR was 5.5 km ∼ 5.5 d e ∼ 0.13 d i and the second EDR was 10 km ∼ 10 d e ∼ 0.23 d i . The distance between the two EDRs was 25 km ∼ 25 d e ∼ 0.58 d i .</p><p>Multiple EDRs stacked within one IDR were demonstrated using 3D kinetic simulations <ref type="bibr" target="#b19">(Liu et al. 2013</ref>) in the regimes with weak magnetic shear f &lt; 80°. It was shown that this new morphology is caused by oblique tearing modes unstable simultaneously at different electron resonance layers. Based on the magnetic fields on the two sides of the current sheet (the red and blue arrows in Figure <ref type="figure" target="#fig_7">4</ref>(i)), the unstable range of tearing instability can be determined <ref type="bibr" target="#b8">(Daughton et al. 2011;</ref><ref type="bibr" target="#b19">Liu et al. 2013</ref><ref type="bibr" target="#b21">Liu et al. , 2018b))</ref>, as indicated by the gray shaded area in Figure <ref type="figure" target="#fig_7">4</ref>(i). Most of the currents observed by MMS (during 06:36:19.00-06:36:21.00 UT) in the L-M plane (color dots in Figure <ref type="figure" target="#fig_7">4</ref>(i)) are inside the gray shaded range, suggesting that this is a tearing-dominated current sheet, with the two EDRs corresponding to two different electron resonance layers of the oblique tearing modes. The thickness of the broader current sheet is about 2.9 d i , hence the stacked EDRs enable the ionscale oblique tearing modes during this 3D magnetic reconnection event.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Electron Vortices and Electron K-H Instability</head><p>We note that both v eL (Figure <ref type="figure" target="#fig_3">3</ref> A magnetic dip consistent with bipolar J L and J N was also observed by MMS4 just after the second EDR (Figures <ref type="figure" target="#fig_7">4(d</ref>) and (f)), while the bipolar J L and J N after the second EDR were not clearly observed by the other spacecraft. These were small-scale electron flow vortices <ref type="bibr" target="#b46">(Zhong et al. 2018</ref><ref type="bibr" target="#b47">(Zhong et al. , 2019) )</ref> around the EDRs. Figure <ref type="figure" target="#fig_7">4(j)</ref> shows the measurements of electron flow vectors V eLN from all four MMS spacecraft on the L-N plane. Here the ambient ion flow velocity (V L = 50 km s −1 and V N = −60 km s −1 ) has been removed from the measured electron flows. Two counterclockwise electron flow vortices and one clockwise electron flow vortex were observed within the IDR (Figure <ref type="figure" target="#fig_7">4</ref>(j)). The size of these electron flow vortices was larger than 25 km ∼ 25d e in the L direction and was about 10 km ∼ 10d e in the N direction. Hence, these flow vortices may be elongated in the L direction.</p><p>Previous studies suggested that the electron flow vortices can be generated by the electron K-H instability <ref type="bibr" target="#b15">(Fermo et al. 2012;</ref><ref type="bibr" target="#b46">Zhong et al. 2018;</ref><ref type="bibr" target="#b41">Wang et al. 2020)</ref>. Theoretically, the unstable criterion of electron K-H instability is Δv e &gt; |C Ae |/2 <ref type="bibr" target="#b15">(Fermo et al. 2012)</ref>, where Δv e is the electron flow shear speed and C Ae is the local electron Alfvén speed. Figure <ref type="figure" target="#fig_7">4</ref>(h) compares v eL (solid curves) and |C AeL |/2 (dashed curves) from all four spacecraft. We note that Δv eL ∼ 600 km s −1 was greater than |C AeL |/2 between the EDRs, implying that the unstable criterion for the electron K-H instability was satisfied in the L directions and these electron flow vortices can be generated by electron K-H instability. This is different from the vortices associated with drift waves <ref type="bibr" target="#b13">(Ergun et al. 2019a</ref><ref type="bibr" target="#b14">(Ergun et al. , 2019b;;</ref><ref type="bibr" target="#b40">Wang et al. 2021)</ref>. We note that the unstable criterion is not satisfied around the first vortex, which may be due to this vortex having evolved into a nonlinear state <ref type="bibr" target="#b40">(Wang et al. 2021)</ref>.</p><p>The counterclockwise electron flow vortices should induce a magnetic field in the +M directions. Thus, the counterclockwise electron flow vortices are consistent with the observed magnetic holes (MHs) within the IDR due to a negative background-guide magnetic field B M &lt; 0. In contrast, the clockwise electron flow vortices should lead to a formation of the magnetic peak. Since there is no B N bipolar signature observed inside the vortices, the electron K-H vortices formed the MH and magnetic peak rather than the flux rope. The possible explanation for the lack of bipolar B N is that the The current density in the L-M plane J LM (color dots); the magnetic field in the L-M plane B LM (blue and red arrows) on the two sides of the current sheet defines the unstable range of the tearing instability predicted by the theory (marked by the gray shaded area). (j) Electron flow vectors (with uniform background flow, V L = 50 km s −1 , V N = −60 km s −1 removed) in the L-N plane. The location of MMS in the N direction is estimated according to the normal velocity of the current sheet (calculated by the timing method), with N = 0 corresponding to the normal position at the time when B L = 0. electron flows were not frozen into the magnetic fields in these vortices or there is no flow shear along the magnetic field direction, hence they did not distort the magnetic field. The kinetic-scale MH may effectively trap and accelerate electrons, which is manifested by the enhanced density and temperature inside the MH, hence this may affect the electron dynamics within the IDR. The origin of the kinetic-scale MH is still under debate <ref type="bibr" target="#b16">(Haynes et al. 2015;</ref><ref type="bibr" target="#b17">Huang et al. 2017;</ref><ref type="bibr" target="#b43">Yao et al. 2017;</ref><ref type="bibr" target="#b47">Zhong et al. 2019</ref>). Here we find a new mechanism responsible for the kinetic-scale MH, that is, the electron K-H vortex can generate a kinetic-scale MH in the diffusion region where electrons are decoupled from the magnetic fields.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Summary</head><p>In summary, we present the first observations of parallel stacked EDRs and electron flow vortices within an IDR as a result of coupling between the ion-scale oblique tearing instability and the electron-scale K-H instability. The multiscale coupling nature of this reconnection event is manifested in the following ways. (1) The macroscopic MHD-scale current sheet in the solar wind was compressed to kinetic scale as it passed the quasi-perpendicular bow shock. (2) Ion temperature anisotropy with T i⊥ &gt; T i∥ downstream of the bow shock excited the ion-mirror waves. Both (1) and (2) are beneficial for the growth of tearing instability and triggered the onset of reconnection. (3) Oblique tearing instability resulted in two stacked EDRs within one IDR, with electron flow shear spontaneously forming between these EDRs. (4) The electron K-H instability driven by these electron shear flows led to the formation of electron flow vortices, which induced kineticscale magnetic holes and peaks within the diffusion region.</p><p>The tearing instability or K-H instability can trigger the onset of the magnetic reconnection <ref type="bibr" target="#b10">(Drake et al. 2006;</ref><ref type="bibr" target="#b15">Fermo et al. 2012;</ref><ref type="bibr" target="#b46">Zhong et al. 2018;</ref><ref type="bibr" target="#b22">Lu et al. 2020)</ref>. We reveal that they can cooperate and affect the electron dynamics in the reconnection, leading to the formation of new morphology of the diffusion region. This process occurs in the turbulent magnetosheath downstream of the quasi-perpendicular bow shock where the activity is dominated by ion-mirror waves <ref type="bibr" target="#b44">(Yordanova et al. 2020)</ref>. It has been predicted in theory that the onset of magnetic reconnection in the current sheet driven by this mixed mirror-tearing instability may occur earlier and at a smaller scale than it would have without the mirror wave <ref type="bibr" target="#b7">(Chiou &amp; Hau 2003;</ref><ref type="bibr" target="#b1">Alt &amp; Kunz 2019)</ref>. Although we have identified reconnection in a region with mirror and tearing instabilities, we are unable to verify this theoretical prediction in this event. There are some new open questions worth further investigating in the future: Whether this new morphology of the diffusion region affects the reconnection rate? Can the coupling of these multiscale instabilities provide an outstanding cross-scale energy cascade in magnetic reconnection? Pursuing these open questions will significantly improve our understanding of cross-scale energy transfer and the role of reconnection in plasma turbulence.    J E similar to the MMS observation. However, the second crossing of the EDR must be manifested as a decrease of B L to zero, which is inconsistent with the nearly monotonic variation of B L as MMS crossed the current sheet. Therefore, we believe it is unlikely that the observation of the two EDRs is caused by a single deformed EDR. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>(a)) corresponds to an intense current with a peak density of 600 nA m −2 at around 06:36:20.00 UT (Figure 2(g)). The magnetic field strength |B| (Figure 2(b)) fluctuates quasi-monochromatically (with respect to the average magnetic field) on both sides of the current sheet. The quasi-monochromatic fluctuation of N e (Figure 2(c)) is anti-correlated to the fluctuation of |B|, indicating a mirror-type mode.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Overview of the OMNI data and MMS2 measurements during 06:15:00-07:10:00 UT. (a) Three components of the interplanetary magnetic fields approximately shifted to the bow shock. (b)-(e) MMS2 observations in the magnetosheath: (b) three components of the magnetic field, (c) total magnetic field, and (d) ion and (e) electron differential energy fluxes. The GSE coordinate is employed.</figDesc><graphic coords="2,152,57,210,98,354,28,103,57" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. MMS2 observations between 06:34:00 and 06:37:00 UT. (a) Three components of the magnetic field, (b) total magnetic field, (c) electron density, (d) ion bulk velocities, (e) ion temperatures, (f) the parameter</figDesc><graphic coords="3,317,63,426,86,189,87,222,91" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Two EDRs observed in an IDR by MMS2. (a) Three components of the magnetic field; (b) total magnetic field and electron density; (c) ion bulk velocities; (d) electron bulk velocities; (e) current densities calculated from plasma moments, J p = en(v i − v e ); (f)-(h) three components of the measured electric field (black), −v i × B (blue), −v e × B (red); (i) energy dissipation J • (E + v e × B); (j) electron nongyrotropy Q 0.5 . The two yellow dashed lines mark the two separatrices.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>(d), and Figures A1(d), A2(d), and A3(d) in the Appendix). In addition, electron flows −EF1 and −EF2 in the −L direction were observed by all four spacecraft (Figures 3(d), A1(d), A2(d), and A3(d)), while the electron flow in the −L direction −EF3 was observed by MMS2 (Figure 3(d)) and MMS4 (Figure A3(d)). Contrary to the ion flow, these flows along the −L direction are sandwiched by the positive electron flows in the L direction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>Figure 3(h) shows that the N component of the ion convective electric field −( ) v B i N balances the measured electric field E N beyond the current sheet but deviates from E N within the current sheet. In contrast, the N component of the electron convective electric field −(</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>(d)) and J L (Figure 3(e)) present a bipolar variation at the first EDR, which corresponds to a small dip of |B| (Figure 3(b)) observed by MMS2. The small dip of |B| (Figure 4(a)) and J L bipolar variation (Figure 4(d)) were observed by all four spacecraft at the first EDR (see Figure A5 in the Appendix for the original observations). This dip was associated with a slight enhancement of the electron density (Figure 4(b)) and the electron perpendicular temperature (Figure 4(c)). J N observed by MMS1 and MMS2 is positive, while it has a bipolar variation in the MMS3 measurement and a negative value in the MMS4 measurement (Figure 4(f)).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Oblique tearing instability and electron K-H instability in the current sheet. Left column: time-shifted observations of all four spacecraft (see Figure A5 in the Appendix for the original observations). (a) Total magnetic field, (b) electron number density, (c) electron perpendicular temperature, (d)-(f) three components of the current density, (g) total current density, and (h) L component of the electron bulk velocity and the half local electron Alfvén speed. Right column: measurements during 06:36:19.00-06:36:21.00 UT. (i)The current density in the L-M plane J LM (color dots); the magnetic field in the L-M plane B LM (blue and red arrows) on the two sides of the current sheet defines the unstable range of the tearing instability predicted by the theory (marked by the gray shaded area). (j) Electron flow vectors (with uniform background flow, V L = 50 km s −1 , V N = −60 km s −1 removed) in the L-N plane. The location of MMS in the N direction is estimated according to the normal velocity of the current sheet (calculated by the timing method), with N = 0 corresponding to the normal position at the time when B L = 0.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure A1 .</head><label>A1</label><figDesc>Figure A1. Two EDRs in an IDR observed by MMS1. (a) Three components of the magnetic field; (b) total magnetic field and electron density; (c) ion bulk velocities; (d) electron bulk velocities; (e) current densities calculated from plasma moments, J p = en(v i − v e ); (f)-(h) three components of the measured electric field (black), −v i × B (blue), −v e × B (red); (i) energy dissipation J • (E + v e × B); and (j) electron nongyrotropy Q 0.5 . The two yellow dashed lines mark the two separatrices.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure A2 .</head><label>A2</label><figDesc>Figure A2. Two EDRs in an IDR observed by MMS3. (a) Three components of the magnetic field; (b) total magnetic field and electron density; (c) ion bulk velocities; (d) electron bulk velocities; (e) current densities calculated from plasma moments, J p = en(v i − v e ); (f)-(h) three components of the measured electric field (black), −v i × B (blue), −v e × B (red); (i) energy dissipation J • (E + v e × B); and (j) electron nongyrotropy Q 0.5 . The two yellow dashed lines mark the two separatrices.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure A3 .</head><label>A3</label><figDesc>Figure A3. Two EDRs in an IDR observed by MMS4. (a) Three components of the magnetic field; (b) total magnetic field and electron density; (c) ion bulk velocities; (d) electron bulk velocities; (e) current densities calculated from plasma moments, J p = en(v i − v e ); (f)-(h) three components of the measured electric field (black), −v i × B (blue), −v e × B (red); (i) energy dissipation J • (E + v e × B); and (j) electron nongyrotropy Q 0.5 . The two yellow dashed lines mark the two separatrices.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure A4 .</head><label>A4</label><figDesc>Figure A4. Schematic view of a deformed EDR. We consider two cases: (a) and (b) are for the EDR deformed in the L-N plane, while (c) and (d) are for the EDR deformed in the M-N plane. Panels (a) and (c) show the cartoon for a deformed EDR and the spacecraft trajectory across the EDR. Panels (b) and (d) display the profiles of B L and • ¢ J E along the trajectory of the spacecraft as it crosses the EDR shown in (a) and (c), respectively. If the spacecraft crosses this deformed EDR oblique to N due to the background flow in L or M, it might cross the deformed EDR twice. In these cases, the spacecraft may record two peaks in • ¢J E similar to the MMS observation. However, the second crossing of the EDR must be manifested as a decrease of B L to zero, which is inconsistent with the nearly monotonic variation of B L as MMS crossed the current sheet. Therefore, we believe it is unlikely that the observation of the two EDRs is caused by a single deformed EDR.</figDesc><graphic coords="11,125,93,53,06,360,07,461,47" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure A5 .</head><label>A5</label><figDesc>Figure A5. Four MMS spacecraft observations of the reconnecting current sheet without time shift. (a) Total magnetic field; (b) electron number density; (c) electron perpendicular temperature; (d)-(f) three components of the current density; (g) total current density; and (h) L component of the electron bulk velocity and the half local electron Alfvén speed.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">The Astrophysical Journal Letters, 926:L27 (13pp), 2022 February 20Zhong et al.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We thank the entire MMS team and MMS Science Data Center (https://lasp.colorado.edu/mms/sdc/public/ about/ browse-wrapper/) for providing high-quality data for this study. We acknowledge the use of NASA </p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix Appendix Table and Figures</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Germaschewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raeder</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.5003017</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">122121</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Kunz</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0022377819000084</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JPlPh</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">764850101</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Giles</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0164-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2016">2016a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaf2939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="page">2939</biblScope>
+			<date type="published" when="2016">2016b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2795630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">102114</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Lm</surname></persName>
+		</author>
+		<title level="m">Models for the Size and Shape of the Earthʼs Magnetopause and Bow Shock</title>
+				<meeting><address><addrLine>Oxford; Pergamon</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature10091</idno>
+		<imprint>
+			<date type="published" when="2011">2011</date>
+			<biblScope unit="volume">474</biblScope>
+			<biblScope unit="page">184</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Chiou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Hau</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1606682</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3813</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Roytershteyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karimabadi</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphys1965</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NatPh</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">539</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsumoto</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35069018</idno>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">410</biblScope>
+			<biblScope unit="page">557</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Schoeffler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kobayashi</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006GL025957</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">L13105</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.104.205001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">205001</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westfall</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0115-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">167</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoilijoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019JA027275</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">10085</biblScope>
+			<date type="published" when="2019">2019a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoilijoki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019JA027228</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">10104</biblScope>
+			<date type="published" when="2019">2019b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Fermo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.108.255005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">255005</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Haynes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Burgess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Camporeale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sundberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4906356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">12309</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sahraoui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">G</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8213/aa5f50</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJL</title>
+		<imprint>
+			<biblScope unit="volume">836</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lindqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0116-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">137</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karimabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Roytershteyn</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.110.265004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">265004</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017GL076460</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">3311</biblScope>
+			<date type="published" when="2018">2018a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018JA025410</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">4908</biblScope>
+			<date type="published" when="2018">2018b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-18787-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NatCo</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">5049</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Malakit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bard</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2010JA015452</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">A10223</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lepping</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35086520</idno>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="volume">412</biblScope>
+			<biblScope unit="page">414</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Twitty</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2007GL030343</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">L14104</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jacques</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-016-0245-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">331</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016GL069578</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">6020</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Roytershteyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karimabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Mozer</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.108.185001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">185001</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0057-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">189</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schindler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2907359</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">42902</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISSIR</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">249</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheible</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ISSIR</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">185</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015GL066980</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">N</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2002JA009726</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">1218</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2007GL029815</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">L11106</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Price</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">5260</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aat2998</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page">1391</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.118.175101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">175101</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017GL076330</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">4542</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bessho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/5.0054626</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">72102</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-17803-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NatCo</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">3964</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Reiff</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018JA025245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">4858</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">G</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">Q</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA023858</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<date type="published" when="1990">2017. 1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yordanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Vörös</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Raptis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Karlsson</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fspas.2020.00002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FrASS</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Feng</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/aad4aa</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">864</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.120.075101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">75101</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019GL082637</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">6248</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">X</forename><surname>Tang</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8213/ab7b7c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJL</title>
+		<imprint>
+			<biblScope unit="volume">892</biblScope>
+			<biblScope unit="page">L5</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berchem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Walker</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.119.055101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">55101</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhong</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/aaf16f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">870</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

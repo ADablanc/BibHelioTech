@@ -1,0 +1,951 @@
+@AGU
+
+ell
+
+Geophysical Research Letters of
+
+FRONTIER ARTICLE
+10.1002/2016GL069787
+
+Special Section:
+
+First results from NASA's
+Magnetospheric Multiscale
+(MMS) Mission
+
+Key Points:
+
+- Electron-scale measurements of
+magnetic reconnection at the Earth’s
+magnetopause with a moderate
+magnetic guide field were made
+by MMS
+
+- Confirmed simulation results of a
+mixture of low- and high-energy
+electrons at magnetic null and
+nongyrotropic electrons at stagnation
+point
+
+- Bifurcated out-of-plane current
+system was observed with peaks near
+the in-plane magnetic null and the
+flow stagnation point
+
+Supporting Information:
+
+« Supporting Information S1
+« Figure S1
+
+« Figure S2
+
+¢ Figure S3
+
+- Figure S4
+
+« Movie S1
+
+« Movie S2
+
+* Movie S3
+
+- Movie S4
+
+Correspondence to:
+J. L. Burch,
+jburch@swri.edu
+
+Citation:
+
+Burch, J. L., and T. D. Phan (2016),
+Magnetic reconnection at the dayside
+magnetopause: Advances with MMS,
+Geophys. Res. Lett., 43, 8327-8338,
+doi:10.1002/2016GL069787.
+
+Received 31 MAY 2016
+
+Accepted 26 JUL 2016
+
+Accepted article online 28 JUL 2016
+Published online 17 AUG 2016
+
+©2016. The Authors.
+
+This is an open access article under the
+terms of the Creative Commons
+Attribution-NonCommercial-NoDerivs
+License, which permits use and distribution in any medium, provided the
+original work is properly cited, the use is
+non-commercial and no modifications
+or adaptations are made.
+
+BURCH ET AL.
+
+Magnetic reconnection at the dayside magnetopause:
+Advances with MMS
+J.L. Burch' and T. D. Phan?
+
+‘Southwest Research Institute, San Antonio, Texas, USA, *Space Sciences Laboratory, University of California, Berkeley,
+California, USA
+
+Abstract Magnetic reconnection is known to be an important process for coupling solar wind mass and
+momentum into the Earth's magnetosphere. Reconnection is initiated in an electron-scale dissipation/diffusion
+region around an X line, but its consequences are large scale. While past experimental efforts have advanced
+our understanding of ion-scale physics and the consequences of magnetic reconnection, much higher spatial
+and temporal resolutions are needed to understand the electron-scale processes that cause reconnection.
+The Magnetospheric Multiscale (MMS) mission was implemented to probe the electron scale of reconnection.
+This article reports on results from the first scan of the dayside magnetopause with MMS. Specifically, we
+introduce a new event involving the radial traversal of guide-field reconnection to illustrate features of
+reconnection physics on the electron scale.
+
+1. Introduction
+
+The essentially continuous existence of magnetic reconnection along the magnetopause has allowed numerous measurements to be made at the MHD and ion scales, at which the predicted ion jets within reconnection exhaust regions are readily observed [e.g., Paschmann et al., 1979; Sonnerup et al., 1981; Gosling et al.,
+1986]. Multispacecraft measurements of these ion jets have shown that the reconnection X lines from which
+they emanate can be greatly extended across the magnetopause [e.g., Phan et al., 2000; Hasegawa et al.,
+2016], providing a relatively high probability of their being detected by single spacecraft or spacecraft constellations. Because the magnetospheric magnetic field is generally stronger than the magnetosheath field,
+and the magnetospheric plasma densities are much lower, reconnection at the magnetopause is typically
+highly asymmetric. In addition, there can be significant guide fields, which are perpendicular to the reconnecting fields. These features tend to set magnetopause reconnection apart from its magnetotail counterpart. An advantage in the study of magnetopause reconnection is that a spacecraft moving relatively
+slowly near its apogee can sample numerous magnetopause crossings as the position of the boundary moves
+in response to the variable solar wind conditions. A strategy implemented by the Magnetospheric Multiscale
+(MMS) mission [Burch et al., 2016a] is to capture and transmit all magnetopause crossings in burst mode so
+that no dissipation regions at the magnetopause encountered by the spacecraft would be missed [Fuselier
+et al., 2016; Phan et al., 2016a]. As described in the next section, because of the high data volume and
+relatively low data transmission rate, only a few percent of the data can be acquired at the highest data rate,
+which is burst mode. Beginning on 1 September 2015 MMS performed a 6month scan of the dayside
+magnetopause with a geocentric apogee of 12 Earth radii. The total number of magnetopause crossings
+captured in burst mode exceeded 3000, allowing the investigation of reconnection under many different
+boundary conditions.
+
+Previous missions such as ISEE, Active Magnetospheric Particle Tracer Explorers, Wind, Polar, Geotail, EquatorS, Cluster, and Time History of Events and Macroscale Interactions during Substorms have made plasma measurements primarily on MHD and ion scales, which enabled the investigations of the large-scale structures
+and dynamics of reconnection. The main objective of MMS is to extend measurements of reconnection to
+the electron scale in order to address kinetic processes that cause reconnection and the dissipation of magnetic energy. This extension requires particle measurements to be made much faster than ever before with
+3-D electron distribution functions acquired every 0.03 s and 3-D ion distributions acquired in 0.15 s, as compared to time resolutions in the few second range for the previous missions, which relied on spacecraft rotation to sample the full 3-D sky [Pollock et al., 2016]. These required time resolutions were arrived at by the
+simple consideration of an electron dissipation/diffusion region (EDR) with a width of a few electron skin
+depths (d.~2 km), a typical magnetopause radial velocity of 40 km/s [Berchem and Russell, 1982], and a
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8327
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+BURCH ET AL.
+
+MMS Location for 2015-12-08T 11-20-43 UTC
+
+requirement for three 3-D electron
+distribution functions to be acquired
+within the EDR. The significantly larger
+(by a factor of 43) ion diffusion length
+relaxed the requirement for ion measurements to 1.3s, which is well met
+by the MMS ion time resolution of
+0.15 s. In addition to radial cuts through
+the EDR, it is also possible for northsouth cuts to be made as the reconnection site moves in response to external
+magnetosheath flows or changes in
+the magnetosheath magnetic field.
+
+Y Position, Re
+
+Before MMS, most of the advances in
+the understanding of electron physics
+in the dissipation region were made
+
+GSE Coordinates using computer simulations. Particle-in; cell simulations, in particular, provided
+X Position, Re guidance for setting the MMS measure
+Ta009930
+
+ment requirements. These simulations
+
+Figure 1.GSE equatorial-plane projection of the MMS orbit on 8 continue to play an important role in
+December 2015 with UT hours noted. The event presented in this study —_ guiding the interpretation of MMS data.
+occurred between 11:20 and 11:21 UT. The large blue diamond shows the
+position at 11:20:43 UT: XGsn = 10.2, Yesm = 1.3, ZGsm = —1.4, and
+MLT = 12.5.
+
+The particle measurements of MMS are
+now at par with simulations in terms of
+measurement resolution and are able
+to test the electron-scale predictions and make new discoveries that can be the targets of future models.
+Among the predictions that have been tested successfully with MMS are the meandering electrons that
+appear as crescent-shaped velocity space distributions near reconnection X lines [Hesse et al., 2014; Burch
+et al., 2016b; Bessho et al., 2016; Chen et al., 2016a, 2016b; Shay et al., 2016]. New measurements from MMS
+that were not predicted include similar crescent-shaped distributions showing electron outflow along
+magnetic field lines emanating from reconnection X lines [Burch et al., 2016b]. These parallel crescents were
+subsequently found in the simulations reported by Shay et al. [2016].
+
+2. Experimental Approach
+
+MMS was launched on 12 March 2015 into a 28° inclination orbit with geocentric perigee and apogee of 1.2
+Re and 12 Rr, respectively. The first phase of the mission has focused on the dayside magnetopause. The
+strategy was to fly well-controlled tetrahedral formations in the outer magnetosphere (9-12 Earth radii
+geocentric) with interspacecraft separations starting at 160km and ranging downward through 40 km,
+20 km, and 10 km during the first month of the 6 month scan from dusk to dawn. Except for 2 months when
+the separation alternated between 40 km and 10 km on a weekly basis, the separation has since been held at
+10 km throughout the magnetopause scan, which ended on 1 March 2016.
+
+The measurements made on MMS exceed in accuracy and time resolution those of previous magnetospheric
+missions, notably the dramatically higher time resolution of plasma measurements [Pollock et al., 2016] but
+also the accurate three-dimensional DC electric field measurements [Torbert et al., 2016a; Lindqvist et al.
+2016; Ergun et al., 2016a] and the ability to measure heavy ions like O" in the presence of high proton fluxes
+that exist near the magnetopause [Young et al., 2016]. Another important advance is the ability of the plasma
+instruments to provide accurate current density measurements at 30 ms resolution, capable of resolving
+electron-scale currents [Burch et al., 2016b; Eastwood et al., 2016; Lavraud et al., 2016; @ieroset et al., 2016;
+Phan et al., 2016b]. With these new capabilities MMS is able to probe electron-scale physics in and around
+electron dissipation/diffusion regions (EDRs) and the associated reconnection X lines.
+
+Because of the very high sample rate of the MMS instruments and the limited downlink rate of the S band
+telemetry system to the Deep Space Network, a system for selection of data to be sent to the ground via a
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8328
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+BURCH ET AL.
+
+MMS Formation burst mode is necessary [Fuselier et al.,
+
+2016]. This function is important
+because only a few percent of the total
+TQF=0.944 data acquired can be transmitted in
+burst mode. Two means of accomplishing the burst-mode data selection are
+implemented on MMS: (1) an onboard
+system, which evaluates 10s intervals
+of burst-mode data and prioritizes them
+according to expected reconnection
+signatures, and (2) a scientist-in-theloop system by which scientists view
+summary data to select boundary crossings and other features that might have
+been missed by the onboard system.
+
+2015-12-08T 11-20-43 UTC
+
+Guided by previous spacecraft measurements and 2-D particle-in-cell plasma
+simulations, the MMS data are examined for phenomena such as bidirectional ion jets [e.g., Phan et al., 2003;
+Retino et al., 2005], intense out-of-plane
+current [Shay and Drake, 1998; Hesse
+et al., 1999], and magnetic field minima
+to identify potential reconnection
+regions. Once potential reconnection
+OSE Coorainates, Sun vote night regions are identified and burst-mode
+men emis data are acquired, details of the plasma
+distribution functions and vector elec
+®@ wwst @wvse = @wuss = ®@ usa
+
+Figure 2. Configuration of the MMS tetrahedron at 11:20:43 UT on 8 tric and magnetic fields are examined
+December 2015. TOF is the tetrahedron quality factor, which compares for signs of electron demagnetization
+the actual tetrahedron to a regular tetrahedron [Fuselier et al., 2016]. that is expected within reconnection
+
+diffusion regions. One such sign of
+
+demagnetization is the crescent-shaped
+electron distribution function that was found in the particle-in-cell simulations of Hesse et al. [2014]. Such
+distributions have been measured by the MMS Dual Electron Spectrometers [Pollock et al., 2016] in and
+around the EDRs [Burch et al., 2016b; Chen et al., 2016b; Phan et al., 2016b]. These events were associated
+with reconnection exhaust jet reversals, which provided the context for the X line crossings. These events
+had small guide fields. In the remainder of this paper, we describe a new event on 8 December 2015
+within which the crossing of the X line region was normal to the current sheet, and the guide field was of
+the order of unity.
+
+3. Electron Dissipation Regions in Guide Field Reconnection
+
+Figures 1 and 2 show the orbital projection in the GSE equatorial plane on 8 December 2015 and the configuration of the MMS spacecraft tetrahedron for the time of the magnetopause crossing event we have investigated. Figure 3 shows the 50s of data around an inbound magnetopause crossing by MMS1 in the subsolar
+region (12.5 h magnetic local time). The data are shown in the boundary normal coordinate system, with N
+along the magnetopause normal, L along the reconnecting field direction, and M approximately along the
+X line direction. The spacecraft was at first in the magnetosheath, where the density was high (~11 cm_°),
+the magnetic field pointed southward (B,; < 0) and duskward (By < 0), and the tangential velocity was substantial (Vi~—140 km/s, Viy~—90km/s). Prior to the magnetopause crossing at ~11:20:43-44 UT, the
+spacecraft encountered two flux ropes (or flux transfer events) at ~11:20:20 and 11:20:35 UT, which were
+characterized by bipolar By and core-field By, compression (Figure 3b). There was plasma jetting (in V,) associated with the flux ropes, with jet soeed exceeding 300 km/s.
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8329
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+BURCH ET AL.
+
+mmst1
+
+Magnetosheath Magnetopause
+
+IBI
+
+Magnetosphere
+
+Flux Rope Flux Rope
+
+3 _
+mM a ———————— => Fam <_™ On "es —————
+
+lons
+(eV)
+
+parse ti am all ana no
+De min Un oar 8s | LA oma oh
+
+Electrons
+(eV)
+eV/cm?-sr-eV-s
+
+Seconds 20
+2015 Dec 08 1120
+
+1.0
+Oo
+= 085
+=
+() XS oo .
+©
+Sex 8 0.
+z
+> 10 1. 1.0
+
+“1.0 -05 00 05 10 -10 -05 00 05 10 46 -05 00 05 10 -10 -05 00 05 1.0
+Vy (10°km/s)
+UT: 11:20:43.120 11:20:47.170  11:20:51.220 11:20:55.120
+
+Figure 3. (a—l) Data from 8 December 2015 when the magnetopause moved outward causing the MMS spacecraft to move
+from the magnetosheath into the magnetosphere. The various vector parameters are expressed in the LMN coordinate
+system (boundary normal coordinates) with N normal to the boundary and away from the Earth; L perpendicular to N and in
+the plane of reconnection (nearly along the magnetospheric magnetic field direction); and M normal to the L, N plane
+(generally westward). These directions were determined from variance analysis of the magnetic field data between
+11:20:43 and 11:20:45 UT. The (x, y, z) GSM components of the L, M, and N axes are L = (0.36407441, 0.071052083,
+0.92865571) GSM, M = (—0.022889708, —0.99610209, 0.085186237) GSM, and N= (0.93108855, —0.052270787,
+—0.36102892) GSM. The data in Figures 3a and 3b show two flux ropes (or flux transfer events) in the upstream magnetosheath and a magnetopause between 11:20:43 and 11:20:44 UT. A significant guide magnetic field Byy exists in the
+magnetosheath, where except in the flux ropes Byy~B,. The green trace in Figure 3h shows a bifurcated out-of-plane current
+structure (11:20:43-—44 UT), while the purple trace shows a field-aligned current (j,) with a slightly different double structure.
+Figures 3j and 3k show that strong electron heating and electric fields begin at the magnetopause and extend inward
+toward the magnetosphere for at least another second. Figure 3l shows the 2-D cuts in boundary-normal coordinates of the
+3-D ion distribution functions showing finite gyroradius effects as have been associated with magnetosheath ions
+penetrating into the magnetosphere relatively close to the X line (Figure 4 of Shay et al. [2016]).
+
+During the magnetopause crossing itself (at 11:20:42—11:20:45 UT), Figure 3 shows no evidence for ion jetting
+as expected for the reconnection exhaust. Instead, V; gradually decreased from its magnetosheath value of
+~—140 km/s to nearly zero in the magnetosphere. The lack of ion jetting could indicate either the crossing of
+a nonreconnecting magnetopause or the near-radial crossing of the reconnection X line region. The presence
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8330
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+BURCH ET AL.
+
+mms1
+
+ort
+—_ <= 40
+Mm
+BE 20
+
+lons
+
+Electrons
+
+Seconds 42
+2015 Dec 08 1120:
+
+Figure 4. (a—k) Data from MMS1 for a 3s period beginning at 11:20:42 UT on 8 December 2015. Boundary-normal coordinates are used as in Figure 3. Figure 4b shows (at dashed vertical line 1) an in-plane magnetic null at about 43.25 s along
+with an enhancement of the guide magnetic field, which we interpret as a Hall magnetic field component [Sonnerup, 1979].
+Figure 4h shows a bifurcated out-of-plane current (green trace). The two current peaks (dashed vertical lines 2 and 4)
+coincide with two regions of electron energization (Figure 4d), two regions of electron heating (Figure 4j), and two regions
+of strong electric fields (Figure 4k). The acceleration and heating signatures continue farther into the magnetosphere than
+the currents. Figure 4b shows a plateau in B; at ~43.6 s, between the two current peaks centered on dashed vertical line 3.
+At this plateau there is electron cooling (Figures 4d and 4i) and cessation of electric-field activity. Near the beginning of the
+B, plateau there is a negative excursion of By (red trace in Figure 4b at 11:20:43.45 UT), which is consistent with the
+spacecraft being above the X line on reconnected field lines.
+
+of high-speed electron outflows (|V,| > 1000 km/s) ~4 times the inflow ion Alfvén speed (Figure 3g), intense
+current density (up to 3 wA/m?; Figure 3h), high-amplitude electric field (+100 mV/m; Figure 3k), and strong
+electron heating (Figure 3j) suggest the crossing of a reconnecting magnetopause near the X line.
+Furthermore, in the magnetosphere adjacent to the magnetopause, Vj; was negatively enhanced (Figure 3
+f), the ion distributions (Figure 3l) displayed low-energy cutoffs, Ex (Figure 3k) was mostly negative (i.e., earthward pointing), and the electron-parallel temperature was enhanced (Figure 3j). These signatures are consistent with the predicted finite gyroradius effects associated with magnetosheath ions penetrating into the
+magnetosphere, which occur relatively close to the X line [Shay et al., 2016]. The width of the strong current
+density region is estimated to be ~44 km, based on the crossing duration of 1s, and the normal speed of the
+magnetopause of ~44 km/s as determined by the minimization of the Faraday residue method [Khrabrov and
+Sonnerup, 1998]. This width corresponds to ~0.5 ion skin depth or ~20 electron skin depths. Within this
+region, there were even finer scale currents. The thinness of the overall current sheet provides further
+evidence for crossing very close to the X line.
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8331
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+BURCH ET AL.
+
+mmsi mms2 mms3 mms4
+
+=r
+
+= no
+
+leleka plolelole =)
+IIT AL PSU LEP
+
+Seconds 42
+2015 Dec 08 1120:
+
+Figure 5. (a—h) Data from all four MMS spacecraft for the 3 s period from 11:20:42 to 11:20:45 UT on 8 December 2015. The
+same major features noted for MMS1 in Figure 4 are seen by each spacecraft but with time shifts of a few tenths of a
+second. The plateau in B, is centered around 43.6s as are the two out-of-plane current peaks. The parallel current (j,) also
+exhibits a dual structure but with the first peak shifted slightly later in time from the out-of-plane current peak. All four
+spacecraft also show the quiescent electric field region between the two current peaks as with MMS1 as well as the
+negative excursion of By (Figure 5c) between 43.4 and 43.6s.
+
+We now investigate the magnetopause interval in more detail. The reconnecting magnetopause was
+crossed between 11:20:43 UT and 11:20:44 UT. As shown in Figure 4 (with 3s of data), just after the start
+of this interval the magnetosheath electrons were energized (Figure 4d), while near the end of the interval
+the magnetosheath ion fluxes were sharply reduced (Figure 4c). Figure 4b shows that at the time of electron energization the L and N components of the magnetic field crossed at near OnT, forming an in-plane
+magnetic null as described for guide magnetic fields by Hesse et al. [2016]. Concurrently, the M component
+became more negative from the guide-field level to a stronger field we identify as the Hall magnetic field.
+Thus, as in the event described by Burch et al. [2016b], there is a near null in the in-plane magnetic field
+coinciding with the onset of a significant Ey electric field component (red trace in Figure 4k), which can
+accelerate magnetosheath electrons toward the magnetosphere [Pritchett, 2008]. As in the non-guide-field
+case, there is a strong out-of-plane current (the green traces in Figures 4g and 4h). In the event shown in
+Figure 4 this current is clearly bifurcated (i.e., double peaks in |jy|), and it is accompanied by significant
+field-aligned currents j, (purple trace in Figure 4g) that are shifted in time relative to the out-of-plane
+current. It is not clear whether the bifurcated current is a feature of guide-field reconnection or if it also
+occurs with high-shear events. Since for the 8 December 2015 event the spacecraft moved nearly radially
+across the magnetopause they were able to sample the entire radial extent of the magnetopause near
+an X line in contrast to the 16 October 2015 event [Burch et al., 2016b], during which the spacecraft passed
+through the dissipation region from south to north but did not completely cross the magnetopause current
+sheet near the X line. Analysis of data from more guide-field and high-shear events will be needed to determine the source of the bifurcated out-of-plane current and its possible relationship to the presence of a
+guide magnetic field.
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8332
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+112043.315->112043.345
+0
+
+~ g g
+oO E = o
+= x € 1
+= = ead
+Bg = :
+a ~~ SA g- =
+B > >
+10’ , :
+nm 10° -1.0 -0.5 0.0 0.5 1.0 -1.0 -05 0.0 0.5 1.0 -1.0 -0.5 0.0 0.5 1.0
+5 ms 10° ® Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+10* @ 112043.375->112043.405
+'
+—_ OE 5 a
+= > 10 (2) = — ~
+Se ios £ § g
+s 10° ® & 2 = 2
+~ ~ °
+n N = is
+e &. —
+om ®o - ®o > ne a =
+a V
+zit -1.0 -0.5 00 05 1.0 -1.0 -05 0.0 0.5 1.0 -1.0 -0.5 00 05 1.0
+> Vim Vperp1 (10*km/s) Vpara (10*km/s) Vu (10*km/s)
+a Vin 112043.645->112043.675
+a Ve _ _ 1.0
+Cy V g g —
+> =| ‘em E & g
+Ven ° ° =
+; a = © 3
+Q. 2. =
+a & - e *
+> >
+-1.0 -05 0.0 0.5 1.0 -1.0 -05 0.0 0.5 1.0 -1.0 -05 0.0 0.5 1.0
+Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+112043.825->112043.855
+1.0 1.0E-25
+g Q
+, el = = > 1.0E-26
+F = = € e
+ell is) oO s 1.0E-27
+= ~ e % 4
+S a = 1.0E-28.2
+cc) ®o - a x
+Lu & £. 1.0E-29
+1.0E-30
+Saanne: Ae 43 44 45 1.0 -0.5 0.0 0.5 1.0 1.0 0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0
+2015 Dec 08 1120: 12 3 4 Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+
+Figure 6. MMS1 data for the same 3 s time period as in Figures 4 and 5. (left) The plot is in LVN (boundary normal coordinates) and is in the same format as Figure 4.
+The vertical dashed lines 1-5 show the selected regions: (1) in-plane magnetic null, (2) strongest out-of-plane current near the in-plane magnetic null, (3) quiescent
+region, and (4) within the strongest out-of-plane current near the flow stagnation point. For each of these four regions electron velocity space distribution functions
+(DFs) are shown in (left two columns) magnetic field-aligned coordinates and in the (right column) M,N plane. DFs in the left column are in the plane normal to B with
+the two orthogonal axes Vperp1 and Vperp2. Vperp 1 is in the direction of (b x v) x b, and Vperp2 is along —v x b (b and v are the measured unit vectors of the
+magnetic field and electron velocity moment, respectively). The vertical dotted line shows the bulk velocity (which is along Vperp1). The middle DFs have the
+horizontal axis along b and the vertical axis along Vperp1 with the magnetic field-aligned flow shown by the vertical dotted line. The right DFs have the horizontal
+axis along M (the X line direction) and the vertical axis along N (the boundary normal direction).
+
+In Figure 4 four of the features noted in the previous paragraph are located by vertical dashed lines showing
+(1) the in-plane magnetic null, (2) the first out-of-plane current peak, (3) the quiescent region between the
+two current peaks, and (4) the second out-of-plane current peak. The two out-of-plane current peaks coincide
+with two electron temperature enhancements (Figures 4d and 4i) and two regions of enhanced electric field
+(Figure 4j). There is also a region of enhanced electric field at the in-plane magnetic null (vertical dashed line 1),
+although the out-of-plane current density peaks about 0.07s later in time. Just after the first peak, as the outof-plane current decreases, there is a sharp transition of By to negative values (red trace in Figure 4b), which
+was not observed for the high-shear case reported by Burch et al. [2016b]. The quiescent region, centered on vertical dashed line 3, shows a plateau of B,, which is otherwise monotonically increasing (blue trace in Figure 4b).
+This quiescent region also shows a minimum in the parallel electron temperature (red trace in Figure 4i) and
+mostly quiet electric fields (Figure 4)).
+
+Figure 5 is a multispacecraft plot of the magnetic field, plasma density, and current density (L and M components) and electric field (WV and N components). All of the features noted for MMS1 except for the in-plane
+magnetic null, which cannot be seen with the single-component plots, are observed by each of the spacecraft with time shifts of generally <0.2s along with quantitative differences in some of the parameters.
+MMS2 observed the various features later than the other three spacecraft because of its separation toward
++X as shown in Figure 2. Similarly, MMS3 observed the features earlier than the other three spacecraft as
+expected from its slight —X displacement. Figure 5a shows a near-monotonic increase of B, across the
+magnetopause with a plateau centered at ~43.6 s. Figure 5b shows the guide magnetic field and the apparent Hall field. The feature in Figure 5c seen by all spacecraft is the negative By excursion (43.4—43.6 s); its
+origin is however unknown. The j, traces in Figure 5e all show mostly positive values except for MMS2, which
+
+BURCH ET AL. MAGNETOPAUSE RECONNECTION WITH MMS 8333
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+112043.301->112043.331
+
+me
+oO
+
+@ g
+€ 5 Ee 5 =
+x x e 1
+O° ° =
+= 0 ab = " r=)
+8 e E
+> 4.0 1.0
+1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0
+2 ui Voerp: (10°km/s) Voara (10°km/s) Vy, (10°km/s)
+= r 112043.421->112043.451
+i bs
+9 E @ zg
+S S € 5 Go
+8 zs z E
+Gs
+WwW = = r=) 2
+nN — =
+Q 2. 2
+a” ie m8
+> >
+-1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0
+Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+112043.721->112043.751
+0
+g g
+E E g
+% © §
+= hae S
+N se =
+2 2. 2
+3° 8° = *
+> >
+1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 05 1.0 1.0 -0.5 0.0 0.5 1.0
+Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+112044.021->112044.051
+g g
+E E
+as wx
+S S
+on oa
+S a
+o - ® Q. fo
+> =
+Seconds 42 43 44 45 “1. . F
+2015 Dec 08 1120: 12 3 4 1.0 -0.5 0.0 05 1.0 1.0 -0.5 0.0 05 1.0 -1.0 -0.5 0.0 0.5 1.0
+
+Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+
+Figure 7. Same as in Figure 6 except for MMS2.
+
+shows a polarity reversal. The j,, bifurcation is seen by all spacecraft with negative values throughout. The
+electric field data have not been analyzed in detail for this event, but significant values of Ey and Ey
+(Figures 5g and 5h) are seen for both peaks of the out-of-plane current. Both electric-field polarities were
+observed but with the preponderance of Ey values being positive. As predicted by Pritchett [2008] and
+observed by Burch et al. [2016b], Ey acts to accelerate magnetosheath electrons across the flow stagnation
+point, which leads to the crescent distributions that carry negative jy.
+
+Figures 6-9 show the separate plots of data from MMS1-4 along with electron velocity space distribution
+functions (DFs) for times or events denoted by five vertical dashed lines: (1) the magnetic null; (2) the first
+jm peak; (3) the quiescent region; and (4) the second jy peak, which is near the flow stagnation point.
+Electron DFs for every 30 ms for each spacecraft throughout the 3s period are shown in separate files and
+movies (Figures $1-S4 and Movies S1-S4 in the supporting information).
+
+We note that a field-aligned mixture of magnetosheath and magnetospheric electrons has been predicted at
+the in-plane magnetic null for guide-field reconnection by the simulations of Hesse et al. [2016]. Hesse et al.
+[2016] also predicted out-of-plane currents carried by crescent-shaped distributions at the flow stagnation
+point. As now described, the data from all four MMS spacecraft verify these two predictions while also showing several other coherent structures yet to be explained.
+
+3.1. In-Plane Magnetic Null
+
+DFs in the top row, left column of Figures 6-9 (event 1) show an isotropic distribution in the plane perpendicular to B with the possible exception of MMS3, which showed a slightly nongyrotropic distribution. Parallel
+to B (middle DF of the first row), there was counterstreaming between a higher-energy population antiparallel to B and a more intense but lower-energy population along B. The population along B is similar to
+the parallel crescent distributions observed by Burch et al. [2016b] for high-shear reconnection. We note here
+that the narrow beam along —B direction was also present in the parallel crescent DFs presented by Burch
+et al. [2016b] but were not discussed in that paper. Strong electric fields are observed near the null as
+
+BURCH ET AL. MAGNETOPAUSE RECONNECTION WITH MMS 8334
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+lons
+
+Electrons
+
+Seconds 42
+2015 Dec 08 1120:
+
+112043.205->1 12043.235
+1.0
+
+1.0E-25
+g @ 2
+Ee E 1.0E-26
+x x é_
+= = 1.0E-27 “E
+eT a 1.0E-28
+®o - ® = = 1.0E-29
+1.0E-30
+40° Y -1.0 -0.5 0.00 0.5 1.0 -1.0 -0.5 0.0 0.5 1.0 -1.0 -0.5 00 05 1.0
+10° 2 Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+1
+10° o 112043.415->112043.445
+10° 1.0 1.0E-25
+17S 3s g 1.0E-26
+10°S §£ — 05 o ae
+ino S 6 Ger E 1.0E-27 “E 9
+n, = = 0.0 SS r= 8
+a a - 1.0E-28 2
+" g- a - 1.0E-29
+Vi -1.0 1.0E-30
+Ving -1.0 -05 00 0.5 1.0 -1.0 -0.5 0.0 0.5 1.0 -1.00 -0.5 0.0 05 1.0
+Vy Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+x ‘i 112043.565->112043.595
+: eL ; 1.0E-25
+| Vow g g ~ 1.0E-26
+a V & & g =
+= =) = 1.0E-27 §
+4 = r=) a 3
+& a = 1.0E-28 2
+®o - ®o - > - ey
+a = 1.0E-29
+1.0E-30
+-1.0 -05 00 05 1.0 -1.0 -0.5 00 05 1.0 -1.0 -0.5 0.0 0.5 1.0
+Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+112043.745->112043.775
+‘ 1.0E-25
+OD D
+r= r= Cy 1.0E-26
+= a e o
+5 S é 1.0E-27 & 4
+eS 2 = 1.0E-28 2
+oO - o > = 2 1.0E-29
+1.0E-30
+23 4 -1.0 -05 00 05 1.0 -1.0 -05 0.0 05 1.0 -1.0 -0.5 0.0 05 1.0
+Vperp1 (10*km/s) Vpara (10*km/s) Vy, (10*km/s)
+
+Figure 8. Same as in Figure 6 except for MMS3.
+
+BURCH ET AL.
+
+predicted by Hesse et al. [2016] associated with electron inertia effects. We have not yet performed an analysis
+of the electric field components and their sources.
+
+3.2. Out-of-Plane Current System Near the Magnetic Null
+
+Event 2 for each spacecraft also shows mostly isotropic fluxes normal to B (Figures 6-9, left plot) and fieldaligned mixtures of high- and low-energy electrons (Figures 6-9, middle plots). In addition, the observed
+strong out-of-plane current is characterized by crescent- or beam-type populations along the +M axis in
+the right column (Figures 6-9). A stronger asymmetry toward the —B direction (as compared to event 1) is
+also evident in the middle column (Figures 6-9), suggesting that part of the out-of-plane current was flowing
+along the guide magnetic field. Both the magnetic field-aligned asymmetry and asymmetry along the M
+direction of the electron distributions are approximately westward so that they carry eastward current.
+Strong parallel electron heating occurred throughout this region at each spacecraft.
+
+3.3. Quiescent Region
+
+For each spacecraft there is a quiescent region (event 3) within which only very weak electric fields and
+currents were observed. In addition, the out-of-plane currents and parallel electron heating subsided greatly.
+As at the in-plane magnetic null, the DFs in the plane normal to B were generally isotropic for all spacecraft.
+Nonetheless, there was still a mixture of electron populations along B (middle column of row 3, Figures 6-9)
+but with less asymmetry (hence lower current), and in addition, a similar mixture of high- and low-energy
+populations along the M axis (right DF in the M,N plane). Similar to the distribution along B, while there
+are significant fluxes along +M and —M, they roughly balanced out, leading to small out-of-plane currents.
+
+3.4. Out-of-Plane Current at Flow Stagnation Point
+
+As noted in the bottom row of DFs in Figures 6-9, nongyrotropic distributions are seen in the left plot (normal
+to B), while the middle plot (Vperp1 versus Vpara) shows a mainly magnetospheric population, as observed in
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8335
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+112043.327->112043.357
+1.0
+
+1.0E-25
+Cy oO
+E E S 1.0E-26 =
+= a = 1.0E-27 € 4
+: e é i
+71 eS = 1.0E-28 a
+o - ® - > :
+= 1.0E-29
+
+is z 1.0E-30
+
+-1.0 -05 0.0 0.5 1.0 -1.0 -0.5 0.00 0.5 1.0 -1.0 -05 0.0 05 1.0
+. Vperp1 (10*km/s) Vpara (10*km/s) Vi, (10°km/s)
+
+112043.417->112043.447
+1.0
+
+a
+o @ gS
+8 E & g g
+w 2 = = S
+= - = a 2
+e = a a
+g° 8° =
+> >
+1.0 -0.5 0.0 0.5 1.0 -1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0
+Vperp1 (10*km/s) Vpara (10*km/s) Vy (10*km/s)
+112043.537->112043.567
+1.0 1.0E-25
+oe Se
+g g s 1.0E-26
+x Bn s_
+r= © & 1.0E-27 £3
+y = = 1.0E-28
+® - ® - > \
+& 8 1.0E-29
+1.0E-30
+1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 0.5 1.0
+Vperp1 (10*km/s) Vpara (10*km/s) Vy (10°km/s)
+112043.747->112043.777
+1.0 1.0E-25
+oe oe
+E E zs 1.0E-26 S ° & 1.0E-27 E 4
+Rae ~— oO o.
+q = = 1.0£-28
+® - ® - > .
+— & 1.0E-29
+A; 1.0E-30
+Seconds 42. 43 Si 45 1.0 -0.5 0.0 0.5 1.0 1.0 -0.5 0.0 05 1.0 1.0 -0.5 0.0 0.5 1.0
+2015 Dec 08 1120: 123 4 Vperp1 (10*km/s) Vpara (10*km/s) Vy, (10%km/s)
+
+Figure 9. Same as in Figure 6 except for MMS4.
+
+a similar region by Burch et al. [2016b]. The right plot (in boundary normal coordinates M,N) shows a more
+pronounced nongyrotropic (or crescent-shaped) distribution at each spacecraft.
+
+Common features of the DFs in Figures 6-9 include (a) mixtures of high- and low-energy plasmas along the
+magnetic field that are more pronounced near the in-plane magnetic null and are mostly absent at the
+flow stagnation point, (b) strong parallel electron heating within two regions of out-of-plane currents,
+(c) out-of-plane currents carried by unbalanced bidirectional electron distributions along B and along M in
+the first current region (near the in-plane magnetic null), (d) a quiescent region between the currents containing low out-of-plane currents and an almost complete subsidence of electric field activity and parallel electron heating, and (e) out-of-plane currents carried by crescent-shaped distributions in the current region
+near the flow stagnation point.
+
+In addition to the field-aligned mixture of magnetosheath and magnetospheric electrons at the in-plane
+magnetic null and the existence of crescent-shaped features along the X line direction, which were predicted
+by Hesse et al. [2016], the observation of out-of-plane current components flowing along the magnetic field
+as well as along the X line are apparently distinguishing features of magnetic guide-field reconnection. Other
+distinguishing characteristics are likely to be found by further analysis of the 8 December 2015 event and
+other guide-field and nonguide-field events observed by MMS.
+
+4. Summary and Conclusions
+
+The MMS mission has ushered in a new era of investigation of electron-scale physics in the boundary regions
+of Earth’s magnetosphere. After their launch toward the nightside of the Earth and a6 month commissioning
+phase, the four MMS spacecraft in a tetrahedral configuration with a geocentric apogee of 12 R- have completed their first 6 month scan of the dayside magnetopause (Science Phase 1A). The interspacecraft separation began at 160 km, and during the first month of the magnetopause scan it was reduced in stages down to
+10 km. For a 2 month period beginning in late November 2015 the separation alternated on a weekly basis
+between 10 km and 40 km. For the remainder of Phase 1A the separation was held at 10 km. A second scan
+
+BURCH ET AL. MAGNETOPAUSE RECONNECTION WITH MMS 8336
+QWAG U Geophysical Research Letters
+
+Acknowledgments
+
+It is a pleasure to thank the MMS
+instrument leads for supplying the
+high-quality data used in this study:
+R.B. Torbert for the Fields data, C.J.
+Pollock (through the commissioning
+phase) and B.L. Giles (operations and
+data analysis phase) for the FPI data,
+S.A. Fuselier for the HPCA data, B.H.
+Mauk for the Energetic Particle data,
+and R. Nakamura for the Active
+Spacecraft Potential Control. We
+
+are also grateful to C.T. Russell
+(magnetometer lead), P.-A. Lindqvist
+(spin-plane, double-probe lead), and
+R.E. Ergun (axial double-probe lead). The
+science and analysis contributions of
+L.-J. Chen, S. Wang, D. Gershman, and
+J. Goldstein and K. Genestreti are very
+much appreciated. A very helpful discussion with M. Hesse is greatly appreciated. This work was supported by
+NASA contract NNGO4EB99C at SwRI
+and by NASA MMS-IDS grant
+NNX08A083G at the University of
+California, Berkeley. The entire MMS
+data set is available online at https://
+lasp.colorado.edu/mms/sdc/public/
+links/. Fully calibrated data are placed
+online at this site within 30 days of their
+transmission to the MMS Science
+Operations Center. The data are
+archived in the NASA Common Data
+Format (CDF) and so can be plotted
+using a number of different data display
+software packages that can use CDF
+files. A very comprehensive system
+called the Space Physics Environment
+Data Analysis System (SPEDAS) is
+available by downloading http://themis.
+ssl.berkeley.edu/socware/bleeding_edge/ and selecting spdsw_latest.zip.
+Training sessions on the use of SPEDAS
+are held on a regular basis at space
+physics-related scientific meetings. All
+of the data plots in this paper were
+generated with SPEDAS software
+applied to the publicly available MMS
+database, so they can readily be
+duplicated.
+
+BURCH ET AL.
+
+10.1002/2016GL069787
+
+of the dayside magnetopause (Phase 1B) will begin in September 2016, during which the interspacecraft
+separation will be reduced to approximately 7 km in order to increase the probability of positioning all four
+spacecraft within electron dissipation regions simultaneously. After Phase 1B, which will last 120 days, the
+geocentric apogee will be increased to 25 R- for a scan through the magnetotail during which the spacecraft
+separation will be adjusted from 160 km to 20 km and ultimately held at an optimum value.
+
+Numerous new results regarding electron physics in magnetic reconnection have been reported based on
+the Phase 1A data [e.g., Burch et al., 2016b; Chen et al., 2016b; Lavraud et al., 2016; Ergun et al., 2016b,
+2016c; Khotyaintsev et al., 2016; Torbert et al., 2016b; Phan et al., 2016b; Eriksson et al., 2016], including an analysis of electron diffusion region for near-antiparallel reconnection [Burch et al., 2016b; Chen et al., 2016b]. In
+this report we have described an investigation of reconnection with a significant magnetic guide field, which
+occurred on 8 December 2015. The results of this study provide another example of the electron-scale physics of magnetic reconnection that is enabled by MMS.
+
+The four MMS spacecraft traversed a reconnection dissipation region on 8 December 2015 during a period of
+approximately equal southward and eastward interplanetary magnetic field components so that there was a
+significant magnetic guide field component. Out-of-plane currents in the boundary-normal M direction
+occurred in two separated regions forming a bifurcated current system. One branch of the bifurcated current
+was located near and overlapping with the flow stagnation point, and the other branch was located near, but
+slightly earthward of, the in-plane magnetic null. During the magnetopause crossing, which took less than 3 s
+to complete, the magnetopause was moving outward at ~44km/s. While the spacecraft were very close
+together (in an ~10 km tetrahedron), MMS2 was separated from the other three by about 14km in the
+sunward direction, causing it to observe the various events ~0.2s later. One feature of the region between
+the two current branches was a negative By excursion that was observed by all four spacecraft, after which
+the quiescent region with very low current, negligible electron heating, and small electric fields extended
+toward the flow stagnation point until the second region of out-of-plane current and strong electric field
+was encountered. In contrast, the high-shear event described by Burch et al. [2016b] contained only a single
+out-of-plane current region and so did not have the interstitial —By region or quiescent region observed for
+the 8 December 2015 event. However, the high-shear reconnection event on 16 October 2015 was traversed
+in mostly the south-north directions as compared to the mostly radial traversal during the event presented in
+this study. Therefore, the study of more events is needed before definite conclusions about the difference
+between high-shear and guide-field reconnection can be reached. The plan for reducing the interspacecraft
+separation of MMS to near 7 km for Phase 1B should help in this determination.
+
+References
+
+Berchem, J., and C. T. Russell (1982), The thickness of the magnetopause current layer: ISEE 1 and 2 observations, J. Geophys. Res., 87,
+2108-2114, doi:10.1029/JA087iA04p02108.
+
+Bessho, N., L.-J. Chen, and M. Hesse (2016), Electron distribution functions in the diffusion region of asymmetric magnetic reconnection,
+Geophys. Res. Lett., 43, 1828-1836, doi:10.1002/2016GL067886.
+
+Burch, J. L., et al. (2016a), Magnetospheric Multiscale overview and science objectives, Space Sci. Rev., 199, 5-21, doi:10.1007/
+$11214-015-0164-9.
+
+Burch, J. L., et al. (2016b), Electron-scale measurements of magnetic reconnection in space, Science, doi:10.1126/science.aaf2939.
+
+Chen, L.-J., M. Hesse, S. Wang, N. Bessho, and W. Daughton (2016a), Electron energization and structure of the diffusion region during
+asymmetric reconnection, Geophys. Res. Lett., 43, 2405-2412, doi:10.1002/2016GL068243.
+
+Chen, L.-J., et al. (2016b), Electron energization and mixing observed by MMS in the vicinity of an electron diffusion region during
+magnetopause reconnection, Geophys. Res. Lett., 43, 6036-6043, doi:10.1002/2016GL069215.
+
+Eastwood, J. P., et al. (2016), lon-scale secondary flux-ropes generated by magnetopause reconnection as resolved by MMS, Geophys. Res.
+Lett., 43, 4716-4724, doi:10.1002/2016GL068747.
+
+Ergun, R.E., et al. (2016a), The Axial Double Probe and fields signal processing for the MMS mission, Space Sci. Rev., 199, 167-188, doi:10.1007/
+$11214-014-0115-x.
+
+Ergun, R.E., et al. (2016b), Magnetospheric Multiscale satellites observations of parallel electric fields associated with magnetic reconnection,
+Phys. Rev. Lett., doi:10.1103/PhysRevLett.116.235102.
+
+Ergun, R. E., et al. (2016c), Magnetospheric Multiscale observations of large-amplitude, parallel, electrostatic waves associated with magnetic
+reconnection at the magnetopause, Geophys. Res. Lett., 43, 5626-5634, doi:10.1002/2016GL068992.
+
+Eriksson, S., et al. (2016), Magnetospheric Multiscale observations of the electron diffusion region of large guide field magnetic reconnection,
+Phys. Rev. Lett., doi:10.1103/PhysRevLett.117.015001.
+
+Fuselier, S. A., et al. (2016), Magnetospheric Multiscale science mission profile and operations, Space Sci. Rev., 199, 77-103, doi:10.1007/
+$11214-014-0087-x.
+
+Gosling, J. T., M. F. Thomsen, S.J. Bame, and C. T. Russell (1986), Accelerated plasma flows at the near-tail magnetopause, J. Geophys. Res., 91,
+3029-3041, doi:10.1029/JA091iA03p03029.
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8337
+QWAG U Geophysical Research Letters 10.1002/2016GL.069787
+
+BURCH ET AL.
+
+Hasegawa, H., et al. (2016), Decay of mesoscale flux transfer events during quasi-continuous spatially-extended reconnection at the
+magnetopause, Geophys. Res. Lett., 43, 4755-4762, doi:10.1002/2016GL069225.
+
+Hesse, M., et al. (1999), The diffusion region in collisionless magnetic reconnection, Phys. Plasmas, 6, 1781-1795, doi:10.1063/1.873436.
+
+Hesse, M., N. Aunai, D. Sibeck, and J. Birn (2014), On the electron diffusion region in planar, asymmetric, systems, Geophys. Res. Lett., 41,
+8673-8680, doi:10.1002/2014GL061586.
+
+Hesse, M., Y.-H. Liu, L.-J. Chen, N. Bessho, M. Kuznetsova, J. Birn, and J. L. Burch (2016), On the electron diffusion region in asymmetric
+reconnection with a guide magnetic field, Geophys. Res. Lett., 43, 2359-2364, doi:10.1002/2016GL068373.
+
+Khotyaintsev, Y., et al. (2016), Electron jet of asymmetric reconnection, Geophys. Res. Lett., 43, 5571-5580, doi:10.1002/2016GL069064.
+
+Khrabrov, A. V., and B. U. O. Sonnerup (1998), Orientation and motion of current layers: Minimization of the Faraday residue, Geophys. Res.
+Lett., 25, 2373-2376, doi:10.1029/98GL5 1784.
+
+Lavraud, B., et al. (2016), Currents and associated electron scattering and bouncing near the diffusion region at Earth’s magnetopause,
+Geophys. Res. Lett., 43, 3042-3050, doi:10.1002/2016GL068359.
+
+Lindqvist, P.-A., et al. (2016), The spin-plane double probe electric field instrument for MMS, Space Sci. Rev., 199, 137-165, doi:10.1007/
+$11214-014-0116-9.
+
+Mieroset, M., et al. (2016), MMS observations of large guide field symmetric reconnection between colliding reconnection jets at the center
+of a magnetic flux rope at the magnetopause, Geophys. Res. Lett., 43, 5536-5544, doi:10.1002/2016GL069166.
+
+Paschmann, G., B. U. O. Sonnerup, |. Papamastorakis, N. Sckopke, G. Haerendel, S. J. Bame, J. R. Asbridge, J. T. Gosling, C. T. Russell, and
+R. C. Elphic (1979), Plasma acceleration at the Earth’s magnetopause: Evidence for reconnection, Nature, 282, 243-246, doi:10.1038/
+282243a0.
+
+Phan, T. D., et al. (2000), Extended magnetic reconnection at the Earth’s magnetopause from detection of bi-directional jets, Nature, 404,
+848-850, doi:10.1038/35009050.
+
+Phan, T. D., et al. (2003), Simultaneous cluster and IMAGE observations of cusp reconnection and auroral proton spot for northward IMF,
+Geophys. Res. Lett., 30(10), 1509, doi:10.1029/2003GL016885.
+
+Phan, T. D., et al. (2016a), Establishing the context for reconnection diffusion region encounters and strategies for the capture and
+transmission of diffusion region burst data by MMS, Space Sci. Rev., 199, 631-650, doi:10.1007/s11214-015-0150-2.
+
+Phan, T. D., et al. (2016b), MMS observations of electron-scale filamentary currents in the reconnection exhaust and near the X-line, Geophys.
+Res. Lett., 43, 6060-6069, doi:10.1002/2016GL069212.
+
+Pollock, C. J., et al. (2016), Fast Plasma Investigation for Magnetospheric Multiscale, Space Sci. Rev., 199, 331-406, doi:10.1007/
+$11214-016-0245-4.
+
+Pritchett, P. L. (2008), Collisionless magnetic reconnection in an asymmetric current sheet, J. Geophys. Res., 113, A06210, doi:10.1029/
+2007JA012930.
+
+Retino, A., et al. (2005), Cluster multi-spacecraft observations at the high-latitude duskside magnetopause: Implications for continuous and
+component magnetic reconnection, Ann. Geophys., 23, 461-473, doi:10.5194/angeo-23-461-2005.
+
+Shay, M. A., and J. F. Drake (1998), The role of electron dissipation on the rate of collisionless magnetic reconnection, Geophys. Res. Lett., 25,
+3759-3762, doi:10.1029/1998GL900036.
+
+Shay, M. A., T. D. Phan, C. C. Haggerty, M. Fujimoto, J. F. Drake, K. Malakit, P. A. Cassak, and M. Swisdak (2016), Kinetic signatures of the region
+surrounding the X-line in asymmetric (magnetopause) reconnection, Geophys. Res. Lett., 43, 4145-4154, doi:10.1002/2016GL069034.
+
+Sonnerup, B. U. O. (1979), Magnetic field reconnection, in Solar System Plasma Physics, vol. Ill, edited by L. J. Lanzerotti, C. F. Kennel, and
+E. N. Parker, pp. 45-108, North-Holland, Amsterdam.
+
+Sonnerup, B. U. O., et al. (1981), Evidence for magnetic field reconnection at the Earth’s magnetopause, J. Geophys. Res., 86, 10,049-10,067,
+doi:10.1029/JA086iA12p10049.
+
+Torbert, R. B., et al. (2016a), The FIELDS instrument suite on MMS: Scientific objectives, measurements, and data products, Space Sci. Rev., 199,
+105-135, doi:10.1007/s11214-014-0109-8.
+
+Torbert, R. B., et al. (2016b), Estimates of the terms in Ohm’s law during an encounter with an electron diffusion region, Geophys. Res. Lett., 43,
+5918-5925, doi:10.1002/2016GL069553.
+
+Young, D. T., et al. (2016), Hot plasma composition analyzer for the Magnetospheric Multiscale mission, Space Sci. Rev., 199, 407-470,
+doi:10.1007/s11214-014-01 19-6.
+
+MAGNETOPAUSE RECONNECTION WITH MMS 8338

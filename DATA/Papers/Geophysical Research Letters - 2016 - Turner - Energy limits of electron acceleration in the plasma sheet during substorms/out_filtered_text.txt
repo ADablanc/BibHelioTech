@@ -1,0 +1,268 @@
+QAGUPUB nell Geophysical Research Letters of RESEARCH LETTER 10.1002/2016GL069691 Special Section: First results from NASA's Magnetospheric Multiscale (MMS) Mission Key Points: « Electron acceleration in substorm injections can be from a cumulative effect of a series of magnetic dipolarization events + Injected electron acceleration is most consistent with betatron acceleration over only a finite energy range, from ~10 to a few 100 keV - Injections of electrons between ~100 eV and ~10 keV result in a decrease in flux and phase space density as a function of energy Supporting Information: « Supporting Information S1 Correspondence to: D.
+L.
+Turner, drew.lawson.turner@gmail.com Citation: Turner, D.
+L., et al.
+(2016), Energy limits of electron acceleration in the plasma sheet during substorms: A case study with the Magnetospheric Multiscale (MMS) mission, Geophys.
+Res.
+Lett., 43, 77:85 - 77:94, doi:10.1002/2016GL069691.
+Received 20 MAY 2016 Accepted 7 JUL 2016 Accepted article online 11 JUL 2016 Published online 1 AUG 2016 ©2016.
+The Authors.
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+TURNER ET AL.
+Energy limits of electron acceleration in the plasma sheet during substorms: A case study with the Magnetospheric Multiscale (MMS) mission D.
+L.
+Turner’, J.
+F.
+Fennell’, J.
+B.
+Blake’, J.
+H.
+Clemmons’, B.
+H.
+Mauk?, I.
+J.
+Cohen?, A.
+N.
+Jaynes®, J.
+V.
+Craft®, F.
+D.
+Wilder®, D.
+N.
+Baker’, G.
+D.
+Reeves*, D.
+J.
+Gershman’, L.
+A.
+Avanov’, J.
+C.
+Dorelli”, B.
+L.
+Giles”, C.
+J.
+Pollock”, D.
+Schmid’, R.
+Nakamura’, R.
+J.
+Strangeway’, C.
+T.
+Russell®, A.
+V.
+Artemyev®, A.
+Runov’®, V.
+Angelopoulos®, H.
+E.
+Spence”, R.
+B.
+Torbert?, and J.
+L.
+Burch’® "Space Sciences Department, The Aerospace Corporation, El Segundo, California, USA, “Applied Physics Laboratory, Johns Hopkins University, Laurel, Maryland, USA, *Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, Boulder, Colorado, USA, “Los Alamos National Laboratory, Los Alamos, New Mexico, USA, >NASA Goddard Space Flight Center, Greenbelt, Maryland, USA, °Now at Denali Scientific, Healy, Alaska, USA, “Space Research Institute, Austrian Academy of Sciences, Graz, Austria, ?Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, California, USA, “Institute for the Study of Earth, Oceans, and Space, University of New Hampshire, Durham, New Hampshire, USA, '°Southwest Research Institute, San Antonio, Texas, USA Abstract We present multipoint observations of earthward moving dipolarization fronts and energetic particle injections from NASA’s Magnetospheric Multiscale mission with a focus on electron acceleration.
+From acase study during a substorm on 02 August 2015, we find that electrons are only accelerated over a finite energy range, from a lower energy threshold at ~7—9 keV up to an upper energy cutoff in the hundreds of keV range.
+At energies lower than the threshold energy, electron fluxes decrease, potentially due to precipitation by strong parallel electrostatic wavefields or initial sources in the lobes.
+Electrons at energies higher than the threshold are accelerated cumulatively by a series of impulsive magnetic dipolarization events.
+This case demonstrates how the upper energy cutoff increases, in this case from ~130 keV to >500 keV, with each dipolarization/injection during sustained activity.
+We also present a simple model accounting for these energy limits that reveals that electron energization is dominated by betatron acceleration.
+1.
+Introduction Earth's magnetosphere is constantly being driven by interactions with the solar wind.
+A global convection cycle [Dungey, 1961], involving magnetic reconnection at sites along the dayside magnetopause under southward interplanetary magnetic field (IMF) conditions [e.g., Burch et al., 2016] and in the magnetotail on the nightside [e.g., Wieroset et al., 2002], drives plasma throughout the magnetospheric system.
+Due to the turbulent nature of the solar wind, such reconnection is rarely steady state but instead, typically occurs in bursts that sporadically load Earth’s magnetotail with magnetic flux.
+This loading subsequently results in sporadic and localized reconnection in the magnetotail, the manifestations of which include plasmoids ejected antiearthward [e.g., Kiehas et al., 2012], bursty bulk flows (BBFs) [Angelopoulos et al., 1992], and dipolarization fronts [e.g., Runov et al., 2012] that travel earthward, and ultimately—provided sufficient instability in the system—auroral substorms [e.g., Angelopoulos et al., 2008].
+Energetic particle injections are one of the classic signatures of substorm activity [e.g., Baker et al., 1982; Reeves et al., 1996; Sergeev et al., 1998], which involves the sudden enhancement of tens to hundreds of keV ion and/or electron intensities in the near-Earth plasma sheet [e.g., Gabrielse et al., 2014] and inner magnetosphere (i.e., at and inside of geosynchronous orbit (GEO)) [e.g., Birn et al., 1998; Gkioulidou et al., 2015; Turner et al., 2015].
+After reconnection occurs in the magnetotail, particles may be accelerated by interactions with the earthward propagating reconnection exhaust jet (i.e., dipolarization front) [e.g., Birn et al., 2012, and references therein].
+The most successful models of energetic particle injections to date involved strong azimuthal electric fields associated with dipolarization fronts propagating earthward in the magnetotail [e.g., Liet al., 1998; Yang et al., 2011; Gabrielse et al., 2012; Birn et al., 2013, and references therein].
+Test-particle simulations in such fields established that a strong electric field in the +y direction (in GSE or GSM coordinates) accelerates ions and electrons that are drifting in the tail.
+For electrons, this acceleration typically conserves the ENERGY LIMITS OF ELECTRON INJECTIONS 7785 QWAG U Geophysical Research Letters 10.1002/2016GL069691 TURNER ET AL.
+first adiabatic invariant, such that particles move inward to lower L shells while interacting with the electric field.
+Electrons’ second adiabatic invariants are also conserved, so electrons experience Fermi acceleration in addition to betatron.
+However, betatron acceleration in the magnetotail’s geometry is theoretically proportional to the change in B,, while Fermi acceleration should be proportional to B,’>, even with a change in the perpendicular components of B, and thus, it is expected that betatron dominates over Fermi acceleration for injections of energetic electrons [e.g., Tverskoy, 1969; Artemyev et al., 2012, and references therein].
+Due to their frequency of occurrence [e.g., Birn et al., 1998; Gabrielse et al., 2014] and relation to wave generation in the inner magnetosphere, energetic particle injections are considered an important process concerning the sources of radiation belt electrons [e.g., Meredith et al., 2002; Turner et al., 2015] and the buildup of the storm time ring current [Gkioulidou et al., 2015].
+How electrons injected into the inner magnetosphere can be accelerated to energies exceeding 1 MeV, as reported by Dai et al.
+[2015, and references therein], remains an important outstanding question.
+In this letter, we present a case study from NASA's latest Heliospheric mission to develop a better understanding of the nature and energy limits of energetic electron injections associated with substorm activity.
+2.
+Data NASA's Magnetospheric Multiscale (MMS) mission [Burch et al., 2015] consists of four identically instrumented spacecraft that were launched into 24h period, highly elliptical, near-equatorial orbits on 12 March 2015.
+MMS spacecraft are instrumented with a suite of plasma, field, waves, and energetic particle instruments that enable observations of plasma processes at unprecedented temporal resolution.
+Additionally, due to the four-point nature of the mission, in which the spacecraft are held in a tetrahedron formation of variable spacing (tens to hundreds of kilometer) through particular regions of interest, MMS has ushered in a new era of experimental space plasma physics at the electron kinetic scale.
+For this study, we employed data from the Energetic Particle Detectors (EPD) instrument suite [Mauk et al., 2015], FIELDS instrument suite [Torbert et al., 2014], and the Fast Plasma Instruments (FPI) [Pollock et al., 2016].
+In particular, we analyzed data from the Fly’s Eye Energetic Particle Spectrometers (FEEPS) [Blake et al., 2015] and the Energetic lon Spectrometers (EIS) [Mauk et al., 2015], which measure distributions of energetic electrons and ions, including composition, in the range from ~20 keV to >500 keV at a time resolution as high as once per 0.33 s (for FEEPS); the FP! Dual Electron Spectrometers and Dual lon Spectrometers, which capture several eV to ~30 keV electron and ion distributions and derived plasma moments with temporal resolution of 30ms and 150ms for electrons and ions, respectively; the fluxgate magnetometers (FGM), which measure the local DC magnetic field sampled at 128 Hz [Russell et al., 2014]; and the double probe electric field instruments, which measure the local electric field from DC to 100 kHz [Torbert et al., 2014].
+For this study, we used only periods with burst mode data, when the instruments were all operating at their best temporal resolution.
+To provide a more global context for the MMS observations, we also examined data from NASA’s Time History of Events and Macroscale Interactions during Substorms (THEMIS) [Angelopoulos, 2008] and Van Allen Probes [Mauk et al., 2012] missions and the Los Alamos geosynchronous satellites (LANL-GEO), as described below.
+3.
+Event Overview On 02 August 2015 at around 01:05 UT, the four MMS spacecraft were in a tetrahedron formation with interspacecraft separation of ~40 km (see Figures 1f and 1g) at ~20:30 magnetic local time (MLT) on the inbound half of their orbit.
+Around this time, the solar wind was flowing at ~580 km/s with a density of ~2cm~°, and the IMF was, on average, southward with a magnitude of ~6 nT.
+With a minimum of only —19 nT between 00:00 and 06:00 on 02 August, the SYM-H index revealed that there was no geomagnetic storm in progress during this period (Figure 1e).
+However, the AE index (Figure 1d) revealed that a period of substorm activity started at ~00:35 (potentially initiated by a southward turning of the IMF around 10 min before) and persisted until ~04:00 UT.
+At 01:05 UT, the AE index was 622 nT and the AL index was —396nT.
+See additional plots of the solar wind and geomagnetic indices during this period in the Supporting Information S1.
+Providing an overview of the period of interest for this study, Figures 1a—1c show plasma quantities observed by all four MMS spacecraft, while Figure 2a shows electron fluxes and select plasma vector quantities from MMS-1.
+Figure 1 also details some of the multipoint observation capability of the MMS constellation.
+All four spacecraft observed intermittent fluctuations in the total magnetic field strength, an overall ENERGY LIMITS OF ELECTRON INJECTIONS 7786 QWAG U Geophysical Research Letters 10.1002/2016GL069691 TURNER ET AL.
+dipolarization (as evident in the increase in the +z component of the magnetic field by a factor of ~2.7 over the 8 min period shown in Figure 1) that occurred as a series of sudden and abrupt changes between 01:06 and 01:10 rather than a gradual change, and fast ion flows between 01:05 and 01:07 UT, often peaking at >200km/s and consistent with BBFs.
+From EIS observations (see the supporting information), energetic (>20 keV) proton enhancements started around 00:25 and continued through the period of interest shown in Figure 1.
+From Figure 2a, MMS observed a series of magnetic field dipolarizations, in which the B, component became stronger at the same time as B, and/or By, became weaker.
+Several of the clearer signatures occurred at: 01:06:13, 01:06:25, 01:07:06, 01:08:16, and 01:09:22 (vertical gray lines in Figure 2a).
+As expected for dipolarization fronts in the magnetotail [e.g., Runov et al., 2012, and references therein], the dipolarization signatures were preceded or accompanied by enhanced ion flows in the +x direction (i.e., earthward) and the corresponding enhancements in the +y component of the convective electric field.
+From the electron energy spectra, it is also evident that each of these dipolarizations resulted in a strong enhancement of the energetic electron population (i.e., > ~20 keV), which increased by upward of 3 orders of magnitude over the full series of these dipolarizations.
+EIS electron intensities were consistent with those shown from FEEPS in Figure 2.
+From the FEEPS data shown in Figure 2a-i, it is clear that each of the >50 keV electron enhancements was dispersionless in nature, with all energies affected starting to increase at essentially the same time.
+This is consistent with MMS actually observing the dipolarization fronts that are responsible for the injections [e.g., Gabrielse et al., 2014].
+Furthermore, the upper energy cutoff on the enhancements increases over the period shown; that is, with each new injection, the high-energy limit of injected electrons increases.
+This has important implications that we will discuss in the following sections.
+Finally, from THEMIS observations (see the supporting information), the three THEMIS spacecraft observed the first signs of activity in the form of dispersed energetic (>20 keV) electron injections starting at ~00:48 UT; at least two dispersed electron injections were observed between 00:48 and 01:00 UT.
+Later, enhancements of both energetic electrons and ions were observed after ~01:15 UT, and there was no clear sign of dipolarization in the magnetic field, which was already strongly dominated by the +z component (note that THEMIS was on the dayside).
+The two Van Allen Probes (RBSP A and RBSP B) were inbound from apogee at the time of interest, with RBSP B ahead of RBSP A along their near-common orbit.
+There is evidence of a dispersed electron injection observed by RBSP A starting at around 01:13 at energies up to 187 keV; this injection signature revealed a dispersion of >30 min between 55 and 187 keV electrons, indicating that the electrons drifted significantly in azimuth around the system prior to reaching the spacecraft.
+The LANL-GEO satellites observed three energetic electron injections between 00:30 and 01:30 at energies between 50 and 600 keV (see supporting information).
+Based on the dispersion signatures, LANL-97A was nearest to the injection sites for the first two injections and 1994-084 was nearest to the third, which occurred at ~01:10 UT.
+LANL-97A and 1994-084 were located in GEO (near-equatorial at 6.6 Re) at ~01:30 MLT and 20:30 MLT, respectively, at 01:00 UT.
+4.
+Analysis and Interpretation Based on the combination of THEMIS, LANL-GEO, and MMS observations, the substorm activity in the plasma sheet apparently started in the postmidnight MLT sector sometime around ~00:25 and then spread duskward across the tail to MMS by around 01:06 UT.
+The evidence for this includes energetic ion enhancements observed at MMS around 00:25 with no dipolarization signatures, consistent with ions drifting from further eastward; two near-dispersionless electron injections observed by LANL-97A in GEO at ~01:00 MLT between 00:30 and 00:50 UT; dispersed electron injections observed by THEMIS starting at ~00:48 UT; dispersionless electron injections and dipolarizations observed by MMS starting around 01:06 UT; and a near-dispersionless electron injection observed at 1994-084 in GEO at ~20:30 MLT around ~01:10 UT.
+With the combination of observations, itis apparent that only avery small subset of energetic particle injections in the plasma sheet penetrate into the inner magnetosphere, which is consistent with previous results [e.g., Sergeev et al., 2012].
+Of the at least six electron injections observed by MMS and THEMIS, only three were observed by the LANL-GEO spacecraft and only one by Van Allen Probes inside of GEO.
+Furthermore, based on the MMS observations, the greater dipolarization consisted of a series of many smaller dipolarization events that occurred in close succession.
+Employing the close, four-point nature of the MMS constellation and multispacecraft analysis techniques [Schmid et al., 2015, and references therein], we were able to calculate the propagation velocities of the five ENERGY LIMITS OF ELECTRON INJECTIONS 7787 QWAG U Geophysical Research Letters 10.1002/2016GL069691 TURNER ET AL.
+FGM and FPI from all MMS and OMNI data f) -0.36 | | | , a) 50 MMS-1 01:04 - 01:14 -0.37' ru -0.38 b) 4 NP -0.39} 0.4} tl Cc) -0.41 ‘9g 5.96 5.94 5.92 5.9 5.88 G > Cc ae) g) 88 d) .
+8 8.85; xe) £ — < a uw 8.9; G) e) > 8.95; hhmm 0106 0108 0110 0112 -8 98 5.96 -5.94 -5.92 -5.9 5.88  02 Aug 2015  Xose [RL] Figure 1.
+(a—c) Magnetic field magnitudes and the ZGsjj component from the FGM and partial ion velocity moments from FPI from all four spacecraft, corresponding to different colors as labeled.
+Note that the ion velocity magnitude is affected by contaminating background after ~01:06 UT.
+(d and e) The AE, AL, AU, and SYM-H indices.
+(f and g) A zoom-in on the spacecraft locations in the GSE coordinate system in units of Earth radii (Re).
+Symbols (diamond, triangle, circle, and square for MMS-1, MMS-2, MMS-3, and MMS-4, respectively) are shown at 1 min intervals from 01:04 (solid symbol) to 01:14 on 02 August 2015.
+Figure 1f shows projections onto the x-z plane, while Figure 1g shows projections on to the x-y plane.
+The colors correspond to those shown in Figures 1a—1c for each spacecraft.
+clearest dipolarization front signatures assuming a planar front on the scale size of the spacecraft separation (~40 km).
+As detailed in Schmid et al.
+[2015], velocities are calculated using timing analysis from cross correlation of the data from the four spacecraft.
+The timing analysis provides a good estimate of the propagation properties of the dipolarization signatures.
+This analysis revealed that the fronts were all traveling in the +x direction in GSM coordinates with the following velocities: [304, 58, 205], [299, 219, 80], [281, —44, 212], [193, 63, 187], and [628, 170, 202] km/s from the timing analysis for the fronts at 01:06:13, 01:06:25, 01:07:06, 01:08:16, and 01:09:22 UT, respectively.
+Note that these fronts appeared to have been propagating faster than the corresponding ion convection speeds shown in Figure 2; however, the observed ion velocity magnitudes are partial moments from FPI only and were also contaminated by background radiation after 01:06 UT.
+All five front velocities also had significant y and z components, which likely resulted from the geometry of the dipolarizing field lines in the southern half of the magnetotail current sheet (note that B, is negative throughout this period).
+See the supporting information for additional details on these calculations and their results.
+Since electrons in the tail drift earthward (i.e., in the +x direction) at soeeds independent of energy but drift azimuthally at soeeds dependent on energy [e.g., Birn et al., 2013], the y and z components of these propagation velocities are significant, as they may result in preferential electron acceleration at specific energies and pitch angles due to drift resonance.
+Electron distribution functions from a combination of FP] and FEEPS data are shown in Figure 3 (see also the supporting information for the full distributions ranging from 10 eV to 600 keV).
+These distributions reveal the evolution of the electron distribution function throughout the active period from 01:04:00 to 01:09:40 as observed by MMS-1.
+From this figure, several main features are of interest here: (i) there is a threshold energy between 7 and 9 keV above which electrons are accelerated and below which electrons are decelerated or lost, (ii) there is an upper energy cutoff on each of the injections/enhancements that increases to higher energy with each new injection, and (iii) electrons with energy >50 keV are predominantly accelerated in the perpendicular direction, while electrons with energy <9 keV experience the most cooling and/or loss in the perpendicular direction (Figure 3b).
+Note that observations here were made off the magnetic equator, ENERGY LIMITS OF ELECTRON INJECTIONS 7788 AG U Geophysical Research Letters 10.1002/2016GL069691 TURNER ET AL.
+a-i) MMs- 1 FEEPS, FPI, FGM, and FIELDS _ o «00 TTT aor 16 3 OS | i 10, s Oo © 10 ° fil x 10 v2 ~~ Uw 1 oy OL 10, © a-il) oS 10 & O _= am ® 10 ui iL 1g a-ili) > Lu 7p) a > a-iv) Lu 7) o mM a-v) x< <a Lu 7p) a-vi) & Lu Lui hhmm 7 06 0108  02 Aug 2015  b-i) MMS-1 FIELDS ‘'N L b-ii) EAC [mV/m] -100 hhmm 0100 0105 0110  02 Aug 2015  Figure 2.
+(a-i to a-vi) FEEPS, FPl, and FGM data from MMS-1 during the period of interest.
+From top to bottom, the panels show FEEPS differential flux energy distributions, with flux in color (log scale) plotted versus energy and time; FPI energy flux distributions in the same format (note different units); ion soeed (black) and velocity components (colors); magnetic field magnitude (black) and vector components (colors); electric field magnitude (black) and vector components (colors) calculated using —V x B; and the parallel component of the fast survey electric field (black) with an estimate of the error in magenta, which is a weighted average of the axial electric field residuals from the effects of spacecraft charging, a cold plasma wake, and harmonics of the satellite spin tone.
+For the three vector plots, components are shown in the GSE coordinate system and colors correspond to the directions labeled on the side of the plots.
+Note that the ion velocity magnitude is affected by contaminating background after ~01:06 UT.
+Note too that for the magnetic field plot, the x component has been multiplied by —1 to limit the y axis range and reveal more detail.
+The vertical gray lines mark the clearest dipolarization events discussed in the text.
+(b-i to b-ii) Observations of the electric fields and waves observed by the FIELDS instrument suite on MMS-1.
+From top to bottom are the electric field power spectral density (in color) frequency spectrogram; electric field vector in field aligned coordinates (FAC) from the fast survey data (128 Hz).
+The white solid and dashed lines in Figure 2b-i are the electron cyclotron frequency (fce) and Vafce, respectively.
+For Erac, the magnetic field vector (B) corresponding to each electric field vector was used to define “P1” as the component perpendicular to B and in the spacecraft spin plane, “||” as the component parallel to B, and “P2” that completes the right-handed system.
+ENERGY LIMITS OF ELECTRON INJECTIONS 7789 QWAG U Geophysical Research Letters 10.1002/2016GL069691 MMS-1 Electron Energy Distributions: a) Omni-directional Averages b) a —resolved Averages = 5 = = i 3g > > 0) oO 2 2 O O -2 = ot =e F : = = ~~ 04:00 - 05:00/90deg ” 2p) & a c -V/- 04:00 - 05:00/O0deg A —04:00 - 05:00 © 4974) |'V 04:00 - 05:00/180deg @ __4| ——06:00 - 06:10 w ~- 06:30 - 06:40/90deg & 10 | |—06:10 - 06:20 3 -X-06:30 - 06:40/0deg a —06:30 - 06:40 a - 06:30 - 06:40/180deg o —06:50 - 07:00 ® 49-5 | = 08:10 - 08:30/90deg © _, 07:00 - 07:20 w -1-08:10 - 08:30/0deg 4 10 + 08:10 - 08:30 a ~) 08:10 - 08:30/180deg ~09:00 - 09:20 ~ 09:20 - 09:40/90deg ~ 09:20 - 09:40 10 °||  09:20 - 09:40/0deg —*- FEEPS 1-count  09:20 - 09:40/180deg -8 : : 10 i i i i ii it i i i i i_iiil i i i i joi i i 10° 10' 10° 10' ; Energy [keV] Energy [keV] c) ; Percent Change in Electron Energy Distributions d) Renormalized Electron Energy Distributions | 5%04:30 to 06:05 5 © Initial - /-©-04:30 to 06:15) 10 + 1,.01:06:13] | 10°- |? 04:30 to 06:35) - & 2.
+01:06:25 - |--04:30 to 06:55 € SS ohoete L.
+.
+.
+(@) (6) .
+.
+.
+F |--04:30 to 07:10 > 40° | Bene eeas et 10°.
+| 04:30 to 08:20 3 : - | 04:30 to 09:10 = _ 04:30 to 09:30 =e oF —— >10°} | rT 2 = © o Oo he -4 - @ 10 | | jor op) ® Yn) aad fal 10 i | sg « 2 | i i i i 10 i i i i_iiiitl i i i i iiiil 10° 10° 10' i 0) Energy [keV] Energy [keV] Figure 3.
+Electron phase space density distributions measured by FPI and FEEPS on MMS-1.
+(a) Omnidirectional average distributions averaged over the time ranges shown in the legend.
+Note that the times are listed in minutes and seconds (mmiss); all of them have the same hour, 01:00 UT.
+The error bars are +10 from the averaging, and the black line with x marks shows the 1 c/s level for the FEEPS instruments.
+(b) A subset of the distributions resolved by pitch angle, with those for 90° electrons shown with solid lines and those for 180° and 0° electrons shown with dotted and dashed lines, respectively.
+Note that distributions from only four of the time periods are shown in Figure 3b.
+(c) The percent-difference between the initial distribution (01:04:00 - 01:05:00 UT) and each subsequent distribution (see legend for corresponding times) as a function of energy.
+The red curves show where the percent difference was negative; these values have been multiplied by —1 to show on the logarithmic scale.
+(d) The electron distributions from Figure 3a (in corresponding colors) but renormalized using the simple model from equations (1) and (2).
+The initial distribution is the same as that from 04:00 — 05:00 in Figure 3a, but the remaining curves, which correspond to the distributions during/after each of the five identified dipolarizations/injections, have been renormalized using the following model parameters: émin = [4, 6, 8, 10, 12] keV; émax =[150, 200, 320, 500, 600] keV; Bif=[16, 21, 27, 25, 33] nT; BZ;= 11 nT.
+The five values given correspond to each of the distributions from injections 1 to 5, respectively, and these values are a posteriori approximations from the actual MMS observations during this series of events.
+TURNER ET AL.
+such that local 90° pitch angles correspond to equatorial pitch angles estimated in the range of 45 to 60°.
+Figure 3c more clearly shows the energy dependence of the acceleration and loss, with electrons somewhere in the range of 30 to 50 keV experiencing the strongest percent increase from the acceleration: over the less than 6 min period examined, the 50 keV electron population increased by approximately 2 x 10°%.
+The amount of energy an electron gains from its interaction with a dipolarization front relates directly to the amount of time it spends drifting through the azimuthally confined region of enhanced electric field that selfconsistently corresponds to the earthward propagating dipolarization of the magnetic field [e.g., Gabrielse et al., 2012; Birn et al., 2012, 2013].
+Since electrons should conserve their first and second adiabatic invariants ENERGY LIMITS OF ELECTRON INJECTIONS 7790 QWAG U Geophysical Research Letters 10.1002/2016GL069691 TURNER ET AL.
+in this process, electrons that gain energy in this way will also move earthward to regions of stronger magnetic field (B, in particular, as shown in Tverskoy [1969]).
+Since electrons are also drifting in azimuth through the tail, the limit to the amount of energy they can gain depends on the amount of time they spend in this azimuthally limited, earthward surging pulse of enhanced electric field.
+Considering this model and the observed energy limits and changes in B, corresponding to each of the dipolarizations/injections that occurred in this event, we next show how only the ~10 to ~100 keV electrons were accelerated by every dipolarization: below 10 keV, losses dominated over any acceleration, while above 100 keV, the upper energy cutoff limited those electrons that were affected such that higher energy electrons were accelerated in only a subset of the dipolarizations/injections.
+By recognizing an upper energy cutoff that changes in time with each dipolarization/injection, betatron acceleration corresponding to the observed changes in B, can be used to explain the majority of the enhancements above the lower energy threshold, émin, using the following model: ef = g(e)& — Emin (1) where ¢; and é; are the electron initial and final energies before and after each dipolarization/injection, Emin is the low energy threshold above which acceleration dominates over losses, and g(e) is a piecewise function in the following form: Bz f < g(e)= 2 Bz ™ (2) 1, E > Emax where B,; and B,, are the initial and final values of the z component of the local magnetic field in each dipolarization and émax is the upper energy cutoff, which changes with each new dipolarization and corresponding injection of accelerated electrons.
+Taking such a model into account with the a posteriori knowledge of the energy limits for each injection, émin and Emax, We Can produce a series of renormalized energy distributions that do not change significantly in time during the series of injections observed between 01:04:00 and 01:09:40 UT, as shown in Figure 3d.
+All of these renormalized distributions converge upon the initial distribution, which implies that the electron distributions were adiabatically uniform (i.e., the phase space density distributions for fixed first adiabatic invariant were approximately flat) over the affected regions of the near-Earth plasma sheet.
+The only place that this model does not fit well is at the highest energies, >100 keV, where the initial distribution is near instrument background levels (Figure 3a) and thus artificially higher than the actual distribution at those energies.
+Such a model with an émax that increases with each new dipolarization/injection event is also consistent with the power law index of the >50 keV electron distribution actually getting softer over time.
+From Figure 3a, the power law index for 50-200 keV electrons evolved from —4.0 for the 01:04:00 - 01:05:00 distribution to —5.9 for the 01:09:20 - 01:09:40 distribution.
+This is consistent with the energy dependence of the acceleration and how the electrons at lower energies experienced more acceleration than those at higher energies: those electrons at energies between 50 keV and ~130 keV (i.e., émax for the first injection around 01:06:13 UT) were accelerated in every dipolarization/injection event, while those at energies higher than each ém a, were not.
+Though the model employed here uses only local observations of the magnetic field and electron distributions, it is still capable of describing the evolution of electrons injected from further down tail in the plasma sheet.
+Model/simulation results have shown that strong azimuthal electric fields (Ey) in dipolarization fronts surging earthward transport energetic ions and electrons earthward with them [eg., Li et al., 1998; Gabrielse et al., 2012; Birn et al., 2012, 2013, 2014].
+For the event examined here, the observations revealed that the series of dipolarization fronts were indeed surging earthward at hundreds of km/s in the plasma sheet with strong corresponding azimuthal electric fields.
+Thus, reason dictates that the suprathermal electrons observed in the tail should have been transported earthward when they encountered the observed dipolarization fronts, and the acceleration process responsible for enhancing electrons between the threshold and cutoff energies was not a local process.
+Next, as shown from back tracing with test-particle simulations [e.g., Li et al., 1998; Gabrielse et al., 2012; Birn et al., 2014], different energy electrons originate from different initial locations in the magnetotail.
+This framework leads to a major implication of our results: the phase space density distributions of electrons as a function of the first adiabatic invariant, f(Mu), must have ENERGY LIMITS OF ELECTRON INJECTIONS 7791 QWAG U Geophysical Research Letters 10.1002/2016GL069691 TURNER ET AL.
+been relatively uniform (i.e., there were no strong gradients) over a broad range of the plasma sheet prior to the series of dipolarization/injection events.
+In that case, electrons could be transported to the MMS location from a variety of initial locations with no major changes to the initial distribution when only accounting for betatron acceleration.
+To investigate the decrease in the distribution function of electrons with energies below the threshold at around 7-9 keV, we examined the electric field observations from MMS-1 as shown in Figure 2 (see also the supporting information).
+The broadband activity in the spectrograms are the result of the Fourier transform on trains of electron holes [e.g., Ergun et al., 2001] evident in the burst waveform data.
+MMS also observed strong electrostatic wavefield components parallel to the background magnetic field.
+These strong parallel electric fields occurred over a range of frequencies, with signals on the order of the electron cyclotron frequency (approximately hundreds of hertz to kilohertz) carried on lower frequency (5-10 Hz) waves; this and the large-amplitude nature of these waves imply that nonlinear effects were at work.
+The largestamplitude signals (tens of mV/m) are those at the lowest frequencies (see the supporting information).
+The strong parallel electric field signatures are entirely limited to the period of the dipolarizations and electron injections observed at MMS: 01:07:00 - 01:09:30 UT, as is clearest in the longer time period shown in the plots in Figure 2b.
+From Van Allen Probes observations, Malaspina et al.
+[2015] showed that such parallel electric field structures and nonlinear waves are well correlated to plasma boundaries, and Mozer et al.
+[2015, and references therein] reviewed how such parallel electric field structures (aka, time domain structures) can result in field-aligned distributions and enhanced precipitation into the atmosphere for hundreds of eV to a few tens of keV electrons.
+Based on this context, we speculate that the ~100 eV to ~10 keV electrons below the lower energy threshold here may have been predominantly scattered toward the loss cone by the strong parallel electric fields associated with the dipolarization fronts and corresponding injections.
+Thus, these nonlinear electric field structures may play a critical role in setting the lower energy threshold for energetic electron injections; we present this here as a hypothesis to be tested in future studies.
+However, it must also be noted that in test-particle simulations by Birn et al.
+[2014], they found a similar threshold energy at ~10 keV, below which the flux of electrons as a function of energy decreased in dipolarization/injection events.
+They attributed this flux decrease not to loss but to these electrons having originated in the plasma sheet boundary layer and/or lobes prior to the injection, where there was insufficient source of phase space density to result in an enhancement after injection.
+5.
+Conclusions The results presented here provide a new perspective on a well-studied and important phenomenon: energetic electron injections related to substorm activity.
+This study reports on the first in-depth observations and analysis of energetic electron injections from MMS.
+For the event studied here, we observed a series of dipolarization fronts and corresponding injections with unprecedented resolution electron data and studied the evolution of the electron distribution function.
+In summary, the main conclusions from this case study are as follows: 1.
+The global dipolarization associated with the substorm activity in this event was composed of a complex substructure consisting of many, smaller, earthward moving dipolarization fronts.
+This is consistent with the concept of dipolarizing flux bundles being the building blocks of the substorm current wedge [e.g,., Liu et al., 2014; Sergeev et al., 2014] and recent high-resolution global simulations revealing fine-scale structure in the tail during substorm activity [e.g., Wiltberger et al., 2015].
+With the four-point nature of the MMS constellation, we were able to calculate the propagation speeds and directions of five of the clearest dipolarization fronts.
+This revealed that they were all traveling generally earthward at speeds between 276 and 681 km/s.
+As reported previously [e.g., Gabrielse et al., 2012; Sergeev et al., 2012], energetic electron injections are impulsive in nature, occurring during each BBF and corresponding dipolarization front, and only a small subset of all injections in the plasma sheet are able to penetrate inside of GEO.
+2.
+There is an upper energy cutoff on the betatron and Fermi acceleration of electrons in the hundreds of keV range at MMS during this event.
+This cutoff increases over time with ongoing activity, with the result that the electron energy spectrum actually becomes softer over multiple, successive injections despite there being strong enhancements in the range from ~10 keV up to the upper energy cutoff.
+In this one case, the upper energy cutoff started around 130 keV and increased to over 500 keV over at least five distinct dipolarizations/injections, and the net acceleration from all injections was most effective for ENERGY LIMITS OF ELECTRON INJECTIONS 7792 QWAG U Geophysical Research Letters Acknowledgments The authors are thankful to all of the MMS, THEMIS, Van Allen Probes, ACE, Wind, and OMNI teams for making their data available to the public.
+In addition to coauthors’ contributions, we thank from THEMIS, K.H.
+Glassmeier, U.
+Auster, and W.
+Baumjohann (under contract 50 OC 0302); D.
+Larson and R.
+P.
+Lin; and C.
+W.
+Carlson and J.
+P.
+McFadden for FGM, SST, and ESA data, respectively; from Van Allen Probes, C.
+Kletzing and team for EMFISIS data; from ACE, Wind, and OMNI, J.H.
+King, N.
+Papatashvilli, and team for OMNI solar wind data; the SPEDAS team and contributors for their open source library of data analysis tools; and NASA CDAWeb and mission specific online databases.
+MMS data are available at <https://lasp.colorado.edu/ mms/sdc/>; data from this particular event, which occurred during commissioning, may be requested from the authors or from the SDC.
+THEMIS data and SPEDAS tools are freely available at <http://themis.ssl.berkeley.edu/index.
+shtml>.
+Van Allen Probes data are available at <http://rbspgway.jhuapl.
+edu/data_instrumentationSOC>.
+This work was primarily supported by funding from NASA (MMS contract NNGO4EB99C) and research supported by the International Space Science Institute’s International Teams program.
+TURNER ET AL.
+10.1002/2016GL069691 electrons between 30 and 50 keV.
+The pitch angle distributions are consistent with theory, showing that betatron dominates over Fermi acceleration.
+The upper energy cutoff is consistent with a limit on acceleration by the electric field associated with the earthward propagating dipolarization front [e.g., Birn et al., 2013], and the increase in the cutoff with each new dipolarization/injection implies that the azimuthal extent of the dipolarization fronts became wider with sustained activity during this case.
+3.
+There is a threshold energy, émin, around 7-9 keV, below which electron flux dramatically decreased.
+This threshold energy is probably a transition point between where acceleration dominates (¢ > min) and where cooling and/or losses dominate (é¢ < min).
+We speculate that electrons below the threshold energy may be scattered toward the atmospheric loss cone by nonlinear parallel electrostatic wavefields, which were also observed here and were apparently associated with the dipolarizations/injections.
+Alternatively, electrons at these energies may trace back to initial locations in the plasma sheet boundary layer or lobes where the distributions may provide an insufficient source to result in any enhancement of these particles, as discussed in Birn et al.
+[2014].
+4.
+Asimple model (equations (1) and (2)) can be used to explain most of the observed evolution of the electron distribution function during the series of multiple dipolarizations and corresponding injections; this model invokes only betatron acceleration and the observed upper and lower energy limits as described here.
+The results from this event tie many results from previous studies [see Birn et al., 2012, and references therein] together in one clear case, a case which also provides implications that shed new light on the complex nature of substorms and reconnection in the magnetotail while highlighting the potential for MMS to push the limits of our understanding of these important events in Earth’s magnetosphere.
+This case demonstrated that each of a series of dipolarizations accelerates electrons over only a finite energy range, with subsequent fronts accelerating electrons above the upper energy cutoffs reached by previous fronts.
+The injection threshold and cutoff energies examined here are also qualitatively consistent with previous results from simulations [e.g., see Figure 16 from Birn et al., 2012, 2014].
+The evolution of the electron spectrum clearly showed the cumulative effects of acceleration, with electron phase space density increasing predominantly due to betatron acceleration at energy > ~10 keV.
+This result has important implications for the effectiveness of energetic particle injections for supplying the inner magnetosphere with a source of tens to hundreds of keV electrons.
+In future studies, it will be of interest to compare how the threshold energy and upper energy cutoffs change from event to event, as well as for isolated and localized dipolarization events that occur independent of a full substorm, and examine further details on the macroscopic (MHD scales) and microscopic (localized nonlinear waves at kinetic scales) electric fields that dictate the upper and lower energy limits for energetic electron injections.
+.

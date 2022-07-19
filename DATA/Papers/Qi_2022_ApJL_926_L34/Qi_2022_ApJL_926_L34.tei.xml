@@ -1,0 +1,1192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Magnetic Flux Transport Identification of Active Reconnection: MMS Observations in Earth&apos;s Magnetosphere</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2022-02-23">2022 February 23</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Yi</forename><surname>Qi</surname></persName>
+							<email>yi.qi@lasp.colorado.edu</email>
+							<idno type="ORCID">0000-0002-0959-3450</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Tak</forename><forename type="middle">Chu</forename><surname>Li</surname></persName>
+							<idno type="ORCID">0000-0002-6367-1886</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Christopher</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+							<idno type="ORCID">0000-0003-1639-8298</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Ying-Dong</forename><surname>Jia</surname></persName>
+							<idno type="ORCID">0000-0002-1631-291X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Mark</forename><surname>Hubbert</surname></persName>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 Department of Earth, Planetary, and Space Sciences, University of California, </orgName>
+								<address><addrLine>Los Angeles, CA, USA</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, </orgName>
+								<address><addrLine> Boulder, CO, USA Hanover, NH, USA</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 Department of Physics and Astronomy, Dartmouth College,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Magnetic Flux Transport Identification of Active Reconnection: MMS Observations in Earth&apos;s Magnetosphere</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2022-02-23">2022 February 23</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">9A20B45FDD420BBA260C22EB3E94C91E</idno>
+					<idno type="DOI">10.3847/2041-8213/ac5181</idno>
+					<note type="submission">Received 2021 November 6; revised 2022 January 24; accepted 2022 January 27;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T13:57+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Solar magnetic reconnection (1504)</term>
+					<term>Solar-terrestrial interactions (1473)</term>
+					<term>Space plasmas (1544)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Magnetic reconnection plays an important role in converting energy while modifying field topology. This process takes place under varied plasma conditions during which the transport of magnetic flux is intrinsic. Identifying active magnetic reconnection sites with in situ observations is challenging. A new technique, Magnetic Flux Transport (MFT) analysis, has been developed recently and proven in numerical simulation for identifying active reconnection efficiently and accurately. In this study, we examine the MFT process in 37 previously reported electron diffusion region (EDR)/reconnection-line crossing events at the day-side magnetopause and in the magnetotail and turbulent magnetosheath using Magnetospheric Multiscale measurements. The coexisting inward and outward MFT flows at an X-point provides a signature that magnetic field lines become disconnected and reconnected. The application of MFT analysis to in-situ observations demonstrates that MFT can successfully identify active reconnection sites under complex varied conditions, including asymmetric and turbulent upstream conditions. It also provides a higher rate of identification than plasma outflow jets alone. MFT can be applied to in situ measurements from both single-and multi-spacecraft missions and laboratory experiments.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Magnetic reconnection is a fundamental plasma process. During reconnection, the magnetic field lines change connectivity <ref type="bibr" target="#b9">(Dungey 1961)</ref> and facilitate explosive energy conversion from magnetic to particle kinetic and thermal energies resulting in significant heating and acceleration (e.g., <ref type="bibr" target="#b40">Treumann &amp; Baumjohann 2013)</ref>. Reconnection is ubiquitous in the universe. It occurs under various conditions, in both quiet and dynamic environments. Reconnection has been observed throughout the heliosphere, including the solar corona <ref type="bibr" target="#b36">(Smartt et al. 1993;</ref><ref type="bibr" target="#b43">Xue et al. 2016</ref>) and solar wind <ref type="bibr" target="#b15">(Gosling et al. 2005;</ref><ref type="bibr" target="#b11">Fargette et al. 2021;</ref><ref type="bibr" target="#b29">Phan et al. 2020)</ref>. Near Earth, the magnetosphere provides a highly accessible natural laboratory for detailed measurements of reconnection events, which have been recently made by the Magnetospheric Multiscale (MMS) mission <ref type="bibr">(Burch et al. 2016</ref><ref type="bibr" target="#b21">, Lavraud et al. 2016;</ref><ref type="bibr" target="#b33">Russell et al. 2017)</ref> Reconnection can couple multiple scales <ref type="bibr" target="#b18">(Hesse &amp; Cassak 2020)</ref>. The center of reconnection is the topological X-point/X-line, where the magnetic field both annihilates and reconnects. Around this site is a region on electron scales, known as the electron diffusion region (EDR), where both electrons and ions violate the frozen-in condition and are no longer dynamically coupled to the magnetic field <ref type="bibr" target="#b28">(Ng et al. 2011;</ref><ref type="bibr" target="#b0">Bessho et al. 2014;</ref><ref type="bibr" target="#b34">Shay et al. 2016)</ref>. Signatures of this region include deviation of the electron and ion bulk flow speed from the E × B drift, the strong current carried mainly by electrons, electron energization, enhanced energy conversion, crescent-shaped agyrotropic electron velocity distribution functions, and a small radius of curvature of the magnetic field <ref type="bibr" target="#b2">(Büchner &amp; Zelenyi 1991;</ref><ref type="bibr" target="#b22">Le et al. 2013;</ref><ref type="bibr" target="#b42">Webster et al. 2018;</ref><ref type="bibr" target="#b38">Tang et al. 2019</ref>). The larger region in which the EDR is embedded is the ion diffusion region (IDR), where ions are decoupled from the magnetic field while electrons remain coupled. Here ions are energized, and electrons form super-Alfvénic outflow jets. The separation between ions and electrons results in Hall electric and magnetic fields <ref type="bibr" target="#b16">(Graham et al. 2016;</ref><ref type="bibr" target="#b13">Genestreti et al. 2020)</ref>. At larger scales, Alfvénic ion outflow jets can be observed.</p><p>The identification of active reconnection has been challenging. With high-resolution observations from MMS, we are able to see most of the above-mentioned signatures. However, these signatures may not be observed coherently. The trajectory of the spacecraft has a significant influence on the observational profile. In addition, the asymmetry of upstream conditions <ref type="bibr" target="#b34">(Shay et al. 2016)</ref>, the existence of finite guide fields <ref type="bibr" target="#b28">(Ng et al. 2011;</ref><ref type="bibr" target="#b1">Bessho et al. 2019)</ref>, and the strong shear flows <ref type="bibr" target="#b26">(Liu et al. 2018;</ref><ref type="bibr" target="#b24">Li et al. 2021)</ref> likely in a turbulent system may all distort the signatures, adding complexity to reconnection.</p><p>Recent studies have analyzed the transport of magnetic flux around an X-point in kinetic simulations <ref type="bibr" target="#b25">(Liu &amp; Hesse 2016;</ref><ref type="bibr" target="#b26">Liu et al. 2018</ref>). An innovative technique based on Magnetic Flux Transport (MFT) has been developed and carefully analyzed in a two-dimensional gyrokinetic simulation <ref type="bibr" target="#b24">(Li et al. 2021)</ref>, where MFT was applied to both symmetric and asymmetric reconnection X-point regions in turbulence generated by a double-vortex setup <ref type="bibr" target="#b23">(Li et al. 2016)</ref>. MFT successfully captures bidirectional inflows and outflows of magnetic flux around active X-points in a region significantly smaller than the region extended by plasma outflow jets or finite energy conversion, and thus the MFT method can locate the active reconnection sites more accurately than previous methods. In addition, although strong background shear flows distort the bidirectional plasma outflow jets, the velocity of MFT U ψ maintains its regular pattern, demonstrating that the MFT method is more robust than previous methods. Quadrupolar structures are observed in ∇ • U ψ at the X-points, supporting the active reconnection picture. Based on these numerical modeling results, MFT has the potential to be a more accurate indicator of active reconnection. This study applies this newly developed technique to MMS in situ observations and validates its functionality under various plasma conditions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Data</head><p>The data used herein is obtained by the MMS mission. This mission is designed to capture the elusively thin and fastmoving diffusion regions of reconnection with unprecedented time resolution <ref type="bibr" target="#b3">(Burch et al. 2015)</ref>. The orbits cover the most common reconnection locations on both the day side and night side of Earth's magnetosphere, a natural laboratory for in situ observations of reconnection. Four identical spacecraft form a tetrahedron configuration with spacecraft separation varying from ∼10 to 150 km which provides spatial resolution down to kinetic scales <ref type="bibr" target="#b12">(Fuselier et al. 2016)</ref>. The magnetic field is measured by the fluxgate magnetometer (FGM) <ref type="bibr" target="#b32">(Russell et al. 2016</ref>) at its highest sampling rate of 128 Hz.</p><p>We select previously identified EDR or reconnection-line crossing events to represent different environments of reconnection near Earth. The events include reconnection in the turbulent shock transition region <ref type="bibr" target="#b41">(Wang et al. 2019)</ref>, turbulent magnetosheath <ref type="bibr" target="#b10">(Eriksson et al. 2018;</ref><ref type="bibr" target="#b30">Phan et al. 2018)</ref>, dayside magnetopause <ref type="bibr">(Burch et al. 2016;</ref><ref type="bibr">Burch &amp; Phan 2016;</ref><ref type="bibr" target="#b19">Khotyaintsev et al. 2016)</ref>, magnetotail <ref type="bibr" target="#b39">(Torbert et al. 2018;</ref><ref type="bibr" target="#b44">Zhou et al. 2019;</ref><ref type="bibr" target="#b27">Lu et al. 2020)</ref>, and a list of EDRs reported by <ref type="bibr" target="#b42">Webster et al. (2018)</ref>. The selected events are sufficiently typical, representing symmetric and asymmetric upstream conditions, varying guide field strength, quiet and turbulent regions, as well as classic ion-coupled reconnection and newly discovered electron-only reconnection. Requiring events with four spacecraft measurements for calculating spatial gradient, we exclude one event where MMS3 was not available from the 32 EDR events. We also note that three out of the nine single events considered overlap with the EDR list <ref type="bibr" target="#b42">(Webster et al. 2018)</ref>. Thus, in total there are 31 + (9 -3) = 37 events that we apply the MFT analysis to, listed in Table <ref type="table" target="#tab_0">1</ref>, with the average spacecraft separation normalized to the electron inertial length d e based on upstream hybrid densities (Equation <ref type="formula">17</ref>, <ref type="bibr" target="#b6">Cassak &amp; Shay 2007)</ref>.</p><p>To apply this technique to observations by MMS and other spacecraft missions, we first validate it with known events. With the 37 events of varied plasma conditions, we find this technique robust enough for identifying reconnection.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Method</head><p>The MFT velocity U ψ was previously derived in one and two-dimensions <ref type="bibr" target="#b25">(Liu &amp; Hesse 2016;</ref><ref type="bibr" target="#b26">Liu et al. 2018)</ref>. The formula of this velocity can be found in <ref type="bibr" target="#b24">Li et al. (2021)</ref>: </p><formula xml:id="formula_0">º - + ý ¢     ( • ) ( ) ( ) U v v</formula><formula xml:id="formula_1">= ý   ( )( ) ( ) U z b cE B 2 z p p</formula><p>According to simulation work <ref type="bibr" target="#b24">(Li et al. 2021)</ref>, U ψ will form super-Alfvénic jets in both inflow (N) and outflow (L) directions, indicating strong MFT close to the active X-points. The upstream hybrid Alfvén speed V A is calculated using the L component of the magnetic field and ion density on the two upstream sides (Equation <ref type="formula">13</ref>, <ref type="bibr" target="#b6">Cassak &amp; Shay 2007)</ref>. We subtract the ion bulk flow velocity from U ψ (and electron flow) to demonstrate the MFT jets more clearly in the ion frame.</p><p>With four spacecraft measurements, we can estimate the divergence of the magnetic flux transport velocity ∇ • U ψ following the linear gradient technique (Chanteur, ISSI, 1998, Ch. 11). This quantity is able to represent the converging inflows and diverging outflows of magnetic flux. In addition to the signature in U ψ , these bidirectional inflows and outflows of magnetic flux at an X-point signify active reconnection.</p><p>Transforming the field data to the LMN coordinate is required for the MFT analysis. For the nine single events, the coordinate rotation matrices from the literature are used. For events from <ref type="bibr" target="#b42">Webster et al. (2018)</ref>, the Minimum Variance Analysis (MVA) technique <ref type="bibr" target="#b37">(Sonnerup &amp; Cahill 1967</ref>) is applied to the magnetic field in the interval around the recorded EDR crossings to determine the LMN coordinate. The maximum variance direction (L) aligns with the reconnecting field direction, corresponding to the expected outflow direction. The minimum variance direction (N) gives the normal of the reconnecting current sheet, the expected inflow direction.</p><p>There are two signatures of active reconnection in MFT analysis. They are (1) coexisting magnetic flux (U ψ ) jets in the inflow (N) and outflow (L) directions, and (2) a significantly enhanced divergence of flux transport (∇ • U ψ ) at the X-point. Previous theory and simulation work suggested that U ψ is at least ion Alfvénic (  0.5 V A ) and the divergence on the order of 0.1 electron cyclotron frequency (∇ • U ψ  0.05 f ce ) <ref type="bibr" target="#b24">(Li et al. 2021)</ref>. Observing either signature identifies an encounter of an active reconnection site. For each event, we select a region of interest around the EDR/reconnection-line crossing such that the radius of the field line curvature R c becomes  the ion gyroradius ρ i , indicating agyrotropic ion motions indicative of the IDR <ref type="bibr" target="#b31">(Rogers et al. 2019</ref>). Within the selected region, we record the peak values of U ψ jets and ∇ • U ψ .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Example of a Successfully Identified Reconnection Site</head><p>As an example of MFT signatures in MMS data, we summarize in Figure <ref type="figure" target="#fig_1">1</ref> the analysis of an active reconnection event in the magnetosheath reported by <ref type="bibr" target="#b10">Eriksson et al. (2018)</ref>. At the reversal of the magnetic field L component (a), the magnetic curvature increases and R c reaches the electron gyroradius ρ e . The MFT velocity demonstrates a bipolar signature in the N direction (blue, (f)) and a unipolar peak in L (red). Both peaks exceed the upstream Alfvén speed V A (horizontal dotted line). These bidirectional MFT inflows and unidirectional outflow are consistent with (h) the deduced spacecraft trajectory of MMS crossing the actively reconnecting current sheet from upstream to downstream and then upstream on the other side. In panel (g) the bipolar structure in ∇ • U ψ is consistent with converging MFT inflows and diverging outflows near the X-point, with a peak value exceeding the order of 0.1 f ce . The observed MFT signatures agree well with simulation.</p><p>We plot the L and N components of U ψ on each spacecraft in Figure <ref type="figure" target="#fig_2">2</ref>. The patterns of the velocity are similar on all spacecraft, suggesting the scale of the structure is greater than the spacecraft separation. Thus, MMS resolves the structure of U ψ . MMS4 and MMS2 detect the two strongest peaks in the L component, in agreement with the X-point being south of the spacecraft and MMS4 and MMS2 being the closest to it. Examining U ψ on each spacecraft is generally useful for events with a large spacecraft separation, where the four-spacecraft average may not resolve the structure of U ψ .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Identification in 37 Events</head><p>The same analysis is applied to the 37 events. Figure <ref type="figure" target="#fig_3">3</ref> summarizes the result. Events are ordered from left to right with increasing normalized spacecraft separation.</p><p>One of the two MFT signatures for active reconnection is coexisting Alfvénic jets in the inflow and outflow directions. Figure <ref type="figure" target="#fig_3">3</ref>(a) shows the peaks of MFT jets in the N (circles) and L (crosses) directions for all events. U ψ is normalized to V A . The dashed lines mark ±0.5 V A , above which they are considered Alfvénic. Jets less than 0.5 V A are masked. For almost all events, MMS observed coexisting N and L jets, demonstrating both inflow and outflow MFT in these events. Only two events on 2016 November 18 and February 7 do not have this signature. For the event on 2016 February 7, examining U ψ on each spacecraft also reveals coexisting super-Alfvénic inflow and outflow jets. For the event on 2016 November 18, the divergence of U ψ can be used and also identifies active reconnection (Figure <ref type="figure" target="#fig_3">3(b)</ref>).</p><p>The other MFT signature of active reconnection is the divergence of U ψ being of the order of 0.1 of the local electron cyclotron frequency f ce or higher. Plotted in Figure <ref type="figure" target="#fig_3">3</ref></p><formula xml:id="formula_2">(b) is ∇ • U ψ normalized to f ce • The dashed lines indicate ±0.05 f ce .</formula><p>Values smaller than 0.05 are considered below order 0.1 f ce and masked. Similar to the MFT jets, in nearly all events, the peak ∇ • U ψ exceeds the threshold of O(0.1 f ce ), confirming active reconnection encounters. The typical ∇ • U ψ signature lies within ±0.5 f ce , consistent with the expected ordering. As discussed, the event on 2016 November 18 has a high enough divergence of U ψ as a signature of active reconnection. In total, all 37 events are successfully identified as active reconnection through MFT signatures.</p><p>The median value of the ±L jet peak is 3.1/−2.3 V A and that of the N jet peak is 2.0/−2.5 V A . They indicate that typical MFT jets are super-Alfvénic around the active reconnection site. The median absolute value of ∇ • U ψ is 0.3 f ce , also meeting the criteria of being of order 0.1 Ω e or higher.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p>The two MFT properties that serve as active reconnection signatures are coexisting Alfvénic inflow and outflow flux jets and a high divergence of flux transport velocity. These two properties are observed in 97% and 95% of all the events. Satisfying either one of the two criteria will be sufficient for reconnection identification. In this case, all 37 events are successfully identified by MFT properties.</p><p>The MFT signatures are also compared with plasma outflow jet signatures. To confidently identify reconnection-line crossing using plasma flows, we usually need the flow to be bidirectional. The occurrence rates for Alfvénic bidirectional plasma outflow jets are lower than 50% (19% for ion and 43% for electron). If we use bidirectional outflow jets as the criteria for active reconnection crossing, we will very likely miss more than half of the events. Using only one jet as the criteria, it is not confined as closely around the X-line as the MFT signatures <ref type="bibr" target="#b24">(Li et al. 2021)</ref>, and it is harder to establish a straightforward link between the observation of a single plasma jet and the reconnection.</p><p>The existence of a finite guide field will make the situation more complicated. It does not only modify the topology at the reconnection sites but also possibly change the planar picture into a more turbulent three-dimensional scenario (Ng et al.  2011; <ref type="bibr" target="#b7">Chen et al. 2020)</ref>. Our database includes a variety of guide field strengths, and as mentioned earlier, regardless of the guide field strength, the MFT analysis successfully identified active reconnection. Thus, we suggest the accuracy of MFT is robust in the presence of varying guide fields.</p><p>In classic reconnection, the IDR is typically elongated in the outflow direction. In a steady state, the large aspect ratio of this region translates into much higher outflow than inflow jets (by continuity of density and incompressibility). However, MFT flows tend to be highly localized to the X-line. This results in a smaller aspect ratio of the MFT flow region and therefore similar amplitudes for MFT inflows and outflows. The result in Figure <ref type="figure" target="#fig_3">3(a)</ref>, where the L and N jets are of the same order of magnitude, is consistent with this picture and also consistent with simulation.</p><p>Regardless of the broad range of normalized spacecraft separations of the 37 events (Table <ref type="table" target="#tab_0">1</ref>), U ψ ranges from the order of ion Alfvén to electron Alfvén speeds, and ∇ • U ψ is of order 0.1-1 f ce (Figure <ref type="figure" target="#fig_3">3</ref>), consistent with simulation <ref type="bibr" target="#b24">(Li et al. 2021)</ref>.</p><p>The choice of LMN coordinates has an impact on MFT analysis. In addition to using MVA on the magnetic field, MVA can also be applied to the electron velocity. Other methods including Minimum Faraday Residue (MFR) <ref type="bibr" target="#b20">(Khrabrov &amp; Sonnerup 1998;</ref><ref type="bibr" target="#b17">Haaland et al. 2019)</ref> and Maximum Directional Derivative (MDD) <ref type="bibr" target="#b35">(Shi et al. 2019</ref>) may be considered. These methods have been compared in detail in recent studies <ref type="bibr" target="#b8">(Denton et al. 2018;</ref><ref type="bibr" target="#b14">Genestreti et al. 2018)</ref>. While determining the suitable LMN coordinates for MFT is out of the scope of this study, it will be investigated in the future.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>In this study, for the first time we have applied the newly developed MFT technique to MMS data and showed this technique can successfully identify active reconnection. The two MFT properties that are signatures of active reconnection encounter are coexisting Alfvénic inflow and outflow flux jets and a high divergence of the flux transport velocity. The detection of either one is sufficient for identification. We select 37 previously reported EDR/reconnection-line crossing events on Earth's day-side magnetopause, in the magnetotail and turbulent magnetosheath, to test the capability of MFT under various plasma conditions. All events are successfully identified with the two MFT properties. The median value of the magnetic flux transport velocity is typically super-Alfvénic, sufficient for locating the active reconnection region. The divergence of the flux transport velocity has a median absolute value of 0.27 f ce , above the expected threshold for reconnection. The occurrence rates of these two properties are 97% and 95%, much higher success rates compared to using bidirectional plasma outflow jets. This application of MFT to the terrestrial data demonstrated its capability to identify reconnection under complex varied plasma conditions, motivating the application of this technique for analyzing reconnection in more heliospheric contexts such as the solar corona and solar wind turbulence, and in laboratory experiments.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>unit vector of the magnetic field component (B p ) in the 2D reconnection plane, the LN plane in LMN coordinates; v ep is the electron flow in the 2D reconnection plane; and  z is the out-of-plane (M) direction.¢ = + É E v B c e eis the nonideal electric field in the electron frame. The first two terms represent the in-plane electron flow perpendicular to B p , and the last term represents the slippage between magnetic flux and electron flow. Without separating the perpendicular electron flow and slippage terms, Equation (1) can be simplified to a form without electron velocity<ref type="bibr" target="#b24">(Li et al. 2021</ref>):</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. MMS observations of an example event on 2015 October 25. Vectors are transformed in LMN coordinates (L = [0.31, −0.91, 0.28], M = [0.31, 0.37, 0.87], N = [−0.90, −0.19, 0.40] in GSE). Four-spacecraft-averaged (a) magnetic field and (b) electric field. (c) Radius of curvature R c normalized to the electron (red) and ion (blue) gyroradius. (d), (e) Electron bulk flow velocity (with ion velocity subtracted) and ion bulk flow velocity. (f) MFT velocity U ψ . (with ion velocity subtracted). (g) ∇ • U ψ normalized to the local electron cyclotron frequency f ce (h) Sketch of the MMS trajectory and expected MFT flows, adapted from Eriksson et al. (2018).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. MFT velocity on each spacecraft. (a) The L and (b) N components of U ψ measured by the four spacecraft.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. MFT signatures in 37 events. The peak values of (a) U ψ in the L and N directions normalized to V A and (b) ∇ • U ψ normalized to f ce . The red arrows indicate L/N jets and ∇ • U ψ out of the plotted range. The dashed lines represent (a) ±0.5 V A and (b) ±0.05 f ce .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Event List of EDR/Reconnection-line Crossings</figDesc><table><row><cell>Date and time</cell><cell>Location</cell><cell>Guide Field</cell><cell>Type</cell><cell>Spacecraft Separation [de]</cell><cell>Reference</cell></row><row><cell>2015-10-16 13:07:02</cell><cell>Day side</cell><cell>∼0</cell><cell>Classic</cell><cell>∼6</cell><cell>Burch et al. (2016)</cell></row><row><cell>2015-12-08 11:20:43</cell><cell>Day side</cell><cell>∼1</cell><cell>Classic</cell><cell>∼6</cell><cell>Burch &amp; Phan (2016)</cell></row><row><cell>2015-12-06 23:38:31</cell><cell>Day side</cell><cell>∼0.2</cell><cell>Classic</cell><cell>∼10</cell><cell>Khotyaintsev et al. (2016)</cell></row><row><cell>2015-10-25 11:07:46</cell><cell>Sheath</cell><cell>∼0.5</cell><cell>Classic</cell><cell>∼20</cell><cell>Eriksson et al. (2018)</cell></row><row><cell>2016-12-09 09:03:54</cell><cell>Sheath</cell><cell>&gt;5</cell><cell>Electron-only</cell><cell>∼5</cell><cell>Phan et al. (2018)</cell></row><row><cell>2016-11-09 13:39:26</cell><cell>Shock transition region</cell><cell>∼0</cell><cell>Classic</cell><cell>∼16</cell><cell>Wang et al. (2019)</cell></row><row><cell>2017-07-11 22:34:02</cell><cell>Tail</cell><cell>∼0</cell><cell>Classic</cell><cell>∼1</cell><cell>Torbert et al. (2018)</cell></row><row><cell>2017-06-17 20:24:07</cell><cell>Tail</cell><cell>∼0</cell><cell>Electron-only</cell><cell>∼4</cell><cell>Lu et al. (2020)</cell></row><row><cell>2017-08-10 12:18:33</cell><cell>Tail</cell><cell>∼0.1</cell><cell>Classic</cell><cell>∼2</cell><cell>Zhou et al. (2019)</cell></row><row><cell>31 EDRs</cell><cell>Day side</cell><cell>varying</cell><cell>Classic</cell><cell>2-70</cell><cell>Webster et al. (2018)</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">The Astrophysical Journal Letters, 926:L34 (6pp), 2022 February 20 Qi et al.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We appreciate the efforts of the entire MMS team, including many individuals in spacecraft operation and data acquisition. We thank T. Phan, S. Schwartz, and S. Eriksson for helpful discussions. This research was supported by NASA MMS mission NNG04EB99C and NSF award AGS-2000222. We also acknowledge support from NASA grant 80NSSC21K1691. The work at UCLA was supported through subcontract 06-001 with the University of New Hampshire.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ORCID iDs</head><p>Yi Qi https:/ /orcid.org/0000-0002-0959-3450 Tak Chu Li https:/ /orcid.org/0000-0002-6367-1886 Christopher T. Russell https:/ /orcid.org/0000-0003-1639-8298 Ying-Dong Jia https:/ /orcid.org/0000-0002-1631-291X</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bessho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Shuster</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014gl062034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">8688</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bessho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.5092809</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">82310</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Büchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Zelenyi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0273-1177(91)90030-n</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">177</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Giles</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0164-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl069787</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">8327</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaf2939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="page">2939</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2795630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">102114</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L.-J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">L</forename><surname>Contel</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.125.025103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page">25103</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U O ¨</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017ja024619</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">2274</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Dungey</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.6.47</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vaivads</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018gl078660</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">8081</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fargette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rouillard</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/202039191</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">650</biblScope>
+			<biblScope unit="page">A11</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schiff</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0087-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">77</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Genestreti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2020ja027985</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page">e27985</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Genestreti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K M</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018ja025711</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">9130</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004JA010809</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">A01107</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><forename type="middle">V</forename><surname>Khotyaintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Norgren</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.119.025101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">4691</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haaland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Runov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Artemyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Angelopoulos</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019ja026459</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">3421</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018ja025935</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page">e25935</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Yu</forename><forename type="middle">V</forename><surname>Khotyaintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Norgren</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl069064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">5571</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Khrabrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U Ö</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/98gl51784</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">2373</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Vernisse</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl068359</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">3042</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Egedal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Ohia</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.110.135004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">135004</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">G</forename><surname>Howes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Klein</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8205/832/2/L24</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJL</title>
+		<imprint>
+			<biblScope unit="volume">832</biblScope>
+			<biblScope unit="page">L24</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8213/abea0b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJL</title>
+		<imprint>
+			<biblScope unit="volume">909</biblScope>
+			<biblScope unit="page">L28</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.4954818</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">60704</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.5042539</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page">80701</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-020-18787-w</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NatCo</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">5049</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Egedal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L.-J</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.106.065002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">65002</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab55ee</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-018-0091-5</idno>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<biblScope unit="volume">557</biblScope>
+			<biblScope unit="page">202</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Farrugia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018ja026429</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">6487</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0057-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page">189</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Strangeway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aag3112</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="page">960</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Haggerty</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl069034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">4145</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">Q</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Bai</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-019-0601-2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page">35</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">N</forename><surname>Smartt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Smutko</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00675540</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page">139</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U Ö</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Cahill</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JZ072i001p00171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B.-B</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019gl082231</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page">3024</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aat2998</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page">1391</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Treumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fphy.2013.00031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">FrP</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bessho</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018gl080944</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Reiff</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018ja025245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">4858</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms11837</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NatCo</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11837</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">H</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhong</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/aaf16f</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">870</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

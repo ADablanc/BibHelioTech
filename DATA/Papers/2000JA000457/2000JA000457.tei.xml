@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Kinetic study of the mirror mode</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">V</forename><surname>G6not</surname></persName>
+							<email>v.genot@qmw.ac.uk</email>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schwartz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+							<email>mazelle@cesr.fr</email>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Balikhin</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Bauer</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Dunlop</surname></persName>
+							<email>m.dunlop@ic.ac.uk</email>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="laboratory">• Astronomy Unit</orgName>
+								<orgName type="institution">University of London</orgName>
+								<address>
+									<settlement>London</settlement>
+									<region>Queen Mary</region>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">3Department of Automatic Control and Systems Engi-neering</orgName>
+								<orgName type="laboratory">&apos;Centre d&apos;Etude Spatiale des Rayonnemen.ts</orgName>
+								<orgName type="institution">Shetfield University</orgName>
+								<address>
+									<settlement>Toulouse, Shetfield</settlement>
+									<country>France, England, United King</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="institution" key="instit1">dom 4Space and Atmospheric Physics</orgName>
+								<orgName type="institution" key="instit2">Imperial College</orgName>
+								<address>
+									<addrLine>Lon-don</addrLine>
+									<country>England, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff3">
+								<orgName type="department">Max-Planck-Institut flit Extraterrestrische Physik</orgName>
+								<address>
+									<settlement>Garch-ing</settlement>
+									<country key="DE">Germany</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff4">
+								<orgName type="department">Queen Mary</orgName>
+								<orgName type="institution">University of London</orgName>
+								<address>
+									<addrLine>Mile End Road</addrLine>
+									<postCode>E1 4NS</postCode>
+									<settlement>London</settlement>
+									<country>England, UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff5">
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<addrLine>9 Av. Colonel Roche</addrLine>
+									<postCode>31400</postCode>
+									<settlement>Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Kinetic study of the mirror mode</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">F7AC765FA211F6B331AA3247536E303E</idno>
+					<note type="submission">Received December 13, 2000; revised May 2, 2001; accepted May 2, 2001.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T14:08+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The linear Vlasov dispersion is solved to reveal the kinetic properties of the mirror mode. The existence of the torsional component of both the magnetic and velocity perturbations are kinetic features that are not explained by MHD theory. A parameter study is then employed to clarify the behavior of these particular components under different plasma conditions. The key parameters are the ion temperature anisotropy and the plasma to magnetic pressure ratio which act in similar ways to control the value of the torsional (or Alfv6nic) components. Data from the Active Magnetospheric Particle Tracer Explorers mission show that under most magnetosheath plasma conditions the magnetic torsional component is negligible, whereas the velocity one is always larger or comparable to the other components. This experimental illustration also shows that there exist elliptically polarized mirror modes, contrary to what our, and all previous, analytical treatments predict.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Mirror waves have been encountered in many different plasma environments such as the magnetosheath of the Earth <ref type="bibr" target="#b5">[Denton et al., 1995]</ref>, the solar wind <ref type="bibr" target="#b26">[Winterhalter et al., 1994]</ref>, the surroundings of comet Halley <ref type="bibr" target="#b22">[Russel et al., 1987;</ref><ref type="bibr" target="#b8">Glassmeier et al., 1993]</ref> or those of Io <ref type="bibr" target="#b12">[Huddleston et al., 1999]</ref>. This ubiquity demands continued investigation to identify and characterize the mode, its growth, and its consequences.</p><p>These waves are nonpropagating (zero real frequency in the plasma frame of reference) and typically display an anticorrelation between the plasma and magnetic field perturbations. This last feature is also one of the slow mode, often confused with the mirror mode. Mirror modes can be generated by the mirror instability that takes place in high-/• plasmas with temperature anisotropies in one or several species. Although the mirror instability is often considered a fluid instability, it has been shown that it cannot be treated in the clear that the MHD approach is potentially misleading. Although it is possible to recover the anticorrelation between the plasma and magnetic field perturbations with an MHD treatment, some obvious features are ignored which lead to inconsistency as we shall see in the following.</p><p>From both simulation and experimental points of view, the question of the mirror mode identification has been addressed for some time. those found by <ref type="bibr">Gary [1992]</ref>. Section 2 briefly presents the general frame of reference in which the analysis will be conducted, whereas section 4 is devoted to the experimental analysis performed on AMPTE data. We find surprising deviations from even the kinetic properties expected from earlier sections. In the conclusion we discuss the implications of these results.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">An Adequate Approach: The Kinetic Theory</head><p>The existence of the noncoplanar component of the magnetic perturbation has previously been demonstrated by <ref type="bibr" target="#b11">Hubert et al. [1998]</ref>. Using the program Waves in Homogeneous, Anisotropic Multicomponent Plasmas (WHAMP) <ref type="bibr" target="#b21">[RSnnmark, 1982]</ref>, these authors calculated the variations with /•p of the angle between the WHAMP computed wave vector and the one defined by the coplanarity theorem for the mirror mode. In that paper they followed a method initiated by Fazakerkey and <ref type="bibr" target="#b6">Southwood [1994]</ref>, who investigated the threedimensional (3-D) structure of the mirror mode: in an attempt to depart from the planar wave model, they estimated the spatial dimensions of the mirror structures.</p><p>However, in the present paper, because our final goal is to compare observations with linear kinetic theory, we shall confine ourselves to the more limited planar wave model (single wave vector).</p><p>The coordinate system we choose is such that the ambient magnetic field Bo is along •. The wave vector k is in the plane (•,•), the coplanarity plane, and 0kB is the angle between B0 (•) and k. The • direction is termed the Alfv•nic or torsional direction, perpendicular to the coplanarity plane. From MHD analysis one </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Effects of the Electron Anisotropy</head><p>The electron anisotropy is generally less than that of ions (in typical regions of interest like the magnetosheath) and consequently its role in the mirror mode growth is less important. However, as the mirror mode growth rate 3' increases with the number of anisotropic species, the combining effect of both anisotropies may enhance the value of the Alfv•nic component. Therefore we briefly address here the question of the effect of electron anisotropy alone on the Alfv•nic component of the magnetic perturbation and on the growth rate. These quantities are plotted in Figures <ref type="figure" target="#fig_1">3a and 3b</ref>, respectively, for electron anisotropies varying from 1.8 to 6, Ap = 2 and for two cases: Tlle/Tll p -0.01 and 0.1 (which is a more typical value for the magnetosheath). In the first case, the curve in Figure <ref type="figure" target="#fig_1">3a</ref> presents a smooth increasing trend, but the ratio of the Alv•nic component to the magnetic amplitude does not exceed 4%, whereas it increases by •,, 2 orders of magnitude and reaches 30% for the same range of varying ion anisotropies (see Figure <ref type="figure">2c</ref>). In a similar way the growth rate increases slightly but still remains a small fraction (less than 2%) of the ion cyclotron frequency. In the second case the slopes of the two curves are largely enhanced denoting a much more important influence of Ae than in the previous case. The growth rate is doubled between Ae = 1.8 and Ae --3, whereas laBel/lUll is increased by more than 50% for the same range of anisotropies. However, the Alfv•nic component still remains less than 6% of the total amplitude. In both cases the propagation angle and the wave vector at maximum growth are not sensitive functions of the anisotropy. For larger anisotropy (Ae &gt; 3) the behavior of the mirror mode is perturbed: the dispersion curve (co, k) is no longer bell-like shaped with a single maximum because a new mode begins to grow at kpe •-1. This mode requires more investigations which may hardly be tractable analytically as expansion in the small parameter kpi are not possible. However, for magnetosheath studies, Ae = 3 is still a large value, and we can restrain our analysis to smaller anisotropies.</p><p>In conclusion, we can affirm that the electron temperature effect is important on the variations with the electron anisotropy of the magnetic Alfv In the same way, MHD gives a zero Alfv•nic component of the velocity. By contrast, the kinetic results in Figure <ref type="figure">4</ref> show that this component is indeed the largest. We shall see later that, as given by Lin et al. <ref type="bibr">[1998]</ref>,</p><p>observations support these results.  amplitude negative peaks superimposed on a smoother background (the negative peaks are larger in magnitude than the positive ones); as time evolved, on this particular event, the waveform tends to be more sinusoidal.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Regarding the variations of the ratio of the ion</head><formula xml:id="formula_0">•'••••••••••••'••• --= = _:- 10____ • 0 .--• -10• - _ _ _ -20 •- - _ _ _ -30 _-'- :''•"'"•"•'•'•'•''•'•'•'•''•''•'•'''•''•'•'''•''•'•'•'•'•''</formula><p>A spiky up event is the reversed situation. We shortly discuss below the interest of these characteristics.   Although we have shown that the mirror mode should be theoretically linearly polarized, the observations do not follow this strict rule. As we said earlier in this section, some events present a departure from a linear polarization, and, as far as the waveform is concerned, some events are far from the classical view of a sinusoidal magnetic signature. These two points are addressed in the next section.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">First Example</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Second Example: An Elliptically Polarized</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Event</head><p>From Table <ref type="table" target="#tab_0">1</ref>, one sees that elliptically polarized events (as defined by the criterion 6) occur more frequently than linearly polarized ones. We choose case 10 as an example. We use MVA to determine k and rotate the magnetic field and velocity perturbations in the coordinate system shown in Figure <ref type="figure">1</ref>  <ref type="figure">,,i,,,i,,,i,,,•,,,•,,,i,,,i,,,I,,,I,,,•,,,•,,,I,,,I,,,•,,,•,,,I,,,I,, '"1</ref>'"1'"1'"1"'1'"1"'1'"1'"1'"1"'1'"1'"1"'1'"1'"1"'1"</p><p>._. 20 </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>and 5¾, the magnetic field and the plasma velocity fluctuations, which exists for the mirror mode o•nly. More pr•ecise• tj.•e phase difference lies between 5B and (5•' x B0) x k (k is the wave vector and B0 is the ambient magnetic field). This method was illustrated using experimental data (from Active Magnetospheric Particle Tracer Explorers (AMPTE) missionthe existence of this velocity component in the mirror mode which is actually found to be large, if not the largest, both in experimental and simulation data. They used this component to check the 90 ø phase difference with the comp•on•ent of the magnetic field fluctuations in the plane (k, Bo). Although the results of Linet al. [1998] are worthy of attention (as they are consistent with simulations and experiments), it is essential to understand the origin and behavior of the noncoplanar components: from the experimental point of view, the existence of this velocity component can help to identify the mirror mode. From the theoretical point of view, it highlights the inappropriateness of MHD which cannot explain it. An explanation of this difference is proposed based on the work of Southwood and Kivelson [1993]. From a theoretical point of view the criterion that leads to the triggering of the instability is, in the most common case where only the protons are anisotropic, criterion is favored in high-/• plasmas. Increasing anisotropy acts in the same way, but for too large an anisotropy and for a two-species plasma, the ion cyclotron mode develops driven by the free energy contained in the anisotropy (its growth rate overcomes that of the mirror mode, for different propagation angle, though). The mirror mode is therefore prevalent in high-/•, low-anisotropy plasmas. The growth rate of both the mirror and the firehose instability (v/2kTllp/mp is the parallel proton thermal velocity. Although we are only concerned in the mirror mode case, we shall use this complete expression in a following section. Equation (2) shows that the mirror mode grows with the anisotropy as expected. This equation also shows that, for a given anisotropy and propagation angle, the growth rate is a linear function of the wave number as long as the finite Larmor radius (Pi) effects are negligible (Equation (2) is obtained assuming kpi &lt;&lt; 1). In this paper, in light of previous work and in order to search for the origin of the torsional (or Alfv•nic) component of magnetic and/or velocity perturbations, we investigate the kinetic properties of the mirror mode. We demonstrate that these components do indeed exist for simple, small-amplitude fluctuations. They are pure kinetic (hot plasma) features which cannot be revealed by a MHD treatment. We establish the range of parameters where the torsional magnetic perturbation can definitely not be neglected. As far as the velocity perturbations are concerned, we show that the component in the Alfv•nic direction can be the dominant one. The result of this analysis leads us to point out that, although linearly polarized, the magnetic perturbation linked to the kinetic mirror mode does not lie in the coplanarity plane (•,/•o) but can be tilted depending on the value of the temperature anisotropy. Therefore the coplanarity theorem cannot be used for the kinetic mirror mode. The results concerning the mirror mode growth as function of/•ll and Ap, in section 3, confirm</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 3 .</head><label>3</label><figDesc>Figure 1. Sketch of the coordinate system used throughout the study. The Alfv•nic direction is chosen to be • and is perpendicular to the coplanarity plane which contains B0 and k.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Figure 4. Alfv•nic component of the ion (solid lines) and electron (dashed lines) velocities as a function of the (top) ion and (bottom) electron anisotropies. Values are normalized to the total amplitude for each species (/•l P --1, Tll e/Tii p -0.01).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head></head><label></label><figDesc>bottom). The ratio of the Alfv•nic component to the total amplitude remains above 94% for the electron anisotropies chosen. It should be noted that the total amplitude also decreases with the anisotropy, by a factor -.10 between Ap = 1.8 and Ap = 6. The behavior of the Alfv•nic component of the electron velocity is reversed and this is shown with dash curves. The component increases with both anisotropies, the variations being greater with the electron anisotropy. However, in this case the dominant component is no longer the Alfv•nic one but the z one (not shown), par-between MHD and kinetic theories is not yet fully understood. An explanation can be proposed following the work of Southwood and Kivelson [1993, equation 19]. They show that the perturbation of the distribution function is composed of two terms, the second of which being an additional contribution from the kinetic treatment. This term iningredient: the 90 ø phase difference between the magnetic field and, specifically, the Alfv•nic velocity fluctuations for the mirror mode. Indeed, in our analysis, the phase of the (ion and electron) velocity components were found to be either 0 ø or 180 ø, whereas the component of the magnetic field perturbations are 4-90 ø (the normalization in the study is such that the phase of SEx is 0). These phase relations also imply that the ratio iSV•/SV u is purely imaginary denoting a linear polarization, similarly to what has been found for magnetic perturbations. The mass conservation which, by Chisham et al. [1999] which we shall use and discuss in the following. As the MVA is very sensitive to the low-frequency inhomogeneities of the field, we filtered the data by removing all fluctuations of period 120 s and above (the period of the mirror mode fluctuations are • 30 s). We used the highest time resolution been found by trial and error. When eigenvalues do not meet the above requirements, we classify the wave "elliptic". A few mirror mode events have been gathered in Table I which also displays some of the mode characterspacecraft. The waveform classification refers to the shape of the main component of the magnetic field perturbation (SB•). It is a more subjective characteristic, as no proper criterion defines it. However, it was possible to distinguish two other categories, added to the classical picture of sinusoidal oscillations (" S"), termed "U" and "D" for spiky up and down, respectively. An example of spiky down signature is given on the top panel of Figure 5 where one can see large-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 15 .</head><label>15</label><figDesc>Figure 15. Magnetic field perturbations of the September 21, 1984 mirror event rotated to the coordinate system (•, •, }) presented in Figure 1. Variable } is determined by the two-satellite method. The last pane] is the perturbation in the minimum variance direction.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head></head><label></label><figDesc>the magnetic field and velocity perturbations in the coordinate system (•, •, •). These are shown in Figures 5 and 6. For comparison, Figure 5 also shows the k component of the magnetic perturbations computed from a MVA wave vector determination (last panel). Two remarks can be made. First, 5B u is the same order of magnitude as 5Bk with the two-satellite method, but it is a bit larger with MVA; second, 5V u is not the largest component with the twodirection is well defined, and second, it can be shown that, in the case of the mirror mode (COrest = 0), the value of the observed frequency w sc, even if it is difficult to determine, does not influence the direction of • (it only modifies the magnitude For the present event, in the case of the magnetic field, it is impossible to affirm whether or not the sig-</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Figure 6. Ion velocity perturbations of the September 21, 1984 mirror event rotated to the coordinate system (•,•,}) presented in Figure 1. Variable • is determined by the (top) twosatellite method and by (bottom) MVA.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Magnetic field perturbations (top three panels) and ion velocity (bottom three panels) of the November 21, 1984 mirror event rotated to the coordinate system (•, •, •) presented in Figure 1. Variable • is determined by the MVA.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 . Mirror Mode Events From AMPTE. Abbreviations are n.a., not available; E/L, elliptically/linearly polarized; S, sinusoidal; U/D, spiky up/down; 1, IRM; 2, UKS. Case 8 presents a large gap in data. Case Day in 1984 Start, UT Stop, UT Ap /•11• )•int/•max )•min/Aint Polarized Waveform Spacecraft</head><label>1</label><figDesc></figDesc><table><row><cell>I</cell><cell>Sept. I</cell><cell>0642:00</cell><cell>0718:00</cell><cell>1.5</cell><cell>1.1</cell><cell>0.27</cell><cell>0.21</cell><cell>E</cell><cell>S</cell><cell>I and 2</cell></row><row><cell>2</cell><cell>Sept. 21</cell><cell>1313:00</cell><cell>1336:00</cell><cell>2</cell><cell>0.4</cell><cell>0.18</cell><cell>0.28</cell><cell>L</cell><cell>D</cell><cell>I and 2</cell></row><row><cell>3</cell><cell>Sept. 21</cell><cell>1426:00</cell><cell>1444:00</cell><cell>1.4</cell><cell>1.3</cell><cell>0.39</cell><cell>0.14</cell><cell>E</cell><cell>S</cell><cell>I and 2</cell></row><row><cell>4</cell><cell>Sept. 25</cell><cell>0624:35</cell><cell>0626:30</cell><cell cols="2">n.a. n.a.</cell><cell>0.16</cell><cell>0.38</cell><cell>L</cell><cell>S</cell><cell>1</cell></row><row><cell>5</cell><cell>Sept. 25</cell><cell>0648:00</cell><cell>0654:00</cell><cell>n.a.</cell><cell>n.a.</cell><cell>0.32</cell><cell>0.41</cell><cell>E</cell><cell>S</cell><cell>1</cell></row><row><cell>6</cell><cell>Oct. 2</cell><cell>1538:00</cell><cell>1542:00</cell><cell>n.a.</cell><cell>n.a.</cell><cell>0.13</cell><cell>0.55</cell><cell>L</cell><cell>U</cell><cell>2</cell></row><row><cell>7</cell><cell>Oct. 9</cell><cell>1310:00</cell><cell>1325:00</cell><cell>1.5</cell><cell>2.2</cell><cell>0.46</cell><cell>0.25</cell><cell>E</cell><cell>S</cell><cell>1 and 2</cell></row><row><cell>8</cell><cell>Oct. 17</cell><cell>1206:00</cell><cell>1226:00</cell><cell>&gt; I</cell><cell>&gt; 5</cell><cell>0.12</cell><cell>0.49</cell><cell>L</cell><cell>U</cell><cell>I and 2</cell></row><row><cell>9</cell><cell>Nov. 12</cell><cell>0739:00</cell><cell>0751:00</cell><cell>n.a.</cell><cell>n.a.</cell><cell>0.38</cell><cell>0.11</cell><cell>E</cell><cell>D</cell><cell>1</cell></row><row><cell>10</cell><cell>Nov. 21</cell><cell>1012:00</cell><cell>1021:00</cell><cell>1.1</cell><cell>2.7</cell><cell>0.23</cell><cell>0.15</cell><cell>E</cell><cell>S</cell><cell>I and 2</cell></row><row><cell>11</cell><cell>Nov. 21</cell><cell>1106:00</cell><cell>1116:00</cell><cell>1.1</cell><cell>13.8</cell><cell>0.16</cell><cell>0.38</cell><cell>L</cell><cell>S</cell><cell>I and 2</cell></row><row><cell>12</cell><cell>Nov. 30</cell><cell>0710:00</cell><cell>0715:00</cell><cell>n.a.</cell><cell>n.a.</cell><cell>0.25</cell><cell>0.25</cell><cell>E</cell><cell>S</cell><cell>1</cell></row><row><cell>13</cell><cell>Nov. 30</cell><cell>0715'00</cell><cell>0721:00</cell><cell>n.a.</cell><cell>n.a.</cell><cell>0.60</cell><cell>0.16</cell><cell>E</cell><cell>D</cell><cell>I</cell></row><row><cell cols="2">nal is actually</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>the Alfv•nic component or noise inher- ent in the method. The ]•11P is indeed less than I and, although the anisotropy is •-2, from our previous anal- ysis this should not lead to 5By/SB greater than 0.02. Up to now, our research of a clear case (SBy clearly distinct from the noise) has been unfruitful, partly be- cause of the difficulty to find a good conjunction for which it was possible to extract the relevant param-</head><label></label><figDesc></figDesc><table /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0" />
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Dual spacecraft observations of standing waves in the magnetosheath</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Balikhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S C K</forename><surname>Alleyrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lfihr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Collisionless heating of the solar-wind plasma, 1, Theory of the heating of collisionless plasma by hydromagnetic waves</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">751</biblScope>
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Polytropic indices in collisionless plasmas: Theory and measurements</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Belmont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">8327</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mirror mode and other compressive ULF modes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Belmont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lacombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pantellini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 26th ESLAB Symposium</title>
+				<meeting>the 26th ESLAB Symposium</meeting>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+	<note>ESA SP-3d6</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">AMPTE observations of mirror mode waves in the magnetosheath: Wave vector determination</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chisham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Balikhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Dunlop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">437</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Low-frequency fluctuations in the magnetosheath near the magnetopause</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Labelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lessard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">5665</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Theory and observations of magnetosheath waves, in Solar Wind Sources of Magnetospheric Ultra-Low-Frequency Waves</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Fazakerkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Southwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Monogr. Set</title>
+		<editor>M. J. Engebretson</editor>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page">147</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+	<note>AGU</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">The Plasma Dispersion Function, Academic</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Fried</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Conte</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1961">1961</date>
+			<pubPlace>San Diego, Calif</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Mirror modes and fast magnetoacoustic waves near the magnetic pileup boundary of comet P/Halley</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Glassmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Motschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Neubauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Acuna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page">955</biblScope>
+			<date type="published" when="1992">1992. 1993</date>
+		</imprint>
+	</monogr>
+	<note>J. Geophys. Res.</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Drift mirror instability in the magnetosphere</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hasegawa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Fluids</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">2642</biblScope>
+			<date type="published" when="1969">1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Plasma Instabilities and Nonlinear Effects</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975">1975</date>
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">properties, and origin of low-frequency waves from an oblique shock to the inner magnetosheath</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lacombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Thomsen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">783</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+	<note>Nature</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Mirror-mode structures at the Galileo-Io flyby: Instability criterion and dispersion analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Huddleston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Strangeway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Blanco-Cano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kivelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Khurana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">479</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Global structure of mirror modes in the magnetosheath</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Z</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">7179</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Mirror instability; 2, The mechanism of nonlinear saturation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kivelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Southwood</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page">365</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Mode properties of low-frequency waves: Kinetic theory versus Hall-MHD</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krauss-Varban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Omidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Quest</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">5987</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Waves in the Earth&apos;s magnetosheath: Observations and interpretations</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lacombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Belmont</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8/9</biblScope>
+			<biblScope unit="page">329</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Mirror and Alfv•nic waves observed by ISEE 1-2 during crossings of the Earth&apos;s bow shock</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lacombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G E</forename><surname>Pantellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mangehey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Belmont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">772</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Identification of mirror waves by the phase difference between perturbed magnetic field and plasmas</title>
+		<author>
+			<persName><forename type="first">C.-H</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Song</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">6621</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Kinetic properties of mirror waves in magnetosheath plasmas</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Mckean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Left</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">1331</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Electron temperature effects in the linear proton mirror instability</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G E</forename><surname>Pantellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">3539</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mirror instability with finite electron temperature effects</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Pokhotelov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Balikhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Alleyne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Onishchenko ; Rsnnmark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">WHAMP: Waves in Homogeneous, Anisotropic Multicomponent Plasmas, Rep. 179</title>
+				<meeting><address><addrLine>Kiruna, Sweden</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1982">2393. 2000. 1982</date>
+			<biblScope unit="volume">105</biblScope>
+		</imprint>
+	</monogr>
+	<note>J. Geophys. Res.</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Identification of lowfrequency fluctuations in the terrestrial magnetosheath</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Riedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schwingenschuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yeroshenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Left., 1•</title>
+		<imprint>
+			<biblScope unit="volume">644</biblScope>
+			<biblScope unit="page">6011</biblScope>
+			<date type="published" when="1987">1987. 1994</date>
+		</imprint>
+	</monogr>
+	<note>J. Geophys. Res.</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Magnetopause structure and attitude from Explorer 12 observations</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U O</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Cahill</surname><genName>Jr</genName></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Mirror instability</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Southwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Kivelson</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Physical mechanism of linear instability</title>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">9181</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Ulysses field and plasma observations of magnetic holes in the solar wind and their relation to mirror-mode structures</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winterhalter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balogh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">371</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balikhin</surname></persName>
+		</author>
+		<ptr target="m.balikhin@shetfield.ac.uk" />
+	</analytic>
+	<monogr>
+		<title level="m">Mappin Street, Shetfield S1 4DU</title>
+				<meeting><address><addrLine>England, UK.</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="volume">600</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Automatic Control and Systems Engineering, Shetfield University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Bauer</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Max-Planck</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Institut ffir extraterrestrische</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Physik</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Postfach 1603, D-85740 Garching, Germany. (thb@mpe.mpg.de</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dunlop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Space and Atmospheric Physics</title>
+				<meeting><address><addrLine>South Kensington, London SW7 2AZ, England, UK</addrLine></address></meeting>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

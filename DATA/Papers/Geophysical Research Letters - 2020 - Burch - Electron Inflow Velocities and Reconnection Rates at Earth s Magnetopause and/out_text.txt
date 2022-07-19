@@ -1,0 +1,849 @@
+® Check for updates
+
+Yet § Peart
+
+SPACE SCIENCE
+
+Geophysical Research Letters “a
+
+RESEARCH LETTER
+10.1029/2020GL089082
+
+Key Points:
+
+¢ Electron inflow velocities are
+determined for reconnection at the
+magnetopause and in the
+magnetosheath
+
+¢ For four events inflow velocities of
+200-400 km/s imply normalized
+reconnection rates of 0.05-0.25
+
+¢ Reconnection rates using electron
+inflow velocities (0.12) and the
+reconnection electric field (0.04) are
+compared for one event
+
+Correspondence to:
+J. L. Burch,
+jburch@swri.edu
+
+Citation:
+
+Burch, J. L., Webster, J. M., Hesse, M.,
+Genestreti, K. J., Denton, R. E., & Phan,
+T. D., et al. (2020). Electron inflow
+velocities and reconnection rates at
+Earth's magnetopause and
+magnetosheath. Geophysical Research
+Letters, 47, e2020GL089082. https://doi.
+org/10.1029/2020GL089082
+
+Received 28 MAY 2020
+Accepted 14 AUG 2020
+Accepted article online 18 August 2020
+
+©2020. The Authors.
+
+This is an open access article under the
+terms of the Creative Commons
+Attribution License, which permits use,
+distribution and reproduction in any
+medium, provided the original work is
+properly cited.
+
+BURCH ET AL.
+
+Electron Inflow Velocities and Reconnection Rates
+at Earth's Magnetopause and Magnetosheath
+
+J. L. Burch’ ©, J. M. Webster” ©, M. Hesse* ©, K. J. Genestreti’ ©, R. E. Denton* ©,
+
+T. D. Phan> (®, H. Hasegawa’ (, P. A. Cassak’ ®, R. B. Torbert!* ©, B. L. Giles? ©,
+
+D. J. Gershman’ (®, R. E. Ergun’ ®, C. T. Russell" ©, R. J. Strangeway'! ©, O. Le Contel’? ©,
+K. R. Pritchard’ iD} A. T. Marshall?” ©, K.-J. Hwang’ ©, K. Dokgo* iD} S. A. Fuselier’** ©,
+
+L.-J. Chen? ®, S. Wang" ®, M. Swisdak!’ ©, J. F. Drake’ ®, M. R. Argall® ©, K. J. Trattner’’ ©,
+M. Yamada’ (, and G. Paschmann!? (®
+
+"Space Science and Engineering Division, Southwest Research Institute, San Antonio, TX, USA, *Department of Physics
+and Astronomy, Rice University, Houston, TX, USA, “Department of Physics and Technology, University of Bergen,
+Bergen, Norway, “Department of Physics and Astronomy, Dartmouth College, Hanover, NH, USA, Space Sciences
+Laboratory, University of California, Berkeley, CA, USA, Institute of Space and Astronautical Science, Japan Aerospace
+Exploration Agency, Sagamihara, Japan, ‘Department of Physics and Astronomy, West Virginia University, Morgantown,
+WV, USA, ‘Physics Department and Space Science Center, University of New Hampshire, Durham, NH, USA, °NASA,
+Goddard Space Flight Center, Greenbelt, MD, USA, *°Laboratory for Atmospheric and Space Physics, University of
+Colorado Boulder, Boulder, CO, USA, "Department of Earth, Planetary, and Space Sciences, University of California, Los
+Angeles, CA, USA, 27 aboratoire de Physique des Plasmas, CNRS, Ecole Polytechnique, UPMC, Université Paris 06,
+University of Paris-Sud, Paris, France, 1s Department of Physics and Astronomy, University of Texas at San Antonio, San
+Antonio, TX, USA, ' Astronomy Department, University of Maryland, College Park, MD, USA, Institute for Research in
+Electronics and Applied Physics, University of Maryland, College Park, MD, USA, ‘°Department of Physics and the
+Institute for Physical Science and Technology, University of Maryland, College Park, MD, USA, '’Princeton Plasma
+Physics Laboratory, Princeton University, Princeton, NJ, USA, 18Mfax-Planck-Institut fiir extraterrestrische Physik,
+Garching, Germany
+
+Abstract Electron inflow and outflow velocities during magnetic reconnection at and near the dayside
+magnetopause are measured using satellites from NASA's Magnetospheric Multiscale (MMS) mission. A
+case study is examined in detail, and three other events with similar behavior are shown, with one of them
+being a recently published electron-only reconnection event in the magnetosheath. The measured inflow
+speeds of 200-400 km/s imply dimensionless reconnection rates of 0.05-0.25 when normalized to the
+relevant electron Alfvén speed, which are within the range of expectations. The outflow speeds are about
+1.5-3 times the inflow speeds, which is consistent with theoretical predictions of the aspect ratio of the inner
+electron diffusion region. A reconnection rate of 0.04 + 25% was obtained for the case study event using the
+reconnection electric field as compared to the 0.12 + 20% rate determined from the inflow velocity.
+
+Plain Language Summary When the solar wind impacts the Earth's magnetosphere, an
+explosive energy conversion process called magnetic reconnection opens the door for solar wind energy to
+enter the magnetosphere by interconnection of the magnetic fields of the solar wind and of Earth. In this
+process, magnetic energy is converted to charged-particle energy. Magnetic reconnection is fairly well
+understood at large scales and even down to the ion scale. However, the breaking and linking of field lines
+and the acceleration of electrons occur at much smaller scales, which are only recently being accessed by
+the NASA Magnetospheric Multiscale mission. This paper analyzes the speed at which electrons flow into
+and out of reconnection sites. The inflow speeds are crucial because they provide a measurement of the
+rate at which reconnection proceeds.
+
+1. Introduction
+
+During asymmetric reconnection, as occurs at the dayside magnetopause (MP), the flow stagnation point
+does not coincide with the X line, as it does with symmetric reconnection (Cassak & Shay, 2007; Priest
+et al., 2000). Since there is no transport of magnetic flux across the X line, and no net transport of mass flux
+across the stagnation point, the two points coincide only for equal mass densities, inflow velocities, and magnetic field strengths within each inflow region. The higher densities on the magnetosheath side and the
+
+1 of 10
+Ari it
+rtd
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+BURCH ET AL.
+
+Geophysical Research Letters 10.1029/2020GL089082
+
+higher magnetic field strength on the magnetosphere side displace the stagnation point toward the Earth
+from the X line.
+
+At kinetic scales there are separate electron and ion stagnation points resulting from the larger gyroradii of
+ions (Cassak & Shay, 2009). Hesse et al. (2014) used particle-in-cell simulation and theory to examine energy
+conversion and electron distribution functions (DFs) within the asymmetric reconnection electron diffusion
+region (EDR). Their prediction of crescent-shaped electron distributions was confirmed with data from the
+NASA Magnetospheric Multiscale (MMS) mission by Burch, Torbert, et al. (2016). Pritchard et al. (2019)
+noted the occurrence of converging electron flows in a region of strong out-of-plane current and interpreted
+them as electron inflow velocities to the EDR. Inflow velocities are important because when scaled to the
+electron Alfvén speed (va.), they provide the reconnection rate (R) (Karimabadi et al., 2013;
+Klimas, 2015). The use of va. instead of va; in this context is warranted by the fact that near the EDR the
+magnetic field is advected by the electrons (Cassak et al., 2005; Tsiklauri, 2008).
+
+We report on a study of electron inflows associated with three MP reconnection events and one magnetosheath electron-only event. The inflow velocities (Vex) range from 0.05 to 0.25V,ez, (with Vaey = the asymmetric electron Alfvén speed based on the reconnecting magnetic field in the inflow regions). The outflow
+speeds (Ver) have magnitudes 1-3 times Ven, and the out-of-plane velocities (Vey) are about 3-4 times Ven.
+While the strong Vey, is well known as the main current contribution to J-E (ohmic dissipation), vex has
+not been analyzed before. We derive a reconnection rate of 0.04 + 25% for one event using the reconnection
+electric field (Ey) as R = Eyy/(Vae_By), with By the average L component of the magnetic field in the EDR, as
+compared to a value of 0.12 + 20% for R = Ven/Vaet.
+2. Data and Methods
+
+MMS makes electron-scale measurements at four locations within or surrounding magnetic reconnection
+sites in the boundary regions of the magnetosphere. The measurements are summarized by Burch, Moore,
+et al. (2016), with details on plasma and electric and magnetic field data provided by Pollock et al. (2016)
+and Torbert et al. (2016). A major enabling factor for electron-scale reconnection studies is the unprecedented 30-ms time resolution of 3-D electron distributions by the Fast Plasma Investigation (FPI). For special
+studies, even faster measurements at 7.5 ms are possible because of the interleaved nature of the azimuthal
+sampling of FPI (Rager et al., 2018). These faster measurements are derived during ground processing and
+are used in parts of the current study.
+
+3. Results
+3.1. 15 April 2018 Event
+
+MMS encountered the MP near 10 magnetic local time (MLT) at low negative geocentric solar magnetospheric (GSM) latitudes. Figure 1a shows the maximum shear model (Trattner et al., 2012) applied to this
+event with the MMS position noted by the square symbol. Figure 1b shows the S/C positions in
+boundary-normal coordinates.
+
+Figures 1c-1h plot magnetic field, electron velocities, and average ion velocities for MMS1-4. There was a
+significant guide field (By) of about 0.4 times the magnetosphere reconnecting field. The method of
+Schwartz (1998) was used to estimate a reconnection structure velocity along N at —23 km/s. Following
+Denton et al. (2016), the structure velocity along L is estimated at —50 km/s based on <vj,> as plotted in
+Figure 1f. The most prominent features in the electron velocity plots (Figures 1f-1h) are the peaks in Vey
+in (g), which carry the out-of-plane current associated with the reconnection EDR. Using the peaks in Vey
+as the most prominent markers, we note in Figure 1h that three of them are spanned by bipolar signatures
+in the inflow velocities Vey. Only in MMS4 is the inflow velocity unipolar, which may indicate that it encountered just one side of the EDR. These bipolar signatures are most easily seen for MMS2 (red plots). Figure 1f
+shows that also overlapping the Vey, peaks is a single or binary Vey jet. Such Vey peaks can also be seen in
+Figure 3 of Pritchard et al. (2019).
+
+Figure 2 shows results of a reconstruction of the reconnection magnetic field using the polynomial method
+of Denton et al. (2020). A very similar result was obtained using the method of Torbert et al. (2020). Figure 2a
+shows the magnetic field averaged over MMS1-4 with vertical dotted lines indicating times of the plots of
+magnetic field |
+
+2 of 10
+) aa |
+Aud
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+(a)
+Magnetopause (WIND) 15-APR-2018
+
+-20 -10 0
+
+Yosu (Re)
+
+Geophysical Research Letters 10.1029/2020GL089082
+
+mms1 mms2 mms3 mms4
+04:32 | 04:27-04:37 UT
+
+[nT]
+
+M
+[nT]
+
+Shear Angle (deg)
+
+N
+[NT]
+
+10 20
+
+Ve
+[km/s]
+
+Vem
+[km/s]
+
+Ven
+[km/s]
+
+.200 .400 .600  .800 a .200 ~=—.400
+
+.000
+Seconds 43
+2018 Apr 15 0482:
+
+Figure 1. (a) Shear angle between magnetosheath and magnetosphere magnetic fields at 04:32 UT on 15 April 2018. Plot is in GSM coordinates as viewed from the
+Sun. MMS location is noted by the black square with the ion flow velocity indicated by the line attached to the square. Color coding shows a shear angle
+
+near 150°. (b) MMS1-4 locations at 04:32 UT with MMS1 in black, MMS2 in red, MMS3 in green, and MMS4 in blue. Plot is in boundary-normal coordinates
+(LMN) with GSE to LMN derived from the joint variance analysis (Genestreti et al., 2018; Mozer & Retino, 2007): L = [0.21860787, 0.064063071, 0.97370762]
+GSE, M = [—0.59993242, —0.77815588, 0.18588845] GSE, N = [0.76960490, —0.62479544, —0.13167749]| GSE. (c-e) Magnetic field and (f-h) electron velocity in
+LMN coordinates for the four MMS S/C. Also plotted with each vg is the average v; (in dashed magenta) across all four S/C.
+
+BURCH ET AL.
+
+ines in the LN plane (panels b-g). The vertical dotted lines also correspond to times of DF plots shown in
+Figures 3 and 4 with Figures 2d—2f corresponding to Figures 3j-3l and Figures 2b, 2c, and 2g corresponding
+to Figures 4j, 4k, and 4m.
+
+3.1.1. Data From MMS2 and MMS3
+
+Figures 3 and 4 show data for MMS2 and MMS3, respectively. MMS was inbound at the morning-side
+(~10 MLT) MP, but since the MP was moving inward at a higher velocity, the MP crossing was outbound
+as seen by the magnetic field plots in Figures 1-4. In these plots, the FPI electron velocities in panel (c)
+and pitch angle distributions (PADs) in panel (i) are derived from the 7.5-ms data. The E-field data in panel
+(d) are averaged to 7.5-ms resolution so that the J-E values in panels (g) and (h) are also at 7.5-ms resolution.
+As shown in Figures 3b, 3f, 4b, and 4f, the wave activity was predominantly electrostatic with frequency
+peaks between the electron cyclotron and plasma frequencies. Figures 3c and 4c both show a strong peak
+of electron velocity in the M direction; the width of these peaks at half maximum is ~1.5 d,, where d, is
+the electron inertial length of ~1.5 km.
+
+3.1.2. Comparison of MMS2 and MMS3
+
+We first focus on the primary energy conversion site, which for both S/C was within the electron stagnation
+region, although as seen in Figure 2b, MMS3 was near the magnetosphere separatrix. We define this location
+by the time of the J-E peaks (43.75 s for MMS2 and 43.61 s for MMS3).
+
+Next, we note in Figures 3c and 4c that the bipolar patterns of Ven and Vez, overlap the broad peak of Vey; but
+there is a difference in that for MMS2 these patterns are shifted only slightly to a later time, while this shift is
+
+3 of 10
+AKI ‘
+nvYV Geophysical Research Letters 10.1029/2020GL089082
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+ty
+
+04:32: 43.1 43.2 43.3 43.4 43.5 43.6 43.7 43.8 43.9 44 44.1
+
+Sc
+
+N/L
+
+sc
+
+N/L
+
+rortiriitiriitipiitiriitiiis
+i I if
+I ||
+i] / |
+} |
+
+Figure 2. Reconstruction of the reconnection magnetic field for the 15 April 2018 event using the polynomial method of Denton et al. (2020). (a) Average LMN
+magnetic field over all four S/C. (b-g) L-N cuts through a 3-D model at times indicated by vertical dotted lines in (a) with the S/C positions indicated by the colors
+from Figure 1. The color bar indicates values of Byy. The vertical dotted lines are also time markers for electron distribution functions (DFs) plotted in
+
+Figures 3j-3l, 4j, 4k, and 4m. Lg, is the average inter-spacecraft distance.
+
+more significant for MMS3. In fact, for MMS3 the inflow velocity vex > 0 occurs just past the Vey, peak. For
+MMsS2 (Figure 3d) Ey and E;, stayed positive through the peak out-of-plane current while E), maintained a
+small negative value, as expected for the reconnection E field. MMS3 (Figure 4d), on the other hand, detected
+a bipolar signature of higher values of Ey, which was accompanied by a slightly shifted bipolar signature of
+E,. The maximum negative value of Ey, during this bipolar trace coincided with the peak of J-E. This type of
+pattern was reported before by Burch et al. (2018) at the boundary between open and closed field lines in an
+EDR, which is consistent with the MMS3 location shown in Figure 2b.
+
+We now focus on the J-E plots in panels (g) and (h) of Figures 3 and 4. J-E is a scalar quantity, but it is
+instructive to plot separately the contributions from the L, M, and N components of J and E in panel (g).
+The plots in (g) and (h) are made in the rest frame of the reconnection structure so that
+Esty = E + Vetr X B. In Figure 3g it is notable that the green trace (J),Ey) has a significant positive value
+through the broad vy peak shown in panel (c). There is a smaller, mostly positive blue trace (J, E;,) but a
+strong negative red trace (JNEn). This negative JyEn is caused by the positive Ey and the positive ven shown
+in panel (c), which is the inflow velocity. This alignment of Ey and Ven agrees with the conclusion of Swisdak
+et al. (2018) that the oscillations in J-E arise from changes in the sign of Ven.
+
+In the total J-E plot in Figure 3h, the negative JyEy is seen to cause net negative values. The J-E plots for
+MMsS3 in Figures 4g and 4h show a much stronger and narrower J),E), peak and only small negative values
+in the total J-E plot just before the peak. In this case the negative total J-E was caused by the positive values
+of Ey shown in panel (d) within the positive ve), peak shown in panel (c).
+
+BURCH ET AL. 4 of 10
+Ari it
+rtd
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+BURCH ET AL.
+
+Geophysical Research Letters 10.1029/2020GL089082
+
+[Hz]
+
+iL
+M
+N
+rE
+L
+M
+N
+L
+
+=
+
+Ss
+E-Omni
+[Hz]
+
+S
+J.(E+v,,xB) J.(E+v,,xB)
+[nW/m*] [nW/m*]
+
+Electron PA
+125-1423 eV
+[deg]
+
+.400
+Seconds 43
+2018 Apr 15 0432:
+
+ita ieleiaet al 043243.744->043243.774 043243.774->043243.804 049249.824->045243.364 043243.954->043243.984
+1 1
+107°
+
+10%
+Sic > py | ees
+
+10%2
+
+Vi (10*km/s)
+oO
+
+102
+10°
+
+r
+-1 0 1 -1 0 1 -1 0 1 -1 0
+
+Vi; (10*km/s) V., (10*km/s) Vi, (10*km/s) Vi, (10*km/s)
+
+1 1 1
+
+A
+1 44
+
+0 1
+Vi, (10*km/s)
+
+io
+10°7%s~
+10 §
+10%
+107
+10°
+
+V,, (10*km/s)
+
+“1
+1 0 1 -1 0 1 -1 0 1 -1 0 1 “4 0 {
+V,, (10*km/s) V,, (10*km/s) V,, (10*km/s) V,, (10*km/s) V,, (10*km/s)
+
+1 1 1 1 10%
+107%s~
+Co 10°” 5
+10°%2
+10°
+10°
+
+Vy (10*km/s)
+
+- . - “1 0 1
+V,. (10*km/s) V, (10*km/s) V, (10*km/s) V, (10*km/s) V, (10*km/s)
+
+(J) (k) (!) (m) (n)
+
+Figure 3. Data from MMS2 on 15 April 2018. (a) Magnetic field, (b) omnidirectional power spectral density (PSD) of B,
+(c) electron velocity in spacecraft frame, (d) electric field in spacecraft frame, (e) comparison of Eyy and (—Ve X B)y, (f)
+omnidirectional PSD of E, (g) contributions to J-E in the rest frame of the reconnection structure, (h) total J-E, in the
+
+structure frame, (i) electron pitch angle distributions (PADs) for 125-1423 eV with EFlux as eV cm 7 sr) s~ ev, and
+(j-n) electron distribution function (DF) top: in plane perpendicular to B with v,, along E x B and v, 2 along E; middle:
+in plane containing B and v,,; bottom: vy, versus vj. The yellow, red, black, and blue traces in the wave spectrograms
+
+plot Fpe (electron plasma), Fp; (ion plasma), Fee (electron cyclotron), and Fj, (lower hybrid) frequencies.
+
+5 of 10
+vrij
+rwJw
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+BURCH ET AL.
+
+Geophysical Research Letters
+
+(a) oo
+_ 10000.00
+(b) Ea
+os
+a
+_ 1500.00
+(Cc) > FS
+xs
+we
+(d) 2
+e)  &
+=
+_ 10000.00
+= om |
+(f) § F
+Ww
+
+(9)
+
+J.(E+v,,xB)
+[nW/m
+
+(h)
+
+J.(E+V,,,xB)
+[nW/m
+
+(i)
+
+Electron PA
+125-1423 eV
+[deg]
+
+.200
+Seconds 43
+2018 Apr 15 0432:
+
+10.1029/2020GL089082
+
+oo0000
+so 7 eo = NM
+(nT*/Hz)
+
+043243.582->043243.612 043243.672->043243.702 043243.702->043243.732 043243.792->043243.822 043243.852->043243.882
+
+1 1 1
+
+e Ot a
+
+oO
+
+V.5 (10*km/s)
+co)
+
+'
+4
+
+~1
+0 1 -1 0) 1
+Vi, (10*km/s) Vi, (10*km/s)
+
+a4
+a
+—_—
+
+1
+
+oO
+
+V., (10*km/s)
+[o)
+
+'
+_—
+'
+—_
+
+0 1 -f 0 1
+V,, (10*km/s) V,, (10*km/s)
+1
+
+V, (10*km/s) V, (10*km/s)
+
+(J) (k)
+
+Figure 4. Same as Figure 3 except for MMS3.
+
+1
+
+1
+
+10>
+10*s=
+0 177" s
+Fe oF ia
+102
+-1 10°
+- 0 1 <1 0 1
+Vi, (10*km/s) V., (10*km/s)
+' 107%
+10°s>
+=
+0 1077S
+o } le
+102
+4 10%
+A 0 1 1 0 1
+V,, (10*km/s) V,, (10*km/s)
+' 1
+10.~>
+0 10775
+10%2
+102
+1 10%
+1 0 1-1 0 1
+V,, (10*km/s) V, (10*km/s)
+(m) (n)
+6 of 10
+Ari it
+rtd
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+BURCH ET AL.
+
+Geophysical Research Letters 10.1029/2020GL089082
+
+Looking now at the region between the J-E peak and the By, reversal, Figure 3g for MMS2 shows a peak in
+JE, associated with the outflow Ver in panel (c) and a peak in JNEy associated with a localized increase in
+the flow along —N noted above. The MMS3 data in Figure 4 are different in that the only secondary J-E peak
+occurred near the By, reversal where there is a peak in vey within a broader region of vey, > 0 and Ey, < 0. The
+peak in vez, > 0 just before the B, reversal, which is not seen by MMS2, is interpreted as electron flow toward
+the X line in the magnetosheath boundary layer as shown by the simulations of Swisdak et al. (2018) just to
+the —L side of the X line. Moving to the left in Figure 4c, we note an enhancement in —Vey (earthward flow)
+and a decrease in Ve, suggesting a clockwise turning of the flow from the X line to the Earth, which is complete between the second and third vertical dotted lines where vey, drops to zero.
+
+3.2. Electron Flow Observations on 15 April 2018, 14 December 2015, 9 December 2016, and 29
+December 2016
+
+Figure 5 shows electron flow velocities for four reconnection events. The two vertical dotted lines mark the
+peak inflow velocities, which we identify as the edges of the EDR. Figures 5a—5e show the event on 15 April
+2018, which was presented in detail in section 3.1. The inflow speeds approached 0.14v,¢z,, and the peak outflow speed was only slightly larger than the inflow speeds, but with the out-of-plane speed reaching ~0.7V,er,
+following the same pattern as the other events. Also shown for this event are the 8,175/s electric field components in the X-line frame and correlations between 10-point average E,, and Ey (panel g) and EF; (panel h),
+which are discussed in section 3.3. The second event, on 14 December 2015 (panels l-p), has been the subject
+of previous publications by Chen et al. (2017) and Graham et al. (2017) among others. The inflow speed
+reached ~0.12Vaecr, implying a reconnection rate near 0.12 while the outflow speeds (panel e) were about
+twice the inflow speeds. Similar patterns are seen for the event on 9 December 2016 (panels q-u), which is
+the magnetosheath electron-only reconnection event reported by Phan et al. (2018). This event is included
+because, although not discussed by Phan et al., electron inflows in the form of bipolar vey were present
+and provide another valuable comparison. In this case the inflow speeds reached ~0.25vV,e,, implying a
+reconnection rate of ~0.25. MMS2 measured a unipolar outflow speed (panel u) of up to 0.4V,¢;,, while the
+highest speeds were observed in the out-of-plane flow (panel t), which reached nearly 0.8Va, ez.
+
+Comparable patterns are seen for the event on 29 December 2016 (Figures 5v—5z), which occurred in the
+electron stagnation region. For this event, which was published by Pritchard et al. (2019), the inflow speeds
+reached ~0.05V,ez, indicating a reconnection rate of ~0.05.
+
+3.3. Electric Field Data and Error Analysis
+
+The tilt of the X-line structure in the L-N plane in the Figure 2 reconstruction could be due to a combination
+of a sub-optimal LMN transform and inaccuracies in the reconstruction code. As shown in Figures 3e and 4e,
+there is very good equivalence between Ej, and (—ve X B)yy except, as expected, when MHD is violated in
+dissipation regions as identified by J-E,,;. Thus, we conclude as have others (e.g., Torbert et al., 2017) that
+the measurements of v, are very accurate and that errors in the LMN transformation represent the primary
+measurable source of error in the reconnection rate. Following Genestreti et al. (2018), we can assess the
+accuracy of the LMN transform by comparing the values of E),, which we assume are uniform within the
+EDR, with the larger values of Ey; and Ey. Plots of these comparisons are shown in Figures 5g and 5h.
+The slopes of the fit lines in these plots give the tilt angle of the two axes in radians since for small angles
+cos(tilt) ~ tilt. From Figure 5g the tilt angle in the N,M plane between the ideal and actual M axes is
+~10.7°, while Figure 5h shows the tilt in the L,M plane to be ~10.1°. Since our LMN transform requires orthogonality, we conclude that a similar error occurs in the L,N plane.
+
+We have applied a rotation to the electric field data using the matrix shown in the Figure 5 caption. This
+rotation minimizes the contamination of Ej, values by Ey and E,. The mean value of Ey, is —1.164 mV/m
+with a standard deviation of 0.376. The normalized reconnection rate derived from Ey is <E,>/
+(Vac_<B,>) ~ 0.04 + 25%. In order to estimate the error in the reconnection rate derived from Ven/Vager,
+we applied the same correction of the LMN transform to the electron velocity data and found a reconnection
+rate of 0.12, which is ~16% lower than shown at the vertical dashed lines in Figure 5c for the original LMN
+transform. Thus, we conclude that the relative error in the reconnection rate derived from the electron
+inflow velocity is about +20%, which is similar to the error in Ey.
+
+7 of 10
+l Vand | 5‘
+nvYL Geophysical Research Letters 10.1029/2020GL089082
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+MMS2 Electrons MMS2 Electrons MMS2 Electrons
+faa)
+Zz Seconds .750 .760 #.770 ~+# «.780 ~=#«.790 «Seconds.750 #.760 +#&=«.770~=—.780_~—S—s=—#790
+a ~ =
+2 £ —
+= >
+: : E
+> uF uf
+2 8 10 12 14 16 8 10 12 14 16
+=
+rf
+>
+E,,= -1.094 - 0.0027E,,
+E E °
+: > > Sea weal tee vevaens Orergyrercaed % 81:96
+<, ~S S
+my Ww Ww
+Seconds “420 800. -—«-800.- 090-200-400 - 7 8
+2018 Apr 15 0432: LtmVin) E,-(mV/m)
+
+MMS4 Electrons MMS2 Electrons MMSS8 Electrons
+PT Tt
+
+B
+(nT)
+
+N
+(cm*)
+
+Ven/V AeL
+
+Vew/V AeL
+
+Vo/V AeL
+
+40 42 .200
+Seconds Seconds Seconds
+2015 Dec 14 0117: 2016 Dec 09 0903:54 2016 Dec 29 0358:
+
+Figure 5. Electron velocities for reconnection events on 15 April 2018, 14 December 2015, 9 December 2016, and 29 December 2016. For each event there are plots
+of (a, 1, q, V) Bryn, (b, m, r, W) Ne, (C, 0, S, X) Ven/VaAez, (d, 0, t, Y) Vem/VAer, and (e, p, U, Z) Ver/VAer, Where Vager, is the electron Alfvén speed given by
+VAeL~ = By 1 By 2(Bri + By2)/(UoP1BL2 + MoP2Bz1) with subscripts 1 and 2 denoting the first and second vertical dotted lines, respectively (see Cassak &
+
+Shay, 2007). Values of Vaey, for the four events are 2,497, 2,177, 946, and 2,488 km/s, respectively. Also, (f) electric field in X-line rest frame, (g) correlation
+between 10-point average Ey and Ey, (h) correlation between 10-point average Ey, and Ey, (i) E field with rotation correction, (j) Ej, Ejy correlation with
+rotation correction, and (k) Ey, Eyy correlation with rotation correction. Rotation correction matrix given by N’: [sin(p)sin(ts), sin(p)cos(ts), cos(p)|, M’: [cos(p)
+sin(ts), cos(p)cos(ts), —sin(p)], L’: [cos(ts), —sin(ts), 0], where p = —0.188 rad (from panel g), and ts = 0.175 rad (from panel h).
+
+BURCH ET AL. 8 of 10
+) aa |
+Aud
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Acknowledgments
+
+This work was supported by NASA
+Contract NNGO4EB99C at SwRI.
+
+K. J. H. and K. D. were supported in
+part by NSF AGS-1602510 and NASA
+Grants 80NSSC18K1337,
+80NSSC18K1534, 80NSSC18K0570, and
+80NSSC18K0693. R. E. D. was
+supported by NASA Grant
+80NSSC19K0254. T. D. P. was
+supported by NASA Grant
+80NSSC18K0157. P. A. C. was
+supported by NASA Grants
+NNX16AG76G and 80NSSC19M0146,
+NSF Grants AGS-1602769 and
+PHY-1804428, and DOE Grant
+DE-SC0020294. O. L. C. was supported
+by CNES and CNRS. The authors are
+grateful to ISSI for its support.
+
+BURCH ET AL.
+
+Geophysical Research Letters 10.1029/2020GL089082
+
+4. Conclusions
+
+We have presented electron velocities within an MP reconnection site on 15 April 2018. The observations
+were made at all four spacecraft with detailed data shown for MMS2, which was well within the electron
+stagnation region, and MMS3, which was near the magnetosphere separatrix. In both cases electron outflow
+jets (along L and/or —L) and inflow velocities (along +N) were observed to span the region of highest out-ofplane velocity and J-E. These observations are compared to previously published events on 14 December
+2015, 9 December 2016, and 29 December 2016 and found to have similar values in that the inflow velocities
+were in the range from 0.05 to 0.25v.,4, which provide normalized reconnection rates. We used electric field
+data to estimate the inaccuracy of the LMN transform for the 15 April 2018 event to be ~10.5°. We corrected
+the transform errors by applying an additional matrix rotation and obtained a normalized reconnection rate
+of 0.04 + 25%. Applying the same LMN correction to the electron velocity data yielded a reconnection rate
+about 16% below that shown in Figure 5c or ~0.12 with an estimated error of +20%. The difference between
+the reconnection rates derived from Ey, and Ven is not understood and will be investigated for more events.
+One possible explanation is the existence of vex components parallel to B, which would not contribute to the
+advection of the magnetic field and so would reduce the reconnection rate derived from the inflow velocity.
+The mean angle between ven and B in Figure 5c is 87.6° + 19%, which places this potential error within the
+20% range derived from the LMN transform uncertainty.
+
+The outflow velocities along +L ranged up to about three times the inflow velocities. This ratio is similar to
+the theoretical prediction of the aspect ratio of the inner EDR based on electron trapping length in a field
+reversal (Hesse et al., 1999). A similar result (aspect ratio of inner EDR ~4) was obtained with MMS for a tail
+reconnection event by Nakamura et al. (2019) who found Vey, ~ 0.1v,. in the outflow region. It is predicted
+that such sub-Alfvénic outflow in the inner EDR will accelerate to v,.; as the electrons move toward the
+exhaust region as shown by the simulations of Shay et al. (2007) and Drake et al. (2008).
+
+Similar investigations are conducted in the laboratory with MRX: Yamada et al. (2018) observed the high
+out-of-plane velocity (Vey) at the stagnation point of asymmetric reconnection; Ren et al. (2008) observed
+outflow velocities at 0.11Ve,4, which are consistent with our measurements.
+
+Data Availability Statement
+
+The 15 April 2018 reconnection event was discovered in a database created for the International Space
+Science Institute Team 442, “Study of the physical processes in magnetopause and magnetosheath current
+sheets using a large MMS database.” The entire MMS data set is available online (at https://lasp.colorado.
+edu/mms/sdc/public/links/). Fully calibrated data are placed online at this site within 30 days of their transmission to the MMS Science Operations Center. The data are archived in the NASA Common Data Format
+(CDF) and so can be plotted using a number of different data display software packages that can use CDF
+files. A very comprehensive system called the Space Physics Environment Data Analysis System
+(SPEDAS) is available by downloading (http://themis.ssl.berkeley.edu/socware/bleeding_edge/) and selecting (spdsw_latest.zip). Training sessions on the use of SPEDAS are held on a regular basis at space
+physics-related scientific meetings. All of the data plots in this paper were generated with SPEDAS software
+applied to the publicly available MMS database, so they can readily be duplicated.
+
+References
+
+Burch, J. L., Ergun, R. E., Cassak, P. A., Webster, J. M., Torbert, R. B., Giles, B. L., et al. (2018). Localized oscillatory energy conversion in
+magnetopause reconnection. Geophysical Research Letters, 45(3), 1237-1245. https://doi.org/10.1002/2017GL076809
+
+Burch, J. L., Moore, T. E., Torbert, R. B., & Giles, B. L. (2016). Magnetospheric multiscale overview and science objectives. Space Science
+Reviews, 199(1-4), 5-21. https://doi.org/10.1007/s11214-015-0164-9
+
+Burch, J. L., Torbert, R. B., Phan, T. D., Chen, L.-J., Moore, T. E., Ergun, R. E., et al. (2016). Electron-scale measurements of magnetic
+reconnection in space. Science, 352(6290), aaf2939. https://doi.org/10.1126/science.aaf2939
+
+Cassak, P. A., & Shay, M. A. (2007). Scaling of asymmetric magnetic reconnection: General theory and collisional simulations. Physics of
+Plasmas, 14(10), 102114 (2007). https://doi.org/10.1063/1.2795630
+
+Cassak, P. A., & Shay, M. A. (2009). Structure of the dissipation region in fluid simulations of asymmetric magnetic reconnection. Physics of
+Plasmas, 16(5), 055704. https://doi.org/10.1063/1.3086867
+
+Cassak, P. A., Shay, M. A., & Drake, J. F. (2005). Catastrophe model for fast magnetic reconnection onset. Physical Review Letters, 95(23),
+235002. https://doi.org/10.1103/PhysRevLett.95.235002
+
+9 of 10
+Lve4
+nvYL Geophysical Research Letters 10.1029/2020GL089082
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Chen, L.-J., Hesse, M., Wang, S., Gershman, D., Ergun, R. E., Burch, J., et al. (2017). Electron diffusion region during magnetopause
+reconnection with an intermediate guide field: Magnetospheric multiscale observations. Journal of Geophysical Research: Space Physics,
+122(5), 5235-5246. https://doi.org/10.1002/2017JA024004
+
+Denton, R. E., Sonnerup, B. U. O., Hasegawa, H., Phan, T. D., Russell, C. T., Strangeway, R. J., et al. (2016). Motion of the MMS spacecraft
+relative to the magnetic reconnection structure observed on 16 October 2015 at 1307 UT. Geophysical Research Letters, 43(11), 5589-5596.
+https://doi.org/10.1002/2016GL069214
+
+Denton, R. E., Torbert, R. B., Hasegawa, H., Dors, I., Genestreti, K. J., Argall, M. R., et al. (2020). Polynomial reconstruction of the
+reconnection magnetic field observed by multiple spacecraft. Journal of Geophysical Research: Space Physics, 125, e2019JA027481.
+https://doi.org/10.1029/2019JA027481
+
+Drake, J. F., Shay, M. A., & Swisdak, M. (2008). The Hall fields and fast magnetic reconnection. Physics of Plasmas, 15(4), 042306. https://
+doi.org/10.1063/1.2901194
+
+Genestreti, K. J.. Nakamura, T. K. M., Nakamura, R., Denton, R. E., Torbert, R. B., Burch, J. L., et al. (2018). How accurately can we
+measure the reconnection rate for the MMS diffusion region event of 11 July 2017? Journal of Geophysical Research: Space Physics,
+123(11), 9130-9149. https://doi.org/10.1029/2018JA025711
+
+Graham, D. B., Khotyaintsev, Y. V., Vaivads, A., Norgren, C., André, M., Webster, J. M., et al. (2017). Instability of agyrotropic electron
+beams near the electron diffusion region. Physical Review Letters, 119(2), 025101. https://doi.org/10.1103/PhysRevLett.119.025101
+
+Hesse, M., Aunai, N., Sibeck, D., & Birn, J. (2014). On the electron diffusion region in planar, asymmetric, systems. Geophysical Research
+Letters, 41(24), 8673-8680. https://doi.org/10.1002/2014GL061586
+
+Hesse, M., Schindler, K., Birn, J., & Kuznetsova, M. (1999). The diffusion region in collisionless magnetic reconnection. Physics of Plasmas,
+6(5), 1781-1795. https://doi.org/10.1063/1.873436
+
+Karimabadi, H., Roytershteyn, V., Daughton, W., & Liu, Y. H. (2013). Recent evolution in the theory of magnetic reconnection and its
+connection with turbulence. Space Science Reviews, 178(2-4), 307-323. https://doi.org/10.1007/s11214-013-0021-7
+
+Klimas, A. (2015). New expression for collisionless magnetic reconnection rate. Physics of Plasmas, 22(4), 042901. https://doi.org/10.1063/
+1.4917068
+
+Mozer, F. S., & Retino, A. (2007). Quantitative estimates of magnetic field reconnection properties from electric and magnetic field measurements. Journal of Geophysical Research, 112(A10), A10206. https://doi.org/10.1029/2007JA012406
+
+Nakamura, R., Genestreti, K. J., Nakamura, T., Baumjohann, W., Varsani, A., Nagai, T., et al. (2019). Structure of the current sheet in the 11
+July 2017 Electron Diffusion Region event. Journal of Geophysical Research: Space Physics, 124(2), 1173-1186. https://doi.org/10.1029/
+2018JA026028
+
+Phan, T. D., Eastwood, J. P., Shay, M. A., Drake, J. F., Sonnerup, B. U. O., Fujimoto, M., et al. (2018). Electron magnetic reconnection
+without ion coupling in Earth's turbulent magnetosheath. Nature, 557(7704), 202-206. https://doi.org/10.1038/s41586-018-0091-5
+
+Pollock, C. J., Moore, T., Jacques, A., Burch, J., Gliese, U., Saito, Y., et al. (2016). Fast plasma investigation for Magnetospheric Multiscale.
+Space Science Reviews, 199(1-4), 331-406. https://doi.org/10.1007/s11214-016-0245-4
+
+Priest, E. R., Titov, V. S., Grundy, R. E., & Hood, A. W. (2000). Exact solutions for reconnective magnetic annihilation. Proceedings of the
+Royal Society of London, Series A, 456, 1821. https://doi.org/10.1098/rspa.2000.0588
+
+Pritchard, K. R., Burch, J. L., Fuselier, S. A., Webster, J. M., Torbert, R. B., Argall, M. R., et al. (2019). Energy conversion and electron
+acceleration in the magnetopause reconnection diffusion region. Geophysical Research Letters, 46(17-18), 10,274-10,282. https://doi.org/
+10.1029/2019GL084636
+
+Rager, A. C., Dorelli, J. C., Gershman, D. J., Uritsky, V., Avanov, L. A., Torbert, R. B., et al. (2018). Electron crescent distributions as a
+manifestation of diamagnetic drift in an electron-scale current sheet: Magnetospheric Multiscale observations using new 7.5 ms Fast
+Plasma Investigation moments. Geophysical Research Letters, 45(2), 578-584. https://doi.org/10.1002/2017GL076260
+
+Ren, Y., Yamada, M., Ji, H., Dorfman, S., Gerhardt, S. P., & Kulsrud, R. (2008). Experimental study of the Hall effect and electron diffusion
+region during magnetic reconnection in a laboratory plasma. Physics of Plasmas, 15(8), 082113. https://doi.org/10.1063/1.2936269
+
+Schwartz, S. J. (1998). Shock and discontinuity normals, mach numbers, and related parameters. In G. Paschmann & P. Daly (Eds.),
+ESA/ISSIAnalysis methods for multi-spacecraft data, ISSI Scientific Reports Series (Vol. 1, pp. 249-270). Noordwijk, The Netherlands: ESA
+Publications Division Keplerlaan.
+
+Shay, M. A., Drake, J. F., & Swisdak, M. (2007). Two-scale structure of the electron dissipation region during collisionless magnetic
+reconnection. Physical Review Letters, 99(15), 155002. https://doi.org/10.1103/PhysRevLett.99.155002
+
+Swisdak, M., Drake, J. F., Price, L., Burch, J. L., Cassak, P. A., & Phan, T.-D. (2018). Localized and intense energy conversion in the diffusion
+region of asymmetric magnetic reconnection. Geophysical Research Letters, 45(11), 5260-5267. https://doi.org/10.1029/2017GL076862
+
+Torbert, R. B., Burch, J. L., Argall, M. R., Alm, L., Farrugia, C. J., Forbes, T. G., et al. (2017). Structure and dissipation characteristics of an
+electron diffusion region observed by MMS during a rapid, normal-incidence magnetopause crossing. Journal of Geophysical Research,
+Space Physics, 122(12), 11,901-11,916. https://doi.org/10.1002/2017JA024579
+
+Torbert, R. B., Dors, I., Argall, M. R., Genestreti, K. J., Burch, J. L., Farrugia, C. J., et al. (2020). A new method of 3-D magnetic field
+reconstruction. Geophysical Research Letters, 47, e2019GL085542. https://doi.org/10.1029/2019GL085542
+
+Torbert, R. B., Russell, C. T., Magnes, W., Ergun, R. E., Lindqvist, P. A., LeContel, O., et al. (2016). The FIELDS instrument suite on MMS:
+Scientific objectives, measurements, and data products. Space Science Reviews, 199(1-4), 105-135. https://doi.org/10.1007/s11214-0140109-8
+
+Trattner, K. J., Petrinec, S. M., Fuselier, S. A., & Phan, T. D. (2012). The location of reconnection at the magnetopause: Testing the maximum magnetic shear model with THEMIS observations. Journal of Geophysical Research, 117(A1), A01201. https://doi.org/10.1029/
+2011JA016959
+
+Tsiklauri, D. (2008). A new fast reconnection model in a collisionless regime. Physics of Plasmas, 15(11), 112903. https://doi.org/10.1063/
+1.3029737
+
+Yamada, M., Chen, L. J., Yoo, J., Wang, S., Fox, W., Jara-Almonte, J., et al. (2018). The two-fluid dynamics and energetics of the asymmetric magnetic reconnection in laboratory and space plasmas. Nature Communications, 9(1), 5223. https://doi.org/10.1038/s41467018-07680-2
+
+BURCH ET AL. 10 of 10

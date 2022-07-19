@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Cluster observations of finite amplitude Alfve ´n waves and small-scale magnetic filaments downstream of a quasi-perpendicular shock</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2004-05-11">11 May 2004.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">O</forename><surname>Alexandrova</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire d&apos;Etudes Spatiales et d&apos;Instrumentation en Astrophysique</orgName>
+								<orgName type="institution" key="instit1">Observatoire de Paris-Meudon</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<settlement>Meudon</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Mangeney</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire d&apos;Etudes Spatiales et d&apos;Instrumentation en Astrophysique</orgName>
+								<orgName type="institution" key="instit1">Observatoire de Paris-Meudon</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<settlement>Meudon</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire d&apos;Etudes Spatiales et d&apos;Instrumentation en Astrophysique</orgName>
+								<orgName type="institution" key="instit1">Observatoire de Paris-Meudon</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<settlement>Meudon</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Lacombe</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratoire d&apos;Etudes Spatiales et d&apos;Instrumentation en Astrophysique</orgName>
+								<orgName type="institution" key="instit1">Observatoire de Paris-Meudon</orgName>
+								<orgName type="institution" key="instit2">CNRS</orgName>
+								<address>
+									<settlement>Meudon</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Cornilleau-Wehrlin</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Centre d&apos;Etude des Environnements Terrestre de Plane ´taires</orgName>
+								<orgName type="institution">Institut Pierre Simon Laplace</orgName>
+								<address>
+									<addrLine>Ve ´lizy</addrLine>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Lucek</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Space and Atmospheric Physics</orgName>
+								<orgName type="institution">Imperial College</orgName>
+								<address>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">M E</forename><surname>De ´cre</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Laboratoire de Physique et Chimie de l&apos;Environnement</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<settlement>Orleans</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J.-M</forename><surname>Bosqued</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Centre d&apos;Etude Spatiale des Rayonnements</orgName>
+								<orgName type="institution">CNRS</orgName>
+								<address>
+									<settlement>Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Travnicek</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">Institute of Atmospheric Physics</orgName>
+								<address>
+									<settlement>Prague</settlement>
+									<country key="CZ">Czech Republic</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Fazakerley</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="laboratory">Mullard Space Science Laboratory</orgName>
+								<orgName type="institution">University College London</orgName>
+								<address>
+									<settlement>Dorking</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Cluster observations of finite amplitude Alfve ´n waves and small-scale magnetic filaments downstream of a quasi-perpendicular shock</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2004-05-11">11 May 2004.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">B6EB70A6160FCA276AADB4F95F92E5A0</idno>
+					<idno type="DOI">10.1029/2003JA010056</idno>
+					<note type="submission">Received 23 May 2003; revised 28 August 2003; accepted 8 October 2003;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T14:51+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>2784 Magnetospheric Physics: Solar wind/magnetosphere interactions</term>
+					<term>7851 Space Plasma Physics: Shock waves</term>
+					<term>2728 Magnetospheric Physics: Magnetosheath</term>
+					<term>2752 Magnetospheric Physics: MHD waves and instabilities</term>
+					<term>KEYWORDS: bow shock, Alfve ´n waves, current filaments</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Cluster satellites crossed the Earth's bow shock several times on 31 March 2001. For all these crossings the bow shock was supercritical and quasi-perpendicular. We present here the results of a detailed analysis of the magnetic field fluctuations observed downstream of the shock. We use data from the four Cluster spacecraft to determine the behavior and the geometry of these fluctuations with good accuracy. Shortly after the ramp crossing, we observed a large-amplitude nonlinear Alfve ´n wave, propagating along the downstream average magnetic field with a spectrum peaking at two frequencies below the proton and the alpha ion cyclotron frequencies. Farther downstream in the magnetosheath the magnetic field fluctuations took the form of three-dimensional structures which can be interpreted as cylindrical field-aligned current tubes. It is the first time that such current tubes have been observed downstream of a quasi-perpendicular shock, and they are closely associated with a quasi-monochromatic, finite amplitude Alfve ´n wave. We suggest that a close relation exists between the nonlinear Alfve ´n wave and the current tubes as a result of a filamentation instability which is expected to occur at b ! 1 and for frequencies comparable to the ion cyclotron frequencies.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>[2] The structure of supercritical, quasi-perpendicular collisionless shocks is largely controlled by gyrating ions reflected at the shock ramp [see, e.g., <ref type="bibr" target="#b12">Leroy et al., 1982;</ref><ref type="bibr" target="#b15">Paschmann et al., 1982]</ref>. Once they move downstream of the shock ramp, these ions contribute to the temperature anisotropy T i? &gt; T ik , where T i? and T ik are the ion temperatures perpendicular and parallel, respectively, to an ambient magnetic field. This anisotropy is then the source of Alfve ´n ion cyclotron and/or mirror instabilities [see <ref type="bibr" target="#b22">Schwartz et al., 1996]</ref>. When the proton thermal energy density is small with respect to the magnetic energy density, b p &lt; 1, the most unstable mode is the Alfve ´n ion cyclotron mode (AIC), while the mirror mode is the most unstable one in the opposite situation. Furthermore, with a sufficient proportion of anisotropic a particles both the proton cyclotron and the helium cyclotron modes are destabilized <ref type="bibr" target="#b8">[Gary et al., 1994]</ref>.</p><p>[3] The nonlinear evolution of the AIC instability is not yet fully understood. Several saturation mechanisms may operate, either the quasi-linear relaxation [see, e.g., <ref type="bibr" target="#b24">Yoon, 1992]</ref> or stronger nonlinearities like the parametric or modulational instabilities. In particular, if there is a perturbation with a finite component of the wave vector orthogonal to the ambient magnetic field B, k 0 ? 6 ¼ 0, the Alfve ´n wave may be unstable to a transverse instability, which generates field-aligned magnetic tubes, where the local concentration of the transverse magnetic energy increases. This phenomenon, called the filamentation instability, has been observed in Hall-MHD simulations for the parallelpropagating circularly polarized Alfve ´n wave pumps <ref type="bibr" target="#b11">[Laveder et al., 2002]</ref>.</p><p>[4] In this study we present Cluster observations suggesting that the filamentation instability may play a role in the saturation of the AIC instability and in the temperature anisotropy relaxation downstream of quasiperpendicular shocks. These observations were obtained in the region immediately downstream of a supercritical, quasi-perpendicular bow shock where the plasma parameters were suitable for the development of the AIC instability: b p &lt; 1 and simultaneously anisotropic protons and a particles. AIC waves were effectively observed downstream but close to the shock front with a relatively narrow spectrum centered on two frequencies comparable to the proton and a particle gyrofrequencies (see section 3); their steepened waveform displays evidence of significant nonlinearities.</p><p>[5] The most important result of this work is the identification, farther downstream, of field-aligned current tubes (section 4). Similar current tubes were already observed by the ISEE spacecraft <ref type="bibr" target="#b17">[Rezeau et al., 1993]</ref> in the magnetopause boundary layer, while the present observations were made in the region downstream of the bow shock, just after crossing a region where a large-amplitude AIC wave was observed. We suggest that the current tubes, which look like the magnetic filaments (D. <ref type="bibr">Laveder, private communication, 2003)</ref>, result from the filamentation instability of the AIC wave.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Observations</head><p>[6] On 31 March 2001 the four Cluster spacecraft came out of the magnetosphere at $1440 UT and crossed the bow shock for the first time at $1710 UT, the GSE coordinates of the magnetopause and bow shock crossings being (6.6, 0.2, 8.8)R E and (9.4, À1.4, 9.1)R E , respectively. After this crossing, nine successive shock crossings were observed until 2000 UT. All these shocks were quasi-perpendicular, the angle Q BN between the normal to the shock and the magnetic field ranging between 60°and 90° <ref type="bibr" target="#b13">[Maksimovic et al., 2003</ref>].</p><p>[7] We have analyzed the magnetic field waveforms obtained by the search coils of the Spatio-Temporal Analysis of Field Fluctuations (STAFF) experiment <ref type="bibr" target="#b4">[Cornilleau-Wehrlin et al., 1997</ref><ref type="bibr">, 2003</ref>] at a sampling frequency of 25 Hz. Since these waveforms have been high-pass filtered to remove the spacecraft spin modulation, we have also used the data from the fluxgate magnetometer (FGM) experiment at 4-s resolution <ref type="bibr" target="#b3">[Balogh et al., 2001]</ref> to recover the low frequencies. Both signals are combined by using a Haar wavelet transform (see Appendix A for more details) to retain the slow trends given by the smoothed FGM data as well as the fast variations of the STAFF magnetic waveforms. The ''mixed'' waveforms, which will be used throughout this study, are then obtained by inverting the resulting wavelet transform. We shall also use the potential of Haar wavelet transform to detect fast variations of the fields because of its good time resolution.</p><p>[8] In this paper, we shall examine in more detail an outward crossing at 1802:17 UT. A first estimate of the shock normal in the GSE system was obtained by using the time delays between the shock crossings by the four spacecraft <ref type="bibr" target="#b21">[Schwartz, 1998;</ref><ref type="bibr" target="#b13">Maksimovic et al., 2003]</ref>. This yields a normal n * = (0.94, À0.26, 0.21) approximately parallel to the Sun-Earth direction. The relative positions of the four spacecraft at the time of the shock crossing, the downstream magnetic field, and the plane of the shock front with its normal are illustrated in Figure <ref type="figure" target="#fig_0">1</ref>.</p><p>[9] The GSE direction of maximum magnetic field variance during the interval 1800 -1804 UT around the shock crossing is b = (0.23, À0.13, À0.96); the direction varies very little between the four spacecraft. The maximum variance direction is expected to be orthogonal to the shock normal according to the coplanarity theorem. Thus we have chosen the unit vector parallel to Àb Â (b Â n * ) as the actual shock normal, n = (0.93, À0.26, 0.26) ' n * . We shall use the direct shock coordinate system (n, b Â n, b) = (n, m, ') based on this ''improved'' shock normal.</p><p>[10] The magnetosheath and solar wind plasma parameters obtained by the Cluster 1 (C 1 ) and ACE spacecraft for this crossing are given in Table <ref type="table" target="#tab_0">1</ref>. ACE data are taken with a 30-min delay corresponding to the solar wind travel time from the ACE location to the Earth orbit.</p><p>[11] The upstream and downstream average magnetic fields B sw and B msh have been determined as averages over the two time intervals 1802:55-1804:07 UT upstream, and 1800:31 -1801:43 UT downstream, respectively. They both have strong southward components in the GSE coordinate system; in the shock frame their components are B sw = (À2.4, 3.4, 29.5) and B msh = (À2.3, 3.5, 88.1) nT, which shows that the normal component of the magnetic field is approximately constant across the shock and that the coplanarity theorem applies reasonably well.</p><p>[12] The velocity data are obtained from the Cluster Ion Spectrometry (CIS) experiment <ref type="bibr" target="#b16">[Re `me et al., 1997]</ref> in the magnetosheath and from the ACE/Solar Wind Electron Proton Alpha <ref type="bibr">Monitor [McComas et al., 1998]</ref> in the solar wind since CIS was in an operating mode that allowed good measurements only in the magnetosheath without ion separation. The bulk speeds are given in the rest frame of the shock, which moves with a local speed '12 km/s toward the Earth in the GSE system <ref type="bibr" target="#b13">[Maksimovic et al., 2003]</ref>. The proton temperature T p is also taken from CIS downstream and from ACE upstream. The electron temperature T e is measured by the Plasma Electron and Current Experiment (PEACE) instrument <ref type="bibr" target="#b9">[Johnstone et al., 1997]</ref>.</p><p>[13] The electron concentration N e in the solar wind can be reliably estimated by the location of the plasma line by the Waves of High Frequency and Sounder for Probing of Elecron density by Relaxation (WHISPER) radio receiver <ref type="bibr" target="#b6">[De ´cre ´au et al., 1997]</ref>. In the magnetosheath the plasma line, even if not easily distinguishable from the noise level, gives an electron density of around 60 cm À3 . As noted above, the CIS instrument was in the magnetospheric mode for this particular shock crossing, and the CIS composition and distribution function (CODIF) sensor (with ion separation) was saturated because the proton concentration exceeded 5 -10 cm À3 . Therefore in the solar wind we use ACE data to determine the a particle abundance N a /N p ' 0.11 and the quasi-neutrality to obtain the a and proton densities N a and N p . In the magnetosheath the CIS hot ion analyzer (HIA) sensor (without ion separation) gives a total ion concentration of $40 cm À3 . This density does not satisfy a mass flux conservation across the bow shock; assuming a downstream abundance N a /N p equal to the upstream one, the mass flux conservation gives N e = 56 cm À3 downstream. Therefore throughout this paper we will use the WHISPER result that is closer to this theoretical value and not the CIS density. Other parameters such as the Alfve ´n velocities V A = B/ ffiffiffiffiffiffi ffi m 0 r p (r is the total mass density), the ion inertial lengths c/w pi , and the proton and electron betas b p and b e are also presented in Table <ref type="table" target="#tab_0">1</ref>. In particular, the Alfve ´n Mach number of the shock is M A = V n /V A = 4.4 (V n is the upstream normal velocity in the shock rest frame), and the angle between the interplanetary magnetic field and the shock normal is Q BN = 82°; therefore the shock is supercritical and quasi-perpendicular.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">The AIC Waves</head><p>[14] Figure <ref type="figure" target="#fig_1">2</ref> displays the time profile of the three components of the magnetic field (in the shock frame) and of the proton temperature anisotropy T p? /T pk observed by the C 1 spacecraft for a 12-min interval around the time of shock crossing at 1802:17 UT, taken as the origin of time for Figure <ref type="figure" target="#fig_1">2</ref> and most of the following analysis. An almost monochromatic wave can be observed in the n and m components of the magnetic field for $300 s downstream of the shock crossing. This is most clearly illustrated by using the Morlet wavelet transform (see Appendix A). The wavelet amplitudes WB j ( f, t) give the contribution at time t of fluctuations at scale 1/f to the total fluctuation dB j (t) of the jth component of the magnetic field. Figure <ref type="figure" target="#fig_2">3</ref> shows the contour levels in the timescale plane of the squared amplitude of the wavelet coefficients jWB n ( f, t)j 2 of the n component of the magnetic field for the same time period as Figure <ref type="figure" target="#fig_1">2</ref> (here also t = 0 at the shock crossing time). The scales (1/f ) range from 0.1 to 18.0 s, and the amplitude levels are represented by a color scale ranging from black (low) to red (high). The proton cyclotron period 1/f cp (s) is shown by a solid line in Figure <ref type="figure" target="#fig_2">3</ref>.</p><p>[15] One can see in Figure <ref type="figure" target="#fig_2">3</ref> the intense structured emission just before the shock crossing, corresponding to the quasi-sinusoidal wave seen in Figure <ref type="figure" target="#fig_1">2</ref>. It lasts for $4 min, from 280 s before the shock crossing to 30 s before the shock crossing, and peaks at 3 -5 s scales. Deeper in the magnetosheath, at about À350 s, the fluctuation regime changes (see the vertical dashed line), and we observe intermittent peaks of energy, identified by black arrows, at scales between 1 and 2 s, which will be discussed in section 4.</p><p>[16] Simultaneous with the intense narrowband emission seen on the scalogram of Figure <ref type="figure" target="#fig_2">3</ref>, a relatively large proton temperature anisotropy is observed (see the fourth panel of Figure <ref type="figure" target="#fig_1">2</ref>). This anisotropy has a peak value just downstream of the shock ramp and reaches a more or less constant value of '1.7 deeper in the magnetosheath, when the field loses its quasi-sinusoidal character. It can therefore be expected that the observed wave is an AIC wave resulting from the development of an instability due to the particle anisotropies.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Linear Theory</head><p>[17] A linear analysis based on Vlasov theory, using an improved version of the linear dispersion code called WHAMP developed by Ro ¨nnmark <ref type="bibr">[1982,</ref><ref type="bibr">1983]</ref>, confirms indeed that the level of anisotropy observed just downstream of the shock can be indicative of an AIC instability. For this, we have assumed bi-Maxwellian electron, proton, and a particle distribution functions, with parameters as close as possible to the observed values.</p><p>[18] In particular, the parallel electron and proton temperatures and the corresponding temperature anisotropies are taken as T ek = 85 eV, T e? /T ek = 1.1 (as observed by PEACE) and T pk ' 170 eV, T p? /T pk = 2.5 (as observed by CIS), respectively. The a particle anisotropy is assumed to be the same as that of the protons, and the particle temperature is taken to be T ak ' 4T pk , a reasonable value downstream of a quasi-perpendicular bow shock with an upstream temperature ratio (T ak /T pk ) sw = 4 <ref type="bibr" target="#b25">[Zhao et al., 1991;</ref><ref type="bibr" target="#b7">Fuselier et al., 1991]</ref>. The other parameters (magnetic field magnitude and concentrations) are taken from Table <ref type="table" target="#tab_0">1</ref>.</p><p>[19] With these parameters the most unstable modes are Alfve ´n waves propagating along the background magnetic field. The corresponding linear growth rate (Figure <ref type="figure" target="#fig_3">4a</ref>) and frequency (Figure <ref type="figure" target="#fig_3">4b</ref>) are displayed as functions of the normalized wave vector kr p parallel to the magnetic field, r p being the proton Larmor radius based on the proton parallel thermal velocity r p = (2k B T pk /m p f cp 2 ) 1/2 ' 23 km.</p><p>[20] The growth rate is positive (instability) in two separate frequency domains centered on 0.24 f cp and 0.51 f cp , associated with the a particle and proton anisotropies, respectively. The corresponding unstable wave vector domains are centered on k 1 r p = 0.19 and k 2 r p = 0.45, respectively. The growth rate decreases with the angle  between the magnetic field and the wave propagation direction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Properties of the Narrowband Waves</head><p>[21] We shall now show that the narrowband waves observed in the period 4 min prior to the shock crossing are indeed the expected AIC waves.</p><p>[22] First, a minimum variance analysis of the magnetic field <ref type="bibr" target="#b23">[Sonnerup and Scheible, 1998</ref>] performed during a relatively uniform period from 260 to 170 s before the shock crossing for the satellite C 1 indicates that the direction of minimum variance, estimated to be parallel to the wave vector direction e min = (À0.19, 0.07, 0.98) in the shock (n, m, l) frame, is approximately parallel to the ambient magnetic field B msh . The polarization of dB in the (n, m) plane is circular and left-handed with respect to B msh , as shown in Figure <ref type="figure" target="#fig_4">5a</ref>. Therefore the polarization and propagation direction is compatible with that expected for an Alfve ´n wave propagating along the ambient magnetic field. The same results were obtained for the other three spacecraft.</p><p>[23] Second, a Fourier transform of the magnetic waveforms in the same uniform period (Figure <ref type="figure" target="#fig_4">5b</ref>) shows that two frequencies are excited in the spacecraft frame: f 1 = 0.29 Hz and f 2 = 0.57 Hz. There is approximately a factor of 2 between f 1 and f 2 , indicating by comparison with Figure <ref type="figure" target="#fig_3">4</ref> that both the a particle and proton anisotropies contribute to the instability. Note that the spectral peak at the lower frequency f 1 is larger than the one at f 2 , as predicted by the linear Vlasov theory, and dominates the waveform visible in Figure <ref type="figure" target="#fig_1">2</ref>.</p><p>[24] In order to obtain the frequencies in the plasma rest frame, f 0,1 and f 0,2 , the Doppler effect should be taken into account:</p><formula xml:id="formula_0">w ¼ w 0 þ k Á V b ð Þ j j ;<label>ð1Þ</label></formula><p>where w = 2pf is the observed frequency in the satellite frame (assumed to be at rest in the GSE frame of reference), V b = 270(À0.95, 0.11, 0.29) km/s is the magnetosheath plasma bulk velocity in the GSE frame for the wave observation period, and k is the still unknown wave vector.</p><p>[25] The wave vector can be determined by using data from the four Cluster spacecraft <ref type="bibr" target="#b1">[Balikhin et al., 1997</ref><ref type="bibr" target="#b2">[Balikhin et al., , 2000;;</ref><ref type="bibr" target="#b20">Sahraoui et al., 2003]</ref>. Indeed, let us make a Fourier transform of one component of the magnetic field, say, B X (t, i), where i denotes the spacecraft. At a given frequency f the Fourier amplitude BX ( f, i) is a complex number with a  phase j i ( f ). Taking C 1 as the reference spacecraft, the phase difference between the magnetic waveforms observed on C 2 , C 3 , and C 4 and that observed on C 1 can be written as</p><formula xml:id="formula_1">j 1 f ð Þ À j i f ð Þ ½ ¼k Á dr 1i ð Þþ2pn 1i ; i ¼ 2; 3; 4;<label>ð2Þ</label></formula><p>where dr 1i = r 1 À r i is the separation vector between C 1 and C i . This is a system of three equations for the three components of the wave vector, which depends on unknown parameter n 1i = 0, ±1, . . .. This indeterminacy can be lifted by imposing some requirements: (1) The solution must be parallel to the direction of minimum variance e min ;</p><p>(2) the angle between the magnetic field and k is expected to be small, as predicted by the linear theory; (3) the function</p><formula xml:id="formula_2">P i {[j 1 ( f ) À j i ( f )] À (k Á dr 1i</formula><p>) À 2pn 1i } 2 must be minimal; and (4) we choose the smallest n 1i compatible with the first three requirements. In this way we obtain (in the GSE system of coordinates)</p><formula xml:id="formula_3">k 1 ¼ 14 Â 10 À3 0:27; À0:26; À0:93 ð Þ km À1</formula><p>for the wave observed at frequency f 1 = 0.29 Hz, and</p><formula xml:id="formula_4">k 2 ¼ 25 Â 10 À3 À0:07; À0:23; À0:97 ð Þ km À1</formula><p>for the wave observed at frequency f 2 = 0.57 Hz. In the (n, m, ') frame the unit vectors of k 1 and k 2 are e 1 * ¼ 0:08; 0:12; 0:99 ð Þ e 2 * ¼ À0:25; 0:18; 0:95 ð Þ :</p><p>These wave vectors are approximatively parallel to the ambient magnetic field: The angle between e 1 * and B msh is $10°; for the second mode this angle is $15°.</p><p>[26] Using equation (1), we can now determine the wave frequencies in the plasma rest frame: f 0;1 ¼ 0:62 Hz f 0;2 ¼ 0:83 Hz and the corresponding parallel phase velocities V jk = w 0 /k k .</p><p>For the first wave mode we find V jk ' 280 km/s; for the second mode we find V jk ' 215 km/s. These values are compatible, within the observational uncertainties, with the estimated Alfve ´n speed in the magnetosheath (see Table <ref type="table" target="#tab_0">1</ref>).</p><p>[27] Furthermore, there is a qualitative agreement with the predictions of the linear Vlasov theory. The two solutions we found, k 1k r p = 0.31 and k 2k r p = 0.55, f 0,1 = 0.43f cp and f 0,2 = 0.58f cp , are in a good agreement with the nonlinear dispersion relation presented in Figure <ref type="figure" target="#fig_3">4b</ref>. However, they do not correspond exactly to the maxima of the growth rate. A better quantitative agreement could be achieved by changing the parameters used in the linear theory; however, as discussed in section 2, some of these parameters are so uncertain that the qualitative agreement achieved here is the only one which is meaningful.</p><p>[28] Therefore the polarization, the dispersive properties of the waves, and the comparison with the linear theory confirm the identification of the observed wave modes at f 1 and f 2 as Alfve ´n ion cyclotron waves excited by the anisotropy of the a particles and the protons, respectively.</p><p>[29] The waveforms of the AIC are periodic, but a detailed analysis reveals that they are not sinusoidal and have steepened wave fronts, indicating the presence of relatively strong nonlinearities. This is apparent in Figure <ref type="figure" target="#fig_5">6</ref>, which displays the profile of the magnetic field component B n for the period from 260 to 170 s before the shock crossing.</p><p>[30] A more systematic analysis can be made by using the Haar wavelet transform (see Appendix A), which we shall apply to this period when the AIC waves have a relatively uniform behavior. A local gradient will be qualified as steep when the local energy at the smallest scale (i.e., the square of the wavelet coefficient calculated on Dt = 0.08 s) exceeds by some threshold value h &gt; 1 the mean energy of the fluctuations at this scale: jWB X j 2 &gt; hhWB X 2 i, the average hWB X 2 i being taken on the whole interval of analysis. Note that the result of the analysis does not depend on the particular value of h as soon as it is larger than 3-5.</p><p>[31] Then a minimum variance analysis of the magnetic field fluctuations over a time interval of 2 s is made around each time when a ''steep'' gradient is detected. The number of points with a steep gradient obviously depends on the value of h, but in most cases only one component of the magnetic field has a large variation, while the other two remain almost constant. The component of maximal variance is always orthogonal to the large-scale magnetic field B msh . This is illustrated in Figure <ref type="figure" target="#fig_6">7</ref>, which displays the profiles of the three components of dB in the local minimum variance frame for an interval of Dt = 2 s around the ''singularity'' (a time with a steep gradient) occurring at t sing ' À220 s (1758:38 UT). Here the directions of maximum, intermediate, and minimum variance are x 0 , y 0 , and z 0 , respectively. One can see that dB x 0 changes sign at t sing and that the other two components fluctuate around zero. The eigenvalues of the variance tensor <ref type="bibr" target="#b23">[Sonnerup and Scheible, 1998</ref>] are 1, 0.33, and 0.03, respectively, the direction of minimum variance making an angle of '15°w ith B msh . Therefore these ''singularities'' are current sheets approximately parallel to the wave fronts, presumably produced by some nonlinear steepening of the AIC waves.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Three-Dimensional Structures: Current Tubes</head><p>[32] The scalogram of Figure <ref type="figure" target="#fig_2">3</ref> shows that the intense a particle AIC wave at scale 1/f 1 ' 3.6 s disappears abruptly deep in the magnetosheath, i.e., before À350 s. However, during the time interval from 500 to 350 s before the shock crossing, the level of magnetic field turbulence remains relatively high, with strong localized peaks, marked by the arrows, at scales between 1 and 2 s. One may consider these peaks as ''singular'' points, i.e., times at which a steep gradient is observed, as discussed in section 3.2. The time width of these localized peaks is significantly bigger than the sampling time, so to identify the singular points in this region, the time resolution of the Morlet wavelet transform (WT) is sufficient, and we do not need the high time resolution of the Haar WT (see Appendix A). Here also, the number of singular points depends on the threshold h, but above a minimal value they all share the same properties, which are significantly different from the planar current sheets discussed in section 3.2.</p><p>[33] Let us consider one of these singularities occurring at t ' À420 s (1755:16 UT). During a 10-s period around t, C 1 observes a regular magnetic field profile as illustrated by the component dB x 0 in Figure <ref type="figure" target="#fig_7">8a</ref>, where x 0 is the maximum variance direction in the local variance frame, calculated over the period under consideration. The variance analysis of dB for this period gives the three eigenvalues 1, 0.68, and 0.14, so the singularity has a higher dimension than the current sheets. In Figure <ref type="figure" target="#fig_7">8b</ref> the three components (dB x 0 , dB y 0 , dB z 0 ) of dB in the same minimum variance frame are displayed for the 2-s interval around t (the period between the two vertical dotted lines in Figure <ref type="figure" target="#fig_7">8a</ref>). One can see that dB has a three-dimensional (3-D) structure: None of the components remains constant, contrary to the case of the current sheets, even if the fluctuation in dB z 0 is smaller than that of the two other components. The direction of minimum variance is approximately parallel to B msh , indicating that the axis of the symmetry of the 3-D structure is field aligned.</p><p>[34] As seen in Figure <ref type="figure" target="#fig_0">1</ref>, the separation vector (in GSE) dr 14 <ref type="bibr">= (46.0, À23.6, 654.3</ref>) km between C 1 and C 4 is almost parallel to B msh . The angle between these two vectors is 19°.</p><p>If the structures observed by C 1 are field aligned, it is expected that they will be found in the C 4 data. Indeed, a good correlation between the field variations observed on C 1 and C 4 are found for the singularities occurring around t sing c1 = 1755:10 and t sing c4 = 1755:11, respectively:</p><formula xml:id="formula_5">C dB c1 x 0 ; dB c4 x 0 À Á ¼ 0:98; C dB c1 y 0 ; dB c4 y 0 ¼ 0:78; C dB c1 z 0 ; dB c4 z 0 À Á ¼ 0:27<label>ð3Þ</label></formula><p>Figure <ref type="figure" target="#fig_8">9</ref> presents the time profile of dB measured by C 1 (solid line) and C 4 (dashed line) for the 2-s periods around t sing c1 and t sing c4 in the local minimum variance frame of C 1 . The small jumps in the C 1 data ($4 nT) are due to the STAFF search coil (SC) calibration method.</p><p>[35] The correlations in equation ( <ref type="formula" target="#formula_5">3</ref>) indicate that it is highly probable that C 1 and C 4 observe the same structure. Thus its parallel dimension should be greater than the C 1 -C 4 separation d k14 = 620 km parallel to B msh . In Figure <ref type="figure" target="#fig_9">10</ref> we present the projection of the four spacecraft on a plane perpendicular to B msh ; the arrow represents the direction of  the plasma bulk velocity in this plane. The time delay Dt 14 ' 1.4 s and the separation dR ?14 ' 200 km can then be used to determine the displacement velocity of the structure V * ' 140 km/s in the plane perpendicular to B msh . This velocity is calculated assuming that the structure is exactly parallel to the ambient magnetic field, but the angle of 10°between B msh and the axis of the structure (an average value over the several structures) can change this result from 70 to 230 km/s. This last value is very close to the plasma bulk velocity.</p><p>[36] A similar profile of magnetic field variation can be obtained with a very simple two-dimensional model, where a cylindrical current tube of radius R 0 is flowing along an ambient magnetic field B = Be z . Assuming that all the spatial dependencies are in the (x, y) plane, the model is characterized by two functions, dB z (x, y) and the z component A(x, y) of the potential vector A = Ae z of the magnetic fluctuation, which we take as Gaussian so that</p><formula xml:id="formula_6">dB z ¼ DB k exp ÀR 2 =R 2 0 À Á A ¼ DB ? DB k R 0 dB z ;<label>ð4Þ</label></formula><p>where DB k and DB ? characterize the parallel and perpendicular amplitude, respectively, of the magnetic fluctuations (R is the distance to the tube axis, R 2 = x 2 + y 2 ). Since dB = dB z e z + r Â A, dB x = (À2y/R 0 2 ) A and dB y = (2x/R 0 2 )A. The source of this magnetic perturbation is a field-aligned localized current tube given by the Maxwell equation r Â dB = m 0 j:</p><formula xml:id="formula_7">j ¼ 2 dB z m 0 R 0 À y R 0 ; x R 0 ; 2 DB ? DB k 1À R 2 R 2 0 ! :<label>ð5Þ</label></formula><p>This current has a maximal longitudinal current at the center of the tube and maximal transversal current at the tube border.</p><p>[37] An instrument carried by a spacecraft crossing the structure in the (x, y) plane along a trajectory R(t) = R 0 + V * t with a velocity V * (R 0 is the spacecraft position at time t = 0) would measure a magnetic field fluctuation {dB x [R(t)], dB y [R(t)], dB z [R(t)]} which is qualitatively similar to the observed one once the parameters are correctly adjusted. In particular, using R 0 = 60 km, DB k ' 15 nT, DB ? /DB k ' 2, and the distance of closest approach to the tube axis 30 km, we obtain the profiles of dB x , dB y , and dB z shown in Figure <ref type="figure" target="#fig_7">8c</ref>. This model is oversimplified and does not rely on a firm physical basis. It can be used nevertheless for the purpose of illustration and dimensional analysis.</p><p>[38] Thus one may conclude that during the time interval from 500 to 350 s before the shock crossing, on the 2s timescale, satellites C 1 and C 4 observe field-aligned current tubes with a perpendicular cross section of the order of 60 km and a parallel size &gt;600 km. Satellites C 2 and C 3 also observe similar structures on the 2-s timescale in this region. The space separations in the plane perpendicular to the magnetic field dR ?12 ' 650 km and dR ?24 ' 720 km are much larger than R 0 estimated from the model (equation ( <ref type="formula" target="#formula_6">4</ref>)); therefore we cannot be sure that C 2 observes the same structures as C 1 and C 4 . The separation dR ?13 '  290 km is not much larger than dR ?14 , but during 20 s before t, there are no data on C 3 , so we cannot properly compare structures observed by C 3 with those discussed in this section. More detailed comparisons between the four satellites will be the subject of a future work. We can conclude that just downstream of the region where coherent Alfve ´n ion cyclotron waves are observed, one finds a region more or less loosely filled with current tubes parallel to the local ambient magnetic field.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion and Conclusion</head><p>[39] It is well known, both theoretically and observationally, that AIC waves may be destabilized by proton and a particle pressure anisotropies downstream of a quasiperpendicular, supercritical bow shock <ref type="bibr" target="#b0">[Anderson et al., 1994;</ref><ref type="bibr" target="#b8">Gary et al., 1994]</ref>. This is the case for the shock crossing studied here, which falls in a regime of temperature anisotropies and b p where Alfve ´n ion cyclotron waves are unstable. As predicted by previous authors, we observed two AIC modes propagating approximately along the downstream average magnetic field and corresponding to the destabilizing effects of the a and proton temperature anisotropies, in agreement with the linear theory of the instability. Note that the identification of the waves observed by one satellite was based on the polarization study and on the wave vector direction obtained by the minimum variance method. With the help of the four Cluster satellites the determination of the wave dispersion is possible. To our knowledge, an accurate AIC wave identification in the downstream region of a quasiperpendicular shock is made here for the first time.</p><p>[40] Farther downstream in the magnetosheath but still close to the shock front, the AIC waves disappear. Simultaneously, the pressure anisotropies decrease, and largeamplitude, localized fluctuations appear at timescales and spatial scales smaller than the period and wavelength of the AIC waves. These fluctuations may be interpreted as fieldaligned current tubes and last until the previous shock crossing is reached at 1738:22 UT. No quasi-monochromatic AIC waves are observed downstream of this shock, the Cluster spacecraft finding themselves immediately in a region with current tubes similar to those described below.</p><p>[41] Thus, in the downstream region of a perpendicular bow shock, two different phenomena are observed successively: coherent, plane AIC waves propagating along B msh , followed by a region where the magnetic fluctuations take the form of current tubes. Even if the geometry and the length scales of the two phenomena are very different, they are observed in adjacent regions. This is the most important result of this work.</p><p>[42] A possible interpretation for the observed symmetry breaking is the filamentation instability <ref type="bibr" target="#b11">[Laveder et al., 2002]</ref> of the quasi-monochromatic AIC waves observed downstream of the shock. This instability takes place in a plasma with b ! 1 and leads to the collapse of the finite amplitude dispersive Alfve ´n wave into intense field-aligned magnetic filaments with a cross section of the order of c/w pi . This instability has been extensively studied for parallelpropagating waves in Hall-MHD without kinetic effects. In our case the conditions are favorable for the filamentation instability. In particular, the total plasma b in the magnetosheath exceed the unity: (b p + b e ) msh ' 1.1. Furthermore, the AIC characteristics, such as the frequency, wavelength, and polarization and their direction of propagation, more or less along the ambient magnetic field, are the correct ones for the development of the instability. The cross section of the current tubes is of the same order as the cross section of the filament seen in the simulations <ref type="bibr" target="#b11">[Laveder et al., 2002]</ref>. The structure of this filament is rather complex: An azimuthal magnetic field does not make a complete twist, an axial component has a shear inside the filament, and an electric current within the filament has the same structure (D. <ref type="bibr">Laveder, private communication, 2003)</ref>. The model we have used in this paper is highly schematic, and a detailed study of the fine structure of the observed filaments will be the subject of a forthcoming paper.</p><p>[43] The sequence of processes, discussed in this paper, is summarized in the cartoon of Figure <ref type="figure" target="#fig_11">11:</ref> The supercritical quasi-perpendicular bow shock is the source of the strong downstream temperature anisotropy which excites the AIC waves; the waves give rise to the current tubes via the filamentation instability. As mentioned in section 3, the pressure anisotropy remains relatively high in the AIC region and decreases in the tube region, indicating that the filamentation instability plays an important role in the final plasma relaxation in the downstream region.</p><p>[44] For the other shock crossings observed that day, the solar wind and shock parameters were roughly in the same range; it is therefore surprising that the combination of AIC waves and current tubes was found for only one other shock crossing, occurring at 1717:49 UT. However, for all of them we were able to identify field-aligned current tubes downstream but close to the shock front. This suggests that the filamentation instability is so fast that AIC waves cannot be observed if the geometry of the crossing is not favorable. Detailed comparisons with theoretical models of this nonlinear instability, including kinetic effects, are necessary to support these conclusions. This will be the subject of further studies.  to detecting frequency peaks in an inhomogeneous environment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>A2. Data Merging</head><p>[51] The search coil (SC) magnetometer of the STAFF SC experiment measures magnetic waveforms with a sampling time of t s = 0.04 s in the normal bit rate mode. Frequencies smaller than the spacecraft spin rate (1/t R , t R ' 4 s) are filtered out so that the useful signal covers the 0.25 -12.5 Hz frequency range. In many cases, however, it is convenient to have magnetic waveforms which also contain information about the large-scale variations, information which may be found in the FGM data, averaged, and sampled at 4 s. We are therefore led to merge the STAFF SC signal with the FGM signal, which can be done in many ways.</p><p>[52] Here we use the Haar wavelet transform (the WFT could be used as well, the main requirement being that the transform is invertible). To illustrate the procedure, consider the Xth component of the magnetic field [B X (t)] F measured by FGM (see Figure <ref type="figure" target="#fig_0">A1a</ref>) and [B X (t)] S measured by STAFF SC (see Figure <ref type="figure" target="#fig_0">A1b</ref>). We begin by interpolating the [B X (t)] F signal to the STAFF measurement times; then we apply the Haar wavelet transform to both the STAFF waveforms and the interpolated FGM waveforms, obtaining the wavelet coefficients [WB X (m, t)] S and [WB X (m, t)] F , respectively. The period of rotation lies in the m = m * = 6 scale since 2 m * &lt; t R &lt; 2 m * þ1 . We then combine these two sets of wavelet coefficients to obtain the wavelet coefficients [WB X (m, t)] mix of a mixed signal, equal to [WB X (m, t)] F for scales larger than m * and to [WB X (m, t)] S for scales smaller than m * :</p><formula xml:id="formula_8">WB X m; t ð Þ ½ mix ¼ a m WB X m; t ð Þ ½ F þ b m WB X m; t ð Þ ½ S ;</formula><p>where a m and b m are weight functions</p><formula xml:id="formula_9">a m ¼ 1; m ! m * 2 À2 mÀ5 ð Þ ; m &lt; m * &amp; b m ¼ 1 À a m :</formula><p>We now apply the inverse wavelet transformation using the set of [WB X ( f, t)] mix to get the final ''mixed'' signal [B X (t)] mix (see Figure <ref type="figure" target="#fig_0">A1c</ref>). In Figure <ref type="figure" target="#fig_0">A1d</ref> we also present the FGM high-resolution signal to compare with our resulting signal. One can see that the signals are very similar, with the fluctuation amplitude being slightly higher for the high-resolution FGM data than for the merged signal; a more detailed comparison of these two signals will be made in a future work.</p><p>[53] Acknowledgments. We thank the ACE SWEPAM instrument team and the ACE Science Center for providing the ACE data.</p><p>[54] Shadia Rifai Habbal thanks Dimitri Laveder and another referee for their assistance in evaluating this paper.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Relative positions of the four Cluster spacecraft (C 1 , C 2 , C 4 to C 3 ) at the time of the shock crossing, the downstream magnetic field, and the plane of the shock front with its normal.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Cluster 1 magnetic field profiles (a) B n , (b) B m , (c) B l in the shock frame and (d) the proton temperature anisotropy T p? /T pk for the interval 1754 -1806 UT on 31 March 2001. The origin of times is taken at the shock crossing, 1802:17 UT, marked by the vertical dash-dotted line so that negative times correspond to the magnetosheath. The dashed vertical line corresponds to t = 1756:30 UT and separates the two fluctuation regimes discussed in text.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Dynamic spectrum of B n , using the Morlet wavelet transform, around the bow shock crossing, 1754 -1806 UT. The shock crossing time at 1802:17 UT is taken as the origin of time (vertical dashdotted line). The dashed vertical line corresponds to t = 1756:30 UT; the proton cyclotron period, 1/f cp (s), is shown by a black solid line; singular points (see section 4) are marked with black arrows.</figDesc><graphic coords="4,109,87,476,25,372,30,221,56" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. (a) Growth rate of the Alfve ´n ion cyclotron instability as a function of the nondimensional parallel wave vector kr p . (b) Real part of the dispersion relation.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. (a) Hodogram. (b) Fourier transform of B n over the period from 260 to 170 s before the shock crossing. The spectral density j Bn ( f )j 2 has two peaks over the frequencies f 1 = 0.29 and f 2 = 0.57 Hz (dashed lines).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Close-up of Figure 2, component B n shown with the same origin of time.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure7. Profiles of the three components of dB in the minimum variance frame (x 0 , y 0 , z 0 ) around the steep gradients at time t sing ' À220 s (1758:38 UT) downstream of the shock front.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Magnetic field fluctuations, taking t ' À420 s (1755:16 UT) as the origin of time. (a) Fluctuations dB x 0 during 10 s around t. (b) Fluctuations of the magnetic field components (dB x 0 , dB y 0 , dB z 0 ) for the 2-s period around t. (c) The z-aligned current tube simulation (dB x , dB y , dB z ).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Profile of the magnetic field components measured by C 1 around 1755:10 UT (solid line) and by C 4 around 1755:11 UT (dashed line).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Relative positions of C 1 , C 2 , C 3 , and C 4 for the studied shock crossing projected on the plane perpendicular to B msh . The arrow represents the direction of the bulk velocity in this plane.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head></head><label></label><figDesc>Transformation: Basic Concepts [45] In many cases of interest one has to analyze a signal S(t) whose spectral content varies with time. The methods</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11. Schematic presentation of the processes sequence discussed in text: generation and filamentation of AIC waves in the downstream region of the perpendicular bow shock.</figDesc><graphic coords="9,50,80,68,06,239,98,148,31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Magnetosheath and Solar Wind Plasma Parameters a Upstream velocity and a particle composition are observed by the ACE satellite; the other parameters are from the satellite Cluster 1. The bulk speeds are given in the rest frame of the shock.</figDesc><table><row><cell></cell><cell>Magnetosheath</cell><cell>Solar Wind</cell></row><row><cell>B, nT</cell><cell>90</cell><cell>30</cell></row><row><cell>f cp , Hz</cell><cell>1.4</cell><cell>0.5</cell></row><row><cell>f ca , Hz</cell><cell>0.7</cell><cell>0.2</cell></row><row><cell>V, km/s</cell><cell>260</cell><cell>603</cell></row><row><cell>T p , eV</cell><cell>319</cell><cell>5</cell></row><row><cell>T e , eV N e , cm À3 N p , cm À3 N a , cm À3</cell><cell>87 60 49 5.5</cell><cell>39 19 16 1.5</cell></row><row><cell>V A , km/s</cell><cell>235</cell><cell>140</cell></row><row><cell>c/w pi , km</cell><cell>35</cell><cell>60</cell></row><row><cell>b p</cell><cell>0.8</cell><cell>0.04</cell></row><row><cell>b e</cell><cell>0.3</cell><cell>0.33</cell></row></table><note>a</note></figure>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>which are commonly used to study this variation of the spectral content (within the limits of the uncertainty principle, which states that one cannot obtain arbitrary good localization simultaneously in time and frequency, DfDt ! C te ) are the windowed Fourier transform (WFT) and the wavelet transform (WT).</p><p>[46] In the WFT, time localization is achieved by using a windowing function g(t) and then taking the Fourier transform</p><p>where g(t) is a real function which vanishes for t ! T. This transform is energy preserving and invertible. It is characterized by the fact that the analyzing kernel g(t 0 À t)e Ài2pft 0 has the same support for all f and t, while the number of cycles varies with f, with the consequence that frequency resolution is Df ' 1/T and the time localization Dt ' T does not depend on the frequency.</p><p>[47] In the WT one uses an analyzing function which has a narrow support for high frequencies and a large one for low frequencies. This is achieved by using a twoparameter family of functions called wavelets, y f,t (t 0 ) ffiffi ffi f p y[ f (t 0 À t)], derived from a ''mother'' wavelet y(t), which has a finite support around t = 0. One of the parameters is the translation parameter t, as in the win-dowed Fourier transform case; the other parameter is a dilation (or scale) parameter f &gt; 0 corresponding to a local frequency, 1/f being the temporal scale. Making the convolution of the signal S(t) with a member of the family of functions y f,t (t 0 ), we obtain the corresponding wavelet coefficient</p><p>[48] Changing the value of f has the effect of dilating (1/f &gt; 1) or contracting (1/f &lt; 1) the analyzing function y f,t (t 0 ), while changing t has the effect of translating the support of this function toward the point t. In the wavelet transform the number of cycles in the wavelet y f,t (t 0 ) does not change with the scale parameter 1/f, but the size of its support does. It is small for small 1/f, so the wavelet transform picks up higher-frequency components and vice versa. The choice of the function y(t) is not unique, but y(t) must have a finite energy, a sufficiently fast decay for large values of jtj and zero mean.</p><p>[49] The signals we have to deal with are discrete ones, with a sampling time t s . A complete orthogonal wavelet basis may then be constructed if a logarithmic uniform discretization of spacing and scales is chosen, for example,</p><p>At scale m the time resolution is 2 m t s = Dt m .</p><p>[50] In this work we have used two wavelet transforms, depending on whether we need a good time resolution or a good frequency resolution [see, e.g., <ref type="bibr" target="#b10">Kumar and Foufoula-Georgiou, 1994</ref>]. The first one is the Haar wavelet (HW),</p><p>Note that computing the Haar coefficients of a sampled signal S(t i ) at a given scale m is equivalent to taking the difference between the average of the signal over two consecutive intervals of length 2 m points. At the highest scale this procedure is equivalent to taking the difference between two neighboring points of the signal, which provides the highest time resolution but the worst frequency resolution of the transformation. Therefore the HW transform is convenient for detecting fast and local variations, which we call the ''singular points.'' The second WT is the Morlet wavelet</p><p>where (2p f ) ! 5, which represents a good compromise between time and scale resolution; it is well suited </p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Magnetic spectral signatures in the Earth&apos;s magnetosheath and plasma depletion layer</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Denton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="5877" to="5891" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Experimental determination of the dispersion of waves observed upstream of quasi-perpendicular shock</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Balikhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dudok De Wit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Krasnosel'skikh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A C</forename><surname>Mier-Jedrzejeowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="787" to="790" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Minimum variance free identification of the composition of space plasma turbulence and nonlinear processes in it</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Balikhin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dunlop</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding of the Cluster-II Workshop on Multiscale/Multipoint Plasma Measurements</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Harris</surname></persName>
+		</editor>
+		<meeting>eeding of the Cluster-II Workshop on Multiscale/Multipoint Plasma Measurements</meeting>
+		<imprint>
+			<date type="published" when="2000">2000</date>
+			<biblScope unit="volume">449</biblScope>
+			<biblScope unit="page" from="287" to="290" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Cluster magnetic field investigation: Overview of in-flight performance and initial results</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balogh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1207" to="1217" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The Cluster Spatio-Temporal Analysis of Field Fluctuations (STAFF) experiment</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cornilleau-Wehrlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="107" to="136" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">First results obtained by the Cluster STAFF experiment</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cornilleau-Wehrlin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="437" to="456" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">WHISPER, A resonance sounder and wave analyser: Perfomances and perspectives for the Cluster mission</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M E</forename><surname>De ´cre ´au</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="157" to="193" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">He 2+ and He + dynamics in the subsolar magnetosheath and plasma depletion layer</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Klumpar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">G</forename><surname>Shelley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Coates</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="95" to="116" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Proton and helium cyclotron anisotropy instability thresholds in the magnetosheath</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Convery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="5915" to="5921" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">PEACE: A Plasma Electron and Current Experiment</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Johnstone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="351" to="398" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Wavelet analysis and its applications: An introduction</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Foufoula-Georgiou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Wavelets in Geophysics</title>
+				<editor>
+			<persName><forename type="first">E</forename><surname>Foufoula-Georgiou</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Kumar</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Academic, San Diego, Calif</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994">1994</date>
+			<biblScope unit="page" from="1" to="43" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Transverse dynamics of dispersive Alfve ´n waves: Direct numerical evidence of filamentation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Laveder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Passot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Sulem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="293" to="304" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The structure of perpendicular bowshocks</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Leroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Goodrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Papadopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="5081" to="5094" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Bow shock motions observed with CLUSTER</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Horbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andre</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2002GL016761</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">1393</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Solar Wind Electron Proton Alpha Monitor (SWEPAM) for the Advanced Composition Explorer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Riley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Griffee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="563" to="612" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Observations of gyrating ions in the foot of a nearly perpendicular bowshock</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sckopke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">881</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The Cluster Ion Spectrometry (CIS) experiment</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Re `me</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="303" to="350" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Characterization of smallscale structures at the magnetopause from ISEE measurements</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rezeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="179" to="186" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Waves in homogeneous, anisotropic, multicomponent plasmas</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ro ¨nnmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Swed. Inst. of Space Phys., Univ. of Ume _ a</title>
+		<imprint>
+			<biblScope unit="volume">179</biblScope>
+			<biblScope unit="page">pp</biblScope>
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+	<note>Kiruna Geophys. Inst. Rep.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Computation of the dielectric tensor of a Maxwellian plasma</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ro ¨nnmark</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Plasma Phys</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="699" to="701" />
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">ULF wave identification in the magnetosheath: K-filtering technique applied to Cluster II data</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sahraoui</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2002JA009587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">A9</biblScope>
+			<biblScope unit="page">1335</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Shock and discontinuity normals, Mach numbers, and related parameters</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schwartz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Analysis Methods for Multi-Spacecraft Data</title>
+				<editor>
+			<persName><forename type="first">G</forename><surname>Paschman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Daly</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Sci</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Rep</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Sr-001</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="page" from="249" to="270" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Low-frequency waves in the Earth&apos;s magnetosheath: Present status</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Burgess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Moses</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1134" to="1150" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Minimum and maximum variance analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>O ¨</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Scheible</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Analysis Methods for Multi-Spacecraft Data</title>
+				<editor>
+			<persName><forename type="first">G</forename><surname>Paschman</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">W</forename><surname>Daly</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Sci</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Rep</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Sr-001</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Paris</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<biblScope unit="page" from="185" to="220" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Quasi-linear evolution of Alfven-ion-cyclotron and mirror instabilities driven by ion temperature anisotropy</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Yoon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Fluids B</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3627" to="3637" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Modeling the effects of fast shocks on solar wind minor ions</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Ogilvie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Whang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="5437" to="5445" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Àààààààààààààààààààààà À O. Alexandrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lacombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mangeney</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cornilleau-Wehrlin</surname></persName>
+		</author>
+		<editor>av. de l&apos;Europe, F-78140 Ve ´lizy, France.</editor>
+		<imprint>
+			<biblScope unit="page" from="10" to="12" />
+		</imprint>
+		<respStmt>
+			<orgName>CETP</orgName>
+		</respStmt>
+	</monogr>
+	<note>nicole.cornilleau@cetp.ipsl.fr</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M E</forename><surname>De ´cre ´au</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">3a</forename><surname>Lpce/Cnrs</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Orleans, France</pubPlace>
+		</imprint>
+	</monogr>
+	<note>(pdecreau@cnrs-orleans.fr</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Surrey RH5 6NT, UK. (anf@mssl.ucl.ac.uk) E. A. Lucek, Space and Atmospheric Physics</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Fazakerley</surname></persName>
+		</author>
+		<ptr target="trav@alenka.ufa.cas.cz" />
+		<imprint>
+			<date>14131</date>
+			<pubPlace>Holmbury, St. Mary, Dorking; Imperial College, Prince Consort Road, London SW7 2BZ, UK.; Prague; Czech Republic</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Mullard Space Science Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note>(e.lucek@imperial.ac.uk) P. Travnicek, Institute of Atmospheric Physics</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

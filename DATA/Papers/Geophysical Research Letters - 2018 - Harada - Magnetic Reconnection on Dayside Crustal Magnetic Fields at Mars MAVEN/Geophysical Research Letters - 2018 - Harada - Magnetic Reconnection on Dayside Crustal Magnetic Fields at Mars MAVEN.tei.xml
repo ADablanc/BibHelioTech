@@ -1,0 +1,1589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Geophysical Research Letters Magnetic Reconnection on Dayside Crustal Magnetic Fields at Mars: MAVEN Observations</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2018">18 MAY 2018</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Y</forename><surname>Harada</surname></persName>
+							<email>yuki-harada@uiowa.edu</email>
+							<idno type="ORCID">0000-0002-4001-6352</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="middle">S</forename><surname>Halekas</surname></persName>
+							<idno type="ORCID">0000-0001-5258-6128</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dibrac</surname></persName>
+							<idno type="ORCID">0000-0002-2778-4998</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Esp</surname></persName>
+							<idno type="ORCID">0000-0002-6371-9683</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mcfad</surname></persName>
+							<idno type="ORCID">0000-0002-4089-0234</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+							<idno type="ORCID">0000-0001-9154-7236</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Mazell</surname></persName>
+							<idno type="ORCID">0000-0002-7613-8749</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+							<idno type="ORCID">0000-0001-8932-368X</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Hara</surname></persName>
+							<idno type="ORCID">0000-0003-4605-8454</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Ma</surname></persName>
+							<idno type="ORCID">0000-0003-2584-7091</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Ruhunusiri</surname></persName>
+							<idno type="ORCID">0000-0002-4089-0234</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+							<idno type="ORCID">0000-0002-0758-9976</idno>
+							<affiliation key="aff0">
+								<orgName type="institution">of Physics</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Geophysical Research Letters Magnetic Reconnection on Dayside Crustal Magnetic Fields at Mars: MAVEN Observations</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2018">18 MAY 2018</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">84DE3981625183EBCA5D942B9C2D1F66</idno>
+					<idno type="DOI">10.1002/2018GL077281</idno>
+					<note type="submission">Received 24 JAN 2018 Accepted 23 MAR 2018 Accepted article online 6 APR 2018</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T15:00+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The identification of magnetic reconnection on the dayside of Mars has been elusive owing to the lack of comprehensive plasma and field measurements. Here we present direct measurements of dayside in situ reconnection signatures by the comprehensive particles and fields package on board the Mars Atmosphere and Volatile EvolutioN (MAVEN) spacecraft over strong crustal magnetic fields in the southern hemisphere of Mars. During a crossing of a bifurcated current sheet consisting of northward and southward magnetic fields, MAVEN recorded (i) ionospheric photoelectrons trapped on closed magnetic field lines, (ii) Hall magnetic fields and a nonzero normal field with polarity consistent with a crossing northward of the X line, and (iii) northward Alfvénic ion jets. Dayside magnetic reconnection on crustal magnetic fields could control the global configuration and topology of the Martian magnetosphere and alter the ion escape pattern from the dayside ionosphere.</p><p>Plain Language Summary Magnetic reconnection is a fundamental and universal process in space plasmas. The occurrence of magnetic reconnection on the dayside of Mars has been long speculated but never been definitively demonstrated by comprehensive evidence of "smoking gun." This paper presents Mars Atmosphere and Volatile EvolutioN observations of ions, electrons, and magnetic fields that collectively demonstrate that magnetic reconnection can operate above strong crustal magnetic fields on the dayside of Mars. This process could explain the "twisted" tail of Mars recently discovered by Mars Atmosphere and Volatile EvolutioN and may play an important role in modifying the atmospheric escape from Mars.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Magnetic reconnection on the dayside magnetopause plays a fundamental role in the dynamics of the terrestrial magnetosphere <ref type="bibr" target="#b8">(Dungey, 1961)</ref>. Meanwhile, it remains elusive whether magnetic reconnection operates on the dayside of Mars, and if so, how it dictates the structure and dynamics of the Martian magnetosphere. As summarized by <ref type="bibr" target="#b13">Halekas et al. (2009)</ref>, current sheets capable of reconnection can be generated on the dayside of Mars in multiple possible configurations: (i) between the interplanetary magnetic field (IMF) on both sides (equivalent cases are considered for comets and Venus <ref type="bibr" target="#b33">(Niedner &amp; Brandt, 1978;</ref><ref type="bibr" target="#b41">Vech et al., 2016)</ref>), (ii) between the IMF on one side and crustal field on the other <ref type="bibr" target="#b15">(Hara et al., 2014</ref><ref type="bibr" target="#b14">(Hara et al., , 2016;;</ref><ref type="bibr">Krymskii et al., 2002), and (iii)</ref> between the crustal field on both sides <ref type="bibr" target="#b1">(Beharrell &amp; Wild, 2012;</ref><ref type="bibr" target="#b2">Brain et al., 2010)</ref>. Though effects and products of dayside reconnection at Mars have been discussed in the aforementioned literature, there have been few reports on direct measurements of in situ reconnection signatures (such as accelerated plasma flows and Hall magnetic fields within current sheets; e.g., <ref type="bibr" target="#b34">Paschmann et al., 2013)</ref>. <ref type="bibr" target="#b13">Halekas et al. (2009)</ref> conducted a systematic search for Hall magnetic field signatures detected by Mars Global Surveyor at 400 km altitude and identified 26 Hall field events, only one of which was observed on the dayside (at solar zenith angles less than 70 ∘ ). For the lone dayside event, no conclusive characterization of particle distributions could be made due to noisy electron distributions and the lack of ion measurements. To our knowledge, no comprehensive and definitive measurements of ion, electron, and magnetic field signatures 10.1002/2018GL077281 of dayside magnetic reconnection at Mars have been reported, and the identification of dayside reconnection remains inconclusive.</p><p>This paper reports on the first comprehensive measurements of in situ reconnection signatures on the dayside of Mars from the Mars Atmosphere and Volatile EvolutioN (MAVEN) mission <ref type="bibr" target="#b19">(Jakosky et al., 2015)</ref>. We utilize electron measurements by the Solar Wind Electron Analyzer instrument <ref type="bibr" target="#b30">(Mitchell et al., 2016)</ref>, ion measurements by the SupraThermal and Thermal Ion Composition (STATIC) instrument <ref type="bibr" target="#b29">(McFadden et al., 2015)</ref>, and magnetic field measurements by the Magnetometer <ref type="bibr" target="#b5">(Connerney et al., 2015)</ref>. The reconnection event was observed on 6 October 2016, when MAVEN traversed strong crustal magnetic fields in the southern hemisphere. We first present MAVEN observations of the reconnection event and then discuss implications for the global configuration of the Martian magnetosphere and ion escape from Mars.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Observations</head><p>Figures 1a-1d present the orbital configuration of MAVEN during 18:03-18:12 UT on 6 October 2016 in Mars Solar Orbital (MSO) coordinates, in which X points from Mars toward the Sun, Y points opposite to the direction of Mars' orbital velocity component perpendicular to X, and Z completes the orthogonal coordinate set. During this time interval, MAVEN traveled through the dayside magnetic pileup region (MPR), which represents the plasma region dominated by planetary ions with elevated magnetic field magnitudes <ref type="bibr" target="#b32">(Nagy et al., 2004)</ref>, below the nominal magnetic pileup boundary (Figure <ref type="figure" target="#fig_0">1b</ref>) from the dawnside to the duskside in the southern hemisphere <ref type="bibr">(Figures 1a,</ref><ref type="bibr">1c,</ref><ref type="bibr">and 1d)</ref>. As shown in the geographic projection (Figure <ref type="figure" target="#fig_0">1e</ref>), MAVEN's orbit passed over strong crustal magnetic fields in the southern hemisphere of Mars.</p><p>Figure <ref type="figure" target="#fig_2">2</ref> shows a time series of particles and field data obtained by MAVEN during 18:03-18:12 UT on 6 October 2016. MAVEN crossed a current sheet at 18:07:15 UT as characterized by a rapid rotation of the magnetic field from northward +B z to southward −B z accompanied by a decrease in the magnetic field magnitude (labeled as "CS" in Figure <ref type="figure" target="#fig_2">2g</ref>). The northward magnetic field (+B z ) before the current sheet crossing is either a magnetic field of crustal origin or a draped magnetic field of solar wind origin. As the direction of draped IMF was variable within the magnetosheath and MPR before this time interval (not shown), it is difficult to estimate the instantaneous upstream IMF direction and see if it is consistent with the local magnetic field direction. After the current sheet crossing, the measured magnetic field polarity is consistent with that of the crustal field computed from the spherical harmonic model <ref type="bibr" target="#b31">(Morschhauser et al., 2014)</ref> (dashed lines in Figure <ref type="figure" target="#fig_2">2g</ref>) and the measured and crustal fields show similar variations with an offset in B z . This suggests that the magnetic field after the current sheet crossing contains a significant contribution from the crustal origin, presumably compressed by the upstream plasma. The shear angle between the magnetic fields on the two sides is ∼142 ∘ . Figures <ref type="figure" target="#fig_2">2a-2c</ref> show electron measurements around the current sheet crossing, which can be utilized to infer magnetic field topology with respect to the electron exobase at ∼160-220 km altitudes. Based on the electron energy spectra and pitch angle distributions, we identify four regions with different characteristics bounded by the magenta dashed lines in Figures <ref type="figure" target="#fig_2">2a-2c</ref>.</p><p>In the first region (labeled "1. draped/open" in Figure <ref type="figure" target="#fig_2">2</ref>), MAVEN observed a large flux of hot electrons at ∼100-1000 eV (Figure <ref type="figure" target="#fig_2">2a</ref>) with nearly isotropic distributions within the measured pitch angle range (Figure <ref type="figure" target="#fig_2">2b</ref>). Figure <ref type="figure" target="#fig_2">2c</ref> shows the pitch angle-resolved shape parameter derived from 20 to 80 eV electron distributions <ref type="bibr" target="#b42">(Xu, Mitchell, Liemohn, et al., 2017)</ref>, which is designed in such a way that small values &lt;1 indicate that electrons traveling in a particular direction are dominated by ionospheric photoelectrons. The direction of electrons relative to the planet ("Towards"/"Away") is determined based on the local magnetic field direction. The shape parameter shows large values (&gt; ∼1) in the Toward direction (Figure <ref type="figure" target="#fig_2">2c</ref>), indicating solar wind origin of the measured electrons, while the Away shape parameter cannot be obtained because of the gaps in the antiparallel direction (the white regions in Figure <ref type="figure" target="#fig_2">2b</ref>). From these measurements, we infer magnetic topology of either draped field lines with both ends connected to the solar wind (solar wind electrons traveling in both directions) or open field lines with the antiparallel end connected to the solar wind and the parallel end to the collisional atmosphere (parallel solar wind electrons and unmeasured ionospheric electrons in the antiparallel gaps). This situation is illustrated by the northward field line labeled "1. draped/open" in Figure <ref type="figure" target="#fig_0">1f</ref>. The fate of the parallel end is ambiguous, either connected to the collisional atmosphere or draped around the planet without intersecting the photoelectron source.  <ref type="figure" target="#fig_0">1a</ref> indicates that the orbit is located on the −Z MSO side of Mars. The dashed lines in Figure <ref type="figure" target="#fig_0">1b</ref> represent the nominal positions of the bow shock and magnetic pileup boundary <ref type="bibr" target="#b40">(Trotignon et al., 2006)</ref> and the geometrical shadow boundary. The red and blue contours in Figure <ref type="figure" target="#fig_0">1e</ref> show the radial component (positive outward) of crustal magnetic fields at a 400 km altitude computed from the spherical harmonic model <ref type="bibr" target="#b31">(Morschhauser et al., 2014)</ref>.   <ref type="bibr" target="#b42">(Xu, Mitchell, Liemohn, et al., 2017)</ref>, (d) ion energy spectra, (e) ion densities, (f ) proton bulk velocity, (g) magnetic field in Mars Solar Orbital coordinates, and (h) Alfvén speed computed from the total ion mass density. The white line in Figure <ref type="figure" target="#fig_2">2d</ref> indicates the low-energy cutoff from which the spacecraft potential is estimated. The spacecraft potential and spacecraft velocity are corrected when computing ion moments. The dashed lines in Figure <ref type="figure" target="#fig_2">2g</ref> show the crustal magnetic field computed from the spherical harmonic model <ref type="bibr" target="#b31">(Morschhauser et al., 2014)</ref>.</p><p>In the second region (labeled "2. closed" in Figure <ref type="figure" target="#fig_2">2</ref>), the 100-1000 eV electron flux decreases and the electron energy spectra exhibit characteristic features of ionospheric photoelectrons (Figure <ref type="figure" target="#fig_2">2a</ref>) with a peak at 22-27 eV, sharp decrease at 60-70 eV, ∼500 eV Auger electron peak, and another sharp decrease just above the Auger peak <ref type="bibr" target="#b42">(Xu, Mitchell, Liemohn, et al., 2017)</ref>. The small shape parameters &lt;1 in both directions (Figure <ref type="figure" target="#fig_2">2c</ref>) indicate that ionospheric photoelectrons are supplied from both ends of closed field lines connected to the dayside collisional atmosphere as illustrated by the line labeled "2. closed" in Figure <ref type="figure" target="#fig_0">1f</ref>. We note that the field line connection to the collisional atmosphere inferred from electron measurements does not necessarily guarantee the connection to the crustal source.</p><p>In the third region (labeled "3. open" in Figure <ref type="figure" target="#fig_2">2</ref>), the hot electron pitch angle distributions display loss cones in the parallel direction (Figure <ref type="figure" target="#fig_2">2b</ref>). The shape parameters show large values ∼1 for Toward electrons and small values &lt;1 for Away electrons (Figure <ref type="figure" target="#fig_2">2c</ref>). These observations suggest open field lines on which ionospheric photoelectrons are supplied from the antiparallel end and solar wind electrons precipitate from the parallel end as illustrated by the southward line labeled "3. open" in Figure <ref type="figure" target="#fig_0">1f</ref>.</p><p>In the fourth region (labeled "4. closed" in Figure <ref type="figure" target="#fig_2">2</ref>), we observe energy spectra characteristic of ionospheric photoelectrons (Figure <ref type="figure" target="#fig_2">2a</ref>). The shape parameters exhibit small values &lt;1 in both directions (except for the Away gaps), suggesting closed field line topology with both ends connected to the dayside collisional atmosphere as illustrated by the line labeled "4. closed" in Figure <ref type="figure" target="#fig_0">1f</ref>.  <ref type="figure" target="#fig_3">3d</ref> shows the ion velocity component computed from the high time resolution, three-dimensional data product without mass resolution ("CA" data product, see <ref type="bibr" target="#b29">McFadden et al., 2015)</ref> by assuming that all ions are the dominant species, that is, O + 2 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Geophysical Research Letters</head><p>We now look at magnetic field signatures. Figure <ref type="figure" target="#fig_3">3a</ref> shows magnetic field components in the current sheet LMN coordinate system derived from the minimum variance analysis <ref type="bibr" target="#b37">(Sonnerup &amp; Cahill, 1967;</ref><ref type="bibr" target="#b38">Sonnerup &amp; Scheible, 1998)</ref> of magnetic fields during 18:06:38-18:08:00 UT (indicated by the vertical dashed lines in Figures <ref type="figure" target="#fig_3">2e-2h and 3</ref>). In the LMN system, L is along the antiparallel magnetic fields (corresponding to the maximum variance direction), M is along the X line (intermediate variance direction), and N is along the current sheet normal (minimum variance direction). The obtained eigenvalue ratios are large (&gt;10), implying that the LMN system is well determined. The B L profile exhibits a two-step variation (a bifurcated current sheet), which is a characteristic signature of a Petschek-type reconnection exhaust (e.g., <ref type="bibr" target="#b12">Gosling et al., 2005;</ref><ref type="bibr" target="#b18">Hoshino et al., 1996)</ref>. We observe a bipolar variation in B M (labeled "Hall B") and a nonzero B N component of −8 nT (labeled "Normal B") as expected for a crossing of reconnecting current sheet around the ion diffusion region <ref type="bibr" target="#b13">(Halekas et al., 2009;</ref><ref type="bibr" target="#b34">Paschmann et al., 2013)</ref>. The polarity of the Hall magnetic field is consistent with a crossing northward of the X line as illustrated in Figure <ref type="figure" target="#fig_0">1f</ref>. The observed |B N ∕B L | ∼ 0.2 is roughly consistent with those observed around the terminator and in the nightside magnetotail <ref type="bibr" target="#b13">(Halekas et al., 2009;</ref><ref type="bibr" target="#b16">Harada et al., 2017)</ref>. Under the assumption that the current sheet is stationary, we obtain a current sheet thickness of ∼162 km from the crossing time (∼45 s, see Figure <ref type="figure" target="#fig_2">2g</ref>) and the normal component of the spacecraft velocity (3.6 km/s). Ion measurements around the current sheet indicate the normal velocity components of V N ∼ −8 km/s for H + , ∼ −1 km/s for O + , and ∼0 km/s for O + 2 ions (not shown). Assuming that the current sheet moves with protons, the relative spacecraft velocity of ∼11.6 km/s implies a current sheet thickness of ∼522 km.</p><p>Finally, we investigate ion measurements. Figures <ref type="figure" target="#fig_2">2d-2f</ref> show the ion energy spectra, ion densities, and ion bulk velocities, respectively. The most abundant ion species is O + 2 throughout the interval (Figure <ref type="figure" target="#fig_2">2e</ref>), indicating the predominance of planetary plasma in the MPR. Based on the measured ion pressures and magnetic field magnitude, we obtain the plasma beta (the ratio of plasma pressure to magnetic pressure) of 𝛽 ∼ 0.29 (0.26) immediately before (after) the current sheet crossing. The low 𝛽 indicates the dominant magnetic pres- sure as expected in the MPR (e.g., <ref type="bibr" target="#b27">Ma et al., 2004)</ref>. Coinciding with the magnetic field rotation from the northward +B z to southward −B z , we observe northward turning of the proton flow in the V z component (labeled as "jet" in Figure <ref type="figure" target="#fig_2">2f</ref> ). The northward flow is opposite to southward flows nominally expected in the southern hemisphere (diverging plasma flows from the subsolar point toward the flank). Figures <ref type="figure" target="#fig_3">3b-3d</ref> show the V L component of H + , O + , and O + 2 ions. The northward jets (+V L deviation) are seen during the current sheet crossing for all the ions species. The heavier species display smaller V L changes (∼13 km/s for H + , ∼3 km/s for O + , and ∼2 km/s for O + 2 ions), suggesting that these ions are still unmagnetized and their motions are controlled mostly by electric fields, as is the case for reconnection events observed in the nightside magnetotail <ref type="bibr" target="#b17">(Harada et al., 2015</ref><ref type="bibr" target="#b16">(Harada et al., , 2017))</ref>. Based on the ion densities in the current sheet, we obtain the ion inertial lengths of 43 km for H + , 65 km for O + , and 52 km for O + 2 , which imply that the estimated local half thickness of the current sheet (∼81-261 km) is of the order of ∼1-6 ion inertial lengths. In such a thin current sheet, the ions are expected to be mostly unmagnetized. The observed V L changes are roughly on the same order of, or slightly smaller than, the Alfvén speed of ∼10 km/s derived from the total ion mass density in the regions adjacent to the current sheet (Figure <ref type="figure" target="#fig_2">2h</ref>). We note that though a fluid in an idealized reconnection exhaust is expected to be accelerated eventually up to approximately the Alfvén speed from a magnetohydrodynamic perspective (e.g., <ref type="bibr" target="#b44">Yamada et al., 2010)</ref>, individual species may have different outflow speeds at a particular location depending on their different stages of acceleration and remagnetization as well as on the individual Alfvén speeds (e.g., <ref type="bibr" target="#b23">Liu et al., 2015;</ref><ref type="bibr" target="#b28">Markidis et al., 2011)</ref>. For the dominant O + 2 ions, we also derive high time resolution velocity data from the three-dimensional data product without mass resolution by assuming that all ions are O + 2 (shown by the red line in Figure <ref type="figure" target="#fig_3">3d</ref>). The red line closely follows the black line, demonstrating the validity of the assumption, and clearly resolves the jet structure with a V L peak near the center 10.1002/2018GL077281 of the current sheet. The northward Alfvénic ion jets within the current sheet is consistent with a crossing northward of the X line as illustrated in Figure <ref type="figure" target="#fig_0">1f</ref>.</p><p>To ensure that the variations in the computed ion velocity moments do not arise from instrumental effects caused by the incomplete field of view (FOV) of STATIC <ref type="bibr" target="#b29">(McFadden et al., 2015)</ref>, we examine ion angular spectra in the instrument coordinates (Figure <ref type="figure" target="#fig_4">4</ref>). During this time interval, the +X STATIC , +Y STATIC , and +Z STATIC directions were nearly aligned with −Y MSO , +Z MSO , and −X MSO , respectively. Note that [phi, theta] = [0 ∘ , 0 ∘ ] corresponds to −Y MSO and [+90 ∘ , 0 ∘ ] corresponds to +Z MSO . The elevation angle spectra (Figures <ref type="figure" target="#fig_4">4b, 4d, and 4f</ref> ) display generally broad distributions with bulk velocity directions (solid white lines) well within the FOV (±45 ∘ ) during the current sheet crossing. In Figures <ref type="figure" target="#fig_4">4a, 4c</ref>, and 4e, the azimuthal angle spectra exhibit ion flow rotations (indicated by the white arrows) corresponding to the +V L jets (Figures <ref type="figure" target="#fig_3">3b-3d</ref>). For O + and O + 2 ions (Figures <ref type="figure" target="#fig_4">4c  and 4e</ref>), the main populations are observed apart from the anodes at 67.5-90 ∘ , the look directions of which were partially blocked by the spacecraft body at this time, indicating that the ion jets were detected in the clear part of the FOV. Meanwhile, the H + jet population could be partially blocked, but this blockage would result in a slightly smaller rotation in the bulk velocity (Figure <ref type="figure" target="#fig_4">4a</ref>), suggesting a possible underestimation of the H + jet velocity. Therefore, we conclude that the ion jets measured during the current sheet crossing are not artificial changes in the computed velocity moments caused by the limited FOV.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Implications</head><p>As illustrated in Figure <ref type="figure" target="#fig_0">1f</ref>, MAVEN observed magnetic reconnection signatures during a current sheet crossing above strong crustal magnetic fields on the dayside of Mars, including (i) closed magnetic field lines containing ionospheric photoelectrons traveling in both parallel and antiparallel directions, (ii) Hall magnetic fields and a nonzero normal field in the bifurcated current sheet with polarity consistent with a crossing northward of the X line, and (iii) northward Alfvénic ion jets with lower flow velocities for heavier ion species. The Hall magnetic fields, which arise from differential motion between unmagnetized ions and magnetized electrons, indicate the presence of a thin current sheet with a thickness of the order of ion inertial lengths, which is confirmed by the ion measurements. This thin current sheet is presumably generated by interaction between the compressed crustal fields and upstream plasma with magnetic fields at a large shear angle. The formation of a thin current sheet is a necessary condition for collisonless reconnection <ref type="bibr" target="#b35">(Phan et al., 2010;</ref><ref type="bibr" target="#b36">Sanny et al., 1994)</ref>, and the magnetic shear angle of 142 ∘ and Δ𝛽 ∼ 0.03 suggests that reconnection is allowed for this current sheet according to the condition of <ref type="bibr" target="#b39">Swisdak et al. (2010)</ref>. All of the observed signatures (the polarity of Hall and nonzero normal fields, northward ion jets, and closed topology current sheet) consistently suggest the spacecraft crossing northward of the X line. The comprehensiveness and consistency of the observed signatures within the current sheet strongly suggest the occurrence of magnetic reconnection on dayside crustal magnetic fields.</p><p>Although the origin of the northward magnetic field before the current sheet crossing has not been uniquely identified, the crustal magnetic fields are most likely implicated in the southward magnetic field on the other side of the current sheet, given the consistent polarity and variation of the measured and model fields. Therefore, this event can involve magnetic reconnection between either (i) the draped IMF and crustal magnetic field or (ii) crustal fields on both sides. In the former case of IMF-crustal field reconnection, the field line connection of the parallel end to the collisional atmosphere in the "closed" topology would not represent the connection to the crustal source. Instead, the field lines in the parallel direction should eventually drape around the planet, threading through the collisional atmosphere. In the latter case of internal reconnection between crustal magnetic fields, the closed magnetic topology during the current sheet crossing would truly represent magnetic field lines with both ends connected to the Martian surface.</p><p>In either case, the comprehensive evidence for dayside magnetic reconnection presented in this paper has an important implication: magnetic reconnection can operate in realistic plasma parameters around dayside crustal magnetic fields at Mars. Dayside reconnection between the IMF and crustal fields could account for the distorted magnetic field configuration observed by Mars Global Surveyor on the dayside <ref type="bibr" target="#b4">(Brain et al., 2006;</ref><ref type="bibr">Luhmann, Ma, et al., 2015)</ref>. <ref type="bibr" target="#b25">Luhmann, Dong, et al. (2015)</ref> proposed that much of the nightside magnetotail of Mars could be composed of open and closed field lines with at least one end connected to the planet, which presumably result from magnetic reconnection. Data-model comparison on the Martian magnetotail configuration suggests that the Martian magnetosphere has hybrid nature of induced and intrinsic magnetospheres 10.1002/2018GL077281 <ref type="bibr" target="#b6">(DiBraccio et al., 2018)</ref>. In this "hybrid magnetosphere" model, dayside magnetic reconnection between the IMF and crustal magnetic fields partially controls the nightside magnetotail configuration as opposed to a purely induced magnetotail configuration that is determined solely by the draped IMF. Dayside magnetic reconnection, the occurrence of which is demonstrated by the comprehensive in situ measurements by MAVEN, could have a global consequence in the topology and configuration of the Martian magnetosphere.</p><p>Dayside magnetic reconnection can also alter the ion escape pattern from the dayside ionosphere by changing magnetic field topology <ref type="bibr" target="#b26">(Luhmann et al., 2017)</ref>. Open field lines provide pathways on which planetary ions can be accelerated and escape into space <ref type="bibr" target="#b7">(Dubinin et al., 2012;</ref><ref type="bibr" target="#b9">Ergun et al., 2006;</ref><ref type="bibr" target="#b11">Frahm et al., 2010;</ref><ref type="bibr" target="#b21">Lillis et al., 2015</ref><ref type="bibr" target="#b22">Lillis et al., , 2017))</ref>, whereas closed field lines can trap ionospheric plasma <ref type="bibr" target="#b0">(Andrews et al., 2015;</ref><ref type="bibr" target="#b3">Brain et al., 2007;</ref><ref type="bibr" target="#b10">Flynn et al., 2017;</ref><ref type="bibr">Xu, Mitchell, Luhmann, et al., 2017)</ref>. As magnetic reconnection can switch open field lines to closed field lines, and vice versa, magnetic reconnection on dayside crustal magnetic fields can play an important role in regulating escape channels from a major reservoir of planetary ions, that is, the dayside ionosphere. An important next step would be quantitative evaluation of the roles of dayside reconnection in modifying the magnetospheric configuration and ion escape pattern. Future studies should investigate the occurrence rate and spatial distribution of the dayside magnetic reconnection by conducting a systematic search for in situ reconnection signatures.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. MAVEN orbit projection during 18:03-18:12 UT on 6 October 2016 on the (a) X MSO -Y MSO , (b) X MSO -𝜌 MSO , where 𝜌 MSO ≡ √ Y 2 MSO + Z 2 MSO , (c) X MSO -Z MSO , (d) Y MSO -Z MSO planes, and (e) in geographic coordinates. The dashed arrow in Figure1aindicates that the orbit is located on the −Z MSO side of Mars. The dashed lines in Figure1brepresent the nominal positions of the bow shock and magnetic pileup boundary<ref type="bibr" target="#b40">(Trotignon et al., 2006)</ref> and the geometrical shadow boundary. The red and blue contours in Figure1eshow the radial component (positive outward) of crustal magnetic fields at a 400 km altitude computed from the spherical harmonic model<ref type="bibr" target="#b31">(Morschhauser et al., 2014)</ref>. (f ) Schematic illustration of MAVEN crossing of magnetic reconnection structure above dayside crustal magnetic fields on 6 October 2016. MSO = Mars Solar Orbital; MAVEN = Mars Atmosphere and Volatile EvolutioN.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(f ) Schematic illustration of MAVEN crossing of magnetic reconnection structure above dayside crustal magnetic fields on 6 October 2016. MSO = Mars Solar Orbital; MAVEN = Mars Atmosphere and Volatile EvolutioN.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure2. Mars Atmosphere and Volatile EvolutioN observations during 18:03-18:12 UT on 6 October 2016 of (a) electron energy spectra in units of differential energy flux (Eflux) of eV/cm 2 /s/st/eV and (b) pitch angle distributions of 100-1000 eV electrons in normalized flux, (c) pitch angle-resolved shape parameter<ref type="bibr" target="#b42">(Xu, Mitchell, Liemohn, et al., 2017)</ref>, (d) ion energy spectra, (e) ion densities, (f ) proton bulk velocity, (g) magnetic field in Mars Solar Orbital coordinates, and (h) Alfvén speed computed from the total ion mass density. The white line in Figure2dindicates the low-energy cutoff from which the spacecraft potential is estimated. The spacecraft potential and spacecraft velocity are corrected when computing ion moments. The dashed lines in Figure2gshow the crustal magnetic field computed from the spherical harmonic model<ref type="bibr" target="#b31">(Morschhauser et al., 2014)</ref>.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. (a) Magnetic fields in the current sheet LMN coordinates, and L component of (b) H + , (c) O + , and (d) O + 2 ion velocities. The minimum variance analysis eigenvalue ratios and the maximum (L), intermediate (M), and minimum (N) variance directions in Mars Solar Orbital are noted in Figure 3a. The red line in Figure3dshows the ion velocity component computed from the high time resolution, three-dimensional data product without mass resolution ("CA" data product, see<ref type="bibr" target="#b29">McFadden et al., 2015)</ref> by assuming that all ions are the dominant species, that is, O + 2 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Angular spectra of (a) H + in the instrument azimuthal (phi) angle, (b) H + in the instrument elevation (theta) angle, (c) O + in phi, (d) O + in theta, (e) O + 2 in phi, and (f ) O + 2 in theta. The solid white lines indicate the directions of the computed bulk velocities. The horizontal dashed lines in Figures4a, 4c, and 4e mark the look directions that were partially blocked by the spacecraft body.</figDesc><graphic coords="6,253,43,94,25,267,50,311,30" type="bitmap" /></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>This work was partially supported by the MAVEN project and the French space agency CNES. MAVEN data are publicly available through the Planetary Data System at https://pds-ppi.igpp.ucla.edu.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Ionospheric plasma density variations observed at Mars by MAVEN/LPW</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Andrews</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Delory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Fowler</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015GL065241</idno>
+		<ptr target="https://doi.org/10.1002/2015GL065241" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="8862" to="8869" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Stationary flux ropes at the southern terminator of Mars</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Beharrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Wild</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2012JA017738</idno>
+		<ptr target="https://doi.org/10.1029/2012JA017738" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">A12212</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Episodic detachment of Martian crustal magnetic fields leading to bulk atmospheric plasma escape</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Briggs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2010GL043916</idno>
+		<ptr target="https://doi.org/10.1029/2010GL043916" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">L14108</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Electron pitch angle distributions as indicators of magnetic field topology near Mars</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2007JA012435</idno>
+		<ptr target="https://doi.org/10.1029/2007JA012435" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">A09201</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The magnetic field draping direction at Mars from</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2005.09.023</idno>
+		<ptr target="https://doi.org/10.1016/j.icarus.2005.09.023" />
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="464" to="473" />
+			<date type="published" when="1999-08">2006. April 1999 through August 2004</date>
+		</imprint>
+	</monogr>
+	<note>results from the Mars Express ASPERA-3 Investigation</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The MAVEN magnetic field investigation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Espley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Odom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sheppard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0169-4</idno>
+		<ptr target="https://doi.org/10.1007/s11214-015-0169-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="257" to="291" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The Twisted Configuration of the Martian Magnetotail: MAVEN Observations</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dibraccio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Curry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Espley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018GL077251</idno>
+		<ptr target="https://doi.org/10.1029/2018GL077251" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="page">45</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Ion energization and escape on Mars and Venus</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dubinin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fraenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lundin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Edberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Duru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vaisberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4614-3290-6_6</idno>
+		<ptr target="https://doi.org/10.1007/978-1-4614-3290-6_6" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page" from="173" to="211" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Interplanetary magnetic field and the auroral zones</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Dungey</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.6.47</idno>
+		<ptr target="https://doi.org/10.1103/PhysRevLett.6.47" />
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review Letters</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="47" to="48" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Role of plasma waves in Mars&apos; atmospheric loss</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Delory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006GL025785</idno>
+		<ptr target="https://doi.org/10.1029/2006GL025785" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">L14103</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">MAVEN observations of the effects of crustal magnetic fields on electron density and temperature in the Martian dayside ionosphere</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Flynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Vogt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andersson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017GL075367</idno>
+		<ptr target="https://doi.org/10.1002/2017GL075367" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="812" to="822" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Estimation of the escape of photoelectrons from Mars in 2004 liberated by the ionization of carbon dioxide and atomic oxygen</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Frahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sharber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Winningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Link</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liemohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kozyra</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2009.03.024</idno>
+		<ptr target="https://doi.org/10.1016/j.icarus.2009.03.024" />
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">206</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="50" to="63" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Direct evidence for magnetic reconnection in the solar wind near 1 AU</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004JA010809</idno>
+		<ptr target="https://doi.org/10.1029/2004JA010809" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">A01107</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">In situ observations of reconnection Hall magnetic fields at Mars: Evidence for ion diffusion region encounters</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009JA014544</idno>
+		<ptr target="https://doi.org/10.1029/2009JA014544" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">MAVEN observations of a giant ionospheric flux rope near Mars resulting from interaction between the crustal and interplanetary draped magnetic fields</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Seki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA023347</idno>
+		<ptr target="https://doi.org/10.1002/2016JA023347" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="828" to="842" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Formation processes of flux ropes downstream from Martian crustal magnetic fields inferred from Grad-Shafranov reconstruction</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Seki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Matsunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shiota</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA019943</idno>
+		<ptr target="https://doi.org/10.1002/2014JA019943" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="7947" to="7962" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Survey of magnetic reconnection signatures in the Martian magnetotail with MAVEN</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Espley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Dibraccio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JA023952</idno>
+		<ptr target="https://doi.org/10.1002/2017JA023952" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="5114" to="5131" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Magnetic reconnection in the near-Mars magnetotail: MAVEN observations</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Harada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015GL065004</idno>
+		<ptr target="https://doi.org/10.1002/2015GL065004" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="8838" to="8845" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Structure of plasma sheet in magnetotail: Double-peaked electric current sheet</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hoshino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nishida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yamamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kokubun</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/96JA02313</idno>
+		<ptr target="https://doi.org/10.1029/96JA02313" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">A11</biblScope>
+			<biblScope unit="page" from="775" to="799" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Mars Atmosphere and Volatile Evolution (MAVEN) mission</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Grebowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Beutelschies</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0139-x</idno>
+		<ptr target="https://doi.org/10.1007/s11214-015-0139-x10.1002/2018GL077281" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="3" to="48" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Structure of the magnetic field fluxes connected with crustal magnetization and topside ionosphere at Mars</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Krymskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Breus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Crider</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2001JA000239</idno>
+		<ptr target="https://doi.org/10.1029/2001JA000239" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">A9</biblScope>
+			<biblScope unit="page">1245</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Characterizing atmospheric escape from Mars today and through time, with MAVEN</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Bougher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0165-8</idno>
+		<ptr target="https://doi.org/10.1007/s11214-015-0165-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="357" to="422" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Field-aligned electrostatic potentials above the Martian exobase from MGS electron reflectometry: Structure and variability</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Fillingim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Poppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Collinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JE005395</idno>
+		<ptr target="https://doi.org/10.1002/2017JE005395" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="67" to="92" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The heavy ion diffusion region in magnetic reconnection in the Earth&apos;s magnetotail</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Mouikis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roytershteyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Karimabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1002/2015JA020982</idno>
+		<ptr target="https://doi.org/10.1002/2015JA020982" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="3535" to="3551" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Solar wind interaction effects on the magnetic fields around Mars: Consequences for interplanetary and crustal field measurements</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ulusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Espley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2015.05.004</idno>
+		<ptr target="https://doi.org/10.1016/j.pss.2015.05.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Planetary and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page" from="15" to="23" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Implications of MAVEN Mars near-wake measurements and models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Curry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Espley</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015GL066122</idno>
+		<ptr target="https://doi.org/10.1002/2015GL066122" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="9087" to="9094" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Martian magnetic storms</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Curry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA023513</idno>
+		<ptr target="https://doi.org/10.1002/2016JA023513" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="6185" to="6209" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Three-dimensional, multispecies, high spatial resolution MHD studies of the solar wind interaction with Mars</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">V</forename><surname>Sokolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Hansen</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003JA010367</idno>
+		<ptr target="https://doi.org/10.1029/2003JA010367" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">A07211</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Kinetic simulations of magnetic reconnection in presence of a background O+ population</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Markidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lapenta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bettarini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Andersson</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2011JA016429</idno>
+		<ptr target="https://doi.org/10.1029/2011JA016429" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page" from="A00K" to="16" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">MAVEN SupraThermal and Thermal Ion Composition (STATIC) instrument</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kortmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dalton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abiad</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0175-6</idno>
+		<ptr target="https://doi.org/10.1007/s11214-015-0175-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="199" to="256" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">The MAVEN Solar Wind Electron Analyzer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-A</forename><surname>Sauvaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-J</forename><surname>Thocaven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rouzaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedorov</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0232-1</idno>
+		<ptr target="https://doi.org/10.1007/s11214-015-0232-1" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="page" from="495" to="528" />
+			<date type="published" when="0200">2016. 200</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A spherical harmonic model of the lithospheric magnetic field of Mars</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morschhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lesur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grott</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2013JE004555</idno>
+		<ptr target="https://doi.org/10.1002/2013JE004555" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1162" to="1188" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">The plasma environment of Mars</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winterhalter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cravens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/B:SPAC.0000032718.47512.92</idno>
+		<ptr target="https://doi.org/10.1023/B:SPAC.0000032718.47512.92" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="33" to="114" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Interplanetary gas. XXII -Plasma tail disconnection events in comets-Evidence for magnetic field line reconnection at interplanetary sector boundaries</title>
+		<author>
+			<persName><forename type="first">Jr</forename><surname>Niedner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Brandt</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/156299</idno>
+		<ptr target="https://doi.org/10.1086/156299" />
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<imprint>
+			<biblScope unit="volume">223</biblScope>
+			<biblScope unit="page" from="655" to="670" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">In-situ observations of reconnection in space</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-012-9957-2</idno>
+		<ptr target="https://doi.org/10.1007/s11214-012-9957-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="issue">2-4</biblScope>
+			<biblScope unit="page" from="385" to="417" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The dependence of magnetic reconnection on plasma 𝛽 and magnetic shear: Evidence from solar wind observations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pasma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2041-8205/719/L199</idno>
+		<ptr target="https://doi.org/10.1088/2041-8205/719/L199" />
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<imprint>
+			<biblScope unit="volume">719</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">L199</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Growth-phase thinning of the near-Earth current sheet during the CDAW 6 substorm</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sanny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mcpherron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">N</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">I</forename><surname>Pulkkinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nishida</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/93JA03235</idno>
+		<ptr target="https://doi.org/10.1029/93JA03235" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">A4</biblScope>
+			<biblScope unit="page" from="5805" to="5816" />
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Magnetopause structure and attitude from Explorer 12 observations</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U Ö</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Cahill</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JZ072i001p00171</idno>
+		<ptr target="https://doi.org/10.1029/JZ072i001p00171" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="171" to="183" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Minimum and maximum variance analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U Ö</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scheible</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">ISSI Scientific Reports Series</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="185" to="220" />
+			<date type="published" when="1998">1998</date>
+			<publisher>Dartmouth College</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The vector direction of the interstellar magnetic field outside the heliosphere</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Opher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Bibi</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/710/1769</idno>
+		<ptr target="https://doi.org/10.1088/0004-637X/710/1769" />
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal</title>
+		<imprint>
+			<biblScope unit="volume">710</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">1769</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Martian shock and magnetic pile-up boundary positions and shapes determined from the Phobos 2 and Mars Global Surveyor data sets</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Trotignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bertucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Acuña</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2006.01.003</idno>
+		<ptr target="https://doi.org/10.1016/j.pss.2006.01.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Planetary and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="357" to="369" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Statistical features of the global polarity reversal of the Venusian induced magnetosphere in response to the polarity change in interplanetary magnetic field</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J T</forename><surname>Edberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Opitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Szeg Ő</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015JA021995</idno>
+		<ptr target="https://doi.org/10.1002/2015JA021995" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="3951" to="3962" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Martian low-altitude magnetic topology deduced from MAVEN/SWEA observations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liemohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luhmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA023467</idno>
+		<ptr target="https://doi.org/10.1002/2016JA023467" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1831" to="1852" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">High-altitude closed magnetic loops at Mars observed by MAVEN</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Harada</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017GL075831</idno>
+		<ptr target="https://doi.org/10.1002/2017GL075831" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="229" to="240" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Magnetic reconnection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kulsrud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ji</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.82.603</idno>
+		<ptr target="https://doi.org/10.1103/RevModPhys.82.603" />
+	</analytic>
+	<monogr>
+		<title level="j">Reviews of Modern Physics</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="603" to="664" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,354 @@
+[
+    {
+        "end": 1516,
+        "start": 1503,
+        "text": "6 August 2009",
+        "timex-value": "2009-08-06",
+        "type": "DATE",
+        "value": "2009-08-06"
+    },
+    {
+        "end": 1544,
+        "start": 1528,
+        "text": "10 December 2009",
+        "timex-value": "2009-12-10",
+        "type": "DATE",
+        "value": "2009-12-10"
+    },
+    {
+        "end": 1572,
+        "start": 1557,
+        "text": "18 January 2010",
+        "timex-value": "2010-01-18",
+        "type": "DATE",
+        "value": "2010-01-18"
+    },
+    {
+        "end": 1601,
+        "start": 1586,
+        "text": "22 January 2010",
+        "timex-value": "2010-01-22",
+        "type": "DATE",
+        "value": "2010-01-22"
+    },
+    {
+        "end": 2190,
+        "start": 2171,
+        "text": "March\u2014December 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-03",
+            "end": "2007-12"
+        }
+    },
+    {
+        "end": 11052,
+        "start": 11028,
+        "text": "1 March\u201431 December 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-03-01",
+            "end": "2007-12-31"
+        }
+    },
+    {
+        "end": 15597,
+        "start": 15584,
+        "text": "6 August 2007",
+        "timex-value": "2007-08-06",
+        "type": "DATE",
+        "value": "2007-08-06"
+    },
+    {
+        "end": 16021,
+        "start": 15998,
+        "text": "about 04:30 on 6 August",
+        "timex-value": "2022-08-06T04:30",
+        "type": "TIME",
+        "value": "2022-08-06T04:30"
+    },
+    {
+        "end": 16346,
+        "start": 16323,
+        "text": "about 03:00 on 7 August",
+        "timex-value": "2022-08-07T03:00",
+        "type": "TIME",
+        "value": "2022-08-07T03:00"
+    },
+    {
+        "end": 16487,
+        "start": 16482,
+        "text": "07:10",
+        "timex-value": "T07:10",
+        "type": "TIME",
+        "value": "T07:10"
+    },
+    {
+        "end": 16811,
+        "start": 16794,
+        "text": "14:00 on 8 August",
+        "timex-value": "2022-08-08T14:00",
+        "type": "TIME",
+        "value": "2022-08-08T14:00"
+    },
+    {
+        "end": 17051,
+        "start": 17046,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 17074,
+        "start": 17057,
+        "text": "20:00 on 7 August",
+        "timex-value": "2022-08-07T20:00",
+        "type": "TIME",
+        "value": "2022-08-07T20:00"
+    },
+    {
+        "end": 17098,
+        "start": 17081,
+        "text": "06:00 on 8 August",
+        "timex-value": "2022-08-08T06:00",
+        "type": "TIME",
+        "value": "2022-08-08T06:00"
+    },
+    {
+        "end": 17738,
+        "start": 17721,
+        "text": "00:00 on 7 August",
+        "timex-value": "2022-08-07T00:00",
+        "type": "TIME",
+        "value": "2022-08-07T00:00"
+    },
+    {
+        "end": 17900,
+        "start": 17883,
+        "text": "12:00 on 7 August",
+        "timex-value": "2022-08-07T12:00",
+        "type": "TIME",
+        "value": "2022-08-07T12:00"
+    },
+    {
+        "end": 17940,
+        "start": 17913,
+        "text": "02:00 and 09:00 on 8 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "T02:00",
+            "end": "XXXX-08-08T09:00"
+        }
+    },
+    {
+        "end": 18147,
+        "start": 18112,
+        "text": "between 14:00 and 18:00 on 8 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "T14:00",
+            "end": "XXXX-08-08T18:00"
+        }
+    },
+    {
+        "end": 18178,
+        "start": 18155,
+        "text": "about 18:00 on 8 August",
+        "timex-value": "2022-08-08T18:00",
+        "type": "TIME",
+        "value": "2022-08-08T18:00"
+    },
+    {
+        "end": 18339,
+        "start": 18334,
+        "text": "09:00",
+        "timex-value": "T09:00",
+        "type": "TIME",
+        "value": "T09:00"
+    },
+    {
+        "end": 18428,
+        "start": 18423,
+        "text": "09:00",
+        "timex-value": "T09:00",
+        "type": "TIME",
+        "value": "T09:00"
+    },
+    {
+        "end": 18590,
+        "start": 18585,
+        "text": "18:00",
+        "timex-value": "T18:00",
+        "type": "TIME",
+        "value": "T18:00"
+    },
+    {
+        "end": 18696,
+        "start": 18691,
+        "text": "09:00",
+        "timex-value": "T09:00",
+        "type": "TIME",
+        "value": "T09:00"
+    },
+    {
+        "end": 18758,
+        "start": 18741,
+        "text": "18:00 on 8 August",
+        "timex-value": "2022-08-08T18:00",
+        "type": "TIME",
+        "value": "2022-08-08T18:00"
+    },
+    {
+        "end": 19160,
+        "start": 19136,
+        "text": "1 March\u201431 December 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-03-01",
+            "end": "2007-12-31"
+        }
+    },
+    {
+        "end": 20563,
+        "start": 20558,
+        "text": "00:00",
+        "timex-value": "T00:00",
+        "type": "TIME",
+        "value": "T00:00"
+    },
+    {
+        "end": 20569,
+        "start": 20564,
+        "text": "12:00",
+        "timex-value": "T12:00",
+        "type": "TIME",
+        "value": "T12:00"
+    },
+    {
+        "end": 20575,
+        "start": 20570,
+        "text": "00:00",
+        "timex-value": "T00:00",
+        "type": "TIME",
+        "value": "T00:00"
+    },
+    {
+        "end": 20581,
+        "start": 20576,
+        "text": "12:00",
+        "timex-value": "T12:00",
+        "type": "TIME",
+        "value": "T12:00"
+    },
+    {
+        "end": 20595,
+        "start": 20590,
+        "text": "00:00",
+        "timex-value": "T00:00",
+        "type": "TIME",
+        "value": "T00:00"
+    },
+    {
+        "end": 20601,
+        "start": 20596,
+        "text": "12:00",
+        "timex-value": "T12:00",
+        "type": "TIME",
+        "value": "T12:00"
+    },
+    {
+        "end": 20607,
+        "start": 20602,
+        "text": "00:00",
+        "timex-value": "T00:00",
+        "type": "TIME",
+        "value": "T00:00"
+    },
+    {
+        "end": 20712,
+        "start": 20701,
+        "text": "August 2006",
+        "timex-value": "2006-08",
+        "type": "DATE",
+        "value": "2006-08"
+    },
+    {
+        "end": 20784,
+        "start": 20771,
+        "text": "7 August 2007",
+        "timex-value": "2007-08-07",
+        "type": "DATE",
+        "value": "2007-08-07"
+    },
+    {
+        "end": 21146,
+        "start": 21116,
+        "text": "the beginning of 7 August 2007",
+        "timex-value": "2007-08-07",
+        "type": "DATE",
+        "value": "2007-08-07"
+    },
+    {
+        "end": 21569,
+        "start": 21547,
+        "text": "March\u201431 December 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-03",
+            "end": "2007-12-31"
+        }
+    },
+    {
+        "end": 27206,
+        "start": 27194,
+        "text": "October 2007",
+        "timex-value": "2007-10",
+        "type": "DATE",
+        "value": "2007-10"
+    },
+    {
+        "end": 35399,
+        "start": 35382,
+        "text": "20:00 on 7 August",
+        "timex-value": "2022-08-07T20:00",
+        "type": "TIME",
+        "value": "2022-08-07T20:00"
+    },
+    {
+        "end": 35433,
+        "start": 35428,
+        "text": "21:00",
+        "timex-value": "T21:00",
+        "type": "TIME",
+        "value": "T21:00"
+    },
+    {
+        "end": 35468,
+        "start": 35463,
+        "text": "18:00",
+        "timex-value": "T18:00",
+        "type": "TIME",
+        "value": "T18:00"
+    },
+    {
+        "end": 38212,
+        "start": 38190,
+        "text": "March\u201431 December 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-03",
+            "end": "2007-12-31"
+        }
+    },
+    {
+        "end": 47162,
+        "start": 47138,
+        "text": "1 March\u201431 December 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-03-01",
+            "end": "2007-12-31"
+        }
+    }
+]

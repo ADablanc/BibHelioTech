@@ -1,0 +1,62 @@
+# Name: 101038nature04393_bibheliotech_V1;
+# Creation Date: 2022-07-18T16:32:07.412860;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1038/nature04393". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Parameter 1: id:column1; name:DOI; size:1; type:char;
+# Parameter 2: id:column2; name:SATS; size:1; type:char;
+# Parameter 3: id:column3; name:INSTS; size:1; type:char;
+# Parameter 4: id:column4; name:REGS; size:1; type:char;
+# Parameter 5: id:column5; name:D; size:1; type:int;
+# Parameter 6: id:column6; name:R; size:1; type:int;
+# Parameter 7: id:column7; name:SO; size:1; type:int;
+# Parameter 8: id:column8; name:occur_sat; size:1; type:int;
+# Parameter 9: id:column9; name:nb_durations; size:1; type:int;
+# Parameter 10: id:column10; name:conf; size:1; type:float;
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 2750 1 13 55 17 0.00521776087855709 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 2284 1 13 55 17 0.004333587580590689 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 1949 1 13 55 17 0.0036979694372028245 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 71 1 13 55 17 0.00013471309904638306 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 961 1 13 55 17 0.0018233702561066777 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 1075 1 13 55 17 0.0020396701616177716 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster 3" "PEACE" "Heliosphere.NearEarth" 76 1 1 55 17 0.0018745991810961472 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 2724 1 20 55 17 0.003359479058753885 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 2279 1 20 55 17 0.002810665482709289 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1923 1 20 55 17 0.0023716146218736127 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1881 1 20 55 17 0.0023198164866064823 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 969 1 20 55 17 0.0011950569779487939 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1025 1 20 55 17 0.0012641211583049677 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1109 1 20 55 17 0.0013677174288392285 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1222 1 20 55 17 0.0015070790784865078 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 2642 1 20 55 17 0.0032583493660894875 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 2267 1 14 55 17 0.003994094307843013 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 1909 1 14 55 17 0.003363355109692242 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 90 1 14 55 17 0.0001585657202055012 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 322 1 14 55 17 0.000567312910068571 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 955 1 14 55 17 0.0016825584755139292 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 1124 1 14 55 17 0.001980309661233148 
+2002-02-02T03:59:00.000 2002-02-02T03:59:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 8103 1 13 55 17 0.015374369599617492 
+2002-02-02T03:59:00.000 2002-02-02T03:59:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 8097 1 14 55 17 0.014265629294488257 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 1913 1 13 55 17 0.0036296642038835323 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 1823 3 13 55 17 0.010376703361755899 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 1107 5 13 55 17 0.01050192962284127 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 1066 6 13 55 17 0.01213556311972769 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 330 6 13 55 17 0.0037567878325611044 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 4041 6 13 55 17 0.04600357464054371 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1883 2 20 55 17 0.004644566128952691 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1781 4 20 55 17 0.008785950372453258 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1100 5 20 55 17 0.006783089142124217 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 422 6 20 55 17 0.003122687583247003 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 7007 6 20 55 17 0.05184993340239751 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 7219 6 20 55 17 0.0534186769276306 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 7422 7 20 55 17 0.06407429332544029 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 7506 1 20 55 17 0.009257066745597158 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "ISEE" "" "Heliosphere.NearEarth" 6757 6 1 55 17 1.0 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 1816 3 14 55 17 0.009598511596439672 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 1769 4 14 55 17 0.012466789290823626 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 1344 5 14 55 17 0.01183957377534409 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 1059 6 14 55 17 0.011194739846508383 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 410 6 14 55 17 0.004334129685617033 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 122 6 14 55 17 0.0012896678576714098 
+2002-02-02T04:00:00.000 2002-02-02T04:00:59.000 https://doi.org/10.1038/nature04393 "Wind" "" "Earth.Magnetosphere" 4049 6 14 55 17 0.04280217340747162 
+2002-02-02T04:05:00.000 2002-02-02T04:05:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 9234 1 20 55 17 0.011388190025159095 
+2005-10-31T11:03:00.000 2005-10-31T11:03:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 3239 1 20 55 17 0.003994622860243698 
+2005-10-31T11:03:00.000 2005-10-31T11:03:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 3288 1 20 55 17 0.00405505401805535 

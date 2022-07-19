@@ -1,0 +1,224 @@
+[
+    {
+        "end": 382,
+        "start": 371,
+        "text": "18 May 2012",
+        "timex-value": "2012-05-18",
+        "type": "DATE",
+        "value": "2012-05-18"
+    },
+    {
+        "end": 408,
+        "start": 392,
+        "text": "13 December 2012",
+        "timex-value": "2012-12-13",
+        "type": "DATE",
+        "value": "2012-12-13"
+    },
+    {
+        "end": 434,
+        "start": 419,
+        "text": "10 January 2013",
+        "timex-value": "2013-01-10",
+        "type": "DATE",
+        "value": "2013-01-10"
+    },
+    {
+        "end": 458,
+        "start": 446,
+        "text": "1 March 2013",
+        "timex-value": "2013-03-01",
+        "type": "DATE",
+        "value": "2013-03-01"
+    },
+    {
+        "end": 480,
+        "start": 467,
+        "text": "18 March 2011",
+        "timex-value": "2011-03-18",
+        "type": "DATE",
+        "value": "2011-03-18"
+    },
+    {
+        "end": 2454,
+        "start": 2441,
+        "text": "18 March 2011",
+        "timex-value": "2011-03-18",
+        "type": "DATE",
+        "value": "2011-03-18"
+    },
+    {
+        "end": 22582,
+        "start": 22566,
+        "text": "24 November 2011",
+        "timex-value": "2011-11-24",
+        "type": "DATE",
+        "value": "2011-11-24"
+    },
+    {
+        "end": 23010,
+        "start": 22994,
+        "text": "24 November 2011",
+        "timex-value": "2011-11-24",
+        "type": "DATE",
+        "value": "2011-11-24"
+    },
+    {
+        "end": 23120,
+        "start": 23108,
+        "text": "T10:29:04.49",
+        "timex-value": "T10:29:04.049",
+        "type": "TIME",
+        "value": "T10:29:04.049"
+    },
+    {
+        "end": 23703,
+        "start": 23687,
+        "text": "24 November 2011",
+        "timex-value": "2011-11-24",
+        "type": "DATE",
+        "value": "2011-11-24"
+    },
+    {
+        "end": 23720,
+        "start": 23704,
+        "text": "21 November 2011",
+        "timex-value": "2011-11-21",
+        "type": "DATE",
+        "value": "2011-11-21"
+    },
+    {
+        "end": 23861,
+        "start": 23845,
+        "text": "24 November 2011",
+        "timex-value": "2011-11-24",
+        "type": "DATE",
+        "value": "2011-11-24"
+    },
+    {
+        "end": 25823,
+        "start": 25807,
+        "text": "21 November 2011",
+        "timex-value": "2011-11-21",
+        "type": "DATE",
+        "value": "2011-11-21"
+    },
+    {
+        "end": 26199,
+        "start": 26187,
+        "text": "T10:29:22.39",
+        "timex-value": "T10:29:22.039",
+        "type": "TIME",
+        "value": "T10:29:22.039"
+    },
+    {
+        "end": 27814,
+        "start": 27788,
+        "text": "from 15 May to 7 June 2011",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-05-15",
+            "end": "2011-06-07"
+        }
+    },
+    {
+        "end": 27883,
+        "start": 27867,
+        "text": "28 November 2011",
+        "timex-value": "2011-11-28",
+        "type": "DATE",
+        "value": "2011-11-28"
+    },
+    {
+        "end": 28749,
+        "start": 28733,
+        "text": "24 November 2011",
+        "timex-value": "2011-11-24",
+        "type": "DATE",
+        "value": "2011-11-24"
+    },
+    {
+        "end": 28941,
+        "start": 28908,
+        "text": "T10:29:04.49  on 24 November 2011",
+        "timex-value": "2011-11-24T10:29:04.049",
+        "type": "TIME",
+        "value": "2011-11-24T10:29:04.049"
+    },
+    {
+        "end": 29774,
+        "start": 29766,
+        "text": "10:29:00",
+        "timex-value": "T10:29:00",
+        "type": "TIME",
+        "value": "T10:29:00"
+    },
+    {
+        "end": 29783,
+        "start": 29775,
+        "text": "10:29:10",
+        "timex-value": "T10:29:10",
+        "type": "TIME",
+        "value": "T10:29:10"
+    },
+    {
+        "end": 29792,
+        "start": 29784,
+        "text": "10:29:20",
+        "timex-value": "T10:29:20",
+        "type": "TIME",
+        "value": "T10:29:20"
+    },
+    {
+        "end": 29801,
+        "start": 29793,
+        "text": "10:29:30",
+        "timex-value": "T10:29:30",
+        "type": "TIME",
+        "value": "T10:29:30"
+    },
+    {
+        "end": 29810,
+        "start": 29802,
+        "text": "10:29:40",
+        "timex-value": "T10:29:40",
+        "type": "TIME",
+        "value": "T10:29:40"
+    },
+    {
+        "end": 29819,
+        "start": 29811,
+        "text": "10:29:50",
+        "timex-value": "T10:29:50",
+        "type": "TIME",
+        "value": "T10:29:50"
+    },
+    {
+        "end": 30136,
+        "start": 30103,
+        "text": "T10:29:22.39  on 21 November 2011",
+        "timex-value": "2011-11-21T10:29:22.039",
+        "type": "TIME",
+        "value": "2011-11-21T10:29:22.039"
+    },
+    {
+        "end": 32056,
+        "start": 32043,
+        "text": "08:00 - 16:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T08:00",
+            "end": "T16:00"
+        }
+    },
+    {
+        "end": 33727,
+        "start": 33714,
+        "text": "08:00 - 16:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T08:00",
+            "end": "T16:00"
+        }
+    }
+]

@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Mesoscale convective systems as a source of electromagnetic signals registered by ground-based system and DEMETER (Detection of Electro-Magnetic Emissions Transmitted from Earthquake Regions) satellite</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-03-26">26 March 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Karol</forename><surname>Martynski</surname></persName>
+							<email>karol.martynski@agh.edu.pl</email>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electronics</orgName>
+								<orgName type="institution">AGH University of Science and Technology</orgName>
+								<address>
+									<settlement>Kraków</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jan</forename><surname>Blecki</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Space Research Centre</orgName>
+								<orgName type="institution">Polish Academy of Sciences</orgName>
+								<address>
+									<settlement>Warsaw</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Roman</forename><surname>Wronowski</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Space Research Centre</orgName>
+								<orgName type="institution">Polish Academy of Sciences</orgName>
+								<address>
+									<settlement>Warsaw</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Andrzej</forename><surname>Kulak</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electronics</orgName>
+								<orgName type="institution">AGH University of Science and Technology</orgName>
+								<address>
+									<settlement>Kraków</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janusz</forename><surname>Mlynarczyk</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">Department of Electronics</orgName>
+								<orgName type="institution">AGH University of Science and Technology</orgName>
+								<address>
+									<settlement>Kraków</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Rafal</forename><surname>Iwanski</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department" key="dep1">Satellite Remote Sensing Department</orgName>
+								<orgName type="department" key="dep2">Institute of Meteorology</orgName>
+								<orgName type="institution">Water Management -National Research Institute</orgName>
+								<address>
+									<settlement>Kraków</settlement>
+									<country key="PL">Poland</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Mesoscale convective systems as a source of electromagnetic signals registered by ground-based system and DEMETER (Detection of Electro-Magnetic Emissions Transmitted from Earthquake Regions) satellite</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-03-26">26 March 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2BF6300AF991C0094C8ECDACB228ABE7</idno>
+					<idno type="DOI">10.5194/angeo-39-321-2021</idno>
+					<note type="submission">Received: 15 September 2020 -Discussion started: 21 November 2020 Accepted: 12 February 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T15:06+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Mesoscale convective systems (MCSs) are especially visible in the summertime when there is an advection of warm maritime air from the west. Advection of air masses is enriched by water vapour, the source of which can be found over the Mediterranean Sea. In propitious atmospheric conditions, and thus significant convection, atmospheric instability or strong vertical thermal gradient leads to the development of strong thunderstorm systems. In this paper, we discuss one case of MCSs, which generated a significant amount of +CG (cloud-to-ground), −CG and intracloud (IC) discharges. We have focused on the ELF (extremely low frequency; &lt; 1 kHz) electromagnetic field measurements, since they allow us to compute the charge moments of atmospheric discharges. Identification of the MCSs is a complex process, due to many variables which have to be taken into account. For our research, we took into consideration a few tools, such as cloud reflectivity, atmospheric soundings and data provided by PERUN (Polish system of the discharge localisation system), which operates in a very high frequency (VHF) range . Combining the above-described measurement systems and tools, we identified a MCS which occurred in Poland on 23 July 2009. Furthermore, it fulfilled our requirements since the thunderstorm crossed the path of the DEMETER (Detection of Electro-Magnetic Emissions Transmitted from Earthquake Regions) overpass.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Mesoscale convective systems (MCSs) are enormous cloud structures known as one of the strongest discharge generators in the world <ref type="bibr" target="#b3">(Bonner, 1968;</ref><ref type="bibr" target="#b0">Banta et al., 2002;</ref><ref type="bibr" target="#b8">Houze, 2014)</ref>. In the past, many have focused on the topic of MCSs activity (e.g. <ref type="bibr" target="#b13">Price, 2002;</ref><ref type="bibr" target="#b4">Cummer, 2004)</ref>. In our previous work <ref type="bibr" target="#b11">(Martynski et al., 2018)</ref>, we analysed a supercell that occurred over Poland. In this paper, our main goal is to combine measurements from two autonomous systems, namely the ELF (extremely low frequency) Hylaty station and DEME-TER (Detection of Electro-Magnetic Emissions Transmitted from Earthquake Regions) satellite that measures ELF and VLF (very low frequency) fields. Additionally, we used PE-RUN (Polish system of the discharge localisation system) to track the storm cells and to scrutinise individual lightning discharges.</p><p>To conduct the analysis, we have designated one event of the MCS which occurred on 23 July 2009. The selection of this specific MCS was not random; we have been looking for the most favourable conditions to conduct the research and, hence, significant convection, atmospheric instability or strong vertical thermal gradient. Since we focused on Poland, we had access to data provided by the Polish meteorological service, IMGW-PIB (Institute of Meteorology and Water Management -National Research Institute). The most crucial part in the search for MCSs was to scrutinise DEME-TER overpasses in order to distinguish periods in which it was over Poland.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Detection of electromagnetic signals generated by atmospheric discharges</head><p>Ground-based measurements were conducted by the Hylaty ELF (extremely low frequency) station <ref type="bibr" target="#b10">(Kulak et al., 2014)</ref> localised in the Bieszczady Mountains in Poland. The station measures the electromagnetic field in the ELF range. We used a receiver that operates in 0.03-55 Hz frequency range and uses two orthogonal magnetic antennas, one aligned north-south and the second aligned east-west. Based on these measurements, inverted solutions developed within our team were used, which support computation of the charge moments of cloud-to-ground (CG) discharges <ref type="bibr" target="#b9">(Kulak et al., 2010)</ref>. This method requires two parameters, where one is the distance between the discharge and the receiver and the second is the amplitude of the recorded impulse. The MCS was located approximately 350 to 450 km from the station and was facing northeast. DEMETER operated until December 2010 and had a Sunsynchronous orbit. The ELF/VLF range for the electric and magnetic fields is from the Cartesian components of the static (DC) up to 20 kHz. There are two scientific modes. The first is a survey mode, with the spectra of one electric and one magnetic component used in the on-board computing up to 20 kHz. The time resolution for the spectra in this case is about 2 s and frequency resolution about 19 Hz. The second one is a burst mode, where, in addition to the on-board computed spectra, waveforms of three electric and three magnetic field components are recorded with sampling up to 2.5 kHz. During the burst mode, the waveforms of the six components of electromagnetic field were registered with 2550 Hz sampling rate. It allows us to perform a spectral analysis in the range up to 1250 Hz with a much higher time and frequency resolution (0.4 ms and 0.8 mHz; <ref type="bibr" target="#b12">Parrot et al., 2006;</ref><ref type="bibr" target="#b1">Berthelier et al., 2006)</ref>. Since the burst mode is used occasionally, we had to distinguish periods where the measurements corresponded with thunderstorms. As mentioned above, the satellite allows us to measure signals in VLF and ELF ranges, which aids in the search of these relations <ref type="bibr" target="#b12">(Parrot et al., 2008</ref><ref type="bibr" target="#b13">(Parrot et al., , 2013;;</ref><ref type="bibr" target="#b2">Blecki et al., 2016)</ref> and, thus, differences and variations in the ionosphere and magnetosphere caused by thunderstorm activity <ref type="bibr" target="#b1">(Berthelier et al., 2006)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Results</head><p>From the southwest, Poland was covered by a warm tropical air masses. Their advection over colder polar maritime air caused the occurrence of a significant thermal contrast between western and eastern Europe. For instance, the temperature difference in Benelux and eastern Germany and Poland was larger than 15 • C. Furthermore, due to temperature dis- crepancies in tropospheric layers, a jet stream occurred in the middle troposphere (700 hPa), with the airflow around 15-25 m per second. Thus, conditions were favourable for wind shear to occur, which is vital for thunderstorm development. Over southern Sweden, a local low that caused flow of the cold front from the western Europe is noticeable. Around 19:00 UTC (universal coordinated time) over Lower Silesia (Polish voivodeship or administrative division), a derecho had occurred, which is well known for strong wind gusts often exceeding 40 m per second. The thunderstorm's path covered an area of 1000 km in length, and the width varied between 50 and 200 km. Lastly, high thermodynamic instability lead to the updraughts. The discussed example of MCS is qualified as derecho, due to the propitious synoptic conditions and the destruction it caused <ref type="bibr">(Evans and Doswell, 2001)</ref>.</p><p>Vertical wind shears support the separation of the updraughts from downdraughts; moreover, they support processes that are responsible for development of the multicellular thunderstorms. The discussed airflow in the middle troposphere allowed the whole system to move with relatively high velocity. The convergence in the lower troposphere let the bow echo form, which manifested as a squall line. Last, but not least, another significant condition for MCS development is the advection of the cold air mass from the western regions of Europe. Thermodynamic conditions, which appeared over southwestern Poland, additionally confirm the development of the strong convective phenomena. The data from atmospheric soundings show a high temperature level at the ground layer (over 30 • C), with the dew tempera- A significant drying of air appears, and then a dry adiabatic gradient is noticeable in the middle troposphere. A small inversion layer (CIN) favours the gathering of the energy beneath it. When convection is strong enough, it is possible to break through the inversion, which directly leads to the intensification of the convection processes. Then the tropopause is penetrated by the convection, and an overshooting top may appear in the lower parts of the stratosphere (Fig. <ref type="figure" target="#fig_0">1</ref>). Apart from the discussed thermodynamic parameters, SBCAPE (surface-based convective available potential energy) is significant. The parameter indicates the convection in the surface layer; in this case it exceeded 2500 J per kilogram. Furthermore, DCAPE (downward convective available potential energy) is available, which is the potential of downdraughts at 1077 J per kilogram. The wind shear parameter, in 0-6 km, was higher than 20 m per second, whereas, in 0-3 km, the parameter was equal to 13 m per second. A significant development of the thunderstorm phenomenon is visible by the measurements of the cloud reflectivity. In many parts of the MCSs, a level that exceeds 50 dBZ is distinguishable, indicating strong convec- tive processes, which supplied cloud development at a level higher than 15 km over the ground level.</p><p>Strong atmospheric discharges stem from significant MCS development. In the period of the highest thunderstorm activity, 24 +CG (cloud-to-ground), 322 −CG and 2836 IC (intracloud) discharges were detected (Fig. <ref type="figure" target="#fig_1">2</ref>). Additionally, we provide data for other periods where a significant amount of discharges occurred (Table <ref type="table" target="#tab_0">1</ref>), which indicates an enormous extent of IC discharges. The intensification of the discharges with highest wind gusts is visible in the front parts of MCSs.</p><p>During the analysis of the DEMETER data for the whole lifespan of the discussed MCSs, we have encountered a signature of a whistler, a characteristic type of wave that occurs in VLF frequency range. The whistlers are cold plasma waves in the frequency range from the ion cyclotron up to the  electron plasma frequency or electron cyclotron frequency. These waves are common in space around the Earth and may be registered in the ionosphere and the magnetosphere by the satellite on-board receivers and by the ground-based systems. The characteristic shape of a whistler's spectrum, with falling frequency in time, is a result of its dispersion feature and propagation. The group velocity is greater for waves with higher frequencies than for lower ones. The whistlers propagate along magnetic field lines from the site of the thunderstorm. The arrival of the lower frequency waves is delayed in relation to higher frequency <ref type="bibr" target="#b7">(Helliwell, 1965;</ref><ref type="bibr" target="#b6">Hayakawa, 1995)</ref>.</p><p>Figure <ref type="figure" target="#fig_2">3</ref> presents a whistler that has been detected by the DEMETER overpass, which was 287 km away from the causative lightning stroke. Its precise location was provided by PERUN. During that time, an impulse was caught by ground-based systems, which detected an impulse slightly ahead of the satellite; PERUN detected a signal at 20:05:49.13 and classified it as a +CG, with the maximum current of 24 kA. Hylaty measurements distinguish an impulse at 20:05:49.14, with an amplitude 220 pT and a charge moment of 103 C per kilometre. The satellite registered a signal at 20:05:49.23, with an electric field 1200 µV per metre; the magnetic field is omitted due to high noise. The whole period of MCS activity has been presented in Fig. <ref type="figure" target="#fig_3">4</ref>. Data presented in the figure represent a distribution of the charge moments, which were computed from data collected by the Hylaty ELF station. As a result, only lightning with the charge moment above 23 C per kilometre is included in our analysis The highest charge moment during MCS lifespan was 328.9 C per kilometre. The total amount of +CG discharges, which occurred, was 1073. The average value of charge moment is 42.5 C per kilometre.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Summary</head><p>In this paper, we focused on a specific type of thunderstorm, an MCS classified as a derecho, which is not frequent in Europe and may be disastrous for overpassed areas. It is known mostly for the intense wind gusts and small amount of discharges. Comparing results from our previous paper about supercell activity <ref type="bibr" target="#b11">(Martynski et al., 2018)</ref>, we can conclude that the supercell in the most active hour generated an almost equal amount of discharge to the MCS case during its whole life cycle. That indicates that the supercell generated at least two times more discharge than MCSs, although the strongest strokes are still produced by the huge cloud clusters. This means that MCSs are more developed storm cells, although they are unable to generate multiple strong discharges. This might be due to the fact that they cover larger areas compared to supercells, which have a more organised and condensed structure, allowing heat and storm-like processes to develop as a stronger singular thunderstorm. Similar results to ours have been obtained by <ref type="bibr" target="#b4">Cummer (2004)</ref>, who stated that MCSs on high plains in the USA generated, in 1 h, roughly 312 +CG strokes, and the mean charge moment was equal to 36.8 C per kilometre. In this study, we also presented a whistler that was registered by DEMETER during its overpass of the MCSs. This shows the potential of combined ground-based and satellite studies.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Satellite WV-IR (water vapour-infrared) OSTs (overshooting tops) product at 17:30 UTC on 23 July 2009.</figDesc><graphic coords="2,307,28,66,33,240,95,240,95" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Map of the atmospheric discharges for the most active period (+CG, −CG and IC), based on PERUN system, on 23 July 2009.</figDesc><graphic coords="3,46,49,66,33,501,75,308,81" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Comparison of DEMETER and Hylaty results. Panel (a) presents the waveform of the electric field in the ELF range, panel (b) shows a spectrogram of the electric field in VLF range, both registered by DEMETER, and panel (c) presents the magnetic field in the ELF range in time interval 20:05:47-20:05:51 UTC on 23 July 2009.</figDesc><graphic coords="4,127,28,77,52,340,18,312,66" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Histograms of charge moment distribution in the analysed MCSs for the whole activity period (a) and for the most intensive hour (b).</figDesc><graphic coords="4,113,10,468,00,368,50,208,55" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Number of +CG, −CG and IC strokes during the MCS activity on 23 July 2009. Data received from the PERUN system. Note: all times are given in UTC.</figDesc><table><row><cell cols="6">Time 16:20 17:20 18:20 19:20 20:20</cell></row><row><cell>+CG</cell><cell>2</cell><cell>6</cell><cell>9</cell><cell>5</cell><cell>2</cell></row><row><cell>−CG</cell><cell>5</cell><cell>10</cell><cell>14</cell><cell>148</cell><cell>45</cell></row><row><cell>IC</cell><cell>320</cell><cell>865</cell><cell>240</cell><cell>917</cell><cell>494</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Ann. Geophys., 39, 321-326, 2021 https://doi.org/10.5194/angeo-39-321-2021 K. Martynski et al.: Mesoscale convective systems as a source of electromagnetic signals</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">https://doi.org/10.5194/angeo-39-321-2021Ann. Geophys., 39, 321-326, 2021</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Ann.Geophys., 39, 321-326, 2021   https://doi.org/10.5194/angeo-39-321-2021</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Acknowledgements. The studies were conducted with financial help of the Polish National Science Centre (grant no. 2017/27/B/ST10/02285). We express our gratitude to Michel Parrot, Jean-Andre Sauvaud, Jean-Jaques Berthelier and Jean-Pierre Lebreton and the principal investigators of the DEMETER instruments from which the data were used.</p><p>Financial support. This research has been supported by the Polish National Science Centre (grant no. 2017/27/B/ST10/02285).</p><p>Review statement. This paper was edited by Gunter Stober and reviewed by two anonymous referees.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Data availability. Data may be obtained from the main author of this paper upon request.</p><p>Author contributions. KM provided conceptualisation, data curation, formal analysis, investigation, project administration, software and writing of the paper. JB and RW were responsible for the funding acquisition, conceptualisation and investigation. JM and AK created the methodology and software and curated the data for this paper. RI was responsible for the data visualisation, data curation and resources. All authors supervised the paper, since the topic is broad and requires expertise in many fields.</p><p>Competing interests. The authors declare that they have no conflict of interest.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Nocturnal low-level jet characteristics over Kansas during Cases-99</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Banta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">K</forename><surname>Newsom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Lundquist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Pichugina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Coulter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mahrt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bound.-Lay. Meteorol</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page" from="221" to="252" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">ICE -the electric field experiment on DEMETER</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Berthelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Godefroy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Malingre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Menvielle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lagoutte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Brochot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Elie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Legendre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zamora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Benoist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chapuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Artru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pfaff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planet. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="456" to="471" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Evolution of the ionospheric Plasma Turbulence over Seismic and Thunderstorm Areas</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Blecki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Słomiński</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kościesza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wronowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Savin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Environmental Science and Engineering</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="277" to="285" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Climatology of the low level jet</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Bonner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mon. Weather Rev</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="833" to="850" />
+			<date type="published" when="1968">1968</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Lightning charge moment changes in US Plains thunderstorms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Cummer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Lyons</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003GL019043</idno>
+		<ptr target="https://doi.org/10.1029/2003GL019043" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page">L05114</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Examination of derecho environments using proximity soundings</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ewans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Doswell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003GL019043</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Weather Forecast</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="329" to="342" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hayakawa</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9780203713297</idno>
+		<ptr target="https://doi.org/10.1201/9780203713297" />
+		<title level="m">Handbook of Atmospheric Electrodynamics</title>
+				<meeting><address><addrLine>Boca Raton, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>CRC Press</publisher>
+			<date type="published" when="1995">1995</date>
+			<biblScope unit="volume">II</biblScope>
+			<biblScope unit="page" from="155" to="193" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Helliwell</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9780203713297</idno>
+		<title level="m">Whistlers and Related Ionospheric Phenomena</title>
+				<imprint>
+			<publisher>Stanford University Press</publisher>
+			<date type="published" when="1965">1965 stron VIII+349. 1965</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Houze</surname><genName>Jr</genName></persName>
+		</author>
+		<title level="m">Chapter 9 -Mesoscale Convective Systems, Cloud Dynamics</title>
+				<imprint>
+			<date type="published" when="2014">2014</date>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="237" to="286" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Analytical description of ELF transients produced by cloud-toground lightning discharges</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kulak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Nieckarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zie ¸ba</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009JD013033</idno>
+		<ptr target="https://doi.org/10.1029/2009JD013033" />
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">D19104</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Extremely low frequency electromagnetic field measurements at the Hylaty station and methodology of signal analysis</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kulak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kubisz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Klucjasz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michalec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mlynarczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Nieckarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ostrowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zieba</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009JD013033</idno>
+		<ptr target="https://doi.org/10.1002/2014RS005400" />
+	</analytic>
+	<monogr>
+		<title level="j">Radio Sci</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="361" to="370" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Comparison of Charge Moment Distribution in Supercell and Moderate Thunderstorm Based on ELF Electromagnetic Field Measurements</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Martynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kulak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Iwanski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">22nd International Microwave and Radar Conference MIKON</title>
+				<imprint>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The magnetic field experiment and its data processing onboard DEMETER: scientific objectives, description and first results</title>
+		<author>
+			<persName><forename type="first">Ursi</forename><surname>Baltic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Symposium ; Parrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Benoist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Berthelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Błęcki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chapuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Colin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Elie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fergeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lagoutte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Lefeuvre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lévêque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Pinçon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H.-C</forename><surname>Seran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zamora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Berthelier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Lebreton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Treumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Rauch</surname></persName>
+		</author>
+		<idno type="DOI">10.23919/URSI.2018.8406712</idno>
+		<ptr target="https://doi.org/10.1007/s11214-008-9347-y" />
+	</analytic>
+	<monogr>
+		<title level="m">DEMETER Observations of EM Emissions Related to Thunderstorms</title>
+				<meeting><address><addrLine>Poznań, Poland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006">May 2018. 2018. 2006. 2008</date>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="511" to="519" />
+		</imprint>
+	</monogr>
+	<note>Space Sci. Rev.</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ionospheric density perturbations recorded by DEMETER above intense thunderstorms</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sauvaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Soula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Pinçon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Van Der Velde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Asfur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lyons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nelson</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1002/jgra.50460</idno>
+		<ptr target="https://doi.org/10.1029/2001GL013519" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">1031</biblScope>
+			<date type="published" when="2002">2013. 2002</date>
+		</imprint>
+	</monogr>
+	<note>J. Geophys. Res.</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

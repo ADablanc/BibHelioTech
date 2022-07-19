@@ -1,0 +1,1397 @@
+MAGU!
+
+Journal of Geophysical Research: Space Physics
+
+RESEARCH ARTICLE
+10.1002/2014JA019988
+
+Key Points:
+« Simultaneous observation of solar
+wind and terrestrial far tail by STEREO
+- Terrestrial tail dynamics triggered by
+corotating interaction region passages
+- Accelerated ions observed up to
+~ 800 R- distance from the Earth
+
+Correspondence to:
+A. Opitz,
+aopitz@cosmos.esa.int
+
+Citation:
+
+Opitz, A., et al. (2014), Solar wind control
+of the terrestrial magnetotail as seen by
+STEREO, J. Geophys. Res. Space Physics,
+119, 6342-6355, doi:10.1002/
+2014JA019988.
+
+Received 17 MAR 2014
+
+Accepted 17 JUL 2014
+
+Accepted article online 23 JUL 2014
+Published online 20 AUG 2014
+
+OPITZ ET AL.
+
+Solar wind control of the terrestrial magnetotail
+as seen by STEREO
+
+Andrea Opitz”, Jean-Andre Sauvaud2, Andreas Klassen*, Raul Gomez-Herrero-, Radoslav Bucik’,
+Lynn M. Kistler®, Christian Jacquey’, Janet Luhmann/’, Glenn Mason®, Primoz Kajdic',
+and Benoit Lavraud”
+
+"ESTEC, European Space Agency, Noordwijk, Netherlands, 7IRAP (CNRS-UPS), University of Toulouse, Toulouse, France,
+>Institute of Experimental and Applied Physics, University of Kiel, Kiel, Germany, “Space Research Group, University of
+Alcala, Alcala de Henares, Spain,°-Max-Planck-Institut fir Sonnensystemforschung, Géttingen, Germany, °EOS, University
+of New Hampshire, Durham, New Hampshire, USA, “SSL, University of California, Berkeley, California, USA, Johns Hopkins
+University Applied Physics Laboratory, Laurel, Maryland, USA
+
+Abstract At the beginning of 2007 the twin STEREO spacecraft provided a unique opportunity to study
+the global solar wind control of the terrestrial magnetotail under typical solar activity minimum conditions.
+The STEREO-B (STB) spacecraft flew in the vicinity of the far terrestrial magnetotail, while the STEREO-A (STA)
+spacecraft was located in front of the Earth performing measurements in the undisturbed solar wind. In
+February, the STB spacecraft was located in the magnetosheath most of the time but experienced several
+incursions into the distant magnetotail. Comparison of STA and STB observations determines unambiguously
+whether solar wind events such as energetic particle enhancements observed by STB are of pure solar origin
+or due to the influence of the terrestrial magnetosphere. During this time period in 2007, there were solar
+minimum conditions with alternating fast and slow solar wind streams that formed corotating interaction
+regions, which were the dominating source of magnetospheric disturbances encountering the Earth almost
+every week. Under these conditions, STB experienced multiple bow shock and magnetopause crossings due to
+the induced highly dynamic behavior of the terrestrial magnetotail and detected bursts of tailward directed
+energetic ions in the range of 110-2200 keV accompanied by suprathermal electrons of ~700-1500 eV,
+
+which were not seen in the undisturbed solar wind by STA. The corotating interaction regions triggered
+these energetic particle enhancements, and we demonstrate their magnetosphere-related origin. Even after
+leaving the magnetosheath in March 2007, STB continued to observe antisunward directed energetic ion
+bursts until May up to a distance of ~ 800 R- behind Earth, the largest distance to which solar wind and
+magnetospheric interaction has been observed. These results show that Earth is a very significant source of
+energetic particles in its local interplanetary environment.
+
+1. Introduction
+
+At the beginning of 2007 the twin Solar Terrestrial Relations Observatory (STEREO) mission [Kaiser et al., 2008]
+provided a unique opportunity to perform observations simultaneously in the far tail of the terrestrial
+magnetosphere and in the undisturbed solar wind. Figure 1 gives the location of the spacecraft in the
+
+X-Y GSM plane. The STEREO Ahead (STA) spacecraft was in front of the Earth, while the STEREO Behind (STB)
+spacecraft flew in the vicinity of the terrestrial magnetotail and crossed different plasma regions there. In
+February the STB spacecraft was located in the dusk magnetosheath most of the time but experienced
+several incursions into the distant magnetotail [Kistler et al., 2010; Sauvaud et al., 2011]. Then in March, STB
+finally left the terrestrial magnetosheath and flew into the solar wind.
+
+In the present paper we compare STA observations of pure solar wind with measurements taken
+simultaneously on board the STB, which are perturbed by the Earth’s magnetosphere. The simultaneous
+STA and STB observations of the distant magnetotail are unique since their instrumentation is nearly identical,
+so their measurements are easily comparable. Before May 2007 the spacecraft heliocentric longitudinal
+separation was relatively small (<10°). On such spatial scales, the bulk solar wind properties are generally
+persistent [Opitz et al., 2009, 2010]; thus, comparisons of solar wind properties measured by the two STEREO
+Spacecraft results in a very good correlation. Hence, we can assume that any significant differences between STA
+and STB observations are most probably due to the terrestrial magnetospheric plasma regimes sensed by STB.
+
+©2014. American Geophysical Union. All Rights Reserved. 6342
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+GSM Although the STEREO spacecraft are
+
+designed for solar and heliospheric
+observations, we can derive limited
+but original magnetospheric
+information from the comparison of
+their plasma and magnetic field
+measurements. We will in particular
+show that energetic particles
+accelerated inside the magnetosphere
+and at its boundaries populate the
+
+STEREO positions in 2007
+
+= <x
+0120 020N21GA Gy...
+
+ot, distant magnetosheath and can even
+0310
+
+STB Xo be detected in the solar wind at a
+distance of ~800 R- from the Earth.
+
+0401
+oxo Previous observations of the terrestrial
+
+far tail were performed in detail by the
+
+Geotail mission in the 1990s up to a
+
+distance of ~200 Re, where the IMP 8
+
+and Wind spacecraft were used as a
+solar wind monitor in order to explain
+
+500 0 —500 ,
+
+X (Re) the phenomena observed in the
+
+magnetotail [Nishida et al., 1997, and
+
+Figure 1. Positions of the STA (red) and STB (blue) spacecraft from January references therein]. Tailward ion flow
+to May 2007. Numbers denote month and day in the format MMDD. The of < 200 keV was reported in the
+bow shock and magnetopause are drawn around the Earth just approximately; they were both very dynamic during the investigated period.
+
+distant magnetosphere (~200 R,),
+more precisely inside the plasma
+sheet by Christon et al. [1996]. Far
+beyond these Geotail observations, STEREO observed ion bursts in the magnetosheath and the solar wind
+behind Earth up to a distance of 800 Rr.
+
+There are four main sources of energetic ion increases observed in the solar wind near the Earth: solar
+energetic particle (SEP) events, corotating interaction regions (CIRs), bow shock acceleration, and particle
+leakage from the terrestrial magnetosphere. SEP events associated with solar activity phenomena such as
+flares and coronal mass ejections (CMEs) are dominant near solar maximum. During solar quiet time periods,
+CIRs are a well-known source of energetic ions with energies up to a few MeV per nucleon [e.g., McDonald
+et al., 1976; for a complete review on CIRs and energetic particles see Richardson, 2004]. The early phase of
+the STEREO mission (2007-2009), which coincides with a quiet solar minimum, thus provides a unique
+opportunity for multipoint studies of CIR-associated ion increases [e.g., Gomez-Herrero et al., 2009, 2011;
+Dresing et al., 2009; Mason et al., 2009; Bucik et al., 2012].
+
+After the STEREO launch, these quiet conditions were also favorable for the study of energetic ions originating
+from the Earth's magnetosphere or from the bow shock. Short-duration energetic ion events originating from
+the Earth are frequently observed in the upstream region of the Earth's bow shock. These events, commonly
+named “magnetospheric” or “upstream” events, are characterized by energetic ion fluxes streaming from the
+Earth’s direction toward the Sun, with energies below 1 MeV. They were detected very often during the near-Earth
+phase of the STEREO orbit, especially during disturbed magnetosphere intervals, for instance during the arrival of
+high-speed solar wind streams [Muller-Mellin et al., 2008b; Desai et al., 2008; Klassen et al., 2009; Kronberg et al.,
+2011]. Upstream ion events are occasionally coincident with energetic electron increases (energies below
+
+300 keV), and they have been explained either as leakage of magnetospheric particles accelerated within the
+magnetosphere [e.g., Sarris et al., 1978; Krimigis et al., 1978] or as acceleration at the bow shock itself
+
+[e.g., Scholer et al., 1981; Burgess, 2007, and references therein]. Furthermore, Klassen et al. [2009] reported the
+detection of a special kind of energetic particle event by STEREO close to Earth’s bow shock, the so-called almost
+monoenergetic ion (AMI) events, showing an energy spectrum containing one or more narrow peaks with a
+relative full width half at maximum of 0.1-0.7 [see also Lutsenko and Kudela, 1999], in contrast with the typical
+upstream events showing a power law energy distribution. Similar AMI events were observed far away from
+the Earth, so they seem to be also present during passages of interplanetary shocks [Klassen et al., 2011].
+
+©2014. American Geophysical Union. All Rights Reserved. 6343
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+2. STEREO Data
+
+The In situ Measurements of Particles and CME Transients (IMPACT) investigation [Luhmann et al., 2008] on
+board the STEREO mission provides multipoint solar wind electron, interplanetary magnetic field, and
+solar energetic particle measurements. As part of this complex instrument package the Solar Electron
+Proton Telescope (SEPT) measures energetic particles: electrons in the energy range of 30-400 keV and
+ions with energies of 60-7000 keV [Muller-Mellin et al., 2008a]. SEPT consists of four 52° conical apertures
+looking in four different directions: two in the ecliptic plane along the Parker spiral, sunward (upstream,
+SEPT-U) and antisunward (downstream, SEPT-D), as well as two oriented perpendicular to the ecliptic
+plane, northward (SEPT-N) and southward (SEPT-S). The Solar Wind Electron Analyzer (SWEA) top hat
+experiment [Sauvaud et al., 2008] provides in situ electron measurements at both STEREO spacecraft in the
+energy range of 1-2000 eV. The SWEA in-flight calibration results were reported by Fedorov et al. [2011],
+and the electron density data are from the data set created by Opitz et al. [2010]. The in situ magnetic
+field measurements are provided by the magnetometer (MAG) experiment [Acuna et al., 2008] on board the
+twin spacecraft. In our study we also make use of energetic heavy-ion observations obtained by the
+Suprathermal lon Telescope (SIT) experiment on STEREO [Mason et al., 2008a]. The SIT instrument is a
+time-of-flight mass spectrometer which measures ions from helium to iron in the energy range of 20 keV/n
+to a few MeV/n.
+
+The Plasma and Suprathermal lon Composition (PLASTIC) experiment [Galvin et al., 2008] on board
+the STEREO measures solar wind ions in situ in the energy range of 0.2-86 keV. It is a hemispherical
+electrostatic analyzer (selection of energy-per-charge) with a solar wind sector, whose aperture is
+pointing always toward the Sun with a field of view of +22.5° x +20° (in- and out-of-ecliptic angles,
+respectively). It has a novel ion optical design that uses two different solar wind apertures, one for
+less abundant and one for more abundant solar wind elements. Lower ion fluxes are measured by
+the Main channel (MC), while higher ion fluxes are measured by the S-shaped channel (SC), which has
+a much smaller geometric factor. If the count rate measured through the Main channel exceeds
+
+a commandable value during the high-to-low energy sweep, an electronic switch changes to the
+S-channel, which reduces the count rate to an acceptable value. The switch is usually triggered around
+the helium peak.
+
+3. CIR Control of the Terrestrial Plasma Environment
+
+In the first half of 2007, there was only one major geoeffective CME (end of May in Figure 2) observed by the
+two STEREO spacecraft, and rather, CIRs were the dominant geoeffective solar disturbances. STEREO mainly
+observed alternating fast and slow solar wind streams in 2007. Figure 2 shows in situ data from STA for the
+time period 1 February to 1 June 2007. Figure 2 (first panel) shows the PLASTIC solar wind proton bulk
+velocity. Where the fast solar wind plasma tries to overtake the preceding slow solar wind, the streams
+interact and form a compression region characterized by density enhancement (Figure 2, second panel),
+magnetic field enhancement (Figure 2, third panel), and magnetic field variation. These stream interaction
+regions (SIRs) are often recurrent during solar minimum hence termed corotating interaction regions (CIRs)
+by Pizzo [1978].
+
+The CIRs enhanced by grey shading in Figure 2 are accompanied by energetic ion increases (fourth panel),
+which are seen in all SEPT look directions. On the other hand, there are CIRs that do not come with energetic
+ion enhancements, though they can still be similarly geoeffective. As an example, Figure 3 compares the
+STA and STB data with the auroral electrojet (AE) index during such a CIR event. Note that this time both
+STEREO spacecraft were outside the terrestrial magnetosphere. Upon the CIR arrival, the increase in the
+plasma pressure and the varying magnetic field direction with its enhanced magnitude (third and fifth
+panels) are responsible for terrestrial magnetic activity, which is quantified here by the AE index (fourth
+panel). The geoeffectiveness of the solar disturbance depends on the interplanetary magnetic field (IMF)
+orientation since the solar energy transfer from the solar wind to the magnetosphere is more efficient
+during southward IMF (large-scale reconnection). As a result, a good correlation between negative B, and the
+AE index [Akasofu, 1981; Perreault and Akasofu, 1978; Russell and McPherron, 1973] can be easily seen in
+Figure 3. The solar wind control of the terrestrial soace weather is clear; the magnetic activity of the Earth is
+strongly enhanced during and after the CIR arrival.
+
+©2014. American Geophysical Union. All Rights Reserved. 6344
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+STEREO AHEAD (STA) 1 February — 1 June 2007
+) )
+800 - = - aod - = s. = dune — < ~ - = re o ene
+700 — L—
+~ on 600 —— \ Ny 1 | ,
+Oss 500 — \ Fi] } \ \ he | | fr si
+fae. | [Wy |
+a” 400 — \ we | fi ——
+= |
+300 — MV
+
+50 - - + + a - - - . —+-——~ - + - : ey : te - 
+40 — | i.
+is sé w— —
+ages |
+TH er '
+= a Lh MK L
+
+= lJ A ANA hl al Wl
+0 — -—-—+ - -— ++ +--+ + - - —+—_- - + + +++ ---+ t— - —--+ ee
+- =| 2 ei 61 AiR f £ & (3 o
+26 771 BY t Me a
+20f 4 na § fe $ | ue : | Bo 2 ty ‘ ‘ ig} ty _
+sat 5— ae .. i Bs iz* : 2 og seh eee — < 2 te 2 i v7)
+r=sF : be AP gir & sue Q AB iii} vs Ly x 3 eae! arbi Ss gk Me, & {
+<x pe é. ; fyAu ¢ $233 ey FSi Ae rea vat wren ye Mig 4 , ; ; A '
+2 3 fy OT ORE Bae Wr ot aa i Hi a SOME Oh 1 i
+a pe i ; ? { y } ‘ . ,?
+10000.00 j———
+3 1000.00 7
+€~ 100.00
+Or oc
+ane e 10.00
+* ¢€€ 1.00 4
+ae Downstream
+
+9.10 b
+0.01 4 — + a ~ - ——, — os ———__——— :
+1 Feb 2007 15 Feb 2007. +1 Mor 2007. 15 Mar 2007 1 Apr 2007 15 Apr 2007 1 May 2007 15 May 2007 1 Jun 2007
+
+Figure 2. STEREO Ahead measurements from 1 February 2007 to 1 June 2007. (first panel) PLASTIC bulk velocity.
+(second panel) SWEA electron density proxy. (third panel) MAG magnetic field magnitude (Bo). (fourth panel)
+SEPT ion intensity between 110 keV and 2200 keV (black: downstream look direction / sunward particles, red:
+upstream look direction / antisunward particles). Grey-shaded regions mark the time intervals of well-developed CIRs
+with clear energetic ion enhancement.
+
+4. Magnetospheric Regimes Crossed by STB
+
+During our STEREO observation of the terrestrial plasma environment in 2007 we find that the magnetotail
+becomes very dynamic after the CIR passages. The STB spacecraft crosses through different plasma
+
+regimes while moving along the duskside magnetotail. The differences between STA and STB PLASTIC ion and
+MAG magnetic field measurements in Figure 4 are thus due to the fact that the two spacecraft are located in
+different plasma regions. While the STA spacecraft is located in the upstream solar wind, the STB spacecraft is
+usually located in the terrestrial magnetosheath with several incursions into the distant magnetotail.
+
+Figure 4a shows the PLASTIC low-energy ion energy-time spectrograms recorded from 26 January to
+10 March 2007 by STA (top) and STB (bottom). Protons (H*) are the most abundant ions in the plot; their
+
+20 March — 1 April 2007
+
+di 580
+_ AHEAD
+DES 600
+week 500
+ee BEHIND
+a >
+oe
+= 25
+oge2 = 20 ,
+n=zoN 15 Neorel 3cal_crm3
+EH&S 10
+lW
+=
+10 —B_nT
+ae.
+SZ > a B_nT
+c= N
+= o -5
+Bz_gsm_nT
+-10 2
+1200
+x € 800
+E cs AE
+Ss 400
+0
+10 —B_nT
+font eC 5
+225 9 Bont
+b= N
+° . — Bz_gsm_nT
+—10 ay gts
+20 Mar 22 Mar 24 Mar 26 Mar 28 Mar 30 Mar
+
+Figure 3. STEREO measurements from 20 March to 31 March 2007. (first panel) STA and STB PLASTIC bulk velocity.
+(second panel) STA SWEA electron core density proxy. (third and fifth panels) STA and STB MAG magnetic field
+magnitude (Brot and —Btot) and Z component in GSM coordinate system (B,). (fourth panel) AE index (World Data
+Center for Geomagnetism in Kyoto).
+
+©2014. American Geophysical Union. All Rights Reserved. 6345
+QWAG U Journal of Geophysical Research: Space Physics
+
+OPITZ ET AL.
+
+10000
+
+AHEAD
+PLASTIC
+lon
+E/q (eV/E)
+
+100
+10000
+
+BEHIND
+PLASTIC
+lon
+E/q (eV/e)
+
+100
+
+oO
+
+AHEAD
+PLASTIC
+lon
+E/q (eV/E)
+
+BEHIND
+
+PLASTIC
+lon
+
+E/q (eV/e)
+
+)
+
+STA & STB
+SWEA
+Electron
+N (1/em>
+
+B {nT)
+—min avg
+
+STA & STB
+MAG
+
+1
+
+?)
+
+AHEAD
+PLASTIC
+lon
+E/q (eV/E)
+
+BEHIND
+PLASTIC
+lon
+E/q (eV/e)
+
+STA & STB
+SWEA
+Electron
+N (1/em?)
+
+STA & STB
+MAG
+B (nT)
+
+XGSM_RT
+YGSM_RT
+
+ZGSM_RT
+
+Figure 4. (a) STA (top) and STB (bottom) PLASTIC energy spectrograms on 26 January to 10 March 2007. Note that on
+the PLASTIC energy spectra helium is clearly visible above the proton peak since the instrument switches from a larger
+(MC) to a smaller (SC) aperture during the high-to-low energy sweep when the count rate reaches a certain limit, which falls
+usually on the helium peak in the solar wind. (b) STA and STB PLASTIC energy spectrograms, SWEA electron density, and
+1-minute averaged MAG magnetic field measurements during multiple bow shock crossings on 28 January to 2 February
+2007. (c) STA and STB PLASTIC energy spectrograms, SWEA electron density, and 1-minute averaged MAG magnetic field
+
+1000
+
+1000
+
+PLASTIC
+
+1 Feb 2007
+
+STEREO
+
+10.1002/2014JA019988
+
+26 January — 10 March 2007
+
+10 Feb 2007
+
+20 Feb 2007
+
+28 Jan 2007
+
+—47.99
+29.27
+
+63.15
+
+hs
+a
+
+12 Feb 2007
+
+—189.98
+14.43
+
+47.76
+
+29 Jan 2007
+
+—64.29
+40.69
+
+$6.82
+
+| ms
+IN LA
+
+14 Feb 2007 16 Feb 2007
+
+—218.61
+19.93
+
+42.33
+
+oh !
+
+30 Jan 2007
+
+31 Jan 2007
+
+| | jal alll
+Fi it ‘he’ hea "
+
+18 Feb 2007
+
+20 Feb 2007
+
+—246.77
+
+22 Feb 2007 24 Feb 2007
+
+1 Mar 2007
+
+1 Feb 2007
+
+-93.29
+29.60
+
+61.04
+
+—275.12
+
+41.02
+
+35.95
+
+measurements during multiple magnetopause crossings on 12-28 February 2007.
+
+©2014. American Geophysical Union. All Rights Reserved.
+
+Log c/s
+Bis
+
+90.0
+10 Mar 2007
+
+28 January — 2 February 2007
+
+Log c/s
+09 $4
+
+BEHIND
+
+BEHIND
+
+2 Feb 2007
+
+—106.30
+18.67
+
+63.38
+12 February — 28 February 2007
+
+Log c/s
+2 £6
+
+AHEAD
+
+BEHIND
+
+—B_nT
+
+B_nT
+
+Bx_GSM_nT
+
+26 Feb 2007 28 Feb 2007
+
+-3035.72
+§5.73
+
+35.09
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+energy varies around 1 keV. The second band is the He**, but note that it is distorted because the instrument
+switch between the two different solar wind apertures (MC and SC) falls on the helium peak.
+
+In order to show the multiple bow shock crossings, Figure 4b zooms on the time period from 28 January to
+2 February 2007. From top to bottom, the ion energy-time spectrograms, the SWEA solar wind core
+electron density, and the MAG magnetic field measurements are plotted. The STA (red) and the STB (blue)
+measurements are overplotted in order to show the different plasma regimes observed by the two
+spacecraft. They observe almost the same plasma properties as long as both spacecraft are in the solar wind.
+When STB crosses the terrestrial bow shock, the STB plasma density and the magnetic field jump while the
+STA observations remain nominal. On 29 January, there was a CIR arrival during the STB approach to the
+terrestrial bow shock. Due to the solar wind triggered dynamics of the terrestrial magnetosphere and due to
+the fact that the STB spacecraft crossed the bow shock at the flank, we observed multiple bow shock
+crossings, which are listed in Table 1. The transitions of STB into the magnetosheath can be identified by
+the enhanced density and magnetic field relative to the STA observations. Around 14:30 UT on 29 January,
+the STB spacecraft crossed the terrestrial bow shock for the first time at X¢sy,=~ —69 Re and then entered
+and exited the magnetosheath sporadically until 03:44 UT on 1 February (Xgsm=~ —98 Re), when it flew
+deeply into the magnetosheath.
+
+In order to show the multiple magnetopause crossings, Figure 4c enlarges the time period from
+
+12 to 28 February 2007. After the arrival of another CIR on 12 February, the STB spacecraft experienced
+several magnetotail incursions. These can be identified by the drops in the plasma density and the
+enhancements of the geotail field, which is much higher than in the solar wind, and it is dominantly
+aligned along the x direction (GSM). As the STB spacecraft flew through the structured far tail, the
+magnetotail moved back and forth, and the spacecraft exited and reentered the tail several times. The STB
+measurements show spatial variations due to the structured far tail along with temporal variations due
+to intensive tail dynamics leading to tail flappings, expansions, and contractions, which makes the
+observing spacecraft exit and enter the different plasma regimes. These multiple magnetopause crossings
+were studied by Kistler et al. [2010], who analyzed a plasma sheet crossing on 13 February 2007 and by
+Sauvaud et al. [2011], who studied three successive events on 21 February 2007, when STB exited the
+magnetotail due to tail contraction.
+
+At the beginning of March 2007 the STB spacecraft apparently left the far terrestrial magnetosheath and
+observed pure solar wind conditions similar to STA. Though, as we will see later, these measurements
+still show energetic particle injections from the direction of the terrestrial magnetosphere.
+
+5. Energetic lons Ejected From the Terrestrial Magnetosphere Into the
+Magnetosheath and Into the Solar Wind
+
+The relationship between the solar wind velocity, the energetic particles observed, and the AE index is shown
+in Figure 5a. In the time period studied here (February—June 2007), the STA spacecraft located in the
+upstream region of the terrestrial bow shock observed energetic particles from CIRs and upstream events.
+The purely CIR-related energetic ion enhancements are seen by all SEPT telescopes; the flux from 110 to
+2200 keV in the sunward (upstream) and antisunward (downstream) directions is shown in the second
+panel. At the same time, the STB spacecraft was behind the Earth and crossed the different regimes of
+
+the terrestrial plasma environment. STB observed the energetic ion enhancements from the CIRs, but
+additionally, it detected highly anisotropic energetic ion bursts coming from the Earth’s direction (fourth
+panel). On STB, the ion flux coming from the Sun/Earth (upstream) direction is most of the time larger
+than the flux toward the Sun (downstream). In Figures 5b and 5c we show two observation periods in more
+detail: Figure 5b shows STB measurements in the magnetosheath (February-March 2007) and Figure 5c
+shows STB observations in the solar wind behind Earth (March—June 2007). The first and third panels again
+show the difference in anisotropy between the energetic particles observed on STA (top panel) with that
+observed on STB (third panel). The last four panels of Figures 5b and 5c show the SEPT ion spectrograms
+measured on board the STB. There are four look directions: northward, upstream, southward, and
+downstream. During the energetic ion burst events, the SEPT ion observations show the largest flux in
+the upstream look direction, a somewhat lower increase in the northward and southward directions, and
+the least increase in the downstream direction. This refers to a tailward or antisunward energetic ion flow.
+
+©2014. American Geophysical Union. All Rights Reserved. 6347
+QWAG U Journal of Geophysical Research: Space Physics
+
+OPITZ ET AL.
+
+10.1002/2014JA019988
+
+Table 1. Bow Shock Crossing (BSC) Times in 2007 When STB Enters (in) and Exits (out) the Terrestrial Magnetosheath and
+
+the Corresponding Spacecraft Positions in Earth Radii (Re) and GSM Coordinates
+
+Date
+Month
+
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+January
+
+February
+February
+
+Day
+
+29
+29
+29
+29
+29
+29
+29
+29
+30
+30
+30
+30
+30
+30
+30
+30
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+31
+
+Hour
+
+14
+15
+16
+17
+17
+19
+19
+20
+14
+14
+14
+14
+Z|
+
+N
+N
+
+NN ODUUBRBRWWWWNNNNNNNHSFHEHBHHBABDCDCDTDAOVPONNSRRWWWONH
+
+Minute
+
+©2014. American Geophysical Union. All Rights Reserved.
+
+Bow Shock Crossing
+(BSC)
+
+STB Position
+
+6348
+AG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+17 January — 1 June 2007
+
+= 800
+we 700 ACE
+<8s< 600
+m5e 500 STA
+2. = 400
+ne, 300 STB
+ae 200
+=  10000,00 3
+®
+Pwd 1000.00 Upstrearn
+8s 100.00 i
+SRES 10.00
+6& lpcsinl. Downstream
+“\ 0.10
+Lo 0.01
+1000
+a 800
+ee
+'e € 600 AE
+wy “| 400
+SS
+“ 200
+19)
+}  10000.00
+23 1000.00 Upatreeen
+Oo. e8 100.00
+SHES 10.00
+rat a= 1.00
+26 Downstream
+= 0.10
+o 0.01
+1 Feb 2007 1 Mar 2007 1 Apr 2007 1 May 2007 1 Jun 2007
+b 1 February — 10 March 2007
+= 10000.00 3
+2S 1000.00 3 Upstream
+or 2m 100.00 4}
+Sues 10.00
+- s§ 1,00 Downstream
+we 0.10
+= 0.01
+1200
+1000
+re 800
+=
+— 600 AE
+4 400
+200
+0
+= 10000.00 ¥
+2 1000.00 Upstream
+o, 2% 100.00
+THES 10.00 4
+faa} SE 1.00 = Downstream
+< 0104
+= 0.01
+Log intensity
+oz > 10° &7
+1
+=r §~ C 17
+an sus -0.3
+Log intensity
+a> a 10° 3.7
+oO 1 >
+Fh S~ 17
+fits la 0.3
+10° see
+" Log intensity
+nan 10° 3.7
+oy. >
+=p 5~ : WW
+Wily WW
+an -0.3
+10°
+Log intensity
+oa 108 3.7
+a 1 =
+=F §< 1.7
+iu ly —0.3
+10° z
+1 Feb 2007 5 Feb 2007 10 Feb 2007 15 Feb 2007 20 Feb 2007 25 Feb 2007 1 Mar 2007 5 Mar 2007 10 Mar 2007
+XGSM_RT -95.96 -176.99 —243.25 -309.10 -376.41
+YGSM_RT 20.49 24.34 59.33 62.81 105.31
+ZGSM_RT 64.33 46.21 26.93 27.28 41.61
+C 10 March — 1 June 2007
+> 10000.00
+o
+Fd 1000.00 Upstream
+Or as 100.00
+o™
+ta EL 10.00
+§ € 1.00 Downstream
+ee 0.10
+= 0.01
+1200
+1000
+Cc 800
+Sf 600 AE
+4 400
+200
+0
+S  10000.00
+> 1000.00 Upstream
+e> 100.00 :
+thro 10.00
+oN 1.00
+2 E Downstream
+~— 0.10
+= 0.01
+Log intensity
+pam > 10° 3:7
+l
+zh S— B
+iu” Ww
+an 108 -0.3
+Log intensity
+a? > 10° A.
+Z2=-cv
+ost «ae 17
+ay - -03
+Log intensity
+av% > 10 3.7
+|
+Sh &~ 7
+itd WwW —0.35
+10° ,
+Log intensity
+a? > 10° 37
+I
+Fh SM 17
+bib ir] —0.3
+10° :
+10 Mar 2007 20 Mar 2007 1 Apr 2007 10 Apr 2007 20 Apr 2007 1 May 2007 10 May 2007 20 May 2007 1 Jun 2007
+XGSM_RT -376.41 —548.48 —744,64 -950.26 -1138.30
+YGSM_RT 105.31 287.40 599.73 1039.71 1589.65
+ZGSM_RT 41.61 69.14 12.42 101.84 396.74
+Figure 5
+©2014. American Geophysical Union. All Rights Reserved. 6349
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+=
+
+en 10
+>
+
+<
+
+oe 2
+
+os 3
+
+1
+
+(jo)
+
+= O
+
+t=
+
+
+dp) 1
+
+c 100
+
+=
+
+BS
+
+oe 2
+
+ot 10 3
+
+S g 8
+
++
+
+n=
+
+
+(dp) 1
+
+c 100
+
+‘=
+
+oS
+
+25 L
+
+oO Cc
+
+a 10 6
+
+Nw O
+
+oO
+
+n=
+
+
+(ep) 1
+
+V_ (km s")
+
+200
+Feb 01 Feb 11 Feb 21 Mar 03
+
+Figure 6. STEREO measurements from 1 February to 10 March 2007. (first and second panels) STEREO-A and STEREO-B
+heavy-ion SIT mass spectrograms at 40-160 keV/n. (third panel) STEREO-B helium mass spectrogram at 0.2-0.5 MeV/n.
+(fourth panel) 1-hour solar wind speed from SWEPAM on ACE. Shaded regions mark the time intervals of CIRs obtained from
+the ACE CIR list (http://www-ssc.igpp.ucla.edu/~jlan/ACE/Level3/SIR_List_from_Lan_Jian.pdf).
+
+In all cases, a clear correlation between increases in fluxes in the upstream look direction and the AE index
+is observed, pointing to a magnetosphere-related origin.
+
+All in all, it is clear that the energetic ion enhancements at CIRs have an additional increase through a
+tailward flow (as also observed by Gomez-Herrero et al. [2009]) when the observing spacecraft is in the
+proximity of the terrestrial magnetotail. Such events are multiple short-duration spikes on top of the
+enhanced background ion fluxes of CIR origin. This additional ion burst is well correlated with terrestrial
+magnetic activity (Figure 5a, third panel). It is present even after the spacecraft exits the magnetosheath, and
+it finally dies out by May 2007 (Figure 5a) when STB is farther than ~ 800 R- from Earth (Figure 5c). It declines
+with distance from Earth since the probability of magnetic connectivity between the source and the
+spacecraft decreases. We note that despite the large distance (+1500 Rr), there are a few spikes observed
+by the STB spacecraft end of May 2007 (Figure 5c) due to the geomagnetic storm caused by a CME.
+
+Figure 6 shows SIT mass spectrograms from STA (first panel), STB (second and third panels), and solar wind
+speed (fourth panel) for the period from 1 February to 10 March 2007. Above ~100 keV/nucleon, the
+
+Figure 5. (a) STEREO measurements for the entire investigated time period from 17 January 2007 to 1 June 2007. ACE,
+STA, and STB proton bulk velocity (first panel). Ahead SEPT ion intensity between 110 keV and 2200 keV (black: downstream look direction / sunward particles, red: upstream look direction / antisunward particles) (second panel). AE index
+(World Data Center for GGomagnetism in Kyoto) (third panel). Behind SEPT ion intensity between 110 keV and 2200 keV
+(black: downstream look direction / sunward particles, blue: upstream look direction / antisunward particles) (fourth
+panel). (b) STEREO measurements zoomed on the magnetosheath period from 1 February to 10 March 2007. Ahead
+SEPT ion intensity between 110 keV and 2200 keV (black: downstream look direction / sunward particles, red: upstream
+look direction / antisunward particles) (first panel). AE index (World Data Center for GGomagnetism in Kyoto) (second
+panel). Behind SEPT ion intensity between 110 keV and 2200 keV (black: downstream look direction / sunward particles,
+blue: upstream look direction / antisunward particles) (third panel). Behind SEPT ion spectrograms in four look directions:
+northward, upstream, southward, and downstream, respectively (last four panels). The STB spacecraft coordinates
+
+are given in GSM coordinates. (c) STEREO measurements zoomed on the period of the disturbed solar wind behind
+Earth from 10 March to 1 June 2007. The panels show the same parameters as in Figure 5b. The STB spacecraft coordinates are given in GSM coordinates.
+
+©2014. American Geophysical Union. All Rights Reserved. 6350
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+STEREQ 7 March 2007
+
+Log fdist
+0.4
+
+' —1.1
+—2.6
+
+Log fdist
+
+—1.2
+-:
+—4.0
+
+BEHIND—D
+
+BEHIND
+SWEA
+Electron
+
+E (eV)
+
+BEHIND
+SWEA
+Electron
+PA (deg)
+829-2188 eV
+
+BEHIND—U
+
+BEHIND
+SEPT
+lon_intensit
+(1 /om?/s/st/MeV)
+
+AHEAD—U
+
+Bx (nT)
+
+avg 1—min
+
+PLASTIC
+lon
+E/q (eV/e)
+
+06:00 08:00 10:00 12:00 14:00 16:00 18:00 20:00
+XGSM_RT = — 356.14 —357.56 —358.99 —360.41
+YGSM_RT 95.91 98.46 98.48 94.58
+ZGSM_RT 17.80 5.07 15.18 34.59
+
+Figure 7. STEREO measurements on 7 March 2007. (first panel) Behind SWEA electron energy spectrogram. (second panel)
+Behind SWEA pitch angle distribution. (third panel) Behind (blue and black) and Ahead (red) SEPT ion intensities between
+110 keV and 2200 keV by antisunward (D) and sunward (U) facing telescopes. (fourth panel) MAG magnetic field direction
+relative to XGspy (90°: parallel, —90°: antiparallel). (fifth panel) MAG total magnetic field (black) and x component (red).
+(sixth panel) PLASTIC energy spectrogram.
+
+composition of helium and heavier nuclei seen by STA and STB are both typical of CIR enhancements
+
+[e.g., Mason et al., 2008b]. However, at lower energies, STB observed numerous brief, dispersionless increases
+(not shown) of ion intensities that have the same signatures as seen in “upstream events” observed from
+L1 [Mason et al., 1996]. Particularly interesting are two periods with heavier-ion count enhancements
+observed by STB on 7-8 February and 6-7 March (second panel), but not on STA (first panel), which occurred
+during CIRs that encountered both spacecraft. These STB enhancements were observed near the C-O mass
+range and go up to Fe, making a magnetospheric origin unlikely. Note that near the C-O mass range
+individual peaks are not well resolved in SIT-B due to instrumental issues. Energetic helium (typical
+element enhanced in CIR events) was not observed in these two CIRs on both STB (see third panel) and
+STA (not shown) spacecraft. These two CIRs are examples of so-called “empty streams or CIRs,” quite often
+seen by STEREO and reported in previous studies [e.g., Richardson et al., 1993]. The observations in Figure 6
+suggest that heavier-ion enhancements seen on STB likely result from magnetosphere-related acceleration
+and their production or outflow was somehow triggered by the CIRs. The STB ions associated with CIRs on
+12 and 25 February appear to be a mix of CIR and magnetosphere accelerated populations.
+
+In a simple scenario, a short magnetic connectivity with the source of an energetic particle burst would
+
+be observed as a flux of ions and electrons with about the same velocity. In order to determine if this is
+observed, we searched for suprathermal electrons at energies corresponding to the velocity range of these
+antisunward flowing energetic ions by comparing electron bursts in the SWEA energy range with ion
+bursts in the SEPT energy range. Figure 7 shows an example in which a small subset of the tailward energetic
+ion bursts observed by STB was indeed accompanied by suprathermal electron enhancements. The SEPT
+antisunward energetic ion flow detected by STB at ~06:45 is accompanied by antiparallel (180° pitch angle)
+suprathermal electrons at a positive interplanetary magnetic field x component (B,) in the GSM coordinate
+system, which means that the suprathermal electrons flow also in the antisunward direction. The SEPT ion
+enhancement at 15:00 was detected by both STA and STB, but at STB it was superposed by antisunward
+energetic ion flow. This energetic ion enhancement is accompanied by suprathermal electrons at STB with
+
+©2014. American Geophysical Union. All Rights Reserved. 6351
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+Energetic partice flow directions in the distant magnetotail and beyond (GSM)
+
+Earth
+
+0 -— 100 —200 — 300 -400
+X (Re)
+
+Y (Re)
+
+-— 300 - 350 -400 -450
+
+Figure 8. Energetic particle flow directions during simultaneous energetic ion and suprathermal electron peaks observed
+in the distant magnetotail and beyond by STB. The upper plot is to show how far from Earth these observations were,
+and the lower plot is a zoom. The bow shock and magnetopause are drawn around Earth just approximately; they were
+both very dynamic during the investigated period. The blue numbers denote month and day of the observation in the
+format MMDD, and the blue abbreviations stand for the plasma region where the STB spacecraft was located during the
+observation: mtail = magnetotail, msh = magnetosheath, and sw =solar wind.
+
+isotropic pitch angle distribution (PAD). There is a clear agreement between energetic ions and suprathermal
+electrons: when the ions are anisotropic, the electrons are as well. The energy of the electrons is in the 700 eV
+to 1 keV range, while the energy of ions is 110 keV to 2200 keV. Note that a 1900 keV proton has the same
+velocity as a 1 keV electron, so the energy ranges of the observed proton and electron bursts are compatible
+with the fact that STB is connected to the source region for a short time.
+
+It must be stressed that while STB exited the terrestrial magnetosheath in March 2007, it continued observing
+these magnetospheric events until May 2007 up to ~800 Re, the largest distance to which solar wind and
+magnetospheric interaction has been observed.
+
+6. Discussion
+
+The energetic ion excess observed on STB is due to the proximity of the terrestrial magnetosphere since we
+find a decay with distance (Figure 5a, fourth panel) and a strong association with geomagnetic activity
+(Figures 5b and 5c). Additional proof is the flow direction; both the energetic ions and electrons come from
+the direction of the terrestrial magnetosphere. We do not see the same energetic particles on the STA
+spacecraft that is located in front of the Earth. The observation of these bursty energetic particle fluxes in
+the magnetosheath and the solar wind is possible when there is a magnetic connection between the
+observing spacecraft and the terrestrial magnetosphere or the Earth’s bow shock. Note that, as exemplified
+in Figure 5b, the ion fluxes of magnetospheric origin can exceed by a factor 1000 the solar energetic
+particles fluxes.
+
+©2014. American Geophysical Union. All Rights Reserved. 6352
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+As STB gets farther away from the Sun-Earth line (Xg¢sm), we expect to find larger angular deviations
+between the magnetic field and the Xg¢sj direction during the events with simultaneous energetic ion and
+suprathermal electron peaks (such as shown in Figure 7). Figure 8 shows the presumed energetic particle
+flow direction derived from the magnetic field orientation during these events. Indeed, the flow direction
+tends to turn away from the Sun-Earth line as a function of increasing Y¢sjy when STB is located inside
+
+the magnetosheath (Yes < ~ 105 Re). This result shows, as expected, that the magnetosheath magnetic field
+lines bend toward the X¢s5,y direction with decreasing distance to this axis, which is consistent with flaring
+and probable connectivity of the whole magnetosheath with the magnetosphere. On the other hand, in
+the solar wind the magnetic configuration is not affected by the Earth and merely follows the IMF, though we
+can detect energetic particles. Gosling et al. [1987] showed that the IMF can connect to the magnetosphere
+and then loop around so that away looking instruments will see upstream event particles on these field lines.
+
+This excess of ion flux is due to magnetospheric leakage or solar wind ions accelerated at magnetospheric
+discontinuities, or a combination of the two processes. In both cases, the energetic ion enhancement is
+triggered by the solar wind, either by activating the terrestrial magnetosphere or interacting with it. We
+conclude that the solar wind control of the terrestrial magnetosphere is extremely powerful and also
+significantly affects its surroundings. It can produce an excess of energetic ions in the outer boundaries of
+the magnetosphere and in the solar wind by a factor of thousand (in Figure 7 at ~06:45), affecting the
+surrounding regions to at least 800 Rr.
+
+7. Conclusions
+
+We have investigated the terrestrial far tail region observed during quiet solar conditions by the IMPACT and
+PLASTIC experiments on board the STB spacecraft, taking advantage of the location of the STA spacecraft
+with nearly identical instrumentation in the upstream solar wind. These measurements are unique as the two
+STEREO spacecraft observed simultaneously the upstream solar wind and the very distant terrestrial
+magnetotail. As expected, magnetospheric activity was driven by the enhanced solar wind magnetic field
+with high B, component in the heliospheric regions compressed by the arrival of fast flows. During the
+analyzed period, STA observed a number of such CIR-related structures, recurring with a pseudo period of
+about one week.
+
+The STB spacecraft crossed the terrestrial bow shock at its flank at X¢cy ~ 90 Re just after a CIR passage.
+The bow shock was very dynamic due to its interaction with the CIR. It expanded so that STB entered the
+magnetosheath and then it deflated, so STB exited again to the upstream solar wind. Multiple crossings are
+similarly observed for the magnetopause. As a consequence of a follow-up CIR, the magnetopause flaps,
+making STB enter and exit the terrestrial magnetotail many times.
+
+We found strongly enhanced tailward energetic ion fluxes in the distant magnetosheath and even beyond,
+in the solar wind, during substorms when STB appeared to be connected to the magnetosphere by the
+interplanetary magnetic field. These energetic ion bursts were triggered by the CIRs, and they were
+sometimes even accompanied by suprathermal electrons arriving from the same direction (source) with
+the same velocity. The short duration of the suprathermal events indicates an impulsive nature of the
+source, compatible with substorm-induced acceleration.
+
+According to our present understanding, the solar surface magnetic topology (e.g., coronal holes) defines
+the structure and properties of the expanding solar wind. Further structuring during propagation is affected by
+the solar rotation and the magnetohydrodynamic laws. These dynamics forms SIRs or, when persistent,
+
+CIRs, which impact the magnetosphere, increasing the global magnetic activity at Earth. This chain of
+interactions leads to the observed energetic particle injections into the magnetosheath and even into the solar
+wind, well beyond the Earth to at least 800 R- as observed here. The energetic ion fluxes of magnetosphererelated origin can at times be 1000 times higher than solar fluxes. The magnetosphere thus appears as a
+powerful accelerator converting a part of the impinging electromagnetic energy into particle kinetic energy
+and launching these accelerated particles in the surrounding space, in the tailward direction.
+
+These results highlight some of the phenomena occurring during this unique observation period by the
+twin STEREO spacecraft. Follow-on work will include a more detailed multipoint investigation of the
+magnetopause and bow shock fluctuations and a precise study of the energetic particle ejection process.
+
+©2014. American Geophysical Union. All Rights Reserved. 6353
+QWAG U Journal of Geophysical Research: Space Physics
+
+Acknowledgments
+
+The authors are grateful for the STEREO/
+IMPACT and PLASTIC and ACE/SWEPAM
+teams for their data sets. The AE indices
+are provided by the World Data Center
+for Geomagnetism in Kyoto. A great
+thanks to Emmanuel Penou for informatics support by CL program and
+Lorna Ellis for her help with PLASTIC
+data. Further acknowledgements for
+fruitful discussions go to Nicolas Andre,
+lannis Dandouras, Philippe Escoubet,
+Sandrine Grimald, Kostiantyn Grygorov,
+Christian Mazelle, Jimmy Raeder,
+Christopher T. Russell, Mariella Tatrallyai,
+Matt Taylor, and Andrew Walsh. The
+STEREO/SEPT and SIT projects are
+supported under grants 50 OC 1302
+and 50 OC 1301 by the German
+Bundesministerium flr Wirtschaft
+through the Deutsches Zentrum fur
+Luft- und Raumfahrt (DLR). Raul GomezHerrero acknowledges the financial
+support from the Spanish MINECO
+under projects AYA2011-29727-c02-01
+and AYA2012-39810-c02-01. The
+STEREO/SIT work at the Applied Physics
+Laboratory/Johns Hopkins University
+was supported by NASA contract
+SA4889-26309 from the University of
+California (Berkeley). Andrea Opitz and
+Primoz Kajdic are currently Research
+Fellows at ESA ESTEC. The authors
+acknowledge the two reviewers for
+their constructive comments.
+
+Larry Kepko thanks the reviewers for
+their assistance in evaluating this paper.
+
+OPITZ ET AL.
+
+10.1002/2014JA019988
+
+References
+
+Acuna, M. H., D. Curtis, J. L. Scheifele, C. T. Russell, P. Schroeder, A. Szabo, and J. G. Luhmann (2008), The STEREO/IMPACT magnetic field
+experiment, Space Sci. Rev., 136, 203-226.
+
+Akasofu, S.-l. (1981), Energy coupling between the solar wind and the magnetosphere, Space Sci. Rev., 28, 121-190.
+
+Bucik, R., U. Mall, A. Korth, and G. M. Mason (2012), Abundances of suprathermal heavy ions in CIRs during the minimum of solar cycle 23,
+Sol. Phys., 281, 411-422.
+
+Burgess, D. (2007), Particle acceleration at the Earth’s bow-shock, Lect. Notes Phys., 725, 161-190.
+
+Christon, S. P., G. Gloeckler, D. J. Williams, R. W. McEntire, and A. T. Y. Lui (1996), The downtail distance variation of energetic ions in Earth’s
+magnetotail region: Geotail measurements at X > —208Re, J. Geomagn. Geoelectr., 48, 615-627.
+
+Desai, M. |., G. M. Mason, R. Miller-Mellin, A. Korth, U. Mall, J. R. Dwyer, and T. T. von Rosenvinge (2008), The spatial distribution of
+upstream ion events from the Earth’s bow shock measured by ACE, Wind, and STEREO, J. Geophys. Res., 113, A08103, doi:10.1029/
+2007JA012909.
+
+Dresing, N., R. Gomez-Herrero, B. Heber, R. Miller-Mellin, R. Wimmer-Schweingruber, and A. Klassen (2009), Multi-spacecraft observations of
+CIR-associated ion increases during the Ulysses 2007 ecliptic crossing, Sol. Phys., 256, 409-425.
+
+Fedorov, A., A. Opitz, J.-A. Sauvaud, J. Luhmann, D. W. Curtis, and D. E. Larson (2011), The IMPACT Solar Wind Electron Analyzer (SWEA):
+Reconstruction of the SWEA transmission function by numerical simulation and data analysis, Space Sci. Rev., 161(1-4), 49-62.
+
+Galvin, A. B., et al. (2008), The Plasma and Suprathermal lon Composition (PLASTIC) investigation on the STEREO observatories, Space Sci.
+Rev., 136, 437-486.
+
+Gomez-Herrero, R., A. Klassen, R. Muller-Mellin, B. Heber, R. Wimmer-Schweingruber, and S. Bottcher (2009), Recurrent CIR-accelerated ions
+observed by STEREO SEPT, J. Geophys. Res., 114, A05101, doi:10.1029/2008JA013755.
+
+Gomez-Herrero, R., O. Malandraki, N. Dresing, E. Kilpua, B. Heber, A. Klassen, R. Muller-Mellin, and R. F. Wimmer-Schweingruber (2011), Spatial
+and temporal variations of CIRs: Multi-point observations by STEREO, J. Atmos. Sol.-Terr. Phys., 73, 551-565.
+
+Gosling, J. T., D. N. Baker, S. J. Bame, W. C. Feldman, R. D. Zwickl, and E. J. Smith (1987), Bidirectional solar wind electron heat flux events,
+J. Geophys. Res., 92, 8519-8535, doi:10.1029/JA092iA08p08519.
+
+Kaiser, M. L., T. A. Kucera, J. M. Davila, O. C. Cyr St., M. Guhathakurta, and E. Christian (2008), The STEREO mission: An introduction, Space Sci.
+Rev., 136, 5-16.
+
+Kistler, L. M., et al. (2010), Escape of ou through the distant tail plasma sheet, Geophys. Res. Lett., 37, L21101, doi:10.1029/2010GL045075.
+
+Klassen, A., R. Gomez-Herrero, R. Muller-Mellin, S. Bottcher, B. Heber, R. Wimmer-Schweingruber, and G. M. Mason (2009), STEREO/SEPT
+observations of upstream particle events: Almost monoenergetic ion beams, Ann. Geophys., 27, 2077-2085.
+
+Klassen, A., R. Gomez-Herrero, R. Muller-Mellin, B. Heber, R. Wimmer-Schweingruber, A. Opitz, and J.-A. Sauvaud (2011), The almost monoenergetic ion event on 19 October 2009: SEPT/STEREO observations, Astron. Astrophys., 528(A84), doi:10.1051/0004-6361/201014563.
+Krimigis, S. M., D. Venkatesan, J. C. Barichello, and E. T. Sarris (1978), Simultaneous measurements of energetic protons and electrons in the
+distant magnetosheath, magnetotail, and upstream in the solar wind, Geophys. Res. Lett., 5, 961-964, doi:10.1029/GL005i011p00961.
+Kronberg, E. A., R. Bucik, S. Haaland, B. Klecker, K. Keika, M. |. Desai, P. W. Daly, M. Yamauchi, R. Gomez-Herrero, and A. T. Y. Lui (2011), On
+the origin of the energetic ion events measured upstream of the Earth’s bow shock by STEREO, J. Geophys. Res., 116, A02210,
+
+doi:10.1029/2010JA015561.
+
+Luhmann, J. G., et al. (2008), STEREO IMPACT investigation goals, measurements, and data products overview, Space Sci. Rev., 136, 117-184,
+doi:10.1007/s11214-007-9170-x.
+
+Lutsenko, V. N., and K. Kudela (1999), Almost monoenergetic ions near the Earth’s magnetospheric boundaries, Geophys. Res. Lett., 26,
+413-415, doi:10.1029/1999GL900002.
+
+Mason, G. M., J. E. Mazur, and T. T. von Rosenvringe (1996), Energetic heavy ions observed upstream of the Earths bow shock by the
+STEP/EPACT instrument on Wind, Geophys. Res. Lett., 23, 1231-1234, doi:10.1029/96GLO1035.
+
+Mason, G. M., A. Korth, P. H. Walpole, M. |. Desai, T. T. von Rosenvinge, and S. A. Shuman (2008a), The Suprathermal lon Telescope (SIT) for the
+IMPACT/SEP investigation, Space Sci. Rev., 136, 257-284, doi:10.1007/s11214-006-9087-9.
+
+Mason, G. M., R. A. Leske, M. I. Desai, C. M. S. Cohen, J. R. Dwyer, J. E. Mazur, R. A. Mewaldt, R. E. Gold, and S. M. Krimigis (2008b),
+Abundances and energy spectra of corotating interaction region heavy ions observed during Solar Cycle 23, Astrophys. J., 678, 1458,
+doi:10.1086/533524.
+
+Mason, G. M., M. |. Desai, U. Mall, A. Korth, R. Bucik, T. T. von Rosenvinge, and K. D. Simunac (2009), In situ observations of CIRs on STEREO,
+Wind, and ACE during 2007-2008, Sol. Phys., 256, 393-408.
+
+McDonald, F. B., B. J. Teegarden, J. H. Trainor, T. T. von Rosenvinge, and W. R. Webber (1976), The interplanetary acceleration of energetic
+nucleons, Astrophys. J., 203, L149-L154.
+
+Miller-Mellin, R., S. Bottcher, J. Falenski, E. Rode, L. Duvet, T. Sanderson, B. Butler, B. Johlander, and H. Smit (2008a), The Solar Electron and
+Proton Telescope for the STEREO mission, Space Sci. Rev., 136, 363-389.
+
+Miuller-Mellin, R., R. Gomez-Herrero, S. Bottcher, A. Klassen, B. Heber, R. Wimmer-Schweingruber, L. Duvet, and T. R. Sanderson (2008b),
+Upstream events and recurrent CIR-accelerated particle events observed by STEREO/SEPT, in Proceedings of the 30th International Cosmic
+Ray Conference, vol. 1, edited by R. Caballero et al., pp. 371-374, Universidad Nacional Aut6noma de México, Mérida, Mexico.
+
+Nishida, A., T. Yamamoto, and T. Mukai (1997), The GEOTAIL mission: Principal characteristics and scientific results, Adv. Space Res., 20(4/5),
+539-548.
+
+Opitz, A., et al. (2009), Temporal evolution of the solar wind bulk velocity at solar minimum by correlating the STEREO A and B PLASTIC
+measurements, Sol. Phys., 256(1-2), 365-377, doi:10.1007/s1 1207-008-9304-7.
+
+Opitz, A., et al. (2010), Temporal evolution of the solar wind electron core density at solar minimum by correlating the SWEA measurements
+from STEREO A and B, Sol. Phys., 266(2), doi:10.1007/s11207-010-9613-5.
+
+Perreault, P., and S.-I. Akasofu (1978), A study of geomagnetic storms, Geophys. J. R. Astron. Soc., 54, 547-573.
+
+Pizzo, V. (1978), A three-dimensional model of corotating streams in the solar wind, 1. Theoretical foundations, J. Geophys. Res., 83(A12),
+5563-5572, doi:10.1029/JA083iA12p05563.
+
+Richardson, |. G. (2004), Energetic particles and corotating interaction regions in the solar wind, Space Sci. Rev., 111, 267-376, doi:10.1023/B:
+SPAC.0000032689.52830.3.
+
+Richardson, I. G., L. M. Barbier, D. V. Reames, and T. T. von Rosenvinge (1993), Corotating MeV/amu ion enhancements at < 1 AU from 1978 to
+1986, J. Geophys. Res., 98, 13-32, doi:10.1029/92JA01837.
+
+Russell, C. T., and R. L. McPherron (1973), Semiannual variation of geomagnetic activity, J. Geophys. Res., 78(1), 92-108,
+doi:10.1029/JA078i001 p00092.
+
+©2014. American Geophysical Union. All Rights Reserved. 6354
+QWAG U Journal of Geophysical Research: Space Physics 10.1002/2014JA019988
+
+OPITZ ET AL.
+
+Sarris, E. T., S. M. Krimigis, C. O. Bostrom, and T. P. Armstrong (1978), Simultaneous multispacecraft observations of energetic proton bursts
+inside and outside the magnetosphere, J. Geophys. Res., 83(A9), 4289-4305, doi:10.1029/JA083iA09p04289.
+
+Sauvaud, J.-A., et al. (2008), The IMPACT Solar Wind Electron Analyzer (SWEA), Space Sci. Rev., 136(1-4), 227-239.
+
+Sauvaud, J. A., A. Opitz, L. Palin, B. Lavraud, C. Jacquey, L. Kistler, H. U. Frey, J. Luhmann, D. Larson, and C. T. Russell (2011), Far tail (255 R-) fast
+response to very weak magnetic activity, J. Geophys. Res., 116, A03215, doi:10.1029/2010JA016077.
+
+Scholer, M., D. Hovestadt, F. M. lpavich, and G. Gloeckler (1981), Upstream energetic ions and electrons: Bow shock-associated or magnetospheric origin?, J. Geophys. Res., 86, 9040-9046, doi:10.1029/JA086iA 1 1p09040.
+
+©2014. American Geophysical Union. All Rights Reserved. 6355

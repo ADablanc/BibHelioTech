@@ -1,0 +1,45 @@
+# Name: _bibheliotech_V1;
+# Creation Date: 2022-07-18T16:37:13.720144;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Parameter 1: id:column1; name:DOI; size:1; type:char;
+# Parameter 2: id:column2; name:SATS; size:1; type:char;
+# Parameter 3: id:column3; name:INSTS; size:1; type:char;
+# Parameter 4: id:column4; name:REGS; size:1; type:char;
+# Parameter 5: id:column5; name:D; size:1; type:int;
+# Parameter 6: id:column6; name:R; size:1; type:int;
+# Parameter 7: id:column7; name:SO; size:1; type:int;
+# Parameter 8: id:column8; name:occur_sat; size:1; type:int;
+# Parameter 9: id:column9; name:nb_durations; size:1; type:int;
+# Parameter 10: id:column10; name:conf; size:1; type:float;
+2001-02-04T01:36:00.000 2001-02-04T22:02:00.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 2847 1 32 34 20 0.25804404966917427 
+2001-02-04T01:36:00.000 2001-02-04T22:02:00.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 3374 1 32 34 20 0.3058098431976797 
+2001-02-04T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 3854 1 32 34 20 0.34931568929574913 
+2001-02-04T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 4708 1 32 34 20 0.4267198404785643 
+2001-02-04T19:55:00.000 2001-02-04T19:55:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 5040 1 32 34 20 0.456811384029729 
+2001-02-04T21:30:00.000 2001-02-04T21:30:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 5649 1 32 34 20 0.5120094262666546 
+2001-02-04T22:02:00.000 2001-02-04T22:02:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 5817 1 32 34 20 0.5272364724009789 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 11033 1 32 34 20 1.0 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 10857 1 32 34 20 0.9840478564307079 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 10649 1 32 34 20 0.9651953231215444 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 10151 1 32 34 20 0.9200580077947974 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 8615 1 32 34 20 0.7808393002809753 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 8580 1 32 34 20 0.7776669990029911 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 8471 1 32 34 20 0.7677875464515544 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 7873 1 32 34 20 0.7135865131877096 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 7390 1 32 34 20 0.6698087555515272 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 7092 1 32 34 20 0.6427988760989758 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 5666 1 32 34 20 0.5135502583159612 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 5504 1 32 34 20 0.4988670352578628 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 4473 1 32 34 20 0.4054201033263845 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 3983 1 32 34 20 0.36100788543460527 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Polar" 3766 1 32 34 20 0.34133961751110303 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 214 1 32 34 20 0.019396356385389286 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 148 1 32 34 20 0.01341430254690474 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 22 1 32 34 20 0.0019940179461615153 
+2003-04-01T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 249 1 32 34 20 0.022568657663373515 
+2003-04-01T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 984 1 32 34 20 0.08918698450104233 
+2003-04-01T20:00:00.000 2001-02-04T20:00:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 1140 1 32 34 20 0.1033263844829149 
+2003-04-01T20:30:00.000 2001-02-04T20:30:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 1326 1 32 34 20 0.12018489984591679 
+2003-04-01T21:00:00.000 2001-02-04T21:00:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 1961 1 32 34 20 0.1777395087464878 
+2003-04-01T21:30:00.000 2003-04-01T21:30:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 2556 1 32 34 20 0.2316686304722197 
+2003-04-01T22:00:00.000 2003-04-01T22:00:59.000 https://doi.org/ "Cluster" "HIA,STAFF,FGM" "Earth.Magnetosphere.Main" 3049 1 32 34 20 0.27635275990211183 

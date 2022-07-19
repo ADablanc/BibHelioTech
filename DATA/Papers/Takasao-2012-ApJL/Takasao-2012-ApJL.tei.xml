@@ -1,0 +1,1244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">SIMULTANEOUS OBSERVATION OF RECONNECTION INFLOW AND OUTFLOW ASSOCIATED WITH THE 2010 AUGUST 18 SOLAR FLARE</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2011-12-30">2011 December 30</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Shinsuke</forename><surname>Takasao</surname></persName>
+							<email>takasao@kwasan.kyoto-u.ac.jp</email>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Kwasan and Hida Observatories</orgName>
+								<orgName type="institution" key="instit2">Kyoto University</orgName>
+								<address>
+									<postCode>607-8471</postCode>
+									<settlement>Yamashina</settlement>
+									<region>Kyoto</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Astronomy</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>606-8502</postCode>
+									<settlement>Sakyo</settlement>
+									<region>Kyoto</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ayumi</forename><surname>Asai</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Unit of Synergetic Studies for Space</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>607-8471</postCode>
+									<settlement>Yamashina</settlement>
+									<region>Kyoto</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Hiroaki</forename><surname>Isobe</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Unit of Synergetic Studies for Space</orgName>
+								<orgName type="institution">Kyoto University</orgName>
+								<address>
+									<postCode>607-8471</postCode>
+									<settlement>Yamashina</settlement>
+									<region>Kyoto</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Kazunari</forename><surname>Shibata</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution" key="instit1">Kwasan and Hida Observatories</orgName>
+								<orgName type="institution" key="instit2">Kyoto University</orgName>
+								<address>
+									<postCode>607-8471</postCode>
+									<settlement>Yamashina</settlement>
+									<region>Kyoto</region>
+									<country key="JP">Japan</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">SIMULTANEOUS OBSERVATION OF RECONNECTION INFLOW AND OUTFLOW ASSOCIATED WITH THE 2010 AUGUST 18 SOLAR FLARE</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2011-12-30">2011 December 30</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">33C2FAEB70725B10CA596E2E19429AA5</idno>
+					<idno type="DOI">10.1088/2041-8205/745/1/L6</idno>
+					<note type="submission">Received 2011 October 5; accepted 2011 December 5;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T15:17+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>magnetic fields -magnetic reconnection -Sun</term>
+					<term>corona -Sun</term>
+					<term>flares -Sun</term>
+					<term>UV radiation</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report the simultaneous extreme-ultraviolet observation of magnetic reconnection inflow and outflow in a flare on 2010 August 18 observed by the Atmospheric Imaging Assembly on board the Solar Dynamics Observatory. We found that during the rise phase of the flare, some plasma blobs appeared in the sheet structure above the hot loops. The plasma blobs were ejected bidirectionally along the sheet structure (outflow), at the same time as the threads visible in extreme-ultraviolet images moved toward the sheet structure (inflow). The upward and downward ejection velocities are 220-460 km s −1 and 250-280 km s −1 , respectively. The inflow speed changed from 90 km s −1 to 12 km s −1 in 5 minutes. By using these velocities, we estimated the nondimensional reconnection rate, which we found to vary during this period from 0.20 to 0.055. We also found that the plasma blobs in the sheet structure collided or merged with each other before they were ejected from the sheet structure. We hypothesize that the sheet structure is the current sheet and that these plasma blobs are plasmoids or magnetic islands, which could be important for understanding the dynamics of the reconnection region.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">INTRODUCTION</head><p>Solar flares are the most energetic phenomenon in the solar atmosphere. A huge amount of magnetic energy (10 29 -10 32 erg) that has been stored in the corona is released over a short period of time (10 2 -10 4 s). It is widely believed that magnetic reconnection, a physical process in which a magnetic field in a highly conducting plasma changes its connectivity due to finite resistivity, plays a central role in the rapid dissipation of magnetic energy in solar flares, as well as other explosive phenomena in astrophysical, space, and laboratory plasmas <ref type="bibr" target="#b46">(Yamada et al. 2010)</ref>.</p><p>Many studies have reported the observational features of magnetic reconnection in solar flares. These studies include observations of cusp-shaped loops <ref type="bibr" target="#b42">(Tsuneta et al. 1992</ref>), looptop hard X-ray sources <ref type="bibr" target="#b18">(Masuda et al. 1994)</ref>, plasmoid ejection <ref type="bibr" target="#b31">(Shibata et al. 1995;</ref><ref type="bibr" target="#b41">Tsuneta 1997;</ref><ref type="bibr" target="#b23">Ohyama &amp; Shibata 1998)</ref>, reconnection inflows <ref type="bibr" target="#b47">(Yokoyama et al. 2001;</ref><ref type="bibr" target="#b20">Narukage &amp; Shibata 2006;</ref><ref type="bibr" target="#b14">Li &amp; Zhang 2009)</ref>, reconnection outflows <ref type="bibr" target="#b44">(Wang et al. 2007</ref>), supra-arcade downflows <ref type="bibr" target="#b19">(McKenzie &amp; Hudson 1999;</ref><ref type="bibr" target="#b7">Innes et al. 2003;</ref><ref type="bibr" target="#b0">Asai et al. 2004;</ref><ref type="bibr" target="#b28">Savage &amp; McKenzie 2011)</ref>, and current-sheet-like structures <ref type="bibr" target="#b35">(Sui &amp; Holman 2003;</ref><ref type="bibr" target="#b15">Lin et al. 2005;</ref><ref type="bibr" target="#b16">Liu et al. 2010)</ref>. <ref type="bibr" target="#b47">Yokoyama et al. (2001)</ref> found a pattern of bright threads that merged toward an X-point (where the magnetic field was hypothesized to be reconnecting) in extreme-ultraviolet (EUV) images and identified the motion as reconnection inflow. <ref type="bibr" target="#b20">Narukage &amp; Shibata (2006)</ref> further worked on the statistical study of inflow by EUV observations and found that the observed inflows are closely associated with plasmoid ejections or coronal mass ejections.</p><p>The classic magnetic reconnection model for solar flares, the CSHKP model <ref type="bibr" target="#b1">(Carmichael 1964;</ref><ref type="bibr" target="#b34">Sturrock 1966;</ref><ref type="bibr" target="#b5">Hirayama 1974;</ref><ref type="bibr" target="#b13">Kopp &amp; Pneuman 1976)</ref>, successfully explains some features of long-lived (more than 1 hr) flares. This model has been improved to include a generalized configuration, leading to a unified model proposed by <ref type="bibr" target="#b31">Shibata et al. (1995)</ref>. Many of the observations presented above relating to the global structure of flares have been successfully explained by this magnetic reconnection model. For reviews of our current knowledge of magnetic reconnection in solar flares, see, for example, <ref type="bibr" target="#b30">Shibata (1999)</ref>.</p><p>There are still fundamental difficulties in the theory of magnetic reconnection in flares, especially on the physics that determines the reconnection rate. The reconnection rate is defined as the reconnected magnetic flux per unit time, where the dimensionless form is the Alfvén Mach number M A = V inflow /V A , where V inflow is the inflow speed into the reconnection point and V A is the Alfvén speed, respectively. Observationally, the value of the reconnection rate is estimated to be 0.001-0.1 <ref type="bibr" target="#b9">(Isobe et al. 2002</ref><ref type="bibr" target="#b8">(Isobe et al. , 2005;;</ref><ref type="bibr" target="#b20">Narukage &amp; Shibata 2006</ref>). In the classic reconnection theory by <ref type="bibr" target="#b36">Sweet (1958)</ref> and <ref type="bibr" target="#b24">Parker (1957)</ref>, the reconnection rate M A is given by R −1/2 m , which is as low as ∼10 −7 in the solar corona because the magnetic Reynolds number (Lundquist number) R m = LV A /η ∼ 10 14 , where L(∼ 10 9 cm) is the typical size of the flare and η (∼10 13 T −3/2 ∼ 10 4 cm 2 s −1 for T ∼ 10 6 K) is the magnetic diffusivity for Spitzer resistivity. This value is too small to explain the timescales and the energy release rates of solar flares. However, <ref type="bibr" target="#b25">Petschek (1964)</ref> predicted that the reconnection rate M A can be of the order of 0.01-0.1, for the case of slow shocks emanating from a small diffusion region. This value plausibly explains the observed reconnection rate in solar flares. MHD simulations have shown that localized resistivity can facilitate fast reconnection (e.g., <ref type="bibr" target="#b43">Ugai &amp; Tsuda 1977;</ref><ref type="bibr" target="#b48">Yokoyama &amp; Shibata 1994)</ref>, where fast reconnection is defined as the reconnection with rate close to unity and almost independent of the magnetic Reynolds number, such as Petschek's model. Observational support for Petschek's model is given by <ref type="bibr" target="#b40">Tsuneta (1996)</ref>.</p><p>It is believed that localized resistivity may be realized through kinetic effects in the coronal plasma, such as microscopic instabilities and wave-particle interaction. Indeed, magnetospheric observation and numerical simulations have shown that fast reconnection sets in when the current sheet thickness becomes comparable to the ion inertia length or Larmor length <ref type="bibr" target="#b39">(Treumann 2001)</ref>. However, such microscopic scales are tiny (∼100 cm) in the solar corona compared with the characteristic scale of flares (∼10 9 cm). How to connect such a huge gap in the micro and the macro scales is one of the fundamental problems in the reconnection physics in solar flares.</p><p>To transcend this scale gap, <ref type="bibr" target="#b32">Shibata &amp; Tanuma (2001)</ref> suggested the fractal reconnection model. In this model, plasmoids (regions of magnetically confined plasma) play an important role not only in achieving fast magnetic reconnection but also in linking the small-and large-scale physics. A current sheet in an antiparallel magnetic field is unstable due to the tearing instability, and can create plasmoids <ref type="bibr" target="#b3">(Furth et al. 1963;</ref><ref type="bibr" target="#b33">Steinolfson &amp; Van Hoven 1983;</ref><ref type="bibr" target="#b17">Loureiro et al. 2007</ref>). Once they are formed, the plasmoids tend to coalesce with each other to form bigger plasmoids <ref type="bibr" target="#b37">(Tajima et al. 1987)</ref>. When a plasmoid is ejected from the current sheet, rapid inflows are locally induced to fill the evacuated region. This leads to the intermittent enhancement of the reconnection rate. In addition, such plasmoids may be created on various scales. In this way plasmoids can fill the scale gap between the micro and macro scales of reconnection <ref type="bibr" target="#b38">(Tajima &amp; Shibata 1997)</ref>.</p><p>Many observations report evidence that plasmoids are created in flare current sheets <ref type="bibr" target="#b23">(Ohyama &amp; Shibata 1998;</ref><ref type="bibr" target="#b12">Kliem et al. 2000;</ref><ref type="bibr" target="#b11">Karlický &amp; Bárta 2007)</ref>. <ref type="bibr" target="#b0">Asai et al. (2004)</ref> found several dark downflows (dark voids) in EUV images that were ejected intermittently during the decay phase and also during the impulsive and main phases of a flare. Moreover, a nonthermal emission was associated with the motion of each dark void. <ref type="bibr" target="#b21">Nishizuka et al. (2010)</ref> examined multiple plasmoids ejections from a flare using soft X-ray images. They found that the ejected plasmoids were strongly accelerated during multiple peaks in the hard X-ray emission in a flare. Both studies imply that the reconnection rate was enhanced by plasmoid ejections or downflows.</p><p>From the above examples, it can be seen that the observed reconnection rate is important to give a constraint on magnetic reconnection models for solar flares. One way to estimate the reconnection rate observationally is to simultaneously detect both reconnection inflow speed and outflow speed. Because two-dimensional magnetic reconnection theories predict that the reconnection outflow speed V outflow ∼ V A (e.g., <ref type="bibr" target="#b26">Priest &amp; Forbes 2000)</ref>, the reconnection rate M A is of the order of V inflow /V outflow .</p><p>We simultaneously detected both reconnection inflows and outflows for the flare that appeared on 2010 August 18 in EUV wavelengths and use these values to estimate the reconnection rate of the flare. We also found successive ejections of plasma blobs and their interaction in the current sheet. This study indicates a relationship between the energy release process of the flare and the dynamics of the plasma blobs in the current sheet.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">OBSERVATIONS OF GLOBAL STRUCTURE OF THIS FLARE</head><p>This flare (C4.5 on the GOES class; see Figures <ref type="figure" target="#fig_3">1(g</ref>) and (h)) occurred in the Active Region NOAA 11099 on 2010 August 18, which was located beyond the northwest limb at the time the flare occurred. The EUV images of this flare were obtained by the Extreme Ultraviolet Imager (EUVI; <ref type="bibr" target="#b6">Howard et al. 2008;</ref><ref type="bibr" target="#b45">Wüelser et al. 2004)</ref>  We investigated the three-dimensional structure of this flare by using the 195 Å images taken by STEREO-A/EUVI (which was located ahead of the Earth with the separation angle of 79. • 877 at 05:00 UT) and the 193 Å images by AIA (see Figure <ref type="figure" target="#fig_3">1</ref>). From the EUVI images, we can obtain the top view of the flare. The typical two-ribbon structure can be seen in Figure <ref type="figure" target="#fig_3">1</ref>(e). From the AIA images, we can obtain the side view of the flare. We can discern the vertical structure and the motion because this flare was located near the west limb (Figure <ref type="figure" target="#fig_3">1</ref>  <ref type="formula">e</ref>)). Most of the downward (solar-ward) ejections are bright, but we can also see one dark void. The dark void also appeared below the sheet structure in 193, 94, and 131 Å images. In this Letter we analyze the dynamics of the bright ejections in EUV, and we call the bright downward plasma motions in EUV as downflows. An upward ejection of a bright plasma blob (∼5 arcsec in size) was also observed. At 05:15 UT, the sheet structure could not be discerned in all wavelength images. After that, post flare loops became prominent below the position where the sheet structure was located (Figures <ref type="figure" target="#fig_3">1(c</ref>) and (f)).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">SIMULTANEOUS OBSERVATIONS OF INFLOW AND OUTFLOW AND CURRENT SHEET DYNAMICS</head><p>Figure <ref type="figure">2</ref> shows the close-up images of the reconnection site obtained by AIA. The flare loops can be recognized in 94 and 131 Å images, indicating they may be hot (&gt;7 MK). The sheet structure appeared above the hot loops. From the sheet structure, the diffusive plasma ejection and a plasma blob ejections are observed. We found the flows toward the sheet structure (inflows) and bidirectional flows from the sheet structure (outflows). The inflow speed was measured using 193 Å images by tracing the motion of threads toward the sheet structure, and the outflow speed using 193 Å by tracing the bidirectional ejection along the sheet structure.</p><p>We measure the velocities of these flows by using slits shown in the distance-time diagrams perpendicular and parallel to the sheet structure, respectively (Figures <ref type="figure">3(a</ref>  We identified several threads that move toward the sheet structure in the EUV images. To derive the inflow speed of the threads, we used the distance-time diagram shown in Figure <ref type="figure">3(c</ref>). The movements of the threads are recognized as bright lines in the diagram (marked with black solid lines). These movements started almost simultaneously (∼05:10 UT) with the appearance of the sheet structure. The apparent speed V pattern changed from 90 km s −1 to 12 km s −1 during the 5 minute period we could observe the threads. This indicates that the inflow velocity decreased several minutes after the sheet structure appeared. If we consider this motion as inflow, this asymptotic value of velocity (∼12 km s −1 ) is within the range of other observed values (2.6-38 km s −1 ; Narukage <ref type="bibr" target="#b20">&amp; Shibata 2006)</ref>.</p><p>The speed of the bidirectional flow (outflow) was derived from Figure <ref type="figure">3(d)</ref>. The velocities of upward ejections from the sheet structure were obtained by tracing the plasma ejections and the bright blob in the 193 Å images (see Figures <ref type="figure">2 and 3(d)</ref>). Their velocities are 220-250 km s −1 and 460 km s −1 , respectively. The downflow speed is 250-280 km s −1 . These ejections are recognized not only in low-temperature wavelength images such as 171 Å but also in high-temperature wavelength images such as 335, 94, and 131 Å. This implies that these ejecta contain plasma with a wide temperature range. Those velocities are consistent with other observations <ref type="bibr" target="#b19">(McKenzie &amp; Hudson 1999;</ref><ref type="bibr" target="#b7">Innes et al. 2003;</ref><ref type="bibr" target="#b0">Asai et al. 2004</ref>). It should be noted that the  downflows slowed down to approximately 70-80 km s −1 and spread out after colliding with the loops below.</p><p>We also observed many plasma blobs in the sheet structure. The length of the sheet is ∼20 arcsec and the typical size of these plasma blobs is ∼3 arcsec. They formed in the sheet, and then are ejected or collide with each other. Figure <ref type="figure" target="#fig_6">4</ref>  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">DISCUSSION</head><p>We have examined in detail the morphology and dynamics of the magnetic reconnection region in the limb flare on 2010 August 18. The overall characteristics, namely largescale eruption, inflow and outflow, and hot loops below, are consistent with the classical CSHKP model. We could examine the fine scale dynamics of the reconnection region owing to the high spatial and temporal resolutions of AIA. Figure <ref type="figure" target="#fig_9">5</ref> shows the schematic picture of this flaring region. We observed simultaneous reconnection inflows and outflows and measured their velocities. A lot of plasma blobs appeared in the sheet and collided with each other or were ejected from it. We consider that the sheet structure was the current sheet and that the plasma blobs were the magnetic islands or plasmoids created by the tearing instability. There is a possibility that they were heated by the coalescence of plasmoids <ref type="bibr" target="#b12">(Kliem et al. 2000)</ref>.</p><p>We derive the reconnection rate from the observed values by using the relation M A ∼ V inflow /V outflow . The upward outflow velocity was found to change from ∼460 km s −1 to ∼220 km s −1 , assuming that the plasmoid velocity ejected upward (∼460 km s −1 ) is almost the same as the outflow velocity. It should be noted that we did not find another upward ejection after the second ejection shown in Figure <ref type="figure">3</ref>. Therefore, we use 460 km s −1 as the outflow velocity in the period of time between 5:10:30 UT and 5:11:00 UT and 220 km s −1 after 5:11:00 UT (see Figure <ref type="figure">3</ref>). It should be noted that the apparent motion in the EUV images is due to the inflow but may not be the true plasma motion <ref type="bibr" target="#b2">(Chen et al. 2004</ref>). Spectroscopic observation of reconnection region is necessary to quantitatively address the flow velocity <ref type="bibr" target="#b15">(Lin et al. 2005;</ref><ref type="bibr" target="#b4">Hara et al. 2006;</ref><ref type="bibr" target="#b44">Wang et al. 2007</ref>). We assume that inflow speed was close to the apparent motion speed. Because the length of the visible edge of the sheet did not change drastically, we neglect any effects for this motion on the inflow speed <ref type="bibr" target="#b47">(Yokoyama et al. 2001)</ref>. If projection effects are neglected, the inflow speed can be estimated as V inflow ∼ V pattern . The pattern velocity changed from 90 km s −1 to 12 km s −1 , and therefore, the reconnection rate M A changed from 0.20 to 0.055 within the 5 minute period starting from when the current sheet became bright in EUV. This value is comparable with the predicted value from <ref type="bibr" target="#b25">Petschek's (1964)</ref> reconnection model and other observed values <ref type="bibr" target="#b20">(Narukage &amp; Shibata 2006)</ref>. We found that the disappearance of the plasmoids in the later phase coincides with the reduction of the reconnection rate from 0.20 to 0.055 (see Figures <ref type="figure" target="#fig_6">3 and 4</ref>). Theoretically, plasmoid ejections induce strong inflow, which can promote the thinning of the current sheet and enhance the reconnection rate <ref type="bibr" target="#b32">(Shibata &amp; Tanuma 2001)</ref>. Therefore, the reduction of the reconnection rate may be due to the suppression of the plasmoid activities. Although we lack detailed information of the time and space variations of the inflow velocity near the current sheet, which is necessary to confirm the above assertion, this result probably suggests that the reconnection rate of this flare was enhanced by the plasmoid dynamics.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>on the Solar Terrestrial Relation Observatory spacecraft Ahead (STEREO-A; Kaiser et al. 2008) and the Atmospheric Imaging Assembly (AIA) on the Solar Dynamics Observatory (SDO). In this Letter we used 195 Å images of EUVI and 94 Å, 131 Å, 171 Å, 193 Å, 211 Å, and 335 Å images of AIA. The pixel size and the temporal resolution of the 195 Å images taken by EUVI are about 1. 6 and 150 s, respectively. Those of each wavelength images taken by AIA are about 0. 6 and 12 s, respectively. The 195 Å channel of EUVI contains the Fe xii line with the formation temperature of 1.6 MK and the Fe xxiv line with that of 20 MK. The six narrowband EUV passbands of AIA are sensitive to different ionization states of iron. The 171 Å channel contains Fe x line, formed at 0.6 MK. The 193 Å channel is similar to the 195 Å channel of EUVI. The 211 Å channel contains Fe xiv, formed at 2 MK. The 335 Å channel contains the Fe xvi line, formed at 2.5 MK. The 94 Å channel contains the Fe x line and Fe xviii line, formed at 1 MK and 7 MK, respectively. In the 131 Å channel the Fe xxi line, formed at 11 MK, is dominant in flaring regions, while it also contains lower temperature lines such as the Fe viii line, formed at 0.4 MK (see O'dwyer et al. 2010 and Reeves &amp; Golub 2011).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>(b)). Before the flare, a prominence eruption occurred at around 4:40 UT (Figures 1(a) and (d)). Then, intermittent brightening started at 05:07 UT near the position where the eruption took place. A sheet structure appeared at 05:10 UT and the bidirectional ejection began (Figures 1(b) and (</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head></head><label></label><figDesc>Figure2shows the close-up images of the reconnection site obtained by AIA. The flare loops can be recognized in 94 and 131 Å images, indicating they may be hot (&gt;7 MK). The sheet structure appeared above the hot loops. From the sheet structure, the diffusive plasma ejection and a plasma blob ejections are observed. We found the flows toward the sheet structure (inflows) and bidirectional flows from the sheet structure (outflows). The inflow speed was measured using 193 Å images by tracing the motion of threads toward the sheet structure, and the outflow speed using 193 Å by tracing the bidirectional ejection along the sheet structure.We measure the velocities of these flows by using slits shown in the distance-time diagrams perpendicular and parallel to the sheet structure, respectively (Figures3(a) and (b)). The horizontal and the vertical axes of Figures3(c) and (d) are time and the distance along the slits, respectively. The slit NS (N: north, S: south) and slit EW (E: east, W: west) are for the measurement of inflow and outflow velocities, respectively. The solid lines track the apparent motion of the plasma. The</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Evolution of the 2010 August 18 flare. Top: comparison between images of SDO/AIA 193 Å (left: (a)-(c)) and STEREO/EUVI 195 Å (right: (d)-(f)). Bottom: GOES soft X-ray flux in the 0.5-4.0 Å and 1.0-8.0 Å channels. The time range of the bottom panel is indicated by arrows in the top panel. The gray region in the bottom panel corresponds to the time span studied in Figure 3.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 2 .Figure 3 .</head><label>23</label><figDesc>Figure 2. Close-up images of the reconnection site in six different wavelengths (171, 193, 211, 335, 94, and 131 Å) of AIA at the time when the current sheet, the plasma blob, and the hot post flare loops are observed. White solid lines indicate the solar limb.</figDesc><graphic coords="4,120,35,181,13,124,94,124,82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Time-sequenced images of the plasma blobs in the current sheet (AIA 193 Å). The arrows (dotted arrow, solid arrow, and broken arrow) indicate the positions of the plasma blobs. The plasma blobs are marked with their own individual arrow, which follow their evolution. The white arrows indicate the position of the coalesced plasma blobs. The dashed line indicates the position of the plasma blob pointed to by the solid arrow at 05:12:19.840 UT.</figDesc><graphic coords="5,80,99,469,85,173,78,70,46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>shows the time sequence images of 193 Å. At first, there was one plasma blob with the size of 2 arcsec in the sheet structure (Figure 4(a)). Twelve seconds later, its size became larger (∼3 arcsec) and two plasma blobs (their sizes are ∼2 arcsec) appeared on both sides of the first plasma blob (Figure 4(b)). The newly formed plasma blobs increased in size (∼3 arcsec) in Figure 4(c). After that, they seem to collide and possibly merge with each other (Figure 4(d)) and are ejected downward at a speed of ∼280 km s −1 (Figures 4(f) and (g)). They were strongly decelerated when they collided with the loops below, almost stopping. The other downward ejections were typically decelerated to 70-80 km s −1 after colliding with the loops below. The deceleration can be recognized as the bend of the solid lines (which trace the motions of the bright structures) in the distance-time diagram shown in Figure 3(d).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head></head><label></label><figDesc>Figure 3(d) is similar to the distance-time diagram obtained from the simulation result of Shen et al. (2011; see Figure 6 in their paper) where the plasmoids are ejected bidirectionally, which supports our assertions. Some plasmoids were made up of multi-thermal plasma because they are recognized in the six wavelength images. These plasmoids could contain hot (&gt;7 MK) plasma as they were visible in the AIA channels sensitive to hot plasma (94 and 131 Å), but these channels are also sensitive to cooler plasma (Foster &amp; Testa 2011), which makes diagnosis of the temperature difficult.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Schematic diagram of the flaring region. Black solid lines indicate the magnetic field. Top: the global configuration of the magnetic field. Bottom: a close-up image of the current sheet region.</figDesc></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We thank Dr. A. Hillier for fruitful comments on the manuscript. We are grateful to SDO/AIA and STEREO/EUVI teams for providing the data used in this study. This work was supported by the Grand-in-Aid for the Global COE Program "The Next Generation of Physics, Spun from Universality &amp; Emergence" from the Ministry of Education, Culture, Sports, Science and Technology (MEXT) of Japan. A.A. is supported by KAKENHI (23340045). H.I. is supported by the Grant-in-Aid for Young Scientists (B, 22740121).</p><p>Facilities: SDO, STEREO</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Asai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shimojo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/420768</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="page">L77</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><surname>Carmichael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Physics of Solar Flares</title>
+				<editor>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Hess</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>NASA</publisher>
+			<date type="published" when="1964">1964</date>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">451</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shiabta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Brooks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Isobe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Testa</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2041-8205/740/2/L52</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">602</biblScope>
+			<biblScope unit="page">L52</biblScope>
+			<date type="published" when="2004">2004. 2011</date>
+		</imprint>
+	</monogr>
+	<note>ApJ</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Furth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Killeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Rosenbluth</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.1706761</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Fluids</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">459</biblScope>
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nishino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ichimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Delaboudiniére</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/505638</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">648</biblScope>
+			<biblScope unit="page">712</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hirayama</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00153671</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Phys</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">323</biblScope>
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Moses</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vourlidas</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-008-9341-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">67</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Innes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/B:SOLA.0000006899.12788.22</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Phys</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page">247</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Isobe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/444490</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">632</biblScope>
+			<biblScope unit="page">1184</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Isobe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shimojo</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/324777</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">566</biblScope>
+			<biblScope unit="page">528</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Kaiser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Kucera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Davila</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-007-9277-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">136</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karlický</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bárta</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361:20065983</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">464</biblScope>
+			<biblScope unit="page">735</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kliem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Karlický</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">O</forename><surname>Benz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">360</biblScope>
+			<biblScope unit="page">715</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Kopp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Pneuman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00206193</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sol. Phys</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="1976">1976</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/703/1/877</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">703</biblScope>
+			<biblScope unit="page">877</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-K</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sui</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/428110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">622</biblScope>
+			<biblScope unit="page">1251</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2041-8205/723/1/L28</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">723</biblScope>
+			<biblScope unit="page">L28</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Loureiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Schekochihin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Cowley</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2783986</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">100703</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kosugi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsuneta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ogawara</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/371495a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">371</biblScope>
+			<biblScope unit="page">495</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Hudson</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/312110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">519</biblScope>
+			<biblScope unit="page">L93</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Narukage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/498492</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">637</biblScope>
+			<biblScope unit="page">1122</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Nishizuka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Takasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Asai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/711/2/1062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">711</biblScope>
+			<biblScope unit="page">1062</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>O'dwyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Del Zanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Mason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Weber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tripathi</surname></persName>
+		</author>
+		<idno type="DOI">10.1051/0004-6361/201014872</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="page">A21</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ohyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/305652</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">499</biblScope>
+			<biblScope unit="page">934</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Parker</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JZ062i004p00509</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page">509</biblScope>
+			<date type="published" when="1957">1957</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Petschek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Physics of Solar Flares</title>
+				<editor>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Hess</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>NASA</publisher>
+			<date type="published" when="1964">1964</date>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">425</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Priest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Forbes</surname></persName>
+		</author>
+		<title level="m">Magnetic Reconnection: MHD Theory and Applications</title>
+				<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge Univ. Press</publisher>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Reeves</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Golub</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/2041-8205/727/2/L52</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">727</biblScope>
+			<biblScope unit="page">L52</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Savage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Mckenzie</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/730/2/98</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">730</biblScope>
+			<biblScope unit="page">98</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Murphy</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/737/1/14</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">737</biblScope>
+			<biblScope unit="page">14</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1002413214356</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ap&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Masuda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shimojo</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/309688</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">451</biblScope>
+			<biblScope unit="page">L83</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tanuma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planets Space</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">473</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Steinolfson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Hoven</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.864000</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Fluids</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">117</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Sturrock</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/211069a0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page">69</biblScope>
+			<date type="published" when="1966">1966</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">D</forename><surname>Holman</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/379343</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">596</biblScope>
+			<biblScope unit="page">L251</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Sweet</surname></persName>
+		</author>
+		<title level="m">Electromagnetic Phenomena in Cosmical Physics</title>
+				<editor>
+			<persName><forename type="first">B</forename><surname>Lehnert</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge Univ. Press</publisher>
+			<date type="published" when="1958">1958</date>
+			<biblScope unit="page">123</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tajima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sakai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nakajima</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/165694</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page">1031</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tajima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<title level="m">Plasma Astrophysics</title>
+				<meeting><address><addrLine>Reading, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Addison-Wesley</publisher>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Treumann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planets Space</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">453</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsuneta</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/177395</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">464</biblScope>
+			<biblScope unit="page">1055</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsuneta</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/304236</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">483</biblScope>
+			<biblScope unit="page">507</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsuneta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Shimizu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PASJ</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">L63</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ugai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tsuda</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0022377800020663</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Plasma Phys</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">337</biblScope>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Qiu</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/519004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">661</biblScope>
+			<biblScope unit="page">L207</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Wüelser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Lemen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Tarbell</surname></persName>
+		</author>
+		<title level="m">Proc. SPIE</title>
+				<meeting>SPIE</meeting>
+		<imprint>
+			<date type="published" when="2004">2004</date>
+			<biblScope unit="volume">5171</biblScope>
+			<biblScope unit="page">111</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kulsrud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ji</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/RevModPhys.82.603</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Rev. Mod. Phys</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page">603</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Akita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Morimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Inoue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Newmark</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/318053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">546</biblScope>
+			<biblScope unit="page">L69</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yokoyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shibata</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/187666</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">436</biblScope>
+			<biblScope unit="page">L197</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

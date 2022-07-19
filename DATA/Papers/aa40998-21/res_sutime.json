@@ -1,0 +1,464 @@
+[
+    {
+        "end": 1337,
+        "start": 1325,
+        "text": "5 April 2021",
+        "timex-value": "2021-04-05",
+        "type": "DATE",
+        "value": "2021-04-05"
+    },
+    {
+        "end": 1366,
+        "start": 1349,
+        "text": "25 September 2021",
+        "timex-value": "2021-09-25",
+        "type": "DATE",
+        "value": "2021-09-25"
+    },
+    {
+        "end": 7293,
+        "start": 7271,
+        "text": "July and November 2020",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-07",
+            "end": "2020-11"
+        }
+    },
+    {
+        "end": 20926,
+        "start": 20905,
+        "text": "11 July 2020 at 02:30",
+        "timex-value": "2020-07-11T02:30",
+        "type": "TIME",
+        "value": "2020-07-11T02:30"
+    },
+    {
+        "end": 21039,
+        "start": 21018,
+        "text": "21 July 2020 at 03:00",
+        "timex-value": "2020-07-21T03:00",
+        "type": "TIME",
+        "value": "2020-07-21T03:00"
+    },
+    {
+        "end": 21270,
+        "start": 21245,
+        "text": "18 November 2020 at 02:00",
+        "timex-value": "2020-11-18T02:00",
+        "type": "TIME",
+        "value": "2020-11-18T02:00"
+    },
+    {
+        "end": 24142,
+        "start": 24115,
+        "text": "11 July 2020 at about 02:30",
+        "timex-value": "2020-07-11T02:30",
+        "type": "TIME",
+        "value": "2020-07-11T02:30"
+    },
+    {
+        "end": 24204,
+        "start": 24192,
+        "text": "21 July 2020",
+        "timex-value": "2020-07-21",
+        "type": "DATE",
+        "value": "2020-07-21"
+    },
+    {
+        "end": 24227,
+        "start": 24212,
+        "text": "03:00 and 07:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T03:00",
+            "end": "T07:00"
+        }
+    },
+    {
+        "end": 24311,
+        "start": 24295,
+        "text": "18 November 2020",
+        "timex-value": "2020-11-18",
+        "type": "DATE",
+        "value": "2020-11-18"
+    },
+    {
+        "end": 24336,
+        "start": 24315,
+        "text": "about 02:00 and 22:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T02:00",
+            "end": "T22:30"
+        }
+    },
+    {
+        "end": 24535,
+        "start": 24508,
+        "text": "11 July 2020 at about 02:30",
+        "timex-value": "2020-07-11T02:30",
+        "type": "TIME",
+        "value": "2020-07-11T02:30"
+    },
+    {
+        "end": 25154,
+        "start": 25142,
+        "text": "11 July 2020",
+        "timex-value": "2020-07-11",
+        "type": "DATE",
+        "value": "2020-07-11"
+    },
+    {
+        "end": 25276,
+        "start": 25254,
+        "text": "30 minutes before 2:20",
+        "timex-value": "T01:50",
+        "type": "TIME",
+        "value": "T01:50"
+    },
+    {
+        "end": 26099,
+        "start": 26094,
+        "text": "02:15",
+        "timex-value": "T02:15",
+        "type": "TIME",
+        "value": "T02:15"
+    },
+    {
+        "end": 26105,
+        "start": 26100,
+        "text": "02:20",
+        "timex-value": "T02:20",
+        "type": "TIME",
+        "value": "T02:20"
+    },
+    {
+        "end": 26111,
+        "start": 26106,
+        "text": "02:25",
+        "timex-value": "T02:25",
+        "type": "TIME",
+        "value": "T02:25"
+    },
+    {
+        "end": 26117,
+        "start": 26112,
+        "text": "02:30",
+        "timex-value": "T02:30",
+        "type": "TIME",
+        "value": "T02:30"
+    },
+    {
+        "end": 26123,
+        "start": 26118,
+        "text": "02:35",
+        "timex-value": "T02:35",
+        "type": "TIME",
+        "value": "T02:35"
+    },
+    {
+        "end": 26129,
+        "start": 26124,
+        "text": "02:40",
+        "timex-value": "T02:40",
+        "type": "TIME",
+        "value": "T02:40"
+    },
+    {
+        "end": 26135,
+        "start": 26130,
+        "text": "02:45",
+        "timex-value": "T02:45",
+        "type": "TIME",
+        "value": "T02:45"
+    },
+    {
+        "end": 26141,
+        "start": 26136,
+        "text": "02:50",
+        "timex-value": "T02:50",
+        "type": "TIME",
+        "value": "T02:50"
+    },
+    {
+        "end": 26263,
+        "start": 26236,
+        "text": "11 July 2020 at about 02:30",
+        "timex-value": "2020-07-11T02:30",
+        "type": "TIME",
+        "value": "2020-07-11T02:30"
+    },
+    {
+        "end": 26391,
+        "start": 26386,
+        "text": "02:10",
+        "timex-value": "T02:10",
+        "type": "TIME",
+        "value": "T02:10"
+    },
+    {
+        "end": 26397,
+        "start": 26392,
+        "text": "02:20",
+        "timex-value": "T02:20",
+        "type": "TIME",
+        "value": "T02:20"
+    },
+    {
+        "end": 26403,
+        "start": 26398,
+        "text": "02:30",
+        "timex-value": "T02:30",
+        "type": "TIME",
+        "value": "T02:30"
+    },
+    {
+        "end": 26409,
+        "start": 26404,
+        "text": "02:40",
+        "timex-value": "T02:40",
+        "type": "TIME",
+        "value": "T02:40"
+    },
+    {
+        "end": 26415,
+        "start": 26410,
+        "text": "02:50",
+        "timex-value": "T02:50",
+        "type": "TIME",
+        "value": "T02:50"
+    },
+    {
+        "end": 26446,
+        "start": 26438,
+        "text": "02:00:43",
+        "timex-value": "T02:00:43",
+        "type": "TIME",
+        "value": "T02:00:43"
+    },
+    {
+        "end": 26530,
+        "start": 26518,
+        "text": "July 11 2020",
+        "timex-value": "2020-07-11",
+        "type": "DATE",
+        "value": "2020-07-11"
+    },
+    {
+        "end": 26697,
+        "start": 26679,
+        "text": "30 min before 2:20",
+        "timex-value": "T01:50",
+        "type": "TIME",
+        "value": "T01:50"
+    },
+    {
+        "end": 27343,
+        "start": 27323,
+        "text": "2020/07/11 02:30",
+        "timex-value": "2020-07-11T02:30",
+        "type": "TIME",
+        "value": "2020-07-11T02:30"
+    },
+    {
+        "end": 27360,
+        "start": 27344,
+        "text": "2020/07/21 03:00",
+        "timex-value": "2020-07-21T03:00",
+        "type": "TIME",
+        "value": "2020-07-21T03:00"
+    },
+    {
+        "end": 27377,
+        "start": 27361,
+        "text": "2020/07/21 07:00",
+        "timex-value": "2020-07-21T07:00",
+        "type": "TIME",
+        "value": "2020-07-21T07:00"
+    },
+    {
+        "end": 27394,
+        "start": 27378,
+        "text": "2020/11/18 02:00",
+        "timex-value": "2020-11-18T02:00",
+        "type": "TIME",
+        "value": "2020-11-18T02:00"
+    },
+    {
+        "end": 27411,
+        "start": 27395,
+        "text": "2020/11/18 22:30",
+        "timex-value": "2020-11-18T22:30",
+        "type": "TIME",
+        "value": "2020-11-18T22:30"
+    },
+    {
+        "end": 29116,
+        "start": 29106,
+        "text": "2020/07/11",
+        "timex-value": "2020-07-11",
+        "type": "DATE",
+        "value": "2020-07-11"
+    },
+    {
+        "end": 29349,
+        "start": 29337,
+        "text": "11 July 2020",
+        "timex-value": "2020-07-11",
+        "type": "DATE",
+        "value": "2020-07-11"
+    },
+    {
+        "end": 32167,
+        "start": 32162,
+        "text": "02:30",
+        "timex-value": "T02:30",
+        "type": "TIME",
+        "value": "T02:30"
+    },
+    {
+        "end": 32183,
+        "start": 32178,
+        "text": "03:00",
+        "timex-value": "T03:00",
+        "type": "TIME",
+        "value": "T03:00"
+    },
+    {
+        "end": 32199,
+        "start": 32194,
+        "text": "07:00",
+        "timex-value": "T07:00",
+        "type": "TIME",
+        "value": "T07:00"
+    },
+    {
+        "end": 32215,
+        "start": 32210,
+        "text": "02:00",
+        "timex-value": "T02:00",
+        "type": "TIME",
+        "value": "T02:00"
+    },
+    {
+        "end": 32235,
+        "start": 32230,
+        "text": "22:30",
+        "timex-value": "T22:30",
+        "type": "TIME",
+        "value": "T22:30"
+    },
+    {
+        "end": 33388,
+        "start": 33376,
+        "text": "21 July 2020",
+        "timex-value": "2020-07-21",
+        "type": "DATE",
+        "value": "2020-07-21"
+    },
+    {
+        "end": 33480,
+        "start": 33464,
+        "text": "18 November 2020",
+        "timex-value": "2020-11-18",
+        "type": "DATE",
+        "value": "2020-11-18"
+    },
+    {
+        "end": 35186,
+        "start": 35170,
+        "text": "2020/07/11 02:30",
+        "timex-value": "2020-07-11T02:30",
+        "type": "TIME",
+        "value": "2020-07-11T02:30"
+    },
+    {
+        "end": 35213,
+        "start": 35197,
+        "text": "2020/07/21 03:00",
+        "timex-value": "2020-07-21T03:00",
+        "type": "TIME",
+        "value": "2020-07-21T03:00"
+    },
+    {
+        "end": 35240,
+        "start": 35224,
+        "text": "2020/07/21 07:00",
+        "timex-value": "2020-07-21T07:00",
+        "type": "TIME",
+        "value": "2020-07-21T07:00"
+    },
+    {
+        "end": 35267,
+        "start": 35251,
+        "text": "2020/11/18 02:00",
+        "timex-value": "2020-11-18T02:00",
+        "type": "TIME",
+        "value": "2020-11-18T02:00"
+    },
+    {
+        "end": 35292,
+        "start": 35276,
+        "text": "2020/11/18 22:30",
+        "timex-value": "2020-11-18T22:30",
+        "type": "TIME",
+        "value": "2020-11-18T22:30"
+    },
+    {
+        "end": 38281,
+        "start": 38276,
+        "text": "02:30",
+        "timex-value": "T02:30",
+        "type": "TIME",
+        "value": "T02:30"
+    },
+    {
+        "end": 38297,
+        "start": 38292,
+        "text": "03:00",
+        "timex-value": "T03:00",
+        "type": "TIME",
+        "value": "T03:00"
+    },
+    {
+        "end": 38313,
+        "start": 38308,
+        "text": "07:00",
+        "timex-value": "T07:00",
+        "type": "TIME",
+        "value": "T07:00"
+    },
+    {
+        "end": 38329,
+        "start": 38324,
+        "text": "02:00",
+        "timex-value": "T02:00",
+        "type": "TIME",
+        "value": "T02:00"
+    },
+    {
+        "end": 38345,
+        "start": 38340,
+        "text": "22:30",
+        "timex-value": "T22:30",
+        "type": "TIME",
+        "value": "T22:30"
+    },
+    {
+        "end": 42235,
+        "start": 42223,
+        "text": "21 July 2020",
+        "timex-value": "2020-07-21",
+        "type": "DATE",
+        "value": "2020-07-21"
+    },
+    {
+        "end": 44068,
+        "start": 44056,
+        "text": "21 July 2020",
+        "timex-value": "2020-07-21",
+        "type": "DATE",
+        "value": "2020-07-21"
+    }
+]

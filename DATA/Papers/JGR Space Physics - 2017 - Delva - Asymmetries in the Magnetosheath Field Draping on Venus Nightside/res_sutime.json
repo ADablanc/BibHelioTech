@@ -1,0 +1,244 @@
+[
+    {
+        "end": 648,
+        "start": 637,
+        "text": "19 JUL 2017",
+        "timex-value": "2017-07-19",
+        "type": "DATE",
+        "value": "2017-07-19"
+    },
+    {
+        "end": 669,
+        "start": 658,
+        "text": "29 SEP 2017",
+        "timex-value": "2017-09-29",
+        "type": "DATE",
+        "value": "2017-09-29"
+    },
+    {
+        "end": 705,
+        "start": 694,
+        "text": "10 OCT 2017",
+        "timex-value": "2017-10-10",
+        "type": "DATE",
+        "value": "2017-10-10"
+    },
+    {
+        "end": 734,
+        "start": 723,
+        "text": "25 OCT 2017",
+        "timex-value": "2017-10-25",
+        "type": "DATE",
+        "value": "2017-10-25"
+    },
+    {
+        "end": 1625,
+        "start": 1612,
+        "text": "20:06 - 20:14",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:06",
+            "end": "T20:14"
+        }
+    },
+    {
+        "end": 13200,
+        "start": 13164,
+        "text": "from 10 May 2006 to 25 November 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "2014-11-25"
+        }
+    },
+    {
+        "end": 13906,
+        "start": 13893,
+        "text": "20:06 - 20:09",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:06",
+            "end": "T20:09"
+        }
+    },
+    {
+        "end": 13990,
+        "start": 13977,
+        "text": "20:10 - 20:14",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:10",
+            "end": "T20:14"
+        }
+    },
+    {
+        "end": 23626,
+        "start": 23601,
+        "text": "May 2006 to December 2008",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05",
+            "end": "2008-12"
+        }
+    },
+    {
+        "end": 24300,
+        "start": 24273,
+        "text": "August 2006 to January 2011",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-08",
+            "end": "2011-01"
+        }
+    },
+    {
+        "end": 24633,
+        "start": 24605,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 26893,
+        "start": 26865,
+        "text": "10 May 2006  to  26 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-26"
+        }
+    },
+    {
+        "end": 26945,
+        "start": 26917,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 27701,
+        "start": 27673,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 31020,
+        "start": 30993,
+        "text": "April 2006 to December 2012",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-04",
+            "end": "2012-12"
+        }
+    },
+    {
+        "end": 34079,
+        "start": 34051,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 34130,
+        "start": 34102,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 35385,
+        "start": 35360,
+        "text": "May 2006 to December 2008",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05",
+            "end": "2008-12"
+        }
+    },
+    {
+        "end": 36497,
+        "start": 36469,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 36548,
+        "start": 36520,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 36731,
+        "start": 36703,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 36782,
+        "start": 36754,
+        "text": "10 May 2006  to  25 Nov 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05-10",
+            "end": "XXXX-11-25"
+        }
+    },
+    {
+        "end": 38630,
+        "start": 38603,
+        "text": "April 2006 to December 2009",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-04",
+            "end": "2009-12"
+        }
+    },
+    {
+        "end": 40532,
+        "start": 40505,
+        "text": "April 2006 to December 2012",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-04",
+            "end": "2012-12"
+        }
+    },
+    {
+        "end": 41397,
+        "start": 41369,
+        "text": "May 2006 to 25 November 2014",
+        "type": "DURATION",
+        "value": {
+            "begin": "2006-05",
+            "end": "2014-11-25"
+        }
+    }
+]

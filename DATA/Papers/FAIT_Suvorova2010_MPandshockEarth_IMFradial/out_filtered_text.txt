@@ -1,0 +1,534 @@
+JOURNAL OF GEOPHYSICAL RESEARCH, VOL.
+115, A10216, doi:10.1029/2010JA015404, 2010 Magnetopause expansions for quasi-radial interplanetary magnetic field: THEMIS and Geotail observations A.
+V.
+Suvorova,'” J.-H.
+Shue,’ A.
+V.
+Dmitriev,’* D.
+G.
+Sibeck,’ J.
+P.
+McFadden,* H.
+Hasegawa, K.
+Ackerson,° K.
+Jelinek,’ J.
+Safrankova,’ and Z.
+Némeéek’ Received 26 February 2010; revised 23 April 2010; accepted 12 May 2010; published 9 October 2010.
+[1] We report Time History of Events and Macroscale Interactions during Substorms (THEMIS) and Geotail observations of prolonged magnetopause (MP) expansions during long-lasting intervals of quasi-radial interplanetary magnetic field (IMF) and nearly constant solar wind dynamic pressure.
+The expansions were global: The magnetopause was located more than 3 Ry and ~7 R; outside its nominal dayside and magnetotail locations, respectively.
+The expanded states persisted several hours, just as long as the quasi-radial IMF conditions, indicating steady state situations.
+For an observed solar wind pressure of ~1.1—1.3 nPa, the new equilibrium subsolar MP position lay at ~14.5 Rez, far beyond its expected location.
+The equilibrium position was affected by geomagnetic activity.
+The magnetopause expansions result from significant decreases in the total pressure of the high-G magnetosheath, which we term the low-pressure magnetosheath (LPM) mode.
+A prominent LPM mode was observed for upstream conditions characterized by IMF cone angles less than 20°—25°, high Mach numbers and proton plasma @ < 1.3.
+The minimum value for the total pressure observed by THEMIS in the magnetosheath adjacent to the magnetopause was 0.16 nPa and the fraction of the solar wind pressure applied to the magnetopause was therefore 0.2, extremely small.
+The equilibrium location of the magnetopause was modulated by a nearly continuous wavy motion over a wide range of time and space scales.
+Citation: Suvorova, A.
+V., J.-H.
+Shue, A.
+V.
+Dmitriev, D.
+G.
+Sibeck, J.
+P.
+McFadden, H.
+Hasegawa, K.
+Ackerson, K.
+Jelinek, J.
+Safrankova, and Z.
+Némeéek (2010), Magnetopause expansions for quasi-radial interplanetary magnetic field: THEMIS and Geotail observations, J.
+Geophys.
+Res., 115, A10216, doi:10.1029/2010JA015404.
+1.
+Introduction [2] Global expansions of the magnetopause (MP), formed in response to the interaction between the solar wind (SW) and the Earth’s magnetosphere, are mainly associated with low dynamic pressures (<1 nPa) in tenuous solar wind flows [Richardson et al., 2000; Terasawa et al., 2000; Lockwood, 2001].
+This fundamental interaction mode can be quasisteady when SW conditions are nearly constant for a long time (about | h or more).
+However, Fairfield et al.
+[1990] ‘Institute of Space Science, National Central University, Jhongli, Taiwan.
+*Skobeltsyn Institute of Nuclear Physics, Moscow State University, Moscow, Russia.
+5NASA Goddard Space Flight Center, Greenbelt, Maryland, USA.
+“Space Sciences Laboratory, University of California, Berkeley, California, USA.
+“Institute of Space and Astronautical Science, JAXA, Sagamihara, Japan.
+°Department of Physics and Astronomy, University of Iowa, Iowa City, Iowa, USA.
+"Faculty of Mathematics and Physics, Charles University, Prague, Czech Republic.
+Copyright 2010 by the American Geophysical Union.
+01:48 - 02:27/10/2010JA015404 A10216 indicated that radial interplanetary magnetic field (IMF) orientations can also cause MP expansions.
+They have shown that pressure/density perturbations produced in the subsolar foreshock correlate with dayside magnetospheric magnetic field variations.
+They infer that the foreshock pressure fluctuations convect through the subsolar bow shock into the magnetosheath and impinge on the subsolar magnetosphere.
+Other studies showed that this interaction mode is often unsteady, resulting in multiple MP crossings with interarrival times on the order of a few minutes [Fairfield et al., 1990; Sibeck, 1995; Russell et al., 1997; Némecek et al., 1998].
+[3] The location of foreshock upstream from the bow shock is controlled by the angle 0p, between the IMF and the local normal to the bow shock.
+In the subsolar region, this angle coincides with the cone angle between the IMF vector and the Earth-Sun line.
+When the angle @,, 1s small, the local bow shock is quasi-parallel (Q)).
+When the IMF is radial (aligned with the Sun-Earth line), the Q) foreshock forms upstream of the subsolar bow shock.
+The Q) foreshock exhibits strong wave activity that is swept downstream into the magnetosheath turbulence, but contrast with the much quieter quasi-perpendicular (Q,) shock for IMF orientations perpendicular to the local bow shock normal 1 of 16 A10216 [| Wilkinson, 2003].
+Fairfield et al.
+[1990] demonstrated that plasma densities and dynamic pressures diminish within the foreshock and suggested that this might result in a decrease in the subsolar magnetosheath pressure.
+If so, the IMF orientation may control the pressure applied to the dayside magnetosphere.
+According to this hypothesis, during radial (transverse) IMF the magnetosheath pressure applied to the magnetopause should be smaller (higher).
+Careful study of magnetopause positions as a function of IMF cone angle can verify this hypothesis.
+[4] Comprehensive studies of foreshock effects on the magnetosheath, magnetopause, and magnetosphere were presented by numerous authors [Sibeck et al., 1989; Sibeck, 1992, 1995; Sibeck and Gosling, 1996; Russell et al., 1997; Némecek et al., 1998; Zastenker et al., 1999, 2002; Shevyrev and Zastenker, 2005; Shevyrev et al., 2007].
+The dayside MP moves in response to variations of the IMF cone angle [Sibeck, 1995].
+MP motion attains greater amplitudes behind the foreshock, where amplitudes vary from 0.2 to 0.8 Re [Russell et al., 1997].
+Laakso et al.
+[1998] and Merka et al.
+[2003] reported examples of even larger amplitude (~2 Rp) MP oscillations for quasi-radial IMF orientations.
+On the basis of indirect estimates, Merka et al.
+[2003] proposed a bullet-like shape for the expanded magnetopause.
+They assumed that the unusual MP motion was related to a decrease of the magnetosheath pressure behind the Q)-shock.
+This assumption followed the ideas of Fairfield et al.
+[1990].
+However, there were no magnetosheath data, which could confirm or disprove that assumption.
+[5] These results lead one to expect depressed total pressures within the magnetosheath during intervals when the IMF has a radial orientation.
+Two important questions remain open: (1) What fraction of the solar wind dynamic pressure is applied to the magnetosphere by the magnetosheath during intervals of radial IMF orientation? (2) What is the average location of the magnetopause under these conditions? These effects are absent from global MHD codes and have not yet been addressed by global kinetic or hybrid codes.
+MP dynamics and the properties of the adjacent magnetosheath for radial IMF conditions remain almost unexplored mainly because of insufficient experimental data in the subsolar region.
+[6] The Time History of Events and Macroscale Interactions during Substorms (THEMIS) mission [Angelopoulos, 2008] provides a large database of observations for detailed studies of the MP and magnetosheath.
+Using THEMIS and Geotail, we investigate three cases of very large MP expansion occurring for prolonged quasi-radial IMF and nearly steady SW dynamic pressures.
+We demonstrate that the bow shock and magnetopause lie far beyond their expected positions.
+The MP expansions are found to be quasi-steady and long lasting.
+We show and quantify dramatic decreases in the magnetosheath total pressure induced by rotations to quasi-radial IMF orientations rather than by decreases in the SW dynamic pressure.
+2.
+Experimental Data [7] We analyze three events on 16 July, 4 August, and 8 August 2007, which are accompanied by long-lasting (up to a few hours) quasi-radial IMF orientations (the cone angle is less than 30°).
+Solar wind and geomagnetic con SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 ditions for these time intervals are presented in Figures 1-3.
+During these intervals, ACE was located at GSM (225, —2, 23), (227, 28, 4), and (226, 23, 13) Re, respectively, while Wind was located at (253, —67, 16), (228, —95, 33), and (232, —97, 13) Re, respectively.
+Comparing the Wind and ACE data, we find that averaged values for SW dynamic pressure agree to within ~20%, although the two spacecrafts often observe different transient variations in the plasma parameters.
+The IMF demonstrates higher variability and larger differences.
+However, the clock and cone angles measured by ACE and Wind coincide well within some intervals.
+The observed differences in SW plasma and IMF parameters are due to the very large distance between the monitors [e.g., Richardson and Paularena, 2001].
+We use ACE to determine SW plasma and IMF conditions because Wind was located very far from the Earth-Sun line.
+[s] The duration of the quasi-radial IMF intervals was about 1.5 h (Figure 1), 2 h (Figure 2), and 14 h (Figure 3), respectively.
+Here we should talk about geomagnetic activity as an internal factor affecting the magnetopause location [Petrinec and Russell, 1993; Sibeck, 1994].
+As one can see in Figures 1—3, there were no geomagnetic storms during these 3 days (minimum value Dstpin ~—-25 nT).
+Hence, the ring current effect, which would lead to an inflated magnetosphere, is negligibly small, if any.
+Therefore, we will rule out the Dst index from the following consideration.
+Auroral activity, represented by the AF index, was quiet on 16 July and 4 August with maximum value AE max ~150 nT, while moderate auroral activity was observed on 8 August with AE,,,, ~600 nT.
+We will consider last event in relation with dayside magnetopause erosion due to the field-aligned currents.
+[9] Figure 4 shows THEMIS locations in the GSM coordinate system during time intervals from 19:50 - 20:37 on 16 July 2007, 04:00 - 06:00 on 8 August 2007, and 04:00 - 12:00 on 4 August 2007.
+At the beginning of each interval, the five THEMIS probes were located in the subsolar region, moving outward in the string-of-pearls configuration with THB leading and THA trailing.
+Geotail was located in the duskside magnetosheath at GSM (6, 15, 1.5) Rz on 16 July, in the nightside magnetosheath at GSM (—10, 24, -13) R; on 8 August, and inside the magnetotail at GSM (—23, 10, -12 Re) on 4 August.
+[10] We compare clock angles of the magnetosheath and interplanetary magnetic fields observed by Geotail, ACE, and THEMIS to estimate the time delay for SW propagation (Figure 5).
+We obtain a 43 min lag from ACE to Geotail on 16 July (Figure 5a).
+Taking into account the time for plasma to propagate from the THEMIS probes to Geotail results in a 41.5 min time lag from ACE to THEMIS.
+On 8 August (Figure 5b), the SW propagation times from ACE to THEMIS and from ACE to Geotail was determined to be 38.5 min and 43.5 min, respectively.
+On the morning of 4 August, there was no spacecraft in the magnetosheath.
+We considered an interval from 14:00 - 19:00 when THA was located in the magnetosheath (Figure 5c).
+During this interval, THB magnetic field variations lagged those at ACE by 63 to 68 min, while a direct solar wind propagation technique yields a similar delay of ~65 min.
+For the interval from 02:00 - 12:00 on 4 August, we suppose that the direct propagation technique is also reliable and hence the average time delay is estimated to be ~63 min.
+2 of 16 A10216 SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 50 7 -600 No * | 400.
+-50 0 D cm-3 — Moff (6) a (@) T eV o£ 1.54 oc 10 m _ .
+mf 7 ae 14 O iy 0 Pi a al ) id wo rail \y eta 0 oO > fy At i" TRA , [fl ipa, ale hy ang il iar -90 O ze) 5 | ‘y ACE ul Av “4 N aN ; Wt= 100 -_ : -50 15 : ; + THB 5 .
+_ vuA 16 17 18 19 20 21 22 23 24 UT, 16 Jul.
+2007 Figure 1.
+Upstream solar wind parameters observed by ACE at 16:00 - 24:00 on 16 July 2007 (from top to bottom): velocity components Vx (gray line), Vy (thick black line), and Vz (thin line); proton density D (thin) and temperature T (gray); SW dynamic pressure Pd observed by ACE (black) and Wind (gray); IMF strength B (black) and Bx component (gray); IMF component By (gray) and Bz (black); IMF clock (Cl) and cone (Ca) angles observed by ACE (black) and Wind (gray).
+The two bottom panels show geomagnetic indices AEF (black) and Dst (SYM index; gray) and distances to the THB probe (solid line) and THA probe (dotted line).
+Shue et al.’s [1998] magnetopause model prediction is shown by a gray line and magnetosphere intervals observed by THB and THA are shown by black and shaded bars, respectively.
+The time of upstream parameters is delayed on SW propagation to THEMIS (see explanation in section 2).
+[11] Shue et al.
+[1998, hereafter Sh98] and Chao et al.
+(2002, hereafter Ch02] provide reference models for the location of the MP and bow shock, respectively, as functions of solar wind conditions.
+Note that the bow shock predicted by the Ch02 model does not depend on the MP location.
+The Ch02 model predicts a decrease in the distance to the Q) bow shock caused by a decrease in the fast magnetosonic velocity for small cone angles.
+Among a number of bow shock models, the ChO2 model demonstrates the highest prediction capabilities for a wide range of upstream conditions [Dmitriev et al., 2003].
+[12] We also correct an aberration of up to 6° due to the Earth’s revolution around the Sun and fluctuations in the SW direction.
+The correction was performed on a point-bypoint basis.
+The upstream and THEMIS data have been converted into aberrated GSM (aGSM) coordinates, in which the x axis is aligned with the SW velocity [e.g., Dmitriev et al., 2003].
+In the aGSM coordinate system, the radial IMF is aligned with the SW flow and x axis.
+SW dynamic pressure is calculated as Pd = 1.67 x 10 ° D-V? (in nPa), where V is bulk velocity (in km/s) and D = N, + 4Na (in cm °) is corrected SW density including a He contribution.
+The He content was nearly constant at 4~5% on 16 July and 8 August and ~3% on 4 August.
+The total SW pressure Psw is calculated as a sum of the dynamic pressure, thermal proton pressure, and magnetic pressures of the solar wind.
+3.
+Geomagnetically Quiet Event on 16 July 2007 [13] An interval of prolonged quasi-radial IMF at 19:50 - 20:37 on 16 July 2007 is presented in Figure 6.
+The SW and geomagnetic conditions are quiet: the SW velocity (~450 km/s) is stable, the SW pressure Psw varies slightly about 1.5 nPa, and IMF Bz is small (~—1 nT).
+The top panel in Figure 6 displays ion spectrograms from THEMIS electrostatic analyzers (ESA) plasma instruments [McFadden et al., 2008].
+The presence of Q) mode is supported by intense fluxes in the high-energy channels of ion spectrograms as well as by enhanced fluxes of energetic particles (not shown) observed by THB in the magnetosheath until ~2035 UT.
+The magnetosheath is identified as a region of relatively dense plasma with a very wide energy spectrum of ions.
+Note that after ~20:35the small cone angle is unreliable because of a different time shifting for the solar wind propagation in the trailing edge of the interval.
+That shifting is associated with the arrival of another solar wind structure led by a discontinuity, which propagation in the magnetosheath is observed by the THEMIS probes at 3 of 16 A10216 SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 Vy,Vz km/s D cms Pd, nPa B nT nT Cl Bz nT deg deg AE Ca UT, 8 Aug.
+2007 Figure 2.
+The same as in Figure 1 but on 8 August 2007 at 02:00 - 08:00 UT.
+~2035 UT.
+Hence, we cut our consideration of the Q) netosheath.
+The innermost THA probe is inside the maginterval at 2035 UT.
+netosphere that is in good agreement with the Sh98 model [14] At the beginning of the event at ~1950 UT, all the prediction.
+From 19:52the MP starts to expand and THEMIS probes except for THA are located in the mag- reaches distances of >12.7 Ry, such that the outer probes Vy, Vz km/s D cm73 1.0 | ACE : le) aati ae jul |, ; 0.5 ™ neg Liem ladle cal dectriebinraayatag ter Maa HED lng narengotn Pd, nPa Cl Bz B nT nt nl deg deg AE Ca 0 2 4 6 8 10 12 14 16 18 20 22 24 UT, 4 Aug.
+2007 Figure 3.
+The same as in Figure 1 but on 4 August 2007 at 00:00 - 24:00 UT.
+4 of 16 A10216 16 Jul £ * -1 &.
++4, o ya O THe “Hy @ e A THO 32 + @ x > e 4Aug 12UT? 4 -3 eee 2 - ca oD oO $ hg or — | road OE Big ' ar Af Feget nem N Figure 4.
+GSM coordinates of the THEMIS probes for the time intervals: (a) 19:50 - 20:37 on July 16 2007; (b) 04:00 - 06:00 on August 8 2007; (c) 04:00 - 12:00 on August 4 2007.
+THC, THD, and THE enter inside the magnetosphere for a period of ~40 min.
+The expansion is large; THB observes the magnetopause at distances of ~2 R; above the Sh98 model prediction.
+Note that application of other magnetopause models gives similar a result within one standard deviation o (~0.5 R;) for Psw = 1 and 20 for Psw < 1; all the models are unable to predict such distant magnetopause.
+We have to emphasize that the total SW pressure and IMF Bz are almost constant during that time and thus the expansion cannot be caused by variations of those parameters.
+It is reasonable to attribute the expansion to a decrease of the cone angle from ~30° to ~10° that occurred at 19:50 - 19:53 UT.
+[15] The expanding magnetopause propagates outward from THE to THD with velocity of 26 km/s, then the MP decelerates to 9 km/s on its path from THD to THB.
+On average, the MP takes ~7 min to pass the distance of ~0.72 R; between THE and THB (average speed of ~11 km/s).
+The MP velocities estimated by such method are presented in Table 1.
+The estimation error of about 15% is originated mainly from the limited ~3 s time resolution of the magnetic field and plasma data and also from uncertainty in determining the moment when a probe crosses the MP current sheet.
+[16] The MP and adjacent magnetosheath plasma should move with similar velocities.
+Magnetosheath layer adjacent to the MP passes THEMIS probes during ~30 s.
+In Figure 7, SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 one can see that the ambient plasma in this layer moves outward mostly in X direction with the velocities of V,.
+~20 km/s as measured by THE at 19:50:40 UT, ~2 to 10 km/s (THD and THC at 19:51:20 UT), and ~15 to 30 km/s as observed by THB at 19:58:00 UT.
+These values agree very well with the estimated MP velocities of 26 and 9 km/s (two upper rows in Table 1).
+Thus, our estimations are reasonable and we can conclude that within one error the MP velocities are consistent with the velocities V, of magnetosheath plasma adjacent to the MP.
+[17] Magnetic field was measured by THEMIS/FGM instrument [Auster et al., 2008].
+During the MP crossings, the magnetospheric field, observed just inbound the magnetopause, is 2.4 times larger than the dipole value calculated from International Geomagnetic Reference Field model.
+Such a value is expected from the shielding effect of the Chapman-Ferraro current.
+Note that the crossings observed at ~1951, ~1954, and ~19:58are caused by the outward MP moving (i.e., the magnetopause position is not of equilibrium).
+From the THB observations of the MP crossing at ~19:58(see Figure 6), one can see that the total pressure in the adjacent magnetosheath layer is slightly smaller than the Ptot in the magnetospheric boundary layer and there is a little jump from Ptot = 0.6 nPa in the magnetosheath to Ptot = 0.8 nPa in the magnetosphere.
+We suggest that this jump is owing to the MP moving outward to a new equilibrium position corresponding to lower pressure in the magnetosheath.
+From 2004 UT, when THB observes minimum magnetospheric field and Prot ~ 0.6 nPa, the magnetopause starts to move back.
+[1s] At 20:11 - 20:15 UT, the outermost probe THB observes a magnetosheath rebound, which is accompanied by an enhancement of cone angle from ~10° to ~35° and southward IMF from ~0 to —2 nT.
+According to the Sh98 model prediction, the small change of IMF Bz does not affect the magnetopause location.
+However, it is important to note that the geomagnetic field in the vicinity of distant magnetopause is weak, ~20 to 40 nT.
+Because of that weak 90 LTE D oO co] 0 O ACE 17 18 19 20 21 UT, 16 Jul.
+2007 ; 90 T T 9 T hid SN ine (@)) Lo -e-Geotail a ce) ' O b (o>) oO ro) O UT, 4 Aug.
+2007 c Figure 5.
+Clock angle of magnetic fields (a) on 16 July observed by Geotail (gray line) and ACE (black line), delayed by 43 min; (b) on 8 August observed by THA (gray line) and Geotail (circles), delayed by —5 min, and ACE (black line), delayed by 38.5 min; (c) on 4 August observed by THA (gray line) and ACE (black line), delayed by 63 min.
+5 of 16 A10216 K, Pressure (nPa) proton beta S o1 cone angle (deg) 19:50 a TPP AAIPI IOP atl Ue Piplsllels ¥ SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS 20:00 20:15 4 thitd 44+ it see Hey +4 +++4+-+4+ woww +++ tet HEHEHE PR “ae 3 -< 9 fa Sn nN UN, YL ve "GZ YW eS outen CMM a a a a OLY Y, Yypyys At OLLI ot KLEE 20:00 20: 05 20: 10 20:15 "30:20 20.25 20:25 UT, 16 Jul.
+2007 ro ia QUAM al eM th “20:30 90:35 A10216 = © Sh9s x Sh98 BACE Brpp /10 BZTHpR/10 Geotail ACE Figure 6.
+Plasma and magnetic fields observed on 16 July 2007 (from top to bottom): THEMIS ion spectrograms; Chao et al.’s [2002] bow shock model prediction; Shue et al.’s [1998] magnetopause model predictions calculated for the solar wind Psw (circles) and magnetosheath Prot (diagonal crosses) pressures; THEMIS radial distances (thick segments mark the magnetosphere encounters); ACE and THB measurements of magnetic field strength and Bz (divided by 10 for THB); THB plasma velocity (V;,,,) and components Vx, Vy, and Vz; the upstream solar wind pressure Psw and THB magnetic (Pm), thermal ion Pi,,, thermal electron Pe,,, and total pressure (P;,;), circles depict the ion pressure Pi,, in ESA full mode; solar wind proton 8 and ratio K (Ptot/Psw); cone angles of ACE and Geotail magnetic field delayed by 41.5 and —1.5 min, respectively.
+Time intervals of THB magnetosphere encounters are marked by blue shadow bars.
+6 of 16 A10216 Table 1.
+Magnetopause and Plasma Velocities 16 Jul Probes Vup (km/s) 1 1952 E-D 26+7 2 1958 D-B 9+] q 2032 B-D —55+4 4 2033 D-E -14+43 5 2037 E-A —35+4 08 Aug 0500 A-B 25 +5 2 0505 B-E —105 + 30 3 0507 E-A —33 + 5 4 0511 A-E 180 + 50 5 0514 E-B 8+] 6 0520 B-A —48 + 3 7 0525 A-B 230 + 80 8 0532 B-A —100 + 10 magnetic field, the expanded magnetopause is very sensitive to small variations of both major driving parameters (Psw and Bz) and other parameters affecting the bow shock and magnetosheath formation, such as the IMF cone angle.
+Probably, in the present case, both effects of southward IMF and increasing cone angle are responsible for the inward magnetopause motion.
+[19] Magnetosheath rebound, observed by THB at 2020-— 2025 UT, is not accompanied by any substantial enhancement of the SW pressure or southward IMF.
+Even worse, the SW pressure decreases to 1.3 nPa, which that should push the magnetopause outward.
+That is not the case.
+In addition, we observe an enhancement of the cone angle up to >20°, which persists until the end of the interval at ~2034 UT.
+Hence, the observed dynamics of upstream parameters hardly explains the magnetosheath rebound at 20:20 - 20:25 as well as the magnetospheric rebound at 20:25 - 20:33 UT.
+There should be another process driving the magnetopause.
+[20] During the interval on 16 July 2007, we find variations of the magnetosheath and magnetospheric parameters over a wide range of timescales.
+We calculate thermal ion Pi, and electron Pe, pressures using 3 s data of reduced distribution from the THB/ESA instrument, which was operating in fast survey mode until 2027 UT, and then it was turned to slow mode.
+We also calculate the ion thermal pressures Pi, using data from full distribution, which has lower time resolution of ~1.5 min.
+One can see a good consistency between the two data products.
+The total magnetosheath pressure is obtained as a sum of Pi,,, Pe, and magnetic pressure Pm.
+[21] From 19:50 - 20:35 UT, the THEMIS probes observe 1~2 min oscillations of the total pressure in the magnetosheath as well as in the magnetosphere.
+Those specific quasi-regular variations clearly indicate oscillating MP motion.
+The multiple magnetopause crossings observed from 19:51 - 20:11 can be also considered a result of a long period (~10 min) of MP undulation.
+Similar wavy motions (oscillations) of the MP were reported earlier as transient events [Sibeck, 1995; Sibeck and Gosling, 1996].
+[22] On the basis of the THEMIS observations, we can estimate the average MP location by two independent methods.
+In the first one, we assume nearly constant MP velocity of 9 km/s for propagation from THB to the new equilibrium location (1.e., during 6 min from 19:58 - 20:04 UT).
+Hence, we obtain that at 20:04the expanding SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 MP approaches to a distance of ~12.85 Rz.
+The other method is based on the magnetopause model.
+As we can see in Figure 6, the magnetopause location is predicted much better when the Sh98 model is applied for the magnetosheath pressure Prot and IMF Bz.
+The inconsistencies can be explained by the fact that the Sh98 model as well as any other MP model has shortcomings at very low pressures.
+We consider the magnetosheath pressure Ptot = 0.6 nPa, detected by THB at 1958 UT, as a lower pressure limit and calculate the upper limit for the MP expansion of ~12.4 + 0.5 Re.
+Thus, two different ways give similar estimations of the MP expansion.
+[23] After 2004 UT, the MP starts to move back and at 20:12approaches a distance somewhere between THD and THB, which are located at 12 and 12.5 Rz, respectively.
+Hence, we can estimate the MP equilibrium location somewhere between 12.5 and 12.7 Rr, which is an average distance between the two extreme points of 12~12.5 and 12.85 Re.
+[24] Considering upstream conditions, we do not find any substantial changes or quasi-periodic variations of the solar wind parameters except for the cone angle.
+At the beginning (~1952 UT), the outward motion of MP is rather related to a fast decrease of the cone angle from ~30° to ~15°.
+This decrease is accompanied by a gradual decrease of the magnetosheath total pressure Ptot from 0.8 to 0.5 nPa, as observed by the THB probe.
+Here we point out that during the time interval of small cone angles (19:52 - 20:35 UT), the THB probe observes very low magnetosheath pressure, which is almost balanced by the magnetospheric pressure.
+This quasi-balance is clearly seen during the THB magnetopause crossings, which are revealed as significant jumps of all parameters except the total pressure across the MP.
+Inside the magnetosphere, the magnetic pressure (Pm) A a .
+“ lis % 00 U8) Gy se q ° &.
+° Lh osm ° fe EPH OD é x rs i ef] Oech 4 FRR, Ser fo) KG bi Po G "i ha Al b Pa CHD a] ri 4) 9) iP Ry Key ¥" ae) r ou , ey (2) oh RS re iy a) W © O b 2 2 BD inc ¢ / .
+q cs] 5) ’ ; CDG ny bog! Yh lowdO nna wet rt, FO kV PT AABN ‘ A Of Sancsepes 2 { 5 V 1 ‘ .
+1 : | f " ! 1 1 "Ty 1 A 100" "51 52 53 54 55 56 57 58 59 19:50 20:00 UT, 16 Jul.2007 Figure 7.
+Components Vx, Vy, and Vz of plasma velocity observed by THEMIS probes (THB, THC, THD, THE) on 16 July 2007 near the magnetopause crossings (indicated by vertical dashed lines) during transition from the magnetosheath to the magnetosphere at 19:50 - 20:00 UT.
+7 of 16 A10216 dominates and has a low value, consistent with MP distances of 12.3—12.9 Re.
+[25] The total pressure in the magnetosheath Prot is by a factor of 2 lower than the SW pressure Psw as indicated by a ratio K = Ptot/Psw in Figure 6.
+Near the magnetopause, the value of Prot is found to be ~0.5 nPa.
+The total pressure in the low-pressure magnetosheath (LPM) is mainly contributed by the thermal pressure, a sum of ion Pi,, and electron Pe,, thermal pressures.
+The pressure of turbulent magnetic field Pm is very weak as observed by THB.
+Hence, the magnetosheath plasma @ is high.
+We examined simultaneous Geotail observations of the post-noon magnetosheath (Figures 5a and 6) and also found weak magnetic field of ~5 nT, which is characterized by fast variations in the orientation and magnitude.
+Hence, in the dayside magnetosheath, THEMIS and Geotail observed similar conditions proper for Q) bow shock.
+[26] During the LPM mode, we do not find correlation for rapid (~minute) variations of the magnetosheath pressure Ptot with the SW pressure Psw and cone angle.
+We have to emphasize that the MP expansion associated with the LPM mode is observed by THEMIS for an unusually long time (~45 min).
+4.
+Disturbed Event on 8 August 2007 [27] Figure 8 shows multiple magnetosphere encounters of THEMIS at unusually large distances of 13.5 to 14.5 Rz accompanied by quasi-radial IMF at 04:00 - 06:00 on 8 August 2007.
+The SW conditions (Figure 2) were slightly disturbed: IMF Bz varied between —2 and | nT, SW velocity was ~600 km/s, and Psw varied around 1.3 nPa.
+The THB/ ESA instrument operated in the slow survey mode.
+The ion thermal pressures calculated for the full and reduced data products show good agreement in the magnetosheath/magnetosphere region.
+[28] As we see in Figure 2, the cone angle decreases below 30° after 0420 UT, and the quasi-radial IMF lasts for ~2 h.
+In Figure 8, we can see that THA observes intense fluxes of energetic particles (+10 keV) and strong magnetosheath pressure variations indicated by the K, ratio.
+Those features confirm the presence of Q) bow shock.
+It is interesting to note a decrease of the energetic particle fluxes and pressure variations at 04:39 - 04:44 when the cone angle increases up to 25° and conditions for the Q) bow shock are broken.
+[29] From ~03:30 - 04:20 UT, the IMF was mostly southward with Bz = —2 nT, which caused substorm activity with AE of ~600 nT that continued until 0520 UT.
+Therefore, from 04:20 - 05:20 UT, the magnetopause is driven by two opposite effects: the small cone angle and enhanced geomagnetic activity.
+Because of decreasing cone angle, one can expect an expansion of the magnetopause.
+Simultaneously, the substorm activity results in earthward motion of the dayside magnetopause because of a depression of the dayside geomagnetic field by the intensified field-aligned currents [Sibeck, 1994].
+[30] A response of the magnetopause and bow shock to the enhanced substorm activity is demonstrated in Figure 8.
+By ~0408 UT, all THEMIS probes were located inside the magnetosheath at distances of 13~14 Rg, which is in agreement with model predictions of the magnetopause and SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 bow shock.
+After ~0408 UT, the outermost probes successively observe the bow shock moving inward and entering the interplanetary medium, which is characterized by very narrow ion spectrum with mean energy of several keV.
+From 04:18 - 04:38 UT, the bow shock is located between THA and THE, somewhere at ~13.5 R-, which is ~1 Rz less than the Ch02 model prediction.
+The THEMIS encounter with interplanetary medium might result from the substormassociated earthward motion of the dayside magnetopause, which is followed by the bow shock.
+[31] From ~0446 UT, the SW pressure gradually decreases, which leads to outward bow shock moving.
+The outermost THEMIS probes return to the magnetosheath at a distance of ~14.2 Rez, which is close to the modeled bow shock location.
+At 0453 UT, the SW pressure decreases to ~1.2 nPa, the IMF 8&z starts to turn northward, and the substorm activity weakens.
+At that time, the innermost THA observed a short (~1 min) magnetopause rebound at 13.5 Rz, which means that the magnetopause has expanded by more than 2 R; from the modeled location.
+During this crossing, an extreme LPM with Prot of 0.2~0.3 nPa (<30% of the SW pressure Psw~1.3 nPa) is observed by all the probes.
+At ~04:57 - 05:00 UT, the THEMIS probes successively cross the magnetopause, which is moving outward with velocity of ~25 km/s (Table 1) up to distances of ~14.5 Ry.
+Unfortunately, THEMIS did not provide high-resolution data on plasma velocities at that time.
+[32] The LPM pressure is balanced by the small pressure of magnetic field of ~20 nT in the magnetosphere.
+From 05:00 - 05:33 UT, we can distinguish three magnetospheric intervals lasting for 4-8 min and recurred every 5—8 min.
+It is interesting to note that during the first and second intervals, when the AE index is still high, the observed geomagnetic field is only 1.5 times higher (even not double) than the dipole magnetic field.
+The pressure balance during +30 s of those crossings almost conserves for the outward MP motions at 05:00 - 05:15 when the MP passes THB.
+This balance indicates that the magnetopause would not move far away and stops near the THB orbit at ~14.5 Re.
+On the other hand, for the observed minimal magnetosheath pressure of 0.16 nPa, we can determine the modeled MP distance of ~15.7+0.5 Rg (1.e., ~1.3 Re above THB).
+These two features (diminished geomagnetic field and smaller MP distance) can be attributed to a suppressing magnetic effect of the substorm activity at the restoring phase.
+[33] The magnetosheath encounter at 05:06 - 05:15 is accompanied with substantial increase of the cone angle.
+The MP moves very fast during this transient event (Table 1).
+At 05:20 - 05:25 UT, the THEMIS probes are located in the magnetosheath and observe enhanced plasma and magnetic pressure and large negative Bz.
+It is rather difficult to determine unambiguously solar wind sources for those magnetosheath features.
+Hence, that magnetosheath rebound might be related to MP undulation with a period of ~10 min.
+[34] At 05:25 - 05:33 UT, the SW pressure decreases to 1.1 nPa and the THEMIS probes reenter to the magnetosphere, where they observe magnetic pressure of 0.17 nPa.
+During the third magnetospheric interval, the AE index decreases substantially and geomagnetic field approaches to the 2.4 dipole value.
+A minimum in the geomagnetic field profile at ~05:29indicates that the MP continues to move after the crossings and might reach even 16 Rz, against the 8 of 16 A10216 SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 _ 10000 y~ 1000 = 100 10] 10000 a2) a 1000 = 100 10 10000 i) | 1006 - tae 10 10000 q ge | 1000 = 100 10 10000 i) A Pues l }O00 100 10 5 ry a Neath 04:00 04°30 05-00 6-30 ne o0 en “ wg wt sft Peak ire ‘tha a! "tg +4 Cc ho2 we i 7: THB Ww 7c.
+- THD ad) : Yea Bae BEE THC - 1 *s SS Tigteege cod Ro ) ; | ¥ tale 4 a THA -_— ki is ye i 7 ) esa, Y ties eens ) rei age gee a = o pAlb | 1 ! | ono / | ts } ! Bace ne * minh ge liane he Vi ne V ie erie 1 = 7 a ge ee es .
+pee = BZTHB 10 ae bs te C , fe li Ar Bz : Ae | ! ACE _600 —— PF lin asi OE ann : We 400 Ko eee | es ee S200 Un UL Goer o I | I | | - rel in _ peu i Aan | | P et ae TL A La - Pe, - —~4 10 | | | Si 5 9 1.0 : a , ! ! ; py LL | @ | Ree , : | ] sii OL U4 ' I | | ‘" | | .
+th | | J | Phan ' - re : a in ET ee NE SF Pen .
+2 10 | 7 oe = k? Oe U | re Hyd \y iy ost Se s: : : Hy : = — A = bo ou, .
+= 6 .
+| 1 aan | ; h \ Lb eta 205 a ~ abe wut 5 aut nee ae £2 —VLLAZEZ — Afhgiet alata : csc am Ana date sl ONS ka Ke o 90 \ » 75 bah ys"t ae eeeer| oS —> 6D lie | 1 1 | | i cD Wi, at ! kid { fi “ 5 45 | r (hing 4 i fa 1 mn ru y\ ,| ag Geotail &~ 30 7 1 al By A ou Pty : “4 | | yyy uf mugt “AA CAC oO 15 | 04:00 04:15 04:45 05:00 UT.
+8 Aug.
+2007 04:30 D5:15 05:46 06:00 Figure 8.
+The same as Figure 6, but for 04:00 - 06:00 on 8 August 2007.
+Instead of the panel with THB velocity components, we show a panel with AE.
+Ratio K is shown for THA (Ka) by a black line and for THB (Kg) by a red line.
+The ACE and Geotail magnetic field cone angles are delayed by 38.5 and —5 min, respectively.
+11.5 Re predicted by the Sh98 model.
+Note that the model prediction is substantially improved by using the magnetosheath pressure Ptot measured by the THA probe.
+[35] We should note that the observed MP is located very close (within 0.5 R;) to the bow shock predicted by the Ch02 model.
+It is very unlikely that the magnetosheath has such a small thickness.
+Hence, we expect more distant bow shock during the LPM.
+We can estimate the magnetosheath thickness and bow shock distance from THEMIS observations of the magnetopause crossings at 05:33and bow shock crossings at 0535 UT.
+Using the time delay technique, we find that at 05:33the MP moves inward with a velocity of ~100 km/s (see Table 1).
+In a similar manner, we can determine the velocity of bow shock of ~100 km/s at 0535 UT.
+Taking into account the 2 min time delay between the magnetopause and bow shock crossings, we estimate the path of ~1.9 Re passed by the bow shock until the crossing with THB.
+That path should be close to the thickness of magnetosheath.
+Hence, at 05:33the bow shock might be located at ~14.5 + 1.9 = 16.4 Re and the thickness of the magnetosheath is estimated to be ~1.9 Ry.
+Such a thin magnetosheath is reported by Jelinek et al.
+[2010].
+9 of 16 A10216 04:30 SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS 05:00 UT, 8 Aug.
+2007 A10216 10000 counts/sample 05:30 06:00 Figure 9.
+Geotail observations in the tail region on 8 August 2007 (from top to bottom): comprehensive plasma instrument and low-energy particle plasma ion spectrograms and magnetic field strength (Geotail time).
+The blue shadow bar indicates the magnetosphere encounter.
+[36] In the tail region, Geotail also observes an unusual MP expansion.
+The ion spectrograms presented in Figure 9 show that most of time Geotail is located in the magnetosheath, which is characterized by a very variable magnetic field.
+During that interval, the low-energy particle plasma instrument operated in a solar wind mode, which was switched to the magnetospheric mode only for a short time from 05:20 - 05:45 UT.
+At ~0523 to ~0530 UT, Geotail enters the magnetosphere at a very large distance of ~28 R; from the x axis.
+At that time, the SW pressure is Psw ~ 1.1 and the Sh98 model predicts the magnetopause distance of 21 Re (1.e., ~7 Re smaller than the observed one).
+The magnetosphere encounter is revealed as a strong decrease of the 1on density and enhancement of the magnetic field that are proper to conditions in the southern lobe/mantle.
+The surrounding regions, where the magnetic field magnitude is depressed and strongly fluctuating, can be attributed to the magnetosheath region downstream of the Q) bow shock.
+[37] Here we have to point out very good correlation of the variations of magnetic field orientation (clock and cone angles) observed by Geotail and THA in the magnetosheath and by ACE in the far upstream region (see Figures 5b, 8, and 9).
+The correlation is broken when magnetopause approaches THA (at 05:00 - 05:30 UT) or Geotail (at 05:15 - 05:30 UT).
+The coincidence of magnetosheath magnetic field orientation with the IMF orientation supports our suggestion that the magnetosphere is indeed affected by the solar wind structure with quasi-radial IMF as observed by ACE.
+[38] From ~0535 UT, the IMF gradually turns southward, the SW pressure increases up to 1.2 nPa and the cone angle varies about 25°~30°.
+The THEMIS probes approach to apogee of 14.7 R- and return to the magnetosheath and/or bow shock region.
+[39] Thus, during this prolonged expansion event (about 40 min to | h), we reveal significant differences between the observed MP location and the Sh98 model: ~3.5 Rez in the dayside and ~7 Rz in the tail region.
+The observed magnetosheath pressure near the magnetopause was ~0.16 nPa and the ratio K ~0.2, both are extremely small.
+The dayside MP undulates with a period of ~10 min near a new equilibrium position, which we find at ~13.5 to 14.5 Rp (Le., somewhere between the innermost THA and outermost THB probes).
+In the beginning of the interval considered, that equilibrium MP location is substantially affected by the enhanced substorm activity.
+5.
+Long-Lasting Event on 4 August 2007 [40] A 14 h interval of quasi-radial IMF occurred at 01:00 - 15:00 on 4 August 2007.
+As one can see in Figure 3, the event is characterized by steady and quiet SW and geomagnetic conditions: the SW velocity is ~400 km/s, the SW total pressure is low and decreases from 0.7 nPa to 0.5 nPa, and IMF Bz, AE, and Dst are small.
+The models predict the MP and bow shock location at ~12.5 and 17~18 Re, respectively (see Figure 10).
+[41] In Figures 3 and 10, we find the expanded MP observed by the outer THEMIS probes continuously during ~4 h from ~0300 to ~0700 UT.
+Then, until ~0800 UT, they observe magnetosheath intervals of a few minutes duration.
+After that time, when THEMIS approaches to apogee of ~14.7 Rp, the probes enter deep into the magnetosheath and sometimes encounter with the magnetosphere.
+[42] Figure 10 demonstrates a part of that at 04:00 - 12:00 UT, when the THEMIS probes are located at the distances from ~12 to 14.7 Rz (see Figure 4c).
+During 04:00 - 07:00 UT, all the probes observe the magnetosphere.
+However, the magnetopause model predicts magnetosheath for the outer probes THB, THC, THD, and THE.
+That is not the case.
+Since THB magnetic field on average is 2.5 times stronger than the dipole, we infer that THB located at ~14.4 Re observes the shielding effect of the ChapmenFerraro current and, hence, it is close to the magnetopause.
+That inference is supported by multiple MP crossings observed by THB at 07:00 - 08:00 UT.
+[43] In the magnetosphere, THEMIS probes observe quasi-periodic variations of the geomagnetic field with average period of ~10 min that indicates MP undulations.
+10 of 16 A10216 SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 é 10000 | 1000 = 100 1Q | ses 10000 | 1000 <= 100 10 " 10000 | 1000 <= 100 10 ” 10000 | 1000 < 100 10 4s 10000 | 1000 <r 100 10 | | 06:00 08:00 10:00 18 17 aa il, a a a A ee a a Ta eR ek, en is te ste tae el Pt Ch0O2 16 i THB ee! bee (racer Meer eS eee —_—s THe —~ 14 ‘ 9 LL worn rae a ae a / ¢' ve : —r ta, | f oF : ri vB 5 i : i ri ' THE 13 5 ce or PIPL LL te OEE TS ASR oon PU Solo A tendon (0 LL “a “| f ; ra anit ie THA LP “Ro Pe pie sii IO SO SIF PES A/S SPIT SAE EIS V OSE NNR Cah Rt PER ee $h98 w ane BACE sda rw Bryp /10 imal wih bi i a i ws BZyHp/10 .
+a : Jul & Coen | hy iy | = = 5 0 vn — on WO! a ‘ \ .
+~~ ‘i ee 1 We , ai A ity fa l ws aan eR.
+= g£ = Qa cone angle (deg) & 04:00 06:00 05:00 07:00 08:00 09:00 10:00 12:00 UT, 4 Aug.
+2007 Figure 10.
+The same as Figure 6 but for 04:00 - 12:00 on 4 August 2007.
+A panel with THA magnetic field (magnitude and components) is shown instead of a panel with THB velocity components.
+Sometimes, about one time per hour, the fluctuations of MP location are so large that the THB crosses the magnetopause.
+Transient magnetosheath rebounds of ~1 min duration are observed by THB at ~0430 UT, ~0525 UT, and ~0630 UT.
+Note, that during this 3 h interval, we find no obvious correlation of the magnetospheric field variations with the SW pressure, although a prominent change of the SW pressure at ~05:00 - 05:20 produces a geomagnetic field decrease.
+[44] After 0700 UT, the outer probes approach to the magnetopause and observe multiple magnetosheath encounters.
+The innermost THA probe does not leave the magnetosphere until ~08:10and observes geomagnetic field variations correlating well with the inward and outward magnetopause motion.
+We have to point out that those MP fluctuations as well as others occurred later (see, for example, THA at 09:00 - 10:00 UT) do not relate to variations of solar wind parameters.
+A similar situation is revealed for 11 of 16 A10216 three magnetosphere rebounds observed by all the probes at 08:20 - 08:40, 09:30 - 09:45, and 10:40 - 11:10 UT.
+Moreover, the MP crossings of THA do not correlate with the magnetosheath pressure variations observed by the outer THEMIS probes.
+[45] From ~0810 UT, all the THEMIS probes successively enter the magnetosheath.
+The innermost probe THA crosses the magnetopause at distance of ~14.0 Rz and enters the magnetosheath for 5 min.
+The average velocity of the inward MP motion is estimated at ~16 km/s, which is not typical for transient events.
+From 0820 UT, all satellites are located inside the magnetosphere and observe decreasing geomagnetic field with minimum at ~0830 UT.
+This means that the MP moves far from the outermost THB probe located at 14.6 R;; 1.e., the magnetopause 1s at distances that are at least ~2.1 R- larger than the Sh98 model prediction of ~12.5 Rg.
+The model prediction becomes much more accurate when we use the magnetosheath total pressure Ptot measured by THB instead solar wind pressure Psw.
+[46] From 0840 UT, all probes enter to the magnetosheath.
+Comparing THE and THA locations and magnetospheric field profiles from 08:30 - 09:00 we determine the MP velocity of 5 km/s and average MP position between 14.2 and 14.5 Re.
+The magnetosheath intervals at 08:40 - 09:30, 09:45 - 10:40, and after 11:10are highly turbulent and populated by sporadic structures of high plasma pressure, which are similar to magnetosheath transient plasma jets [Némecek et al., 1998; Savin et al., 2004, 2008].
+Such transient jets are characterized by intense localized ion fluxes, whose kinetic energy density can be even higher than those in the upstream solar wind.
+[47] In the present case, the magnetosheath total pressure measured by THB fluctuates from 0.3 to 0.7 nPa, and the ratio K varies quickly between 0.3 and 1.3.
+The LPM is characterized by quasi-static flow balance with the base line of Psw ~0.3 nPa and K ~0.4 to 0.5.
+That balance is disturbed by inherent transient dynamics manifested in the plasma jets.
+There is no obvious correlation of the magnetosheath pressure variations with the dynamics of cone angle and/or SW pressure.
+6.
+Discussion [48] We have analyzed three cases of quasi-radial IMF and revealed substantial magnetopause expansions accompanied by nearly constant solar wind total pressure.
+With in situ THEMIS and Geotail observations, we have found that during quasi-radial IMF, the whole magnetosphere is expanded significantly, far beyond the expected position.
+Dramatic decreases in the magnetosheath total pressure in each case were observed by the THEMIS probes.
+[49] At ~05:25on 8 August, THEMIS observed the subsolar magnetopause at distance of ~14.5 Rz, which 1s >3 R,; from the model prediction.
+At the same time, Geotail observed the MP in the tail region at distances of ~7 R; from the model prediction of ~21 R; for Psw ~1.1 nPa.
+That is different from the assumption of bullet-like magnetopause proposed by Merka et al.
+[2003].
+The maximum magnetopause distance of 14.7 Rg, observed by THEMIS in apogee at ~11:00on 4 August for Psw ~0.6 nPa, is restricted by the orbital bias.
+We estimate that the subsolar magnetopause might expand up to 16 Rez.
+SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 [s0] Such a distant position is proper to the bow shock rather than to the magnetopause.
+Because of the orbital bias, the distant bow shock could not be observed for those cases.
+On the basis of average velocities of the magnetopause and bow shock observed at 05:33 - 05:35 on 8 August, we estimate a bow shock distance of ~16.4 Rg and magnetosheath thickness of ~1.9 R;, which is substantially different from their nominal values of ~15 Ry and ~4 Rg, respectively.
+This discrepancy is a subject of further investigations based on THEMIS data in 20:08 - 20:09 when the outer probes move to larger distances from the Earth.
+[51] For quasi-radial IMF, we have found an ambiguous dependence of the subsolar magnetopause distance on the solar wind pressure.
+Namely, the average location of the expanded subsolar magnetopause is estimated at ~12.5 to 12.7 Re for the SW pressure Psw ~1.3—1.5 nPa at ~20:00 - 20:30 on 16 July, ~14.5 Re for the Psw ~1.1—1.3 nPa at ~05:00 - 05:30 on 8 August, and ~14.4 Re for the Psw ~0.5—0.6 nPa at ~06:00 - 08:00 on 4 August.
+The difference in the magnetopause locations cannot be explained by the effect of southward IMF because the magnitude of IMF Bz was very small.
+These cases were not accompanied by geomagnetic storms.
+Therefore, the magnetopause location in these cases is controlled by other driving parameters.
+[52] A significance of these driving parameters is demonstrated in the following example.
+Comparing Figures 6 and 8, we reveal that for the same SW pressure of ~1.3 nPa and northward IMF, the subsolar MP is located between THA and THE (i1.e., between 10.5 and 11.7 Rz) at ~19:55on 16 July, whereas it is beyond 14.5 Ry at ~05:30on 8 August.
+From the presented examples, we can determine the maximal observed displacement of the subsolar MP is at least >3 R, and possibly as large as ~5 Rz, which corresponds to ~30% uncertainty in the MP location.
+[53] It is well known that the magnetopause is driven directly by the plasma and magnetic pressure of adjacent magnetosheath.
+According to classical hydrodynamic theory (see Spreiter et al.
+[1966] for reference), a ratio K of the stagnation pressure at the subsolar magnetopause to the upstream SW pressure should approach to 0.881 when the Mach number is much greater than unity.
+However, after the late 1980s, scientists found indications that MP location under quiet conditions (northward IMF) is controlled not only by the SW pressure but also by the IMF orientation [e.g., Fairfield et al., 1990; Sibeck, 1995].
+It was proposed that during radial (transverse) IMF, the pressure applied to the magnetopause is smaller (higher).
+This idea was used for interpretation of unusually distant MP [Laakso et al., 1998; Merka et al., 2003; Zhang et al., 2009}.
+[54] THEMIS observations of the low-pressure magnetosheath support the idea proposed by Fairfield et al.
+[1990] that the fraction of the SW pressure applied to the magnetopause depends on the orientation of IMF, and for radial IMF the ratio K is considerably smaller than theoretical prediction of 0.881.
+In the case of pronounced LPM, we discover very low thermal pressure Py, and extremely low magnetic pressure P,,, in the magnetosheath, such that only a small portion of solar wind kinetic energy is applied to the subsolar magnetopause and the ratio K is ~0.5 and even less.
+Under such conditions, the magnetosheath plasma ( is very large.
+The high-G magnetosheath for quasi-radial IMF was reported by Le and Russell {1994].
+They showed that during 12 of 16 A10216 quasi-radial IMF the high value of plasma ( in the magnetosheath does not depend on the IMF strength and value of the solar wind plasma /.
+[55] We have to note that the accuracy of ratio K calculation can be greatly affected by the quality of upstream solar wind data and THEMIS calibration errors.
+It is known that the characteristics of SW plasma and IMF affecting the magnetosphere might be different from those observed far upstream of the Earth [Zastenker et al., 1998; Richardson and Paularena, 2001; Riazantseva et al., 2002].
+The difference increases with a spacecraft separation perpendicular to the Sun-Earth line (P-separation), as one can see in Figures 1-3.
+To minimize this effect, upstream data provided by the ACE monitor is used, which has the smallest P-separation.
+In addition, the solar wind with small IMF cone angles is more structured than that for the perpendicular IMF, such that even for small P-separation, solar wind structures observed far upstream correlate weakly with those observed near the Earth.
+Without a near-Earth satellite, this effect is difficult to rule out.
+[56] However, a major parameter controlling that correlation is the variability of the SW density.
+In Figures 1-3, one can see relatively weak density variations as observed by ACE.
+Under such conditions, the SW dynamic pressure detected by ACE 1s close to that detected by Wind at very large P-separation.
+Hence, it is unlikely that the solar wind plasma conditions affecting the Earth’s magnetosphere appear substantially different than that observed in a wide spatial range by ACE and Wind.
+At the same time, we can point out a pure correlation for the IMF such that the quasiradial IMF is observed by Wind occasionally.
+It is reasonable to suggest that Wind observes different IMF due to the large P-separation.
+Therefore, the ACE plasma and magnetic data are more reliable for the present study.
+[57] Absolute calibration of the THEMIS plasma instruments was done through cross calibration with the WindSWE instrument [McFadden et al., 2008].
+As for the considered period of summer 2007, the authors also executed a final test of the absolute calibration when magnetopause crossings were evaluated to check for pressure balance (1.e., the same way used in our study).
+The total pressure was found to be nearly constant during the MP crossings, which proves the accurate absolute calibrations of the plasma instruments.
+Here we have to point out that the THEMIS/ESA instrument operates in various modes.
+The high-resolution measurements of plasma parameters, including velocity, are provided in the fast and slow survey full modes with 1.5 and 6 min resolution.
+Very often in the magnetosheath the instrument operates in the fast survey reduced mode with a low angular/energy resolution and high time resolution (3 s).
+As a result, that mode provides reliable data only for low-speed plasma.
+In the first case event on 16 July, the THEMIS/ESA operated in the fast reduced mode.
+Figure 7 shows that the transversal components of the magnetosheath plasma velocity are not very large in close vicinity of the magnetopause.
+Therefore, the most reliable plasma data and total magnetosheath pressure can be obtained only near the magnetopause.
+The second and third case events, when plasma velocity was unavailable (slow reduced mode with omni-directional spectra), were analyzed on the base of that rule.
+This way, we obtain reliable estimations of the ratio K derived from the ACE and THEMIS data.
+SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 [ss] The problem of solar wind energy transformation in the LPM mode is an important but still poorly understood issue.
+It is quite possible that the origin of LPM is related to particular formation of the bow shock and magnetosheath under quasi-radial IMF conditions that result in redistribution of the solar wind energy and decreasing the portion of energy affecting the magnetopause.
+First of all, the transverse component of quasi-radial IMF is so small that magnetic field is weakly amplified at the bow shock and in the magnetosheath [Le and Russell, 1994].
+[s9] In the literature, we have found a few mechanisms that might cause a low ratio K.
+Wilkinson [2003] presents the high-Mach-number Q) bow shock as a thick (=2—2.5 Rez, radially) magnetic pulsation region, characterized by ion reflection at bow shock front and leakage from the magnetosheath with propagation far into the upstream region and by a rich variety of interacting wave modes and particle distributions.
+In that region, the SW is heated and deflected, often by 20°—40° or more.
+Schwartz and Burgess [1991] propose a general description of that transition zone as a quite filamentary 3-D structure.
+Deceleration of the solar wind upstream of the Q) bow shock is also essential due to the interaction with short large-amplitude magnetic structures [Schwartz et al., 1992] and with ion foreshocks [Zhang et al., 1995].
+[60] Savin et al.
+[2008] suggested another mechanism of the solar energy redistribution inside the magnetosheath.
+They found that the magnetosheath kinetic energy density during more than | h can exhibit an average level and a series of jets (1.e., peaks far exceeding the kinetic energy density in the undisturbed solar wind).
+It was suggested that dynamic interaction in the magnetosheath plasma is nonuniform and intrinsically transient, as the plasma is still evolving from the shocked to a statistically equilibrium turbulent state.
+In the course of this evolution, it seems that processes may occur that concentrate the free energy in the still underdeveloped turbulence and focus the plasma into jets.
+It was noted that the jets could weakly interact with the magnetopause and thus provide the super-diffusive plasma transport inside the magnetosphere.
+Apparently, in the presence of jets, the background magnetosheath energy should be decreased.
+[61] SW structures with quasi-radial IMF are observed quite often at declining speed profiles within the trailing portions of ICME [Neugebauer et al., 1997] or within corotating rarefaction regions [Jones et al., 1998; Gosling and Skoug, 2002].
+Those structures, expanding from the Sun, can last from hours to several days.
+They are characterized by relatively weak IMF and relatively low plasma density/ pressure in the upstream solar wind [e.g., Riley and Gosling, 2007].
+[62] In order to estimate numerically the characteristic properties of solar wind for quasi-radial IMF in the 23rd solar cycle, we have performed a statistical analysis of 16 s ACE magnetic and 1 min plasma data for 11 years from 19:98 - 20:08.
+In Figure 11, a statistical distribution of the solar wind dynamic pressure measured by ACE during intervals of quasi-radial IMF is compared with common distribution for 11 years.
+A deficiency of medium and high pressures is revealed for the intervals of quasi-radial IMF.
+The mean pressure for those intervals 1s ~1.4 nPa, which is smaller than the mean of 1.7 nPa for the common distri 13 of 16 A10216 5E+5 Ca <30 deg all data 4E+5 O 2 E 3E+5 > c ® O Cc © 5 2E+5 O O 1E+5 OE+0 an 1.0 10.0 Pd, nPa Figure 11.
+Statistical distributions of the solar wind dynamic pressure Pd observed by ACE for quasi-radial IMF with cone angle <30° (black solid histogram) and for whole time (gray dotted histogram) in 19:98 - 20:08.
+The mean, median, and most probable values of Pd for those two distributions are about 1.4 and 1.7 nPa, respectively.
+A deficiency of medium and high pressures is revealed for the statistics of quasi-radial IMF.
+bution.
+Note that the mean pressure of 1.7 nPa is smaller than the average SW dynamic pressure of 2 nPa obtained for four solar cycles.
+That relatively small mean pressure results from relatively low solar wind density of ~2 to 4 cm~ owing to an abnormal behavior of the 23rd solar cycle [Dmitriev et al., 2009].
+Therefore, the MP expansion related to quasi-radial IMF can be masked by the effect of low solar wind pressures, which makes statistical finding of the quasiradial IMF effect difficult.
+[63] From the statistical analysis we also find that cone angles of <30° are observed ~16% of the time.
+Figure 12 shows statistical distributions of integral occurrence probability of duration of intervals with cone angles below 30° for whole 11 year period and for 1 year in solar minimum.
+One can see that the intervals with a duration of more than 10 min contribute to ~30% of statistics.
+Therefore, they can be observed ~5% of time.
+Five minutes intervals occur ~8% of the time.
+The number of long-lasting intervals is higher in the solar minimum.
+Thus, the quasi-radial IMF occurs quite often.
+In this sense, the phenomenon of LPM-associated MP expansion might be rather typical than unusual and thus the effect of small cone angle should be taken into account in future magnetopause modeling.
+[64] Figure 13 illustrates the effect of magnetopause expansion for the LPM mode.
+The MP crossings observed by THEMIS on 16 July 2007 and by THEMIS and Geotail on 8 August 2007 can be predicted by the reference model applied for the magnetosheath pressure of 0.5 nPa (K = 0.3) and 0.1 nPa (K = 0.07), respectively.
+Note that the SW pressure for those cases was ~1.1—1.5 nPa.
+The MP cross SUVOROVA ET AL.: MAGNETOPAUSE EXPANSIONS A10216 ings observed by THEMIS on 4 August 2007 are well described by the model calculated for the magnetosheath pressure of 0.3 nPa, while the SW pressure is 0.6 nPa.
+[65] The expanded outer magnetosphere has a lower magnetic field and thus becomes more sensitive to variations of both major and minor driving parameters.
+As a result, a small change in the SW pressure and/or IMF orientation can lead to a substantial transient motion of the boundary.
+We have also found MP displacements in response to variations of substorm activity, represented by the AF index.
+Therefore, during LPM the effect of cone angle can strongly interfere with effects produced by other driving parameters.
+[66] We observed several cases of prominent MP inward/ outward motion when the cone angle exceeds/falls down a certain threshold of 20° to 25°.
+However, we also have found a number of cases when the MP motion is not related to both variations of the upstream parameters, including the cone angle and the magnetosheath pressure.
+Such motion probably can be attributed to the MP undulations with a wide range of periods.
+Thus, a feature of the MP dynamics for long-lasting quasi-radial IMF is characterized by a superposition of the steady state expansion and wavy MP motion.
+New equilibrium position of the MP can be remote by several R; from the nominal.
+That position 1s mainly controlled by the ratio K, which is much smaller than the theoretical prediction of 0.881.
+The magnetopause undulates near the new equilibrium location.
+The velocity of undulating magnetopause is found to be highly variable from several kilometers per second to >200 km/s (see Table 1).
+A 1.00 — =| \ | \ \ \ Pa, \ Fe} s : a © \ for ANS ® \ So) \ = ® 0.10 \\ = % O \ 6 N — 1.1 > © Y=3/X ‘SC o) L a £ _ 19:98 - 20:08 =.
+| 0.01 0 10 20 30 8=640 50 60 70 80 90 Duration, min 100 110 120 Figure 12.
+Integral occurrence probability of intervals with quasi-radial IMF (cone angle <30°) constructed on the base of 16 s resolution ACE magnetic data for 11 years from 19:98 - 20:08 (black solid line) and for the year 2007 (gray dotted line).
+The 11 year distribution can be fit by a power function (dashed line) with the exponent of ~1.1.
+The solar minimum in 2007 is enriched by long-lasting intervals of quasi-parallel IMF.
+14 of 16 A10216 SUVOROVA ET AL.: 30 T Geotail ~~~__ st 25 8 Aug ~~ 20 fo NA 4 Ts S .
+\ aa sy Sy 15 + “Ys Geotalr.
+T T6, Jul ae 10 + \ 4 t \ Co) T \ Ee 5 +t \ 4 yy T ‘4 2 t 1] oe 0 +++ 4 +++} +++ ++ + 4— ~ t THEMIS 1] = t 16 Jul 9 um j ] a> 9 r THEMIS i 7 ic + 4Aug / THEMIS + “ BA -10 T .
+uy T / + 4 T a -15 tT 4 1.5 nPa + oe Te “7 -20 7 Tr eae 7 “0.5 nPa 4-7 -25 weet TL J ~-- 0.1 nPa tL -30 -10 -5 0 5 10 15 X, Re Figure 13.
+GSM locations of the THEMIS probes and Geotail at 19:50 - 20:37 on 16 July 2007, 04:00 - 06:00 on 8 August 2007, and 04:00 - 12:00 on 4 August 2007.
+The magnetopause profiles are predicted by a reference model [Shue et al., 1998] for various pressures: 0.1 (dashed line), 0.5 (dotted line), and 1.5 nPa (solid line).
+similar range of the MP velocities for quasi-radial IMF was reported by Le and Russell [1994].
+[67] We have to point out that the ratio K has no direct linear relationship with the cone angle.
+We observe that for the large cone angles of >25°, the ratio increases and approaches to its theoretical value.
+However, the small cone angles (<20°) are accompanied by the K varying in a wide range from 0.16 to 0.6.
+We can assume that the value of K for quasi-radial IMF depends on the upstream SW plasma (3.
+On 16 July and 4 August, when the proton @ was much smaller than 1, the value of K was about 0.5.
+During the interval of very low K on 8 August, the SW plasma (@ was close to 1 and even larger.
+[68] Our assumption is based on results of magnetosheath modeling.
+De Sterck and Poedts {1999, 2001] investigated the bow shock and magnetosheath topology for quasi-radial IMF, a Mach number less than 6, and low proton ( (<0.6).
+The 3-D MHD simulation was performed for the idealized setting of flow around a rigid paraboloid magnetopause.
+The authors reveal very complex topology of the bow shock and magnetosheath, which is controlled by three SW parameters: (3, the Mach number, and IMF cone angle.
+It is hard to apply those results directly to our cases, which are accompanied by high Mach numbers and relatively high proton (@ (>0.6).
+However, it is possible that the same driving parameters might control the LPM mode.
+MAGNETOPAUSE EXPANSIONS A10216 [69] In the present study, we demonstrate three cases characterized by different durations, upstream solar wind and magnetosheath plasma properties, and magnetospheric conditions.
+But they have one common feature: LPM.
+It is quite possible that the LPM might result from different mechanisms.
+Thus, we believe that further comprehensive statistical study of the magnetosheath plasma and magnetic field properties is an important key to a clear insight into the mechanisms of the LPM formation.
+7.
+Conclusions [70] With THEMIS data, we reveal that the magnetopause expansions are caused by a significant decrease of total pressure in high-(@ magnetosheath (LPM mode).
+Prominent LPM mode is observed when the IMF cone angles are less than 20° ~ 25°.
+[71] From simultaneous observations of Geotail and THEMIS, we infer a global expansion of the magnetopause.
+The magnetopause is found more than 3 and ~7 Rg away from the nominal location in the dayside and tail region, respectively.
+[72] The MP expansion can persist for a few hours, as long as quasi-radial IMF conditions, which indicates a steady state process driving the magnetopause.
+The equilibrium MP position was determined at 12.5 to 12.7 Re for the upstream SW pressure Psw ~1.3—1.5 nPa and the adjacent magnetosheath total pressure Prot ~0.5 nPa, ~14.5 Rz for Psw ~1.1—1.3 nPa and Prot ~0.16—0.3 nPa, and ~14.4 R; for Psw ~0.5—0.6 nPa and Ptot ~0.25—0.35 nPa.
+The equilibrium MP position is affected by geomagnetic activity.
+[73] Minimal value of the total pressure observed by THEMIS in the adjacent magnetosheath is 0.16 nPa and thus the fraction K of the SW pressure applied to the MP can be as extremely small as 0.2.
+The ratio K decreases with increasing upstream SW plasma (3.
+[74] Statistical study of 11 years of ACE data reveals that the quasi-radial IMF conditions are not very rare and occur for ~16% of time.
+Those conditions frequently interfere with the small solar wind pressure, which makes it difficult to distinguish the cone angle effect statistically.
+[75] Acknowledgments.
+We acknowledge NASA contract NAS502099 and V.
+Angelopoulos for use of data from the THEMIS mission.
+We thank K.H.
+Glassmeier and U.
+Auster for the use of FGM data provided under contract 50 OC 0302.
+We thank N.
+Ness and D.J.
+McComas for the use of ACE solar wind data made available via the CDAWeb.
+The Geotail magnetic field and plasma data were provided by T.
+Nagai and Y.
+Saito, respectively.
+This work was supported by grants NSC 98-2811-M-008043, NSC-98-2111-M-008-019, and NSC 98-2111-M-008-004.
+The work at Charles University was supported by the Czech Grant Agency under contract 205/09/0112 and by the Research Plan MSM 0021620860.
+[76] Philippa Browning thanks Nick Omidi and another reviewer for their assistance in evaluating this paper.
+.

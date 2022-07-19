@@ -1,0 +1,2708 @@
+10
+
+11
+
+12
+
+13
+
+14
+
+15
+
+16
+
+17
+
+® Check for updates
+
+A two-spacecraft study of Mars’ induced
+magnetosphere’s response to upstream conditions
+
+Katerina Stergiopoulou!?, David J. Andrews!, Niklas J. T. Edberg!, Jasper
+Halekas’, Mark Lester*, Beatriz SAanchez-Cano*, Andrew P. Dimmock', Jacob
+
+R. Gruesbeck?
+
+1 Swedish Institute of Space Physics, Uppsala, Sweden
+2Space and Plasma Physics, Department of Physics and Astronomy, Uppsala University, Uppsala, Sweden
+
+3Department of Physics and Astronomy, University of Iowa, Iowa City, IA, USA
+
+“School of Physics and Astronomy, University of Leicester, Leicester, UK
+
+°Goddard Space Flight Center, Greenbelt, MD, USA
+
+Key Points:
+
+¢ MEX and MAVEN data are used to examine the response of Mars’ induced magnetosphere to the solar wind
+
+¢ We find that induced magnetic fields are enhanced relative to the IMF during intervals of lower dynamic pressure
+
+¢ Comparing induced fields to the instantaneous IMF reveals more structure in the
+
+interaction region at high altitudes
+
+Corresponding author: Katerina Stergiopoulou, katerina@irfu.se
+
+This article has been accepted for publication and undergone full peer review but has not been through
+the copyediting, typesetting, pagination and proofreading process, which may lead to differences between
+this version and the Version of Record. Please cite this article as doi: 10.1029/2021JA030227.
+
+This article is protected by copyright. All rights reserved.
+18
+
+19
+
+20
+
+21
+
+22
+
+23
+
+24
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+31
+
+32
+
+33
+
+34
+
+35
+
+36
+
+37
+
+38
+
+39
+
+40
+
+41
+
+42
+
+43
+
+44
+
+45
+
+46
+
+47
+
+Abstract
+
+This is a two-spacecraft study, in which we investigate the effects of the upstream solar wind conditions on the Martian induced magnetosphere and upper ionosphere. We
+use Mars Express (MEX) magnetic field magnitude data together with interplanetary
+magnetic field (IMF), solar wind density, and velocity measurements from the Mars Atmosphere and Volatile EvolutioN (MAVEN) mission, from November 2014 to November 2018. We compare simultaneous observations of the magnetic field magnitude in the
+induced magnetosphere of Mars (|Blyq) with the IMF magnitude (|B|pyr), and we examine variations in the ratio |B]ty/|Bl~mr with solar wind dynamic pressure, speed and
+density. We find that the |B|~y/|B|nir ratio in the induced magnetosphere generally decreases with increased dynamic pressure and that a more structured interaction is seen
+when comparing induced fields to the instantaneous IMF, where reductions in the relative fields at the magnetic pile up boundary (MPB) are more evident than in the field
+
+strength itself, along with enhancements in the immediate vicinity of the optical shadow
+
+of Mars. We interpret these results as evidence that while the induced magnetosphere
+is indeed compressed and induced field strengths are higher during periods of high dynamic pressure, a relatively larger amount of magnetic flux threads the region compared
+
+to that available from the unperturbed IMF during low dynamic pressure intervals.
+
+Plain Language Summary
+
+The solar wind input to the Martian system plays a decisive role in formulating the
+
+morphology of the near-Mars plasma environment. Specifically, ion escape rates, the plasma
+
+boundary locations around the planet and the structure of the induced magnetosphere
+in general have been shown by numerous studies to be influenced by the upstream solar wind conditions. In this work, we use simultaneous measurements from MEX and
+MAVEN to probe the response of the Martian induced magnetosphere and upper ionosphere to different regimes of solar wind dynamic pressure, speed and density. We find
+
+that despite the stronger magnetic fields observed in the induced magnetosphere dur
+ing periods of high solar wind dynamic pressure, when we compare these fields with the
+interplanetary magnetic field (IMF) measured simultaneously, we see in fact relative en
+hancements for low solar wind dynamic pressure.
+
+This article is protected by copyright. All rights reserved.
+48
+
+49
+
+50
+
+51
+
+52
+
+53
+
+54
+
+55
+
+56
+
+57
+
+58
+
+59
+
+60
+
+61
+
+62
+
+63
+
+64
+
+65
+
+66
+
+67
+
+68
+
+69
+
+70
+
+71
+
+72
+
+73
+
+74
+
+75
+
+76
+
+77
+
+78
+
+79
+
+80
+
+1 Introduction
+
+Mars has no intrinsic dipolar magnetic field with which to stand off the incoming
+solar wind. Instead its conducting ionosphere acts as an effective obstacle to the incoming solar wind and an induced magnetosphere is formed, the structure of which is determined for instance by the solar wind input, ultraviolet (UV) radiation, the Martian
+crustal magnetic fields and the underlying neutral atmosphere (Nagy et al., 2004; Bertucci
+et al., 2011). Many aspects of the Mars-solar wind interaction are outwardly comparable to those at Venus, as was extensively studied during the Pioneer-Venus era, and thus
+much of the understanding developed initially for Venus can be transferred to the Mars
+interaction, despite differences of scale, solar wind conditions etc. (Luhmann & Cravens,
+1991). Moreover, the Mars-solar wind interaction has been extensively studied in recent
+years by ESA’s Mars Express (MEX) and NASA’s Mars Atmosphere and Volatile Evo
+lutioN (MAVEN) missions, and relevant aspects are summarized below.
+
+The Mars-solar wind interaction is typically characterized by the formation of several distinct plasma boundaries separating regions of differing plasma properties and compositions. At the largest distances, the bow shock is formed upstream from the planet,
+inside which the solar wind is slowed, heated and deflected around the ionospheric obstacle in the magnetosheath (i.e Vignes et al., 2000; Mazelle et al., 2004; Hall et al., 2019).
+The magnetic pile-up boundary (MPB, and sometimes alternately referred to as the induced magnetospheric boundary, IMB) is that surface that separates the heated solar
+wind plasma of the magnetosheath from the upper layers of the Martian ionosphere. Im
+portantly, however, no strong consensus yet exists regarding the physical parameters that
+
+specifically delineate the MPB. It has variously been defined as a pressure-balance surface (Holmberg et al., 2019; Girazian et al., 2019), or by gradients in plasma and field
+pressures (Wang et al., 2021), and is also at least often well correlated with changes in
+the plasma composition from solar wind (H+) to planetary ions (O+, O3 ) dominated
+regimes (hence the occasionally used name, ion composition boundary, ICB) (Halekas
+
+et al., 2018). Comparing these different definitions, it should be noted that the differences in location and behavior remain generally small compared to the intrinsic variability of the location of the MPB with upstream conditions. In this paper we adopt a definition of the MPB as the lower edge of the magnetosheath as being sufficient for the essentially illustrative purposes required here. Similarly, the magnetic pile up region (MPR)
+
+can be taken to be defined as the region below the MPB. A sharp gradient in plasma den
+This article is protected by copyright. All rights reserved.
+81
+
+82
+
+112
+
+113
+
+sity, termed the ionopause, is also often observed at altitudes below the nominal MPB,
+and is named in analogy with a similar plasma boundary found in the unmagnetized state
+
+of the Venusian ionosphere and induced magnetosphere (e.g. Duru et al., 2009).
+
+The locations of the bow shock as well as of the MPB have been determined and
+
+parameterized in several studies (i.e. Vignes et al., 2000; Trotignon et al., 2006; Edberg
+
+et al., 2008; Gruesbeck et al., 2018; Némec et al., 2020; Wang et al., 2020). These boundaries though are not fixed in altitude or shape, and appear to have a dynamic relationship with various parameters, such as extreme ultraviolet (EUV) radiation, crustal magnetic fields, solar wind parameters, interplanetary magnetic field (IMF) orientation, Martian seasons and solar cycle (Brain et al., 2005; Edberg et al., 2008, 2009; Hall et al., 2016;
+Ramstad, Barabash, Futaana, & Holmstrom, 2017; Matsunaga et al., 2017; Hall et al.,
+2019). The solar wind dynamic pressure (Payn) has been examined as a controlling factor in the work of Crider et al. (2003), Brain et al. (2005) and Edberg et al. (2009). The
+solar wind dynamic pressure term dominates upstream of Mars, but in the magnetosheath,
+as the solar wind is decelerated and heated, the thermal pressure becomes significant compared to the dynamic pressure, while in the MPR the dominant term is the magnetic
+pressure (Crider et al., 2003; Dubinin et al., 2008; Holmberg et al., 2019). Crider et al.
+
+(2003), using the magnetic pressure in the MPR as a proxy for Piyn, have shown that
+
+for high Payn the MPB moves closer to the planet. The dependence of the MPB location on Payn was additionally confirmed by Brain et al. (2005). The downward shifting
+of the bow shock and MPB locations during periods of high Payy was once more demonstrated in a statistical study by Edberg et al. (2009). The ionopause’s location is also
+dependent on Payn, aS when it is found (457% rate of occurrence in MAVEN electron density profiles) it is located at the altitude where the total ionospheric pressure approximately balances the solar wind dynamic pressure (Sanchez-Cano et al., 2020). Holmberg
+et al. (2019), following the earlier study by Dubinin et al. (2008) computed the individual contributions (dynamic, thermal and magnetic) to the pressure in the plasma near
+the sub-solar point, showing clearly that a balance between the upstream dynamic pressure and the magnetic pressure in the induced magnetosphere is generally satisfied, though
+
+it may often not be appropriate to describe this region wholly by the complete separa
+tion of plasma regimes across well-defined boundaries.
+
+Taking advantage of the long durations over which MEX and MAVEN have been
+
+orbiting Mars, the aim of this work is to further assess the response of the Martian in
+This article is protected by copyright. All rights reserved.
+114 duced magnetosphere to upstream conditions through simultaneous in-situ observations.
+115 In this paper we combine data from MEX and MAVEN, taken during the period from
+116 November 2014 to November 2018, and compare the strength of the magnetic fields MEX
+
+117 measures in the induced magnetosphere with the upstream IMF as observed by MAVEN
+
+118 at the same time, for low, intermediate and high solar wind dynamic pressure, speed and
+119 density. This affords a comparison of the extent to which the induced magnetosphere
+120 is altered in its structure in response to variations in the solar wind, and provides a mea
+121 sure by which the draping of the IMF in the induced magnetosphere can be compared
+
+122 to the unperturbed solar wind. In section 2 we present solar wind statistical correlations
+123 and results of the magnetospheric response to various upstream conditions, in section
+
+124 3 we discuss our findings and in section 4 we summarize our main conclusions.
+
+125 2 Observations
+
+126 We use simultaneous measurements from the Mars Advanced Radar for Subsur
+127 face and Ionosphere Sounding (MARSIS) instrument on board MEX, and from the So128 lar Wind Ion Analyzer (SWIA) instrument and magnetometer (MAG) on board MAVEN
+
+129 during the period between November 2014 and November 2018, to observe the response
+130 of the induced magnetosphere of Mars to upstream solar wind conditions. The ~4 year
+131 interval, from which the data used in this study comes from, is dictated primarily by the
+
+132 availability of extended measurements in the pristine solar wind by MAVEN. Due to the
+
+133 aerobraking phase that commenced in early 2019 and the subsequent reduction in apoap
+134 sis altitude, MAVEN now spends a smaller percentage of the time in the undisturbed
+
+135 solar wind.
+
+136 When operated in the Active Ionospheric Sounding (AIS) mode, MARSIS measures
+
+137 the propagation time delay of radar pulses with frequencies ~0.1-5.5 MHz from the space138 craft to the Martian ionosphere, where they are reflected as they enter the dense plan
+139 etary plasma (Picardi et al., 2004; Jordan et al., 2009; Gurnett et al., 2005). The pulse
+
+140 sequence is repeated every 7.5 seconds while the instrument is active. Typically MAR
+141 SIS is operated at altitudes below ~1500 km, although it is not activated in AIS mode
+
+142 during each periapsis pass. In AIS mode, MARSIS is also able to measure the local elec
+143 tron density, through the oscillations excited near the spacecraft at the local plasma fre
+144 quency and its higher harmonics (Gurnett et al., 2005), albeit only during intervals when
+
+145 MEX is not located in fast flowing plasma regions and for electron densities ne >~ 10 cm~?
+—5h—
+
+This article is protected by copyright. All rights reserved.
+146
+
+148
+
+149
+
+150
+
+152
+
+153
+
+154
+
+155
+
+156
+
+158
+
+159
+
+160
+
+162
+
+163
+
+164
+
+165
+
+166
+
+168
+
+169
+
+170
+
+172
+
+173
+
+174
+
+175
+
+176
+
+178
+
+(Duru et al., 2008). Furthermore, the local magnetic field magnitude at the spacecraft
+altitude can often be calculated from signals at the cyclotron frequency of accelerated
+electrons near the antenna (Gurnett et al., 2005). We emphasize that this measurement
+does not provide any information regarding the magnetic field vector. In this paper, only
+in-situ measurements from MARSIS in AIS mode are analyzed, using the highest possible measurement cadence of 7.5 seconds and processed as described by Andrews et al.
+
+(2013) and Andrews et al. (2015).
+
+To obtain a clearer understanding of the processes controlling the structure of the
+Martian induced magnetosphere, upstream solar wind parameters need to be taken into
+account for a real time comparison. The necessary solar wind input is provided by SWIA
+and MAG onboard MAVEN (Halekas, Ruhunusiri, et al., 2017). SWIA measures ion density, temperature and velocity in the solar wind and magnetosheath within an energy
+range of 5 eV to 25 keV and a time resolution of 4 seconds (Halekas et al., 2015), while
+the two fluxgate magnetometer sensors measure the vector magnetic field with a sample rate of 32 samples per second (Connerney et al., 2015). Preceding the aerobraking
+operations phase in early 2019, MAVEN’s elliptical orbit permitted it to routinely sample the solar wind directly, although not continuously. Processing of these data on ground
+to improve the quality of the derived quantities further reduces their cadence to ~46 seconds, averaging over the effects of upstream fluctuations with shorter timescales (Halekas,
+Ruhunusiri, et al., 2017). Intervals where the instrument did not directly sample the undisturbed (” pristine”) solar wind are excluded (Halekas, Ruhunusiri, et al., 2017). These
+measurements of solar wind density, velocity, and the IMF can be taken to provide concurrent upstream driving conditions to compare to measurements from MEX, and their
+effects on the induced magnetosphere and ionosphere can be studied. We note that while
+MAVEN only encounters the pristine solar wind on ~60% of all orbits (Halekas, Ruhunusiri,
+et al., 2017), the fraction of time for which MARSIS is operated in AIS mode on MEX
+is much smaller, less than 10% (Gurnett et al., 2005). Thus, intervals of simultaneous
+
+measurements remain relatively rare.
+
+To demonstrate what we consider as simultaneous observations between the two
+spacecraft throughout this paper, in Figure 1, we show as an example data from MEX
+orbit 14767 and MAVEN orbit 1754 obtained during Day Of Year (DOY) 235 and 236
+
+in 2015. In Figures la and b, the energy spectrum and the density and speed of the pris
+tine solar wind (Halekas, Ruhunusiri, et al., 2017) from SWIA on MAVEN are presented.
+
+This article is protected by copyright. All rights reserved.
+In Figure 1c, the magnetic field magnitude from MARSIS on MEX (Andrews et al., 2015)
+in the induced magnetosphere, |B] (black dots), and the crustal magnetic field strength
+at the spacecraft location (blue line) based on the model by Cain et al. (2003), are shown.
+It can be seen that, close to periapsis at ~23:37, the measured magnetic field agrees closely
+
+with that predicted by the Cain et al. (2003) model, but deviates from it at higher al
+titudes where the relative contribution of the draped IMF becomes larger. For completeness, we also show those erroneous measurements of magnetic field strength that can clearly
+be seen to deviate from the general trends, both to higher and lower values, which we
+
+attribute to additional noise in the ionograms from which these values are ultimately de
+rived. In Figures 1d and e the MEX and MAVEN trajectories in MSO coordinates are
+
+depicted as red and blue lines respectively in Mars radii units (1 Ray = 3389.5 km) with
+PMSO = JY eso + Zeig0 . The black segment on the red MEX orbit trace denotes the
+time during which MARSIS was operating in AIS mode, while the black boxes on the
+blue orbit show where MAVEN was located during the same interval. The dotted and
+dashed lines in Figure 1d represent the bow shock and MPB locations based on the model
+by Vignes et al. (2000). Comparing the trajectory plot of Figure 1d with Figures la and
+b, we notice that MAVEN happens to be located in the solar wind only for a few min
+utes during the MARSIS ionospheric passing.
+
+The simultaneous data used in this study from these specific orbits are contained
+in the grey shaded region shown in Figures 1b and c. For each |B|r,_ data point by MARSIS we look for the temporally closest solar wind observation by MAVEN within 300 seconds; when this condition is fulfilled we then consider this pair of observations as simultaneous, as illustrated with the grey shaded area in Figures 1b and c. If possible, i.e. when
+solar wind measurements are available both before and after a MARSIS measurement,
+linear interpolation is also performed. Longer intervals of unavailable data, due e.g. to
+MAVEN leaving the undisturbed solar wind, MARSIS deactivating or switching out of
+AIS mode, or any other reason, are not further analyzed. Thus, when this approach is
+applied to the interval shown in Figure 1, only MARSIS data obtained within the grey
+shaded interval are further considered in this study, and all other data are rejected for
+further analysis. The 300 second upper limit applied as part of the selection of data is
+
+in part chosen to overcome atypical MARSIS operations schemes where the instrument
+
+is repeatedly switched between sub-surface and ionospheric sounding. It should be noted
+
+that this does not mean that the data are averaged in any way over this timescale; in
+—7—
+
+This article is protected by copyright. All rights reserved.
+212
+
+213
+
+214
+
+215
+
+216
+
+218
+
+219
+
+220
+
+222
+
+223
+
+224
+
+225
+
+226
+
+228
+
+229
+
+230
+
+231
+
+232
+
+233
+
+234
+
+235
+
+236
+
+238
+
+239
+
+240
+
+242
+
+243
+
+244
+
+stead, the median elapsed time between individual MARSIS and SWIA measurements
+compared in this study is found to be ~16 seconds, and the time interval between simultaneous pairs of data points does not exceed 300 seconds. We note that this approach
+
+differs somewhat from that used by Girazian et al. (2019) in analyzing data from both
+
+MAVEN and MEX, where average solar wind parameters were computed for an hourlong interval prior to the AIS data acquisition on each MEX orbit, and therefore variations in upstream conditions during the interval over which AIS data are acquired are
+not factored into their analysis. Furthermore, we note that a related analysis has been
+presented by Halekas, Brain, et al. (2017), in which the X-component of the magnetic
+field in the induced magnetosphere was compared to the upstream value, determined us
+ing single-spacecraft measurements.
+
+To briefly illustrate the typical range and interdependencies of the upstream conditions, we summarize the solar wind and IMF measurements from MAVEN in Figure
+2. Specifically, we show the correlations between the solar wind dynamic pressure (Payn,
+Figure 2a), speed (|v|,, Figure 2b) and density (nsw, Figure 2c) with IMF (|Blrmr), as
+well as the anti-correlation between solar wind density and speed (Figure 2d). The Spearman’s rank correlation coefficient, p, for the corresponding quantities has also been calculated and it is shown in each panel. In each case, only data taken in the pristine so
+lar wind are shown, and the solar wind dynamic pressure is Payn = Psw v2, where Psw
+
+sw?
+is the solar wind mass density and vgw the solar wind velocity. Data are shown only for
+the interval from November 2014 to November 2018 during periods where MEX AIS measurements of the magnetic field magnitude were simultaneously available, as used in this
+study and demonstrated in the example orbits in Figure 1. The color-code in the four
+subplots represents the number of data points (N) per bin. The quantities depicted in
+Figure 2 (Payn, |Vloy> %sw» |Blnur) vary within their typical ranges. We observe a general trend of higher dynamic pressure corresponding to greater IMF magnitude values
+(Figure 2a), which is also seen in solar wind density (Figure 2c), whereas in the speed
+IMF relationship (Figure 2b) no such trend is observed. Furthermore, the solar wind den
+sity and speed exhibit a degree of anti-correlation (Figure 2d).
+
+Next, we proceed by examining the strength of the magnetic field measured in the
+induced magnetosphere at the location of MEX, |B|yy, and comparing it to the instantaneous value of the unperturbed IMF at MAVEN location, |B|nzr. The total magnetic
+
+field strength measured by MARSIS in the Martian ionosphere can be considered as the
+
+This article is protected by copyright. All rights reserved.
+manuscript submitted to JGR: Space Physics
+
+164 MEX 14767 - MAVEN 1754
+
+E (eV)
+
+103 4
+
+102
+a 10!
+iS
+2.
+=
+WH
+Cc
+10°
+102
+c
+=
+cc
+~ 1
+= 10 —s
+co
+10°
+23:20 23:40
+2015-235
+UTC HH:MM
+YYYY-DOY
+
+MEX Orbit 14767
+MAVEN Orbit 1754
+
+Pmso (Rm)
+Zuso (Rm)
+
+BR
+Oo
+00
+
+=
+S
+SWIA D.E.F.
+
+IVIsw (km s~+)
+
+Xmuso (Rm)
+
+Figure 1.
+
+i
+
+This article is protected by copyright. All rights reserved.
+
+Yuso (Rm)
+
+Caption next page.
+245
+
+246
+
+248
+
+249
+
+250
+
+252
+
+253
+
+254
+
+255
+
+256
+
+258
+
+259
+
+260
+
+Figure 1. Example of simultaneous observations during MEX and MAVEN orbits 14767 and
+1754 respectively, for parts of DOY 235 and 236. We show (a) the energy spectrum from SWIA
+with the differential energy flux (D.E.F.) color-coded in units of eV/(cm’ s sr eV), (b) the solar
+wind density (black circles, left axis) and speed (red circles, right axis) determined by SWIA
+(Halekas, Ruhunusiri, et al., 2017), (c) the magnetic field magnitude from MARSIS (Andrews
+et al., 2015) in black and the strength of the crustal magnetic fields at the spacecraft location
+in blue, based on the model by Cain et al. (2003), (d) the trajectories of the orbits of MEX in
+red and of MAVEN in blue in cylindrical MSO coordinates and (e) the trajectories of the orbits in the YZ MSO plane in Mars radii (Raz) units. The grey shaded area in Figures 1b and
+
+c represents the simultaneous MEX and MAVEN data selected from these orbits. The dotted
+and dashed lines in Figure 1d denote the bow shock and MPB locations based on the model
+
+by Vignes et al. (2000), while the black part on the red MEX orbit and the black squares on
+MAVEN orbit, in Figures 1d and e, depict the interval MARSIS was operating in AIS mode and
+
+where MAVEN was located at that same interval respectively.
+
+sum of the induced fields (i.e. the draped IMF), any crustal fields present at the location of the spacecraft, and any additional sources that may be present. However, since
+the measurements made are scalar in nature, there is no possibility to recover any of these
+individual physical contributions. For example, even though the crustal field is stable
+
+and well described by existing models, and there is therefore known a priori, neither the
+vector nor the magnitude of the remaining induced field (together with any other field
+sources) can be obtained by any physically justified operation on the measured total field.
+For completeness, we note that it is sometimes feasible to make an assumption of a purely
+horizontal, homogeneous induced field and obtain this vector by regression analysis when
+MEX crosses through regions of similarly intense crustal fields with large variations in
+orientation, as was done by Akalin et al. 2010. This approach is only viable though during a small selection of MEX orbits, and moreover yields only a single induced field vec
+tor per periapsis pass of MEX, and hence it is not suitable for the approach taken in this
+
+paper.
+
+We examine the behaviour of the |B|ty/|Blrr ratio and thus we look at its cor
+relation with Payn as well as with the Mach number, as a controlling factor of the IMF
+
+—10-—
+
+This article is protected by copyright. All rights reserved.
+10 10 10°
+p=0.64 p =0.09
+10"! a, —_
+sme ws pth, ~"™L o
+¥ oe i 9 2 es . 9
+' Ol a 10 6x 10 3 ys 10
+eee ee ed” « ‘ 5,
+3 wher ay , eae
+a 10° = vale j] Matis rs "EE. fo bee oa 3
+= mee compe fara | Zz ol i eh Zz.
+5 Gees a S 4x10" mal ee eet aes
+oa Xe aa re ' - a. mai Pea = are
+= st 8 1 : += sees gt 1
+a ‘ oma.” ||
+1 . 2 Sia Babee
+10 3x10 —_
+7 ; 10° 2x 10° 7 10°
+v 0 10 10
+|Blimr (NT) |Blime (NT)
+c ag? d 10°
+p =0.53 p =-0.39
+7
+2 i om |
+| Li
+= wy i aa 4 * al
+10 eg a 10 ae TL 4
+: a ee 10° her 10°
+i Eo et aioe | PB Seka rt
+: Peta z ; ake dienes, z
+wd F a) Se, Bas tigi ee “s = are “rie Car]:
+on oa Tal ml
+S| eee de, * , 8 eee |
+10° iy Siew E 10 10° b ri ape 10
+ae eo re oe
+" *
+L | |
+0 0
+: 10 10
+10' 2x10° 3x10" 4x10" = 6x 10° 10°
+|Blimr (nT) |Vlsw (km/s)
+
+Figure 2. Correlation between (a) Payn, (b) |v|,,,, (c) Nsw and IMF, and between (d) nsw and
+lvl: We only use data from SWIA and MAG from November 2014 to November 2018 during
+the periods for which simultaneous MEX MARSIS AIS magnetic field magnitude data were also
+available. The number of the data points per bin is displayed color-coded, and p is the Spear
+man’s rank correlation coefficient of the corresponding quantities.
+—] 1-—
+
+This article is protected by copyright. All rights reserved.
+262
+
+263
+
+264
+
+265
+
+266
+
+268
+
+269
+
+270
+
+272
+
+273
+
+274
+
+275
+
+276
+
+278
+
+279
+
+280
+
+282
+
+283
+
+284
+
+285
+
+286
+
+288
+
+289
+
+290
+
+strength and the compression ratio across the shock. The Alfvén Mach number squared
+
+is given by the expression
+
+VE. = v2, = (=¥ Hops) = LoPayn (1)
+= —_/§=—=veesSFSXF | =
+VA |Blimr Bivr
+where va is the Alfvén speed, va = Slime , Lo is the vacuum permeability and psy is
+V HOPsw Ht p
+
+the mass density considering only protons in the solar wind.
+
+In Figure 3a we show how the |B|p/|Blmr ratio varies with Payn/ Bye (left axis)
+and Mach number, M4, (right axis), and in Figure 3b we show |B|jm/|Blusr against Payn.
+Figures 3c and 3d present the same parameters but for the northern hemisphere dayside only. In each subplot of Figure 3, Spearman’s correlation coefficient, p, of the corresponding quantities is also shown. To calculate |B|1),/|B|nir, we utilize magnetic field
+magnitude observations from MARSIS in the induced magnetosphere (|B|yy), derived
+
+with the cyclotron echo method (Andrews et al., 2015). We then divide each | Blt value
+
+with the simultaneous IMF (|B]nmr) as given by MAVEN in the solar wind (Halekas, Ruhunusiri,
+
+et al., 2017). In Figures 3a and b, measurements of |B|ry are included irrespective of
+MEX’s location, therefore variations in the induced field strength with position in the
+
+induced magnetosphere contribute to the broad scatter of the distributions shown, but
+
+nevertheless allow a first analysis of the general trends present. In particular, we note
+that MEX routinely encounters the strongest crustal field sources located in Mars’ southern hemisphere, which will significantly contribute to the measured magnetic fields on
+the dayside, and often be dominant on the nightside where the induced fields are lower
+
+in intensity.
+
+Hence, in the lower panels, in Figures 3c and d, we show equivalent plots to those
+
+above but now restricted to only dayside MEX measurements from the northern hemi
+sphere. Figures 3c and d can therefore be directly compared with 3a and b respectively,
+where the whole dataset is utilized, and we note that there is no indication of crustal fields
+contributions significantly altering the overall picture of the correlation between the relative magnetic field magnitude ratio, with Mach number and solar wind dynamic pres
+sure. In both the entire data set shown in the top row, and in the restricted data set shown
+
+below, we observe greater ratio values for higher Ma, in general (Figures 3a and c). However, when we plot the same ratio versus Payn in Figures 3b and d, the slope reverses,
+
+revealing opposite trends of the |B|m/|Blimr ratio with the Ma and Payn. Higher val
+—]|?2-—
+
+This article is protected by copyright. All rights reserved.
+291
+
+292
+
+293
+
+294
+
+295
+
+296
+
+297
+
+ues of the ratio are therefore observed mostly during intervals of relatively lower dynamic
+
+pressures.
+
+p=0.57
+
+ol
+
+Ma
+
+- BT agi
+
+KR
+
+c
+
+7 ow
+5 sar ae = © 40°
+& = 10 <
+ae §
+a a
+3 *
+
+2
+
+a
+
+Ly 10" 10"
+a G
+sae - 10" "
+‘— "s
+10 = 10
+10 10° 10" 10° 10" 10° 10'
+[Bl im/|B| me |B|m/|B| me
+c_ Northern hemisphere, dayside 10° d___Northern hemisphere, dayside 0
+p= 0.66 Ma p =-0.30
+4
+) 10
+10
+i
+Ls ae 10° " 10°
+$ Py = oe 7
+% i) =
+a a 4 i
+S cast Zz = 40 i = z
+= S :
+a a =
+: r Se 0
+< 9
+~2 -1
+10 10 .
+J
+10 10
+
+10° 10' 1 i 10° 10"
+|Blia/|Bl ime [Bl ina/|B| me
+
+Figure 3. |Blrs/|Bluie plotted versus (a), Payn/ Bip (left axis) and My (right axis), and
+(b), Payn in two 2D histograms where the number of data points (N) is presented color-coded
+and Spearman’s correlation coefficient is shown as p. The whole dataset of simultaneous measurements is used in (a) and (b), whereas in (c) and (d) we show the same parameters only for the
+
+dayside of the northern hemisphere.
+
+Many aspects of the Mars-solar wind interaction are controlled by the orientation
+of the motional electric field of the solar wind and IMF, present in the planet’s frame (e.g.
+Halekas, Brain, et al., 2017). Such phenomena are best studied in the Mars Solar Electric (MSE) coordinate system, where the x-axis again is oriented towards the Sun and
+
+the IMF vector is contained in the x-y plane with a positive y component. Thus ” pos
+—13
+This article is protected by copyright. All rights reserved.
+298
+
+299
+
+300
+
+301
+
+302
+
+303
+
+304
+
+305
+
+306
+
+308
+
+309
+
+310
+
+312
+
+313
+
+314
+
+315
+
+316
+
+317
+
+318
+
+319
+
+320
+
+322
+
+323
+
+324
+
+325
+
+326
+
+328
+
+329
+
+330
+
+itive” (+E) and ’negative” (-E) electric field hemispheres of interest are defined, based
+on the sign of the y-coordinate of the observer (MEX in this case). For each upstream
+measurement made by SWIA and MAG on MAVEN, a rotation from the MSO to MSE
+
+coordinate system can be obtained and applied to the positions of both MEX and MAVEN.
+
+A division of the dataset into the two solar wind electric field hemispheres follows
+in Figure 4, in which the relationship between |Bly\/|Blime and Payn/ Bare, M, and
+Payn is presented in a similar format as in Figure 3. As in Figures 2 and 3, Spearman’s
+correlation coefficient, p, is shown in each panel. The corresponding confidence widths
+(Fisher, 1921; Bonett & Wright, 2000) for each pair of variables plotted in Figures 2, 3
+and 4 were also computed (not shown in the figures). In the majority of the cases, the
+confidence width of p is no greater than 0.02, while for a few pairs of variables it reaches
+0.03, meaning that random samples of the same data would return a correlation coefficient within this range 95% of the time. Here, only data obtained on the dayside are
+
+included, where control by the motional electric field is anticipated to be most effective
+
+owing to the greater penetration of this field into the induced magnetosphere. The term
+dayside, in Figures 3 and 4, corresponds to observations that come from regions with solar zenith angle no greater than 90 degrees (SZA < 90°). In general, the correlation
+between the ratio and the Mach number (Figures 4a, c) as well as the ratio and the dynamic pressure (Figure 4b, d) follow the same trends already observed in the MSO frame
+previously in Figure 3. Comparing the results obtained in the two opposing electric field
+hemispheres (+f, —F) within each column of Figure 4, the spread and the resulting correlations within the measurements do not seem to differ importantly, indicating the solar wind electric field not being a crucial aspect when investigating the magnetic field
+
+magnitude enhancement in the induced magnetosphere as a function of Mach number
+
+and the dynamic pressure. Any minor differences that may be noted between the results
+
+obtained in the opposing hemispheres and departures from the trends observed earlier
+
+in Figure 3 are likely due to the further separation of the data into sub-sets.
+
+In order to introduce the general structure of the magnetic field magnitude of the
+upper ionosphere, the same data are now analysed in the altitude - SZA coordinate system appropriate to studying spatial variations in the induced magnetosphere. Specifically, we show in Figure 5, (a) the magnetic field magnitude in the induced magnetosphere
+\Blim, (b) the |B]ns/|Blir ratio utilizing again simultaneous IMF measurements as pre
+viously described, and (c) the coverage of the simultaneous MEX and MAVEN data, with
+
+_14—
+
+This article is protected by copyright. All rights reserved.
+332
+
+333
+
+334
+
+335
+
+336
+
+337
+
+338
+
+339
+
+340
+
+a___ +E hemisphere, dayside b +E hemisphere, dayside
+p= 0.64 Ma p=-0.26
+
+10° 10' o ' 10° 10"
+|Blim/|Bl ime |B\na/|B| mae
+
+c___-E hemisphere, dayside d___-E hemisphere, dayside
+p=0.62 Ma, p=-0.33
+
+moe
+ba , = 2
+20 ?
+= FA: . 10 _ a 10
+% © .
+c & = =
+= 10" z = 10° = Z
+= _ 10 S "
+as ao)
+a a =
+i= 4 i
+3 3 10 eT
+5 Le = | a
+
+a an
+
+<2 oa
+a
+
+0° 10° 10"
+[Bl lw [B\ na/|B| imme
+
+Figure 4. Data presented in a similar manner to Figure 3. Observations from the dayside of
+
++E and the dayside of -E hemispheres have been used in (a), (b) and (c), (d) respectively.
+
+the total number of simultaneous pairs of MEX and MAVEN data points being 42395.
+These values are computed in spatial bins of 10 degrees of SZA and 50 km of altitude,
+offering reasonable resolution in both directions whilst retaining a sufficient number of
+typical measurements per bin. In each panel, the black solid line depicts the MPB location based on the model by Vignes et al. (2000), while the dashed black line indicates
+
+the optical shadow boundary (equivalent to the terminator at the surface).
+
+In Figure 5a, where the induced magnetospheric fields caused by the interaction
+
+with the solar wind are presented, we observe magnetic fields of a few tens of nT in the
+dayside which decrease in magnitude slowly with increasing altitude and are notably of
+
+similar magnitude both below and above the nominal MPB. The magnetic field magni
+—15—
+
+This article is protected by copyright. All rights reserved.
+342
+
+343
+
+344
+
+345
+
+346
+
+348
+
+349
+
+350
+
+351
+
+352
+
+353
+
+354
+
+355
+
+356
+
+358
+
+359
+
+360
+
+362
+
+363
+
+364
+
+365
+
+366
+
+367
+
+368
+
+369
+
+370
+
+372
+
+373
+
+tude drops towards the shadowed nightside and the surrounding region (SZA ~90° —
+130°). There is some suggestion that immediately following the transition into shadow,
+
+in some bins the field strength is observed to increase, possibly indicative of a more com
+plex interaction between the draped fields and the ionosphere. ‘This may either be attributed to more localized fields associated with the tail current sheet, or could also be
+the result of the apparent twist in the magnetotail configuration caused by magnetic reconnection between the IMF and crustal fields (DiBraccio et al., 2018; Xu et al., 2020).
+An additional contribution, present only at low altitudes in the nightside, stems from
+
+the crustal fields which, depending on the specific planetocentric location of the under
+lying observations, may be the dominant contribution to the measured fields. These crustal
+
+fields necessarily decrease in strength rapidly with altitude, much faster than the draped
+fields on the dayside. As discussed by Andrews et al. (2015), the local magnetic field mag
+nitude can only be reliably determined by AIS if it lies in the range ~5-200 nT, owing
+
+to the (range) resolution of the sounder. Further issues of sensitivity may also be expected
+in regions of particularly low plasma density. We note also that the ionospheric mode
+of MARSIS is favoured mostly for dayside operations, whereas on the nightside it is often switched off to facilitate subsurface observations for altitudes lower than ~800 km
+(Picardi et al., 2004). Cumulatively, given that the quantities plotted in Figures 5a and
+5b are mean values, these effects necessarily lead to the larger relative contribution of
+the more intense crustal field sources at low altitudes on the nightside, as compared to
+the much weaker or indeed generally absent draped IMF, or fields associated with the
+induced magnetotail at the same location. As discussed previously, it is not possible to
+separate draped or induced magnetic fields from crustal sources, given the scalar nature
+
+of the measurements by MARSIS.
+
+In Figure 5b we directly compare the induced fields to the instantaneous fields of
+the upstream IMF’, plotting the ratio of the magnetic field magnitude from MEX over
+the IMF measured simultaneously (|Blim/|Blime), corresponding to the data shown first
+in Figure 3b. The large scale variations of the ratio of these field magnitudes can be seen
+in Figure 5b to be rather different from those of the mainly induced (draped) fields considered in isolation as shown in Figure 5a. On the dayside for SZA<90°, and at altitudes
+below ~900 km corresponding to the nominal MPB, a region where |B] >> |Blime
+is present. However, a decrease in this ratio with altitude above the MPB is now appar
+ent. A further sharp drop in the observed ratios at SZAs above ~90° divides the exam
+—16—
+
+This article is protected by copyright. All rights reserved.
+374
+
+375
+
+376
+
+377
+
+378
+
+379
+
+380
+
+382
+
+383
+
+384
+
+385
+
+386
+
+388
+
+389
+
+390
+
+391
+
+392
+
+393
+
+394
+
+395
+
+396
+
+397
+
+398
+
+399
+
+400
+
+402
+
+403
+
+404
+
+405
+
+406
+
+ined region into two parts, and the lowest observed ratios are found in the shadow be
+yond the optical shadow boundary. There does also appear to be some evidence of lo
+cally enhanced ratios scattered at and slightly anti-sunward of the optical shadow boundary itself, although this is only confined to a few bins and may simply be due to random
+variation in the underlying data. While some suggestion of this enhancement was detected in a few individual bins at the same locations in Figure 5a, the effect is much clearer
+in the ratios shown in Figure 5b. ‘The same enhancement in the ratio at the lowest altitudes shown on the nightside is again present, owing to the contribution of crustal magnetic field sources to the measurements in the absence of significant draped IMF fields
+
+in this region.
+
+In Figure 5c, for reference, the corresponding coverage of the simultaneous MEX
+and MAVEN observations is shown in the time interval between November 2014 and November 2018. A strong bias towards the dayside and a relatively undersampled upper nightside due to the additional condition of available contemporaneous solar wind MAVEN
+data is observed, indicating the relative strength of the conclusions that can be drawn
+
+regarding the trends seen in different regions of the induced magnetosphere.
+
+Having established the overall magnetic field structure of the upper ionosphere, we
+proceed to investigate how it varies with upstream solar wind conditions. In Figure 6,
+we re-analyze the same data already presented, by dividing it into three groups defined
+by the upper, lower and inter-quartile ranges of three solar wind parameters, namely the
+solar wind dynamic pressure (Figures 6a-f), speed (Figures 6g-i) and density (Figures
+6j-1). While further sub-divisions of the data were also examined, the limitations of coverage both in altitude and SZA, and indeed season, latitude and local time generally preclude drawing conclusions due to biases introduced. |B|my and |Blr~u/|Blnur for low (Payn <
+
+0.5 nPa), intermediate (0.5 nPa < Payn < 1.1 nPa) and high solar wind dynamic pres
+sure (Payn > 1.1 nPa) are presented in Figures 6a and d, 6b and e, and 6c and f respectively, with the format otherwise derived from that used in Figure 5. More intense induced fields are observed in the dayside during periods of high solar wind dynamic pres
+sure, as shown in the three upper plots (Figures 6a-c), consistent with the pressure bal
+ance expected between the induced magnetosphere and the upstream solar wind, illus
+trating the ability of the induced magnetosphere to adjust to varying solar wind condi
+tions. Comparing the induced fields relative to the IMF however, a different picture emerges,
+
+as is evident in Figures 6d-f. The induced fields are readily seen to be relatively more
+
+-17
+This article is protected by copyright. All rights reserved.
+408
+
+409
+
+410
+
+412
+
+413
+
+414
+
+415
+
+416
+
+418
+
+419
+
+420
+
+422
+
+423
+
+424
+
+425
+
+426
+
+intense compared to the IMF during intervals of low dynamic pressure in the dayside and
+in the region immediately surrounding the nominal MPB. Counterintuitively therefore,
+while the IMF itself is (typically) increased in magnitude during intervals of higher solar wind dynamic pressure (Figure 2a), the induced fields in the dayside ionosphere are
+observed to be stronger relative to the IMF during intervals of lower dynamic pressure.
+(We emphasize that this is consistent with the results already discussed for the same data
+
+analyzed as a whole and presented in Figures 3 and 4.)
+
+In Figures 6g-l, we examine variations with the contributing separate terms to the
+dynamic pressure, namely the solar wind speed and density. Specifically, we show only
+the ratios of field strengths |B|p/|Blimr for low (vey < 362 km s7'), intermediate
+(362 km s7* <vVey < 458 km s~+) and high (vsy > 458 km s~*) speed values, in
+Figures 6g, h and i, and for low (ngy < 1.7 cm7°), intermediate (1.7em7? <ngy <
+
+3.9 cm?) and high (ng, > 3.9 cm~?) solar wind density, in Figures 6j, k and 1, respec
+tively. While there are no significant differences in the structure of the ratios between
+
+the cases of slow and fast solar wind (Figures 6g and i respectively), the solar wind den
+sity seems to influence the relative induced fields in a similar fashion to dynamic pressure, that is to say producing an enhanced ratio for low solar wind density in the dayside and the MPB region. ‘This is also supported by the power-law relationship between
+both the solar wind dynamic pressure and density, and the IMF we see in Figures 2a and
+
+C.
+
+—|18
+This article is protected by copyright. All rights reserved.
+Fg r | 10°
+1400: :
+20 i |
+2m
+1200. is 10°
+& a
+= 1000; — 1 4
+E E
+= a00| Ye oe | | 02
+| ra _
+'E
+600: ,
+
+200599 40 60 80 100120140 160180 '° 20059 40 60 80 100120 140160180 |
+SZA (°) SZA(°
+
+o
+
+|Blm / |B|
+
+! 0
+20030 40 60 80 100120 140 160780 1°
+SZA (°)
+
+Figure 5. |Blm and |Blim/|Blmer plotted color-coded for different altitudes and SZAs of
+MEX’s orbit (Figures 5a, b) and the corresponding dataset coverage (Figure 5c). The solid black
+line displays the MPB, based on the model by Vignes et al. (2000), and the dashed black line
+
+shows the location of the optical shadow. The binning of the SZA and altitude is 10° and 50 km,
+
+respectively.
+
+—|19—
+
+This article is protected by copyright. All rights reserved.
+manuscript submitted to JGR: Space Physics
+
+b 0.5 nPa < Pay, <1.1 nPa
+
+50
+
+1400
+40
+1200
+30
+E _~1000
+= €
+=
+
+20
+
+20
+
+9 20 40 60 80 100 120 140 160 180
+SZA (°)
+
+30
+
+im (NT)
+
+20m
+
+10
+
+20)
+
+9 20 40 60 80 160 120 140 160 180
+SZA (°)
+
+_
+1400 50 1400 i a
+1200 a SI
+
+10 & [ 
+1000 =
+
+E al i)
+
+= g00 ‘e
+
+© =
+
+ca if
+600 ~— =
+400 =
+|
+200, 20 1
+
+0 20 40 60 80 100 120 140 160 180 ° 20 40 60 80 100 120 140 160 180
+SZA (°) SZA (°)
+
+Visw > 458 kms
+
+T
+
+g
+
+-1
+
+30
+20
+
+=
+Oo
+
+[Blim / |Blime
+[Blim / |Blime
+h (km)
+
+20 1 20 1 20
+
+9 20 40 60 80 160 120 140 160 180
+SZA (°)
+
+% 20 40 60 80 100 120 140 160 180
+SZA (°)
+
+9-20 40 60 80 160 120 140 160 180
+SZA (*)
+
+30
+
+[Blim / |Blime
+
+[Blim / |Blime
+
+20
+
+[Blim / |Blime
+
+_—k— _—k—  } I —— }  —Ia ——_ }§}§§—
+_ 3
+[Blim / |Blime
+
+°% 20 40 60 80 100 120 140 160 180
+SZA (°)
+
+Figure 6.
+
+1 20
+
+k 1.7cm=3 <nsy < 3.9 cm
+
+Caption next page.
+
+—20-—
+
+This article is protected by copyright. All rights reserved.
+
+9-20 40 60 80 100 120 140 160 180
+SZA (*)
+
+20
+
+10
+
+[Blim / |Blime
+
+1
+
+30
+20
+1200
+_ 1000
+E
+“
+= 800
+on
+600
+400
+20
+
+I Nsw > 3.9 cm=3
+= T
+
+20
+
+9 20 40 60 80 160 120 140 160 180
+SZA (*)
+
+[Blim / |Blime
+Figure 6. Magnetic field magnitude from MEX (|Blrm) in SZA-altitude diagrams for low,
+intermediate and high Payn (Figures 6a-c), and |B|m1/|B|nur for low, intermediate and high Payn
+(Figures 6d-f), slow, intermediate and fast solar wind (Figures 6g-i) and low, intermediate and
+high solar wind density (Figures 6j-l) respectively. The criteria applied (lower and upper quartiles
+for each parameter) to the upstream solar wind conditions are given above each panel, and the
+
+format of each panel is otherwise identical to that used in Figure 5.
+
+—~)|—
+
+This article is protected by copyright. All rights reserved.
+428
+
+429
+
+430
+
+432
+
+433
+
+434
+
+435
+
+436
+
+437
+
+438
+
+439
+
+440
+
+442
+
+443
+
+444
+
+445
+
+446
+
+448
+
+449
+
+450
+
+452
+
+453
+
+454
+
+455
+
+456
+
+458
+
+459
+
+To ensure that the solar wind electric field does not play a key role, as the dynamic
+pressure does, in determining the ratio of the field strengths at a given location, we plot
+again |Bln1/|Blnoi in SZA - altitude diagrams for low, intermediate and high Payn, but
+this time we divide the dataset into the positive and negative electric field hemispheres
+as depicted in Figures 7a-c and 7d-f respectively. In the lower pressure regime, a higher
+ratio is seen in the upper ionosphere in the -E hemisphere, while for intermediate SZAs
+(80°—120°) the ratio is greater in the +E hemisphere (Figures 7a, d). The ratio seems
+to be more enhanced in the dayside in the +E hemisphere for high solar wind dynamic
+pressure (Figures 7c, f), however for intermediate values of dynamic pressure, besides
+moderate local enhancements near the MPB in the upper ionosphere in the -E: hemisphere,
+the distribution of the ratio values around Mars is rather similar in the two plots (Figures 7b, e). Despite these differences in the ratio between +E and -E, the overall tendency of |B|p/|Blnur being noticeably more enhanced for low dynamic pressures can
+
+be clearly observed in both electric field hemispheres in Figure 7.
+
+In Tables 1 and 2, we show the mean and the standard error of the mean (mean+SEM)
+of the strength of the magnetic field in the induced magnetosphere (|B]q,) and the relative ratio over the IMF (|Blim/|Blimr) respectively, first for the whole dataset subdivided into different regions based on the optical shadow, latitude (northern or southern
+hemisphere) and the solar wind electric field, and then for the subsets of low, intermediate and high Payn as they result from the quartile partitions and have used in Figures
+6 and 7, again subdivided into the same regions as before. The term dayside here (Tables 1 and 2) is used for measurements only from sunlit regions and altitudes below the
+
+MPB.
+
+Looking at Table 1, the mean |B], for the total group of measurements is as ex
+pected greater in the dayside than the nightside and also in the southern hemisphere than
+
+the northern due to the contribution of the crustal fields. What is more, we see generally higher values of |B|t in the +E hemisphere, both on the dayside irrespective of latitude and when we restrict northern latitudes only (where any direct influence of crustal
+field sources is minimized). The same behavior among the different regions is observed
+
+too, for the low, intermediate and high Payn regimes, although comparatively, for low
+
+Payn the magnetic field magnitude appears to diverge much less. Moreover, the expected
+correlation between high solar wind dynamic pressure and stronger fields becomes ap
+parent when we compare the columns of low and high Payn for every sub-region except
+
+—~99—
+
+This article is protected by copyright. All rights reserved.
+460
+
+461
+
+462
+
+463
+
+464
+
+465
+
+466
+
+@
+6
+
+c Payn > 1.1 nPa +E
+30 =
+
+nN
+
+3S
+o
+6
+
+3
+ro
+8
+|
+N
+8
+
+[Bl / |Blime
+3
+a |
+3
+
+[Blin / |Blime
+
+i a a
+600 ee a
+— = if =
+200590 40 60 80 100130 140 160 180 | 200530 40 60 80 100 130140 160 180! 200530 40 60 80 100 120140 160180!
+SZA (°) SZA (°) SZA (°)
+e 0.5 nPa<Pyy,<1.1lnPa -E f Payn > 1.1 nPa -E
+30 = = : = a0 a 30
+Bs a
+5 1400 | | 6 1400 oo Pn
+' = Vm
+1200 i « | 1200: ‘7
+o& ta | | Hos ' 10 &
+= ~ 1000). ji i | = ~10001, i 7 =
+a = = a a € “% 1 a
+i ~ a ae | ~ x SS | =
+| = ~~ 800 ‘/ we = = 800 .. ee =
+i= <= = g =z =: ae | =
+a Em ! a Es f a
+600 = 600
+eg A
+| = :
+400 7 fies 400 5 ay
+200590 40 60 80 100 130 140 160180 |
+SZA (°
+
+200530 40 60 80 100 130 140 160 180! 200530 40 60 80 100 120 140 160 180 |
+SZA (°) SZA (°)
+
+Figure 7. |Bli/|Blmr in SZA-altitude diagrams for low (Figures 7a, d), intermediate (Fig
+ures 7b, e) and high (Figures 7c, f) Payn respectively. Measurements coming only from the +E
+
+hemisphere are presented in Figures 7a-c, while observations from the -E hemisphere are plotted
+
+in Figures 7d-f. The criteria applied (lower and upper quartiles for Payn in each electric field
+
+hemisphere) are given above each panel.
+
+for the nightside. Thus, if we only look at the dayside, there is a ~41 % increase of the
+
+mean |Blyy, consistent with expectations from pressure balance given the increase of the
+
+dynamic pressure magnitude.
+
+In Table 2, the mean relative ratio |Bljy/|Blimp of the whole dataset is greater in
+
+the dayside and the southern hemisphere compared to the nightside and the northern
+
+hemisphere respectively. Even though the ratio appears to be higher in the +E hemi
+sphere in the whole dayside, there seems to be no difference between the two electric field
+
+—24—
+
+This article is protected by copyright. All rights reserved.
+Table 1.
+
+Mean and standard error of the mean (SEM) of |Blrm (nT) for the whole dataset and
+
+for low, intermediate and high Payn for various subdivisions of the dataset based on the optical
+
+shadow, latitude and solar wind electric field.
+
+Blu (nT)
+
+All data
+
+Dayside
+
+Nightside
+
+Dayside, +E hem.
+
+Dayside, -E hem.
+
+Dayside, Northern hem.
+Dayside, Southern hem.
+Dayside, Northern, +E hem.
+
+Dayside, Northern, -E hem.
+
+Table 2.
+
+Total
+
+27.8 + 0.1
+28.8 + 0.1
+22.9 + 0.3
+30.4 + 0.1
+27.4+ 0.1
+27.0 + 0.1
+31.1 + 0.2
+28.4 + 0.1
+25.4 + 0.1
+
+sented in a similar manner as in ‘Table 1.
+
+\Blim/|B leur
+
+All data
+
+Dayside
+
+Nightside
+
+Dayside, +E hem.
+
+Dayside, -E hem.
+
+Dayside, Northern hem.
+Dayside, Southern hem.
+Dayside, Northern, +E hem.
+
+Dayside, Northern, -E hem.
+
+This article is protected by copyright. All rights reserved.
+
+Total
+
+10.0 + 0.1
+10.62 0.1
+7.8 + 0.1
+11.1+0.1
+10.2+0.1
+9.82 0.1
+11.7+0.1
+9.82 0.1
+9.7+0.1
+
+Mean+SEM (nT)
+
+Low Pagn
+
+23.9 + 0.1
+23.7 + 0.2
+23.1 + 0.6
+24.1 + 0.2
+23.3 + 0.2
+22.3 + 0.2
+25.1 + 0.3
+22.9 + 0.2
+21.8 + 0.3
+
+MeantSEM
+
+Low Payn
+
+Intermediate Payn
+
+27.9 + 0.1
+28.9 + 0.1
+23.4 + 0.4
+31.0 + 0.2
+27.2 + 0.2
+26.3 + 0.1
+32.3 + 0.3
+27.7 £ 0.2
+29.0 + 0.2
+
+Intermediate Payn
+
+High Pign
+
+32.0 + 0.2
+33.09 + 0.2
+21.6 + 0.5
+39.6 + 0.3
+31.7 + 0.2
+32.9 + 0.2
+34.5 + 0.3
+30.0 + 0.3
+29.9 + 0.3
+
+Mean and standard error of the mean (SEM) of |Blr/|Bluur, calculated and pre
+High Payn
+
+12.0+ 0.1
+12.4+0.1
+10.0 = 0.3
+12.6+0.1
+12.2+0.1
+118+ 0.1
+13.1 + 0.2
+116+0.1
+12.2 40.2
+
+_94
+10.3 + 0.1
+11.1+0.1
+8.0 + 0.2
+11.4+0.1
+10.8 + 0.1
+9.7+ 0.1
+12.9+0.1
+9.7+ 0.1
+9.7+ 0.1
+
+7.9 £ 0.1
+7.94 0.1
+o.1+0.1
+8.82 0.1
+7140.1
+7.94 0.1
+7.8 + 0.1
+8.44 0.1
+7.9 £ 0.1
+468
+
+469
+
+470
+
+472
+
+473
+
+474
+
+475
+
+476
+
+478
+
+479
+
+480
+
+482
+
+483
+
+484
+
+485
+
+486
+
+488
+
+489
+
+490
+
+492
+
+493
+
+494
+
+495
+
+496
+
+498
+
+hemispheres in the northern dayside hemisphere. In the dayside in the northern hemisphere, the ratio reaches larger values in the -E region for low Payn, and in the +E re
+gion for high Payn. In both northern and southern hemispheres the mean ratio remains
+
+approximately the same for high Payn. Opposite to the picture presented in Table 1 (and
+in Figures 6a, b, c), the mean ratio is greater for low Payn in all cases even in the nightside as it has been presented in Figures 6d, e, f and 7. We find a decrease of ~36% and
+~39% of the mean ratio in the dayside and in the whole dataset respectively from low
+
+to high Payn.
+
+3 Discussion
+
+A two-spacecraft study with combined measurements from the induced magnetosphere and the unperturbed solar wind is conducted, in an attempt to further illuminate
+the processes controlling the structure of the Martian near-space environment. Simultaneous data, chosen as illustrated in Figure 1, of magnetic field magnitude from MEX
+and IMF from MAVEN allows us a real time comparison of the magnetospheric response
+to solar wind parameters. ‘The statistical distribution of the solar wind measured by MAVEN
+during the interval examined, constrained also to the periods immediately surrounding
+MARSIS operations in AIS mode, was shown in Figure 2. Utilizing measurements of the
+local magnetic field magnitude made by MARSIS, we have examined the induced magnetosphere’s structure and variation with upstream conditions, both in terms of the ab
+solute induced fields and relative to the upstream IMF.
+
+To highlight how variations in the strength of the magnetic field in the induced magnetosphere correspond to variations in the volume of the solar wind region it is linked
+to, we illustrate, in Figure 8, the Mars-Solar wind interaction in which field lines of the
+IMF (blue lines) are incident on the system and pile up at and above the dayside ionosphere. This illustration is drawn in the Mars Solar Orbital (MSO) frame, where X)s0
+points from Mars to the center of the Sun, Yysgo is opposite to the direction of Mars’
+orbital velocity and Zyys0 completes the right-handed system. The bow shock and MPB,
+where MPB is considered to be the lower edge of the magnetosheath as previously stated,
+are also depicted, though for the sake of clarity, they are not shown to scale with the planet.
+The situation displayed is heavily simplified as no component of the IMF along the MarsSun line is included (i.e., By = 0), and no interactions with the crustal fields have been
+
+considered. In reality, both factors will routinely distort the depicted draped field lines
+
+—2h—
+
+This article is protected by copyright. All rights reserved.
+499
+
+500
+
+503
+
+504
+
+505
+
+506
+
+508
+
+509
+
+510
+
+512
+
+513
+
+514
+
+515
+
+518
+
+519
+
+522
+
+523
+
+525
+
+526
+
+528
+
+to greater or lesser degrees depending on the precise circumstances. The pile-up of the
+IMF field lines occurs as their motion past and through the ionospheric obstacle is slowed,
+and as a consequence, the field strength in the induced magnetosphere is significantly
+enhanced relative to the unperturbed solar wind. Field lines that can be considered to
+
+be part of the induced magnetosphere, crossing the MPB and therefore having at least
+some extent within the MPR, are shown as red lines. We note that an additional, smaller
+enhancement to the field strength also occurs in the immediately post-shocked IMF’, where
+
+the slowing (and heating and diversion) leads to compression of the field lines with a lim
+iting theoretical relative enhancement of a factor 4 (Russell et al., 2016). The linear extent of the induced magnetosphere on the Sun-Mars line, Xy)y, is indicated in the figure by the horizontal black bar. This is taken to be the altitude of the MPB at the subsolar point, and those IMF field lines that pass through this region are shown red. The
+horizontal extent of the region threaded by these same field lines in the otherwise undisturbed solar wind, X-ajij, is indicated by the longer black bar, across which all the redcolored IMF field lines pass. Following the definitions adopted in this paper for the MPB
+and MPR, we correspondingly define Xj to be the altitude of the MPB at the sub-solar
+point. It should be noted however, that the nature of the MPB, which in some sense is
+more akin to a transition between plasma regimes and is not therefore vanishingly thin
+
+compared to the magnetosheath and MPR above and below it, makes these definitions
+
+somewhat arbitrary. As depicted, the regions Xj and X7,ji; are therefore magnetically
+linked and to first-order, consideration of conservation of magnetic flux gives a simple
+relationship between the ratio of the field strength of the induced magnetosphere, |B]1,,
+and the unperturbed upstream field |B|yyp that can be compared to the ratio of these
+
+two length scales,
+
+\Blim _ X Tail
+Ble =) Xu
+
+(2)
+
+While the MPB is well known to expand and contract with variations in upstream
+conditions (i.e. Edberg et al., 2009; Némec et al., 2020) the amplitude of this variation
+
+is only of the order of 15% in linear scale at the subsolar point over the typical range of
+
+dynamic pressures experienced at Mars (Némec et al., 2020). Thus, as the ratio of the
+fields increases, and the piled up field strength is observed to increase relative to the un
+perturbed IMF, the implication is that the horizontal extent of the interaction region
+
+—26-—
+
+This article is protected by copyright. All rights reserved.
+529
+
+530
+
+532
+
+533
+
+534
+
+535
+
+Z
+és)
+v
+
+y
+
+Figure 8. Mars-Solar wind interaction in MSO coordinates. The field lines of the IMF are
+
+shown in blue, whereas those field lines that thread the induced magnetosphere on the dayside
+are displayed in red. The boundary distances (BS-MPB-ionosphere) are not shown to scale. The
+
+blue and red spacecraft are MAVEN and MEX respectively.
+
+is increased, with IMF field lines further down the tail remaining connected to the dayside induced magnetosphere. The situation illustrated in Figure 8 is a simplification as
+non-zero By and Bz components in the IMF will distort the picture. Furthermore, mag
+netic fields produced by ionospheric currents in the deep Martian ionosphere (e.g. With
+ers et al., 2005; Fillingim et al., 2012) are not considered here, and that approach is not
+
+suitable for intervals where the By component in the IMF dominates. Nevertheless, this
+
+serves to illustrate the relationship that may be expected between the strength of the
+
+_97—
+
+This article is protected by copyright. All rights reserved.
+536
+
+538
+
+539
+
+540
+
+542
+
+543
+
+544
+
+545
+
+546
+
+549
+
+550
+
+552
+
+553
+
+554
+
+555
+
+556
+
+558
+
+559
+
+560
+
+563
+
+564
+
+565
+
+566
+
+568
+
+magnetic field in the dayside induced magnetosphere, and the spatial extent in the so
+lar wind of the IMF flux tubes threading this region.
+
+As illustrated in Figure 8, the field lines comprising Mars’ induced magnetosphere
+are those of the IMF, slowed during their passage through the conductive upper ionosphere and around the obstacle. Hence, the increase in the magnetic field strength in the
+induced magnetosphere, |B|t4, measured by MEX, can be compared to the strength of
+the unperturbed IMF |Bl|yyp, measured by MAVEN. The ratio | Bly /|Blyr provides
+a simple indication of the relative compression or expansion of the induced magnetosphere,
+being related to the length scale over which IMF field lines are perturbed in their passage around and through the Martian ionospheric obstacle (with higher ratios indica
+tive of a relatively expanded system, and vice-versa). In Figures 3 and 4, we first exam
+ined the correspondence between the ratio of these two measured field strengths, and upstream values of the solar wind dynamic pressure and Alfvn Mach number (proportional
+to the ratio of the dynamic pressure to the IMF strength squared). This comparison, ini
+tially made irrespective of MEX’s position within the induced magnetosphere, showed
+
+the expected dependence, with the relative magnetic fields rising with increasing Alfvn
+Mach number, and falling with increasing dynamic pressure. We then sub-divide these
+data into both observations made only in the northern hemisphere and on the dayside,
+where any potential influence of crustal fields is minimized, and also into the +E and
+
+-E hemispheres in the MSE coordinate system, again restricting them to the dayside only.
+In both cases, no significant departures from the general trends are evident, strongly suggesting that both the crustal fields and the local orientation of the motional electric field
+play only minor roles, on average, in establishing the induced magnetosphere and modulating its response to variations in the upstream conditions. The mass loading of the
+
+solar wind by escaping planetary ions is known to be asymmetric (e.g., Dong et al., 2015)
+
+as fluxes are significantly higher in the +E hemisphere, and a related effect has been noted
+in the form of the induced magnetic fields (e.g., Dubinin et al., 2019). However, the data
+presented in Figure 4 shows that the same trends in the variation of the ratio |B|yy/|Blime
+
+with upstream conditions are present in both the +E and -E hemispheres.
+
+The large-scale structure of the induced magnetosphere, as defined by the observed
+induced field strengths observed by MARSIS shown in Figure 5a is found to be in agreement with previous related studies (Akalin et al., 2010; Girazian et al., 2019), specifi
+cally showing enhanced field strengths on the dayside that gradually fall with increas
+—28-—
+
+This article is protected by copyright. All rights reserved.
+569
+
+570
+
+572
+
+573
+
+574
+
+575
+
+576
+
+578
+
+579
+
+580
+
+582
+
+583
+
+584
+
+585
+
+586
+
+588
+
+589
+
+590
+
+592
+
+593
+
+594
+
+595
+
+596
+
+598
+
+599
+
+600
+
+ing altitude. The response of the induced magnetosphere to intervals of relatively enhanced solar wind dynamic pressure leads to the enhancement of the induced fields, in
+
+absolute magnitude, most clearly on the dayside as shown in Figure 6a, b and c.
+
+However, when the induced field is instead again analyzed relative to the instan
+taneous value of the IMF by calculating the ratio |Bly/|Blier, a rather different pic
+ture emerges, particularly when examining the response of this quantity to factors such
+as the solar wind dynamic pressure, speed and density. As noted, while the magnetic field
+magnitude in the induced magnetosphere measured by MEX increases during the high
+Payn periods (Figure 6c), when we compute the ratio |B|1m/|Blmr we find instead re
+duced relative induced fields for high solar wind dynamic pressure, mainly on the day
+side and up to the nominal MPB region (Figure 6f). Moreover, while the averaged values of the induced fields observed by MEX on the dayside do not appreciably vary in any
+way at or near the nominal MPB location, as seen in Figure 5a, the ratio of the induced
+to IMF field, |Blim/|Blimp, does appear to show more organization by this boundary,
+with typically higher values found immediately below the boundary than above. ‘This
+could perhaps be taken as a signature of currents flowing near or below the boundary,
+acting to enhance the induced fields below and reducing them above, thus bearing at least
+
+some outward similarity to the magnetopause at the Earth, as shown recently by Ramstad
+
+et al. (2020). We note that the analysis presented here only completely covers the re
+gion of SZAs from 40 to 160 degrees at the periapsis altitude of MEX, and hence these
+
+conclusions are only supported by observations in this region. However, based on related
+studies of the structure of the magnetic fields closer towards the sub-solar point, which
+find field strengths that vary only weakly on average with SZA below 45° (Akalin et al.,
+2010), we see no reason not to at least cautiously extrapolate the central results of this
+
+study to lower SZA as well.
+
+Turning to the tail, the induced (draped) field strength tentatively rises in strength
+
+immediately following the transition into shadow, as seen in Figure 5a, likely indicative
+
+of the more dynamic aspects of the Martian induced magnetotail as reported elsewhere,
+and suggesting that the fields observed in the tail are not purely those of the draped IMF.
+However, systematic effects here arising from the somewhat indirect measurement of the
+local field strength by MARSIS may distort this picture and cannot immediately be ruled
+out, given the rather different bulk plasma conditions at these altitudes on the night
+side as compared to the dayside. We again observe relatively higher values in the tail
+
+—29Q—
+
+This article is protected by copyright. All rights reserved.
+602
+
+603
+
+604
+
+605
+
+606
+
+608
+
+609
+
+610
+
+612
+
+613
+
+614
+
+615
+
+616
+
+618
+
+619
+
+620
+
+621
+
+622
+
+623
+
+624
+
+625
+
+626
+
+628
+
+629
+
+630
+
+632
+
+633
+
+634
+
+of the ratio of induced (local) fields to the upstream IMF for intervals of lower upstream
+dynamic pressure (Figure 6d), thus following the same trend observed on the dayside.
+While significant magnetic fields are occasionally present in the tail, these also generally occur in concert with larger IMF fields, as are observed also on the dayside. Sep
+arating the solar wind dynamic pressure into its components, we notice that there is lit
+tle evidence for systematic variation in the values of this ratio with increasing solar wind
+speed seen by comparing Figures 6g, h and i. However, the equivalent grouping by so
+lar wind density shown in Figures 6j, k and | resemble the patterns seen in the Payn cases
+(Figures 6d, e and f), thus at least tentatively suggesting that the upstream density has
+a larger controlling influence on the structure of the induced magnetosphere than the
+
+solar wind velocity does.
+
+Consideration of conservation of magnetic flux, (per unit length through the page)
+
+through the region of highlighted IMF field lines in Figure 8, yields the relationship |Blpy/|Bliwr =
+
+XTail/X1m, which can be used therefore to estimate the region of the undisturbed so
+lar wind and IMF at large distance from Mars which is magnetically connected to the
+dayside induced magnetosphere. While the MPB and bow shock have both been shown
+to move closer to the planet during intervals of high dynamic pressure (e.g., Edberg et
+al., 2009; Halekas, Brain, et al., 2017; Hall et al., 2016; Ramstad, Barabash, Futaana,
+
+& Holmstr6m, 2017; Hall et al., 2019; Matsunaga et al., 2017), the amplitude of this motion is only a small fraction of a Mars radius at the sub-solar point. Assuming that the
+MPB altitude at the subsolar point corresponds to Xj) and taking it to be a constant,
+Xim = 0.3Ry, calculated using the Vignes et al. (2000) model, X pai then ranges between ~8000 km (~ 2.4Ry,) and ~13000 km (~ 3.7Ry,), for high and low Payn respectively (using the mean ratio shown in Table 2 for the whole dayside). Thus, while the
+induced magnetosphere and associated plasma boundaries are compressed during intervals of higher upstream pressure, the spatial extent in the solar wind of IMF flux-tubes
+that thread and form the induced magnetosphere is in fact larger during intervals of lower
+dynamic pressure. We note that while the relationship expressed above and in equation (2)
+
+was obtained by considering only conservation of flux along the Mars-Sun line, the rel
+atively weak dependence of By, on solar zenith angle permits the extrapolation of the
+calculation to a large fraction of the dayside region. This observation may provide some
+indication of the mechanisms at work that lead to the observed enhancement in the ef
+ficiency of transfer of energy from the solar wind to the escaping ionospheric plasma ob
+—30-—
+
+This article is protected by copyright. All rights reserved.
+635
+
+636
+
+638
+
+639
+
+640
+
+642
+
+643
+
+644
+
+645
+
+646
+
+648
+
+649
+
+650
+
+652
+
+653
+
+654
+
+655
+
+656
+
+657
+
+658
+
+659
+
+660
+
+662
+
+663
+
+664
+
+665
+
+served by MEX during intervals of lower dynamic pressure (Ramstad, Barabash, Futaana,
+Nilsson, & Holmstrém, 2017), as a relatively larger volume of the solar wind is perturbed
+in its passage through and around the Martian system. By further dividing X7,i with
+the corresponding mean solar wind speed (|v|s.) for each case, we get also a rough estimate for the timescale solar wind needs to cover the X7,i; distance and that ranges from
+~18 to ~32 seconds for high and low Payn respectively. We note that such short values,
+statistically determined though they are, indeed are close to the fidelity of our available
+data, defined by the median spacing between SWIA and MARSIS measurements of ~16
+seconds. Moreover, the estimates of this timescale are consistent within a factor of ~2
+
+to those obtained by Harada et al. (2017) in tracking a pressure pulse from the solar wind
+
+through the induced magnetosphere. We reiterate, however, that such arguments based
+on these field strength ratios and the conservation of magnetic flux should not be overinterpreted, as they are strictly only applicable in limited circumstances, specifically where
+
+the X-component of the IMF is small.
+
+Many details of the electrodynamics of the Martian induced magnetosphere remain
+poorly understood. The ‘canonical’ picture is one in which enhanced upstream dynamic
+pressures in particular are responsible for enhanced induced fields (Crider et al., 2003;
+Girazian et al., 2019), increased atmospheric escape (Lundin et al., 2008; Nilsson et al.,
+2010; Girazian et al., 2019), and more activity in the tail (Girazian et al., 2019). How
+ever, taken together, our results suggest that some caution should be taken in describ
+ing such dependencies, since the induced fields themselves are conversely more signifi
+cantly enhanced relative to the IMF during intervals of lower dynamic pressure.
+
+4 Conclusions
+
+Using magnetic field magnitude measurements from MEX in the induced magne
+tosphere of Mars and upstream solar wind parameters from MAVEN, we have found that,
+
+1. Even though high solar wind dynamic pressure results in stronger induced magnetic fields in the dayside ionosphere, the ratio |B] /|Blmr decreases with increasing solar wind dynamic pressure.
+
+2. Comparing the induced fields to the instantaneous IMF, we reveal more of the struc
+ture in the vicinity of the MPB, where the reductions in the relative fields above
+
+MPB are more evident than in the field strength itself.
+
+—31—
+
+This article is protected by copyright. All rights reserved.
+685
+
+686
+
+3. Higher values of the mean |B|t4 are observed in the +E hemisphere, both on the
+dayside irrespective of latitude and when we restrict northern latitudes only.
+
+4. There is a ~41 7% increase of the mean |B|ry, between low and high Payn in the
+dayside.
+
+5. There is a ~36 % decrease of the mean ratio |B|n1/|Blnur, from low to high Payn
+in the dayside.
+
+6. The spatial extent in the solar wind of IMF flux-tubes that thread and form the
+induced magnetosphere is larger during intervals of lower dynamic pressure and
+we estimate that Xqai ranges from ~8000 km (~ 2.4Ry,) to ~13000 km (~ 3.7Ra,),
+
+for high and low Payn respectively.
+
+Further investigation is needed for a comprehensive description of the induced magnetosphere’s response to various parameters, in particular through studying the system’s
+response to immediate upstream conditions in a more complete approach than can be
+achieved using only field magnitudes estimated by MARSIS. Other external drivers, such
+as seasonal and solar-cycle driven variations in ionospheric density due to changing ion
+izing flux were briefly investigated in this analysis but reliable conclusions could not be
+
+drawn given the need to first account for the larger observed dependencies on upstream
+conditions in the solar wind. Future studies utilizing solar wind data from other sources
+are necessary to fully explore all controlling factors, and further investigate spatial variations that may be associated for example with the location of Mars’ strongest regions
+
+of crustal magnetic fields and diurnal asymmetries.
+
+Acknowledgments
+
+K. S. and D. J. A. acknowledge support from the Swedish National Space Agency through
+
+Grants DNR 156/16 and 162/14. N. J. T. E. was funded by the Swedish National Space
+
+Board under Contract 135/13 and by the Swedish Research Council under Contract 62120134191.
+
+M. L. and B. 8.C acknowledge support from UKSTFC Grant ST/S000429/1. B.S.-C.
+
+also acknowledges support through STFC Ernest Rutherford Fellowship ST/V004115/1.
+
+All the raw MEX and MAVEN data used in this study are available at the NASA Plan
+etary Data System (https://pds-ppi.igpp.ucla.edu/search/?sc=Mars%20Express&t=Mars&i=MARSIS),
+(https: //pds-ppi.igpp.ucla.edu/search/view /?f=yes&id=pds://PPI/maven.mag.calibrated),
+
+(https: //pds-ppi.igpp.ucla.edu/search/view /?f=yes&id=pds://PPI/maven.swia.calibrated).
+
+The production of higher level derived products is detailed in the text.
+
+—a2—
+
+This article is protected by copyright. All rights reserved.
+698
+
+References
+
+Akalin, F., Morgan, D. D., Gurnett, D. A., Kirchner, D. L., Brain, D. A., Modolo,
+R., ... Espley, J. R. (2010). Dayside induced magnetic field in the ionosphere
+of Mars. Icarus, 206(1), 104-111. doi: 10.1016/j.icarus.2009.03.021
+
+Andrews, D. J., Edberg, N. J. T., Eriksson, A. I., Gurnett, D. A., & Morgan, D.
+(2015). Control of the topside Martian ionosphere by crustal magnetic
+fields. Journal of Geophysical Research: Space Physics, 3042-3058. doi:
+10.1002/2014JA020703
+
+Andrews, D. J., Opgenoorth, H. J., Edberg, N. J., André, M., Franz, M., Dubinin, E., ... Witasse, O. (2013). | Determination of local plasma densities
+with the MARSIS radar: Asymmetries in the high-altitude Martian ionosphere. Journal of Geophysical Research: Space Physics, 118, 6188-6196. doi:
+10.1002/jgra.50593
+
+Bertucci, C., Duru, F., Edberg, N., Fraenz, M., Martinecz, C., Szego, K., & Vaisberg, O. (2011). The induced magnetospheres of Mars, Venus, and Titan.
+Space Science Reviews, 162, 113-171. doi: 10.1007/s11214-011-9845-1
+
+Bonett, G. D., & Wright, A. T. (2000). = Sample size requirements for estimating
+Pearson, Kendall and Spearman correlations. Psychometrica, 65(1), 23-28.
+
+Brain, D. A., Halekas, J. S., Lillis, R., Mitchell, D. L., Lin, R. P., & Crider, D. H.
+(2005). Variability of the altitude of the Martian sheath. Geophysical Research
+Letters, 82(18), 1-4. doi: 10.1029/2005GL023126
+
+Cain, J. C., Ferguson, B. B., & Mozzoni, D. (2003). An n = 90 internal potential function of the Martian crustal magnetic field. Journal of Geophysical Research, 108, 5008. doi: 10.1029/2000je001487
+
+Connerney, J. E., Espley, J., Lawton, P., Murphy, S., Odom, J., Oliversen, R., &
+Sheppard, D. (2015). The MAVEN magnetic field investigation. Space Science
+Reviews, 195, 257-291. doi: 10.1007/s11214-015-0169-4
+
+Crider, D. H., Vignes, D., Krymskii, A. M., Breus, T. K., Ness, N. F., Mitchell,
+D.L.,... Acuna, M. H. (2003). A proxy for determining solar wind dynamic
+pressure at Mars using Mars Global Surveyor data. Journal of Geophysical
+Research: Space Physics, 108(A12), 1-10. doi: 10.1029/2003JA009875
+
+DiBraccio, G. A., Luhmann, J. G., Curry, S. M., Espley, J. R., Xu, S., Mitchell,
+D.L.,... Jakosky, B. M. (2018). The Twisted Configuration of the Martian
+
+—33-—
+
+This article is protected by copyright. All rights reserved.
+762
+
+763
+
+Magnetotail: MAVEN Observations. Geophysical Research Letters, 45(10),
+4559-4568. doi: 10.1029/2018GL077251
+
+Dong, Y., Fang, X., Brain, D. A., McFadden, J. P., Halekas, J. S., Connerney, J. E.,
+... Jakosky, B. M. (2015). Strong plume fluxes at Mars observed by MAVEN:
+An important planetary ion escape channel. Geophysical Research Letters,
+
+42(21), 8942-8950. doi: 10.1002/2015GL065346
+
+Dubinin, E., Modolo, R., Fraenz, M., Paetzold, M., Woch, J., Chai, L., ... Zelenyi,
+L. (2019). The Induced Magnetosphere of Mars: Asymmetrical Topology of
+the Magnetic Field Lines. Geophysical Research Letters, 46(22), 12722-12730.
+doi: 10.1029/2019GL084387
+
+Dubinin, E., Modolo, R., Fraenz, M., Woch, J., Duru, F., Akalin, F., ... Picardi,
+G. (2008). Structure and dynamics of the solar wind/ionosphere interface
+on Mars: MEX-ASPERA-3 and MEX-MARSIS observations. Geophysical
+Research Letters, 35(11), 2-7. doi: 10.1029/2008GL033730
+
+Duru, F., Gurnett, D. A., Frahm, R. A., Winningham, J. D., Morgan, D. D., &
+Howes, G. G. (2009). Steep, transient density gradients in the Martian ionosphere similar to the ionopause at Venus. Journal of Geophysical Research:
+
+Space Physics, 114, 1-17. doi: 10.1029/2009JA014711
+
+Duru, F., Gurnett, D. A., Morgan, D. D., Modolo, R., Nagy, A. F., & Najib, D.
+(2008). Electron densities in the upper ionosphere of mars from the excitation of electron plasma oscillations. Journal of Geophysical Research: Space
+Physics, 113, A07302. doi: 10.1029/2008JA013073
+
+Edberg, N. J. T., Brain, D. A., Lester, M., Cowley, S. W., Modolo, R., Franz, M.,
+
+& Barabash, S. (2009). Plasma boundary variability at Mars as observed by
+Mars Global Surveyor and Mars Express. Annales Geophysicae, 27, 3537-3550.
+doi: 10.5194/angeo-27-3537-2009
+
+Edberg, N. J. T., Lester, M., Cowley, S. W., & Eriksson, A. I. (2008). Statistical
+analysis of the location of the Martian magnetic pileup boundary and bow
+shock and the influence of crustal magnetic fields. Journal of Geophysical
+Research: Space Physics, 113, 1-8. doi: 10.1029/2008JA013096
+
+Fillingim, M. O., Lillis, R. J., England, S. L., Peticolas, L. M., Brain, D. A.,
+
+Halekas, J. S.,... Bougher, S. W. (2012). On wind-driven electrojets at
+
+magnetic cusps in the nightside ionosphere of Mars. Earth, Planets and Space,
+
+_34
+This article is protected by copyright. All rights reserved.
+764
+
+795
+
+796
+
+64 (2), 93-103. doi: 10.5047 /eps.2011.04.010
+
+Fisher, R. A. (1921). On the probable error of a coefficient of correlation deduced
+
+from a small sample. Metron(1), 3-32. doi: 10.1093/biomet /9.1-2.22
+
+Girazian, Z., Halekas, J., Morgan, D. D., Kopf, A. J., Gurnett, D. A., & Chu, F.
+(2019). The Effects of Solar Wind Dynamic Pressure on the Structure of the
+Topside Ionosphere of Mars. Geophysical Research Letters, 46(15), 8652-8662.
+doi: 10.1029/2019¢1083643
+
+Gruesbeck, J. R., Espley, J. R., Connerney, J. E., DiBraccio, G. A., Soobiah, Y. L.,
+Brain, D., ... Mitchell, D. L. (2018). The Three-Dimensional Bow Shock
+of Mars as Observed by MAVEN. Journal of Geophysical Research: Space
+Physics, 123(6), 4542-4555. doi: 10.1029/2018JA025366
+
+Gurnett, D. A., Kirchner, D. L., Huff, R. L., Morgan, D. D., Persoon, A. M.,
+Averkamp, T. F.,... Picardi, G. (2005). Radar soundings of the ionosphere of
+mars. Science, 810, 1929-1933. doi: 10.1126/science.1121868
+
+Halekas, J. S., Brain, D. A., Luhmann, J. G., DiBraccio, G. A., Ruhunusiri, S.,
+Harada, Y.,... Jakosky, B. M. (2017). Flows, Fields, and Forces in the MarsSolar Wind Interaction. Journal of Geophysical Research: Space Physics,
+122(11), 11,320-11,341. doi: 10.1002/2017JA024772
+
+Halekas, J. S., McFadden, J. P., Brain, D. A., Luhmann, J. G., DiBraccio, G. A.,
+Connerney, J. E., ... Jakosky, B. M. (2018). Structure and Variability of the
+Martian Ion Composition Boundary Layer. Journal of Geophysical Research:
+Space Physics, 123(10), 8439-8458. doi: 10.1029/2018JA025866
+
+Halekas, J. 5., Ruhunusiri, $., Harada, Y., Collinson, G., Mitchell, D. L., Mazelle,
+C.,... Jakosky, B. M. (2017). Structure, dynamics, and seasonal variability
+of the Mars-solar wind interaction: MAVEN Solar Wind Ion Analyzer in-flight
+performance and science results. Journal of Geophysical Research: Space
+Physics, 122, 547-578. doi: 10.1002/2016JA023167
+
+Halekas, J. 5., Taylor, E. R., Dalton, G., Johnson, G., Curtis, D. W., McFadden,
+J.P.,... Jakosky, B. M. (2015). The Solar Wind Ion Analyzer for MAVEN.
+Space Science Reviews, 195, 125-151. doi: 10.1007/s11214-013-0029-z
+
+Hall, B. E., Lester, M., Sanchez-Cano, B., Nichols, J. D., Andrews, D. J., Edberg,
+
+N. J.,... Orosei, R. (2016). Annual variations in the Martian bow shock
+
+location as observed by the Mars Express mission. Journal of Geophysical Re
+—3h—
+
+This article is protected by copyright. All rights reserved.
+829
+
+search: Space Physics, 121(11), 11,474-11,494. doi: 10.1002/2016JA023316
+
+Hall, B. E., Sanchez-Cano, B., Wild, J. A., Lester, M., & Holmstrom, M. (2019).
+The Martian Bow Shock Over Solar Cycle 2324 as Observed by the Mars
+Express Mission. Journal of Geophysical Research: Space Physics, 124 (6),
+4761-4772. doi: 10.1029/2018JA026404
+
+Harada, Y., Gurnett, D. A., Kopf, A. J., Halekas, J. S., Ruhunusiri, $., Lee, C. O.,
+... Jakosky, B. M. (2017). Dynamic response of the Martian ionosphere to
+an interplanetary shock: Mars Express and MAVEN observations. Geophysical
+Research Letters, 44, 9116-9123. doi: 10.1002/2017GL074897
+
+Holmberg, M. K., André, N., Garnier, P., Modolo, R., Andersson, L., Halekas, J.,
+... Mitchell, D. L. = (2019). MAVEN and MEX Multi-instrument Study of
+
+the Dayside of the Martian Induced Magnetospheric Structure Revealed by
+Pressure Analyses. Journal of Geophysical Research: Space Physics, 124 (11),
+8564-8589. doi: 10.1029/2019JA026954
+
+Jordan, R., Picardi, G., Plaut, J., Wheeler, K., Kirchner, D., Safaeinili, A.,... Bombaci, O. (2009). The Mars express MARSIS sounder instrument. Planetary
+
+and Space Science, 57, 1975-1986. doi: 10.1016/j.pss.2009.09.016
+
+Luhmann, J. G., & Cravens, T. (1991). Magnetic Fields in the Ionosphere of
+Venus. Space Science Reviews(55), 201-274. doi: https://doi.org/10.1007 /
+BF00177138
+
+Lundin, R., Barabash, $., Fedorov, A., Holmstrom, M., Nilsson, H., Sauvaud, J. A.,
+& Yamuchi, M. (2008). Solar forcing and planetary ion escape from Mars.
+Geophysical Research Letters, 85(9), 1-5. doi: 10.1029/2007GL032884
+
+Matsunaga, K., Seki, K., Brain, D. A., Hara, T., Masunaga, K., Mcfadden, J. P., ...
+Jakosky, B. M. (2017). Statistical Study of Relations Between the Induced
+Magnetosphere, Ion Composition, and Pressure Balance Boundaries Around
+Mars Based On MAVEN Observations. Journal of Geophysical Research: Space
+Physics, 122(9), 9723-9737. doi: 10.1002/2017JA024217
+
+Mazelle, C., Winterhalter, D., Sauer, K., Trotignon, J. G., Acuna, M. H.,
+Baumgartel, K., ... Slavin, J. (2004). Bow shock and upstream phenomena at Mars. Space Science Reviews, 111(1-2), 115-181. doi: 10.1023/B:
+
+SPAC.0000032717.98679.d0
+
+Nagy, A. F., Winterhalter, D., Sauer, K., Cravens, T. E., Brecht, S. H., & Mazelle,
+
+—36-—
+
+This article is protected by copyright. All rights reserved.
+C. (2004). The Plasma Environment of Mars. Space Science Reviews, 111,
+33-114. doi: 10.1023/B:SPAC.0000032718.47512.92
+
+Némec, F., Linzmayer, V., Némeéek, Z., & Safrdnkova, J. (2020). Martian Bow
+Shock and Magnetic Pileup Boundary Models Based on an Automated Region
+Identification. Journal of Geophysical Research: Space Physics, 125(11), 1-16.
+doi: 10.1029/2020JA028509
+
+Nilsson, H., Carlsson, E., Brain, D. A., Yamauchi, M., Holmstrom, M., Barabash,
+S.,... Futaana, Y. (2010). Ion escape from Mars as a function of solar wind conditions: A statistical study. Icarus, 206(1), 40-49. doi:
+10.1016 /j.icarus.2009.03.006
+
+Picardi, G., Biccari, D., Seu, R., Plaut, J., Johnson, W. T. K., Jordan, R. L., ...
+Zampolini, E. (2004). MARSIS : Mars Advanced Radar for Subsurface and
+Ionosphere Sounding. In Mars express: The scientific payload, esa special
+publication. vol. 1240, pp. 51-69, edited by A. Wilson and A. Chicarro, ESA
+Publications Division, Noordwijk, Netherlands.
+
+Ramstad, R., Barabash, $., Futaana, Y., & Holmstro6m, M. (2017). — Solar windand EUV-dependent models for the shapes of the Martian plasma boundaries
+based on Mars Express measurements. Journal of Geophysical Research: Space
+Physics, 122(7), 7279-7290. doi: 10.1002/2017JA024098
+
+Ramstad, R., Barabash, S., Futaana, Y., Nilsson, H., & Holmstrom, M. (2017).
+Global Mars-solar wind coupling and ion escape. Journal of Geophysical Research: Space Physics, 122(8), 8051-8062. doi: 10.1002/2017JA024306
+
+Ramstad, R., Brain, D. A., Dong, Y., Espley, J., Halekas, J., & Jakosky, B. (2020).
+The global current systems of the Martian induced magnetosphere. Nature
+Astronomy, 4(10), 979-985. Retrieved from http://dx.doi.org/10.1038/
+s41550-020-1099-y doi: 10.1038/s41550-020-1099-y
+
+Russell, C. T., Luhmann, J. G., & Strangeway, R. J. (2016). Space Physics. Cambridge University Press.
+
+Sanchez-Cano, B., Narvaez, C., Lester, M., Mendillo, M., Mayyasi, M., Holmstrom,
+M.,... Durward, S. (2020). Mars’ ionopause: A matter of pressures. JGR
+Space Physics, 125. doi: 10.1029/2020JA028145
+
+Trotignon, J. G., Mazelle, C., Bertucci, C., & Acuna, M. H. (2006). Martian shock
+
+and magnetic pile-up boundary positions and shapes determined from the Pho
+—a4f—
+
+This article is protected by copyright. All rights reserved.
+bos 2 and Mars Global Surveyor data sets. Planetary and Space Science, 54,
+357-369. doi: 10.1016/j.pss.2006.01.003
+
+Vignes, D., Mazelle, C., Rme, H., Acuna, M. H., Connerney, J. E., Lin, R. P., ...
+Ness, N. F. (2000). ~='The Solar Wind interaction with Mars: Locations and
+shapes of the Bow Shock and the Magnetic Pile-up Boundary from the observations of the MAG/ER experiment onboard Mars Global Surveyor. Geophysical Research Letters, 27, 49-52. doi: 10.1029/1999GL010703
+
+Wang, M., Lee, L. C., Xie, L., Xu, X., Lu, J. Y., Kabin, K.,... Sui, H. (2021). Ef
+fect of solar wind density and velocity on the subsolar standoff distance of the
+Martian magnetic pileup boundary. Astronomy & Astrophysics, 651(A22). doi:
+10.1051 /0004-6361 /202140511
+
+Wang, M., Xie, L., Lee, L. C., Xu, X. J., Kabin, K., Lu, J. Y.,... Li, L. (2020). A
+3D Parametric Martian Bow Shock Model with the Effects of Mach Number,
+Dynamic Pressure, and the Interplanetary Magnetic Field. The Astrophysical
+Journal, 903(2), 125. doi: 10.3847/1538-4357 /abbc04
+
+Withers, P., Mendillo, M., Rishbeth, H., Hinson, D. P., & Arkani-Hamed, J. (2005).
+Ionospheric characteristics above Martian crustal magnetic anomalies. Geophysical Research Letters, 32(16), 1-4. doi: 10.1029/2005GL023483
+
+Xu, 5., Mitchell, D. L., Weber, T., Brain, D. A., Luhmann, J. G., Dong, C., ...
+Mazelle, C. (2020). Characterizing Mars’s Magnetotail Topology With Respect to the Upstream Interplanetary Magnetic Fields. Journal of Geophysical
+Research: Space Physics, 125(3), no. doi: 10.1029/2019JA027755
+
+—38—
+
+This article is protected by copyright. All rights reserved.

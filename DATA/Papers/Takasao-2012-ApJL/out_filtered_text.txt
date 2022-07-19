@@ -1,0 +1,226 @@
+  © 2012.
+The American Astronomical Society.
+All rights reserved.
+Printed in the U.S.A.
+doi: 10.1088/20:41 - 82:05/745/1/L6 SIMULTANEOUS OBSERVATION OF RECONNECTION INFLOW AND OUTFLOW ASSOCIATED WITH THE 2010 AUGUST 18 SOLAR FLARE SHINSUKE TAKASAO!’*, AYUMI ASAT’, HIROAKI ISOBE*, AND KAZUNARI SHIBATA! ! Kwasan and Hida Observatories, Kyoto University, Yamashina, Kyoto 607-8471, Japan; takasao@kwasan.kyoto-u.ac.jp * Department of Astronomy, Kyoto University, Sakyo, Kyoto 606-8502, Japan 3 Unit of Synergetic Studies for Space, Kyoto University, Yamashina, Kyoto 607-8471, Japan Received  5 October 2011 ; accepted  5 December 2011 ; published  30 December 2011  ABSTRACT We report the simultaneous extreme-ultraviolet observation of magnetic reconnection inflow and outflow in a flare on  18 August 2010  observed by the Atmospheric Imaging Assembly on board the Solar Dynamics Observatory.
+We found that during the rise phase of the flare, some plasma blobs appeared in the sheet structure above the hot loops.
+The plasma blobs were ejected bidirectionally along the sheet structure (outflow), at the same time as the threads visible in extreme-ultraviolet images moved toward the sheet structure (inflow).
+The upward and downward ejection velocities are 220-460 km s~! and 250-280 km s~!, respectively.
+The inflow speed changed from 90 km s7! to 12 km s~! in 5 minutes.
+By using these velocities, we estimated the nondimensional reconnection rate, which we found to vary during this period from 0.20 to 0.055.
+We also found that the plasma blobs in the sheet structure collided or merged with each other before they were ejected from the sheet structure.
+We hypothesize that the sheet structure is the current sheet and that these plasma blobs are plasmoids or magnetic islands, which could be important for understanding the dynamics of the reconnection region.
+Key words: magnetic fields — magnetic reconnection — Sun: corona — Sun: flares — Sun: UV radiation 1.
+INTRODUCTION Solar flares are the most energetic phenomenon in the solar atmosphere.
+A huge amount of magnetic energy (107?—10°? erg) that has been stored in the corona is released over a short period of time (107-10? s).
+It is widely believed that magnetic reconnection, a physical process in which a magnetic field in a highly conducting plasma changes its connectivity due to finite resistivity, plays a central role in the rapid dissipation of magnetic energy in solar flares, as well as other explosive phenomena in astrophysical, space, and laboratory plasmas (Yamada et al.
+2010).
+Many studies have reported the observational features of magnetic reconnection in solar flares.
+These studies include observations of cusp-shaped loops (Tsuneta et al.
+1992), looptop hard X-ray sources (Masuda et al.
+1994), plasmoid ejection (Shibata et al.
+1995; Tsuneta 1997; Ohyama & Shibata 1998), reconnection inflows (Yokoyama et al.
+2001; Narukage & Shibata 2006; Li & Zhang 2009), reconnection outflows (Wang et al.
+2007), supra-arcade downflows (McKenzie & Hudson 1999; Innes et al.
+2003; Asai et al.
+2004; Savage & McKenzie 2011), and current-sheet-like structures (Sui & Holman 2003; Lin et al.
+2005; Liu et al.
+2010).
+Yokoyama et al.
+(2001) found a pattern of bright threads that merged toward an X-point (where the magnetic field was hypothesized to be reconnecting) in extreme-ultraviolet (EUV) images and identified the motion as reconnection inflow.
+Narukage & Shibata (2006) further worked on the statistical study of inflow by EUV observations and found that the observed inflows are closely associated with plasmoid ejections or coronal mass ejections.
+The classic magnetic reconnection model for solar flares, the CSHKP model (Carmichael 1964; Sturrock 1966; Hirayama 1974; Kopp & Pneuman 1976), successfully explains some features of long-lived (more than 1 hr) flares.
+This model has been improved to include a generalized configuration, leading to a unified model proposed by Shibata et al.
+(1995).
+Many of the observations presented above relating to the global structure of flares have been successfully explained by this magnetic reconnection model.
+For reviews of our current knowledge of magnetic reconnection in solar flares, see, for example, Shibata (1999).
+There are still fundamental difficulties in the theory of magnetic reconnection in flares, especially on the physics that determines the reconnection rate.
+The reconnection rate is defined as the reconnected magnetic flux per unit time, where the dimensionless form is the Alfvén Mach number Ma = Vinfow/Va, Where Vinfow 18 the inflow speed into the reconnection point and Vy, is the Alfvén speed, respectively.
+Observationally, the value of the reconnection rate is estimated to be 0.001—0.1 (Isobe et al.
+2002, 2005; Narukage & Shibata 2006).
+In the classic reconnection theory by Sweet (1958) and Parker (1957), the reconnection rate M, is given by Rj, 1? which is as low as ~10~’ in the solar corona because the magnetic Reynolds number (Lundquist number) R,, = LV,4/n ~ 10', where L(~ 10’ cm) is the typical size of the flare and n (~10°T-?/? ~ 104 cm’ s~! for T ~ 10° K) is the magnetic diffusivity for Spitzer resistivity.
+This value is too small to explain the timescales and the energy release rates of solar flares.
+However, Petschek (1964) predicted that the reconnection rate M, can be of the order of 0.01—0.1, for the case of slow shocks emanating from a small diffusion region.
+This value plausibly explains the observed reconnection rate in solar flares.
+MHD simulations have shown that localized resistivity can facilitate fast reconnection (e.g., Ugai & Tsuda 1977; Yokoyama & Shibata 1994), where fast reconnection is defined as the reconnection with rate close to unity and almost independent of the magnetic Reynolds number, such as Petschek’s model.
+Observational support for Petschek’s model is given by Tsuneta (1996).
+It is believed that localized resistivity may be realized through kinetic effects in the coronal plasma, such as microscopic instabilities and wave—particle interaction.
+Indeed, magnetospheric observation and numerical simulations have shown that fast reconnection sets in when the current sheet thickness becomes   comparable to the ion inertia length or Larmor length (Treumann 2001).
+However, such microscopic scales are tiny (~100 cm) in the solar corona compared with the characteristic scale of flares (~10? cm).
+How to connect such a huge gap in the micro and the macro scales is one of the fundamental problems in the reconnection physics in solar flares.
+To transcend this scale gap, Shibata & Tanuma (2001) suggested the fractal reconnection model.
+In this model, plasmoids (regions of magnetically confined plasma) play an important role not only in achieving fast magnetic reconnection but also in linking the small- and large-scale physics.
+A current sheet in an antiparallel magnetic field is unstable due to the tearing instability, and can create plasmoids (Furth et al.
+1963; Steinolfson & Van Hoven 1983; Loureiro et al.
+2007).
+Once they are formed, the plasmoids tend to coalesce with each other to form bigger plasmoids (Tajima et al.
+1987).
+When a plasmoid is ejected from the current sheet, rapid inflows are locally induced to fill the evacuated region.
+This leads to the intermittent enhancement of the reconnection rate.
+In addition, such plasmoids may be created on various scales.
+In this way plasmoids can fill the scale gap between the micro and macro scales of reconnection (Tajima & Shibata 1997).
+Many observations report evidence that plasmoids are created in flare current sheets (Ohyama & Shibata 1998; Kliem et al.
+2000; Karlicky & Barta 2007).
+Asai et al.
+(2004) found several dark downflows (dark voids) in EUV images that were ejected intermittently during the decay phase and also during the impulsive and main phases of a flare.
+Moreover, a nonthermal emission was associated with the motion of each dark void.
+Nishizuka et al.
+(2010) examined multiple plasmoids ejections from a flare using soft X-ray images.
+They found that the ejected plasmoids were strongly accelerated during multiple peaks in the hard X-ray emission in a flare.
+Both studies imply that the reconnection rate was enhanced by plasmoid ejections or downflows.
+From the above examples, it can be seen that the observed reconnection rate is important to give a constraint on magnetic reconnection models for solar flares.
+One way to estimate the reconnection rate observationally is to simultaneously detect both reconnection inflow speed and outflow speed.
+Because two-dimensional magnetic reconnection theories predict that the reconnection outflow speed Voutflow ~ Va (e.g., Priest & Forbes 2000), the reconnection rate M, is of the order of Vinflow / Voutflow We simultaneously detected both reconnection inflows and outflows for the flare that appeared on  18 August 2010  in EUV wavelengths and use these values to estimate the reconnection rate of the flare.
+We also found successive ejections of plasma blobs and their interaction in the current sheet.
+This study indicates a relationship between the energy release process of the flare and the dynamics of the plasma blobs in the current sheet.
+2.
+OBSERVATIONS OF GLOBAL STRUCTURE OF THIS FLARE This flare (C4.5 on the GOES class; see Figures 1(g) and (h)) occurred in the Active Region NOAA 11099 on  18 August 2010 , which was located beyond the northwest limb at the time the flare occurred.
+The EUV images of this flare were obtained by the Extreme Ultraviolet Imager (EUVI; Howard et al.
+2008; Wiielser et al.
+2004) on the Solar Terrestrial Relation Observatory spacecraft Ahead (STEREO-A; Kaiser et al.
+2008) and the Atmospheric Imaging Assembly (AIA) on the Solar Dynamics Observatory (SDO).
+In this Letter we used 195A images of EUVI and 94A, 131A, 171A, 193A, 211A, and TAKASAO ET AL.
+335 A images of AIA.
+The pixel size and the temporal resolution of the 195 A images taken by EUVI are about 1’6 and 150 s, respectively.
+Those of each wavelength images taken by AIA are about 06 and 12 s, respectively.
+The 195A channel of EUVI contains the Fe x line with the formation temperature of 1.6 MK and the Fe xxv line with that of 20 MK.
+The six narrowband EUV passbands of AIA are sensitive to different ionization states of iron.
+The 171 A channel contains Fe x line, formed at 0.6 MK.
+The 193A channel is similar to the 195A channel of EUVI.
+The 211 A channel contains Fe XIV, formed at 2 MK.
+The 335 A channel contains the Fe xvi line, formed at 2.5 MK.
+The 94A channel contains the Fe x line and Fe xvi line, formed at 1 MK and 7 MK, respectively.
+In the 131A channel the Fe xxt line, formed at 11 MK, is dominant in flaring regions, while it also contains lower temperature lines such as the Fe vit line, formed at 0.4 MK (see O’dwyer et al.
+2010 and Reeves & Golub 2011).
+We investigated the three-dimensional structure of this flare by using the 195 A images taken by STEREO-A/EUVI (which was located ahead of the Earth with the separation angle of 79°877 at 05:00 UT) and the 193A images by AIA (see Figure 1).
+From the EUVI images, we can obtain the top view of the flare.
+The typical two-ribbon structure can be seen in Figure l(e).
+From the AIA images, we can obtain the side view of the flare.
+We can discern the vertical structure and the motion because this flare was located near the west limb (Figure 1(b)).
+Before the flare, a prominence eruption occurred at around 4:40 (Figures I(a) and (d)).
+Then, intermittent brightening started at 05:07 near the position where the eruption took place.
+A sheet structure appeared at 05:10 and the bidirectional ejection began (Figures 1(b) and (e)).
+Most of the downward (solar-ward) ejections are bright, but we can also see one dark void.
+The dark void also appeared below the sheet structure in 193, 94, and 131 A images.
+In this Letter we analyze the dynamics of the bright ejections in EUV, and we call the bright downward plasma motions in EUV as downflows.
+An upward ejection of a bright plasma blob (~5 arcsec in size) was also observed.
+At 05:15 UT, the sheet structure could not be discerned in all wavelength images.
+After that, post flare loops became prominent below the position where the sheet structure was located (Figures 1(c) and (f)).
+3.
+SIMULTANEOUS OBSERVATIONS OF INFLOW AND OUTFLOW AND CURRENT SHEET DYNAMICS Figure 2 shows the close-up images of the reconnection site obtained by AIA.
+The flare loops can be recognized in 94 and 131A images, indicating they may be hot (+7 MK).
+The sheet structure appeared above the hot loops.
+From the sheet structure, the diffusive plasma ejection and a plasma blob ejections are observed.
+We found the flows toward the sheet structure (inflows) and bidirectional flows from the sheet structure (outflows).
+The inflow speed was measured using 193 A images by tracing the motion of threads toward the sheet structure, and the outflow speed using 193A by tracing the bidirectional ejection along the sheet structure.
+We measure the velocities of these flows by using slits shown in the distance-time diagrams perpendicular and parallel to the sheet structure, respectively (Figures 3(a) and (b)).
+The horizontal and the vertical axes of Figures 3(c) and (d) are time and the distance along the slits, respectively.
+The slit NS (N: north, S: south) and slit EW (E: east, W: west) are for the measurement of inflow and outflow velocities, respectively.
+The solid lines track the apparent motion of the plasma.
+The   AIA 193A Mee (a) T04:53:07.840 400 350 Y (arcsecs) i) 300 L > Prominence aad eruption we (6b) T05:10:31.840 400 350 Y (arcsecs) 300 250 sheet structure mae (C) T06:43:07.840 400 Post flare loops Y (arcsecs) (o>) O1 (o>) Y (arcsecs) Y (arcsecs) Y (arcsecs) 800 850 900 950 1000 1050 X (arcsecs) EUVI 195A 450 (d) T04:53:00.010 400 aa nence eruption 350 fan * .
+) ae 300 250 TAKASAO ET AL.
+450 (e) T05:10:30.007 400 bast sheet structure 350 -_-.
+4 SG 300 250 : Two-ribbon (f) T06:43:00.008 400 gy Post flare loops _ FEN a.
+250 200 250 300 350 X (arcsecs) GOES X-ray 2010-Aug-18 7 ha 04:00 05:00 06:00 Flux [W m*] 108 04:42 04:48 04:54 07:00 05:00 05:06 05:12 Time [UT] 05:18 Figure 1.
+Evolution of the  18 August 2010  flare.
+Top: comparison between images of SDO/AIA 193 A (left: (a)-(c)) and STEREO/EUVI 195 A (right: (d)-(f)).
+Bottom: GOES soft X-ray flux in the 0.5—4.0 A and 1.0-8.0 A channels.
+The time range of the bottom panel is indicated by arrows in the top panel.
+The gray region in the bottom panel corresponds to the time span studied in Figure 3.
+numbered slopes in Figures 3(c) and (d) show the velocities of the moving structures.
+Note that the bright band in Figure 3(c) (~40 arcsec from the point S) corresponds to a part of the sheet structure since the slit NS crosses the sheet structure.
+The dotted line in Figure 3(d) indicates the height of the edge of the sheet structure at the time when the sheet structure appeared.
+We identified several threads that move toward the sheet structure in the EUV images.
+To derive the inflow speed of   171A T05:10:48.340 Plasma blob 335A T05:10:51.630 ' 193A T05:10:43.840 094A T05:10:50.130 TAKASAO ET AL.
+211A T05:10:48.630 Plasma ejection 131A T05:10:45.620 Hot loops i | Sheet structure Figure 2.
+Close-up images of the reconnection site in six different wavelengths (171, 193, 211, 335, 94, and 131 A) of AIA at the time when the current sheet, the plasma blob, and the hot post flare loops are observed.
+White solid lines indicate the solar limb.
+AIA 198A T05:10:55.840 (a) 60 j 2 50 Q iS ; @ 40 , a 8 30 > S 20 ae) © 410 ) 60 _ 8 50 ” O ; @ 40 i 8 99F > & 20 © 410 of 900 920 940 960 980 1000 X (arcsecs) 05:10 05:12 05:14 05:16 05:18 Start Time (18-Aug-10 05:08:07) 05:10 05:12 05:14 05:16 05:18 Start Time (18-Aug-10 05:08:07) Figure 3.
+Left: images of the sheet structure with slits (AIA 193 A).
+Right: time-sequenced images obtained along the slit NS (N: north, S: south, (a)) and the slit EW (E: east, W: west, (b)).
+The numbers of each line represent the velocity corresponding to the slope (km s—!).
+The dotted line in the time-sequenced image of slit EW indicates the height of a visible edge of the sheet structure at the time when the current sheet appeared.
+the threads, we used the distance-time diagram shown in Figure 3(c).
+The movements of the threads are recognized as bright lines in the diagram (marked with black solid lines).
+These movements started almost simultaneously (~05:10 UT) with the appearance of the sheet structure.
+The apparent speed Voattern Changed from 90 km s~' to 12 km s~' during the 5 minute period we could observe the threads.
+This indicates that the inflow velocity decreased several minutes after the sheet structure appeared.
+If we consider this motion as inflow, this asymptotic value of velocity (~12 km s~!) is within the range of other observed values (2.6-38 km s~!; Narukage & Shibata 2006).
+The speed of the bidirectional flow (outflow) was derived from Figure 3(d).
+The velocities of upward ejections from the sheet structure were obtained by tracing the plasma ejections and the bright blob in the 193 A images (see Figures 2 and 3(d)).
+Their velocities are 220-250 km s~! and 460 km s~|, respectively.
+The downflow speed is 250-280 km s~!.
+These ejections are recognized not only in low-temperature wavelength images such as 171 A but also in high-temperature wavelength images such as 335, 94, and 131 A.
+This implies that these ejecta contain plasma with a wide temperature range.
+Those velocities are consistent with other observations (McKenzie & Hudson 1999; Innes et al.
+2003; Asai et al.
+2004).
+It should be noted that the   (a) T05:12:19.840 (C) T05:12:43.840 (d) T05:12:55.840 Cle (e) T05:13:07.840 T05:13:19.840 Figure 4.
+Time-sequenced images of the plasma blobs in the current sheet (AIA 193 A).
+The arrows (dotted arrow, solid arrow, and broken arrow) indicate the positions of the plasma blobs.
+The plasma blobs are marked with their own individual arrow, which follow their evolution.
+The white arrows indicate the position of the coalesced plasma blobs.
+The dashed line indicates the position of the plasma blob pointed to by the solid arrow at T05:12:19.840 UT.
+! and downflows slowed down to approximately 70-80 km s~ spread out after colliding with the loops below.
+We also observed many plasma blobs in the sheet structure.
+The length of the sheet is ~20 arcsec and the typical size of these plasma blobs is ~3 arcsec.
+They formed in the sheet, and then are ejected or collide with each other.
+Figure 4 shows the time sequence images of 193A.
+At first, there was one plasma blob with the size of 2 arcsec in the sheet structure (Figure 4(a)).
+Twelve seconds later, its size became larger (~3 arcsec) and two plasma blobs (their sizes are ~2 arcsec) appeared on both sides of the first plasma blob (Figure 4(b)).
+The newly formed plasma blobs increased in size (~3 arcsec) TAKASAO ET AL.
+in Figure 4(c).
+After that, they seem to collide and possibly merge with each other (Figure 4(d)) and are ejected downward at a speed of ~280 km s~! (Figures 4(f) and (g)).
+They were strongly decelerated when they collided with the loops below, almost stopping.
+The other downward ejections were typically decelerated to 70-80 km s~! after colliding with the loops below.
+The deceleration can be recognized as the bend of the solid lines (which trace the motions of the bright structures) in the distance—time diagram shown in Figure 3(d).
+4.
+DISCUSSION We have examined in detail the morphology and dynamics of the magnetic reconnection region in the limb flare on  18 August 2010 .
+The overall characteristics, namely largescale eruption, inflow and outflow, and hot loops below, are consistent with the classical CSHKP model.
+We could examine the fine scale dynamics of the reconnection region owing to the high spatial and temporal resolutions of AIA.
+Figure 5 shows the schematic picture of this flaring region.
+We observed simultaneous reconnection inflows and outflows and measured their velocities.
+A lot of plasma blobs appeared in the sheet and collided with each other or were ejected from it.
+We consider that the sheet structure was the current sheet and that the plasma blobs were the magnetic islands or plasmoids created by the tearing instability.
+Figure 3(d) is similar to the distance—time diagram obtained from the simulation result of Shen et al.
+(2011; see Figure 6 in their paper) where the plasmoids are ejected bidirectionally, which supports our assertions.
+Some plasmoids were made up of multi-thermal plasma because they are recognized in the six wavelength images.
+These plasmoids could contain hot (>7 MK) plasma as they were visible in the AIA channels sensitive to hot plasma (94 and 131 A), but these channels are also sensitive to cooler plasma (Foster & Testa 2011), which makes diagnosis of the temperature difficult.
+There is a possibility that they were heated by the coalescence of plasmoids (Kliem et al.
+2000).
+We derive the reconnection rate from the observed values by using the relation My, ~ Vinflow/ Voutflow.
+The upward outflow velocity was found to change from ~460 km s~! to ~220 km s~!, assuming that the plasmoid velocity ejected upward (~460 km s~!) is almost the same as the outflow velocity.
+It should be noted that we did not find another upward ejection after the second ejection shown in Figure 3.
+Therefore, we use 460 km s~! as the outflow velocity in the period of time between 5:10:30 and 5:11:00 and 220 km s7! after 5:11:00 (see Figure 3).
+It should be noted that the apparent motion in the EUV images is due to the inflow but may not be the true plasma motion (Chen et al.
+2004).
+Spectroscopic observation of reconnection region 1s necessary to quantitatively address the flow velocity (Lin et al.
+2005; Hara et al.
+2006; Wang et al.
+2007).
+We assume that inflow speed was close to the apparent motion speed.
+Because the length of the visible edge of the sheet did not change drastically, we neglect any effects for this motion on the inflow speed (Yokoyama et al.
+2001).
+If projection effects are neglected, the inflow speed can be estimated as Vinflow ~ Vpatten-.
+The pattern velocity changed from 90kms~! to 12kms7!, and therefore, the reconnection rate M, changed from 0.20 to 0.055 within the 5 minute period starting from when the current sheet became bright in EUV.
+This value is comparable with the predicted value from Petschek’s (1964) reconnection model and other observed values (Narukage & Shibata 2006).
+  Limb V4 | Hot loops TAKASAO ET AL.
+Plasmoid O —(_ Inflow —p—S Outflow Plasmoids Figure 5.
+Schematic diagram of the flaring region.
+Black solid lines indicate the magnetic field.
+Top: the global configuration of the magnetic field.
+Bottom: a close-up image of the current sheet region.
+We found that the disappearance of the plasmoids in the later phase coincides with the reduction of the reconnection rate from 0.20 to 0.055 (see Figures 3 and 4).
+Theoretically, plasmoid ejections induce strong inflow, which can promote the thinning of the current sheet and enhance the reconnection rate (Shibata & Tanuma 2001).
+Therefore, the reduction of the reconnection rate may be due to the suppression of the plasmoid activities.
+Although we lack detailed information of the time and space variations of the inflow velocity near the current sheet, which is necessary to confirm the above assertion, this result probably suggests that the reconnection rate of this flare was enhanced by the plasmoid dynamics.
+We thank Dr.
+A.
+Hillier for fruitful comments on the manuscript.
+We are grateful to SDO/AIA and STEREO/EUVI teams for providing the data used in this study.
+This work was supported by the Grand-in-Aid for the Global COE Program “The Next Generation of Physics, Spun from Universality & Emergence” from the Ministry of Education, Culture, Sports, Science and Technology (MEXT) of Japan.
+A.A.
+is supported by KAKENHI (23340045).
+H.I.
+is supported by the Grant-inAid for Young Scientists (B, 22740121).
+Facilities: SDO, STEREO .

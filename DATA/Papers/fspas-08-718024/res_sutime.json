@@ -1,0 +1,410 @@
+[
+    {
+        "end": 94,
+        "start": 77,
+        "text": "14 September 2021",
+        "timex-value": "2021-09-14",
+        "type": "DATE",
+        "value": "2021-09-14"
+    },
+    {
+        "end": 563,
+        "start": 552,
+        "text": "31 May 2021",
+        "timex-value": "2021-05-31",
+        "type": "DATE",
+        "value": "2021-05-31"
+    },
+    {
+        "end": 588,
+        "start": 574,
+        "text": "30 August 2021",
+        "timex-value": "2021-08-30",
+        "type": "DATE",
+        "value": "2021-08-30"
+    },
+    {
+        "end": 617,
+        "start": 600,
+        "text": "14 September 2021",
+        "timex-value": "2021-09-14",
+        "type": "DATE",
+        "value": "2021-09-14"
+    },
+    {
+        "end": 4262,
+        "start": 4249,
+        "text": "December 2025",
+        "timex-value": "2025-12",
+        "type": "DATE",
+        "value": "2025-12"
+    },
+    {
+        "end": 4817,
+        "start": 4801,
+        "text": "1 September 2021",
+        "timex-value": "2021-09-01",
+        "type": "DATE",
+        "value": "2021-09-01"
+    },
+    {
+        "end": 5083,
+        "start": 5072,
+        "text": "August 2018",
+        "timex-value": "2018-08",
+        "type": "DATE",
+        "value": "2018-08"
+    },
+    {
+        "end": 5156,
+        "start": 5144,
+        "text": "October 2018",
+        "timex-value": "2018-10",
+        "type": "DATE",
+        "value": "2018-10"
+    },
+    {
+        "end": 5253,
+        "start": 5240,
+        "text": "February 2020",
+        "timex-value": "2020-02",
+        "type": "DATE",
+        "value": "2020-02"
+    },
+    {
+        "end": 5321,
+        "start": 5305,
+        "text": "November 30 2025",
+        "timex-value": "2025-11-30",
+        "type": "DATE",
+        "value": "2025-11-30"
+    },
+    {
+        "end": 7493,
+        "start": 7480,
+        "text": "December 2025",
+        "timex-value": "2025-12",
+        "type": "DATE",
+        "value": "2025-12"
+    },
+    {
+        "end": 8109,
+        "start": 8096,
+        "text": "November 2019",
+        "timex-value": "2019-11",
+        "type": "DATE",
+        "value": "2019-11"
+    },
+    {
+        "end": 8517,
+        "start": 8501,
+        "text": "September 1 2020",
+        "timex-value": "2020-09-01",
+        "type": "DATE",
+        "value": "2020-09-01"
+    },
+    {
+        "end": 8539,
+        "start": 8523,
+        "text": "November 30 2025",
+        "timex-value": "2025-11-30",
+        "type": "DATE",
+        "value": "2025-11-30"
+    },
+    {
+        "end": 8949,
+        "start": 8935,
+        "text": "September 2021",
+        "timex-value": "2021-09",
+        "type": "DATE",
+        "value": "2021-09"
+    },
+    {
+        "end": 12988,
+        "start": 12940,
+        "text": "at least from September 2020 until December 2025",
+        "type": "DURATION",
+        "value": {
+            "begin": "2020-09",
+            "end": "2025-12"
+        }
+    },
+    {
+        "end": 13084,
+        "start": 13070,
+        "text": "September 2021",
+        "timex-value": "2021-09",
+        "type": "DATE",
+        "value": "2021-09"
+    },
+    {
+        "end": 13228,
+        "start": 13219,
+        "text": "July 2025",
+        "timex-value": "2025-07",
+        "type": "DATE",
+        "value": "2025-07"
+    },
+    {
+        "end": 16582,
+        "start": 16558,
+        "text": "the end of November 2023",
+        "timex-value": "2023-11",
+        "type": "DATE",
+        "value": "2023-11"
+    },
+    {
+        "end": 19611,
+        "start": 19597,
+        "text": "September 2021",
+        "timex-value": "2021-09",
+        "type": "DATE",
+        "value": "2021-09"
+    },
+    {
+        "end": 19731,
+        "start": 19708,
+        "text": "2021-02-19 - 2021-03-08",
+        "type": "DURATION",
+        "value": {
+            "begin": "2021-02-19",
+            "end": "2021-03-08"
+        }
+    },
+    {
+        "end": 19807,
+        "start": 19784,
+        "text": "2021-03-21 - 2021-03-24",
+        "type": "DURATION",
+        "value": {
+            "begin": "2021-03-21",
+            "end": "2021-03-24"
+        }
+    },
+    {
+        "end": 19993,
+        "start": 19972,
+        "text": "2021-02-19",
+        "timex-value": "2021-02-19",
+        "type": "DATE",
+        "value": "2021-02-19"
+    },
+    {
+        "end": 20126,
+        "start": 20104,
+        "text": "2021 -03-13-2021-03-14",
+        "timex-value": "2021-03-14",
+        "type": "DATE",
+        "value": "2021-03-14"
+    },
+    {
+        "end": 20199,
+        "start": 20178,
+        "text": "2021-03-21",
+        "timex-value": "2021-03-21",
+        "type": "DATE",
+        "value": "2021-03-21"
+    },
+    {
+        "end": 20336,
+        "start": 20326,
+        "text": "2021-06-01",
+        "timex-value": "2021-06-01",
+        "type": "DATE",
+        "value": "2021-06-01"
+    },
+    {
+        "end": 20348,
+        "start": 20338,
+        "text": "2021-07-01",
+        "timex-value": "2021-07-01",
+        "type": "DATE",
+        "value": "2021-07-01"
+    },
+    {
+        "end": 20478,
+        "start": 20455,
+        "text": "2021-06-01 - 2021-07-01",
+        "type": "DURATION",
+        "value": {
+            "begin": "2021-06-01",
+            "end": "2021-07-01"
+        }
+    },
+    {
+        "end": 22304,
+        "start": 22290,
+        "text": "September 2021",
+        "timex-value": "2021-09",
+        "type": "DATE",
+        "value": "2021-09"
+    },
+    {
+        "end": 28091,
+        "start": 28069,
+        "text": "2020 and November 30th",
+        "type": "DURATION",
+        "value": {
+            "begin": "2020",
+            "end": "XXXX-11-30"
+        }
+    },
+    {
+        "end": 28171,
+        "start": 28157,
+        "text": "September 2021",
+        "timex-value": "2021-09",
+        "type": "DATE",
+        "value": "2021-09"
+    },
+    {
+        "end": 31382,
+        "start": 31342,
+        "text": "the year 2021 and the first half of 2022",
+        "type": "DURATION",
+        "value": {
+            "begin": "2021",
+            "end": "2022"
+        }
+    },
+    {
+        "end": 31414,
+        "start": 31384,
+        "text": "January 1st, 2022-June 30 2022",
+        "type": "DURATION",
+        "value": {
+            "begin": "2022-01-01",
+            "end": "2022-06-30"
+        }
+    },
+    {
+        "end": 31619,
+        "start": 31598,
+        "text": "2021-02-19",
+        "timex-value": "2021-02-19",
+        "type": "DATE",
+        "value": "2021-02-19"
+    },
+    {
+        "end": 31734,
+        "start": 31713,
+        "text": "2021-03-13",
+        "timex-value": "2021-03-13",
+        "type": "DATE",
+        "value": "2021-03-13"
+    },
+    {
+        "end": 31806,
+        "start": 31785,
+        "text": "2021-03-21",
+        "timex-value": "2021-03-21",
+        "type": "DATE",
+        "value": "2021-03-21"
+    },
+    {
+        "end": 32008,
+        "start": 31987,
+        "text": "2021-06-01",
+        "timex-value": "2021-06-01",
+        "type": "DATE",
+        "value": "2021-06-01"
+    },
+    {
+        "end": 32130,
+        "start": 32109,
+        "text": "2021-07-01",
+        "timex-value": "2021-07-01",
+        "type": "DATE",
+        "value": "2021-07-01"
+    },
+    {
+        "end": 32210,
+        "start": 32200,
+        "text": "2021-07-15",
+        "timex-value": "2021-07-15",
+        "type": "DATE",
+        "value": "2021-07-15"
+    },
+    {
+        "end": 32326,
+        "start": 32305,
+        "text": "2021-08-14",
+        "timex-value": "2021-08-14",
+        "type": "DATE",
+        "value": "2021-08-14"
+    },
+    {
+        "end": 32444,
+        "start": 32423,
+        "text": "2021-09-05",
+        "timex-value": "2021-09-05",
+        "type": "DATE",
+        "value": "2021-09-05"
+    },
+    {
+        "end": 32551,
+        "start": 32530,
+        "text": "2021-10-07",
+        "timex-value": "2021-10-07",
+        "type": "DATE",
+        "value": "2021-10-07"
+    },
+    {
+        "end": 32671,
+        "start": 32650,
+        "text": "2021-10-14\u20142021-10-15",
+        "type": "DURATION",
+        "value": {
+            "begin": "2021-10-14",
+            "end": "2021-10-15"
+        }
+    },
+    {
+        "end": 32791,
+        "start": 32770,
+        "text": "2021-10-23",
+        "timex-value": "2021-10-23",
+        "type": "DATE",
+        "value": "2021-10-23"
+    },
+    {
+        "end": 32906,
+        "start": 32885,
+        "text": "2022-03-11",
+        "timex-value": "2022-03-11",
+        "type": "DATE",
+        "value": "2022-03-11"
+    },
+    {
+        "end": 33024,
+        "start": 33003,
+        "text": "2022-04-06",
+        "timex-value": "2022-04-06",
+        "type": "DATE",
+        "value": "2022-04-06"
+    },
+    {
+        "end": 33093,
+        "start": 33072,
+        "text": "2022-06-09",
+        "timex-value": "2022-06-09",
+        "type": "DATE",
+        "value": "2022-06-09"
+    },
+    {
+        "end": 33749,
+        "start": 33736,
+        "text": "December 2025",
+        "timex-value": "2025-12",
+        "type": "DATE",
+        "value": "2025-12"
+    },
+    {
+        "end": 34310,
+        "start": 34296,
+        "text": "September 2021",
+        "timex-value": "2021-09",
+        "type": "DATE",
+        "value": "2021-09"
+    }
+]

@@ -1,0 +1,274 @@
+[
+    {
+        "end": 645,
+        "start": 635,
+        "text": "March 2015",
+        "timex-value": "2015-03",
+        "type": "DATE",
+        "value": "2015-03"
+    },
+    {
+        "end": 742,
+        "start": 731,
+        "text": "30 DEC 2015",
+        "timex-value": "2015-12-30",
+        "type": "DATE",
+        "value": "2015-12-30"
+    },
+    {
+        "end": 763,
+        "start": 752,
+        "text": "22 MAR 2016",
+        "timex-value": "2016-03-22",
+        "type": "DATE",
+        "value": "2016-03-22"
+    },
+    {
+        "end": 799,
+        "start": 788,
+        "text": "30 MAR 2016",
+        "timex-value": "2016-03-30",
+        "type": "DATE",
+        "value": "2016-03-30"
+    },
+    {
+        "end": 966,
+        "start": 956,
+        "text": "March 2015",
+        "timex-value": "2015-03",
+        "type": "DATE",
+        "value": "2015-03"
+    },
+    {
+        "end": 1959,
+        "start": 1943,
+        "text": "early March 2015",
+        "timex-value": "2015-03",
+        "type": "DATE",
+        "value": "2015-03"
+    },
+    {
+        "end": 4410,
+        "start": 4390,
+        "text": "from 1999 until 2006",
+        "type": "DURATION",
+        "value": {
+            "begin": "1999",
+            "end": "2006"
+        }
+    },
+    {
+        "end": 4604,
+        "start": 4571,
+        "text": "from October 2001 to October 2003",
+        "type": "DURATION",
+        "value": {
+            "begin": "2001-10",
+            "end": "2003-10"
+        }
+    },
+    {
+        "end": 6403,
+        "start": 6387,
+        "text": "25 February 2015",
+        "timex-value": "2015-02-25",
+        "type": "DATE",
+        "value": "2015-02-25"
+    },
+    {
+        "end": 6429,
+        "start": 6416,
+        "text": "15 March 2015",
+        "timex-value": "2015-03-15",
+        "type": "DATE",
+        "value": "2015-03-15"
+    },
+    {
+        "end": 7901,
+        "start": 7868,
+        "text": "from 25 February to 15 March 2015",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-02-25",
+            "end": "2015-03-15"
+        }
+    },
+    {
+        "end": 8816,
+        "start": 8783,
+        "text": "25 February 2015 to 15 March 2015",
+        "type": "DURATION",
+        "value": {
+            "begin": "2015-02-25",
+            "end": "2015-03-15"
+        }
+    },
+    {
+        "end": 9150,
+        "start": 9130,
+        "text": "between 3 PM and 4PM",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:00",
+            "end": "T16:00"
+        }
+    },
+    {
+        "end": 12072,
+        "start": 12067,
+        "text": "4 SEP",
+        "timex-value": "2022-09-04",
+        "type": "DATE",
+        "value": "2022-09-04"
+    },
+    {
+        "end": 15483,
+        "start": 15475,
+        "text": "2015 Feb",
+        "timex-value": "2015-02",
+        "type": "DATE",
+        "value": "2015-02"
+    },
+    {
+        "end": 15498,
+        "start": 15488,
+        "text": "2015-02-27",
+        "timex-value": "2015-02-27",
+        "type": "DATE",
+        "value": "2015-02-27"
+    },
+    {
+        "end": 15515,
+        "start": 15505,
+        "text": "2015-03-03",
+        "timex-value": "2015-03-03",
+        "type": "DATE",
+        "value": "2015-03-03"
+    },
+    {
+        "end": 15529,
+        "start": 15519,
+        "text": "2015-03-03",
+        "timex-value": "2015-03-03",
+        "type": "DATE",
+        "value": "2015-03-03"
+    },
+    {
+        "end": 15556,
+        "start": 15536,
+        "text": "2015-03",
+        "timex-value": "2015-03",
+        "type": "DATE",
+        "value": "2015-03"
+    },
+    {
+        "end": 15573,
+        "start": 15563,
+        "text": "2015-03-08",
+        "timex-value": "2015-03-08",
+        "type": "DATE",
+        "value": "2015-03-08"
+    },
+    {
+        "end": 15757,
+        "start": 15738,
+        "text": "February-March 2015",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-02",
+            "end": "2015-03"
+        }
+    },
+    {
+        "end": 18523,
+        "start": 18516,
+        "text": "7 March",
+        "timex-value": "2022-03-07",
+        "type": "DATE",
+        "value": "2022-03-07"
+    },
+    {
+        "end": 19012,
+        "start": 19004,
+        "text": "10 March",
+        "timex-value": "2022-03-10",
+        "type": "DATE",
+        "value": "2022-03-10"
+    },
+    {
+        "end": 20962,
+        "start": 20944,
+        "text": "2 March to 3 March",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-03-02",
+            "end": "XXXX-03-03"
+        }
+    },
+    {
+        "end": 22443,
+        "start": 22425,
+        "text": "Wed Mar 2 13:52:07",
+        "timex-value": "2022-03-02T13:52:07",
+        "type": "TIME",
+        "value": "2022-03-02T13:52:07"
+    },
+    {
+        "end": 22481,
+        "start": 22470,
+        "text": "02 Mar 2015",
+        "timex-value": "2015-03-02",
+        "type": "DATE",
+        "value": "2015-03-02"
+    },
+    {
+        "end": 22489,
+        "start": 22483,
+        "text": "Mar 03",
+        "timex-value": "2022-03-03",
+        "type": "DATE",
+        "value": "2022-03-03"
+    },
+    {
+        "end": 28447,
+        "start": 28442,
+        "text": "10:00",
+        "timex-value": "T10:00",
+        "type": "TIME",
+        "value": "T10:00"
+    },
+    {
+        "end": 32745,
+        "start": 32707,
+        "text": "from 25 February 2015 to 15 March 2015",
+        "type": "DURATION",
+        "value": {
+            "begin": "2015-02-25",
+            "end": "2015-03-15"
+        }
+    },
+    {
+        "end": 37363,
+        "start": 37356,
+        "text": "3 March",
+        "timex-value": "2022-03-03",
+        "type": "DATE",
+        "value": "2022-03-03"
+    },
+    {
+        "end": 40563,
+        "start": 40553,
+        "text": "March 2015",
+        "timex-value": "2015-03",
+        "type": "DATE",
+        "value": "2015-03"
+    },
+    {
+        "end": 40848,
+        "start": 40841,
+        "text": "3 March",
+        "timex-value": "2022-03-03",
+        "type": "DATE",
+        "value": "2022-03-03"
+    }
+]

@@ -1,0 +1,142 @@
+[
+    {
+        "end": 933,
+        "start": 922,
+        "text": "13 JUL 2021",
+        "timex-value": "2021-07-13",
+        "type": "DATE",
+        "value": "2021-07-13"
+    },
+    {
+        "end": 954,
+        "start": 943,
+        "text": "11 SEP 2021",
+        "timex-value": "2021-09-11",
+        "type": "DATE",
+        "value": "2021-09-11"
+    },
+    {
+        "end": 12187,
+        "start": 12169,
+        "text": "from 20:16 - 20:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:16",
+            "end": "T20:20"
+        }
+    },
+    {
+        "end": 13451,
+        "start": 13438,
+        "text": "20:16 - 20:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:16",
+            "end": "T20:20"
+        }
+    },
+    {
+        "end": 14249,
+        "start": 14241,
+        "text": "01:00:00",
+        "timex-value": "T01:00:00",
+        "type": "TIME",
+        "value": "T01:00:00"
+    },
+    {
+        "end": 14258,
+        "start": 14250,
+        "text": "02:00:00",
+        "timex-value": "T02:00:00",
+        "type": "TIME",
+        "value": "T02:00:00"
+    },
+    {
+        "end": 14267,
+        "start": 14259,
+        "text": "03:00:00",
+        "timex-value": "T03:00:00",
+        "type": "TIME",
+        "value": "T03:00:00"
+    },
+    {
+        "end": 14276,
+        "start": 14268,
+        "text": "04:00:00",
+        "timex-value": "T04:00:00",
+        "type": "TIME",
+        "value": "T04:00:00"
+    },
+    {
+        "end": 15163,
+        "start": 15152,
+        "text": "Dec 18 2019",
+        "timex-value": "2019-12-18",
+        "type": "DATE",
+        "value": "2019-12-18"
+    },
+    {
+        "end": 15626,
+        "start": 15621,
+        "text": "03:00",
+        "timex-value": "T03:00",
+        "type": "TIME",
+        "value": "T03:00"
+    },
+    {
+        "end": 16402,
+        "start": 16389,
+        "text": "01:30 - 03:10",
+        "type": "DURATION",
+        "value": {
+            "begin": "T01:30",
+            "end": "T03:10"
+        }
+    },
+    {
+        "end": 22501,
+        "start": 22488,
+        "text": "20:16 - 20:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:16",
+            "end": "T20:20"
+        }
+    },
+    {
+        "end": 25848,
+        "start": 25832,
+        "text": "December 18 2019",
+        "timex-value": "2019-12-18",
+        "type": "DATE",
+        "value": "2019-12-18"
+    },
+    {
+        "end": 34222,
+        "start": 34206,
+        "text": "November 24 2017",
+        "timex-value": "2017-11-24",
+        "type": "DATE",
+        "value": "2017-11-24"
+    },
+    {
+        "end": 34251,
+        "start": 34232,
+        "text": "01:10:03 - 02:10:03",
+        "type": "DURATION",
+        "value": {
+            "begin": "T01:10:03",
+            "end": "T02:10:03"
+        }
+    },
+    {
+        "end": 35852,
+        "start": 35806,
+        "text": "November 24 2017 between 01:10:03 and 02:10:03",
+        "type": "DURATION",
+        "value": {
+            "begin": "2017-11-24T01:10:03",
+            "end": "T02:10:03"
+        }
+    }
+]

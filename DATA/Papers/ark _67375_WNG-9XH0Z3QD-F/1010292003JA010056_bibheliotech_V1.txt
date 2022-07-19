@@ -1,0 +1,40 @@
+# Name: 1010292003JA010056_bibheliotech_V1;
+# Creation Date: 2022-07-18T16:51:57.094126;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1029/2003JA010056". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Parameter 1: id:column1; name:DOI; size:1; type:char;
+# Parameter 2: id:column2; name:SATS; size:1; type:char;
+# Parameter 3: id:column3; name:INSTS; size:1; type:char;
+# Parameter 4: id:column4; name:REGS; size:1; type:char;
+# Parameter 5: id:column5; name:D; size:1; type:int;
+# Parameter 6: id:column6; name:R; size:1; type:int;
+# Parameter 7: id:column7; name:SO; size:1; type:int;
+# Parameter 8: id:column8; name:occur_sat; size:1; type:int;
+# Parameter 9: id:column9; name:nb_durations; size:1; type:int;
+# Parameter 10: id:column10; name:conf; size:1; type:float;
+2001-03-31T01:48:00.000 2001-03-31T02:27:00.000 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 3483 1 14 31 22 0.07720403518969136 
+2001-03-31T01:48:00.000 2001-03-31T02:27:00.000 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 3076 1 14 31 22 0.0681824898775454 
+2001-03-31T01:48:00.000 2001-03-31T02:27:00.000 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 2768 1 14 31 22 0.0613553745061917 
+2001-03-31T01:48:00.000 2001-03-31T02:27:00.000 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1342 1 14 31 22 0.029746716975183978 
+2001-03-31T01:48:00.000 2001-03-31T02:27:00.000 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1258 1 14 31 22 0.027884776419360244 
+2001-03-31T01:48:00.000 2001-03-31T02:27:00.000 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1427 1 14 31 22 0.03163082349000562 
+2001-03-31T17:54:00.000 2001-03-31T18:06:00.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 28930 1 9 31 22 0.997517412592235 
+2001-03-31T17:54:00.000 2001-03-31T18:06:00.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 28965 1 9 31 22 0.9987242259154542 
+2001-03-31T17:54:00.000 2001-03-31T18:06:00.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 29002 1 9 31 22 1.0 
+2001-03-31T18:00:00.000 2001-03-31T18:04:00.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 573 1 9 31 22 0.019757258120129646 
+2001-03-31T18:00:31.000 2001-03-31T18:01:43.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 2250 1 9 31 22 0.07758085649265568 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster 1" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1119 1 3 31 22 0.11575063788704229 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster 1" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 3720 1 3 31 22 0.3848010482035722 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1579 1 14 31 22 0.03500004925768667 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1119 1 14 31 22 0.02480370811865192 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 3720 1 14 31 22 0.08245736747219404 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 7603 1 14 31 22 0.16852778626104606 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 22501 1 14 31 22 0.49875624341178443 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 23228 1 14 31 22 0.5148708956032589 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 26919 1 14 31 22 0.5966854502645139 
+2001-03-31T18:02:17.495 2001-03-31T18:02:17.505 https://doi.org/10.1029/2003JA010056 "ISEE" "" "Heliosphere.NearEarth" 2035 1 1 31 22 0.6315081718502173 
+2001-03-31T18:02:55.000 2001-03-31T18:04:07.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 260 1 9 31 22 0.008964898972484658 
+2001-03-31T18:02:55.000 2001-03-31T18:04:07.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 168 1 9 31 22 0.005792703951451625 
+2001-03-31T18:02:55.000 2001-03-31T18:04:07.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 982 1 9 31 22 0.03385973381146128 
+2001-03-31T18:02:55.000 2001-03-31T18:04:07.000 https://doi.org/10.1029/2003JA010056 "ACE" "SWEPAM,EPAM" "Heliosphere.NearEarth" 1386 1 9 31 22 0.0477898075994759 
+2001-03-31T18:02:55.000 2001-03-31T18:04:07.000 https://doi.org/10.1029/2003JA010056 "Cluster 1" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1445 1 3 31 22 0.14947245017584998 
+2001-03-31T18:02:55.000 2001-03-31T18:04:07.000 https://doi.org/10.1029/2003JA010056 "Cluster" "STAFF,PEACE,CIS,WHISPER,FGM" "Earth.Magnetosphere.Main" 1445 1 14 31 22 0.03202981075196785 

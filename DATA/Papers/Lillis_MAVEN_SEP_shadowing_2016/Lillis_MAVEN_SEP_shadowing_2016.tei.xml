@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Shadowing and anisotropy of solar energetic ions at Mars measured by MAVEN during the March 2015 solar storm</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+							<email>rlillis@ssl.berkeley.edu</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Christina</forename><forename type="middle">O</forename><surname>Lee</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Davin</forename><surname>Larson</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Janet</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jasper</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Physics and Astronomy</orgName>
+								<orgName type="institution">University of Iowa</orgName>
+								<address>
+									<settlement>Iowa City, Iowa</settlement>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Jack</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="laboratory">Laboratory for Atmospheric and Space Physics</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Bruce</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="institution">NASA Goddard Space Flight Center</orgName>
+								<address>
+									<settlement>Greenbelt</settlement>
+									<region>Maryland</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Shadowing and anisotropy of solar energetic ions at Mars measured by MAVEN during the March 2015 solar storm</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AF16018569B2A2F38879ED19DBF8143F</idno>
+					<idno type="DOI">10.1002/2015JA022327</idno>
+					<note type="submission">Received 30 DEC 2015 Accepted 22 MAR 2016 Accepted article online 30 MAR 2016</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T13:58+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>The Solar Energetic Particle (SEP) Instrument on the Mars Atmosphere and Volatile EvolutioN (MAVEN)  spacecraft is meant to characterize the variability of SEP fluxes at Mars. SEP ion precipitation is an important source of heating, ionization, and chemical changes in the upper atmosphere of Mars and may have played a substantial role in driving atmospheric escape over the history of the solar system. Here we examine SEP fluxes during a series of solar disturbances in late February through early March 2015. We present the first SEP ion pitch angle distributions measured at Mars and show how SEP anisotropy changes over the course of the event period. We present examples and explanations of several different kinds of variability in the SEP flux measured in the four fields of view of the instrument. Finally, we present a statistical study of energy-and angle-dependent shadowing of SEP under three different sets of heliospheric conditions, showing that the direct shadowing of SEP by the solid planet may be better explained in terms of simple geometry under quieter heliospheric conditions. In-depth understanding of the effects on SEP fluxes and precipitation patterns by the complex interplay between solar wind disturbances and Mars' magnetospheric configuration awaits detailed modeling studies.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>One of the primary goals of the Mars Atmosphere and Volatile EvolutioN (MAVEN) mission is to characterize the inputs of solar energy into the Martian atmosphere. These include solar extreme ultraviolet radiation, solar wind, and solar energetic particles (SEPs), each of which MAVEN is instrumented to measure <ref type="bibr" target="#b8">[Jakosky et al., 2015a]</ref>. SEPs are known to cause heating, ionization, and chemical changes in terrestrial planet atmospheres [e.g., <ref type="bibr" target="#b19">Seppälä et al., 2008;</ref><ref type="bibr" target="#b21">Velinov and Mateev, 1996]</ref> and have been observed to cause ionization in the Martian atmosphere, as evidenced by the production of suprathermal secondary electrons <ref type="bibr" target="#b13">[Lillis et al., 2012]</ref> and the absorption of radar waves <ref type="bibr" target="#b4">[Espley et al., 2007;</ref><ref type="bibr" target="#b18">Morgan et al., 2006</ref>]. These effects have been inferred to cause increases in the escape rate of planetary ions from Mars <ref type="bibr" target="#b6">[Futaana et al., 2008]</ref> and are therefore of major interest to the broader problem of Mars climate evolution, as it is thought that SEP events were stronger and/or more frequent in the early solar system <ref type="bibr" target="#b14">[Lillis et al., 2015;</ref><ref type="bibr" target="#b22">Walker, 1975]</ref>.</p><p>The energetic particle environment in near-Mars space has been sampled by a number of instruments, covering different energy ranges and from different orbits. The solar low-energy detector (SLED) instrument on Phobos-2 measured SEPs from 34 keV to 4.5 MeV in five energy channels for 3 months in 1989 in a ~6300 km circular equatorial orbit <ref type="bibr" target="#b16">[Mckenna-Lawlor et al., 1992]</ref>. Background count rates in the Mars Global Surveyor (MGS) electron reflectometer were used to derive fluxes of 20-100 MeV ions in a ~400 km Sun-synchronous circular polar orbit from 1999 until 2006 <ref type="bibr" target="#b3">[Delory et al., 2012]</ref>. The Mars Odyssey Martian Radiation Experiment (MARIE) instrument measured radiation dose at human-relevant energies (i.e., above 30 MeV) from October 2001 to October 2003 <ref type="bibr" target="#b23">[Zeitlin et al., 2004]</ref> in a similar orbit to MGS, after which the background rates in the Odyssey High-Energy Neutron Detector and Gamma Ray Spectrometer have been used as proxies until the present for SEP flux above 16 MeV <ref type="bibr" target="#b24">[Zeitlin et al., 2010]</ref>. Background count rates in the Mars Express Analyzer of Space Plasmas and Energetic Atoms-3 plasma suite have similarly been used as proxies for SEPs above ~20 MeV in its 300 km × 10,000 km elliptical polar orbit <ref type="bibr" target="#b5">[Frahm et al., 2013;</ref><ref type="bibr" target="#b12">Lillis et al., 2010]</ref>.</p><p>The solid planet Mars forms a barrier to energetic particles. The flux and spectrum of SEPs at a given location in the Martian atmosphere or in near-Mars space are affected by this barrier. Hereafter, we will call the resulting decreases in the SEP flux "magnetic shadowing." The shadowing effect depends upon (1) the energy and pitch angle distribution of SEPs striking the Mars system, (2) the altitude of the observer above the solid planet, and (3) the angular position of the observer with respect to both the planet and the interplanetary magnetic field (IMF) which guides the motion of the SEP. The magnetic shadowing effect of solar particle radiation is important to understand from the perspective of energy deposition in Mars' upper atmosphere as well as from the human health perspective for human exploration at Mars. Shadowing was first noticed as orbitperiod dips in flux measured by SLED and reported on by <ref type="bibr" target="#b0">Afonin et al. [1989]</ref> though no in-depth analysis or statistics were presented. <ref type="bibr" target="#b15">Luhmann et al. [2007]</ref> reported on orbital period variability of tens of percent in the omnidirectional flux of 20-200 MeV ions as measured by MARIE; they conducted simple modeling to show that 1 MeV ion fluxes at 400 km altitude could exhibit variability and that fluxes could drop out entirely if measurements were restricted to a 30°wide cone-shaped instrument field of view (FOV). A modeling-only study by <ref type="bibr" target="#b11">Leblanc et al. [2002]</ref> considered SEP shadowing but mainly focused on the effects of atmospheric absorption and deflection by magnetospheric and crustal magnetic fields. Lastly, <ref type="bibr" target="#b17">McKenna-Lawlor et al. [2012]</ref> modeled the motion of energetic ions using a hybrid plasma interaction model and reproduced the approximate shape of the magnetic shadow measured by Phobos-2 SLED.</p><p>In this paper we present case studies and statistics of magnetic shadowing of ions from 20 keV to 6 MeV as measured by the MAVEN Solar Energetic Particle Instrument (also referred to by the acronym "SEP") during a series of heliospheric disturbances in near-Mars space that occurred from 25 February to 15 March 2015, which were triggered by at least four ICMEs (interplanetary coronal mass ejections) <ref type="bibr" target="#b9">[Jakosky et al., 2015b]</ref>. This is the first time that solar energetic ions have been measured in near-Mars space with high-energy resolution and simultaneous measurements of the IMF, allowing us to examine the complex interplay between SEP, the IMF, and the solid planet.</p><p>The second section discusses the data used. The third section examines the broad characteristics of the anisotropy of SEP fluxes during the event period. The fourth section presents specific examples of complex, energy-dependent shadowing of SEP. The fifth section presents statistics of SEP fluxes measured in near-Mars space (and which therefore impacted Mars) during this time. The sixth and final section contains discussion and conclusions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Data Used in This Study</head><p>The specific SEP data we examine span the time range 25 February 2015 to 15 March 2015 and encompass the entire set of heliospheric disturbances as they impacted Mars. Figure <ref type="figure" target="#fig_0">1</ref> shows the precessing MAVEN orbital trajectory during the event with respect to the nominal magnetic pileup boundary and bow shock locations determined by <ref type="bibr" target="#b20">Trotignon et al. [2006]</ref>. The MAVEN periapsis pass was on the dayside between 3 PM and 4 PM local time in the northern hemisphere. Also, during this event period MAVEN exited the Mars magnetosphere into the upstream solar wind for almost 2 h on each orbit, which allowed for measurements of the IMF, i.e., the large-scale magnetic structures that primarily govern SEP ion motion, as was described by <ref type="bibr" target="#b9">Jakosky et al. [2015b]</ref> The SEP instrument data used in this study are in the form of ion differential energy fluxes in 28 logarithmically spaced energy bins spanning 20 keV to 6 MeV (see Figure <ref type="figure">8</ref> of <ref type="bibr" target="#b10">Larson et al. [2015]</ref> for the energy map) in four orthogonal look directions lying in a plane at 90°angles to each other, each with a total field of view of 42°× 31°(~3% of the full sky). These are labeled 1 F, 1R, 2 F, and 2R, where the numbers denote the SEP instrument sensors and "F" and "R" denote the "forward" FOV (usually oriented 45°away from the Mars-Sun line) and "reverse" FOV (usually oriented 135°away from the Mars-Sun line). SEP have attenuators which, when closed, reduce the count rate by a factor of ~100. The attenuators can close to increase the dynamic range during very large SEP events and do close to protect the detectors when the Sun is in the field of view or when the spacecraft is below 500 km (both sunlight and atomic oxygen can damage the detectors). The interested reader is directed to <ref type="bibr" target="#b10">Larson et al. [2015]</ref> for a full description of the instrument design, operation, and data products.</p><p>We also use solar wind energy, density and velocity measurements from the Solar Wind Ion Analyzer (SWIA) <ref type="bibr" target="#b7">[Halekas et al., 2015]</ref>, magnetic field measurements from the MAVEN magnetometer <ref type="bibr" target="#b2">[Connerney et al., 2015]</ref>, and ancillary data such as the attenuator state, fraction of each FOV blocked by Mars, and spacecraft location and FOV look directions in MSO (Mars-solar-orbital) coordinates.</p><p>In addition, for the first time, we use pitch angle distributions (PADs) of energetic ions which we determine in the following manner: (1) resample magnetic field measurements to the cadence of the SEP measurements (2, 8, or 32 s depending on altitude); (2) divide each of the 4 SEP FOVs into 1°× 1°pixels and calculate the angle of each pixel with respect to the magnetic field, i.e., the pitch angle of the pixel; and (3) divide pitch angle space (0°-180°) into 10°bins and assign to each 10°bin the mean flux of any FOV whereby the pitch angles overlap that bin, weighted by the size of the overlap. With most pitch angle bins having zero, one, or two FOVs contributing, formal PAD errors are difficult to quantify but can be approximated by the scatter between adjacent pitch angle bins. PADs are meaningful only when the first adiabatic invariant is conserved; i.e., the radius of magnetic field curvature is much larger than the ion gyroradius [e.g., <ref type="bibr">Parks, 2004]</ref>. Despite the existence of relatively small-scale features such as turbulence and magnetic holes which can alter the particles' paths on scales smaller than their gyroradii, this is mostly true in the solar wind where the field line curvature of the interplanetary magnetic field is typically on the order of millions of kilometers. However, it is not necessarily true inside the Martian magnetosphere where the field line curvature can be on the order of the planetary radius or smaller. These energetic ions measured by the SEP instrument have gyroradii of tens to hundreds of thousands of kilometers (see Figure <ref type="figure">2</ref>), and therefore, we calculate PADs with respect to the nearest measurement of the IMF made outside the Martian bowshock.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Large-Scale Character and Anisotropy of the Multi-ICME Event Period</head><p>Before examining specific signatures or statistics of SEP shadowing during our event period, it helps to first examine the large-scale features, particularly those that concern SEPs. Figure <ref type="figure">3</ref> shows a time series of the energetic ion fluxes in one forward and one reverse look directions (i.e., 1 F and 1R), ion PADs at 100 keV and 500 keV, IMF direction and strength, and solar wind pressure together with the energy-pitch angle spectrograms of SEPs measured outside the bow shock. Correlated with the increases in the SEP flux distributions, the time series show a series of prompt increases in the IMF strength and solar wind pressure, indicating the shock arrival of four ICMEs at Mars. Note that although the third shock is very weak in terms of the peak solar wind pressure and IMF values, the flux spectra show an early onset of the highest-energy SEPs (with peak fluxes possibly above the SEP instrument upper energy limit of 6 MeV) prior to the arrival of the fourth ICME shock. These high-energy SEP arrived about 2 days prior to the lower energy SEPs, indicating that these SEP were accelerated near the Sun during the early phase of the fourth ICME event <ref type="bibr" target="#b9">[Jakosky et al., 2015b]</ref>.</p><p>In addition to those aspects, we report here the first measurements of pitch angle anisotropy of SEPs striking Mars. First, we see a correlation between IMF direction and pitch angle anisotropy. During this time, the polar angle (theta) component of the IMF in the MSO coordinate system is largely between 60°and 120°, i.e., within 30°of the ecliptic plane. For several days following the first shock, the SEPs are quite isotropic over all energies, as the azimuthal (phi) component of the IMF varies between ~90°and 240°. Following the second shock, the SEP distribution becomes anisotropic as the IMF oscillates close to an azimuth of 0°/360°, i.e., pointing close to the Mars-Sun line. As expected, during this time the SEP flux distribution at all measured energies is approximately three times higher antiparallel to the magnetic field than parallel; i.e., more SEPs are traveling in the Àx direction (away from the Sun) than the + x direction (toward the Sun). However, this still indicates that a nonnegligible source of SEPs is connected to Mars via a magnetic field line that extends beyond Mars' orbit from the Sun When the third (weak) shock and storm of high-energy particles reaches Mars on 7 March, the IMF turns and its phi angle is ~120°, i.e., a typical Parker spiral, for about 30 h. The SEPs are now more parallel than antiparallel, traveling in the Àx, +y direction, i.e., more away from the Sun as expected. Following the fourth shock, the same pattern continues for several days, with a preference for an antiparallel particle distribution when the IMF is approximately sunward and parallel distribution when the IMF briefly has a Parker spiral configuration, such as on 10 March. The bottom three panels in Figure <ref type="figure">3</ref> show that SEP pitch angle anisotropy is not strongly energy dependent, being somewhat more pronounced at the lowest and highest energy during interval 2 and in the range 100-300 keV during interval 3.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Interpreting Flux Variations in SEP Ion Data</head><p>Energetic ion fluxes entering the four fixed SEP FOVs are dependent on three main factors. The first factor is the energy and angular distribution of energetic ions striking the Mars system, which is responsible for the long-term features of the SEP flux such as those shown in Figure <ref type="figure">3</ref>. These distributions depend on heliospheric conditions such as flares (which accelerate SEPs at the Sun), CME shocks (which accelerate SEPs locally), and the solar wind and IMF configuration which guides the accelerated particles toward or away from Mars. The second factor is the spacecraft location within or with respect to the Martian magnetosphere, since the draped IMF above 500 km (i.e., where useful SEP data exist) can be up to tens of nT <ref type="bibr" target="#b1">[Brain et al., 2003]</ref> and can deflect some of the lower energy SEPs (&lt;300 keV). See Figure <ref type="figure">2</ref> for the gyroradii of solar energetic protons as a function of magnetic field strength and energy.</p><p>The third factor is the spacecraft attitude, which changes typically on a two-orbit cadence as maneuvers are executed for different observations near periapsis, on the flanks of the orbit, and near apoapsis. The spacecraft attitude also changes for less common activities such as reaction wheel desaturations and Earth communication <ref type="bibr" target="#b8">[Jakosky et al., 2015a]</ref>. Attitude changes expose each FOV to a different part of the local SEP angular distribution, which can itself be heavily influenced by proximity to the solid planet and (to a lesser degree) by its atmosphere, which can block, in an energy-dependent way, some SEP from entering a given FOV.</p><p>Figure <ref type="figure" target="#fig_2">4</ref> shows examples of the second and third factors. Spanning ~14 h in 2 March to 3 March, the heliospheric source of SEPs does not change substantially (see Figure <ref type="figure">3</ref>). Therefore, most of the energy-dependent variability in ion fluxes entering the four FOVs is due to their orientation with respect to the local angular distribution of energetic ions, both of which change as the spacecraft orbits Mars (as shown in Figure <ref type="figure" target="#fig_0">1</ref>), spending ~2 h per orbit in the solar wind.</p><p>Six types of flux variations are shown in this example, each with a different explanation, and summarized in Table <ref type="table" target="#tab_0">1</ref>. The first is caused by the attenuators closing near each periapsis. Figures <ref type="figure" target="#fig_2">4a-4e</ref> show that even though the calculated fluxes are adjusted for the much smaller (x ~100) geometric factor when the attenuators are closed, so few counts are recorded that reliable fluxes cannot be derived.</p><p>The second type is caused by the solid planet obstructing the 2R field of view, at times labeled "A1" and "A2," on the inbound leg of the orbit ~1000 km altitude around local noon in the southern hemisphere. Using simple geometry we can roughly estimate the range of ion energies that should be blocked by Mars. This range Journal of Geophysical Research: Space Physics 10.1002/2015JA022327  <ref type="figure">(h, i</ref>) the MSO azimuthal (phi) and polar (theta) angles of each of the FOVs and the magnetic field, (j) the magnetic field magnitude, (k) omnidirectional ion energy-time spectrograms from the SWIA instrument, and (l) the altitude of the spacecraft. The vertical dashed lines refer to specific events discussed in the text and summarized in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Journal of Geophysical Research: Space Physics 10.1002/2015JA022327 varies with the angle between the magnetic field and a plane tangential to the planet, with more radial magnetic field directions resulting in a larger range of blocked energies. Figure <ref type="figure" target="#fig_4">5</ref> shows one useful case of this geometry where the field is parallel to this tangent plane (and applies for any azimuthal direction about a normal to this plane). The geometry shown is both relevant for data collected near periapsis during this time (i.e., where the draped IMF is typically tangential to the surface) and also lets us derive, using the law of cosines, the maximum energy E max of an ion that can reach a detector at altitude h with a velocity that makes an angle α to the nadir direction (as given by equation ( <ref type="formula">1</ref>)). All energies higher than this should be blocked by the solid planet, regardless of the magnetic field direction. Figure <ref type="figure" target="#fig_4">5</ref> also shows this geometry.</p><formula xml:id="formula_0">E max ¼ B 2 R 2 g q 2 2m ; R g ¼ h 2 þ 2hR M 2 R M 1 À sinα ð ÞÀhsinα ½ (1)</formula><p>where B is the assumed uniform magnetic field strength, R g is the ion gyroradius, m and q are the mass and charge of the ion, and R M is the radius of Mars, all in SI units.   Journal of Geophysical Research: Space Physics 10.1002/2015JA022327</p><p>If the 2R aperture, at 1000 km altitude, points at the center of Mars, then all ions with gyroradii above ~1600 km will be blocked by Mars from entering the aperture. If we make the simplifying assumption that the measured magnetic field of 15 and 22 nT guides the particles' trajectory everywhere and that protons dominate the SEP population, then the particles above ~30 keV and ~60 keV will not be able to enter the 2R aperture, respectively. This is indeed the observed behavior during the flux dropouts at times A1 and A2, respectively in Figure <ref type="figure" target="#fig_2">4d</ref>). We label these events "high-energy shadowing" events because the solid planet forms a shadow for all SEPs above a certain cutoff energy, which is determined by the spacecraft altitude and the magnetic field strength.</p><p>In contrast, the third type of flux variation is characterized by dropouts at an intermediate range of energies, which we call "low-energy shadowing." These are related to the high-energy shadowing events in that the decreased fluxes are caused by the solid planet obstructing ions. However, in this case the FOV is typically not facing the planet (see Figure <ref type="figure" target="#fig_2">4g</ref>), so the highest-energy ions with the largest gyroradii are not obstructed. At any given time, the energy range of ions that are shadowed and the depth of the decrease is dependent on the angular distance between the FOV and the solid planet, as well as the angular distribution of ions as they gyrate in the Martian magnetosphere. Because the heliospheric source of the SEPs was mostly constant for this time period, if the Martian magnetosphere was stable from time B1 to time B2 in Figure <ref type="figure" target="#fig_2">4</ref>, we should see very similar dropouts at these times because the spacecraft position (1000-3000 km altitude near local midnight in the northern hemisphere) and attitude with respect to Mars and the Sun was identical. However, we see a ~60 min dropout in FOVs 1 F and 2 F (Figures <ref type="figure" target="#fig_2">4a and 4c</ref>) at time B2 but no dropout at B1 because the magnetosphere was quite different: at B1 the magnetic field was highly variable though largely sunward and quite weak (see Figures <ref type="figure" target="#fig_2">4h-4j</ref>), falling as low as 1 nT with some hot sheath-like plasma present in the SWIA data (Figure <ref type="figure" target="#fig_2">4k</ref>), whereas at B2 the field was largely antisunward with a strength of ~10 nT and a more typical tail-like ion spectrum measured by SWIA. Detailed modeling of both the magnetosphere and SEP particle traces is required to understand the exact shape of these dropouts and is beyond the scope of this paper.</p><p>The fourth type of flux variation occurs when MAVEN encounters a very different magnetic field environment, resulting in a sudden change in the angular distribution of the SEPs at a time when the FOVs look directions are not varying. The change is always more acute for lower energies since their paths are more strongly affected by the changing magnetic environments. Examples of this are shown at times C1 and C2 in Figure <ref type="figure" target="#fig_2">4</ref>, with the former being clearer. During the time C1, at ~4000 km altitude in the tail lobe, the magnetic field strength increases by ~20% (Figure <ref type="figure" target="#fig_2">4j</ref>) and its direction changes abruptly from northward-antisunward to ecliptic-sunward (Figures <ref type="figure" target="#fig_2">4h and 4i</ref>), with a resultant change in the fluxes in all four FOVs (a high-energy shadowing event in 2 F complicates the picture somewhat). The clearest signature is shown for 2R (Figure <ref type="figure" target="#fig_2">4d</ref>), with a decrease by almost an order of magnitude. C2 occurs in the solar wind with a rapid change from a typical ecliptic Parker spiral direction to a more southward magnetic field configuration, resulting in modest increases in the fluxes in 1R and 2 F but no obvious changes in the other FOVs.</p><p>The fifth type of SEP flux variation occurs when the magnetic field is constant but the spacecraft reorients, such as at time D. Here the spacecraft is in a stable IMF of about 4 nT with a positive B y when the spacecraft reorients moderately, exposing the FOVs to different portions of the ion angular distributions. This results in noticeably lower fluxes in 1 F, higher fluxes in 2 F, no change in 2R, and a medium-energy shadowing event in 1R.</p><p>The sixth and final type of flux variation observed in SEP ion data is caused by ionized exospheric oxygen picked up by the solar wind and accelerated to energies from a few tens of keV up to 200 keV. Because they lose significant energy in the aluminum and silicon dead layer coating the "open" detectors <ref type="bibr" target="#b10">[Larson et al., 2015]</ref>, they are detected at energies typically below 100 keV. They travel in cycloidal paths in the antisunward direction and so are only observed in the 1 F and 2 F (i.e. typically sunward facing) FOVs. In Figure <ref type="figure" target="#fig_2">4a</ref> they can be seen as bursty features at low energies superimposed on the solar energetic proton flux at most times except between times D and A2 and when extinguished by either type of shadowing. The source and character of these pickup oxygen ions is discussed in detail by <ref type="bibr">Rahmati et al. [2015]</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Statistical Properties of SEP Shadowing</head><p>We know from time series of energetic ion flux (like that shown in Figure <ref type="figure" target="#fig_2">4</ref>) that shadowing of SEPs by the solid planet occurs regularly. Therefore, we examine the statistics regarding how this shadowing varies with energy, altitude, the angle of the FOV center with respect to Mars, and heliospheric conditions. It is not useful Although the sampling determined by the orbit and attitude of the MAVEN spacecraft is somewhat limiting, the pattern shown is consistent with discussions in the previous section: ion fluxes decrease as nadir angles and altitudes decrease, which makes intuitive sense: as more of the sky is blocked by the planet, fewer interplanetary SEPs can enter the detector. As also expected, this effect is more pronounced for higher energies because their larger gyroradii mean that the solid planet blocks their paths into the FOV more effectively; i.e. this is the high-energy shadowing phenomenon discussed in the previous section.</p><p>Figure <ref type="figure" target="#fig_6">7</ref> examines how the energy and nadir angle-dependent character of the shadowing changes with the different heliospheric conditions present in intervals 1, 2, and 3 identified (see Figure <ref type="figure">3</ref>) for all data collected between 500 km and 1000 km altitude, i.e., close to the planet and therefore relevant for understanding SEP precipitation. The white lines represent the maximum calculated energy (according to equation ( <ref type="formula">1</ref>)) for which protons can enter the SEP detector at 750 km altitude (i.e., the mean altitude of the spacecraft at which the displayed data were collected), under the simplistic assumption of a uniform magnetic field with a strength equal to the average of the magnetic field measured below 1000 km.</p><p>Table <ref type="table" target="#tab_2">2</ref> shows the mean, median, and standard deviation of magnetic fields measured at the spacecraft below 1000 km during each of the three intervals identified in Figure <ref type="figure">3</ref>.</p><p>The first feature we notice is that the high-energy shadowing phenomenon, most prominent for Journal of Geophysical Research: Space Physics 10.1002/2015JA022327</p><p>higher energies and lower nadir angles, is clear in all three intervals. However, it manifests differently each time. For interval 1, when the incident SEPs are fairly isotropic and no shocks occur; our simplistic model is consistent with the data and reproduces the high-energy shadowing reasonably well. For interval 2, during which SEPs travel preferentially away from the Sun approximately along the Mars-Sun line and which includes a time-decaying SEP spectrum following the major CME shock of 3 March, our simplistic model is consistent with the data above ~500 keV, below which ions partially "fill in" some of the expected shadow. This filling in could be due to locally much stronger magnetic fields and local particle acceleration as the shock passes through the Martian system. For the short third interval, when no shock occurs and high-energy SEPs dominate and SEPs of all energies preferentially travel away from the Sun along a canonical Parker spiral, our simplistic model is consistent with the data above ~100 keV, below which we see some filling in of loss cone, though substantially less than interval 2. The low-energy (20-60 keV) peak at low nadir angles is likely due to occasional magnetic field values much higher than the mean (see Table <ref type="table" target="#tab_2">2</ref>) with some possible contribution from pickup oxygen backscattering from the atmosphere.</p><p>The second feature we notice in Figure <ref type="figure" target="#fig_6">7</ref> is the low-energy shadowing phenomenon, i.e., typically lower energy SEPs blocked by the planet at much higher nadir angles, resulting from certain combinations of SEP angle distribution and magnetic field geometry. As we would expect, this also manifests itself differently in each of the three intervals due to different average magnetospheric conditions. Once again, interval 1 is the most regular due to its isotropic SEP angular distribution, no shocks, and broad range of IMF angles, displaying low-energy shadowing for decreasing energies as nadir angles increase beyond ~60°. This makes sense because as the detector aperture points further in angle away from nadir, higher-energy SEPs entering the detector cannot have passed near the planet and therefore cannot be shadowed. Once again, interval 2 defies easy explanation, where we see an enhancement at middle energies between ~80 keV and ~2 MeV but essentially no shadowing for nadir angles above 120°. This is probably due to complex interactions between the ICME shock, the draped magnetosphere, and the incident SEPs.  <ref type="figure">3</ref> and for altitudes between 500 and 1000 km. The white curves signify the maximum energy particle which, originating outside the atmosphere, should be able to enter the SEP instrument FOV at 750 km (the mean spacecraft altitude) assuming an ambient magnetic field strength equal to the mean (dotted) and median (dashed) magnetic field measured below 1000 km altitude. The mean and median magnetic field strengths are given in <ref type="table" target="#tab_2">Table 2:</ref>  For interval 3, the higher SEP anisotropy and Parker spiral IMF result in 60-90% flux decreases at middle energies near the spacecraft periapsis for all nadir angles, though like in interval 1, the shadowed energies are lower for larger nadir angles.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusions</head><p>In this study we have presented data from the MAVEN SEP instrument collected during the ~18 day series of solar disturbances in March 2015 and attempted to explain, to first order, the variability in observed flux. We have presented the first SEP ion pitch angle distributions measured at Mars and shown that SEPs impacting the Mars system in the first phase of the event were isotropic, whereas those following the 3 March shock were more anisotropic, being enhanced (as expected) in the antisunward direction. We have also shown that the flux measured in any one field of view within and between individual orbits depends on several factors: the instrument attenuators, the flux impacting the Martian system, the local magnetic field configuration, the spacecraft attitude and energy-dependent blockage of energetic ion flux by the solid planet, which we call "shadowing." Lastly, we have statistically examined shadowing under three different sets of heliospheric conditions and shown that a simple geometric model explains the direct shadowing of high-energy particles (&gt;500 keV) under most conditions but that lower energy shadowing is more complex and depends on the interplay of SEP angular distributions and magnetic field geometry and observation location.</p><p>In future work, we intend to further explore the geometry that controls SEP shadowing by examining more SEP events observed by MAVEN. We also intend to conduct test particle modeling to attempt to reproduce observations and thereby understand the effect of SEP shadowing and anisotropy on patterns of solar energetic particle precipitation into the Martian upper atmosphere and their dependencies on heliospheric conditions. Determining how these conditions affect the upper atmosphere of Mars through energetic particle precipitation is an important factor in understanding the complex relationship between solar inputs and atmospheric escape from Mars. </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Orbital trajectory of MAVEN during the 18 day period of this study, from 25 February 2015 (purple) to 15 March 2015 (red) in the Mars-Solar-Orbital (MSO) coordinate system. The top left shows the perspective from the dawnside of Mars. The top right shows the perspective looking "down" on the plane of the ecliptic. The bottom left shows the view from the sun. The outer and inner dashed lines are the nominal bow shock and magnetic pileup boundary locations determined by Trotignon et al. [2006].</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .Figure 3 .</head><label>23</label><figDesc>Figure2. Proton gyroradii are plotted with colors as a function of energy and magnetic field strength. The dashed boxes' horizontal extent is the ion energy range of the SEP instrument, while their vertical extent shows approximately the range of magnetic field strengths for different plasma regimes: solar wind (gray), magnetosheath (white), and CME (green). The magnetic pileup region and ionosphere are omitted because SEP collect negligible data in these regions since the attenuators are closed below 500 km during this time period.</figDesc><graphic coords="3,209,63,100,61,131,21,88,82" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Time series demonstrating the different nonheliospheric sources of variability in the energetic ion flux measured by the SEP instrument. From top to bottom, (a-d) energy-time spectrograms of ion differential energy flux in the four SEP FOVs, (e) the attenuator state of both SEP sensors 1 and 2, (f, g) fraction of each FOV which sees the solid planet and the angle of e center of each FOV with respect to the center of Mars,(h, i) the MSO azimuthal (phi) and polar (theta) angles of each of the FOVs and the magnetic field, (j) the magnetic field magnitude, (k) omnidirectional ion energy-time spectrograms from the SWIA instrument, and (l) the altitude of the spacecraft. The vertical dashed lines refer to specific events discussed in the text and summarized in Table1.</figDesc><graphic coords="6,214,55,141,05,339,98,442,94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>a</head><label></label><figDesc>The left column refers to the labels at the top of Figure4.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure5. Illustration depicting high-energy shadowing of energetic ions in an idealized situation of a uniform magnetic field. The green path represents the trajectory of the highest-energy ion that can enter the detector at an angle α to nadir if the spacecraft is at altitude h. Equation (1) relates the angle between nadir and ion velocity at the spacecraft to spacecraft altitude and ion gyroradius.</figDesc><graphic coords="7,217,13,490,00,313,88,201,03" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Colors represent differential ion energy flux from all four SEP FOVs over the entire period from 25 February 2015 to 15 March 2015, normalized by the nearest-in-time average flux measured above 5000 km and averaged over bins of 5°in nadir angle (i.e., the angle between the FOV boresight and the center of the planet) and 200 km in altitude, in four representative energy ranges: 88-110 keV, 231-298 keV, 865-1134 keV, and 2572-3383 keV.</figDesc><graphic coords="9,211,91,103,49,144,62,532,70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Colors represent normalized differential ion energy fluxes from all four FOVs, normalized by the nearest-in-time average flux measured above 5000 km and averaged over bins of 5°in nadir angle and all 28 instrumental energy bins. The top, middle, and bottom are averaged over the three time intervals shown in Figure3and for altitudes between 500 and 1000 km. The white curves signify the maximum energy particle which, originating outside the atmosphere, should be able to enter the SEP instrument FOV at 750 km (the mean spacecraft altitude) assuming an ambient magnetic field strength equal to the mean (dotted) and median (dashed) magnetic field measured below 1000 km altitude. The mean and median magnetic field strengths are given in Table2: 23.0 and 20.7 nT for interval 1, 29.5 and 25.4 nT for interval 2, and 35.0 and 27.8 nT for interval 3, respectively.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head></head><label></label><figDesc>Figure 7. Colors represent normalized differential ion energy fluxes from all four FOVs, normalized by the nearest-in-time average flux measured above 5000 km and averaged over bins of 5°in nadir angle and all 28 instrumental energy bins. The top, middle, and bottom are averaged over the three time intervals shown in Figure3and for altitudes between 500 and 1000 km. The white curves signify the maximum energy particle which, originating outside the atmosphere, should be able to enter the SEP instrument FOV at 750 km (the mean spacecraft altitude) assuming an ambient magnetic field strength equal to the mean (dotted) and median (dashed) magnetic field measured below 1000 km altitude. The mean and median magnetic field strengths are given in Table2: 23.0 and 20.7 nT for interval 1, 29.5 and 25.4 nT for interval 2, and 35.0 and 27.8 nT for interval 3, respectively.</figDesc><graphic coords="10,223,91,107,93,147,26,401,78" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="4,221,75,132,17,320,54,481,46" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc>Ion Flux Variations Measured by SEP and Their Causes, Excluding Natural Heliospheric Variability</figDesc><table><row><cell>a</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 2 .</head><label>2</label><figDesc>Magnetic Fields Measured at the Spacecraft Altitude Below 1000 km During Each of the Three Intervals Identified in Figure3</figDesc><table><row><cell cols="3">Journal of Geophysical Research: Space Physics</cell><cell>10.1002/2015JA022327</cell></row><row><cell>|B|, nT Below 1000 km</cell><cell>Interval 1</cell><cell>Interval 2</cell><cell>Interval 3</cell></row><row><cell>Mean</cell><cell>23.0</cell><cell>29.5</cell><cell>35.0</cell></row><row><cell>Median</cell><cell>20.7</cell><cell>25.4</cell><cell>27.8</cell></row><row><cell>Standard deviation</cell><cell>14.3</cell><cell>19.1</cell><cell>23.1</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The data used in this study can be accessed through the Planetary Data System Planetary Plasma Interactions node. A special thanks to the engineers and support staff at the UC Berkeley Space Sciences Laboratory who aided D. Larson and R. Lillis in designing, building, testing, and operating the Solar Energetic Particle instrument, including Ken Hatch, Patrick Dunn, Miles Robinson, Chris Tiu, and David Curtis.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Energetic ions in the close environment of mars and particle shadowing by the planet</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Afonin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">341</biblScope>
+			<biblScope unit="issue">6243</biblScope>
+			<biblScope unit="page" from="616" to="618" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Martian magnetic morphology: Contributions from the solar wind and crust</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bagenal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2002JA009482</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">A12</biblScope>
+			<biblScope unit="page">1424</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The MAVEN magnetic field investigation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Espley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Odom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sheppard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0169-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="35" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Energetic particles detected by the electron reflectometer instrument on the Mars Global Surveyor</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Delory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Mewaldt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">V</forename><surname>Falkenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2012SW000781</idno>
+		<idno>doi:10.1029/ 2012SW000781</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Weather Int. J. Res. Appl</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="1999">2012. 1999-2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Absorption of MARSIS radar signals: Solar energetic particles and the daytime ionosphere</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Espley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Farrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cantor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Plaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Picardi</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006GL028829</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">L09101</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Solar energetic particle arrival at Mars due to the 27</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Frahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Sharber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Winningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Elliott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Deforest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Odstrĉil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kallio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mckenna-Lawlor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barabash</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AIP Conf. Proc</title>
+		<imprint>
+			<biblScope unit="volume">1539</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="394" to="397" />
+			<date type="published" when="2012">2013. January 2012</date>
+		</imprint>
+	</monogr>
+	<note>solar storm</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Mars Express and Venus Express multi-point observations of geoeffective solar flare events in</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Futaana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planet. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="873" to="880" />
+			<date type="published" when="2006">2008. December 2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The MAVEN Solar Wind Ion Analyzer</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dalton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Curtis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="125" to="151" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">The Mars Atmosphere and Volatile Evolution (MAVEN) mission</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0139-x</idno>
+		<idno>doi:10.1007/ s11214-015-0139-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="46" />
+			<date type="published" when="2015">2015a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">MAVEN observations of the response of Mars to an interplanetary coronal mass ejection</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aad0210</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">350</biblScope>
+			<biblScope unit="issue">6261</biblScope>
+			<date type="published" when="2015">2015b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The MAVEN solar energetic particle investigation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Larson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page" from="153" to="172" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Some expected impacts of a solar energetic particle event at Mars</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chassefiere</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2001JA900178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">A5</biblScope>
+			<biblScope unit="page">1058</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Total electron content in the Mars ionosphere: Temporal studies and dependence on solar EUV flux</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>England</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Withers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">O</forename><surname>Fillingim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Safaeinili</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2010JA015698</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">A11314</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evidence for superthermal secondary electrons produced by SEP ionization in the Martian atmosphere</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">T</forename><surname>Delory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2011JE003932</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<biblScope unit="page">E03004</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Characterizing atmospheric escape from Mars today and through time, with MAVEN</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Bougher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jakosky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="357" to="422" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Solar energetic particles in near-Mars space</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeitlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Delory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Lyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Boynton</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006JE002886</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">E10001</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Energetic particle studies at Mars by SLED on Phobos-2, Recent Results Mars Venus</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mckenna-Lawlor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="231" to="241" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Magnetic shadowing of high-energy ions at Mars and how this effect can be simulated using a hybrid model</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mckenna-Lawlor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kallio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jarvinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Afonin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planets Space</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="247" to="256" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Solar control of radar wave absorption by the Martian ionosphere</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Morgan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Gurnett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Kirchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Huff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">V</forename><surname>Boynton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Plaut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Picardi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015GL065262</idno>
+		<idno>doi:10.1002/2015GL065262</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Physics of Space Plasmas, 597 pp</title>
+		<title level="s">MAVEN insights into oxygen pickup ions at Mars</title>
+		<editor>
+			<persName><forename type="first">A</forename><surname>Rahmati</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Larson</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cravens</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Dunn</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Connerney</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Eparvier</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">E</forename><forename type="middle">M B</forename><surname>Thiemann</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Westview Press</publisher>
+			<date type="published" when="2004">2006. 2004. 2015</date>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="8870" to="8876" />
+		</imprint>
+	</monogr>
+	<note>Geophys. Res. Lett.</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The effects of hard-spectra solar proton events on the middle atmosphere</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Seppälä</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Clilverd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Rodger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Verronen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Turunen</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2008JA013517</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page">A11311</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Martian shock and magnetic pile-up boundary positions and shapes determined from the Phobos 2 and Mars Global Surveyor data sets</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Trotignon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bertucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuna</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planet. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="357" to="369" />
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">An improved model for the influence of cosmic rays and high-energy particles on the ionosphere and middle atmosphere</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">I</forename><surname>Velinov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Mateev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="23" to="27" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Interaction of energetic nuclear particles in space with the lunar surface</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Earth Planet. Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="99" to="128" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Overview of the Martian radiation environment experiment</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeitlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cleghorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cucinotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Saganti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pinsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Atwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Turner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Badhwar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Space Res</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2204" to="2210" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Mars Odyssey measurements of galactic cosmic rays and solar particles in Mars orbit</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zeitlin</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009SW000563</idno>
+		<imprint>
+			<date type="published" when="2002">2010. 2002-2008, Space Weather, 8</date>
+			<biblScope unit="page" from="S00E" to="06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

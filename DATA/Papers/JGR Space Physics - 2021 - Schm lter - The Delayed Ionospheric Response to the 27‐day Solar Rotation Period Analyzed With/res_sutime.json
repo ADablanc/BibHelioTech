@@ -1,0 +1,888 @@
+[
+    {
+        "end": 926,
+        "start": 915,
+        "text": "23 OCT 2020",
+        "timex-value": "2020-10-23",
+        "type": "DATE",
+        "value": "2020-10-23"
+    },
+    {
+        "end": 946,
+        "start": 936,
+        "text": "8 JAN 2021",
+        "timex-value": "2021-01-08",
+        "type": "DATE",
+        "value": "2021-01-08"
+    },
+    {
+        "end": 2658,
+        "start": 2653,
+        "text": "17:00",
+        "timex-value": "T17:00",
+        "type": "TIME",
+        "value": "T17:00"
+    },
+    {
+        "end": 2670,
+        "start": 2665,
+        "text": "21:00",
+        "timex-value": "T21:00",
+        "type": "TIME",
+        "value": "T21:00"
+    },
+    {
+        "end": 6812,
+        "start": 6775,
+        "text": "from January 2019 until December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 7044,
+        "start": 7011,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 7081,
+        "start": 7049,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 7572,
+        "start": 7567,
+        "text": "17:00",
+        "timex-value": "T17:00",
+        "type": "TIME",
+        "value": "T17:00"
+    },
+    {
+        "end": 7579,
+        "start": 7574,
+        "text": "20:00",
+        "timex-value": "T20:00",
+        "type": "TIME",
+        "value": "T20:00"
+    },
+    {
+        "end": 7586,
+        "start": 7581,
+        "text": "23:00",
+        "timex-value": "T23:00",
+        "type": "TIME",
+        "value": "T23:00"
+    },
+    {
+        "end": 11776,
+        "start": 11771,
+        "text": "21:00",
+        "timex-value": "T21:00",
+        "type": "TIME",
+        "value": "T21:00"
+    },
+    {
+        "end": 13911,
+        "start": 13877,
+        "text": "from January 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 13997,
+        "start": 13969,
+        "text": "from April 2019 to July 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04",
+            "end": "2019-07"
+        }
+    },
+    {
+        "end": 14106,
+        "start": 14097,
+        "text": "July 2019",
+        "timex-value": "2019-07",
+        "type": "DATE",
+        "value": "2019-07"
+    },
+    {
+        "end": 14688,
+        "start": 14680,
+        "text": "8 Jan'19",
+        "timex-value": "2019-01-08",
+        "type": "DATE",
+        "value": "2019-01-08"
+    },
+    {
+        "end": 14695,
+        "start": 14689,
+        "text": "Apr'19",
+        "timex-value": "2019-04",
+        "type": "DATE",
+        "value": "2019-04"
+    },
+    {
+        "end": 14702,
+        "start": 14696,
+        "text": "Jul'19",
+        "timex-value": "2019-07",
+        "type": "DATE",
+        "value": "2019-07"
+    },
+    {
+        "end": 14709,
+        "start": 14703,
+        "text": "Oct'19",
+        "timex-value": "2019-10",
+        "type": "DATE",
+        "value": "2019-10"
+    },
+    {
+        "end": 14716,
+        "start": 14710,
+        "text": "Jan'20",
+        "timex-value": "2020-01",
+        "type": "DATE",
+        "value": "2020-01"
+    },
+    {
+        "end": 14841,
+        "start": 14807,
+        "text": "from January 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 15267,
+        "start": 15257,
+        "text": "2019-01-01",
+        "timex-value": "2019-01-01",
+        "type": "DATE",
+        "value": "2019-01-01"
+    },
+    {
+        "end": 15288,
+        "start": 15278,
+        "text": "2019-01-01",
+        "timex-value": "2019-01-01",
+        "type": "DATE",
+        "value": "2019-01-01"
+    },
+    {
+        "end": 15775,
+        "start": 15769,
+        "text": "Jan'19",
+        "timex-value": "2019-01",
+        "type": "DATE",
+        "value": "2019-01"
+    },
+    {
+        "end": 15782,
+        "start": 15776,
+        "text": "Apr'19",
+        "timex-value": "2019-04",
+        "type": "DATE",
+        "value": "2019-04"
+    },
+    {
+        "end": 15789,
+        "start": 15783,
+        "text": "Jul'19",
+        "timex-value": "2019-07",
+        "type": "DATE",
+        "value": "2019-07"
+    },
+    {
+        "end": 15796,
+        "start": 15790,
+        "text": "Oct'19",
+        "timex-value": "2019-10",
+        "type": "DATE",
+        "value": "2019-10"
+    },
+    {
+        "end": 15803,
+        "start": 15797,
+        "text": "Jan'20",
+        "timex-value": "2020-01",
+        "type": "DATE",
+        "value": "2020-01"
+    },
+    {
+        "end": 15879,
+        "start": 15874,
+        "text": "12:00",
+        "timex-value": "T12:00",
+        "type": "TIME",
+        "value": "T12:00"
+    },
+    {
+        "end": 15891,
+        "start": 15886,
+        "text": "14:00",
+        "timex-value": "T14:00",
+        "type": "TIME",
+        "value": "T14:00"
+    },
+    {
+        "end": 15956,
+        "start": 15922,
+        "text": "from January 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 16320,
+        "start": 16286,
+        "text": "from April 27 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 16668,
+        "start": 16640,
+        "text": "from April 2019 to July 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04",
+            "end": "2019-07"
+        }
+    },
+    {
+        "end": 18109,
+        "start": 18104,
+        "text": "12:00",
+        "timex-value": "T12:00",
+        "type": "TIME",
+        "value": "T12:00"
+    },
+    {
+        "end": 18121,
+        "start": 18116,
+        "text": "14:00",
+        "timex-value": "T14:00",
+        "type": "TIME",
+        "value": "T14:00"
+    },
+    {
+        "end": 18216,
+        "start": 18182,
+        "text": "from January 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 18595,
+        "start": 18562,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 18632,
+        "start": 18600,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 19100,
+        "start": 19079,
+        "text": "2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 19180,
+        "start": 19174,
+        "text": "Jan'19",
+        "timex-value": "2019-01",
+        "type": "DATE",
+        "value": "2019-01"
+    },
+    {
+        "end": 19420,
+        "start": 19389,
+        "text": "from March 2019 until July 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-03",
+            "end": "2019-07"
+        }
+    },
+    {
+        "end": 19902,
+        "start": 19868,
+        "text": "from January 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 20359,
+        "start": 20326,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 20396,
+        "start": 20364,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 20769,
+        "start": 20736,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 20806,
+        "start": 20774,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 21199,
+        "start": 21193,
+        "text": "Jul'19",
+        "timex-value": "2019-07",
+        "type": "DATE",
+        "value": "2019-07"
+    },
+    {
+        "end": 21206,
+        "start": 21200,
+        "text": "Oct'19",
+        "timex-value": "2019-10",
+        "type": "DATE",
+        "value": "2019-10"
+    },
+    {
+        "end": 21213,
+        "start": 21207,
+        "text": "Jan'20",
+        "timex-value": "2020-01",
+        "type": "DATE",
+        "value": "2020-01"
+    },
+    {
+        "end": 21339,
+        "start": 21305,
+        "text": "from January 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 21843,
+        "start": 21811,
+        "text": "from March 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-03",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 21914,
+        "start": 21909,
+        "text": "17:00",
+        "timex-value": "T17:00",
+        "type": "TIME",
+        "value": "T17:00"
+    },
+    {
+        "end": 21926,
+        "start": 21921,
+        "text": "21:00",
+        "timex-value": "T21:00",
+        "type": "TIME",
+        "value": "T21:00"
+    },
+    {
+        "end": 22712,
+        "start": 22678,
+        "text": "from January 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-01",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 22807,
+        "start": 22801,
+        "text": "Jan'19",
+        "timex-value": "2019-01",
+        "type": "DATE",
+        "value": "2019-01"
+    },
+    {
+        "end": 24006,
+        "start": 24000,
+        "text": "Apr'19",
+        "timex-value": "2019-04",
+        "type": "DATE",
+        "value": "2019-04"
+    },
+    {
+        "end": 24013,
+        "start": 24007,
+        "text": "Jul'19",
+        "timex-value": "2019-07",
+        "type": "DATE",
+        "value": "2019-07"
+    },
+    {
+        "end": 24020,
+        "start": 24014,
+        "text": "Oct'19",
+        "timex-value": "2019-10",
+        "type": "DATE",
+        "value": "2019-10"
+    },
+    {
+        "end": 24027,
+        "start": 24021,
+        "text": "Jan'20",
+        "timex-value": "2020-01",
+        "type": "DATE",
+        "value": "2020-01"
+    },
+    {
+        "end": 24102,
+        "start": 24097,
+        "text": "17:00",
+        "timex-value": "T17:00",
+        "type": "TIME",
+        "value": "T17:00"
+    },
+    {
+        "end": 24114,
+        "start": 24109,
+        "text": "21:00",
+        "timex-value": "T21:00",
+        "type": "TIME",
+        "value": "T21:00"
+    },
+    {
+        "end": 24177,
+        "start": 24145,
+        "text": "from March 2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-03",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 24985,
+        "start": 24964,
+        "text": "2019 to December 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019",
+            "end": "2019-12"
+        }
+    },
+    {
+        "end": 25119,
+        "start": 25088,
+        "text": "from March 2019 until July 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-03",
+            "end": "2019-07"
+        }
+    },
+    {
+        "end": 26257,
+        "start": 26223,
+        "text": "from April 27 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 26501,
+        "start": 26495,
+        "text": "Apr 06",
+        "timex-value": "2022-04-06",
+        "type": "DATE",
+        "value": "2022-04-06"
+    },
+    {
+        "end": 26508,
+        "start": 26502,
+        "text": "May 15",
+        "timex-value": "2022-05-15",
+        "type": "DATE",
+        "value": "2022-05-15"
+    },
+    {
+        "end": 26515,
+        "start": 26509,
+        "text": "May 24",
+        "timex-value": "2022-05-24",
+        "type": "DATE",
+        "value": "2022-05-24"
+    },
+    {
+        "end": 26522,
+        "start": 26516,
+        "text": "May 23",
+        "timex-value": "2022-05-23",
+        "type": "DATE",
+        "value": "2022-05-23"
+    },
+    {
+        "end": 26543,
+        "start": 26537,
+        "text": "Jun 19",
+        "timex-value": "2022-06-19",
+        "type": "DATE",
+        "value": "2022-06-19"
+    },
+    {
+        "end": 26683,
+        "start": 26650,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 26720,
+        "start": 26688,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 28968,
+        "start": 28944,
+        "text": "2019-04-27 to 2019-05-24",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 29013,
+        "start": 28989,
+        "text": "2019-05-23 to 2019-06-19",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 29057,
+        "start": 29033,
+        "text": "2019-04-27 to 2019-05-24",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 29102,
+        "start": 29078,
+        "text": "2019-05-23 to 2019-06-19",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 29282,
+        "start": 29249,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 29319,
+        "start": 29287,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 30010,
+        "start": 29977,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 30047,
+        "start": 30015,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 31611,
+        "start": 31578,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 31648,
+        "start": 31616,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 32251,
+        "start": 32245,
+        "text": "Apr 06",
+        "timex-value": "2022-04-06",
+        "type": "DATE",
+        "value": "2022-04-06"
+    },
+    {
+        "end": 32258,
+        "start": 32252,
+        "text": "May 15",
+        "timex-value": "2022-05-15",
+        "type": "DATE",
+        "value": "2022-05-15"
+    },
+    {
+        "end": 32265,
+        "start": 32259,
+        "text": "May 24",
+        "timex-value": "2022-05-24",
+        "type": "DATE",
+        "value": "2022-05-24"
+    },
+    {
+        "end": 32272,
+        "start": 32266,
+        "text": "May 23",
+        "timex-value": "2022-05-23",
+        "type": "DATE",
+        "value": "2022-05-23"
+    },
+    {
+        "end": 32293,
+        "start": 32287,
+        "text": "jun 19",
+        "timex-value": "2022-06-19",
+        "type": "DATE",
+        "value": "2022-06-19"
+    },
+    {
+        "end": 32367,
+        "start": 32362,
+        "text": "12:00",
+        "timex-value": "T12:00",
+        "type": "TIME",
+        "value": "T12:00"
+    },
+    {
+        "end": 32379,
+        "start": 32374,
+        "text": "14:00",
+        "timex-value": "T14:00",
+        "type": "TIME",
+        "value": "T14:00"
+    },
+    {
+        "end": 32440,
+        "start": 32407,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 32477,
+        "start": 32445,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 32773,
+        "start": 32745,
+        "text": "from March 2019 to July 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-03",
+            "end": "2019-07"
+        }
+    },
+    {
+        "end": 34246,
+        "start": 34213,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 34302,
+        "start": 34270,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 37255,
+        "start": 37222,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 37292,
+        "start": 37260,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    },
+    {
+        "end": 38011,
+        "start": 38006,
+        "text": "17:00",
+        "timex-value": "T17:00",
+        "type": "TIME",
+        "value": "T17:00"
+    },
+    {
+        "end": 38023,
+        "start": 38018,
+        "text": "21:00",
+        "timex-value": "T21:00",
+        "type": "TIME",
+        "value": "T21:00"
+    },
+    {
+        "end": 39016,
+        "start": 38983,
+        "text": "from April 27 2019 to May 24 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-04-27",
+            "end": "2019-05-24"
+        }
+    },
+    {
+        "end": 39053,
+        "start": 39021,
+        "text": "from May 23 2019 to June 19 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2019-05-23",
+            "end": "2019-06-19"
+        }
+    }
+]

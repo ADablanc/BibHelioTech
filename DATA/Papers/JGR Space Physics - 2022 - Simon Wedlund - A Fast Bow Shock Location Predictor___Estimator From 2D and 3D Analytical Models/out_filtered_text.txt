@@ -1,0 +1,86 @@
+JGR Space Physics RESEARCH ARTICLE 10.1029/2021JA029942 Key Points: e A simple predictor-corrector algorithm based on magnetic field data is presented to locate the bow shock position in spacecraft data e The method, biased toward quasiperpendicular crossings, is general and applicable to all planetary bodies including Mars, Venus, and Earth e More than 14,900 bow shock crossings are identified with MAVEN for Mars Years 32—35, with 2D/3D fits revealing North-South asymmetries Correspondence to: C.
+Simon Wedlund, cyril.simon.wedlund @ gmail.com Citation: Simon Wedlund, C., Volwerk, M., Beth, A., Mazelle, C., Méstl, C., Halekas, J., et al.
+(2022).
+A fast bow shock location predictor-estimator from 2D and 3D analytical models: Application to Mars and the MAVEN mission.
+Journal of Geophysical Research: Space Physics, 127, e2021JA029942.
+https://doi.
+org/10.1029/2021JA029942 Received 6 SEP 2021 Accepted 21 DEC 2021 ©2022.
+The Authors.
+This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+SIMON WEDLUND ET AL.
+® Check for updates Ah = a il ADVANCING PAIS sence science ap A Fast Bow Shock Location Predictor-Estimator From 2D and 3D Analytical Models: Application to Mars and the MAVEN Mission Cyril Simon Wedlund! ©, Martin Volwerk! ©, Arnaud Beth? ©, Christian Mazelle? ©, Christian Méstl! ©, Jasper Halekas* ©, Jacob R.
+Gruesbeck® ©, and Diana Rojas-Castillo® © 'Space Research Institute, Austrian Academy of Sciences, Graz, Austria, 7Department of Physics, Umea University, Umea, Sweden, *Institut de Recherche en Astrophysique et Planétologie, Université de Toulouse, CNRS, UPS, CNES, Toulouse, France, *Department of Physics and Astronomy, University of lowa, Iowa City, IA, USA, °>NASA Goddard Space Flight Center, Laboratory for Planetary Magnetospheres, Greenbelt, MD, USA, “Instituto de Geofisica, Universidad Nacional Autonoma de México, Coyoacan, Mexico Abstract We present fast algorithms to automatically estimate the statistical position of the bow shock from spacecraft data, using existing analytical two-dimensional (2D) and three-dimensional (3D) models of the shock surface.
+We derive expressions of the standoff distances in 2D and 3D and of the normal to the bow shock at any given point on it.
+Two simple bow shock detection algorithms are constructed, one solely based on a geometrical predictor from existing models, the other using this predicted position to further refine it with the help of magnetometer data, an instrument flown on many planetary missions.
+Both empirical techniques are applicable to any planetary environment with a defined shock structure.
+Applied to the Martian environment and the NASA/MAVEN mission, the predicted shock position is on average within 0.15 planetary radius R, of the bow shock crossing.
+Using the predictor-corrector algorithm, this estimate is further refined to within a few minutes of the true crossing (~0.05R,).
+Between 20:14 - 20:21, we detect 14,929 clear bow shock crossings, predominantly quasi-perpendicular.
+Thanks to 2D conic and 3D quadratic fits, we investigate the variability of the shock surface with respect to Mars Years (MY), solar longitude (Ls), and solar EUV flux levels.
+Although asymmetry in Y and Z Mars Solar Orbital coordinates is on average small, we show that for MY32 and MY35, Ls = [135°—225°] and high solar flux, it can become particularly noticeable, and is superimposed to the usual North-South asymmetry due in part to the presence of crustal magnetic fields.
+1.
+Introduction Historically, planetary bow shocks, their position, size, and shape, have been characterized statistically with the use of (empirical) analytical fitting models in two-dimensional (2D) or three-dimensional (3D) spatial coordinates.
+A classical starting point for characterizing the Earth’s bow shock in 3D includes the seminal work of Formisano (1979), who investigated the asymmetry of the shock with respect to the apparent solar wind flow direction, with the use of quadratic surface fits with nine free parameters.
+In parallel, other studies, such as that of Slavin and Holzer (1981) relied on a simple polar equation assuming axisymmetry along the Sun-planet line, corrected by the apparent motion of the solar wind in the rest frame of the planet, the so-called aberrated X axis.
+The 2D approach has the merit of needing only three free parameters but ignores the potential asymmetries of the shock as, for example, seen at Earth’s bow shock (e.g., Formisano, 1979; Merka et al., 2005; Peredo et al., 1995, 1993).
+More advanced physics-based models have also been proposed as a complement to those empirical attempts.
+A good introduction into analytical models of the bow shock, based on gasdynamic theory and magnetohydrodynamics solutions, is given in Verigin, Slavin, Szabo, Gombosi, et al.
+(2003) and recently in Kotova et al.
+(2021).
+These studies present analytical functions describing the curvature, bluntness, and skewing angle of the shock structure, which are arguably better suited to the fitting of the shock flanks; they are applicable to many planetary bow shock conditions.
+At Mars, due to the sparsity of early data and the non-collisional nature of the shock, the tendency has been to use in priority the simplest fitting model available with least free parameters, that is, an empirical 2D polar equation (Edberg et al., 2008; Hall et al., 2019; Russell, 1977; Slavin et al., 1991; Trotignon et al., 2006).
+Only recently 1 of 31 Ast it ‘ 0 ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942 ADVANCING EARTH AND SPACE SCIENCE SIMON WEDLUND ET AL.
+with the NASA/Mars Atmospheric and Volatile EvolutioN (MAVEN) mission were quadratic fits used to characterize the general structure of the Martian bow shock, with Gruesbeck et al.
+(2018) providing fits to a careful subset of identified crossings in the first year of operations of the MAVEN mission.
+In recent years, many studies have attempted to characterize the Martian shock position and shape and its evolution under various solar wind and EUV conditions (Hall et al., 2019 and references therein).
+Two missions have been used for this goal, the ESA/Mars Express mission and the NASA/MAVEN mission.
+Mars Express (hereafter MEX for brevity) was launched in 2003 and has been orbiting Mars since 2004, whereas MAVEN was launched 10 yr later in November 2013 and has been orbiting the planet since 22 September 2014.
+MAVEN’s scientific payload includes among others a fluxgate magnetometer (MAG, Connerney et al., 2015), two ion spectrometers including the Solar Wind Ion Analyzer (SWIA, Halekas et al., 2015) and the Suprathermal and Thermal [on Composition instrument (STATIC, McFadden et al., 2015), and an electron spectrometer (Solar Wind Electron Analyzer, SWEA, Mitchell et al., 2016).
+MEX unfortunately does not carry any magnetometer but includes a plasma suite (ions and electrons) as part of the ASPERA-3 package (Barabash et al., 2006), which was used to investigate the plasma boundaries at Mars (Dubinin et al., 2006).
+Both missions aim at studying the upper atmosphere and the magnetospheric environment of Mars.
+Detections of the bow shock in spacecraft data have relied on manual determinations using as many instruments (including plasma instruments and magnetometer) as available to avoid ambiguous detections (Gruesbeck et al., 2018).
+Recently, Némec et al.
+(2020) proposed a region identification scheme based on selected plasma parameters and applied their technique to the MAVEN dataset in order to identify upstream solar wind, magnetosheath, and magnetosphere regions crossed by the spacecraft.
+This method has the advantage of mapping these regions statistically, removing certain biases usually associated with manually picked individual boundary crossings which may be orbit-dependent.
+However, it requires the reliable knowledge of flow speed, ion density and magnetic field, which may not all always be available.
+A parallel trend has also been to apply machine-learning techniques to plasma data for the labeling and identification of the regions crossed by a given spacecraft (see Breuillard et al., 2020; Hall et al., 2016; for Mars and Earth, respectively), as part of online databases (Génot et al., 2021).
+However, these studies require extensive amounts of time and patience, as well as large computer resources to become efficient.
+Sometimes, a precise determination of the shock position in the data is not of paramount importance and simpler, faster, more straightforward approaches, such as the one presented in this study, can be advantageous.
+This may be the case in statistical studies where one of those regions needs to be systematically excluded, as in space weather databases monitoring the solar wind.
+This can also be of interest when areas around the predicted bow shock must be excluded for qualified reasons, as in wave studies focusing on regions outside of foreshock and shock wake structures, or when a first guess of the location and geometry of the shock is needed.
+We present in this study new, simple analytical algorithms using two types of historical fitting techniques (2D and 3D), which make it possible to quickly estimate from spacecraft spatial coordinates the statistical geometrical position of the shock in planetary atmospheres.
+Special emphasis on the Martian environment and the MAVEN dataset is given throughout, however the method is applicable to any planetary environment and spacecraft dataset.
+This first crude estimator can be refined further by applying additional criteria, for example, on the magnetic field amplitude measured by the MAVEN spacecraft.
+This provides a fast means to approximately and quite reliably identify the position of the shock so that solar wind and magnetosheath regions can be studied on a statistical level in the data.
+Moreover, other characteristics of the shock crossing, such as the quasi-parallel (q,) or quasi-perpendicular (g¢,) geometry of the shock can easily be obtained by deriving the perpendicular direction to the shock at any point on the surface.
+After a review of 2D and 3D bow shock fitting models at Mars in Section 2, we present in a consistent manner the leading equations behind these models in 2D and 3D, give the analytical expressions for standoff distances, and propose a geometric calculation of the normal to the bow shock at any point on the surface.
+Starting in Section 3, we introduce a predictor algorithm for a fast estimation of the shock position in spacecraft orbital coordinates and its timing (Section 3.1).
+In Section 3.2, we propose a simple correction on this position and timing with the sole help of magnetometer data (predictor-corrector algorithm).
+Application to the MAVEN MAG dataset is then given as validation on a few examples and then extended to the whole available dataset.
+Finally, as a result of the automatic detection proposed here, statistical analytical fits are given for the MAVEN mission between 2 of 31 Ast it ° ° ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942 ADVANCING EARTH AND SPACE SCIENCE SIMON WEDLUND ET AL.
+Aberration angle for modified MSO coordinates 4.5 | | 22 22.5 23 23.5 24 24.5 25 25.5 26 26.5 Mars orbital velocity [km/s] Figure 1.
+Aberration angle (in °) with respect to the orbital velocity of Mars (in km s~') and the solar wind mean speed (color-coded isocontours, in km s~').
+November 2014 and February 2021, with a discussion of the shock’s asymmetry based on terminator and standoff distances.
+Applications for space weather-related databases are also mentioned.
+2.
+Bow Shock Models at Mars In this section, following a survey of existing fitting models at Mars, we present comprehensive formulae for analytical fits in 2D polar coordinates and 3D Cartesian coordinates, with a calculation of bow shock subsolar and terminator standoff distances.
+We also show how to calculate the normal to the surface at a given point in space, in order to estimate the q, — q, shock conditions.
+2.1.
+Coordinate Systems and Solar Wind Flow Aberration All spacecraft coordinates in this study are in Mars Solar Orbital coordinates (MSO) for simplicity, in accordance with most previous studies.
+In the MSO system, identical to the Sun-state coordinate system, the +X\so9 axis points toward the Sun from the planet’s center, +Z,,<, 1s toward Mars’ North pole and perpendicular to the orbital plane defined as the X\,.9—Yysq plane passing through the center of Mars, and Y,,..
+completes the orthogonal system.
+Because of the orbital motion of Mars with respect to the average direction of the solar wind, the apparent direction of the solar wind in the rest frame of the planet deviates from the anti-sunward direction.
+As a result, an anti-clockwise rotation by an angle a around the Z axis must be applied so that the bow shock’s major axis is aligned with respect to the X axis along the solar wind flow.
+This aberration, first seen in cometary tails and at the origin of the hypothesis by Biermann of a stellar wind (Biermann, 1951), 1s taken into account in the so-called aberrated MSO coordinates, denoted X\ygos Yugo ANA Zyyg9 (although Z is left unchanged by the transformation).
+To unclutter notations, the “MSO” subscript is now dropped.
+Following Formisano et al.
+(1979), Slavin and Holzer (1981) define the angle a as a = arctan (V,/vsw) where V,, is Mars’ orbital velocity and Uy is the solar wind velocity, for example expressed in km s~'.
+Mars’ average orbital velocity is V, = 24.078? km s~'.
+For the maximum value (26.5 km s~'), the angle is a = 3.8° for a typical solar wind speed of 400 km s~!.
+The angle assumed by all studies except those of Slavin and Holzer (1981) and Slavin et al.
+(1991) is 4°.
+In Slavin and Holzer (1981), the aberration angle was chosen to be varying with solar wind speed conditions.
+In Slavin et al.
+(1991), a = 3.2°.
+Figure | shows the aberration angle with respect to orbital velocity (abscissa) and to solar wind velocity (color code).
+3 of 31 Arr a ° dened Journal of Geophysical Research: Space Physics 10.1029/2021JA029942 ADVANCING EARTH AND SPACE SCIENCE Table 1 Statistical Studies on the Martian Bow Shock Position Replaced Chronologically (With Respect to In-Situ Observations) in the Context of Solar Activity and Mars Year (MY) .

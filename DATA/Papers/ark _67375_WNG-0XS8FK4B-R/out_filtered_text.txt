@@ -1,0 +1,408 @@
+JOURNAL OF GEOPHYSICAL RESEARCH, VOL.
+109, A11202, doi:10.1029/2004JA010540, 2004 Modeling of Earth’s bow shock: Applications J.
+F.
+Chapman and Iver H.
+Cairns School of Physics, University of Sydney, Sydney, New South Wales, Australia Received 14 April 2004; revised 5 July 2004; accepted 4 August 2004; published 3 November 2004.
+[1] Shock-crossing data obtained from spacecraft are used to test the shock location models derived by Chapman and Cairns [2003].
+Three sets of data are considered: (1) ISEE 1 for 24—25 September 1987, (2) Wind, Geotail, IMP 8, and Interball for the intervals 26—27 April and 10—13 May 1999, and (3) IMP 8, Geotail, Magion-4, and Cluster during the period 19:73 - 20:03 from the bow shock database (available at http:// nssdc.gsfc.nasa.gov/ftphelper/bowshock.html).
+Derived from MHD simulations, the two shock models are for angles ®0;yyp = 45° and 90° between the upstream magnetic field Bry and solar wind velocity v,,,.
+These models have azimuthal asymmetries, and they depend explicitly on the upstream Mach number M, and ram pressure Pa, We also test Cairns et al.’s [1995] rotationally symmetric shock model.
+The new models perform better on average than the rotationally symmetric model, providing some evidence and support for the shock’s shape being strongly dependent upon M, and @pypr.
+We also compare our analyses here with model/spacecraft comparisons performed by Merka et al.
+[2003a] and discuss the importance of filtering on the model predictions.
+— INDEX TERMS: 2154 Interplanetary Physics: Planetary bow shocks; 2139 Interplanetary Physics: Interplanetary shocks; 7851 Space Plasma Physics: Shock waves; 2784 Magnetospheric Physics: Solar wind/magnetosphere interactions; KEYWORDS: bow shock shape, Earth, Mach number, magnetohydrodynamics, magnetopause, modeling Citation: Chapman, J.
+F., and I.
+H.
+Cairns (2004), Modeling of Earth’s bow shock: Applications, J.
+Geophys.
+Res., 109, A11202, doi:10.1029/2004JA010540.
+1.
+Introduction [2] Earth’s bow shock responds to changes in solar wind conditions by varying its shape and location.
+These conditions are prescribed by the solar wind ram pressure P,an, flow velocity v,,, interplanetary magnetic field (IMF) vector Byyp, and the Alfvén, sonic, and magnetosonic Mach numbers M,, Ms, and M,,,,, respectively [e.g., Spreiter et al., 1966; Fairfield, 1971; Farris et al., 1991; Peredo et al., 1995; Bennett et al., 1997; Verigin et al., 2001; Fairfield et al., 2001; Chao et al., 2002; Dmitriev et al., 2003].
+Previously, Chapman and Cairns [2003] (hereinafter referred to as CC2003) analyzed shock locations derived from Cairns and Lyon’s [1995] global three-dimensional (3-D) ideal magnetohydrodynamic (MHD) simulations.
+These simulations yielded sets of 3-D shock locations for IMF orientations 9;yyr = 45° and 90° for multiple , and M,,,..
+From these data, shock models were developed describing the 3-D shape and location of Earth’s bow shock as a function of Pram, M4, and an azimuthal angle o, using both paraboloid and tilted paraboloid shape functions.
+These analyses show strong evidence for asymmetries in the shock’s cross section perpendicular to v,,, consistent with the nonisotropic nature of the fast mode speed.
+An additional result is that the shock’s symmetry axis tilts away from the nominal direction (along v,,,) for On4¢ = 45° but not for O47 = 90°, with these effects becoming increasingly by the American Geophysical Union.
+01:48 - 02:27/04/2004JA010540 prevalent as M, — 1.
+More recently, additional simulations were performed for several IMF orientations in the ranges 20° < Omar < 60° and 1.4 < My < 9.7 [Chapman et al., 2004].
+They showed that strong skewing effects were larger for lower M4, with the shock becoming increasingly asymmetric.
+However, symmetry was recovered for O0yyp = 0° (although the nose region developed a dimple) and also as Oimr — 90°.
+Again, these effects were qualitatively consistent with v,,, being nonisotropic.
+[3] This paper involves the comparison of shock locations predicted by the CC2003 3-D models with three data sets.
+For completeness a rotationally symmetric paraboloidal model is also compared with the data, described using Cairns and Lyon’s [1995] model for the shock standoff distance a, and Cairns et al.’s [1995] model for the paraboloid flaring parameter b,.
+Merka et al.
+[2003a] have recently compared IMP 8 data obtained over a 12 year period with a number of different shock models found in the literature, including the models of Formisano [1979], Némecek and Safrankova [1991], Farris and Russell [1994], and Peredo et al.
+[1995], as well as the rotationally symmetric paraboloidal model mentioned above [Cairns and Lyon, 1995; Cairns et al., 1995].
+We also compare our analyses here with model/spacecraft comparisons performed by Merka et al.
+[2003a] and discuss the importance of data filtering on the model predictions.
+[4] The first spacecraft data set analyzed here contains 15 shock crossings observed by the ISEE 1 spacecraft during the period 24—25 September 1987 [Cairns et al., 1995].
+The second data set contains 14 shock crossings A11202 1 of 12 A11202 observed in the intervals 26—27 April 1999 and  10 May 1999 - 13 May 1999 by the Wind, Geotail, IMP 8, and Interball spacecraft [Fairfield et al., 2001; D.
+H.
+Fairfield, personal communication, 2000].
+In each of these periods the Alfvén and fast mode Mach numbers were often quite low, allowing detailed testing of the new shock models.
+The third data set contains observed shock crossings from the IMP 8, Geotail, Magion-4, and Cluster spacecraft for the interval 19:73 - 20:03 (bow shock database available at http://nssdc.gsfc.nasa.gov/ftphelper/bowshock.html).
+The IMP 8 data set was also analyzed by Merka et al.
+[2003a, 2003b].
+[5] This paper is set out as follows.
+Section 2 summarizes the new shock models developed by CC2003.
+In section 3, coordinate rotations are discussed, together with the methods for comparing the model predictions with data.
+In sections 4—7 the spacecraft data are compared with the model predictions.
+Section 8 discusses the results, and the conclusions are given in section 9.
+2.
+New Shock Models [6] The elliptical paraboloid shock models developed by CC2003 are relevant for O9,,7 = 45° and 90° and were derived using the 3-D shock locations found in Cairns and Lyon’s [1995] ideal MHD simulations.
+The simulations used Farris et al.’s [1991] average (B, = 0) 3-D magnetopause model as a hard, infinitely conducting, inner boundary, with some solar wind parameters held constant (y = 5/3, v,, = 400 km s~', and My = 7.6) but others allowed to vary (M4, Om and Byyr).
+In the simulations, v,,, lies antiparallel to the x axis, with Byyp lying in the x-z plane.
+[7] In the O@p4¢ = 90° simulations the shock’s symmetry axis remains along the x axis.
+There is a dependence upon an azimuthal angle © measured from the z axis in the y-z plane, with the shock modeled by er =a, + bsg: (1) Here a, is the standoff distance of the shock measured along the Sun-Earth line, and b,, and r, denote the flaring parameter and the distance to the shock (from the origin (0, 0, 0)), respectively.
+The standoff distance and terminator distance (measured in the y-z plane for x = 0) are given by [(CC2003] _ Q] Pram “16 a= (00 +7) (yeh) Be (2) _ By Pram “6 t= (4 +38) =.
+OE (3) Here (Qo, 01) = (13.9, 32.2) (for the Or = 90° model), A, = i + j|cos| + kcos*, By = 1+ m\cosd| + ncosd*, and the fit parameters i, j, A, 1, m, and n are given in Table 1 for OyyF = 90°.
+Then, b,3(M4, Pram) can be written as bsp = Rp (4) [s] The shock’s symmetry axis tilts away from the —v,,, direction in the O0;y- = 45° simulations, requiring an CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 Table 1.
+Fit Parameters for Equation (3) Quantity Om i J k l m nN Ly 90° 25.42 —0.82 —0.98 79.45 3.96 —o5 Ly 45° 24.55 —0.1341 —0.1341 80.147 —8.5087 —8.5087 additional dependence upon a tilt angle w, measured in the x-z plane.
+The shock shape is generated by rotating a symmetric paraboloid os / 2 / 2 Xm — as — Boge 7 BgoZ ’ (5) through an angle wW, in the x-z plane.
+The parameters a‘, and bs are given by equation (2) with (a9, a1) = (13.9, 29.0) and equations (3) and (4) with the parameters from Table 1 for 8m = 45°.
+The representation of the shock surface then becomes Xs cosw, O —sinw, X450 y}=}] 0 1 0 y |.
+(6) Zs smw, O cosv, Zz Here w, 1s given by w, = (7.0 — 0.74M,)”.
+(7) Equation (7) is only valid in the range 1 < M, < 9.7, since this empirical relation is derived from the CC2003 simulations which only explored this parameter range.
+For M, > 9.7 one would expect that , ~ 0° since the shock is blown back onto the magnetopause obstacle.
+[9] For comparison, Cairns et al.’s [1995] model for b, only includes a functional dependence upon P,an: P 1/6 b,(Pram) = 0.0223{ ——"~_ }__R;,!, 8 (Pram) (GF =.
+& (8) and the resulting shock is a surface of revolution with a circular cross section.
+Cairns and Lyon [1995] found an expression for a, based on the density jump _X at the shock: as = 3.4X (My, Om, M,) + 0.4, (9) Amp where d,,,, denotes the magnetopause standoff distance.
+We use the analytic expression for the density jump X derived by Grabbe and Cairns |{1995].
+A rotationally symmetric shock model is compared with the o-dependent models below, using Cairns et al.’s [1995] model for 6, with Cairns and Lyon’s [1995] model for a,.
+In equation (9), values of Amp are taken from the magnetopause model of Shue et al.
+[1997].
+This model is also used by Merka et al.
+[2003a], allowing a more accurate comparison with their IMP 8 shock-crossing analysis.
+We discuss the importance of the magnetopause model in section 8.
+3.
+Rotations and Methods of Testing [10] All spacecraft trajectory data are originally obtained in GSE coordinates.
+To account for aberration due to Earth’s 2 of 12 A11202 CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 hours after OOOO September 24 1987.
+Figure 1.
+Alfvén Mach number My, and @pyr as measured by the IMP 8 spacecraft during 24— 25 September 1987.
+Dash-dotted vertical lines indicate times of the ISEE 1 spacecraft crossings.
+orbital motion around the Sun, 29.8 km s_! is removed from the GSE y component of the solar wind velocity v,,,.
+To test the models against observed bow shock crossings, the spacecraft positions are rotated into a coordinate system in which the new x axis lies along the solar wind vector and the new z axis is defined so that Bpyp lies in the x-z plane.
+This system is defined using the observed solar wind conditions and IMF vectors and is identical to the coordinate system in the simulations of Cairns and Lyon [1995] and Chapman et al.
+[2004], as well as in the CC2003 models presented in section 2.
+[11] Spacecraft observations yield the proton number density n,, the solar wind speed v,,, = (Vx + Vpy + Vo) ° defined by the protons, and Byyr = (Be + B; + By" * asa function of time.
+These parameters allow computation of the Mach numbers and ram pressure of the solar wind after the number fraction of alpha particles is assumed.
+On average, the relative alpha particle abundance, n,/n,, is 4% for the solar wind [e.g., Slavin and Holzer, 1981; Yermoleav and Stupin, 1997].
+This abundance is assumed in sections 4—6, and the Alfvén Mach number and ram presure are given by M4 = Vswr/1.160,,bo/Bime and Pram = 1.160 mVewv» where the mass density py», = n,m, denotes the mass density of the solar wind protons.
+[12] To test the shock models, the observed solar wind parameters Pram, M4, and Opyp are used to predict the xm coordinate of the shock using the rotated spacecraft coordinates y,.
+and z,..
+Here x} and x0" represent the x coordinates predicted by the Onyr = 45° (equations (5), (6), and (7)) and Oy = 90° models (equations (1), (2), and (4)), respectively.
+The x”™" coordinates of each model are compared with the spacecraft coordinate x,.
+at the times of the shock crossings.
+For a model to accurately predict the shock location the x,.
+coordinate of the spacecraft must coincide with the model’s predicted x coordinate.
+The prediction x; for a circular cross-sectional paraboloid with Cairns et al.’s [1995] model (8) for b,(Pram), which does not include the effects of My, or ©, is also calculated and used with the prediction (9) for a,.
+[13] In comparing the Oyyr = 45° model the correct orientation is important.
+In the simulations the 9:y4r = 45° model applies when B,B, > 0.
+When B,B, > 0, the shock tends to flatten over the (+x) — (+z) quadrant, extending farther in the (+x) — (—z) quadrant.
+When B,B, < 0, the model has to be reflected in the x-z plane about the x axis (or, equivalently, setting z,.
+= —Z,.) when comparing with data.
+4.
+ISEE 1  24 September 1987 - 25 September 1987 Observations [14] The bow shock crossed the ISEE | spacecraft multiple times during the period 24—25 September 1987.
+Plots of all the solar wind data are given by Cairns et al.
+[1995].
+Figure 1 shows M, and Opyp as a function of time.
+Data gaps exist between hours 4 and 12 and between hours 18 and 20.
+IMP 8 solar wind data are used to calculate the solar wind parameters at the times of the ISEE | shock crossings.
+The IMP 8 data have been time lagged by 5.6 min to allow for convection to ISEE 1.
+The Alfvén Mach number was low (1 <M, < 3) throughout the period with 50° < On < 90°.
+[15] The model predictions for the ISEE 1 shock crossings throughout 24—25 September 1987 are shown in Figure 2.
+The models represented by the symbols x; , x”, and x, are described in section 2 and in the caption of Figure 2.
+The spacecraft trajectories and model predictions are smoothed using a 7.5 min centered running average.
+For a model to accurately predict the shock location the model trace must cross the spacecraft trajectory Xs at the time of the spacecraft crossing, denoted by the vertical dash-dotted line.
+There are two ways of measuring differences between the model predictions and observations.
+The first is to look at the difference between the predicted coordinates and the spacecraft coordinates at the time of the shock crossing, 1.e., x2MF oy Alternatively, one can look at the difference in time between the observed and predicted shock crossing.
+[16] The x; * and 0 models predict the first ISEE 1 crossing (hour 2.75 in Figure 2, top left) within 1 R-z at the time of the crossing, and the prediction lines cross the spacecraft trajectory within 3 min.
+The x; model prediction, however, only comes within 1 Rg of the spacecraft x,, coordinate at the time of the crossing and then places the spacecraft upstream of the shock between hours 2.8 and 3.5.
+The x/™* models do, however, mispredict a skimming crossing near hour 2.2.
+Plausibly, the spacecraft was very close to the shock at this time.
+[17] The crossing near hour 16.4 is predicted early by ~10 min by the x,> and x7? models and by ~20 min by the x; model (Figure 2, top right).
+The two crossings at hours 16.5 and 16.6 are predicted qualitatively, but the quantita 3 of 12 A11202 X (Re) X (Re) AZ CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS 24 hours after QOOO September 24 1987.
+A11202 26 28 Figure 2.
+Model predictions for the ISEE 1 s Spacecratt, Light grey data points are the spacecraft x, coordinate.
+The dotted and solid lines are the x7,’ and x;, model predictions, respectively.
+The x; model is shown in dark grey (triangles).
+Dash-dotted vertical lines indicate the times of the spacecraft’s shock crossing.
+tive differences are significant: They are predicted within ~3 Re for x20" and ~5 R- for the other two models.
+The discrepancies for these three crossings may be primarily a timing issue: Shifting the timelines to the right by 10 min leads to better prediction for the hour 16.4 crossing and places the next two crossings on either side of dips in the prediction line around hour 16.45.
+It is important that the shock models used here apply to equilibrium positions of the shock and so do not include the time lags due to the shock’s finite propagation speed to its new equilibrium position.
+This time lag At is composed of three parts: the time At,,, = Ax/v,,, for the change in the solar wind parameters to convect a distance Ax from the spacecraft to the shock, the time At.) = (@s — Gmp)/Vsw.a for the solar wind change to reach the magnetopause at the shocked solar wind speed vy, and the time Ats2 = Ams.new/(Vns — Vsw.d) for information to propagate back upstream (against the flow at V,,,¢) to the new shock location at the fast mode speed Vins: At = Atsy + Atns.1 + Atns- (10) The solar wind speed was ~390 km s_' between hours 16 and 17, and assuming that Ax = 3 Rg, ds — Amp © 4 Re, Ans new © 8 Rey Vsyw.q = 200 km s—', and Vs © 300 km sf, then At ~ (0.8 + 2.1 + 8.2) min = ‘113 min.
+[18] Thus a time lag of the order 10 + 5 min is expected because of the finite propagation and response speeds, with longer lags plausible at lower My.
+Moreover, the 7.5 min smoothing of the data may also contribute slightly to the overpredictions, removing biases toward lower predictions.
+Finally, the rapid in-out nature of crossings near hours 16.5 and 16.6 and the relatively small changes in the predicted shock location for the observed solar wind conditions are qualitatively not inconsistent with a slow response and therefore slow upstream propagation speed for the shock.
+That is, it will take some time for the shock to physically reach its new equilibrium position in response to changes in the solar wind.
+In summary, these two effects can semiquantitatively explain the overpredictions of the shock models for these data.
+Additional discussion of the time lags and mispredictions is given in sections 8.1 and 8.2.
+[19] There are very limited data for the two crossings at hours 18.1 and 18.3, thereby precluding detailed analysis at these crossings.
+However, the few data points available suggest that the model predictions move down toward and then away from the prediction line, not qualitatively inconsistent with the data.
+[20] The first five crossings of the period hours 20—30 (Figure 2, bottom), at hours 21.2, 21.6, 21.9, 22.1, and 22.5, are predicted within 6 min by all models.
+The traces of the x; and x models lie on the spacecraft x, data between hours 22.5 and 23.3, mispredicting the location of the shock.
+However, the shock may have been very close to the spacecraft throughout this period.
+The x,, model does a little better (as expected, since Oyp = 80°), placing the shock earthward of the spacecraft for the period hours 22.5—23, before coinciding with the x,.
+coordinate between hours 23 and 23.2.
+The crossings at hours 24.05 and 25 are predicted within 3 R-z and ~10 min, respectively, by all three models.
+The last crossing at hour 28 is well predicted by all the models.
+5.
+Observations on  26 April 1999 - 27 April 1999 [21] The solar wind parameters measured by the Wind and IMP 8 spacecraft are shown in Figure 3 for the period 26—27 April 1999.
+Small measured densities throughout this interval produced low values of M, — 1.
+The IMF orientation stayed at O47 ~ 90° around the times of the shock crossings.
+These data (as well as those in section 6 below) are also discussed in detail by Fairfield et al.
+[2001].
+A helium to hydrogen ratio of 4% was assumed because of the Wind alpha data being unreliable for this period 4 of 12 A11202 CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 mtn NAOT ae oe wenyen genes 2 Fim Lienert we a we 10 15 20 Hours after OOOO April 26, 25 50 12g9, Figure 3.
+Alfvén Mach number M, and @pyp calculations from IMP 8 and Wind data during 26— 27 April 1999.
+Dotted vertical lines indicate times of the IMP 8 spacecraft crossings, while dash-dotted lines indicate the Wind crossings.
+Black data points 1n the top panel indicate measurement by IMP 8, and grey data points indicate measurement by Wind.
+(J.
+Kasper, private communication, 2001).
+The rotated trajectory coordinates x, for Wind and IMP 8 are plotted in Figure 4 (using a 15 min running average to reduce the scatter), along with the model predictions.
+The IMP 8 shock crossings (Figure 4a) occurred at hours 20.4 and 31.0 at the rotated coordinates (33.4, 4.8, 3.9) Re and (34.5, 8.7, —4.0) Rp, respectively.
+All crossings are therefore close to the nose of the shock.
+All the models predict the IMP 8 shock crossings at hours 20.4 and 30.8 within 20 and 2 min, respectively.
+However, all three models predict multiple crossings around hour 11.5 which were not observed by the spacecraft.
+Comparing with Figure 3, it is clear that M, = 1.7 and @nyr = 54°, so that neither of the x2™" models are exactly appropriate.
+Noting that the Wind and IMP 8 data predict modestly different values of M4, and so shock positions, the mispredictions may be due to measurement issues, fronts of changing solar wind quantities being neither nonplanar nor aligned with the x axis, or (less plausibly) time lag effects.
+These possibilities are discussed more in sections 6 and 8.
+[22] The Wind shocks occurred at hours 25.9 and 30.6 (Figure 4b) at the rotated coordinates, ordered by time, of (38.5, —20.6, —26.0) Re and (44.9, —8.0, —24.4) Rez, respectively.
+A transitory pair of crossings, in which the Wind spacecraft moved across the shock and back again in 2 min, occurred at hour 22.9, when Wind was at the rotated coordinates (38.9, —11.4, —29.6) Rg.
+The x,; 45" and x0" models predict the time between these crossings near hour 22.9 as 15 min (of order of smoothing time); the x; model predicts these within ~3 min.
+The last two Wind crossings are predicted accurately by all models.
+Although O0yyr ~ 90° throughout the times of the IMP 8 and Wind crossings, there are.
+few BO thi differences between the predictions of x and x This lack of observable differences in the models (e.
+6.
+x versus x; ) is expected since all spacecraft were well upstream of the Earth and a,(Pram, M4) 1s very similar for both models.
+6.
+Observations on  10 May 1999 - 13 May 1999 [23] Figure 5 shows M, and Oy, measured by the Solar Wind Experiment and Magnetic Field Experiment instruments on board the Wind spacecraft, as a function of time for the period 10—13 May 1999.
+As mentioned in section 5, these data are discussed in detail by Fairfield et al.
+[2001].
+Throughout this period, v,,, ~ 400 kms ~, low densities led to low measured values of M,, and Oryp lies between 10° and 90° at the times of the crossings.
+The data are smoothed using a 15 min running average.
+It is noted that there 1s a data gap between hours 44 and 47.
+10 15 20 Hours after OOOO April 26, 25 50 1399 Figure 4.
+Model predictions for the (a) IMP 8 and (b) Wind spacecraft during the period 26—27 April 1999.
+The line/data point series are the same as in Figure 2.
+5 of 12 A11202 10F BE < 6h = 4 2 OE.
+120, °.
+80 at 40 om after O000 May 10, CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 1999.
+Figure 5.
+Alfvén Mach number M, and Onypr as measured by the Wind spacecraft during 10—13 May 1999.
+Dotted, dashed, dash-dotted, and dot-dot-dot-dashed vertical lines indicate crossings by the Interball, IMP 8, Wind, and Geotail spacecraft, respectively.
+[24] Figure 6 shows the model predictions for the Wind and Geotail spacecraft.
+The rotated spacecraft coordinates X,c and the model predictions are smoothed using a 15 min running average to reduce the scatter.
+At hour 16.75 (after 00:00on 10 May), Geotail crossed the bow shock at coordinates (6.6, —6.2, 25.0) Rg.
+At this time, Wind measures M, = 5.3 and Op = 50°.
+All three models predict the Geotail shock-crossing location within | R; at the time of the crossing.
+However, the x; model trace lies on the spacecraft x,- for the first 8 hours, mispredicting shock crossings throughout this period.
+The “hie model traces also lie close to x,., suggesting that the spacecraft may have been very close to the shock between hours | and 8.
+[25] The two shock crossings observed by the Wind spacecraft at hours 41.5 and 43.6 are shown in Figure 6b.
+At hours 41.5 and 43.6 the spacecraft has the rotated coordinates (32.2, 23.1, —34.4) Re and (30.3, 4.5, —43.1) Re, with M, = 1.4 and 1.8 and Onyr = 52° and 56°, respectively.
+All three models predict the shock crossing too early, near hour 37.
+Fairfield et al.
+[2001] gave similar discrepancies for this crossing, attributing them to unreliable density data obtained by Wind preceding the crossing when Wind was inside the foreshock.
+As well as this, the measured densities are so low, ~0.2 cm~? with M@ 4~ 1.3, that the model predictions are very sensitive to small X (Re) X (Re) 20 16) Hours after OOOO May 10, changes in density, implying that the large overpredictions may be due to experimental problems, not problems with the models.
+[26] All three models accurately predict the second Wind shock crossing at hour 43.6.
+The lack of data after the crossing at hour 43.6 makes it impossible to determine where the models place the shock.
+All models incorrectly predict the shock moving over the spacecraft at hours 48 and 50.
+[27] Figure 7 compares the models with the Interball and IMP 8 shock crossings.
+For the Interball crossings the spacecraft was at the rotated coordinates (19.2, 14.6, 0.0) Re and (16.2, —4.3, 1.5) Rz at hours 24.9 and 62.3, with M, = 2.9 and 4.0 and Or = 27 and 94, respectively.
+The first Interball crossing is predicted early at hour 22, not inconsistent with the simulations showing smaller a, for smaller O;ye [Chapman et al., 2004].
+The second crossing is predicted within 1 R; by all models.
+During this crossing, no large differences exist between the models since we are at the nose of shock, and we can only expect to observe small differences in the predicted values for a,.
+[28] The four IMP 8 crossings (Figure 7b) occurred at hours 35.3, 49.9, 57.3, and 59.0 when M, = 1.6, 2.5, 2.0, and 2.0 and Onyr = 54.6, 57.5, 55.8, and 42.2, respectively.
+40 50 60 1992, Figure 6.
+Model predictions for the (a) Geotail and (b) Wind spacecraft during the period 10—13 May 1999.
+The line/data point series are the same as described in the caption for Figure 2.
+6 of 12 A11202 CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 Hours after OOOO May 10 1999.
+Figure 7.
+Model predictions for the (a) IMP 8 and (b) Interball spacecraft during the period 10—13 May 1999.
+The line/data point series are the same as in Figure 2.
+The rotated coordinates of the four shock crossings, in order of increasing time, are (25.9, —18.3, 28.2) Rez, (20.3, —31.6, 20.8) Re, (22.1, 7.1, 36.1) Re, and (6.3, —32.9, —26.8) Rz.
+The predictions of x,, , x,; , and x; all overpredict the first crossing (hour 35.3) by a considerable amount, first crossing the spacecraft line at hour 32 (3.3 hours early).
+The measured density and Mach number for this crossing are low (Ny, = 0.34 cm °, M, ~ 1.67, and Ms = 5.7), as they are also in the 2—3 hours preceding the crossing.
+This suggests again that the reason for the misprediction is the high sensitivity of the models for small M, and n,,,.
+As well as this the shock was moving outward, implying that the equilibrium position could be farther out (larger x coordinate) than that observed.
+The model predictions are for static or equilibrium positions of the shock, and since the shock itself is moving, this difference could explain some of the discrepancy between the predicted and observed shock location.
+[29] The second IMP 8 shock crossing, caused by a sudden inward motion, is well predicted by the xe and x, models, as shown by the model lines dipping rapidly to cross the trajectory at hour 49.9.
+However, the models mispredict a crossing at hour 52, and the crossing at hour 57.3 is predicted too early but within 1 hour of the observed crossing.
+Fairfield et al.
+[2001] obtain similar time discrepancies, attributing this to spatial variations in the solar wind between the IMP 8 and Wind spacecraft, which could cause a misprediction of | hour at Wind.
+The last crossing is predicted accurately by the xP ” and 20" models.
+The x; model with 5, = b,(Pram) only works well for the first three IMP 8 crossings and does not predict the last crossing (x; lies below the IMP 8 trajectory line).
+This model also mispredicts crossings between hours 42 and 47.
+7.
+Bow Shock Database Data [30] In this section we present shock data obtained from the online bow shock database (available at http://nssdc.
+esfc.nasa.gov/ftphelper/bowshock.html).
+The observational periods for the data sets are as follows: 19:73 - 20:00 for IMP 8, 19:96 - 19:97 for Magion-4, 20:01 - 20:02 for Cluster, and 19:95 - 19:97 for Geotail.
+The solar wind parameters are available for each specific spacecraft, appropriate for testing with the shock models.
+The IMP 8 database has additional observational flag parameters, and only those shock cross ings are selected which are unambiguous in all the available data and where all required data are available.
+All data have been filtered with 300 km s_' < vy, < 500 kms, 1 < M, < 10, and 4 < M, < 10.
+These filters led to 648 crossings by IMP 8, 210 by Magion-4, 227 by Cluster, and 145 by Geotail.
+[31] By analogy with the analyses by Merka et al.
+[2003a], in Figure 8 we show the ratio Ryrode/Rops, Where Rmodel = /x2, +2 +22 and Rops = \/x2, + v2, + 22, are the distance of the shock from Earth as given by the model predictions and measured by the spacecraft, respectively.
+For each spacecraft the ratios were obtained by binning the data into intervals of Oy and then averaging over all values of Rmodei/ Rops in that bin for each model.
+A ratio of 1 implies a perfect prediction on average with Rinode = Robs, and we have plotted a horizontal dotted line at Rmode/Rovs = 1.
+[32] On average the xr models do very well for all four spacecraft with 1 < |Rmode/Robs| < 1.058 + 0.002 for the range 40° < Onyr < 140° where these models are appropriate.
+More specifically, the x9" models are only in error by 2% for IMP 8 (for 60° < Oi < 140°), 5% for Geotail and Cluster, and 2% for Magion-4.
+Outside this range the model predictions worsen on average, which is to be expected since the models are outside their domain of applicability and asymmetries in the shock increase as Om decreases (20° < Onyp < 40° and 140° < Onyp < 180°) [Chapman et al., 2004].
+Differences exist in the predictive capabilities of the x; and xSiMe models in the Magion-4 and Cluster results.
+For example, the x; model overestimates the shock locations by up to 20% of the Cluster data for the 80° < Orr < 100° bin, whereas the x SiMe models are within 4% of a perfect prediction.
+Similar comparisons can be made in the other Oy bins, as well as in the Magion-4 data, with the x; model doing worse on average.
+[33] Figure 9 shows similar comparisons in which the shock crossings are separated into M, bins.
+Here the x7"" models are only in error by 7% for IMP 8, 6% for Magion-4, 4% for Geotail, and 6% for Cluster (but only in the range 4 < M, < 10).
+Again, the x; model shows larger differences then the other models between the observed and predicted values for the Magion-4 and Cluster spacecraft.
+L341] Differences between the predictive capabilities of the x and x2" models are not obvious in Figures 8 and 9.
+To observe the geometric effects predicted for the models (seen in the simulations of Chapman et al.
+[2004]), such as the 7 of 12 A11202 CLUSTER I (e) 00) On No ~N No @) WG No CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 20° <60° 80° < < 20°<Ou¢S40° 0°< 6 ime 40°< Oe 60°<O ip 80°<O 4-5 100° 100°< Oye 1 20°] 120°<O pS 1 40° 140°<OyypS 160% _, 160°<O yep 1 309| Figure 8.
+Ratio Rodel igps iS tar! for each spacecratt from the filtered bow shock database in bins of Oar.
+The three models x3? , standard errors of the mean are ‘plotted for the x,, , and x; are plotted | using squares, circles, and crosses, respectively.
+The model, with the other two models having similar standard errors.
+The numbers along the bottom of each plot window indicate the number of shock crossings in each bin.
+tilting or flattening of the shock in x-z planes for the x model in contrast to the shock’s symmetric shape in the x,, model, the shock crossings need to be observed in specific planes.
+For instance, in the y-z plane the shock should be flattened over the +z quadrants for oblique IMF, and noncircular cross sections are expected for all Oty [Chapman et al., 2004].
+One problem with this is that multiple shock crossings are required for low enough M, where these effects are prominent and easily observed.
+Only the IMP 8 database contains enough crossings for statistically significant analyses to be performed.
+In Figure 10 the IMP 8 shock-crossing coordinates (),., Z,-) are plotted for My, <5, On < 80°, One > 100°, and spacecraft locations —10 Re <x.
+< 12 Re, regimes where tilting or skewing of the shock is possible [Chapman et al., 2004; CC2003].
+These restrictions leave 56 shock crossings.
+In this data set, 6% of the data have M, < 3, and the other 94% are in the range 3 < M, < 5.
+The fit in Figure 10 shows a shifted ellipse, in analogy with Figure 8 of CC2003, of the form Y°/A* + (z + z)/B* = 1.
+The fit was performed with free parameters A, B, and Zo, yielding a shift in the cross section along z of 26 + 0.52 Rz (1.e., Zo = —2.6 + 0.52 Re).
+This is consistent with the shock models which predict a shift “Bie in the z coordinate of the centroid in the range 1.8—4.8 Rz for 2 < M, < 5 (see CC2003, Figure 8).
+[35] To test for b,.
+effects (or elliptical cross-sectional effects), the IMP 8 data for 5 < M, < 10 are shown in Figure 11.
+A nonshifted elliptical fit to the data of the form Y?/A* + z’/B? = 1 has the semimajor axis lying along the y axis and is 4.5 + 0.9% larger (L,/L, = 0.92) than the semiminor axis along z.
+This implies an ecoentricity of 0.4, consistent with those observed in the simulations of CC2003 for M, ~ 5 (see CC2003, Figure 7).
+These two effects, the shift of the centroid of the cross section for 2 < M, < 5 and the noncircular cross sections for 5 < M, < 10, are both qualitatively and quantitatively consistent with the results of CC2003 and Chapman et al.
+[2004] (see also the discussion in section 8.3).
+8.
+Discussion 8.1.
+Time Lag Effects [36] The shock models describe the equilibrium positions of the shock, but the shock crossings in sections 4—6 are measured as the shock moves over the spacecraft (any movement of the spacecraft 1s negligible compared with 8 of 12 A11202 Rade” ete Rmodei/ Robs CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 Rnodei” Sebe 1.10 fy 0.90 Hooke eb be Rmodei/ Robs 2<M,S3 3<M,S4 A<M,S5 5<M,.S6 6<M,S7 7<M,S8 B<M,S9 9<M,S10 Figure 9.
+Ratio Ryrode/Robs for each spacecraft, binned in My, for the filtered bow shock database.
+The symbols are the same as in Figure 8.
+the timescales for the movement of the shock).
+This implies that the equilibrium positions of outbound and inbound shocks passing over the spacecraft are farther from and closer to Earth, respectively, than the measured spacecraft 40 20 rT 0 N —20 —40 —40 —20 O 20 40 y Re Figure 10.
+IMP 8 y and z shock crossing coordinates for M,<5 and —10 Re <x,.< 12 Reg.
+The solid line is a shifted elliptical fit.
+The horizontal line on the y axis shows the center of the ellipse.
+crossing.
+Table 2 summarizes the shock crossings of sections 4—6 indicating the nature of each crossing as either outbound or inbound.
+Relationships between the timing of the crossings are clear: Almost all (12 of 13) outbound Figure 11.
+IMP 8 y and z shock crossing coordinates for 5 <M, < 10 and —10 Rp <-x,.
+< 12 Rpg.
+The solid line is an elliptical fit.
+9 of 12 A11202 Table 2.
+Summary of Shock Crossings in Sections 4 and 6 Number of Early __Ga Time Figure Spacecraft Crossings Outbound Inbound Outbound Inbound 2 ISEE 1 10 5 1 0 4 4 IMP 8 2 1 0 0 1 4 Wind 3 2 0 0 1 6 Geotail 1 0 0 1 0 6 Wind 2 1 0 0 1 7 Interball 2 1 0 0 1 7 IMP 8 4 2 0 0 2 Total 24 12 l 1 10 crossings are early, and almost all (10 of 11) inbound crossings are on time.
+The only on-time outbound crossing was for the high M,(~5.5) Geotail crossing at hour 16.75 (10—13 May 1999).
+There is a clear correlation in Table 2: Early model predictions are produced for outbound, low M4 shocks, and the on-time predictions occur for inbound shocks.
+This can be explained qualitatively in terms of the time lags for the propagation of information from the solar wind to the magnetopause and then back upstream to the shock, as described in equation (10).
+For an outbound shock the time lag should be larger for lower My, since the propagation distances for which the information must travel become greater (e.g., A,,,, increases as M, decreases) and the relative speed (Vins — Vsw,a)/Vsw becomes smaller.
+For inbound shocks, in contrast, the shock plausibly moves to its new equilibrium position at v,,, in a time + Ax/¥,,.
+8.2.
+Systematic Effects [37] The x*“? and x; models describe the equilibrium position of the shock and do not include several effects.
+First, they do not take into account the finite propagation speed of the shock.
+The solar wind conditions at any given time are used in the models to predict the instantaneous location of the shock; however, it will take time for the shock to physically reach its new equilibrium position.
+So, for example, the early prediction of an outward moving shock (due to My, or Pram decreasing, e.g., or Omer changing), or the late prediction of an inward moving shock, is potentially due to the finite time required for the shock to reach the new equilibrium position.
+The early predictions of the outbound crossings in sections 4—6, for example, the multiple ISEE 1 crossings in Figure 2 (hours 16.4, 21.6, 22.1, and 25.0) and the first IMP 8 crossing at hour 35.3 in Figure 7b, could be due to this time lag effect.
+[38] Second, the x2™" shock models are very sensitive to changes in the solar wind conditions when the density is low enough such that 1 < M, < 2.
+For these conditions, changes between the model predictions and observations are amplified because of the 1/M% dependence (see, e.g., the shock crossing of Wind at hour 41.5 in Figure 6).
+[39] Third, there is also the possibility that time-dependent changes in the shock’s shape are important.
+The shock’s shape may not change smoothly to the new equilibrium position as the shock adjusts in a time-dependent fashion.
+For instance, large-scale time-dependent ripples in the magnetopause structure due to changes in P,.,, have been reported in simulations [e.g., Smith, 1991, Figure 5], which could have counterparts in the shock’s location and geometry, thereby causing the model predictions to differ significantly from observation.
+CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 [40] Fourth, the abundance of helium may also cause changes in the model predictions, since larger values of n,/ n, lead to larger pressure and Mach numbers, thereby reducing the x coordinate of the model predictions.
+However, these changes are relatively small on the basis of our calculations.
+Here we have assumed that n,/n, = 0.04, since the helium abundances were not available for all times of the shock crossings.
+A larger abundance of, say, 10% leads to variations of a few Earth radii in the model predictions.
+For example, changing n,/n, to 10% from 4% implies an increase Of P,a, and M, by 20% and 10%, respectively.
+So, for a low M, shock with M, = 2 and n/n, = 4%, My becomes 2.2 when n,/n, = 10%.
+This implies a decrease in a, from equation (2) of ~1 Rg, and the P, we scaling introduces a further reduction by 2% as well.
+The total effect is to reduce the original values by only 7%, which results in a displacement of only ~1.6 Rg for a low M, ~ 2 shock.
+As M, increases, this becomes less important since the models are less sensitive to changes in M, at high M,.
+[41] Fifth, the simulations of Cairns and Lyon [1995], used to develop the new shock models tested here, represent the magnetopause obstacle using Farris et al.’s [1991] mean magnetopause model.
+This model assumes axial symmetry of the magnetopause and does not contain possible changes in shape and location due to magnetic reconnection [e.g., Farris et al., 1991; Sibeck et al., 1991].
+In addition, ring current effects on the magnetopause location are not included [e.g., Formisano et al., 1971].
+As suggested by CC2003, the model parameters a, and b,., could be rescaled using a different magnetopause model, similar to those of Verigin et al.
+[2001, 2003] and Fairfield et al.
+[2001].
+This has been attempted (plots not shown here).
+However, there was negligible improvement in the model predictions for x" and so we suggest using the original unscaled version of the model for simplicity.
+8.3.
+Review of Model Results [42] Having now discussed the effects that may lead to differences between the model results and observations, we now review the models’ performance.
+The x”™" models perform well in predicting the shock’s location, with the x; model performing slightly worse on average.
+Specifically, out of a total of 29 shock crossings in sections 4—6, 24 were predicted within either 1 hour and/or 5 Rpg by the x) models, and only 21 were predicted by the x; model.
+A total of 5 of 29 were not predicted by the model trace actually crossing the spacecraft trajectory but were predicted qualitatively; that is, the model lines moved toward and away from the spacecraft trajectory in the appropriate way (see, e.g., the ISEE | crossings between hours 16 and 19 in Figure 2).
+The x" models mispredict four shock crossings where there were none observed (three of these are mispredicted by the x; model also), with a total of five mispredictions for the x; model.
+Thus the x'™F_ models perform better then the x; model: The number of crossings accurately predicted is greater by three, and the number of mispredictions are fewer by one, supporting the use of the CC2003 models.
+As well as this both elementary theory and MHD simulations demonstrate that the shock’s 3-D shape, not just the nose location, should vary strongly with MZ), so it is expected that the x*™F models do better then the x; model.
+Large differences in the xP * and x20" models are not 10 of 12 A11202 observed in many of the crossings when spacecraft were near the nose of the shock, especially when the x,, coordinates were large (with [y,.|, |Zs-| < 10 Rez).
+[43] The analyses performed on the bow shock database in Figures 8 and 9 demonstrate very good accuracy, on average, for the x/™" models.
+Having a large number of shock crossings allows for a more statistically significant comparison with the models, since some shock behaviors not explicitly included in the the models will average out and therefore will not affect the results.
+For example, problems with the finite propagation speed likely average out, with the data set containing just as many inward moving shocks as outward moving ones.
+Indeed, the models perform very well in the range 60° < 80; < 140° in Figure 8 and 1 < M, < 10 for the IMP 8, Magion-4, Cluster, and Geotail spacecraft, with the x!“ models predicting the shock position within a few percent on average.
+This compares very favorably with the case studies in sections 4—6.
+The x; model performs significantly worse for the Magion-4 and Cluster data, thereby suggesting that changes in shape (6,) with M, are important.
+[44] Recently, Merka et al.
+[2003a] compared six bow shock models with IMP 8 data from the bow shock database.
+Their analysis favored three models in the literature: the models of Formisano [1979], Farris and Russell [1994], and Cairns and Lyon [1995] (equivalent to the x; model shown here), with each performing equivalently well.
+The analyses contained in section 7 contain some statistical differences from those of Merka et al.
+[2003a].
+Direct comparisons with Figures 5 and 6 of Merka et al.
+[2003a], which contain Cairns and Lyon’s [1995] model comparisons, show different trends in the ratio Ryode/Robs for the M, < 4.5 bin (Figure 5) and the Ohyqp < 20 and OpypF > 160 bins (Figure 6).
+Where we obtain a ratio Rinode/Robs < | and ~1 for the low Op and M, criterion, respectively, Merka et al.
+[2003a] obtain ratios of Rinode/Robs > 1 and <1.
+These statistical differences are due to different sampling of the data as described below.
+[45] First, the analyses shown in the paper use the extended IMP 8 database for crossings between 19:73 - 20:00, whereas Merka et al.
+[2003a] use the IMP 8 data for the period 19:73 - 19:99, with crossings observed between 19:73 - 19:81 and 19:81 - 19:99.
+Before filtering the data the extended IMP 8 database contains ~11,000 crossings, whereas the Merka et al.
+[2003a] analysis relied upon ~4500 crossings.
+After removing the ambiguous crossings, Merka et al.
+[2003a] were left with ~2300 crossing, whereas the extended database contains ~5000 unambiguous crossings.
+However, after performing the rotation of the crossings to compare with the models and after applying the filters on the upstream conditions as described in section 7, the filtered extended database contains only 10% more crossings than that of the filtered data set in the range 19:73 - 19:99 and so does not add any large statistical differences between the two data sets.
+Moreover, Merka et al.
+[2003c] have redone their analysis using the extended database and showed that their results are qualitatively the same as those of Merka et al.
+[2003a].
+Second, as described in section 7, the data were filtered with limits on the upstream parameters v,,,, M,, and M, (leaving 648 crossings) so that the CC2003 models were applicable.
+Merka et al.
+[2003a] do not impose similar restrictions on these CHAPMAN AND CAIRNS: MODELING OF EARTH’S BOW SHOCK—APPLICATIONS A11202 parameters (leaving 2293 crossings) but instead bin or filter the data one parameter at a time (see their Figures 4—6).
+This leads to differences between the analyses here and those of Merka et al.
+[2003a].
+[46] One set of filters imposed by Merka et al.
+[2003a] are for the relatively nominal solar wind conditions Ms; > 4.5, M,>4, and 45° < Ony4p < 135°, for which they obtained a ratio Rinodel/Robs © 0.96 + 0.10 (estimated from Merka et al.
+[2003a, Figure 6]) for Cairns and Lyon’s [1995] model.
+Looking at the plots here with 45° < Op4p < 135° in Figure 8 and M, > 4 in Figure 9, the average ratios are ~0.99 + 0.10.
+These are consistent within the errors bars.
+Moreover, we confirm that we obtain similar trends to the Merka et al.
+[2003a] analyses when redoing the analysis using their filtering.
+The tendency to overpredict or underpredict the shock location is thus sensitive to the bins or filtering used.
+We reiterate that the filtering we use is intended to directly test models derived from the simulations of CC2003 which were based upon specific solar wind conditions.
+[47] Our analyses here improve significantly, on average, upon Cairns and Lyon’s [1995] model, suggesting that the new shock models may also outperform Formisano’s [1979] and Farris and Russell’s [1994] models (and the three other models tested by Merka et al.
+[2003a]).
+The x SiMe models are based upon MHD simulations and so contain the expected theoretical dependencies of shock shape (M, and ©), as well as nose location, upon the upstream solar wind conditions, and so it is expected that the x?’ models perform better.
+[48] Support for the modeled cross-sectional asymmetries, described by the © dependence of b,, are shown in Figures 10 and 11.
+The translated cross section (Figure 10) is qualitatively consistent with CC2003 as well as the observations of Verigin et al.
+[2001] and the analytic bow shock work of Verigin et al.
+[2003].
+In addition, the translation of the centroid by —2.6 Rz along z is quantitatively consistent with the x?’ models, which predict a translation of ~1.8—4.8 R» for 2 < M, <5 with Omnyp = 45° [Chapman et al., 2004; CC2003].
+For the elliptical fit in Figure 11 the ratio L,/L, = 0.92 gives a cross-sectional eccentricity of 0.4 which is consistent with Figure 7 of CC2003 and the 2—7% asymmetries measured by Peredo et al.
+[1995].
+Note, however, that the model of Peredo et al.
+[1995] has at least a 20% bias [Merka et al., 2003a].
+The shifting of the shock’s cross section is difficult to observe in the near-Earth regime, as was seen from the rather similar predictions for the x; and m"™* models in sections 4—6.
+The maximum cross-sectional asymmetry for the x7,” model, for example, occurs at « ~ 0.4 for M, ~ 2 (see CC2003, Figure 7), which corresponds to differences in the extent of the shock in the terminator plane (x = 0) of ~4 Rez.
+Thus, in the near-Earth regime we can only expect a maximum difference between o-dependent and symmetric paraboloidal models of ~4 R;.
+These differences would be more pronounced farther downstream of Earth.
+9.
+Conclusion [49] The CC2003 models, for 8p4¢ = 45° and 90°, which predict the location of Earth’s bow shock based upon MHD simulations, have been tested with observational data.
+The results show that the models perform well against the data.
+11 of 12 A11202 Comparisons with Cairns and Lyon’s [1995] rotationally symmetric model show that the x”™* models do better on average in locating the shock.
+The two main features of the model, flaring of the shock and shifting of the shock’s cross section for 947 = 45° due to dependences of the shock shape on My, azimuthal angle o, and Qyp, are both supported.
+[50] Acknowledgments.
+This work was supported by the Australian Research Council and NASA grant NAG5-6369.
+We gratefully thank Don Fairfield for his advice regarding the shock data analyses as well as for supplying us with IDL code relevent for the work in sections 5 and 6.
+We are grateful to the MIT Space Solar Wind Group for the use of the data in sections 5 and 6.
+We also thank Justin Kasper for work related to the helium concentrations in the Wind and IMP 8 data.
+[51] Shadia Rifai Habbal thanks Jan Merka and another referee for their assistance in evaluating this paper.
+.

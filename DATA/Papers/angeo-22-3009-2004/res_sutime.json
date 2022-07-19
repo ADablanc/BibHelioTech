@@ -1,0 +1,52 @@
+[
+    {
+        "end": 59,
+        "start": 54,
+        "text": "14:32",
+        "timex-value": "T14:32",
+        "type": "TIME",
+        "value": "T14:32"
+    },
+    {
+        "end": 787,
+        "start": 771,
+        "text": "18 November 2003",
+        "timex-value": "2003-11-18",
+        "type": "DATE",
+        "value": "2003-11-18"
+    },
+    {
+        "end": 811,
+        "start": 799,
+        "text": "1 April 2004",
+        "timex-value": "2004-04-01",
+        "type": "DATE",
+        "value": "2004-04-01"
+    },
+    {
+        "end": 837,
+        "start": 824,
+        "text": "21 April 2004",
+        "timex-value": "2004-04-21",
+        "type": "DATE",
+        "value": "2004-04-21"
+    },
+    {
+        "end": 867,
+        "start": 851,
+        "text": "7 September 2004",
+        "timex-value": "2004-09-07",
+        "type": "DATE",
+        "value": "2004-09-07"
+    },
+    {
+        "end": 7457,
+        "start": 7437,
+        "text": "During 20:01 - 20:02",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:01",
+            "end": "T20:02"
+        }
+    }
+]

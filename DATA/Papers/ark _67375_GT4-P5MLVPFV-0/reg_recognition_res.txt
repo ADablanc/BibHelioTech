@@ -1,0 +1,5 @@
+{'start_time': '2002-03-18T14:00:00.000', 'stop_time': '2002-03-18T14:00:59.000', 'DOI': '10.1038/nature02124', 'sat': 'Cluster', 'inst': '', 'reg': 'Heliosphere.NearEarth', 'D': 4611, 'R': 2, 'SO': 3, 'conf': 0.32014163715892524}
+{'start_time': '2002-03-18T14:40:00.000', 'stop_time': '2002-03-18T14:40:59.000', 'DOI': '10.1038/nature02124', 'sat': 'ACE', 'inst': '', 'reg': 'Heliosphere.NearEarth', 'D': 4192, 'R': 3, 'SO': 2, 'conf': 0.6548635700895646}
+{'start_time': '2002-03-18T14:40:00.000', 'stop_time': '2002-03-18T14:40:59.000', 'DOI': '10.1038/nature02124', 'sat': 'ACE', 'inst': '', 'reg': 'Heliosphere.NearEarth', 'D': 4801, 'R': 4, 'SO': 2, 'conf': 1.0}
+{'start_time': '2002-03-18T14:40:00.000', 'stop_time': '2002-03-18T14:40:59.000', 'DOI': '10.1038/nature02124', 'sat': 'Cluster', 'inst': '', 'reg': 'Heliosphere.NearEarth', 'D': 730, 'R': 1, 'SO': 3, 'conf': 0.02534194265083663}
+{'start_time': '2002-03-18T14:40:00.000', 'stop_time': '2002-03-18T14:40:59.000', 'DOI': '10.1038/nature02124', 'sat': 'Cluster', 'inst': '', 'reg': 'Heliosphere.NearEarth', 'D': 301, 'R': 1, 'SO': 3, 'conf': 0.010449211969728528}

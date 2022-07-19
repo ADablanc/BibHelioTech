@@ -1,0 +1,2 @@
+{'start_time': '2000-01-22T20:03:00.000', 'stop_time': '2000-01-22T20:03:59.000', 'DOI': '10.1029/2005JA011566', 'sat': 'LANL', 'inst': 'MPA', 'reg': 'Earth.Magnetosphere.Main', 'D': 17823, 'R': 2, 'SO': 2, 'conf': 1.0}
+{'start_time': '2000-01-22T20:03:00.000', 'stop_time': '2000-01-22T20:03:59.000', 'DOI': '10.1029/2005JA011566', 'sat': 'LANL', 'inst': 'MPA', 'reg': 'Earth.Magnetosphere.Main', 'D': 35522, 'R': 1, 'SO': 2, 'conf': 0.9965213488189418}

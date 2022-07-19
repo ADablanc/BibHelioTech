@@ -1,0 +1,314 @@
+JOURNAL OF GEOPHYSICAL RESEARCH, VOL.
+111, A09208, doi:10.1029/2005JA011566, 2006 Magnetosphere preconditioning under northward IMF: Evidence from the study of coronal mass ejection and corotating interaction region geoeffectiveness B.
+Lavraud,' M.
+F.
+Thomsen,’ J.
+E.
+Borovsky, ' M.
+H.
+Denton,' and T.
+I.
+Pulkkinen!' Received 13 December 2005; revised 18 May 2006; accepted 26 June 2006; published 16 September 2006.
+[1] Motivated by recent observations and simulations of the formation of a cold and dense plasma sheet in the tail of the magnetosphere under northward interplanetary magnetic field (IMF) and of the direct influence of the plasma sheet density on the ring current strength, this paper aims at (1) highlighting how the coupling of these effects may lead to a preconditioning of the magnetosphere under northward IMF and (2) performing first tests of the validity of this hypothesis.
+We have analyzed superposed epoch time series of various parameters to investigate the response of the magnetosphere (as indicated by the Dst index) to the passage of coronal mass ejections (CMEs) and corotating interaction regions (CIRs).
+We first focused on the difference between the measured Dst signature and that predicted by a semiempirical Dst model.
+For both CME- and CIR-driven storms the superposed epoch results show that the model Dst predictions tend to underestimate the actual storm strength (by up to 10—30%) for events that are preceded by a substantial interval of northward IMF, as opposed to those with no such preceding northward IMF.
+We also analyzed Los Alamos geosynchronous spacecraft data for these events.
+The average density and temperature measured at storm onset are substantially higher and slightly lower, respectively, for the cases with preceding northward IMF intervals.
+These results suggest that solar wind structures may be more geoeffective if preceded by a northward IMF interval and they are consistent with the hypothesis of a preconditioning by a cold, dense plasma sheet.
+A colder and denser plasma sheet may lead to a stronger ring current when that plasma is convected inward during the main phase of an ensuing storm.
+Citation: Lavraud, B., M.
+F.
+Thomsen, J.
+E.
+Borovsky, M.
+H.
+Denton, and T.
+I.
+Pulkkinen (2006), Magnetosphere preconditioning under northward IMF: Evidence from the study of coronal mass ejection and corotating interaction region geoeffectiveness, J.
+Geophys.
+Res., 111, A09208, doi:10.1029/2005JA011566.
+1.
+Introduction [2] The investigation of the geoeffectiveness of coronal mass ejections (CMEs) and corotating interaction regions (CIRs) has recently gained much interest in the context of space weather studies and the upcoming launch of missions aimed at studying such structures and their impact on Earth [Zhang and Burlaga, 1988; Gosling et al., 1991; Gosling, 1993; Kamide et al., 1998; Gonzalez et al., 2002a, 2002b; Cane and Richardson, 2003; Li and Luhmann, 2004; Wu and Lepping, 2002, 2005; Borovsky and Steinberg, 2006].
+It is known that a portion of CMEs have a well-defined embedded magnetic flux rope-like structure; these are called magnetic clouds.
+Magnetic clouds often have a bipolar structure in their magnetic field.
+When the orientation of their main axis has a significant horizontal component, they are usually referred to as north-south or south-north polarity magnetic clouds.
+'Space Science and Applications, Los Alamos National Laboratory, Los Alamos, New Mexico, USA.
+Copyright 2006 by the American Geophysical Union.
+01:48 - 02:27/06/2005JA011566 A09208 Magnetic clouds are often geoeffective structures as they usually possess a relatively strong and persistent southward magnetic field component either in the leading or trailing portion of the structure.
+However, the geoeffectiveness of CMEs can also be driven by the preceding sheath region of the CMEs owing to its compressed and fluctuating nature [Gosling et al., 1991; Huttunen et al., 2002].
+CIRs are similarly important geoeffective structures [Kamide et al., 1998; Gonzalez et al., 2002b; Borovsky and Steinberg, 2006; Denton et al., 2006] as the increased speed during such events is often accompanied by a southward component of the interplanetary magnetic field (IMF), leading to a strong coupling through a large solar wind electric field imposed on the magnetosphere.
+The geoeffectiveness of solar wind structures (either CMEs or CIRs) is thus to first order attributable to the presence of a large solar wind electric field and a large dynamic pressure [e.g., Burton et al., 1975; Akasofu, 1981].
+[3] A commonly used index for assessment of geomagnetic activity is Dst, which is a measure of the strength of the ring current.
+Dst has been shown to correlate strongly with the magnitude of the solar wind electric field and dynamic 1 of 10 A09208 pressure.
+These correlations allowed Burton et al.
+[1975] to construct a semiempirical model of the Dst response based on inputs from the solar wind parameters.
+This predictive model was further modified and adapted successively by O’Brien and McPherron [2000] and Wang et al.
+[2003].
+It is known that contributions to Dst come from other (e.g., tail) current systems as well [e.g., Hakkinen et al., 2003; Ganushkina et al., 2004].
+These currents may not be separated in the present study.
+Their contribution, however, may be viewed as part of the global geoeffectiveness of the events under consideration here.
+[4] From the study of the statistical significance of the difference between their predicted and the measured Dst, O’Brien and McPherron [2000] concluded that the errors in their model were caused by a few rather than many sources.
+An obvious source of errors is that of the measurements themselves [O’Brien and McPherron, 2000].
+In addition, because of the sole dependence of the model on the solar wind electric field and dynamic pressure, the effects of other Operative physical processes ought to constitute additional sources of discrepancy.
+One such mechanism investigated here 1s a preconditioning of the magnetosphere under northward IMF; 1.e., the possibility that the magnetosphere configures itself in a specific state as a function of the properties of the preceding solar wind conditions, which in turn may affect the strength of ensuing storms.
+Of particular importance in this context is the formation of a colder and denser plasma sheet during northward IMF | 7erasawa et al., 1997; Fujimoto et al., 1998].
+Both observations [Borovsky et al., 1997; Thomsen et al., 1998] and modeling efforts [Jordanova et al., 1998; Kozyra et al., 1998] have shown evidence for the role of the plasma sheet density in storm-time ring current strength, with larger plasma sheet density leading to larger negative Dst excursions.
+A lower plasma sheet temperature may add to the ring current strength as colder populations may convect deeper Earthward than their hotter counterpart [Ebihara and Ejiri, 2000].
+In this paper we argue that the formation of a cold, dense plasma sheet (CDPS) may lead to an enhanced Dst during the main phase of a storm as that denser plasma is being pushed inward during the strong convection associated with the storm main phase.
+[s] A number of studies have investigated a possible dependence of CMEs geoeffectiveness on the polarity of magnetic clouds [Zhang and Burlaga, 1988; Fenrich and Luhmann, 1998; Li and Luhmann, 2004; Wu and Lepping, 2002, 2005].
+However, a relation between CME magnetic polarity and their absolute geoeffectiveness (in terms of Dst in particular) has not been fully pinned down.
+This 1s in part due to the lack of extended databases of magnetic clouds, 1.e., only a subset of all CMEs.
+It is further complicated by the common presence of a sheath ahead of the CME itself, which often is the first geoeffective part of CMEs [Gosling et al., 1991].
+Periods of calms (defined as a Kp index lower than 1” for at least 6 hours) before CIR-driven storms have been noted and investigated recently by Borovsky and Steinberg [2006].
+They showed that such calm periods occur more frequently prior to CIR-driven storms than during more typical solar wind conditions.
+In their discussion, they suggested that such periods of calm may lead to a preconditioning of the magnetosphere by, in particular, (1) a possible mass loading after the buildup of a dense plasmasphere during quiet (low Kp) intervals, and (2) the formation of a LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING A09208 cold and dense plasma sheet, in response to presumably northward IMF (as also suggested by Thomsen et al.
+[2003)).
+[6] There is ample evidence that both double high-latitude reconnection [Song and Russell, 1992; Gieroset et al., 2005; Li et al., 2005; Lavraud et al., 2005a, 2006] and the KelvinHelmholtz instability [Fujimoto et al., 1998; Hasegawa etal., 2004] may participate in the formation of the cold, dense plasma sheet (CDPS) under northward IMF.
+Here we do not focus on the relative importance of these processes, we only rely on the fact that the presence of the CDPS following extended periods of northward IMF is well established [e.g., Terasawa et al., 1997] and that this material has access to the inner magnetosphere under certain conditions [Thomsen et al., 2003; Lavraud et al., 2005b].
+[7] Any signature of the dependence of storm strength on the preceding solar wind conditions (IMF direction in particular) is necessarily embedded in the measured Dst trend.
+Primarily, Dst responds to coupling through the solar wind electric field and dynamic pressure.
+Therefore, to assess the role of secondary effects such as a preconditioning of the magnetosphere under northward IMF, one must either (1) compare the magnetospheric response of CMEs or CIRs which have similar solar wind characteristics apart from their magnetic structure (resulting in a limited number of suitable events, if any) or (2) statistically compare the actual magnetospheric response to that predicted by models which are developed to take into account the effects of the solar wind electric field and dynamic pressure.
+In the latter case, systematic differences observed between different sets of storms selected for specific preceding IMF conditions can be interpreted to be due to other coupling processes.
+This is the approach we use in the present study.
+In addition, we use in situ measurements of the density and temperature of the nightside plasma sheet to assess the role of the formation of a CDPS as a preconditioning mechanism.
+[s] We first describe the data, the Dst model and the event selection criteria in section 2.
+In section 3 we show and discuss the results.
+These primarily pertain to the difference observed between the measured and modeled Dst, as a function of preceding IMF conditions.
+The connection to plasma sheet density and temperature is then documented with measurements of the densities and temperatures in the nightside sector of geosynchronous orbit.
+Potential limiting factors to this mechanism are discussed in section 3.5.
+We draw our conclusions in section 4.
+2.
+Data, Dst Model, and Event Selection 2.1.
+Data [9] In this study, we use solar wind data from the OMNI-2 data set [King and Papitashvili, 2005].
+This data set extends from 1963 with hourly averages of solar wind data from various solar wind monitors.
+Lag times from the observing spacecraft to Earth are already applied in the data set.
+The OMNI-2 data set has the same time resolution as the Dst index and therefore was used by O’Brien and McPherron [2000] for the construction of the Dst model described below.
+Dst and Kp data are also taken from the OMNI-2 data set.
+The GSM coordinates are used throughout the paper.
+[10] We also make use of measurements from the Los Alamos National Laboratory MPA (Magnetospheric Plasma Analyzer) instruments onboard geosynchronous satellites.
+2 of 10 A09208 The MPA instruments are electrostatic analyzers.
+They measure the three-dimensional energy-per-charge distributions of both ions and electrons.
+Here we only utilize measurements of the ion density and temperature, which are calculated for the energy range [100—45000] eV [Thomsen et al., 1999] (all ions are assumed to be protons).
+The reader is referred to Bame et al.
+[1993] and McComas et al.
+[1993] for detailed description of the MPA instruments.
+For the current study, data are taken from six different satellites in geosynchronous orbit covering the period of interest between 19:94 - 20:03.
+2.2.
+Dst Model [11] The Dst model used in this study comes from Wang et al.
+[2003].
+It is a modified version of the O’Brien and McPherron {2000] model that is designed to better represent the Dst dependence on the solar wind dynamic pressure.
+These models are based on that originally developed by Burton et al.
+[1975].
+[12] The measured Dst index is known to have a substantial contribution coming from the magnetopause current system (1.e., the currents over the entire magnetopause induce deflections of the magnetic field at the surface of the Earth that are necessarily included as part of the Dst index).
+This contribution ought to be removed prior to analyzing Dst as an actual index representing the strength of the intramagnetospheric currents, and, in particular, of the ring current itself.
+Contribution from the magnetopause currents mainly depends on the solar wind dynamic pressure and, in the model used here, is given by [e.g., O’Brien and McPherron, 2000]: Dst* = Dst —7.26\/Pram + 11 (1) where P,.,,, 18 the solar wind dynamic pressure, Dst is the measured index and Dst* is that corrected for the contribution of magnetopause currents.
+[13] In the models, Dst* variations are assumed to be the result of an injection term (first right hand term in equation (2)) and a decay term (second right hand term in equation (2), where 7 is a decay timescale in hours): © pst¥(«) = Q() (2) The statistical analysis of the response of Dst* to solar wind parameters allowed Burton et al.
+[1975], and later O’Brien and McPherron [2000] and Wang et al.
+[2003], to find the functional dependence of each term in the Ds?¢* variations as a function of the solar wind electric field (4, or VBz parameter, in mV/m) and the solar wind dynamic pressure (P,am in nPa).
+For the results shown in the next sections, we used the parameterization from Wang et al.
+[2003].
+For the injection term Q (nT h'), this parameterization is as follows: O=0 VBz < 0.49 mV/m (3a) — , O = —4.4(VBz — 0.49) (“") VBz >0.49 mV/m_ (3b) 0 LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING A09208 where the best fit parameters Py and y were found to be 3.0 nPa and 0.2, respectively.
+The decay timescale 7 (in hours) from equation (2) has the following parameterization: r= 8 7: 66/(6.04-+Pram ) Bz > 0 nT (4a) T = 2.40¢974/(4.09+7B:) Bz <OnT (4b) The implementation of this Dst* model thus requires that solar wind data be available.
+In our analysis, from a given start time forward, the Dst* index is calculated at time ¢ + At (At is 1 hour) by straight integration of equation (2) using the solar wind data at time ¢ as input.
+In this paper, we will only show Dst* values, i.e., both model and measured Dst at time ¢ are corrected for the magnetopause current contribution using equation (1).
+The results shown in this paper also hold when using the O’Brien and McPherron [2000] parameterization instead of that of Wang et al.
+[2003].
+2.3.
+Event Selection [14] We study both CME- and CIR-driven storms.
+The list of CMEs used in this study comes from Cane and Richardson [2003].
+The list of CIRs we used comes from Borovsky and Steinberg |2006, also private communication, 2006].
+As one aim of our study is to compare measured and modeled Dst indices, only CME- and CIR-driven storms having good solar wind data coverage were selected.
+In addition, we require that the storms be sufficiently, but not too strong, 1.e., that during the 12 hours following storm onset, (1) the Kp index increases to a value of at least 4°, (2) the difference between the storm onset Dst value and the minimum Dst value is at least 40 nT, (3) there is neither obvious strong activity before the storm onset nor a large multiple peak main phase, and (4) the minimum Dst is in the range [—30, —150] nT.
+This last criterion is required to hold for the entire storm duration and comes from the fact that the O’Brien and McPherron {2000] model has been derived from the analysis of storms having minimum Dst values larger than —150 nT, and it is thus valid only in that range.
+The storm onset times were determined by visual inspection of the data (from the Dst and VBz values in particular).
+This set of criteria led to a total of 60 CME-driven storms for which the onset times are listed in Table 1.
+The set of 38 CIR-driven storms is listed in Table 2.
+3.
+Results 3.1.
+Illustration From Two Selected CME-Driven Storms [15] As the Dst* model used in this study comes from a simple integration of equation (2) forward in time, the choice of the start time for integration may be critical.
+For consistency we begin the integration at a similar relative time for each storm.
+For every event in this study, the start time for the Dst* model is taken to be 12 hours before the storm onset times listed in Tables 1 and 2.
+We construct the model Dst* traces for the next 24 hours, 1.e., taking into account the 12 first hours of the storm main phase.
+We then compare those to the measured Ds?* traces.
+[16] Here we first illustrate the analysis and goal of the study by showing two sample CME-driven storm events.
+3 of 10 A09208 Table 1.
+List of CME-Driven Storms Onset Times Year B.
+DOY* Hour 1997 N 10 z 1997 N 40 16 1997 N 100 19 1997 N 111 10 1997 S 135 6 1997 N 215 14 1997 N 246 18 1997 S 283 17 1997 S 326 2 1997 S 364 2 1998 S 6 15 1998 S 29 21 1998 N 48 13 1998 S 84 8 1998 S 100 15 1998 S 122 9 1998 N 165 3 1998 N 176 22 1998 N 211 23 1998 S 218 2 1998 N 292 1 1998 S 311 11 1998 S 317 0 1999 N 23 15 1999 N 49 3 1999 N 106 19 1999 S 232 2 1999 S 347 2 2000 S 22 17 2000 N 61 3 2000 S 138 0 2000 N 144 22 2000 N 160 lz 2000 S 175 17 2000 S 178 2 2000 S 195 11 2000 N 201 21 2000 N 205 13 2000 S 223 20 2000 N 278 4 2000 N 302 20 2000 N 331 18 2001 S 63 18 2001 N 86 19 2001 N 94 15 2001 S 98 13 2001 S 108 1 2001 N 112 1 2001 N 118 10 2001 S 148 9 2001 N 189 18 2001 S 229 12 2001 S 256 2 2001 S 304 19 2001 N 363 23 2002 N 59 19 2002 N 77 23 2002 N 82 14 2002 N 213 23 2002 N 230 21 “DOY, day of year.
+The first CME occurred on 22 January 2000 and the second on 25 June 1998.
+The relevant data are shown in Figure 1 for each event, drawn in black and red, respectively, for 24 hours surrounding storm onset.
+Figure 1 shows the solar wind dynamic pressure (P,.,,,) (Figure 1a), the IMF magnitude (Figure 1b), the y component of the solar wind electric field (VBz) (Figure 1c), the IMF absolute clock angle (CA = LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING A09208 tan” '(B,/B,))) (Figure 1d), the measured (solid) and modeled (dashed) Dst* index (Figure le), and the Kp index (Figure If).
+The x axis corresponds to epoch time, in hours, relative to the storm onset.
+[17] The two events were chosen for their clear difference in terms of the prevailing IMF direction prior to storm onset.
+Also, the other main parameters were quite similar during the first hours of the storm main phase (VBz and P,gm 1n particular).
+The 22 January 2000 event (black) corresponds to a case with steady horizontal IMF for more than 6 hours preceding storm onset, with an IMF absolute clock angle of CA ~ 90° (Figure 1d).
+By contrast, the 25 June 1998 event (red) was preceded by a strong northward IMF (CA ~ 30°) for over 6 hours.
+[18] For the 12 hours preceding the 22 January 2000 storm, the y component of the solar wind electric field (£\) was slightly positive (Figure lc), leading to a Dst* value of the order —10 to —20 nT.
+The Dst* value during the 12 hours preceding the 25 June 1998 was slightly higher (10— 20 nT) owing to a negative £,, (northward IMF).
+At storm onset, corresponding to a large increase in £\, both cases show a large decrease in Dst*.
+In terms of the model Ds?*, that decrease lasts for as long as the injection term in equation (2) is large enough to overcome the decay term.
+As F,, resumes lower values more quickly during the main phase for the 25 June 1998 than for the 22 January 2000 event, both Table 2.
+List of CIR-Driven Storms Onset Times Year B, DOY Hour 1973 N 328 13 1974 S ao 2 1974 S 108 ] 1974 N 122 22 1974 S 177 3 1974 S 203 23 1974 S 214 14 1974 S 315 11 1975 S 110 16 1975 S 136 5 1575 N 333 5 1976 S 58 13 1976 S 182 7 1977 N 67 19 1994 S 65 23 1995 N 29 2 1995 N 42 5 1995 N 68 18 1995 S 96 23 1995 N 122 2 1995 N 143 18 1995 S 197 13 1995 S 248 10 1995 N 303 11 1995 S 358 6 1999 S 269 15 1999 S 283 4 1999 S 311 4 2000 S 11 15 2000 S 36 17 2002 S 33 3 2002 N 36 16 2002 S 297 0 2002 N 324 16 2002 S 330 22 2003 S 191 23 2003 N 219 16 2003 N 233 0 4 of 10 > > 6 N — 4) 2000/022 and 1998/176 TT] rp lili N CON TTTT wi ! ! (b) IMF IBI (nT) (a) Pram (nPa) (d) IMF ICAI (deg.) (c) Ey (mV/m) (e) Dst* (nT) (f) Kp OF NWA UD 0 +6 +12 Epoch time (hours) a N | nN Figure 1.
+Time series of solar wind and magnetospheric data for two CME-driven storms chosen for illustration on 22 January 2000 (black) and 25 June 1998 (red).
+(a) Dynamic pressure, (b) magnetic field magnitude, (c) y component of the solar wind electric field, (d) IMF absolute clock angle, (e) measured (solid lines) and modeled (dashed lines) Dst*, and (f) Kp index values.
+The onset time 1s given by the dashed vertical line.
+See text for further details.
+the measured and modeled Dst* values start to increase 5—6 hours after storm onset for that event.
+On 22 January 2000 the Dst* values kept decreasing until the end of the 12 hour interval after storm onset owing to a more sustained positive £,.
+[19] The feature to note in Figure | is the fact that although the solar wind data for the two events appear similar during the first hours of the main phase, the model Dst* (red dashed lines in Figure le) underestimates the decrease in Dst* measured (red solid lines) for the main phase of the event preceded by northward IMF.
+The underestimation reaches about ~30 nT at 5 hours after onset, corresponding to 30% of the measured Dst* value at that time.
+By contrast, the event preceded by horizontal IMF (black lines) is overall well reproduced by the model Dst*.
+3.2.
+Analysis of CME-Driven Storms [20] To search for a systematic discrepancy between the modeled and measured Dst* as a function of the prevailing IMF direction during the period preceding storm onset, we conduct a superposed epoch analysis of the set of CMEdriven storms (Table 1).
+Figure 2 shows superposed epoch averages for the 24 hours surrounding storm onset for the 60 LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING A09208 CME-driven storms.
+The 60 events were divided into two sets based on the preceding IMF conditions.
+In Figure 2, the black curves correspond to the superposed epoch averages of the parameters for events which have at most 1 hour (1 OMNI-2 data value) of IMF absolute clock angle CA < 60° (i.e., at most 1 hour of strong northward IMF) during the 6 hours preceding storm onset.
+The IMF preceding the storm is thus mainly horizontal or southward for these events.
+The total number of events fulfilling this criterion is 27 (out of 60).
+The red curves correspond to the superposed epoch averages from events which are preceded (within 6 hours) by at least two hours of IMF directed northward, defined as CA < 60°.
+Thirty-three events fulfill this criterion.
+In the following, we refer to the former type of events as “‘horizontal/southward IMF case” and to the latter as “northward IMF case.” In Tables 1 and 2, the ““N” (for northward) and “S” (for southward) notations in the Bz column refer to the subset of IMF preconditioning to which each event belongs to accord All CME events (a) Pram (nPa) (b) Ey (mV/m) —  Northward IMF case — Southward and horizontal IMF case (c) IMF ICAI (deg.) (d) Dst* (nT) (e) Kp Epoch time (hours) Figure 2.
+Superposed epoch time series of solar wind and magnetospheric data for the set of 60 CME-driven storms.
+The results for the 27 (33) events preceded by southward/ horizontal (northward) IMF (see text for definitions) are shown with the black (red) lines.
+(a) Dynamic pressure, (b) y component of the solar wind electric field, (c) IMF absolute clock angle, (d) measured (solid lines) and modeled (dashed lines) Dst*, and (e) Kp index values.
+The onset time used for epoch superposition is shown by the dashed vertical line.
+See text for further details.
+Error bars show the mean absolute deviation of the mean.
+5 of 10 A09208 All CIR events i 6 ty : 4 2 eK, (a) Pram (nPa) | h tables did i] (b) Ey (mV/m) | 5 L p> 100 ~~ s oy Re RL OER 50 — Northward IMF case —_ Southward and @) _ __ | horizontal IMF case (c) IMF ICAI (deg.) 0 — PrP a ~20 | Yr (d) Dst* (nT) (e) Kp Epoch time (hours) Figure 3.
+Superposed epoch time series of solar wind and magnetospheric data for the set of 38 CIR-driven storms.
+The results for the 24 (14) events preceded by southward/ horizontal (northward) IMF (see text for definitions) are shown with the black (red) lines.
+This figure is in the same format as Figure 2.
+ing to our selection criteria.
+The choice of a clock angle of 60° as a selection criterion comes from the fact that both double high-altitude reconnection and the Kelvin-Helmholtz instability may be effective in forming a cold, dense plasma sheet for such low clock angle values.
+[21] In Figure 2, one observes that (1) the Kp values are similar for both sets of events (Figure 2e), (2) the VBz parameter (or £), in Figure 2b) and absolute IMF CA (Figure 2c) are more negative and lower, respectively, in the interval prior to storm onset for the events preceded by northward IMF, as a result of the selection criterion, and (3) after storm onset E\, is somewhat larger in the case of the events preceded by horizontal/southward IMF.
+This latter characteristic is responsible for a faster (measured and modeled) Dst* decrease in the first 2 hours following storm onset (Figure 2d).
+However, it appears that the overall decrease in measured Dst* during the main phase of the storm is globally underestimated by the model in the case of events preceded by northward IMF (red curves).
+Indeed, compared to the model predictions, storms preceded by northward IMF appear to be stronger than those with no such preceding northward interval (Figure 2d).
+For the northward IMF case, the average underestimation is of ~10 nT a few hours after storm onset.
+The observed difference is of the order of the average absolute deviation of the mean (i.e., the average absolute deviation from the mean LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING A09208 divided by the square root of the number of events) shown as the statistical error bars on both the measured and modeled Dst*, and is therefore not dramatic.
+However, it corresponds to ~15% of the average Ds?f* at this time; this trend will be confirmed by the separate study of CIR-driven storms in section 3.3.
+[22] It is worth noting that the correction (equation (1)) to remove the influence of the magnetopause current system does not seem to perform well generally.
+Figure 2a shows that the dynamic pressure of the solar wind (P,.,,,,) 1s large for both sets of events.
+The discrepancy observed before storm onset between the modeled and measured Dst* for both cases (Figure 2d) suggests that the pressure correction is not large enough.
+The discrepancy is slightly larger for the northward IMF cases (which have larger solar wind pressure associated with them).
+If an additional pressure correction were applied to the high-P,.,,, main phase interval after onset, the corrected Dst* would fall even further below the modeled value for the northward IMF case, therefore increasing the discrepancy for these conditions.
+3.3.
+Analysis of CIR-Driven Storms [23] Figure 3 presents the superposed epoch results from the analysis of the 38 CIR-driven storms listed in Table 2.
+The analysis performed and the event selection criteria are exactly the same as those used in the previous section for CMEdriven storms.
+The format of Figure 3 is the same as Figure 2.
+The total number of events corresponding to the horizontal/ southward (northward) IMF case is 24 (14) out of 38.
+[24] In Figure 3, one again observes that (1) the Kp values (Figure 3e) are similar for both sets of events (horizontal/ southward and northward IMF cases), (2) the VBz parameter (or £,, Figure 3b) and absolute IMF CA (Figure 3c) are more negative and lower, respectively, in the interval prior to storm onset for the events preceded by northward IMF (red curves), again as a result of the selection criteria, and (3) after storm onset, £\, is somewhat larger in the case of the events preceded by horizontal/southward IMF (black curves).
+In this case, this latter characteristic does not result in any clearly faster Dst* decrease in the first hours following storm onset as far as the measured Dst* is concerned (Figure 3d).
+The modeled Dst* depends directly on this parameter (Vz or £,,), however, and it therefore decreases slightly faster for the horizontal/southward IMF case.
+As discussed for CMEdriven storms in the previous section, a possible misrepresentation of the magnetopause current system correction may be indicated in Figure 3d as the slight difference between the modeled and observed Ds?* in the immediate prestorm hours.
+[25] In terms of the general trends, for CIR-driven storms the model Dst* again globally underestimates the decrease in measured Dst* when the IMF has been northward in the 6 hours preceding storm onset.
+Compared to the model predictions, storms with preceding northward IMF intervals are stronger than those without (Figure 3d).
+The difference between the model and observations is even more significant than for the case of CME-driven storms when compared to the statistical error bars.
+The average underestimation is more than 10 nT for the northward IMF case a few hours after storm onset.
+It corresponds to ~20% of the average Dst* at this time.
+This separate study of CIR-driven storms thus confirms the global underestimation of the Dst* magnitude 6 of 10 A09208 All events and LANL data t ; : LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING (a) Ni (/cc) S oO VAN ~ 8000 2 ahi SERRE Leer iE o l ~~ | — Northward IMF 6000 ' __ Southward and 5000 | horizontal IMF | .
+_ ———— All events observation = ae All events model Z S a — Northward IMF = Southward and %, horizontal IMF 3S x) Southward and horizontal IMF oN All events (e) dst*(obs) — dst*(mod) (f) Kp Epoch time (hours) Figure 4.
+Superposed epoch time series of magnetospheric indices and geosynchronous data from the Los Alamos plasma instruments for the combined CME- and CIR-driven storms.
+The Los Alamos geosynchronous superposed time series are derived from the nightside measurements, as explained in the text.
+These data only come from the 84 (out of 98) events which occurred during the 19:94 - 20:03 period when the spacecraft were operative.
+The total set of 98 storms (60 CME and 38 CIR) is used for the indices (Dst*, Dst* model and Kp) superposed time series.
+The results are separately shown for events preceded by southward/ horizontal (black) and northward (red) IMF (see text for definitions), apart from Figure 4c that shows the Ds?* traces for all events.
+(a) Geosynchronous densities, (b) geosynchronous temperatures, (c) measured (solid lines) and modeled (dashed lines) Dst* for all events, (d) measured (solid lines) and modeled (dashed lines) Dst* for southward/ horizontal (black) and northward (red) IMF events, and (ec) Kp index values.
+The onset time used for epoch superposition 1s shown by the dashed vertical line.
+See text for further details.
+Error bars show the mean absolute deviation of the mean.
+A09208 by the model when the IMF has been northward for a substantial interval before storm onset.
+[26] We performed similar analyses using different criteria for the selection of northward IMF cases.
+The superposed epoch results for both CMEs and CIRs show a consistently larger Dst* magnitude than the model when one requires at least 3 and 4 hours of preceding northward IMF.
+Other analyses based on the IMF direction over the 12 hours preceding storm onset also confirmed this trend.
+This trend holds true when other sensible criteria are used for the definition of northward and horizontal/southward IMF cases.
+[27] This underestimation of storm strength by the model may be attributed to additional physical processes not taken into account in the model formulation.
+We propose that such an additional coupling mechanism may be the occurrence of a preconditioning of the magnetosphere under northward IMF through the formation of a cold, dense plasma sheet in the midtail of the magnetosphere.
+To test this hypothesis, we study Los Alamos geosynchronous data for both sets of events in the next section.
+Geosynchronous spacecraft have previously been shown to constitute good monitors of plasma sheet access to the inner magnetosphere [Korth et al., 1999; Thomsen et al., 2003; Denton et al., 2005; Lavraud et al., 2005b].
+3.4.
+Geosynchronous Data and Combined Results [28] Figure 4 shows superposed epoch results for the combined set of CME- and CIR-driven storms, zoomed on the early storm main phase.
+The black and red curves (apart from Figure 4c) correspond to data from the set of events defined as horizontal/southward and northward IMF cases, respectively (Tables 1 and 2).
+Figures 4a and 4b show the 1on density and temperature measured onboard Los Alamos geosynchronous spacecraft, sorted by preceding southward/ horizontal (black) and northward (red) IMF.
+All available measurements during the time intervals of interest in the nightside region (18:00 - 06:00 LT) of geosynchronous orbit are used; the trends are similar when only considering measurements closer to midnight, but the statistics decrease.
+Figure 4c shows the superposed epoch averages of the measured (solid lines) and modeled (dashed lines) Dst* for all storms, without sorting by preceding IMF.
+Figure 4d shows the superposed epoch averages of the measured (solid lines) and modeled (dashed lines) Dst*, sorted by preceding southward/horizontal (black) and northward (red) IMF.
+Figure 4e shows the superposed epoch averages of the difference between the measured and modeled Dst*, sorted by preceding southward/horizontal (black) and northward (red) IMF, together with that for all events, 1.e., without sorting by preceding IMF (dotted black line).
+Figure 4f shows the superposed epoch averages for the Kp index, sorted by preceding southward/horizontal (black) and northward (red) IMF.
+Apart from 14 CIRs that occurred in the 1970s (Table 2), there are typically several geosynchronous spacecraft operative and contributing to the averages of Figures 4a and 4b.
+Figures 4c—4f show the results for all CMEs and CIRs, but those trends hold if the 14 CIRs from the 1970s are taken out of the averages.
+[29] The global trends in the measured and modeled Dst* for the combined set of events follow those from the separate sets discussed earlier.
+Figure 4 shows that the model slightly underestimates storm strength when all events are taken into 7 of 10 A09208 account (Figure 4c) and that in the cases preceded by southward/horizontal IMF the model better reproduces the measured Dst* (Figure 4d).
+By contrast, the model underestimates even more the strength of storms preceded by northward IMF, which is made clear in Figure 4e were the difference between measured and modeled Dst* are shown.
+The reason why the model underestimates the strength of storms when all events are taken into account is unclear.
+It may come from the fact that the model of O’Brien and McPherron |{2000] was not constructed based on the present set of storms.
+In a relative sense, however, it is clear that the model Dst* globally tends to underestimate the ring current strength during the main phase of storms that have been preceded by a substantial interval of northward IMF.
+Note that we have performed this analysis using start times, for integration of the Burton formula, closer to the storm onset time (1.e., less than 12 hours), and the results confirmed the relative underestimation (by similar amounts) of the storm strength for events preceded by northward IMF.
+The underestimation attains ~5—10 nT which is ~10—20% of the Dst* value at that time.
+For isolated cases with strong and sustained northward IMF preceding the storm, such as for the north-south polarity magnetic cloud of 25 June 1998 in Figure 1, the underestimation may even be greater (e.g., 30%).
+Although the trend observed in the present study appears systematic (observed for different sets of events), the error bars associated with them are of the order of the difference itself.
+Therefore additional studies will be required to further confirm and constrain this tendency when larger CME and CIR sets are available.
+[30] Los Alamos data in Figures 4a and 4b show a clear tendency for the plasma sheet accessing geosynchronous orbit in the midnight sector around storm onset to have a much larger density and a slightly lower temperature in the case of storms preceded by intervals of northward IMF than in the case of storms preceded by horizontal/southward IMF.
+This ensemble of results 1s compatible with the hypothesis that a preceding northward IMF interval leads to the formation of a cold, dense plasma sheet (CDPS), which in turn is pushed inward by the increased convection at storm onset.
+This larger plasma sheet density seems to lead to a larger ring current than a more tenuous plasma sheet for similar solar wind driving conditions (within error uncertainties), as was suggested in the study by Thomsen et al.
+[1998] and several simulation studies [Jordanova et al., 1998; Kozyra et al., 1998].
+The colder nature of the plasma sheet also has a potential geoeffective role, as colder plasma can be convected further inward than hot plasma that curvature and gradient drifts more readily out of the ring current region [Ebihara and Ejiri, 2000].
+3.5.
+Discussion [31] In this section, we discuss the results and associated potential limiting factors in relation with the preconditioning mechanism presented in this paper.
+These pertain to (1) limitations due to statistical aspects and data availability, (2) the effects from the magnetopause current system and solar wind dynamic pressure, (3) the contribution of ionospheric plasma to the ring current, (4) the removal/expulsion of part of the plasma sheet from the magnetotail at storm onset, and (5) the mass loading of dayside reconnection (and LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING A09208 convection) owing to the formation of a plasmasphere under northward IMF.
+[32] The survey of the individual events constituting the data set used in this study revealed that a majority of CMEs and CIRs are preceded by relatively variable conditions, including that in magnetic field direction.
+To address the topic of this paper, we have used the criteria which we thought most sensible (see section 3.2).
+However, the effects of variable IMF direction, in particular, on the formation of the cold, dense plasma sheet could not be assessed thoroughly.
+In the future, this mechanism ought to be studied by use of more extended data sets, out of which significant lists of events with preceding steady conditions may be identified; 1.e., in order to fully isolate the effect sought in the present paper.
+[33] An interesting result regarding the Burton formulation is seen in all figures plotting the modeled and observed pressure-corrected Dst*.
+It appears that prior to the storm, the pressure correction is not sufficient to account for the measured Dst*, and thus the measured values in all cases lie above the modeled ones.
+This discrepancy is quickly recovered as the activity increases at storm onset.
+As one interpretation, it is noted that Siscoe et al.
+[2005] recently discussed the dependence of the pressure correction on the driving electric field.
+They concluded that the correction is largest for lowest levels of the driving electric field and goes to almost zero as the driving electric field reaches values close to 10 mV/m.
+If such a VBz dependence was adopted, this would tend to reduce the pressure correction after the storm onset.
+However, as the changes to the model and observations would be similar in both preconditioning cases, it appears that our conclusions would remain unchanged.
+Also, concerning the Burton formulation, we wish to point out that the parameterization performed by O’Brien and McPherron [2000] was made statistically using data from both quiet and active times.
+[34] Large ring current development is associated with large-scale magnetospheric and ionospheric disturbances.
+During such active times, the ionosphere supplies the plasma sheet with large amounts of material, out of which O" ions have been shown to contribute most [e.g., Young et al., 1982; Lennartsson, 1995; Nosé et al., 2003].
+Therefore, although the solar wind is known to be an important source of plasma for the plasma sheet (and in turn the ring current), the contribution of O" ions to the plasma sheet density and to the ring current strength has been shown to be important (and sometimes dominant) [Hamilton et al., 1988; Daglis et al., 1993; Daglis, 1997].
+Therefore a potential masking factor to the preconditioning mechanism discussed here comes from the fact that the solar wind (implying the cold, dense plasma sheet) is not the sole source of material for the ring current.
+However, the timings of the two effects are different: while the preconditioning takes place during the hours prior to the onset, and hence affects the storm early main phase, the increase in the ionospheric outflow and especially oxygen outflow is enhanced only as the level of activity increases toward the peak of the main phase.
+Thus, even assuming that Dst carries a signature from the ionospheric outflows, the conclusions about the preconditioning effect discussed here remain unchanged.
+[35] The onset of enhanced convection that transports the plasma sheet toward geosynchronous orbit and the ring 8 of 10 A09208 current also leads to magnetic reconnection in the midtail, which would result in the (tailward) expulsion of the plasma sheet located tailward of the reconnection line.
+Thus, even when preconditioning by northward IMF occurs, only a limited portion of the tail CDPS 1s transported to the inner magnetosphere.
+In other words, the denser plasma of the CDPS may constitute a source for the ring current only in the early stage of the main phase, after which it may be replaced by fresh plasma that has different characteristics.
+Substorms or other processes associated with midtail reconnection would thus cut the supply of cold and dense plasma (CDPS) to the inner magnetosphere and therefore limit the effects of this preconditioning mechanism.
+From Figure 4a denser plasma sheet is detected at geosynchronous orbit for 2—4 hours following storm onset in the northward IMF case.
+This constitutes a lower timescale limit to the influence of the CDPS on the ring current, which is located deeper inside geosynchronous orbit.
+Exact timescales for this process will be determined in future work from comparisons with ring current models.
+[36] Finally, recent works have suggested [Borovsky and Steinberg, 2006; Borovsky and Denton, 2006] that the formation of a dense plasmasphere during northward IMF may in turn lower the dayside reconnection rate (e.g., as indicated by the Polar Cap Index), by decreasing the Alfvén speed near the reconnection site, after an increase in convection has led to the formation of a plasmaspheric plume on the dayside.
+This scenario also constitutes a preconditioning of the magnetosphere under northward IMF (quiet conditions are also conducive to the formation of a plasmasphere).
+If one presumes that dayside reconnection influences global convection, and indirectly the strength of storms, this mechanism would be counteracting the preconditioning mechanism due to the formation of a cold, dense plasma sheet (CDPS).
+However, in the context of the present study, the fact that the Kp values for northward and southward/horizontal IMF cases in Figure 4f closely follow each other suggests that the present results (for our set of events) are independent of this other mechanism.
+4.
+Conclusion [37] We have studied the possible preconditioning effect of the IMF history on the geoeffectiveness of both CMEs (60 events) and CIRs (38 events).
+We have analyzed the magnetospheric response to those two types of solar wind structures (1) in terms of both measured and modeled Dst* index and (2) in terms of the associated geosynchronous observations of the density and temperature of the plasma sheet accessing the inner magnetosphere at storm onset.
+We first focused on the difference between measured and modeled [Wang et al., 2003] Dst* signatures during those events.
+We have shown that, for both cases separately as well as combined, the model Dst* tends to underestimate the actual storm strength for events that are preceded by northward IMF intervals.
+Although the differences observed are of the order of the error bars, this trend was confirmed separately for the two sets of storms, 1.e., CME- and CIR-driven storms.
+The average underestimation is of the order of S—10 nT, which corresponds to 10—20% of the average Dst* value for these events.
+This result suggests that, for similar solar wind electric field and dynamic pressure profiles, CME or CIR LAVRAUD ET AL.: MAGNETOSPHERE PRECONDITIONING A09208 structures that are preceded by strongly northward IMF are more geoeffective than those preceded by horizontal/southward IMF.
+An example 1s the storm driven by the north-south polarity magnetic cloud on 25 June 1998, which shows an underestimation of ~30% in the magnitude of Dst*.
+[38] We further analyzed the available Los Alamos geosynchronous data for the events under consideration and demonstrated that the plasma sheet density and temperature in the midnight sector around storm onset are significantly larger and slightly lower, respectively, for the events preceded by northward IMF intervals.
+This fact shows the presence of a colder and denser plasma sheet before storm onset in the midtail region and formed under the prevailing northward IMF conditions.
+This cold, dense plasma sheet apparently is conducive of an increased ring current owing to potentially both its larger density and colder nature.
+The formation ofa cold, dense plasma sheet under northward IMF thus seems to precondition the magnetosphere by leading to the creation of a stronger ring current during the early main phase of the ensuing storm.
+[39] These results highlight the necessity for further studies of this, as well as other, potential preconditioning processes.
+Future models need to better represent the effects of such preconditioning mechanisms through the addition of appropriate formulations in the Dst models.
+The current number of CME and CIR events of substantial strength and with good solar wind data coverage (and steady preceding conditions) may not be extensive enough to perform such a task.
+However, the fact that north-south polarity magnetic clouds are expected to become prevalent during solar cycle 24 starting in 2007 [Mulligan et al., 1998; Li and Luhmann, 2004] may enable us (1) to further confirm, (2) to better quantify this mechanism, and (3) to potentially implement it in more elaborate schemes [e.g., Zemerin and Li, 2002] of Dst prediction.
+[40] Acknowledgments.
+The OMNI-2 data were obtained from the GSFC/SPDF OMNIWeb interface at http://omniweb.gsfc.nasa.gov.
+Work at Los Alamos was conducted under the auspices of the U.S.
+Department of Energy, with support from NASA.
+T.P.
+thanks the IGPP at LANL for support during her visit.
+41] Zuyin Pu thanks Ian G.
+Richardson for the assistance in reviewing this paper.
+.

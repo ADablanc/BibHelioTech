@@ -1,0 +1,286 @@
+  © 2019.
+The American Astronomical Society.
+All rights reserved.
+https: / /doi.org/10.3847 / 15:38 - 43:57 /ab14el CrossMark Observations of the Venus Dramatic Response to an Extremely Strong Interplanetary Coronal Mass Ejection Qi Xu'®, Xiaojun Xu' ®, Qing Chang’ ®, Zhaojin Rong~” ®, Jing Wang' ©, Jiaying Xu' ©, and Tielong Zhang*” ® ' State Key Labaratery of Lunar and Planetary Sciences, Macau University of Science and Technology, Macao, People’s Republic of China; xjxu@must.edu.mo Key Laboratory of Earth and Planetary Physics, Institute of Geology and Geophysics, Chinese Academy of Sciences, Beijing, People’s Republic of China College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, Beijing, People’s Republic of China Harbin Institute of Technology, Shenzhen, People’s Republic of China Space Research Institute, Austrian Academy of Sciences, Graz, Austria Received  21 February 2019 ; revised  28 March 2019 ; accepted  28 March 2019 ; published  7 May 2019  Abstract On  5 November 2011 , Venus Express observed the impact of an extremely strong interplanetary coronal mass ejection (ICME) on Venus.
+As a result, the Venusian induced magnetosphere dramatically fluctuated during the ICME passage: the bow shock was compressed and broadened by the sheath and the body of the ICME, respectively; an atypically strong magnetic barrier (over 250 nT) of Venus was detected; and the plasma sheet in the magnetotail flapped so rapidly that it was crossed by Venus Express 5 times within 1.5 minutes.
+The ionosphere was totally magnetized because of the very high magnetic pressure of the induced magnetosphere.
+However, the altitude of the ionopause did not decrease with respect to those in neighboring orbits, which is inconsistent with the 1onopause descents reported by previous studies.
+We found that the ionosphere was greatly excited by the ICME as evidenced by the much higher heavy ion density.
+That is why the balance between the ionospheric thermal pressure and the strong magnetic pressure can be maintained at a relatively high altitude.
+We propose that a much stronger massloading effect resulting from the excited ionosphere is responsible for the anomalously high magnetic barrier because much more magnetic field lines were anchored.
+Our results also suggest that such ICMEs that can excite the ionosphere are substantially efficient in enhancing the atmospheric loss of Venus.
+Key words: planets and satellites: atmospheres — planets and satellites: individual (Venus) — planets and satellites: magnetic fields — solar wind 1.
+Introduction Without a global intrinsic magnetosphere, the Venus interacts with the solar wind directly on the upper ionosphere.
+As the solar wind approaches Venus, planetary ions (O* predominates here Nagy et al.
+1980) are picked up by the solar wind convectional electric field.
+Due to the massloading effect, the solar wind together with the frozen magnetic field slows down near Venus, leading to the draping of interplanetary magnetic field (IMF) lines (McComas et al.
+1986; Rong et al.
+2014).
+This massloading process, which transfers momentum and energy from solar wind to local plasma (Bertucci et al.
+2011; Lundin 2011), produces an induced magnetosphere where solar wind and ionospheric particles coexist behind the bow shock.
+The Venusian induced magnetosphere consists of a magnetic barrier close to Venus on the dayside and a magnetotail with a plasma sheet between the opposite-directed magnetic field lines on the nightside (Gringauz 1981).
+The dominated magnetic pressure of the induced magnetosphere balances the solar wind dynamic pressure (Zhang et al.
+1991) at the induced magnetosphere boundary (IMB), or magnetopause, and is balanced by the thermal pressure of the ionospheric plasma at the ionopause (Luhmann 1986).
+In addition to the solar activity (e.g., Knudsen 1988; Russell et al.
+2006; Chang et al.
+2018), the solar wind conditions also highly affect the Venusian induced magnetosphere.
+The solar wind magnetosonic Mach number, rather than the dynamic pressure (Zhang et al.
+2004; Chai et al.
+2014), is suggested to linearly control the location of the bow shock (Russell et al.
+1988; Zhang et al.
+2008b; Vech et al.
+2015).
+The magnetic barrier is controlled by not only the IMF magnitude (Xiao & Zhang 2018) but also the IMF cone angle, the angle between the solar wind velocity and the IMF (Zhang et al.
+1990; Vech et al.
+2015).
+In the condition of almost flow-aligned IMF, the magnetic barrier can sometimes even disappear (Zhang et al.
+2009; Rong et al.
+2016).
+The magnetization of the ionosphere is usually dependent on solar activities.
+During solar minimum when solar EUV radiations are relatively low, the thermal pressure of the ionospheric plasma is weak and the IMF can reach altitudes low enough to diffuse and magnetize the whole ionosphere.
+While during solar maximum when solar EUV radiations are relatively high, the ionospheric thermal pressure is strong enough to prevent the entry of IMF.
+However, high solar wind dynamic pressure can still make the 1onopause descend (Elphic et al.
+1980; Russell & Vaisberg 1983; Phillips et al.
+1985; Angsmann et al.
+2011) or even magnetize the ionosphere (Luhmann et al.
+1981) at solar maximum.
+ICMEs are the interplanetary manifestations of coronal mass ejections.
+Magnetic clouds, which are a well-structured subset of ICMEs, are characterized by strong magnetic field, large smooth rotation of magnetic field direction, relatively low (with respect to ambient solar wind) plasma temperature, and low plasma beta (Burlaga et al.
+1981).
+The interactions between ICMEs and Venus have been reported by many previous studies.
+Edberg et al.
+(2011) reported that the escape fluxes of O* increase by a factor of 1.9 during 147 stormy space weather events (including ICMEs) in comparison with that in normal solar wind at solar minimum.
+Collinson et al.
+(2015) found that even a weak ICME with no driving shock can increase ion loss of Venus.
+However, McEnulty et al.
+(2010) suggested that there is no clear dependence of pick-up ion flux on ICMEs during solar minimum.
+Collinson et al.
+(2015) observed compressions of the bow shock, magnetopause and ionopause   during the passage of ICME.
+But Vech et al.
+(2015) reported that most ICMEs leading to high magnetic barriers (>65 nT) cannot affect the position of the bow shock, the upper and lower boundaries of the magnetic barrier as well as the ion composition boundary.
+Since the magnetic barrier was over 250 nT when interacting with the ICME on  5 November 2011 , several studies have paid attention to this event.
+Vech et al.
+(2015) suggested that the anomalously strong magnetic barrier is a result of the very intense magnetic field suddenly piling up in front of the obstacle.
+While recently, Dimmock et al.
+(2018) proposed that the prolonged external pressure driving and magnetic flux pileup seems to play a dominant role in forming such a strong magnetic barrier.
+They further numerically studied this case by hybrid simulation and found that the ion escape rate increased by ~30%.
+In this study, by using observations from Venus Express (hereafter, VEX), we investigate comprehensively the responses of the induced magnetosphere and the ionosphere to this extremely strong ICME.
+2.
+Data and Instrument VEX is an orbiter mission developed by the European Space Agency (ESA) in 2005 October.
+VEX aims at performing a global investigation of the Venusian space environment.
+The spacecraft carried out observations of Venus from an elliptic polar orbit with a period of 24 hr (Svedhem et al.
+2007).
+Such orbits cover the regions where the Pioneer Venus Orbiter (PVO) could not reach, including low altitude regions of the terminator and the near-Venus magnetotail within 3 Venusian Radu (Ry).
+The Analyzer of Space Plasmas and Energetic Atoms (ASPERA-4; Barabash et al.
+2007b) contains the ion mass analyzer (IMA) instrument, which measures ions in the energy range of 0.01-30 keV/q with 96 energy channels, and the electron spectrometer (ELS), which measures electron fluxes in the energy range of 0.01-20 keV/g with 128 energy channels.
+It takes IMA 12s for one energy sweep and 192s to complete a full 3D scan.
+Limited by sampling frequency, the time resolution of plasma parameters, such as the bulk velocity and the plasma density, is 192s.
+The magnetometer (MAG) instrument (Zhang et al.
+2006) measures magnetic field around Venus in three operation modes with different sampling frequencies.
+The standard mode of 1 Hz resolution works in the solar wind, while the 32 Hz periapsis mode and the 128 Hz burst mode are implemented within 2 hours and 2 minutes near the periapsis, respectively.
+Here, we used a | s magnetic field as well as IMA and ELS data.
+3.
+Observations 3.1.
+Overview of the ICME on  5 November 2011  For lacking high-quality plasma data, Good & Forsyth (2016) proposed the following criteria: enhanced magnetic fields with respect to ambient solar wind and a large-scale smooth rotation of magnetic field direction lasting for at least 4 hr, to identify ICMEs near Venus.
+The ICME on  5 November 2011  is a well-structured case identified by Good & Forsyth (2016).
+Figure 1 shows the overview of this event in the Venus-Solar-orbital (VSO) coordinate system, where +X points from Venus to the Sun along the Venus—Sun line, +Y points opposite the planet’s direction of motion, Z completes the right-handed set and the origin is the geometrical center of Venus.
+The enhanced magnetic field strength shown in Xu et al.
+outbound BS shock inbound BS trailing boundary N N an) [B| (nT) ~ a i) N i) la io” By (nT) N = — 1 N N Co Oo oo QO wy Nn rn) oS By (nT) A tn o 6 B_ (nT) Dn S Nn -) Z -50 i — 03:00 06:00 09:00 12:00 15:00 18:00 The day of 5-Nov-2011 (UT) Figure 1.
+Magnetic field measurements of the strong ICME event on  5 November 2011 .
+(a) The magnetic field strength.
+(b)-(d) The three components of the magnetic vector in the VSO system.
+(e), (f) The latitudinal and azimuthal angles of the magnetic field in VSO coordinates, respectively.
+The vertical dashed lines denote the leading shock encounter (03:41), inbound bow shock (07:00), the outbound bow shock (11:03), and the trailing edge of the ICME (15:49), respectively.
+The interface of ICME sheath and magnetic cloud body (~07:00—-09:00) is in the induced magnetosphere.
+Figure l(a) and the smooth rotation of the field direction shown in I(e) clearly show that the ICME is a magnetic cloud.
+The two red vertical dashed lines mark the arrival of the leading shock and the trailing boundary of the ICME.
+The two blue vertical dashed lines indicate the inbound bow shock on the dayside and outbound bow shock with unsteady fluctuations on the nightside.
+The leading edge of the magnetic cloud body is hard to identify because VEX was already in the induced magnetosphere.
+The observed magnetic field strength of the magnetic cloud body (between the outbound bow shock and the trailing boundary of the ICME) is over 50 nT, which is rarely discovered near Venus.
+3.2.
+Morphology of Induced Magnetosphere Figure 2 shows the comparisons of the induced magnetosphere in quiet solar wind and under the impact of the ICME.
+The magnetosphere of  5 November 2011  is shown in the right column and the data measured one orbit earlier on  4 November 2011  is presented in the left column as a case in normal solar wind.
+The inbound /outbound bow shock crossing can be recognized by the sharp increase/decrease of magnetic field strength in 2(a), (b).
+The compression ratio of bow shock, estimated by the ratio of the downstream magnetic field strength over the upstream field strength, during the passing of ICME is up to 3.6, which is much greater than that (~3.0) in the quiet solar wind on November 4.
+The outbound bow shock crossing happens several times, which is indicative of dynamic motions of bow shock.
+The magnetic field shows triple strength upstream of the inbound bow shock on November 5 compared with that the day before, while the peak strength of magnetic   Xu et al.
+07:00 08:00 09:00 10:00 11:00 12:00 The day of 04-Nov-2011 (UT) X30 Ry) 07:00 08:00 09:00 10:00 11:00 12:00 The day of 05-Nov-2011 (UT) MB Tonopause xX (R VSO y? Figure 2.
+Selected observations of the induced magnetosphere during the ICME passage compared with those in quiet solar wind one orbit earlier.
+(a), (b) The magnetic field strength.
+(c), (d) Three magnetic field vectors in VSO.
+(e), (f) Electron energy spectra, both panels share the same color scale.
+Since the resolution of IMA measurements is too low (192 s), the ion flux is not presented here.
+The vertical dashed lines mark the positions of the inbound bow shock (BS), IMB /ionopause (IP) plasma sheet (PS) and the outbound bow shock (BS).
+The IMB and ionopause are almost overlapped.
+Photoelectrons appear after the IMB/IP line.
+(g) The trajectory of VEX around Venus in cylindrical coordinates.
+(h) Zoom-in view of the dashed box in Panel (g).
+The bow shock model (Shan et al.
+2015) as well as the IMB and ionopause models (Zhang et al.
+1991) at solar maximum are presented.
+The big black and yellow dots denote the positions in panels (a), (b) marked by the vertical dashed lines.
+barrier is over 5 times.
+The magnetic field of the entire induced magnetosphere in ICME is much stronger.
+From Figures 2(a), (b), it can be easily seen that the ionosphere was completely magnetized on November 5 by the ICME.
+Figures 2(c), (d) show the three components of the magnetic field in VSO coordinates.
+The reversal of the B, component in red indicates the plasma sheet.
+The electron spectra are plotted in Figures 2(e), (f).
+We identify the IMB to be the position where the solar wind electron fluxes with energies over 50 eV show jump variation (Angsmann et al.
+2011; Dubinin et al.
+2014).
+Characterized by the appearance of photoelectrons (Coates et al.
+2008) and the sharp drop of magnetic field strength (Russell & Vaisberg 1983), the ionopause is almost overlapped at the IMB.
+The electron flux in the plasma sheet is much greater on November 5, indicating potentially more planetary ion escape.
+In fact, the ion flux with 192s resolution also shows great enhancements on November 5 in comparison with that on November 4.
+However, because the plasma keeps quasi-neutral, which means higher electron fluxes exactly represent higher ion fluxes, we did not plot the ion flux due to the very low resolution.
+Figure 2(g) presents the trajectory of VEX (almost the same for both orbits) in the cylindrical coordinates, where the X axis points from Venus to the Sun and the Y axis is the distance from X axis calculated by R=\Y* + Z? in VSO.
+Figure 2(f) shows the zoom-in view of the dashed box in Figure 2(g).
+Here we display the average locations of the bow shock (Shan et al.
+2015), the IMB and the ionopause (Zhang et al.
+1991) at solar maximum as references.
+The big black and yellow dots denote the positions marked in Figures 2(a), (b) by the vertical dashed lines.
+In comparison with the morphology of the induced magnetosphere on November 4, the inbound bow shock on November 5 was significantly compressed and the outbound bow shock expanded visibly.
+It should be noted that the bow shock location does not move a lot based on a statistical result at solar minimum (Martinecz et al.
+2009).
+Vech et al.
+(2015) attributed such variations to the high magnetosonic Mach number (3.87) of the ICME sheath (the region of shocked solar wind) and the small magnetosonic Mach number (1.21) of the magnetic cloud body.
+The anticorrelation between bow shock location and magnetosonic Mach number is also evident on Mars (Ma et al.
+2017).
+Furthermore, the thickness of the magnetic barrier does not change during the passage of ICME   (a) 100 07:48 07:49 07:50 07:51 07:52 07:53 07:54 07:55 07:56 The day of 05-Nov-2011 (UT) Figure 3.
+Rapid flapping motions of the plasma sheet in the magnetotail.
+(a) The magnetic field strength.
+(b) Magnetic field vectors in VSO system.
+(c) The latitudinal angle of magnetic field.
+(d) The azimuthal angle of magnetic field.
+(f) Electron energy spectra.
+because neither its upper boundary (IMB) nor the lower boundary (ionopause) shifts.
+But the peak magnetic magnitude of the magnetic barrier was anomalously high with respect to that in the quiet solar wind.
+Some other reasons are required to account for the atypically strong magnetic barrier.
+3.3.
+Rapid Flapping Motions of the Plasma Sheet Due to the draping of IMF, an induced magnetotail similar to Earth’s magnetotail can be produced on the nightside of Venus (McComas et al.
+1986; Rong et al.
+2014).
+As a result, a plasma sheet exists in the region separating the oppositely directed magnetic field.
+Figure 3 shows the VEX observations near the plasma sheet where the B, component in red (Figure 3(b)) reverses in direction.
+The magnetic magnitude drops to nearly 0 shown in Figure 3(a) and energetic electrons with energies over 100eV shown in Figure 3(e) are also the characteristics of plasma sheet (Barabash et al.
+2007a; Rong et al.
+2015).
+Note that the ambient magnetic field is up to 60 nT in magnitude which is much greater than that in quiet solar wind.
+It requires much higher thermal pressure to maintain the magnetic pressure difference from the ambient ~60 nT field to almost no field within the plasma sheet.
+Therefore, it needs a greater density of the planetary ions as well as electrons in the plasma sheet to provide enough thermal pressure.
+That is what we see in Figure 2(e).
+And it thus indicates that the ion escape rate would be significantly enhanced since the plasma sheet is the main loss channel as suggested by Barabash et al.
+(2007a).
+From Figure 3(b), the B, component of magnetic field changed directions five times within only 1.5 minutes (07:49:30 — 07:51:00), which shows very rapid flapping motions of the plasma sheet.
+Besides, at 07:53, a dip of spacecraft to the plasma sheet or a possible sausage-like flapping was observed (Rong et al.
+2015).
+For each current sheet crossing, we applied the method of Minimum Variance Analysis of magnetic field (MVAB; Sonnerup & Cahill 1967) to investigate the variations of the current sheet normal.
+The results and the quality of the Xu et al.
+Table 1 MVAB of the Current Sheet Crossings on  5 November 2011  by VEX No.
+Interval Normal in VSO r2/A3_ |B, | |B, /BI 1 07:49:25 - 07:49:45 = [0.25, 0.73, —0.63] 12.5 3.15 0.17 2 07:49:54—-07:50:06 [—0.14, —0.80, 0.58] 1.7 1.70 0.09 3 07:50:20 - 07:50:31  [0.01, 0.03, 1.00] 3.1 3.84 0.18 4 07:50:32 — 07:50:39 = [0.07, 0.66, —0.75] 50.9 4.37 0.31 5 07:50:40 — 07:50:52 [—0.01, —0.07, 0.99] 3.8 5.42 0.26 6 07:53:07 - 07:54:12 [—0.09, 0.67, —0.74] 4.2 8.29 0.26 MVAB method, indicated by the ratio of the intermediate eigenvalue over the minimal eigenvalue, are shown in Table 1.
+The average normal component of magnetic field (B,,) at each crossing time of the plasma sheet is also displayed.
+We can see that the normal of the plasma sheet changed a little after No.
+1 flapping while it changed greatly after almost every flapping, showing probable kink-like flapping features (Rong et al.
+2015).
+The sources of flapping motions are previously proposed to be magnetic reconnection (Dubinin et al.
+2012) or perturbations of magnetosheath flow (Rong et al.
+2015).
+In this case, both sources can be identified.
+First, the entire induced magnetosphere is violently disturbed, which can also be seen from the outbound bow shock flapping that it was crossed by VEX 8 times as pointed out by Vech et al.
+(2015).
+Second, the significant nonzero B, components (especially for No.
+3-5 crossings) together with their relatively high percentages of the total field strengths strongly indicate that magnetic reconnection occurred.
+The reason is that significantly non-zero B,, components indicate that the magnetic field lines at both sides of the plasma sheet are connected with each other.
+Relatively large B, components result from either continuous slipping of the draping (bended) IMF or magnetic reconnection.
+However, it should be expected that all five crossings should have observed significantly nonzero B,, if such B,, components are caused by the continuous slipping of the draping IMF lines.
+Note that the calculated |B,,| and |B, /B| of the plasma sheet in quiet solar wind on November 4 are 0.17 nT and 0.02, respectively.
+This small |B,,| suggests that the draping IMF lines cannot usually slip into such a depth of the nightside.
+Since there is no high-resolution plasma data by VEX, we cannot provide signals of reconnection jet and plasma heating to further evidence the existence of magnetic reconnection.
+Note that the plasmoid characterized by bipolar B,, components is a strong indicator for magnetic reconnection.
+Unfortunately, we found no solid evidence for the existence of plasmoid.
+Nevertheless, magnetic reconnection can connect the magnetic fields at both sides of the plasma sheet and is thus suggested to account for the presence of significantly nonzero B,, components.
+As suggested by Zhang et al.
+(2012), magnetic reconnection in Venusian magnetotail could increase the atmospheric loss.
+3.4.
+The Response of Ionosphere As we pointed out above, the ionosphere during the passage of ICME was completely magnetized while it was not on  4 November 2011 .
+To investigate the magnetization and ionopause in detail, we displayed in Figure 4 the dependency of the magnetic field strength on altitude near periapsis in quiet solar wind on November 4, in the very strong ICME on November 5 and in a relatively weak ICME on November 6 that is also   Xu et al.
+Heavy ions Density (cm sa 300 350 900 700 1onopause 500 Altitude (km) eS) i) i) 100 0 20 40 60 100 400 600 800 1000 1200 } 1onopause 1onopause 200 300 (0 20 40 60 |B] (nT) Figure 4.
+Left to right: the magnetic field strength near the periapsis prior to, during, and after the passage of the ICME on November 4, November 5, and November 6, respectively.
+The IMA measurements of heavy ion density are overplotted (red dots).
+The heavy ion density on November 6 is not available.
+listed in Good & Forsyth (2016).
+The ionopauses determined in Figure 2 by the sharp drop of magnetic field strength and appearance of photoelectrons are marked here.
+The altitude of 1onopause during the weak ICME (Figure 4(c)) is significantly lower than that in quiet solar wind (Figure 4(a)) for stronger dynamic pressure, although the ionosphere was not magnetized.
+This result is consistent with previous studies that show an anticorrelated relationship between the magnetic field strength and the ionopause altitude (Elphic et al.
+1980; Russell & Vaisberg 1983; Phillips et al.
+1985; Angsmann et al.
+2011).
+The ionospheric thermal pressure balances the magnetic pressure difference at the ionopause.
+To sustain stronger magnetic pressure, it needs higher thermal pressure, and thus higher plasma density in the ionosphere.
+Therefore, the 1onopause would be pushed down to a lower altitude with higher plasma density.
+However, it is important to point out that this process is based on an assumption that the ionization of the ionosphere is not significantly changed.
+Nevertheless, the altitude of the ionopause during the strong ICME (Figure 4(b)) did not decrease at all considering that the magnetic field strength increased a lot.
+The magnetic pressure differences (— VB?/21,) across the ionopause on November 4 and 6 are 0.7, and 1.1 x 10 *dyncm ~, respectively.
+But on November 5, the magnetic pressure difference reaches 2 x 10-’dyncm”* (B| from 250 to 116 nT) or 9.0 x 10° *dyncm ~ even if we use 200 nT as the magnetic strength in the ionosphere.
+To balance such atypically higher magnetic pressure, the plasma density of the ionosphere must be correspondingly much greater.
+The heavy ion densities measured by the IMA instrument are also shown in Figure 4.
+Although the resolution of IMA data is low, we can still easily see that the ionospheric plasma density was over 1000cm ~~ during the strong ICME with respect to that less than 400 cm” during quiet solar wind.
+The much higher ionospheric plasma shows that the ionosphere had been greatly excited and perhaps entirely expanded under the impact of the strong ICME.
+The strengthened ionosphere during the passage of ICME has been evidenced by the fact that the magnetized ionosphere can be demagnetized by some ICMEs during solar minimum (Zhang et al.
+2008a).
+Due to the limitation of measurements, we have no ideas about the reason why the ionosphere was greatly enhanced by the ICME.
+However, previous study of the Venus and Mars ionosphere has determined that the solar energetic particles (SEPs) could cause extra ionization of the neutral particles in exosphere through impact ionization and chargeexchange reactions (Futaana et al.
+2008).
+Simulations also show that the SEPs can effectively increase the ionization rate of the Venusian atmosphere (Plainaki et al.
+2016).
+4.
+Discussions and Conclusions We have presented very detailed observations of the induced magnetosphere and ionosphere during the passage of the extremely strong ICME on  5 November 2011 .
+From our observations, a clear picture is presented that the plasma environment of Venus was strongly disturbed.
+The bow shock was first compressed and then expanded because of the much different magnetosonic Mach numbers from the ICME sheath to the ICME body.
+Other fluctuated signatures include rapid flapping motions of the plasma sheet as well as the outbound bow shock.
+In particular, the normals of the plasma sheet changed significantly during its flapping motion, suggesting that different types of fluctuations as well as magnetic reconnection might occur during the strong ICME event.
+Meanwhile, the ionosphere was so greatly excited that the plasma density became three times larger than that during quiet solar wind.
+If this density difference (over 600 cm °) is greater than the density of the neutral atmospheric particles during quiet solar wind, it can be determined that the ionosphere or atmosphere expanded entirely.
+Unfortunately, VEX cannot provide the density of neutral atmospheric particles.
+We are unable to confirm whether the ionosphere expanded entirely or not.
+The most important feature of the ICME on  5 November 2011  is that it caused the strongest magnetic barrier of Venus observed by VEX.
+Although previous studies (Vech et al.
+2015; Dimmock et al.
+2018) have focused on this issue as pointed out above, they actually did not figure out the physical reason behind the phenomenon.
+However, Vech et al.
+(2015) shed some light by finding that stronger magnetic barriers are closely related to stronger tangential (to the solar wind flow) magnetic field.
+The magnetic barrier is physically a result of the massloading effect (e.g., Zhang et al.
+2009; Xiao & Zhang 2018).
+We believe a stronger magnetic barrier represents a strong massloading effect   and thus more planetary ions are picked up.
+The massloading effect is determined by two factors: solar wind convectional electric field and the escaped ion flux on the dayside from Venus.
+The solar wind convection electric field, Egony = —VYow X Bow = Vw Bian» 18 dependent on the solar wind velocity (V,,,) and the tangential magnetic field B,,,.
+Generally, E.ony plays a critical role in determining the massloading effect since the planetary ion loss rate is usually not significantly changed.
+In this event, the velocity of the ICME measured by VEX is nearly 1000 km s_' (not shown) and the tangential magnetic field is relatively large as pointed out by Vech et al.
+(2015).
+Thus, the E.ony is very strong during the ICME.
+However, a very strong Egony 1s not enough to produce an atypically strong magnetic barrier up to 250 nT.
+The reason is that magnetic field lines would slip away if there are not enough planetary ions anchoring them.
+Therefore, only when both of the FEeony and the planetary ion loss rate on the dayside are high can an anomalously strong magnetic barrier be formed.
+During the passage of the extremely strong ICME, it can be expected that the ion loss rate on the dayside was very high since the ionosphere is greatly excited and the whole plasma system near Venus was so violently fluctuated that more planetary ions can escape in such an unsteady system.
+In fact, the enhancement of heavy ion flux and energy (approximately 10 keV), which have been identified as picked-up ions with tailward outflow velocity, in the plasma sheet on  5 November 2011  (Vech et al.
+2015; Dimmock et al.
+2018) is evidence of a stronger pick-up effect.
+Besides, the IMA measurements also show that the heavy ion density in the magnetosheath (altitude of ~1000 km) is 8.222 cm” during the ICME compared to 0.001 cm in the quiet solar wind two orbit earlier on November 3 (the heavy ion density is missing in the magnetosheath on November 4).
+Our observations of the highly fluctuated plasma environment of Venus and atypically magnetic barrier strongly suggest that the ion loss would be greatly enhanced during the passage of the extremely strong ICME.
+This result can be indicated by at least three reasons.
+First, the anomalously high magnetic barrier is an indicator of a more effective pick-up process, which means much greater 10n loss on the dayside as discussed above.
+Second, the high electron flux in the plasma sheet required to balance the high magnetic pressure in the magnetotail is a strong signal of ion loss enhancement since the plasma sheet is the main channel for ion escape (Barabash et al.
+2007a).
+The very strong magnetic field in the magnetotail can provide strong magnetic tension forces that can accelerate planetary ions to escape, or equivalently it plays like an aspirator to provide a strong pressure gradient force.
+Third, the existence of magnetic reconnection as indicated by rotational discontinuities of the plasma sheet can potentially increase the ion loss as suggested by Zhang et al.
+(2012).
+The enhanced percentage could be possibly much greater than 30% as suggested by Dimmock et al.
+(2018).
+In summary, we report observationally in detail the dramatic responses of the induced magnetosphere and ionosphere of Venus to the extremely strong ICME on  5 November 2011 .
+We propose that some ICMEs can greatly excite the ionosphere of Venus and thus are substantially different from other ICMEs in affecting the ion loss of Venus.
+We acknowledge the Venus Express team for providing the magnetic field data and plasma data.
+The data for this study are available at ESA’s Planetary Science Archive (ftp: //psa.esac.
+esa.int/pub/mirror/VENUS-EXPRESS/) and the AMDA (http: //amda.cdpp.eu/) science analysis system provided by Xu et al.
+the Centre de Données de la Physique des Plasmas (CDPP) supported by CNRS, CNES, Observatoire de Paris and Université Paul Sabatier, Toulouse.
+This work is supported by the Science and Technology Development Fund of Macao SAR (008 /2016/A1) and National Natural Science Foundation of China (NSFC) under grants 415640:07 - 41:731067.
+ORCID iDs Qi Xu © https: //orcid.org /00:00 - 00:03-4662-476X Xiaojun Xu © https: //orcid.org /O000-00:02 - 23:09-0649 Qing Chang ©® https: //orcid.org /O000-00:03 - 48:83-949X Zhaojin Rong ® https: //orcid.org /O000-00:03 - 46:09-45 19 Jing Wang © https: //orcid.org /00:00 - 00:03-047 1-5532 Jiaying Xu ® https: //orcid.org /00:00 - 00:02 - 95:79 - 67:39 Tielong Zhang © https: //orcid.org /O000-00:02 - 09:80-6292 .

@@ -1,0 +1,181 @@
+[
+    {
+        "end": 342,
+        "start": 326,
+        "text": "13 December 2005",
+        "timex-value": "2005-12-13",
+        "type": "DATE",
+        "value": "2005-12-13"
+    },
+    {
+        "end": 363,
+        "start": 352,
+        "text": "18 May 2006",
+        "timex-value": "2006-05-18",
+        "type": "DATE",
+        "value": "2006-05-18"
+    },
+    {
+        "end": 386,
+        "start": 374,
+        "text": "26 June 2006",
+        "timex-value": "2006-06-26",
+        "type": "DATE",
+        "value": "2006-06-26"
+    },
+    {
+        "end": 415,
+        "start": 398,
+        "text": "16 September 2006",
+        "timex-value": "2006-09-16",
+        "type": "DATE",
+        "value": "2006-09-16"
+    },
+    {
+        "end": 3527,
+        "start": 3514,
+        "text": "01:48 - 02:27",
+        "type": "DURATION",
+        "value": {
+            "begin": "T01:48",
+            "end": "T02:27"
+        }
+    },
+    {
+        "end": 12436,
+        "start": 12431,
+        "text": "20:03",
+        "timex-value": "T20:03",
+        "type": "TIME",
+        "value": "T20:03"
+    },
+    {
+        "end": 17258,
+        "start": 17241,
+        "text": "the next 24 hours",
+        "type": "DURATION",
+        "value": {}
+    },
+    {
+        "end": 19326,
+        "start": 19311,
+        "text": "22 January 2000",
+        "timex-value": "2000-01-22",
+        "type": "DATE",
+        "value": "2000-01-22"
+    },
+    {
+        "end": 19522,
+        "start": 19510,
+        "text": "25 June 1998",
+        "timex-value": "1998-06-25",
+        "type": "DATE",
+        "value": "1998-06-25"
+    },
+    {
+        "end": 19654,
+        "start": 19639,
+        "text": "22 January 2000",
+        "timex-value": "2000-01-22",
+        "type": "DATE",
+        "value": "2000-01-22"
+    },
+    {
+        "end": 19864,
+        "start": 19852,
+        "text": "25 June 1998",
+        "timex-value": "1998-06-25",
+        "type": "DATE",
+        "value": "1998-06-25"
+    },
+    {
+        "end": 20262,
+        "start": 20250,
+        "text": "25 June 1998",
+        "timex-value": "1998-06-25",
+        "type": "DATE",
+        "value": "1998-06-25"
+    },
+    {
+        "end": 20291,
+        "start": 20276,
+        "text": "22 January 2000",
+        "timex-value": "2000-01-22",
+        "type": "DATE",
+        "value": "2000-01-22"
+    },
+    {
+        "end": 21208,
+        "start": 21193,
+        "text": "22 January 2000",
+        "timex-value": "2000-01-22",
+        "type": "DATE",
+        "value": "2000-01-22"
+    },
+    {
+        "end": 21233,
+        "start": 21221,
+        "text": "25 June 1998",
+        "timex-value": "1998-06-25",
+        "type": "DATE",
+        "value": "1998-06-25"
+    },
+    {
+        "end": 21658,
+        "start": 21643,
+        "text": "22 January 2000",
+        "timex-value": "2000-01-22",
+        "type": "DATE",
+        "value": "2000-01-22"
+    },
+    {
+        "end": 31038,
+        "start": 31033,
+        "text": "20:03",
+        "timex-value": "T20:03",
+        "type": "TIME",
+        "value": "T20:03"
+    },
+    {
+        "end": 33839,
+        "start": 33826,
+        "text": "18:00 - 06:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T18:00",
+            "end": "T06:00"
+        }
+    },
+    {
+        "end": 34781,
+        "start": 34772,
+        "text": "the 1970s",
+        "timex-value": "197X",
+        "type": "DATE",
+        "value": "197X"
+    },
+    {
+        "end": 35017,
+        "start": 35008,
+        "text": "the 1970s",
+        "timex-value": "197X",
+        "type": "DATE",
+        "value": "197X"
+    },
+    {
+        "end": 36632,
+        "start": 36620,
+        "text": "25 June 1998",
+        "timex-value": "1998-06-25",
+        "type": "DATE",
+        "value": "1998-06-25"
+    },
+    {
+        "end": 45951,
+        "start": 45939,
+        "text": "25 June 1998",
+        "timex-value": "1998-06-25",
+        "type": "DATE",
+        "value": "1998-06-25"
+    }
+]

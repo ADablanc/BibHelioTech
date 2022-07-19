@@ -1,0 +1,367 @@
+Vol 439|9 February 2006|doi:10.1038/nature04401 nature LETTERS Anti-planetward auroral electron beams at Saturn J.
+Saur'+, B.
+H.
+Mauk’, D.
+G.
+Mitchell’, N.
+Krupp’, K.
+K.
+Khurana’, S.
+Livi’, S.
+M.
+Krimigis', P.
+T.
+Newell’, D.
+J.
+Williams’, P.
+C.
+Brandt’, A.
+Lagg’, E.
+Roussos” & M.
+K.
+Dougherty* Strong discrete aurorae on Earth are excited by electrons, which are accelerated along magnetic field lines towards the planet’.
+Surprisingly, electrons accelerated in the opposite direction have been recently observed’ *.
+The mechanisms and significance of this anti-earthward acceleration are highly uncertain because only earthward acceleration was traditionally considered, and observations remain limited.
+It is also unclear whether upward acceleration of the electrons is a necessary part of the auroral process or simply a special feature of Earth’s complex space environment.
+Here we report anti-planetward acceleration of electron beams in Saturn’s magnetosphere along field lines that statistically map into regions of aurora.
+The energy spectrum of these beams is qualitatively similar to the ones observed at Earth, and the energy fluxes in the observed beams are comparable with the energies required to excite Saturn’s aurora.
+These beams, along with the observations at Earth*® and the barely understood electron beams in Jupiter's magnetosphere’*, demonstrate that anti-planetward acceleration is a universal feature of aurorae.
+The energy contained in the beams shows that upward acceleration is an essential part of the overall auroral process.
+Measurements by the Cassini spacecraft”’® in Saturn’s magnetosphere reveal electron distributions on near equatorial segments that contain electron beams (Fig.
+1).
+These electron beams are strongly aligned with respect to the local magnetic field and have great similarity to those observed at Earth’®.
+In order to constrain the spatial occurrence of the electron beams, we examine all available data of the first four Cassini spacecraft orbits around Saturn (identified as SOI (Saturn orbit insertion), 0a, Ob, and Oc).
+The data are binned into different categories, which we display as a function of their position in Saturn’s magnetosphere (Fig.
+2).
+Segments of Cassini’s orbit marked red display regions where we find magnetic-field-aligned electron beams.
+On the inbound pass— that is, the dawn—noon sector of the magnetosphere—we see on two orbits (0a, Ob) electron beams at radial distances between 11Rs and 23Rs (Rg indicates Saturn’s radius).
+Measurements during the other two orbits do not satisfy our observational constraints and render the electron distribution undetermined.
+On the outbound pass—that is, in the post-midnight to dawn sector—we find electron beams during orbits SOI, 0a and 0c at radial distances between 19Rg and 33 Rs.
+The spacecraft attitude on other parts of the outbound orbits does not seriously constrain the electron distribution.
+On orbital segments with electron beams we do not simultaneously observe ion beams.
+The electron beaming is observed over all available energies from 20 keV to 800 keV, and not just over a narrow range of energy (Fig.
+3).
+The energy distributions of the beams follow roughly a power law as a function of energy, with spectral index between —1.6 and —2.6.
+The broad nature of the energy spectrum suggests a stochastic acceleration process and not a simple potential drop along the magnetic field lines, consistent with the analogous Earth beams**®.
+While the spacecraft is moving radially inward during orbit 0a, the energy flux of the beams increases by about a factor of 10 at the lowest energies.
+Because of the similarity of the observed beams to the beaming observed at Earth, both in terms of the narrowness of the beaming Magnetic field aligned beaming fi Pitch angle (degrees) Figure 1 | Segments of Cassini's orbit in Saturn's magnetosphere show electron distributions that contain magnetic-field-aligned electron beams.
+This distribution was taken during a 10 min segment of Cassini’s inbound orbit 0a at 11:27 on 26 October 2004 at a radial distance of 21.3R<, with a priority channel in an energy range from 28.1 to 49 keV.
+Zero and 180° are along the locally measured magnetic field**, which is where we find electron beams.
+Electron beam intensities f are displayed normalized to the maximum value max(f) of the segment.
+The electron data are measured by the low energy telescope of the Low Energy Magnetospheric Measurement System (LEMMS)”"® on board the Cassini spacecraft.
+It measures the electron distribution relative to the magnetic field direction in different energy channels within a total energy range from 20.2 keV to 829 keV and an instrument full-width cone of 15°.
+A detailed analysis of the angular width of the equatorial beams, including the detector response function, provides an upper limit of 10° for the angular half width, but permits any smaller angle.
+A source distribution close to Saturn that is narrow in angular width at its source would be consistent with our observed maximum 10° width.
+This still holds if pitch angle scattering is included.
+With a pitch angle diffusion coefficient”? Dy = 5 X 10 *s ‘ taken from Jupiter’s magnetosphere at a comparable radial distance, we estimate that beams with an energy of ~30 keV widen by 8° while travelling from Saturn out to the location of the Cassini spacecraft.
+If we assume alternatively that the source electron distribution is not only broad in energy but also in its angular distribution, that is, isotropic, then the action of the magnetic mirror force requires the electrons to be accelerated close to Saturn in order to be field-aligned at the equator.
+Under the assumption of isotropy, a maximum 10° width at the spacecraft places the electron acceleration region somewhere below 5R¢s from Saturn’s atmosphere.
+Additional pitch angle scattering requires the origin of the beams to be much closer to Saturn.
+"Applied Physics Laboratory, Johns Hopkins University, 11100 Johns Hopkins Road, Laurel, Maryland 20723, USA.
+7Max-Planck-Institut ftir Sonnensystemforschung, 37191 Katlenburg-Lindau, Germany.
+“Institute of Geophysics and Planetary Physics, UCLA, Los Angeles, California 90095, USA.
+“Blackett Laboratory, Imperial College, London SW7 2AZ, UK.
++Present address: Institut fur Geophysik und Meteorologie, Universitat zu Kdln, Albertus-Magnus-Platz, 50923 Kéln, Germany.
+699 © 2006 Nature Publishing Group LETTERS and the breadth of the energies involved, our most reasonable inference is that the origin of the electron beams is close to Saturn, in analogy with the demonstrated origin of such beams at Earth*® (see also Fig.
+1 legend).
+Similar conclusions have been reached for the origin of electron beams in Jupiter’s magnetosphere’ and in the wake of Jupiter’s satellite Io''.
+Independent support for a near Saturn source comes from Cassini radio observations'*'’.
+These place the source region of Saturn’s kilometric radiation, which is associated with Saturn’s auroral electron acceleration’’, over its auroral zone.
+In order to investigate the longitudes and latitudes where the beams originate near Saturn, we use the latest magnetic field model" developed with Cassini and Voyager data.
+In Fig.
+4, we show the electron beams, measured near the equator, mapped with the magnetic field model into Saturn’s atmosphere as red data points.
+We overlay the projected locations of the beams with two auroral images’, obtained before the Cassini period when the beams where observed.
+No auroral images are available for the same time period when the Cassini spacecraft made the electron measurements.
+Although Saturn’s aurorae vary in time'®’’, our auroral images (Fig.
+4) as well as 68 recent further images'® provide a good statistical framework for the average location of Saturn’s auroral features.
+Auroral activity occurs over a range of latitudes that correspond well to the spatial range where we find electron beams, that is, from the magnetopause to as far inside as 11Rs.
+In these images it appears that main features of Saturn’s aurorae are located at latitudes between 70° and 75°, which correspond to Saturn’ s middle magnetosphere, according to our field model.
+For example, the red data points near 80° latitude on the noon side (Fig.
+4) characterize electron beams just inside the magnetopause boundary.
+Saturn’s aurorae lie in general -, Orbit: 0a -._ Orbit: Oc 60 40 20 0 -20 -40 -60 40 20 0 -20 -40 -60 Figure 2 | Electron beams in Saturn's magnetosphere.
+Locations of electron beams in Saturn’s magnetosphere for the first four orbits of Cassini’s tour are shown in red.
+Segments in solid black indicate locations that we positively identify not to be field-aligned; segments in thin black, undetermined distribution (mostly owing to insufficient data coverage); dark blue cross, innermost magnetopause crossing; turquoise, magnetosheath; dotted circles are separated by 10R¢g (Rs, Saturn’s radius) and are for orientation purposes only.
+The x-axis is perpendicular to Saturn’s spin axis and points in direction to the Sun.
+The y-axis is chosen so that the x-axis, the y-axis and Saturn’s spin axis display a right-handed coordinate system.
+Cassini travels in an anticlockwise fashion in these panels.
+700 NATURE|Vol 439|9 February 2006 well equatorward of this boundary.
+From the recent 68 images'*, an extended reference oval for quiet solar wind conditions’ at 72° could be extracted, which corresponds to 12R<z in the noon sector of the magnetosphere, where we observe electron beams.
+This shows that main features of Saturn’s aurorae originate inside the magnetosphere significantly planetward of its magnetopause.
+Since the mapping of the beams depends on the magnetic field model, we independently also use a simple dipole magnetic field.
+The results are shown with yellow data points in Fig.
+4.
+With this simple model, some regions giving rise to Saturn’s aurorae need to lie even further inside 11Rs.
+Beams at a radial distance of 11Rs, however, appear to be too far away from the open/closed field line boundaries or the tail of the magnetosphere to be created there, the long-standing expectation for the source regions of Saturn’s aurorae*’’.
+Our findings suggest that all three planets—Saturn, Jupiter*’ and Earth***°—have (to a varying degree) contributions to their auroral source regions well inside their magnetospheric boundaries.
+For the observed near-equatorial energy spectra of Fig.
+3, we estimate the corresponding energy flux at the low altitude source region, that is, close to Saturn (Fig.
+3 legend).
+We do not measure electrons with energies less than 20 keV, but owing to the beams’ power law behaviour, we expect a significant flux below 20 keV.
+If we therefore extrapolate the spectra to 2 keV, we find an energy flux of 0.13mWm ° close to Saturn, based on measurements at 21.4R<¢ (0.1mWm ~ not extrapolated).
+The projected fluxes at Saturn increase strongly for measurements taken closer to Saturn.
+For example, we find 1.5mWm ~ at 13.7Rs also extrapolated to 2 keV (0.3mWm ~ not extrapolated).
+If we assume that the electron beam intensity correlates with auroral intensity, then the higher energy fluxes further inside of Saturn’s magnetosphere additionally support the idea that main features of Saturn’s aurorae originate deep inside its magnetosphere.
+1,000 © 301, 09:17, SnT, 13.7 R, A 300, 15:52, 5 nT, 19.9 R, —_ O 300, 13:40, 7 nT, 20.6 R .
+100 s 7) + 300, 11:28, 6 nT, 21.4 Re ” N = Oo 10 > co) ee = z 1.0 0.1 10 100 1,000 Energy (keV) Figure 3 | Four electron beam energy spectra during Cassini's inbound orbit Oa in 2004.
+Each spectrum is calculated from the electron distributions (similar to Fig.
+1) of eight different energy channels within the instrument energy range of 20-800 keV; four parameters for each spectrum are given in the key, namely, the day of 2004, the time in the day, the magnetic field and the radial distance from Saturn.
+In each distribution we only calculate the energy within the beam, that is, we only count the electron flux that lies within an 11.25° cone with respect to the local magnetic field.
+We can use these spectra to estimate the total electron energy fluxes at the low altitude source region (close to Saturn) by taking into account the characteristics of the LEMMS detector and the width of the loss cone.
+We assume that the total energy flux within a magnetic flux tube is equal at the equator and at the origin of the acceleration.
+The total low altitude energy flux (20-800 keV) for the spectrum at 13.7, 19.9, 20.6 and 21.4 Rg is respectively 0.34, 0.16, 0.1 and 0.1mWm 7(=10 *Wm ”), with a spectral power law slope of respectively —2.6, —2.5, —2.1 and —1.6.
+We expect the energy spectrum to extend (as a similar power law) to lower energies.
+When we extrapolate the spectra to 2 keV, we find a total electron energy flux of 1.5, 0.6, 0.18 and 0.13mWm ”, respectively.
+© 2006 Nature Publishing Group NATURE|Vol 439|9 February 2006 Saturn’s observed auroral ultraviolet intensities are typically in the range of 1 kilorayleigh (1kR) to up to 70kR (ref.
+16), which corresponds to an energy flux of 0.1-7mWm ~.
+The energy fluxes that we infer from the observed electron beams of 0.1-1.5mWm ~ are surprisingly large, and comparable to the energies needed to excite Saturn’s aurorae.
+We conclude that electron beams are accelerated away from Saturn on field lines that map into the auroral regions of Saturn.
+At Earth, anti-planetward accelerated electrons have also been observed*®.
+Figure 4 | Saturn's electron beams and aurorae.
+Shown are the locations of all observed electron beams that mapped into Saturn’s polar atmosphere (red and yellow data points) over-plotted in comparison with two snapshots’ of Saturn’s aurora, a and b.
+Data points in red are calculated with the latest magnetic field model", data points in yellow are calculated with a simple dipole magnetic field.
+To the left is the morning side of Saturn and bottom is towards noon; circles display 70° and 80° planetary latitude.
+Saturn’s aurora varies in time, but electron beams map in a statistical sense well into regions of Saturn’s aurora.
+As a technical note, in the Khurana magnetic field model’ the dayside magnetopause is located at 20Rs.
+For orbits 0a and Ob, the magnetopause is located at 21.6R, and 22.9Rs.
+Therefore a few locations of electron beams cannot be mapped with this magnetic field model into Saturn’s atmosphere, and are neglected in this figure.
+(This figure has been reproduced from figure 3 of ref.
+15.
+Copyright 2004 American Geophysical Union.
+Reproduced/modified by permission of the AGU.) LETTERS Their significance and their mechanisms remain however, uncertain, both owing to a lack of comprehensive studies and owing to the fact that currently no generally accepted model for the upward acceleration exists, although a few ideas have been proposed*®’’.
+With the observations at Earth only, it is not clear whether anti-planetward accelerated auroral electrons are unique to the special properties of the complex Earth environment or if they are a general property of aurorae.
+Recently, electron beams have also been observed in Jupiter’s magnetosphere’’.
+Their origin and their physical relation to Jupiter’s aurorae are, however, unclear, and the huge qualitative differences between Jupiter’s and Earth’s magnetosphere bring into question the extent to which the beams at Earth and Jupiter are analogous.
+Observations of beams at Saturn, that is, in a magnetospheric configuration that lies between that of Earth and Jupiter, suggest that anti-planetward acceleration of electrons is a universal property of aurorae.
+The energy fluxes in the anti-planetward accelerated beams compete with the fluxes contained in the beams that are directed towards the planet, and therefore generate aurorae.
+Thus in addition to the universality of anti-planetward acceleration, Saturn’s aurorae suggest that anti-planetward acceleration is also a key player in the energetics of the auroral process.
+Received 13 June; accepted 2 November 2005.
+1.
+Paschmann, G., Haaland, S.
+& Treumann, R.
+Auroral Plasma Physics (Kluwer Academic, Dordrecht, 2003).
+2.
+Klumpar, D.
+M.
+in Physics of Space Plasmas (1989) (eds Chang, T., Crew, G.
+B.
+& Jasperse, J.
+R.) 265-276 (SPI Conference Proceedings and Reprint Series No.
+9, Scientific Publishers, Cambridge, Massachusetts, 1990).
+3.
+Klumpar, D., Quinn, J.
+& Shelley, E.
+Counter-streaming electrons at the geomagnetic equator near 9 earth radii.
+Geophys.
+Res.
+Lett.
+15, 12:95 - 12:98 (1988).
+4.
+Carlson, C.
+et al.
+FAST observations in the downward auroral current region: Energetic upgoing electron beams, parallel potential drops and ion heating.
+Geophys.
+Res.
+Lett.
+25, 20:17 - 20:20 (1998).
+5.
+Ergun, R.
+et al.
+FAST satellite observations of electric field structures in the auroral zone.
+Geophys.
+Res.
+Lett.
+25, 20:25 - 20:28 (1998).
+6.
+Marklund, M.
+et al.
+Temporal evolution of the electric field accelerating electrons away from the auroral ionosphere.
+Nature 414, 724-727 (2001).
+7.
+Frank, L.
+A.
+& Paterson, W.
+R.
+Galileo observations of electron beams and thermal ions in Jupiter's magnetosphere and their relationship to the auroras.
+J.
+Geophys.
+Res.
+107, A1478, doi:10.1029/2001JA009150 (2002).
+8.
+Tomas, A.
+et al.
+Energetic electrons in the inner part of the Jovian magnetosphere and their relation to auroral emissions.
+J.
+Geophys.
+Res.
+109, A203, doi:10.1029/2004JA010405 (2004).
+9.
+Krimigis, S.
+et al.
+Magnetosphere Imaging Instrument (MIMI) on the Cassini Mission to Saturn/Titan.
+Space Sci.
+Rev.
+114, 223-329 (2004).
+10.
+Krimigis, S.
+et al.
+Dynamics of Saturn's magnetosphere from MIMI during Cassini's orbital insertion.
+Science 307, 12:70 - 12:73 (2005).
+11.
+Williams, D.
+J., Thorne, R.
+M.
+& Mauk, B.
+H.
+Energetic electron beams and trapped electrons at lo.
+J.
+Geophys.
+Res.
+104, 147:39 - 14:753 (1999).
+12.
+Kurth, W.
+S.
+An Earth-like correspondence between Saturn's auroral features and radio emission.
+Nature 443, 722-725 (2005).
+13.
+Gurnett, D.
+A.
+et al.
+Radio and plasma wave observations at Saturn from Cassini's approach and first orbit.
+Science 307, 12:55 - 12:59 (2005).
+14.
+Khurana, K.
+K., Arridge, C.
+S.
+& Dougherty, M.
+K.
+A versatile model of Saturn’s magnetospheric field.
+Geophys.
+Res.
+Abstr.
+7, 05970 (2005); (http://www.cosis.net/abstracts/EGU05/05970/EGU05-J-05970.pdf).
+15.
+Gérard, J.-C.
+et al.
+Characteristics of Saturn’s FUV aurora observed with the Space Telescope Imaging Spectrograph.
+J.
+Geophys.
+Res.
+109(A9), AO9207, doi:10.1029/2004JA010513 (2004).
+16.
+Clarke, J.
+T.
+et al.
+Morphological differences between Saturn's ultraviolet aurorae and those of Earth and Jupiter.
+Nature 433, 717-719 (2005).
+17.
+Prangé, R.
+et al.
+An interplanetary shock traced by planetary auroral storms from the Sun to Saturn.
+Nature 432, 78-81 (2004).
+18.
+Grodent, D., Gerard, J.-C., Cowley, S.
+W.
+T., Bunce, E.
+J.
+& Clarke, J.
+T.
+Variable morphology of Saturn's southern ultraviolet aurora.
+J.
+Geophys.
+Res.
+110, AQ7215, doi:10.1029/2004JA010983 (2005).
+19.
+Crary, F.
+J.
+et al.
+Solar wind dynamic pressure and electric field as the main factors controlling Saturn's aurorae.
+Nature 433, 720-722 (2005).
+20.
+Bhardwaj, A.
+& Gladstone, G.
+R.
+Auroral emissions of the giant planets.
+Rev.
+Geophys.
+38, 295-353 (2000).
+21.
+Cowley, S.
+T.
+W., Bunce, E.
+& Prangé, R.
+Saturn’s polar ionospheric flows and their relation to the main auroral oval.
+Ann.
+Geophys.
+22, 13:79 - 13:94 (2004).
+22.
+Cowley, S.
+T.
+W.
+et al.
+Reconnection in a rotation-dominated magnetosphere and its relation to Saturn’s auroral dynamics.
+J.
+Geophys.
+Res.
+110, AOO201, doi:10.1029/2004JA010796 (2005).
+701 © 2006 Nature Publishing Group LETTERS DD 24.
+25, 26.
+27.
+702 Clarke, J.
+T.
+et al.
+Ultraviolet emissions from the magnetic footprints of lo, Ganymede and Europa on Jupiter.
+Nature 415, 997-1000 (2002).
+Feldstein, Y.
+|.
+& Galperin, Y.
+|.
+The auroral luminosity in the high-latitude upper atmosphere: its dynamics and relationship to the large-scale structure of the Earth’s magnetosphere.
+Rev.
+Geophys.
+23, 217-275 (1985).
+Mauk, B.
+H.
+& Meng, C.-I.
+in Auroral Physics (eds Meng, C.
+|., Rycroft, M.
+J.
+& Frank, L.
+A.) 223-239 (Cambridge Univ.
+Press, Cambridge, 1991).
+Temerin, M.
+& Carlson, C.
+W.
+Current-voltage relationship in the downward auroral current region.
+Geophys.
+Res.
+Lett.
+25, 23:65 - 23:68 (1998).
+Anderson, L.
+et al.
+Characteristics of parallel electric fields in the downward current region of the aurora.
+Phys.
+Plasmas 9, 36:00 - 36:09 (2002).
+28.
+29, NATURE|Vol 439|9 February 2006 Dougherty, M.
+K.
+et al.
+The Cassini Magnetic Field Investigation.
+Space Sci.
+Rev.
+114, 331-383 (2004).
+Williams, D.
+J.
+& Mauk, B.
+H.
+Pitch angle diffusion at Jupiter's moon Ganymede.
+J.
+Geophys.
+Res.
+102, 242:83 - 24:287 (1997).
+Acknowledgements We thank D.
+Grodent for helpful discussions.
+Author Information Reprints and permissions information is available at npg.nature.com/reprintsandpermissions.
+The authors declare no competing financial interests.
+Correspondence and requests for materials should be addressed to J.S.
+(saur@geo.uni-koeln.de).
+© 2006 Nature Publishing Group .

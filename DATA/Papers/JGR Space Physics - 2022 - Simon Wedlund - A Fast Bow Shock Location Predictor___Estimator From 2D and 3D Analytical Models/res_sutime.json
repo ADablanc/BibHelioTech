@@ -1,0 +1,46 @@
+[
+    {
+        "end": 902,
+        "start": 892,
+        "text": "6 SEP 2021",
+        "timex-value": "2021-09-06",
+        "type": "DATE",
+        "value": "2021-09-06"
+    },
+    {
+        "end": 923,
+        "start": 912,
+        "text": "21 DEC 2021",
+        "timex-value": "2021-12-21",
+        "type": "DATE",
+        "value": "2021-12-21"
+    },
+    {
+        "end": 3062,
+        "start": 3049,
+        "text": "20:14 - 20:21",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:14",
+            "end": "T20:21"
+        }
+    },
+    {
+        "end": 6548,
+        "start": 6531,
+        "text": "22 September 2014",
+        "timex-value": "2014-09-22",
+        "type": "DATE",
+        "value": "2014-09-22"
+    },
+    {
+        "end": 11561,
+        "start": 11530,
+        "text": "November 2014 and February 2021",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11",
+            "end": "2021-02"
+        }
+    }
+]

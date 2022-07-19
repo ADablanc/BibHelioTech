@@ -1,0 +1,2026 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The Heliospheric Current Sheet and Plasma Sheet during Parker Solar Probe&apos;s First Orbit</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-05-08">2020 May 8</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+							<idno type="ORCID">0000-0001-6807-8494</idno>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Fargette</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">V</forename><surname>Réville</surname></persName>
+							<idno type="ORCID">0000-0002-2916-3837</idno>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Szabo</surname></persName>
+							<idno type="ORCID">0000-0003-3255-9071</idno>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+							<idno type="ORCID">0000-0002-9954-4707</idno>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Viall</surname></persName>
+							<idno type="ORCID">0000-0003-1692-1704</idno>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+							<idno type="ORCID">0000-0002-6924-9408</idno>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+							<idno type="ORCID">0000-0002-7077-930X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+							<idno type="ORCID">0000-0002-1989-3596</idno>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Berthomier</surname></persName>
+							<idno type="ORCID">0000-0002-1989-3596</idno>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bonnell</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Case</surname></persName>
+							<idno type="ORCID">0000-0002-3520-4041</idno>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Dudok De Wit</surname></persName>
+							<idno type="ORCID">0000-0002-4401-0943</idno>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+							<idno type="ORCID">0000-0003-4733-8319</idno>
+						</author>
+						<author>
+							<persName><forename type="first">V</forename><surname>Génot</surname></persName>
+							<idno type="ORCID">0000-0002-7708-8077</idno>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><surname>Goetz</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Griton</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+							<idno type="ORCID">0000-0001-5258-6128</idno>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Harvey</surname></persName>
+							<idno type="ORCID">0000-0001-5258-6128</idno>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Kieokaew</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Klein</surname></persName>
+							<idno type="ORCID">0000-0001-6038-1923</idno>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Korreck</surname></persName>
+							<idno type="ORCID">0000-0001-6095-2490</idno>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Kouloumvakos</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Larson</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Lavarra</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><surname>Livi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><surname>Louarn</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Macdowall</surname></persName>
+							<idno type="ORCID">0000-0003-3112-4201</idno>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+							<idno type="ORCID">0000-0001-6172-5062</idno>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Malaspina</surname></persName>
+							<idno type="ORCID">0000-0003-1191-1558</idno>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><surname>Nieves-Chinchilla</surname></persName>
+							<idno type="ORCID">0000-0003-1191-1558</idno>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Pinto</surname></persName>
+							<idno type="ORCID">0000-0001-8247-7168</idno>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Poirier</surname></persName>
+							<idno type="ORCID">0000-0002-1814-4673</idno>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Pulupa</surname></persName>
+							<idno type="ORCID">0000-0002-1573-7457</idno>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><forename type="middle">E</forename><surname>Raouafi</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Stevens</surname></persName>
+							<idno type="ORCID">0000-0002-7728-0085</idno>
+						</author>
+						<author>
+							<persName><forename type="first">S</forename><surname>Toledo-Redondo</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Whittlesey</surname></persName>
+							<idno type="ORCID">0000-0002-7287-5098</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 IRAP, CNRS, UPS, CNES, Université de Toulouse, </orgName>
+								<address><addrLine>Toulouse, France Greenbelt, MD, USA Ann Arbor, MI, USA Berkeley, CA, USA Berkeley, CA, USA Ecole Polytechnique, France Cambridge, MA, USA Orléans, France London, UK Minneapolis, MN, USA Iowa City, IA, USA Tucson, AZ, USA Meudon, France Boulder, CO, USA Baltimore, MD, USA Murcia, Spain</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 NASA Goddard Space Flight Center, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 University of Michigan, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 4 Space Sciences Laboratory, University of California, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 5 Physics Department, University of California, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 6 Laboratoire de Physique des Plasmas, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 7 Smithsonian Astrophysical Observatory, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 8 LPC2E, CNRS and University of Orléans, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 9 Imperial College London, Physics, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 10 University of Minnesota, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 11 Department of Physics and Astronomy, University of Iowa, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 12 Lunar and Planetary Laboratory, University of Arizona, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 13 LESIA, Observatoire de Paris, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 14 Laboratory for Atmospheric and Space Physics, University of Colorado, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 15 Johns Hopkins University, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 16 Department of Electromagnetism and Electronics, University of Murcia,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The Heliospheric Current Sheet and Plasma Sheet during Parker Solar Probe&apos;s First Orbit</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-05-08">2020 May 8</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">35A2CBDBF0CE2A03569700F6351DA8BF</idno>
+					<idno type="DOI">10.3847/2041-8213/ab8d2d</idno>
+					<note type="submission">Received 2020 April 8; revised 2020 April 24; accepted 2020 April 26;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T14:40+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Slow solar wind (1873)</term>
+					<term>Solar coronal streamers (1486)</term>
+					<term>Solar coronal transients (312)</term>
+					<term>Heliosphere (711)</term>
+					<term>Solar magnetic reconnection (1504)</term>
+					<term>Space plasmas (1544)</term>
+					<term>Plasma jets (1263)</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We present heliospheric current sheet (HCS) and plasma sheet (HPS) observations during Parker Solar Probe's (PSP) first orbit around the Sun. We focus on the eight intervals that display a true sector boundary (TSB; based on suprathermal electron pitch angle distributions) with one or several associated current sheets. The analysis shows that (1) the main density enhancements in the vicinity of the TSB and HCS are typically associated with electron strahl dropouts, implying magnetic disconnection from the Sun, (2) the density enhancements are just about twice that in the surrounding regions, suggesting mixing of plasmas from each side of the HCS, (3) the velocity changes at the main boundaries are either correlated or anticorrelated with magnetic field changes, consistent with magnetic reconnection, (4) there often exists a layer of disconnected magnetic field just outside the high-density regions, in agreement with a reconnected topology, (5) while a few cases consist of short-lived density and velocity changes, compatible with short-duration reconnection exhausts, most events are much longer and show the presence of flux ropes interleaved with higher-β regions. These findings are consistent with the transient release of density blobs and flux ropes through sequential magnetic reconnection at the tip of the helmet streamer. The data also demonstrate that, at least during PSP's first orbit, the only structure that may be defined as the HPS is the density structure that results from magnetic reconnection, and its byproducts, likely released near the tip of the helmet streamer.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The fast solar wind is known to come from open solar magnetic field regions in coronal holes (e.g., <ref type="bibr" target="#b27">Cranmer 2009)</ref>, while the source of the slow solar wind is less clear (e.g., <ref type="bibr" target="#b34">Fisk et al. 1999;</ref><ref type="bibr" target="#b74">Tu et al. 2005;</ref><ref type="bibr" target="#b50">Kasper et al. 2007</ref><ref type="bibr" target="#b49">Kasper et al. , 2012;;</ref><ref type="bibr" target="#b71">Suess et al. 2009;</ref><ref type="bibr" target="#b41">Higginson et al. 2017)</ref>. The heliospheric current sheet (HCS) is embedded in the slow solar wind. It is defined as the current sheet that extends into the heliosphere from the tip of the closed coronal magnetic field of the helmet streamer, and separates regions that connect magnetically to the two hemispheres of the Sun (e.g., <ref type="bibr" target="#b38">Gosling et al. 1981)</ref>. The location where the strahl, a suprathermal electron population permanently emitted outward from the Sun, switches from propagating parallel to antiparallel (or vice versa) along magnetic field lines in each hemisphere is called the true sector boundary (TSB; e.g., <ref type="bibr" target="#b45">Kahler &amp; Lin 1994</ref><ref type="bibr">, 1995;</ref><ref type="bibr" target="#b73">Szabo et al. 1999)</ref>. While in principle the HCS and TSB should be co-located, often they are not, likely as the result of interchange reconnection between open and closed field lines near the helmet streamer (e.g., <ref type="bibr" target="#b29">Crooker et al. 2004;</ref><ref type="bibr" target="#b44">Huang et al. 2016)</ref>. Sometimes the term HCS is used in a broader sense and embeds both the TSB and the one, or several, current sheets sustaining the radial magnetic field change near the TSB. Finally, the heliospheric plasma sheet (HPS) is a high-density and high-β region that typically surrounds the HCS, but its origin and properties are still debated (e.g., <ref type="bibr" target="#b25">Burlaga et al. 1990;</ref><ref type="bibr" target="#b23">Bavassano et al. 1997;</ref><ref type="bibr" target="#b30">Crooker et al. 1993</ref><ref type="bibr" target="#b28">Crooker et al. , 1996</ref><ref type="bibr" target="#b29">Crooker et al. , 2004;;</ref><ref type="bibr" target="#b80">Winterhalter et al. 1994;</ref><ref type="bibr" target="#b78">Wang et al. 1998</ref><ref type="bibr" target="#b77">Wang et al. , 2000;;</ref><ref type="bibr" target="#b56">Liu et al. 2014</ref>; β is the ratio of thermal to magnetic pressures).</p><p>Early remote-sensing observations revealed the transient release of density blobs from the tip of the helmet streamer <ref type="bibr" target="#b70">(Sheeley et al. 1997)</ref>. Since then, remote-sensing and in situ observations have aimed to characterize the density enhancements, and their substructure, including their possible relation to magnetic flux ropes and solar wind type <ref type="bibr" target="#b50">(Kasper et al. 2007</ref><ref type="bibr" target="#b49">(Kasper et al. , 2012;;</ref><ref type="bibr" target="#b63">Rouillard et al. 2010a</ref><ref type="bibr" target="#b64">Rouillard et al. , 2010b;;</ref><ref type="bibr" target="#b75">Viall et al. 2010;</ref><ref type="bibr" target="#b76">Viall &amp; Vourlidas 2015;</ref><ref type="bibr" target="#b51">Kepko et al. 2016;</ref><ref type="bibr" target="#b43">Huang et al. 2017;</ref><ref type="bibr" target="#b66">Sanchez-Diaz et al. 2017a</ref><ref type="bibr" target="#b67">, 2017b;</ref><ref type="bibr" target="#b31">Di Matteo et al. 2019)</ref>. The relation between blobs and flux ropes was in particular supported by the inward plasma motions observed in association with the outward release of large blobs in remote-sensing observations <ref type="bibr" target="#b66">(Sanchez-Diaz et al. 2017a</ref><ref type="bibr" target="#b67">, 2017b)</ref>. It is on this basis, and by comparing in situ data at 1 au and 0. who recently investigated the same set of HCS crossings by PSP, but who mainly focused on the differences between PSP measurements in the inner heliosphere and Wind at 1 au. They concluded in particular that the small structures (blobs and flux ropes) observed near the HCS evolve significantly as they travel from the corona to 1 au, changing both in size and plasma properties.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">PSP Instruments and First Orbit Modeling</head><p>PSP was launched in 2018 August into a highly elliptical orbit around the Sun. The first PSP orbit already came closer to the Sun than any past mission, down to 0.165 au. PSP comprises a set of in situ instruments that are used for the present study. We use particle data from the Solar Wind Electrons Alphas and Protons (SWEAP; <ref type="bibr" target="#b47">Kasper et al. 2016)</ref> instrument suite and magnetic field data from the FIELDS instrument suite <ref type="bibr" target="#b22">(Bale et al. 2016)</ref>. For SWEAP we show ion data (moments) from the Solar Probe Cup (SPC; <ref type="bibr" target="#b26">Case et al. 2020)</ref> and electron pitch angle distributions from the Solar Probe ANalyzers <ref type="bibr" target="#b79">(Whittlesey et al. 2020)</ref>. Electron pitch angles are calculated in the plasma frame using SPC velocity. We use RTN coordinates throughout this Letter.</p><p>Figure <ref type="figure" target="#fig_1">1</ref>(a) shows PSP orbit mapping to a distance of 5 solar radii (R S ) during its first orbit. The background color map shows the radial magnetic field (in Gauss) at 5 R S , highlighting the expected location of the HCS (thick black line). The thin black line presents the PSP orbit mapping using a simple Parker spiral geometry while the colored points show that based on magnetic connection within the global coronal and heliospheric magnetohydrodynamics simulation of <ref type="bibr" target="#b62">Réville et al. (2020;</ref><ref type="bibr"></ref> note that the PSP orbit goes from right to left). Figure <ref type="figure" target="#fig_1">1</ref>(b) displays the magnetic footpoints of PSP on the photosphere in the global simulation, with the background color map corresponding to synthetic coronal UV emissions at 193 Å. The modeling uses as inner boundary conditions an ADAPT map derived from the GONG magnetic field at the photosphere on 2018 November 6 at 12:00 UT. As already shown in <ref type="bibr" target="#b62">Réville et al. (2020)</ref>, and confirmed with other models <ref type="bibr" target="#b21">(Bale et al. 2019;</ref><ref type="bibr" target="#b20">Badman et al. 2020</ref><ref type="bibr" target="#b62">, Réville et al. 2020</ref><ref type="bibr">, Szabo et al. 2020)</ref>, global modeling for this period overall performs well, albeit sometimes with significant errors in the timing of HCS crossings.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">PSP Observations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Overview of Orbit 1</head><p>Table <ref type="table" target="#tab_0">1</ref> provides the list of all eight TSBs, defined as the main periods when the directionality of 315 eV strahl electron pitch angle (PA) distribution switches direction (from fieldaligned at 0°PA to anti-field-aligned at 180°, or vice versa). We specifically searched for HCS and HPS signatures in the vicinity of the TSB because we want to make sure that the density signatures observed are not related to other structures (coronal mass ejection (CME), stream interaction regions, etc.). By definition, the HCS and HPS are expected to exist near the TSB (e.g., <ref type="bibr" target="#b80">Winterhalter et al. 1994;</ref><ref type="bibr" target="#b28">Crooker et al. 1996</ref><ref type="bibr" target="#b29">Crooker et al. , 2004))</ref>.</p><p>Figure <ref type="figure" target="#fig_2">2</ref> presents PSP in situ observations around its first perihelion between 2018 October 27 and November 18. Panels (a) and (b) show overall increases in magnetic field magnitude and density centered as expected around perihelion on 2018 November 6. The radial velocity component in panel (c) shows that PSP was primarily in the slow solar wind during the orbit, except after 2018 November 15 when significantly faster solar wind was measured. Of interest during this interval are the three TSBs crossings marked with vertical dashed lines. They are seen in panel (d) as a switch in the directionality of the 315 eV strahl electrons from field-aligned to anti-field-aligned, or vice versa. Figure <ref type="figure" target="#fig_2">2</ref> is zoomed in near perihelion for clarity, but a few other TSBs sampled during the first orbit are listed in Table <ref type="table" target="#tab_0">1</ref>. The three TSBs marked in Figure <ref type="figure" target="#fig_2">2</ref> are associated with both an HCS, which consists of a clear switch in the radial magnetic field component (black line in panel (a)) from sunward to antisunward, or vice versa, and an HPS, observed as significant density enhancements (panel (b)) in the vicinity of the TSB and HCS.</p><p>We also note a few probable partial crossings of the HCS and HPS during the first PSP orbit. A significant one, for example, is on 2018 October 30 as marked with a red arrow in Figure <ref type="figure" target="#fig_2">2</ref>(b). They are not listed in Table <ref type="table" target="#tab_0">1</ref> because they are not associated with TSBs. Also, the density enhancements marked with black arrows on 2018 October 31 and November 12 correspond to the two main CMEs observed during the first orbit <ref type="bibr" target="#b37">(Giacalone et al. 2020;</ref><ref type="bibr" target="#b53">Korreck et al. 2020;</ref><ref type="bibr" target="#b57">Mitchell et al. 2020;</ref><ref type="bibr" target="#b58">Nieves-Chinchilla et al. 2020;</ref><ref type="bibr" target="#b81">Zhao et al. 2020)</ref>. These density structures are thus not considered here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">TSB, HCS, and HPS during PSP First Orbit</head><p>Figure <ref type="figure" target="#fig_3">3</ref> shows PSP observations for interval #4 in Table <ref type="table" target="#tab_0">1</ref>, on 2018 October 28, corresponding to the first vertical dashed line in Figure <ref type="figure" target="#fig_2">2</ref>. The beginning of the interval corresponds to a "toward" sector with negative radial magnetic field (panel (d)) and antiparallel strahl electrons (panel (g)), while the last part of the interval corresponds to an "away" sector with opposite radial magnetic field and strahl directionality. Rather than being characterized by a sharp transition (e.g., case #2 in Table <ref type="table" target="#tab_0">1</ref>), the change from one sector to the other is interspersed with regions of large density (panel (b)) and low magnetic field (panel (d)), and thus large β values (panel (a)).</p><p>The key observation in Figure <ref type="figure" target="#fig_3">3</ref> is that the intervals of density and β enhancement correspond systematically to magnetic field decreases and strahl dropouts. The strahl dropouts demonstrate that these regions are disconnected from the Sun (e.g., <ref type="bibr" target="#b39">Gosling et al. 2005a)</ref>, and therefore that they were produced by magnetic reconnection, likely at the tip of the helmet streamer. Additional and consistent observations are as follows: (1) the density is typically increased by nearly a factor of 2 within these regions, as compared to the surroundings, consistent with these intervals being reconnection exhausts created from the mixing of the plasmas from both sides of the HCS, as first found in the solar wind by <ref type="bibr" target="#b40">Gosling et al. (2005b)</ref>;</p><p>(2) the magnetic field decreases are consistent with conversion of magnetic energy by magnetic reconnection; (3) the velocity and magnetic field components are typically correlated upon entrance from the toward sector into the high-density region (i.e., compare for instance Notes.The intervals given merely correspond to those studied and that encompass the relevant density enhancements nearby the TSB. a There is a correlation or anticorrelation at most observed boundaries. In a few cases more complex velocity trends are seen, generally in association with flux-ropetype structures.</p><formula xml:id="formula_0">V R in panel (c) with B R in panel (d)</formula><p>across the first dashed line at 03:00 UT on 2018 October 28), while they are anticorrelated upon exit into the away sector (as is the case for all partial exits at the other dashed lines, which correspond to back and forth motions across the boundary on the same side of the HPS), as also expected for a reconnection exhaust (e.g., <ref type="bibr" target="#b40">Gosling et al. 2005b;</ref><ref type="bibr" target="#b60">Phan et al. 2020</ref>); (4) there is evidence for flux-rope structures, in particular between about 04:00 and 06:00 UT on 2018 October 28, and around 10 UT as well (both marked in Figure <ref type="figure" target="#fig_3">3</ref>, and highlighted with orange shading); and (5) when the density increases the radial velocity component generally enhances compared to the adjacent solar wind, although it is not always the case in particular in the vicinity of the flux-rope structures (as expected if formed between multiple X lines, as discussed in Section 4).</p><p>The two flux-rope-type structures have larger magnetic fields with significant rotations, slightly lower β, and show suprathermal electron properties that are different from the surroundings. Suprathermal electrons in the flux ropes have larger fluxes and more bidirectional character than the highestβ intervals, which always show strong strahl dropouts. Electron PAs in the flux ropes also contrast with the stronger and unidirectional fluxes of the adjacent open magnetic fields in either the away or toward sectors. It should be noted that the interval in between the two flux ropes marked in Figure <ref type="figure" target="#fig_3">3</ref> has a smooth magnetic field and may also be associated with the crossing of a flux rope at some distance from its main axis (given the lack of rotation and total magnetic field enhancement). However, such a possibility is not the scope of this Letter. Finally, between 15:00 UT and 22:00 UT on 2018 October 28 there are several small intervals with strahl dropouts (disappearance of the strahl at 0°) but no significant density increases. This period is shaded green in Figure <ref type="figure" target="#fig_3">3</ref> and discussed in Section 4.</p><p>We surveyed all TSB crossings during PSP's first orbit and analyzed their main characteristics in a similar way to the above case study. All events listed in Table <ref type="table" target="#tab_0">1</ref> exhibit the following properties: the density and β enhancements are observed near the TSB, which would be traditionally defined as the HPS; have properties consistent with that of a reconnection exhaust (and its byproducts); and are mostly disconnected from the Sun through magnetic reconnection ("mostly" here relates to the fact that the flux ropes within the HPS can have different topologies, as discussed later).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>We identified HCS and HPS signatures in the vicinity of the TSB during PSP's first orbit. We surveyed TSBs to ensure that the density signatures are not related to other types of structures (CME, stream interaction regions, etc.) but are really associated with the TSB where HCS and HPS are expected, by definition (e.g., <ref type="bibr" target="#b30">Crooker et al. 1993</ref><ref type="bibr" target="#b29">Crooker et al. , 2004;;</ref><ref type="bibr" target="#b80">Winterhalter et al. 1994</ref>). shows the 315 eV suprathermal electron pitch angle (PA) distributions in normalized units; it shows the ratio of a given PA bin phase space density (PSD) to the PSD at 90°PA for each sample (this unit is used given the very large dynamic range of PSDs during the encounter, with color-coding according to the palette on the right-hand side). The three vertical dashed lines mark the three sector boundaries observed during that interval. There are density enhancements associated with them, as analyzed in the text. The black arrows highlight the two main CMEs of orbit 1, with their associated density increase. A small red arrow highlights another density increase, which is a partial crossing of the HCS and is thus not listed in Table <ref type="table" target="#tab_0">1</ref>.</p><p>Apart from event #8 (for which the data are rather complex), all intervals show (1) density enhancements, generally just about twice that measured in the adjacent regions; (2) correlation and anticorrelation between velocity and magnetic field at the boundaries with the toward and away sectors, respectively (see previous section for details), and (3) electron strahl dropouts (but see the discussion on flux ropes). These facts demonstrate that these high-density regions are magnetic reconnection exhausts mostly disconnected from the Sun. During most intervals the HCS is not a simple current sheet (see Table <ref type="table" target="#tab_0">1</ref>). It rather consists of a complex exhaust embedding a succession of high-β regions and somewhat lower-β flux ropes that are proposed to be the byproducts of sequential magnetic reconnection at the tip of the helmet streamer, similar to the model of <ref type="bibr" target="#b68">Sanchez-Diaz et al. (2019)</ref>. <ref type="bibr" target="#b72">Szabo et al. (2020)</ref> also analyzed all TSBs and HCSs during PSP's first orbit. Although they mostly focused on the comparison with Wind data at 1 au, suggesting that small solar wind structures suffer from significant evolution during their propagation to 1 au, their interpretation is also that the HCS is more complex than a single and sharp current sheet.</p><p>Such observations were permitted thanks to PSP's approach close to the Sun, which allowed the observation of a mostly uncompressed and radial magnetic field topology. Although it is also a function of the HCS tilt angle, in general this contrasts with the more compressed Parker spiral at 1 au that only allows spacecraft trajectory to cross the HCS plane at large angles, and which generally precludes the spacecraft from residing for a substantial amount of time in the vicinity of the HCS (see also Helios observations in <ref type="bibr" target="#b68">Sanchez-Diaz et al. 2019)</ref>.</p><p>We noted several intervals between 15:00 and 22:00 UT on 2018 October 28 (green shaded area in Figure <ref type="figure" target="#fig_3">3</ref>) with strahl dropouts unrelated to density increases or magnetic field decreases. Similar intervals are seen in other events as well. They are consistent with the magnetic reconnection scenario. Indeed, if the high-density regions are the exhausts from reconnection at the tip of the helmet streamer, one expects the exhaust magnetic field to thread through its boundaries, thus forming a thin layer just outside the exhaust that would show a disconnected topology as well. This is akin to the magnetosheath boundary layer formed by reconnection just outside the Earth's magnetopause (e.g., <ref type="bibr" target="#b36">Fuselier et al. 1995;</ref><ref type="bibr" target="#b55">Lavraud et al. 2006)</ref>, and was previously observed in the solar wind as well <ref type="bibr" target="#b54">(Lavraud et al. 2009)</ref>.</p><p>Figure <ref type="figure" target="#fig_4">4</ref>, adapted from Sanchez-Diaz et al. (2019), summarizes some implications of the present study. <ref type="bibr" target="#b66">Sanchez-Diaz et al. (2017a</ref><ref type="bibr" target="#b67">, 2017b</ref><ref type="bibr">, 2019)</ref> proposed that density blobs and flux ropes are released periodically from the tip of helmet streamers with a periodicity of 10-20 hr, in agreement with white-light observations of density blobs (e.g., <ref type="bibr" target="#b69">Sheeley et al. 2009;</ref><ref type="bibr" target="#b63">Rouillard et al. 2010a)</ref>. They also showed the frequent observation of smaller density and magnetic structures. Such smaller-scale structures are more compatible with a periodicity on the order of 1-3 hr as found in the analysis of solar wind density fluctuations (e.g., <ref type="bibr" target="#b75">Viall et al. 2010;</ref><ref type="bibr" target="#b76">Viall &amp; Vourlidas 2015;</ref><ref type="bibr" target="#b51">Kepko et al. 2016</ref>). In the present PSP observations, the duration of the flux ropes (from all events) ranges grossly from 1 to 4 hr (a 2 hr long structure at 300 km s −1 corresponds to a size of ∼3 R S ). Such scale sizes are more comparable with the latter quasi-periodic structures (e.g., <ref type="bibr" target="#b51">Kepko et al. 2016)</ref>.</p><p>The present analysis suggests that the HPS is a high-density region whose nature is essentially a large reconnection exhaust mostly disconnected from the Sun (blue field lines in Figure <ref type="figure" target="#fig_4">4</ref>). Together with past works, it also suggests that it is composed of a succession of high-β blobs (dark gray regions) and flux ropes, and that there exists a large spectrum in the size of the flux ropes that may be released through sequential magnetic reconnection above the helmet streamers (from tens of minutes to few tens of hours). Future statistical works with in situ observations, combined with modeling, are needed to determine what drives these different scales and periodicities, and their association to magnetic reconnection near the tip of the helmet streamer.</p><p>The flux ropes identified in all events show variable electron strahl properties. They often show the presence of residual fluxes which mark a different connectivity to the Sun. While the two flux ropes in Figure <ref type="figure" target="#fig_3">3</ref> show bidirectional strahl electrons, albeit with rather low fluxes, it is known from 1 au observations that flux ropes near the HCS can show various connectivities to the Sun (e.g., <ref type="bibr" target="#b52">Kilpua et al. 2009;</ref><ref type="bibr" target="#b65">Rouillard et al. 2011;</ref><ref type="bibr" target="#b68">Sanchez-Diaz et al. 2019)</ref>. In Figure <ref type="figure" target="#fig_4">4</ref>, the black field lines threading through the flux ropes are anchored on the Sun at only one end. This Figure was adapted from <ref type="bibr" target="#b68">Sanchez-Diaz et al. (2019)</ref> and reflects the fact that flux ropes near the HCS at 1 au often show unidirectional strahl electrons. Yet, as found in past studies at 1 au (e.g., <ref type="bibr" target="#b68">Sanchez-Diaz et al. 2019)</ref> and confirmed here by the rather bidirectional strahl electrons in the flux ropes of Figure <ref type="figure" target="#fig_3">3</ref>, the magnetic field within the flux ropes may also be anchored on the Sun at both ends. This possibility is depicted with a red dashed line in Figure <ref type="figure" target="#fig_4">4</ref>. There might be in principle four different topologies possible within the flux ropes as a function of the length and properties of the X lines formed: fully disconnected (strahl dropout), anchored at the Sun at both ends (bidirectional strahl), anchored at the Sun at only one end in either hemisphere (either parallel or antiparallel strahl). An analogy is here drawn with studies of flux ropes at the Earth's magnetopause <ref type="bibr" target="#b61">(Pu et al. 2013)</ref>, but further studies remain to be performed to determine whether this analogy is plausible at the Sun. We note that recent global simulations by <ref type="bibr" target="#b42">Higginson &amp; Lynch (2018)</ref> have been able to reproduce complex topologies for flux ropes created at the tip of the helmet streamer. <ref type="bibr" target="#b72">Szabo et al. (2020)</ref> recently noted that high-density regions are less prominent and frequent in PSP observations compared to 1 au (using Wind data for the same period). On the other hand, <ref type="bibr" target="#b29">Crooker et al. (2004)</ref> found that the high-β plasma sheet is shorter than the high-density plasma sheet at 1 au. We propose that the high-β plasma sheet is the main plasma sheet, as observed here, and resulting from magnetic reconnection at the tip of the helmet streamer. As plasma evolves during propagation in a Parker Spiral configuration additional compression near the HCS will lead to a broader high-density region around the original HPS. Magnetic reconnection produces a high-β exhaust because it increases density and temperature but decreases magnetic field at the same time. By contrast, adiabatic compression, which may occur around the HPS during propagation, increases both thermal plasma and magnetic pressures. In the end, this process may produce a broad high-density region around the thinner high-β HPS initially created by magnetic reconnection at the tip of the helmet streamer.</p><p>Our scenario has similarities with that described by <ref type="bibr" target="#b78">Wang et al. (1998</ref><ref type="bibr" target="#b77">Wang et al. ( , 2000</ref>; see also <ref type="bibr" target="#b30">Crooker et al. 1993</ref><ref type="bibr" target="#b28">Crooker et al. , 1996))</ref>, who proposed that the entire HPS consists of discontinuous plasma parcels. Yet, the present observations suggest the full disconnection of most of the HPS, through magnetic reconnection at the tip of the helmet streamer, rather than the transient release of material from closed magnetic loops through interchange reconnection with the adjacent open magnetic fields <ref type="bibr" target="#b78">(Wang et al. 1998</ref><ref type="bibr" target="#b77">(Wang et al. , 2000;;</ref><ref type="bibr" target="#b29">Crooker et al. 2004</ref>). The reason is that interchange reconnection implies the magnetic field lines remain attached to the Sun at one end, and thus contain an electron strahl population (rather than a dropout). While this is not what the present observations suggest, it does not preclude the occurrence of interchange reconnection in other contexts or at other times. It also does not preclude interchange reconnection to form structures in the nearby slow solar wind, such as the famous jets and switchbacks reported with PSP <ref type="bibr" target="#b21">(Bale et al. 2019;</ref><ref type="bibr" target="#b48">Kasper et al. 2019)</ref>, or even most of the background slow solar wind (e.g., <ref type="bibr" target="#b34">Fisk et al. 1999;</ref><ref type="bibr" target="#b33">Fisk &amp; Schwadron 2001)</ref>. It also does not preclude interchange reconnection to be related to the observation of strahl electrons in the flux ropes, as suggested by the flux-rope topology in the simulations by <ref type="bibr" target="#b42">Higginson &amp; Lynch (2018)</ref>.</p><p>Finally, we wish to note that the notion of a plasma sheet for the heliosphere and Earth's magnetosphere displays both similarities and differences. The main analogy is that both plasma sheets are in gross equilibrium at large scales, with a higher-β plasma sheet surrounded by stronger magnetic fields in the lobes/open field regions. In both cases magnetic reconnection may occur in a transient fashion at the tip of the closed field region, leading to the sequential release of flux ropes. The main difference between the two plasma sheets, on the other hand, is that the plasma sheet at Earth is primarily formed by the loading of plasma from the solar wind either from the flanks or through the lobes via the Dungey cycle <ref type="bibr" target="#b32">(Dungey 1961)</ref>. By contrast, there is no such filling mechanism in the case of the Sun and thus there is no preexisting plasma sheet. The way to form a plasma sheet in this context is through the mechanism depicted here.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Conclusions</head><p>Based on a survey of eight TSB intervals during PSP's first orbit, we found that the HCS was typically not a single and sharp current sheet but was instead a broad region composed of a complex succession of high-β blobs and flux ropes, consistent with the periodic release of flux ropes through sequential magnetic reconnection at the tip of the helmet streamer. Based on this and past works, this process is likely capable of producing a large spectrum of flux ropes sizes, from tens of minutes to a few tens of hours.</p><p>The present observations also demonstrate that during PSP's first orbit the HPS, identified as a high-density and high-β region in the vicinity of the TSB and HCS, is solely defined as the exhaust region produced by magnetic reconnection, likely at the tip of the helmet streamer. There is simply no other structure during this orbit that may be defined as the HPS.</p><p>There is no doubt that the next PSP orbits, combined with Solar Orbiter observations and modeling, will help determine whether these findings are always valid, and whether there exist other types of HCS structures or other origins to the HPS.</p><p>Work at IRAP was performed with the support of CNRS and CNES. We visualize data using the CL software available athttp://clweb.irap.omp.eu/, developed by E. Penou. Parker Solar Probe was designed, built, and is now operated by the Johns Hopkins Applied Physics Laboratory as part of NASA's Living with a Star (LWS) program (contract NNN06AA01C). Support from the LWS management and technical team has played a critical role in the success of the Parker Solar Probe mission. All the data used in this work are available on the SWEAP (http://sweap.cfa.harvard.edu/data/) and FIELDS (http://fields.ssl.berkeley.edu/data/) data archives. JPE acknowledges support from UK grant UKRI/STFC ST/ N000692/1.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head></head><label></label><figDesc>35 au, that Sanchez-Diaz et al. (2019) proposed a model for the sequential release of flux ropes by magnetic reconnection at the tip of the helmet streamer (see Section 4 for more details). The release of flux ropes near the tip of the helmet streamer is also supported by global modeling (Higginson &amp; Lynch 2018), as well as laboratory experiments (Peterson et al. 2019). The purpose of the present Letter is to refine the model of Sanchez-Diaz et al. (2019), including the description and nature of the HPS, on the basis of the new Parker Solar Probe (PSP; Fox et al. 2016) data acquired during its first orbit around the Sun. This study is also a follow-up to that by Szabo et al. (2020),</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Carrington maps showing global modeling results of the solar corona and solar wind using the modeling performed by Réville et al. (2020). Panel (a) shows the radial magnetic field component at 5 R S (in Gauss) together with the heliospheric current sheet (HCS) as a thick black line. The PSP orbit magnetic mapping to 5 R s is also shown as large colored points, on the basis of the global modeling results, as well as with a thin black line using a simple Parker spiral for comparison. Panel (b) displays the synthetic UV emission at 193 Å from the corona (Digital Number units; see Boerner et al. 2012), together with the magnetic mapping of the PSP orbit to the photosphere within the global model. The orbit in both panels is colored according to the date during the orbit, as given in the color bar at the bottom.</figDesc><graphic coords="2,143,93,53,06,324,07,348,13" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Parker Solar Probe observations from 2018 October 27 to November 18, corresponding to the closest approach to the Sun during orbit 1. Panel (a) shows the magnetic field vector and its magnitude. Panel (b) shows the ion density and panel (c) the ion radial velocity component.Finally, panel (d)  shows the 315 eV suprathermal electron pitch angle (PA) distributions in normalized units; it shows the ratio of a given PA bin phase space density (PSD) to the PSD at 90°PA for each sample (this unit is used given the very large dynamic range of PSDs during the encounter, with color-coding according to the palette on the right-hand side). The three vertical dashed lines mark the three sector boundaries observed during that interval. There are density enhancements associated with them, as analyzed in the text. The black arrows highlight the two main CMEs of orbit 1, with their associated density increase. A small red arrow highlights another density increase, which is a partial crossing of the HCS and is thus not listed in Table1.</figDesc><graphic coords="4,65,93,53,06,480,06,312,85" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Parker Solar Probe observations from 22:00 UT on 2018 October 27 to 07:00 UT on 2020 October 29. Panels (a) through (f) show, respectively, the ion plasma β, density, V R , |B| and B R , V T and V N , and then B T and B N . In panel (d) we highlight two possible flux-rope structures using black arrows and orange shading. Panel (g) shows 315 eV suprathermal electron pitch angle distributions, this time in actual PSD to best highlight strahl dropouts (color-coding is according to the palette on the right-hand side). We highlight four HPS intervals with blue shadowing, as well as what we call a boundary layer interval using green shadowing (see Section 4 for details). Note that a few spurious (wrong) data points appear mainly in the density (panel (b)) and V T component (panel (e)), in particular during the first and last HPS intervals highlighted.</figDesc><graphic coords="5,65,93,53,06,480,06,328,69" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Sketch of magnetic reconnection as the origin of blobs in (a) a plane containing the neutral line and (b) a plane perpendicular to the neutral line. The gray areas indicate the location of the highest-β regions (or blobs in Sanchez-Diaz et al. 2019). The black lines represent the magnetic field lines around the HCS. The dashed black lines represent the magnetic field lines structure in the vicinity of the flux ropes. While the black magnetic field lines that thread through all the flux ropes are constructed here such that they have only one end attached to the Sun, the red dashed line is meant to highlight that there can exist other configurations such that both ends may be connected to the Sun. Finally, the blue lines in panels (a) and (b) show the magnetic field lines from the highβ blobs, which surround the flux ropes, and that are typically disconnected from the Sun. The orange arrows in panel (b) show the inflows of magnetic reconnection at the X-lines formed by sequential magnetic reconnection at the tip of the helmet streamer. The small blue arrows in panel (b) show the exhaust velocities away from each X-line. The figure is adapted from Sanchez-Diaz et al. (2019).</figDesc><graphic coords="6,46,01,53,06,244,87,354,61" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>List of the Eight True Sector Boundary Intervals during Orbit 1, with Associated Properties as Observed from Particle and Magnetic Field Data</figDesc><table><row><cell>#</cell><cell>TSB Interval Studied</cell><cell>N Increases</cell><cell>Strahl Dropout</cell><cell>Correlated V-B Changes a</cell><cell>Flux Ropes</cell><cell>N Increase and Dropout Consistent</cell></row><row><cell>1</cell><cell>2018 Oct 9 12:00 2018 Oct 11 00:00</cell><cell>Several</cell><cell>Yes</cell><cell>Yes</cell><cell>Maybe</cell><cell>Yes</cell></row><row><cell>2</cell><cell>2018 Oct 18 00:00 2018 Oct 18 09:00</cell><cell cols="5">Insufficient resolution, but magnetic bifurcation possibly indicative of reconnection at main current sheet.</cell></row><row><cell>3</cell><cell>2018 Oct 20 00:00 2018 Oct 20 16:00</cell><cell cols="5">Complex HCS with TSB. Weak density signature and possible strahl dropout.</cell></row><row><cell>4</cell><cell>2018 Oct 27 20:00 2018 Oct 29 07:00</cell><cell>Several</cell><cell>Yes</cell><cell>Yes</cell><cell>Yes</cell><cell>Yes</cell></row><row><cell>5</cell><cell>2018 Oct 29 07:00 2018 Oct 30 07:00</cell><cell>Several</cell><cell>Yes</cell><cell>Yes</cell><cell>Yes</cell><cell>Yes</cell></row><row><cell>6</cell><cell>2018 Nov 13 03:00 2018 Nov 14 18:00</cell><cell>Several</cell><cell>Yes</cell><cell>Yes</cell><cell>Yes</cell><cell>Yes</cell></row><row><cell>7</cell><cell>2018 Nov 23 10:00 2018 Nov 24 04:00</cell><cell>Several</cell><cell>Yes</cell><cell>Yes</cell><cell>Maybe</cell><cell>Yes</cell></row><row><cell>8</cell><cell>2018 Dec 5 06:00 2018 Dec 6 12:00</cell><cell cols="3">Complex HCS with TSB and insufficient resolution.</cell><cell></cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">The Astrophysical Journal Letters, 894:L19 (8pp), 2020 May 10 https://doi.org/10.3847/2041-8213/ab8d2d© 2020. The American Astronomical Society. All rights reserved.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">The Astrophysical Journal Letters, 894:L19 (8pp), 2020 May 10 Lavraud et al.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0001-6807-8494</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Réville</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-2916-3837</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szabo</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0003-3255-9071</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-9954-4707</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<idno>https://orcid.org/0000-0002-6924-9408</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-7077-930X</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-1989-3596</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Case</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-3520-4041</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0003-4733-8319</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Génot</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-7708-8077</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Halekas</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0001-5258-6128</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Klein</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0001-6038-1923</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Korreck</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0001-6095-2490</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Macdowall</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0003-3112-4201</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0001-6172-5062</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Malaspina</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0003-1191-1558</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Pinto</surname></persName>
+		</author>
+		<idno>https://orcid.org/0000-0001-8247-7168</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Poirier</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-1814-4673</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Stevens</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-7728-0085</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Whittlesey</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-7287-5098</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Badman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Martínez Oliveros</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab4da7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">23</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Badman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bonnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-019-1818-7</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page">237</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Goetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Harvey</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-016-0244-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page">49</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bavassano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Woo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bruno</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/97GL01630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">1655</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Boerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lemen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11207-011-9804-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">275</biblScope>
+			<biblScope unit="page">41</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">F</forename><surname>Burlaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Scudder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Isenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA095iA03p02229</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">2229</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Stevens</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab5a7b</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">43</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Cranmer</surname></persName>
+		</author>
+		<idno type="DOI">10.12942/lrsp-2009-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">LRSP</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">U</forename><surname>Crooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Burton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Siscoe</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/96JA02412</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page">24331</biblScope>
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">U</forename><surname>Crooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Lamassa</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003JA010170</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">A03107</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">U</forename><surname>Crooker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Siscoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shodhan</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/93JA00636</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page">9371</biblScope>
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Di</forename><surname>Matteo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Viall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Kepko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<idno type="DOI">10.1029/2018JA02618</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">837</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Dungey</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.6.47</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhRvL</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fisk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Schwadron</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/322503</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">560</biblScope>
+			<biblScope unit="page">425</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Fisk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Zurbuchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Schwadron</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/307556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="page">868</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Velli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0211-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSR</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Onsager</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/94JA02811</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page">805</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Giacalone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D G</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab5221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">29</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Borrini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Asbridge</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA086iA07p05438</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">5438</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2005GL022406</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">5105</biblScope>
+			<date type="published" when="2005">2005a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004JA010809</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">A01107</biblScope>
+			<date type="published" when="2005">2005b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Higginson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Antiochos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Devore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wyper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zurbuchen</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8213/aa6d72</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJL</title>
+		<imprint>
+			<biblScope unit="volume">840</biblScope>
+			<biblScope unit="page">L10</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Higginson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Lynch</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/aabc08</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">859</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y. C.-M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peng</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JA023906</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">6927</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y. C.-M</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qi</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015JA021729</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/94GL01362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">1575</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kahler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00732092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="page">183</biblScope>
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abiad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Austin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0206-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page">131</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Belcher</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-019-1813-z</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page">228</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Korreck</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/745/2/162</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">745</biblScope>
+			<biblScope unit="page">162</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Stevens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Lazarus</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/510842</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">660</biblScope>
+			<biblScope unit="page">901</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kepko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Viall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Antiochos</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016GL068607</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page">4089</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J K</forename><surname>Kilpua</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11207-009-9366-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page">327</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Korreck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">N</forename><surname>Chinchilla</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab6ff9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">69</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11207-009-9341-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">256</biblScope>
+			<biblScope unit="page">379</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Thomsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lefebvre</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2005JA011266</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page">A05211</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.-M</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA019956</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">8721</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Giacalone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab63cc</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">59</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nieves-Chinchilla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Korreck</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab61f5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">63</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Endrizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Beidler</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41567-019-0592-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">NatPh</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">1095</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T.-D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab55ee</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">34</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhong</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/grl.50714</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page">3502</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Réville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Velli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Panasenco</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab4fef</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009JA014471</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">A04103</biblScope>
+			<date type="published" when="2010">2010a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009JA014472</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page">A04104</biblScope>
+			<date type="published" when="2010">2010b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Sheeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Cooper</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637x/734/1/7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">734</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sanchez-Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/aa98e2</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">851</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="2017">2017a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sanchez-Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8213/835/1/L7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJL</title>
+		<imprint>
+			<biblScope unit="volume">835</biblScope>
+			<biblScope unit="page">L7</biblScope>
+			<date type="published" when="2017">2017b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sanchez-Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Rouillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/ab341c</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">882</biblScope>
+			<biblScope unit="page">51</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Sheeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.-H</forename><surname>Casto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-M</forename><surname>Rich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">B</forename></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637x/694/2/1471</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">694</biblScope>
+			<biblScope unit="page">1471</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Sheeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Hawley</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/304338</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">484</biblScope>
+			<biblScope unit="page">472</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Suess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-K</forename><surname>Ko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Steiger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2008JA013704</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">A04103</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Whittlesey</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab5dac</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Szabo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lepping</surname></persName>
+		</author>
+		<title level="m">AIP Conf. Proc. 471, Solar Wind Nine</title>
+				<editor>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Melville, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>AIP</publisher>
+			<date type="published" when="1999">1999</date>
+			<biblScope unit="page">589</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C.-Y</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marsch</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1109447</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">308</biblScope>
+			<biblScope unit="page">519</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Viall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vourlidas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11207-010-9633-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">261</biblScope>
+			<biblScope unit="page">175</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Viall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vourlidas</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/807/2/176</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">807</biblScope>
+			<biblScope unit="page">176</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Sheeley</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Socker</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000JA000149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">133</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y.-M</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Sheeley</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Walters</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/311321</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJL</title>
+		<imprint>
+			<biblScope unit="volume">498</biblScope>
+			<biblScope unit="page">L165</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Whittlesey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab7370</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">74</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Winterhalter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burton</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/93JA03481</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page">6667</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L.-L</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">P</forename><surname>Zank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Adhikari</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab4ff1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<biblScope unit="volume">246</biblScope>
+			<biblScope unit="page">26</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

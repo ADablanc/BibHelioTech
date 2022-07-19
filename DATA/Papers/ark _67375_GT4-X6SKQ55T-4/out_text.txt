@@ -1,0 +1,448 @@
+Vol 439|12 January 2006|doi:10.1038/nature04393
+
+nature
+
+LETTERS
+
+A magnetic reconnection X-line extending more
+than 390 Earth radii in the solar wind
+
+T. D. Phan’, J. T. Gosling’, M. S. Davis’, R. M. Skoug’, M. @ieroset', R. P. Lin’, R. P. Lepping*, D. J. McComas’,
+
+C. W. Smith®, H. Reme’ & A. Balogh®
+
+Magnetic reconnection in a current sheet converts magnetic
+energy into particle energy, a process that is important in many
+laboratory’, space”’ and astrophysical contexts*®. It is not known
+at present whether reconnection is fundamentally a process that
+can occur over an extended region in space or whether it is patchy
+and unpredictable in nature’. Frequent reports of small-scale flux
+ropes and flow channels associated with reconnection®* in the
+Earth’s magnetosphere raise the possibility that reconnection is
+intrinsically patchy, with each reconnection X-line (the line along
+which oppositely directed magnetic field lines reconnect) extending at most a few Earth radii (Rg), even though the associated
+current sheets span many tens or hundreds of Ry. Here we report
+three-spacecraft observations of accelerated flow associated with
+reconnection in a current sheet embedded in the solar wind flow,
+where the reconnection X-line extended at least 390R_, (or
+2.5 X 10°km). Observations of this and 27 similar events imply
+that reconnection is fundamentally a large-scale process. Patchy
+reconnection observed in the Earth’s magnetosphere is therefore
+likely to be a geophysical effect associated with fluctuating boundary conditions, rather than a fundamental property of reconnection. Our observations also reveal, surprisingly, that reconnection
+can operate in a quasi-steady-state manner even when undriven by
+the external flow.
+
+Until recently, in situ observations of reconnection in space
+plasmas were made almost exclusively in the Earth’s magnetosphere,
+in current sheets formed by the interaction between the solar wind
+and the geomagnetic field. Such current sheets have finite extents,
+and their boundary conditions (determined by the solar wind
+magnetic field) often change rapidly. It is generally difficult to
+establish the presence of an extended reconnection X-line in the
+magnetosphere from in situ measurements since that requires the
+presence of widely separated spacecraft detecting the same reconnection events. The chances of such conjunctions are exceedingly small
+because the spacecraft are seldom ideally positioned for such observations and because of the variable boundary conditions. The single
+event reported where two spacecraft (separated by 3R,) detected the
+same reconnection event at the magnetopause only allowed the
+deduction that the X-line was at least 3R_ long'*. Remote observations of proton auroras’ and ionospheric convection”® have hinted
+at the presence of a magnetopause X-line up to 40R, in length but
+that has not yet been confirmed by in situ observations.
+
+The recent discovery of reconnection exhausts in the solar wind'”*
+introduces a new laboratory where reconnection can be investigated
+by in situ measurements. The solar wind reconnection events are
+often associated with interplanetary coronal mass ejections, and the
+magnetic field orientations on the two sides of the current sheets are
+
+ACE
+(236 xX, -33 y, 23 2)
+
+Cluster
+(14x,109,52)
+
+(9 %, -321 ¥, 16 2)
+
+Jet
+
+Figure 1 | Diagram of the encounters of three spacecraft with an extended
+(390R_) magnetic reconnection X-line in the solar wind. Reconnection in
+the current sheet (in blue) occurs at the X-line between magnetic field
+lines with large anti-parallel components B,, and By»; the resulting
+bi-directional plasma jets (confined to the reconnection exhausts) can be
+observed far from the X-line. The ACE, Cluster and Wind spacecraft
+positions are shown in units of Earth radius (Rx) and in geocentric solar
+ecliptic (GSE) coordinates with the x-axis pointing from Earth to Sun, the
+y-axis pointing towards dusk and the z-axis parallel to the ecliptic pole. All
+three spacecraft were relatively close to the ecliptic plane (in yellow). ACE
+was 222R, upstream of Cluster while Wind was 331R , dawnward of Cluster.
+Also shown is the LMN current sheet coordinate system, with N along the
+overall current sheet normal, M along the X-line direction and L along the
+anti-parallel magnetic field direction. The current sheet normal (0.71x,
+0.60y, —0.37Z) in GSE, is tilted 45° relative to the Sun—Earth line. The X-line
+is oriented along (0.47x, —0.79y, —0.392z) in GSE. The thick solid red line is
+the (390R_x) portion of the X-line whose effect is observed by the three
+spacecraft. The solid orange lines denote the spacecraft trajectory relative to
+the solar wind, with the red line portion marking the intersections of the
+exhaust with the spacecraft. The total reconnected magnetic flux
+
+(= Vin Biilxiine OF Vin 2Bi Ll x-tine) is determined by the inflow velocity,
+Vin» the strength of the anti-parallel field components, B;, and the length of
+the X-line, Lyx jine. The angle of the diverging exhausts is exaggerated for
+illustration. The actual calculated angle is ~4°. By, is the magnetic field
+along the X-line.
+
+'Space Sciences Laboratory, University of California, Berkeley, California 94720, USA. *Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, Colorado
+80303, USA. *Los Alamos National Laboratory, MS D466, Los Alamos, New Mexico 87545, USA. “Laboratory for Solar and Space Physics, NASA/Goddard Space Flight Center,
+Greenbelt, Maryland 20771, USA. °Space Science and Engineering Division, Southwest Research Institute, PO Drawer 28510, San Antonio, Texas 78228, USA. ©Department of
+Physics and Space Science Center, University of New Hampshire, Room 207 Morse Hall, 30 College Road, Durham, New Hampshire 03824, USA. ’Centre d'Etude Spatiale des
+Rayonnements, BP 4346, Toulouse 31029, France. Space and Atmospheric Physics Group, Imperial College, London SW7 2BZ, UK.
+
+175
+
+© 2006 Nature Publishing Group
+LETTERS
+
+Vv, + 300 km s“|
+
+01:00
+2002 Feb 02
+
+02:00
+
+Figure 2 | Detections of the magnetic reconnection exhaust by the ACE,
+Cluster-3 and Wind spacecraft on 2 February 2002. a, b, The magnetic
+field and plasma velocity in GSE coordinates measured by ACE; ¢, d, the
+magnetic field and velocity measured by Cluster-3; and e, f, the magnetic
+field and velocity measured by Wind. The x component of the velocity in b, d
+and f has been shifted by +300kms '. The red horizontal bars in a, c ande
+indicate the durations of the encounters by the three spacecraft. The
+magnetic field rotated 140° across the exhaust. The plasma flow in the
+
+usually well defined. The combination of extended current sheets
+with stable boundary conditions and the fact that the solar wind
+rapidly convects the exhausts past observing spacecraft make these
+solar wind reconnection events ideal for addressing the question of
+extended versus patchy reconnection without complications due to
+boundary effects.
+
+On 2 February 2002, the Wind, ACE and Cluster spacecraft were all
+in the solar wind (Fig. 1). Cluster was 14R_ upstream (sunward) of
+the Earth. ACE was 222R, further upstream of Cluster, while Wind,
+in its furthest orbit from Earth during its 10-yr mission, was located
+at 331R, dawnward of Cluster (and 321R, from the Sun—Earth line).
+Figure 2 shows that all three spacecraft detected the passage of
+the same bifurcated current sheet with accelerated plasma
+flow embedded in it. The total magnetic field rotation (or shear)
+across the bifurcated current sheet was 140°. The observed plasma
+acceleration within the exhaust agreed with the reconnection
+prediction to within 5° in direction and 10% in flow speed (see
+Fig. 3c and d for more details). This is consistent with the plasma
+acceleration being accomplished by the magnetic tension force
+associated with linkage of the magnetic field across the exhaust.
+Furthermore, Fig. 3 shows that the plasma density and temperature
+were sharply enhanced at the edges of the current sheet while the
+magnetic field strength was reduced. These signatures are consistent
+with the Petscheck’’ model of fast reconnection, where the reconnection exhaust is bounded by Alfven and/or slow mode waves. The
+plasma and field signatures just described are typical of solar wind
+reconnection exhausts'”'*. What is significant about this 2 February
+2002 event is the fact that the reconnection exhaust was observed by
+three widely separated spacecraft, which allows the deduction of a
+long reconnection X-line.
+
+The extent of the X-line that can be measured depends on the
+orientation of the exhaust and of the X-line relative to the spacecraft.
+
+176
+
+NATURE|Vol 439]12 January 2006
+
+Cluster
+
+Cluster
+
+Vv, + 300 km s7
+
+03:00
+Time (UT)
+
+04:00
+
+exhaust was enhanced by ~50 kms relative to the ambient solar wind flow
+speed. The velocity components were correlated (anti-correlated) with the
+components of the magnetic field at the leading (trailing) edge of the
+exhaust, as expected from reconnection sunward and northward of the
+spacecraft. It is concluded that all three (widely separated) spacecraft
+detected essentially the same reconnection signature. The abrupt changes in
+the magnetic field B, at the two edges and a plateau in the B, profile in the
+middle of the current sheet indicate that the current sheet is bifurcated.
+
+To obtain the X-line orientation, one first needs to determine the
+exhaust geometry.
+
+The bifurcated current sheet associated with the reconnection
+exhaust was convecting with the solar wind, and was first detected at
+ACE at ~01:32 uT, followed by Cluster an hour later (at ~02:32 UT)
+and 2.5h later than at ACE by Wind (at ~03:57 uT). The fact that
+Cluster and Wind detected the current sheet 85min apart even
+though both spacecraft were at nearly the same distance from the
+Sun (but 330Rp, apart in dawn—dusk direction) implies that the
+current sheet must make a large angle relative to the ‘east—west’
+direction (that is, relative to the y direction in Geocentric Solar
+Ecliptic (GSE) coordinates; see Fig. 1). This angle is confirmed by the
+analysis of the current sheet geometry at Wind. The normal to the
+current sheet tilt was determined by minimum variance analysis”° of
+the magnetic field across the current sheet, and was found to be
+(0.71x, 0.60y, —0.37Z) in GSE. The resulting error in the propagation
+time from ACE to Cluster is 4 min 20s, or 7%. From ACE to Wind,
+the error is only 6s, or 0.07%. This agreement demonstrates that the
+current sheet was indeed approximately flat on a scale of hundreds of
+Earth radii (or 0.01 AU) and that the current sheet normal was
+accurate. The small magnitude of the normal magnetic field (By)
+across the current sheet (Fig. 3e) further confirms the accuracy of the
+current sheet normal.
+
+The X-line orientation (0.47x, —0.79y, —0.39Z) in GSE is obtained
+from the components of the magnetic field in the current sheet
+plane’'. From the X-line orientation one can determine, based on the
+locations where the three spacecraft intersected the current sheet,
+that Cluster and Wind detected flow from positions along the X-line
+that were 390R, apart, while ACE detected flow from the X-line at an
+intermediate location (see Fig. 1). This implies that the X-line
+extended at least 390R, (or 4 X 10° ion inertial lengths) and very
+probably a great deal further. If reconnection were patchy, one or
+
+© 2006 Nature Publishing Group
+NATURE|Vol 439]12 January 2006
+
+es 20
+;
+ee
+=
+
+b
+
+Cc
+
+d
+
+e
+
+03:55 04:00
+
+Time (UT)
+
+04:05
+
+hh:mm
+2002 Feb 02
+
+Figure 3 | Quantitative comparison between the flow acceleration observed
+by the Wind spacecraft and the prediction from reconnection. a, The ion
+density; b, the parallel and perpendicular ion temperatures; c, the observed
+and (reconnection) predicted plasma flow speed; d, the observed and
+predicted (in black) plasma velocity in LMN coordinates; and e, the
+magnetic field in LMN coordinates. The anti-parallel component of the
+magnetic field (B,) was nearly equal in magnitude on the two sides of the
+exhaust. The guide field (along the M or X-line direction) was ~4 nT, or 35%
+of the anti-parallel field. The flow velocity perpendicular to the magnetic
+field (vy) was nearly constant (except for a small shift of 5 kms — ') across the
+bifurcated current sheet. The 5kms ' shift in vj corresponds to a normal
+reconnection inflow vy rec of 2.5 km s ' (or a dimensionless reconnection
+rate, VN rec/V alfvens Of 3.3%). The flow predictions in ¢ and d are based on the
+local magnetic field measurements and the reference velocity and magnetic
+field: Vpredicted — Vreference = (1 — a patbnenae) a(T oP eefenenca) ~Me [Bo reibremes
+
+P — Breference] (refs 25, 26). The positive (negative) sign is chosen for the
+leading (trailing) edge of the bifurcated current sheet. w = (p/; — p |) o/B”
+is the pressure anisotropy factor, p is the plasma mass density. The left
+(right) dashed line in c and d denotes the reference times for the prediction
+of reconnection flow acceleration at the leading (trailing) edge of the
+exhaust. The leading and trailing edge predictions merge at 03:59 UT. The
+agreement between the predicted and observed flow is excellent in both the
+magnitude (c) and the components of the velocity (d). This level of
+agreement is similar to other reconnection exhaust events in the solar
+wind’’,
+
+more spacecraft most probably would not have encountered accelerated flow. Another fact that is consistent with a coherent and
+extended X-line is that the reconnection jets detected by all three
+spacecraft were directed in the same direction, implying that the
+X-line was north of all spacecraft. Patchy and random reconnection
+could result in different spacecraft detecting jets directed in different
+directions.
+
+In addition to finding an extended X-line, the fact that the three
+spacecraft detected the reconnection exhaust over a period of 2.5h
+implies that reconnection must have been quasi-steady over at least
+that time span. This finding is similar to reports of quasi-steady
+reconnection at the Earth’s magnetopause *. An important difference is that while reconnection is strongly driven at the magnetopause (by the solar wind impinging on the Earth’s magnetosphere),
+reconnection in the present case appears to have been largely
+
+LETTERS
+
+undriven. There was a discontinuity in the flow speed across the
+current sheet of 27kms_ '; however, Fig. 3d shows that much of the
+flow speed discontinuity was due to a 22kms ° shear in the flow
+component tangential to the current sheet which does not compress
+the current sheet. In the normal direction the velocity across the
+current sheet was nearly constant except for a small 5kms * shift.
+The velocity shift was consistent with a normal inflow, in the frame of
+the current sheet, of VN pec = 2.5kms ' associated with reconnection (at the position of Wind). The fact that reconnection can be
+quasi-steady in the undriven regime is surprising, and has not been
+previously reported to the best of our knowledge.
+
+Finally, with a 12-nT magnetic field convecting into the reconnection region at 2.5kms * (for a dimensionless reconnection rate,
+VNrec/Vattven Of 3.3%, where Valfyven = B(u op)” is the Alfven
+speed), the reconnection electric field was 0.03 mVm_ *. Along an
+X-line of at least 390R», the minimum reconnection potential was
+thus 75 kV.
+
+Although we have shown detailed observations from a single event,
+our conclusions in terms of extended X-lines and steady reconnection are general. We have identified 27 additional events when both
+ACE and Wind were in the solar wind and detected essentially the
+same reconnection signatures, irrespective of how far apart (in space
+and time) the two spacecraft were. Common among all 28 events is
+the fact that the plasma 6 (the ratio of plasma to magnetic pressure)
+in the ambient solar wind (outside the exhausts) is less than unity’”
+(<6 > 29 events = 0.4 + 0.2), a condition that has been suggested to
+be necessary for the occurrence of reconnection’. In four of these
+cases, we have evidence for an X-line extending more than 100R x. We
+are aware of no counter-examples where one spacecraft detected
+the reconnection signature and the other did not. The large
+number of dual-spacecraft detections of reconnection flow with no
+counter-examples strongly indicate that reconnection in the solar
+wind, and probably in other astrophysical domains as well, can
+operate in a large-scale (much larger than the ion inertial scale) and
+quasi-steady mode, leading to the release of large amount of
+magnetic energy.
+
+Our finding also raises an interesting question: how does the
+reconnection X-line become so extended? We suspect that in the case
+of the solar wind, reconnection starts in a limited region in the solar
+wind current sheet closer to the Sun and spreads with time from its
+initiation region. By the time the current sheet reaches 1 Au, the
+X-line has reached hundreds of R; or more. The true size of the solar
+wind X-line can be investigated by the upcoming NASA/STEREO
+mission, which will provide large spacecraft separations that exceed
+1 AU in the GSE-y direction.
+
+Received 30 August; accepted 31 October 2005.
+
+1. Pare, V. K. in Magnetic Reconnection in Space and Laboratory Plasmas
+(ed. Hones, E. W.) 341-346 (Geophysics Monograph 30, American
+Geophysical Union, Washington DC, 1984).
+
+2. Cowley, S. W. H. in Magnetic Reconnection in Space and Laboratory Plasmas
+(ed. Hones, E. W.) 375-378 (Geophysics Monograph 30, American
+Geophysical Union, Washington DC, 1984).
+
+3. Priest, E. R. in Magnetic Reconnection in Space and Laboratory Plasmas
+(ed. Hones, E. W.) 63-78 (Geophysics Monograph 30, American Geophysical
+Union, Washington DC, 1984).
+
+4. Duncan, R. & Thompson, C. Formation of very strongly magnetized neutron
+stars: implications for gamma-ray bursts. Astrophys. J. 392, L9-L13 (1992).
+
+5. Hurley, K. et al. An exceptionally bright flare from SGR 1806-20 and the
+origins of short-duration y-ray bursts. Nature 434, 1098-1103 (2005).
+
+6. Kronberg, P. P. Intergalactic magnetic fields. Phys. Today 55, 40-46 (2002).
+
+7. Nishida, A. Can random reconnection on the magnetopause produce the low
+latitude boundary layer? Geophys. Res. Lett. 16, 227-230 (1989).
+
+8. Russell, C. T. & Elphic, R. C. Initial ISEE magnetometer results: Magnetopause
+observations. Space Sci. Rev. 22, 681-715 (1978).
+
+9. Paschmann, G. et al. Plasma and magnetic characteristics of magnetic flux
+transfer events. J. Geophys. Res. 87, 2159-2168 (1982).
+
+10. Owen, C. J. et al. Cluster PEACE observations of electrons during
+magnetospheric flux transfer events. Ann. Geophys. 19, 1509-1522 (2001).
+
+11. Sonnerup, B., Hasegawa, H. & Paschmann, G. Anatomy of a flux transfer event
+seen by Cluster. Geophys. Res. Lett. 31, doi:10.1029/2004GL020134 (2004).
+
+177
+
+© 2006 Nature Publishing Group
+LETTERS
+
+20.
+
+178
+
+Nakamura, R. et al. Spatial scale of high-speed flows in the plasma sheet
+observed by Cluster. Geophys. Res. Lett. 31, doi:10.1029/2004GL019558
+(2004).
+
+Louarn, P. et al. Cluster observations of complex 3D magnetic structures at the
+magnetopause. Geophys. Res. Lett. 31, doi:10.1029/2004GLO020625 (2004).
+Phan, T. D. et al. Extended magnetic reconnection at the Earth's magnetopause
+from detection of bi-directional jets. Nature 404, 848-850 (2000).
+
+Fuselier, S. A. et al. Cusp aurora dependence on |MF B,. J. Geophys. Res. 107,
+1111, doi:10.1029/2001JA900165 (2002).
+
+Pinnock, M. et al. The location and rate of dayside reconnection during an
+interval of southward interplanetary magnetic field. Ann. Geophys. 21,
+1467-1482 (2003).
+
+Gosling, J. T. et al. Direct evidence for magnetic reconnection in the solar wind
+near 1AU. J. Geophys. Res. 100, doi:10.1029/2004JA010809 (2005).
+
+Gosling, J. T. et al. Magnetic disconnection from the Sun: Observations of a
+reconnection exhaust in the solar wind at the heliospheric current sheet.
+Geophys. Res. Lett. 32, doi:10.1029/2005GL022406 (2005).
+
+Petscheck, H. E. in AAS-NASA Symp. on the Physics of Solar Flares
+
+(28-30 October 1963, Goddard Space Flight Centre, Greenbelt, Maryland)
+(ed. Hess, W. N.) 425-437 (NASA Spec. Publ. SP-50, NASA Science and
+Technical Information Division, Washington DC, 1964).
+
+Sonnerup, B. U. O. & Cahill, L. J. Jr Magnetopause structure and attitude from
+
+Zl.
+
+22.
+
+23,
+
+24.
+
+25.
+
+26.
+
+NATURE|Vol 439]12 January 2006
+
+Explorer 12 observations. J. Geophys. Res. 72, 171-183 (1967).
+
+Sonnerup, B. U. O. Magnetopause reconnection rate. J. Geophys. Res. 79,
+1546-1549 (1974).
+
+Gosling, J. T. et al. Evidence for quasi-stationary reconnection at the dayside
+magnetopause. J. Geophys. Res. 87, 2147-2158 (1982).
+
+Frey, H. et al. Continuous magnetic reconnection at Earth's magnetopause.
+Nature 426, 533-537 (2003).
+
+Phan, T. D. et al. Cluster observations of continuous reconnection at the
+magnetopause under steady interplanetary magnetic field conditions. Ann.
+Geophys. 22, 2355-2367 (2004).
+
+Paschmann, G. et al. The magnetopause for large magnetic shear: AMPTE/IRM
+observations. J. Geophys. Res. 91, 11099-11115 (1986).
+
+Hudson, P. D. Discontinuities in an anisotropic plasma and their identification
+in the solar wind. Planet. Space Sci. 18, 1611-1622 (1970).
+
+Acknowledgements Wind, ACE and Cluster research in the US is supported by
+NASA. Cluster research in France and the UK is supported by CNES and PPARC.
+
+Author Information Reprints and permissions information is available at
+npg.nature.com/reprintsandpermissions. The authors declare no competing
+financial interests. Correspondence and requests for materials should be
+addressed to T.D.P. (pbhan@ssl.berkeley.edu).
+
+© 2006 Nature Publishing Group

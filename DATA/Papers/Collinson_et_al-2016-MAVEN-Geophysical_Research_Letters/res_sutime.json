@@ -1,0 +1,248 @@
+[
+    {
+        "end": 818,
+        "start": 807,
+        "text": "18 FEB 2016",
+        "timex-value": "2016-02-18",
+        "type": "DATE",
+        "value": "2016-02-18"
+    },
+    {
+        "end": 838,
+        "start": 828,
+        "text": "4 APR 2016",
+        "timex-value": "2016-04-04",
+        "type": "DATE",
+        "value": "2016-04-04"
+    },
+    {
+        "end": 13453,
+        "start": 13445,
+        "text": "06:10:00",
+        "timex-value": "T06:10:00",
+        "type": "TIME",
+        "value": "T06:10:00"
+    },
+    {
+        "end": 13462,
+        "start": 13454,
+        "text": "06:13:00",
+        "timex-value": "T06:13:00",
+        "type": "TIME",
+        "value": "T06:13:00"
+    },
+    {
+        "end": 13471,
+        "start": 13463,
+        "text": "06:16:00",
+        "timex-value": "T06:16:00",
+        "type": "TIME",
+        "value": "T06:16:00"
+    },
+    {
+        "end": 13480,
+        "start": 13472,
+        "text": "06:19:00",
+        "timex-value": "T06:19:00",
+        "type": "TIME",
+        "value": "T06:19:00"
+    },
+    {
+        "end": 13489,
+        "start": 13481,
+        "text": "06:22:00",
+        "timex-value": "T06:22:00",
+        "type": "TIME",
+        "value": "T06:22:00"
+    },
+    {
+        "end": 13508,
+        "start": 13490,
+        "text": "06:25:00 Greenwich",
+        "timex-value": "T06:25:00+0000",
+        "type": "TIME",
+        "value": "T06:25:00+0000"
+    },
+    {
+        "end": 13613,
+        "start": 13600,
+        "text": "13 April 2007",
+        "timex-value": "2007-04-13",
+        "type": "DATE",
+        "value": "2007-04-13"
+    },
+    {
+        "end": 15169,
+        "start": 15154,
+        "text": "06:15 Greenwich",
+        "timex-value": "T06:15+0000",
+        "type": "TIME",
+        "value": "T06:15+0000"
+    },
+    {
+        "end": 15198,
+        "start": 15189,
+        "text": "06:17 GMT",
+        "timex-value": "T06:17+0100",
+        "type": "TIME",
+        "value": "T06:17+0100"
+    },
+    {
+        "end": 15534,
+        "start": 15525,
+        "text": "06:14 GMT",
+        "timex-value": "T06:14+0100",
+        "type": "TIME",
+        "value": "T06:14+0100"
+    },
+    {
+        "end": 15802,
+        "start": 15793,
+        "text": "06:19 GMT",
+        "timex-value": "T06:19+0100",
+        "type": "TIME",
+        "value": "T06:19+0100"
+    },
+    {
+        "end": 16475,
+        "start": 16461,
+        "text": "06:15 to 06:16",
+        "type": "DURATION",
+        "value": {
+            "begin": "T06:15",
+            "end": "T06:16"
+        }
+    },
+    {
+        "end": 16531,
+        "start": 16508,
+        "text": "Between 06:14 and 06:19",
+        "type": "DURATION",
+        "value": {
+            "begin": "T06:14",
+            "end": "T06:19"
+        }
+    },
+    {
+        "end": 17217,
+        "start": 17203,
+        "text": "06:16 to 06:17",
+        "type": "DURATION",
+        "value": {
+            "begin": "T06:16",
+            "end": "T06:17"
+        }
+    },
+    {
+        "end": 20239,
+        "start": 20220,
+        "text": "2007-03-29 06:27:00",
+        "timex-value": "2007-03-29T06:27:00",
+        "type": "TIME",
+        "value": "2007-03-29T06:27:00"
+    },
+    {
+        "end": 20280,
+        "start": 20261,
+        "text": "2007-04-13 06:15:00",
+        "timex-value": "2007-04-13T06:15:00",
+        "type": "TIME",
+        "value": "2007-04-13T06:15:00"
+    },
+    {
+        "end": 20311,
+        "start": 20303,
+        "text": "06:16:00",
+        "timex-value": "T06:16:00",
+        "type": "TIME",
+        "value": "T06:16:00"
+    },
+    {
+        "end": 20353,
+        "start": 20334,
+        "text": "2007-12-05 02:40:00",
+        "timex-value": "2007-12-05T02:40:00",
+        "type": "TIME",
+        "value": "2007-12-05T02:40:00"
+    },
+    {
+        "end": 20395,
+        "start": 20376,
+        "text": "2008-02-04 04:45:00",
+        "timex-value": "2008-02-04T04:45:00",
+        "type": "TIME",
+        "value": "2008-02-04T04:45:00"
+    },
+    {
+        "end": 20424,
+        "start": 20416,
+        "text": "04:46:00",
+        "timex-value": "T04:46:00",
+        "type": "TIME",
+        "value": "T04:46:00"
+    },
+    {
+        "end": 20455,
+        "start": 20447,
+        "text": "04:47:00",
+        "timex-value": "T04:47:00",
+        "type": "TIME",
+        "value": "T04:47:00"
+    },
+    {
+        "end": 20484,
+        "start": 20476,
+        "text": "04:48:00",
+        "timex-value": "T04:48:00",
+        "type": "TIME",
+        "value": "T04:48:00"
+    },
+    {
+        "end": 20513,
+        "start": 20505,
+        "text": "04:49:00",
+        "timex-value": "T04:49:00",
+        "type": "TIME",
+        "value": "T04:49:00"
+    },
+    {
+        "end": 20553,
+        "start": 20534,
+        "text": "2008-03-31 04:05:30",
+        "timex-value": "2008-03-31T04:05:30",
+        "type": "TIME",
+        "value": "2008-03-31T04:05:30"
+    },
+    {
+        "end": 20593,
+        "start": 20574,
+        "text": "2008-04-08 03:56:00",
+        "timex-value": "2008-04-08T03:56:00",
+        "type": "TIME",
+        "value": "2008-04-08T03:56:00"
+    },
+    {
+        "end": 20624,
+        "start": 20616,
+        "text": "03:57:00",
+        "timex-value": "T03:57:00",
+        "type": "TIME",
+        "value": "T03:57:00"
+    },
+    {
+        "end": 20653,
+        "start": 20645,
+        "text": "03:58:00",
+        "timex-value": "T03:58:00",
+        "type": "TIME",
+        "value": "T03:58:00"
+    },
+    {
+        "end": 20684,
+        "start": 20676,
+        "text": "03:59:00",
+        "timex-value": "T03:59:00",
+        "type": "TIME",
+        "value": "T03:59:00"
+    }
+]

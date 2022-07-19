@@ -1,0 +1,1987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Secondary Magnetic Reconnection at Earth&apos;s Flank Magnetopause</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2021-12-09">09 December 2021</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Tang</surname></persName>
+							<email>bbtang@spaceweather.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Space Weather</orgName>
+								<orgName type="institution" key="instit1">National Space Science Center</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+							<email>wyli@spaceweather.ac.cn</email>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Space Weather</orgName>
+								<orgName type="institution" key="instit1">National Space Science Center</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Space Weather</orgName>
+								<orgName type="institution" key="instit1">National Space Science Center</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">College of Earth and Planetary Sciences</orgName>
+								<orgName type="institution">University of Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yu</forename><forename type="middle">V</forename><surname>Khotyaintsev</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Swedish Institute of Space Physics</orgName>
+								<address>
+									<settlement>Uppsala</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Swedish Institute of Space Physics</orgName>
+								<address>
+									<settlement>Uppsala</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Q</forename><forename type="middle">H</forename><surname>Zhang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Space Sciences</orgName>
+								<orgName type="laboratory">Shandong Provincial Key Laboratory of Optical Astronomy and Solar-Terrestrial Environment</orgName>
+								<orgName type="institution">Shandong University</orgName>
+								<address>
+									<settlement>Weihai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Sun</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Space Weather</orgName>
+								<orgName type="institution" key="instit1">National Space Science Center</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Li</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">State Key Laboratory of Space Weather</orgName>
+								<orgName type="institution" key="instit1">National Space Science Center</orgName>
+								<orgName type="institution" key="instit2">Chinese Academy of Sciences</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Institute of Space Sciences</orgName>
+								<orgName type="laboratory">Shandong Provincial Key Laboratory of Optical Astronomy and Solar-Terrestrial Environment</orgName>
+								<orgName type="institution">Shandong University</orgName>
+								<address>
+									<settlement>Weihai</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Trattner</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Laboratory of Atmospheric and Space Physics</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>CO</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Giles</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="institution">NASA Goddard Space Flight Center</orgName>
+								<address>
+									<settlement>Greenbelt</settlement>
+									<region>MD</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Lindqvist</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="institution">KTH Royal Institute of Technology</orgName>
+								<address>
+									<settlement>Stockholm</settlement>
+									<country key="SE">Sweden</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="laboratory">Laboratory of Atmospheric and Space Physics</orgName>
+								<orgName type="institution">University of Colorado Boulder</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>CO</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="institution">Southwest Research Institute</orgName>
+								<address>
+									<addrLine>San Antonio</addrLine>
+									<region>TX</region>
+									<country key="US">United States</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Takuma</forename><surname>Nakamura</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff8">
+								<orgName type="institution">Austrian Academy of Sciences (OeAW)</orgName>
+								<address>
+									<country key="AT">Austria</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff9">
+								<orgName type="laboratory">UMR5277 Institut de recherche en astrophysique et planétologie (IRAP)</orgName>
+								<orgName type="institution">Tieyan Wang</orgName>
+								<address>
+									<settlement>Rutherford Appleton Laboratory</settlement>
+									<country>France, United Kingdom</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff10">
+								<orgName type="institution">Li WY</orgName>
+								<address>
+									<addrLine>Wang C, Khotyaintsev YV, Sun TR, Li H, Wang XY, Trattner KJ</addrLine>
+									<settlement>Graham, Zhang, Giles BL, Lindqvist PA</settlement>
+									<region>DB, QH</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Secondary Magnetic Reconnection at Earth&apos;s Flank Magnetopause</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2021-12-09">09 December 2021</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D5C8AE167A886E9BDB93C311D9B3E696</idno>
+					<idno type="DOI">10.3389/fspas.2021.740560</idno>
+					<note type="submission">This article was submitted to Space Physics, a section of the journal Frontiers in Astronomy and Space Sciences Received: 13 July 2021 Accepted: 27 September 2021</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T14:39+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>magnetic reconnection</term>
+					<term>electron diffusion region</term>
+					<term>magnetopause</term>
+					<term>solar wind-magnetosphere coupling</term>
+					<term>solar wind entry</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We report local secondary magnetic reconnection at Earth's flank magnetopause by using the Magnetospheric Multiscale observations. This reconnection is found at the magnetopause boundary with a large magnetic shear between closed magnetospheric field lines and the open field lines generated by the primary magnetopause reconnection at large scales. Evidence of this secondary reconnection are presented, which include a secondary ion jet and the encounter of the electron diffusion region. Thus the observed secondary reconnection indicates a cross-scale process from a global scale to an electron scale. As the aurora brightening is also observed at the morning ionosphere, the present secondary reconnection suggests a new pathway for the entry of the solar wind into geospace, providing an important modification to the classic Dungey cycle.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">INTRODUCTION</head><p>The Earth's global magnetospheric plasma circulation, which is driven by the interaction between the magnetized solar wind and the magnetosphere, is known as the Dungey cycle <ref type="bibr" target="#b8">(Dungey, 1961)</ref>. When the interplanetary magnetic field (IMF) is southward, this cycle begins at the dayside magnetopause where magnetic reconnection opens previously closed magnetospheric magnetic lines. These open magnetic field lines are dragged anti-sunward by the solar wind flows to the magnetotail, where the nightside reconnection eventually re-closes the open field lines. The newly closed magnetic flux returns to the dayside where the cycle repeats (Figure <ref type="figure" target="#fig_0">1A</ref>). Considering the modulation of the solar wind and the interplanetary magnetic field to this cycle <ref type="bibr" target="#b5">(Cowley, 1973;</ref><ref type="bibr" target="#b2">Borovsky, 2008)</ref>, the imbalance of the dayside and nightside magnetic reconnection <ref type="bibr" target="#b28">(Milan et al., 2007)</ref>, and the patchy/transient nature of reconnection <ref type="bibr" target="#b23">(Khotyaintsev et al., 2004;</ref><ref type="bibr" target="#b21">Hasegawa et al., 2010)</ref>, the Dungey cycle explains various space weather phenomena, such as geomagnetic storms, substorms and aurorae.</p><p>Magnetopause reconnection, the primary driver in the Dungey cycle, is locally determined by the magnetic shear, the plasma beta and the flow shear across the magnetopause (e.g., <ref type="bibr" target="#b44">Swisdak et al., 2003;</ref><ref type="bibr" target="#b36">Phan et al., 2013;</ref><ref type="bibr" target="#b7">Doss et al., 2015)</ref>. Therefore, its location and efficiency at macro scales varies significantly under different the solar wind conditions. In fact, magnetic reconnection is found to be most active when IMF is southward. In this situation, reconnection occurs at the low-latitude magnetopause, spanning from subsolar magnetopause to the flanks (e.g., <ref type="bibr">Fuselier et al., 2011;</ref><ref type="bibr" target="#b48">Trattner et al., 2012;</ref><ref type="bibr" target="#b54">Vines et al., 2015)</ref>. Reconnection at the flank magnetopause can be affected by the local plasma shear flow, and thus presents some different features (e.g., <ref type="bibr" target="#b18">Gomez et al., 2016;</ref><ref type="bibr" target="#b19">Haaland et al., 2020)</ref>. As reconnection can change the toplogy of magnetic field lines and convert energy to plasmas, they act as a major process responsible for the solar wind entry into the magnetosphere, and the consequent global scale magnetospheric convection <ref type="bibr" target="#b8">(Dungey, 1961;</ref><ref type="bibr" target="#b13">Fuselier and Lewis, 2011;</ref><ref type="bibr" target="#b57">Welling et al., 2015)</ref>. Along with magnetic reconnection, other processes such as the Kelvin-Helmholtz instability at the flank region <ref type="bibr" target="#b20">(Hasegawa et al., 2004)</ref> or the kinetic diffusive particle transport <ref type="bibr" target="#b50">(Treumann et al., 1991)</ref> can also contribute to the mass and energy transfer across the magnetopause. Recently, magnetic reconnection, triggered by local plasma and magnetic field variations at the magnetopause, are also observed. For example, they are reported at the trailing edges of Kelvin-Helmholtz waves <ref type="bibr" target="#b11">(Eriksson et al., 2016;</ref><ref type="bibr" target="#b26">Li et al., 2016)</ref>, at the interface of interlinked magnetic flux tubes <ref type="bibr" target="#b22">(Kacem et al., 2018;</ref><ref type="bibr" target="#b32">Øieroset et al., 2019)</ref> and at the boundary of two neighboring flux ropes <ref type="bibr" target="#b55">(Wang et al., 2017;</ref><ref type="bibr" target="#b58">Zhou et al., 2017)</ref>. The local secondary reconnection, which is basically taken as secondary effects of the primary reconnection are also reported (e.g., <ref type="bibr" target="#b6">Daughton et al., 2011;</ref><ref type="bibr" target="#b24">Lapenta et al., 2015)</ref>. These local reconnection are suggested to transfer plasma across the magnetopause (e.g., <ref type="bibr" target="#b31">Nakamura et al., 2017)</ref>, but whether they can result into magnetospheric consequences at large scales remains an open issue.</p><p>Here, we use observations from the Magnetospheric Multiscale (MMS) mission <ref type="bibr" target="#b3">(Burch et al., 2016)</ref> to present local secondary magnetic reconnection at the flank magnetopause, which is identified by a secondary ion jet and the encounter of the electron diffusion region. This newly discovered secondary reconnection re-closes the open magnetic field lines previously generated by magnetopause reconnection, providing a new pathway for the entry of the solar wind into the magnetosphere.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">OBSERVATIONS</head><p>On June 1, 2018, the four MMS spacecraft cross the flank magnetopause for several times approximately at (−15.6, −19.7, 2.2) Earth radii (R E ) in geocentric solar magnetospheric (GSM) coordinates, and the spacecraft are in a tetrahedron formation with ∼36 km separation. We use ion and electron data from the fast plasma investigation <ref type="bibr" target="#b37">(Pollock et al., 2016)</ref>, magnetic field data from the fluxgate magnetometer <ref type="bibr" target="#b39">(Russell et al., 2016)</ref>, and electric field data from electric field double probes <ref type="bibr" target="#b10">(Ergun et al., 2016;</ref><ref type="bibr" target="#b27">Lindqvist et al., 2016)</ref>. During these multiple magnetopause crossings, the solar wind conditions are relatively stable (Both IMF B Y and IMF B Z are negative, seeing Supplementary Figure <ref type="figure" target="#fig_0">S1</ref>), and MMS do not observe quasi-periodic perturbations of the plasma and magnetic field parameters, suggesting Kelvin-Helmholtz waves are not active during this time interval.</p><p>Overview of one inbound magnetopause crossing between 01:01:20 UT and 01:02:55 UT is provided in Figure <ref type="figure" target="#fig_1">2</ref>. The spacecraft are initially located in the magnetosheath, characterized by a high plasma density (Figure <ref type="figure" target="#fig_1">2B</ref>) and large anti-sunward flows (V i, x ) at ∼ −400 km s −1 (Figures <ref type="figure" target="#fig_1">2C,F</ref>), corresponding to a typical energy of ∼ 1 keV (Figure <ref type="figure" target="#fig_1">2D</ref>). On the other side, the magnetosphere is characterized by a lower ion density, smaller ion speeds, and the appearance of high energy ions (∼ 10 keV). During this magnetopause crossing, MMS observe a reversal of B z (Figure <ref type="figure" target="#fig_1">2A</ref>), a large northward ion flow (V i, z ) reaching ∼ 300 km s −1 (Figures <ref type="figure" target="#fig_1">2C,G</ref>), and a mixture of magnetosheath and magnetospheric ions (Figure <ref type="figure" target="#fig_1">2D</ref>). Such observations indicate ongoing magnetopause reconnection between the shocked solar wind (i.e., magnetosheath plasma) and the magnetospheric plasmas (referred to as the primary reconnection hereafter) and the spacecraft are located northward of the reconnection X-line. These observations are in good agreement with the predictions of the maximum magnetic shear model shown in Figure 3A <ref type="bibr" target="#b47">(Trattner et al., 2007</ref><ref type="bibr" target="#b49">(Trattner et al., , 2021))</ref>. It presents large magnetic shear at the dawnside flanks, which is favorable for reconnection, and MMS is located at its north side, observing a northward reconnection jet. We also test the Walén relation by comparing two vectors ΔV i V i − V i,MSH and ΔV A V A − V A,MSH , where V A,MSH , V i,MSH are the reference plasma Alfven velocity and bulk velocity in the magnetosheath <ref type="bibr" target="#b42">(Sonnerup et al., 1981)</ref>. The result shows that the velocity change across the magnetosheath side of the primary reconnection is mostly Alfvenic (Figure <ref type="figure" target="#fig_2">3B</ref>), indicating this boundary is a rotational discontinuity and open magnetic field lines are generated from reconnection. Moreover, in the reconnection exhaust, we find that the magnetic field has a significant positive B x component (Figure <ref type="figure" target="#fig_1">2A</ref>), and plasmas move anti-sunward (V i,x ∼ −200 km s −1 , Figure <ref type="figure" target="#fig_1">2C</ref>), indicating that these reconnected open field lines are draped along the magnetopause by the solar wind flows (Figure <ref type="figure" target="#fig_0">1A</ref>).</p><p>It is interesting to note that an unexpected ion population flowing along the anti-sunward direction (Figure <ref type="figure" target="#fig_1">2H</ref>) appears just seconds before the MMS crossing of the boundary between the primary reconnection exhaust and the magnetosphere, where a large local magnetic shear (∼ 145 °) is mainly due to the B x component (Figure <ref type="figure" target="#fig_0">1A</ref>). Here, we explain this ion population as the outflow of another ongoing reconnection at the boundary with large magnetic shear (referred to as secondary reconnection), since it is almost aligned in the -L direction in a local current sheet (LMN) coordinate [Figure <ref type="figure" target="#fig_3">4N</ref>, <ref type="bibr" target="#b40">(Russell and Elphic, 1978)</ref>], which is determined from minimum variance analysis of the magnetic field (L [0.97, 0.09, −0.23] is the reconnecting field direction, M [0.23, −0.61, 0.76] is the out-ofplane direction, and N [−0.07, −0.77, −0.61] (GSM) is the normal direction). The eigenvalues of LMN vectors are [λ 1 : λ 2 : λ 3 ] <ref type="bibr">[200.3 : 5.5: 2.6</ref>]. The relative small ratio of λ 2 : λ 3 (∼2.1) is related to a local B N enhancement around 01:02:49.8 UT, and this B N enhancement can be explained by the magnetic flux pileup associated with the electron flow breaking <ref type="bibr" target="#b17">(Genestreti et al., 2020)</ref>. We provide a zoom-in of this boundary with more signatures of the secondary reconnection in Figure <ref type="figure" target="#fig_3">4</ref>. At the B L reversal point (approximately 01:02:50.7 UT), MMS one observes a magnetic minimum at (|B|∼ 1.8 nT, Figure <ref type="figure" target="#fig_3">4F</ref>), a large perpendicular electron flow in the L direction (V e,L⊥ ∼ −800 km s −1 , Figure <ref type="figure" target="#fig_3">4H</ref>), and nearly isotropic electron distributions (Figure <ref type="figure" target="#fig_3">4K</ref>) with T e,⊥ ≈ T e, (Figure <ref type="figure" target="#fig_3">4J</ref>). At the two sides of the B L reversal point, the electron temperature profile shows clear anisotropy (T e,⊥ &lt; T e, , Figure <ref type="figure" target="#fig_3">4I</ref>), which is consistent with the magnetic field-aligned electrons from the inflow region (Figure <ref type="figure" target="#fig_3">4K</ref>) <ref type="bibr" target="#b9">(Egedal et al., 2011)</ref>. These ion and electron signatures agree well with the scenario of reconnection.</p><p>We perform a detailed analysis of the observed secondary reconnection, which is embedded in the plasma flow imposed by the primary reconnection. The shear flow is negative in the reconnecting (L) direction and positive in the out-of-plane (M) direction (Figures <ref type="figure" target="#fig_3">4C,M</ref>). The negative V L shear flow can lead into the convection of the X-line, and a reduction of the outflow speed in the X-line frame <ref type="bibr" target="#b7">(Doss et al., 2015)</ref>. The predicted outflow density (ρ out ) <ref type="bibr" target="#b4">(Cassak and Shay, 2007)</ref>, the convection speed of the X-line (V drift ) and the outflow speed in the spacecraft frame (V out ) <ref type="bibr" target="#b7">(Doss et al., 2015)</ref> are written as where the "1", "2," and "out" subscripts refer to parameters in the primary reconnection exhaust, in the magnetospheric side and in the outflow region, respectively, and c A,asym B 1 B 2 /μ 0 ρ out is the outflow speed of the secondary reconnection without a flow shear <ref type="bibr" target="#b4">(Cassak and Shay, 2007)</ref>. Using the values obtained from observations (B 1 ∼ 18.4 nT, ρ 1 ∼ 1.48 cm −3 , V L,1 ∼ −200 km s −1 ; B 2 ∼ 20.0 nT, ρ 2 ∼ 0.43 cm −3 , V L,2 ∼ 0), we obtain ρ out ∼ 0.98 cm −3 , V drift ∼ −160 km s −1 , and the outflow speed at the anti-sunward side V out ∼ −570 km s −1 . Moreover, the shear flow in the M direction, which is larger than 100 km s −1 as shown in Figure <ref type="figure" target="#fig_3">4C</ref>, can drag the reconnected magnetic field lines out of the reconnecting plane (Figure <ref type="figure" target="#fig_3">4L</ref>), resulting into the B M variation, and V M reduction inside the reconnection exhaust. During the time interval from 01:02:32 UT to 01:02:46 UT, MMS observes negative B M (Figure <ref type="figure" target="#fig_3">4A</ref>), decreased V M , slightly enhanced V L (Figure <ref type="figure" target="#fig_3">4C</ref>) and two ion populations (Figure <ref type="figure" target="#fig_3">4D</ref>). The high energy ion population, which is almost aligned in the -L direction, travels at a speed of ∼ 500 km s −1 (Figure <ref type="figure" target="#fig_3">4N</ref>). These observations are consistent with the prediction of reconnection with a flow shear, suggesting a short excursion of MMS into the exhaust of the secondary reconnection. The secondary ion jet decreases its speed in Figure <ref type="figure" target="#fig_3">4O</ref>, and is not easy to identify around the B L reversal (Figure <ref type="figure" target="#fig_3">4P</ref>), which indicates that MMS spacecraft moves closer to the central reconnection diffusion region (Figure <ref type="figure" target="#fig_3">4L</ref>). The topology of the magnetic field lines can be inferred from the pitch angle spectrum of high-energy magnetospheric electrons (Figure <ref type="figure" target="#fig_3">4E</ref>), which has been extensively used in previous studies (e.g., <ref type="bibr">Fuselier et al., 2011;</ref><ref type="bibr" target="#b38">Pu et al., 2013;</ref><ref type="bibr" target="#b34">Øieroset et al., 2015)</ref>. In the primary reconnection exhaust with a northward ion jet, an anti-parallel streaming electron flow inside the primary exhaust suggests an open field line geometry connecting to the northern hemisphere (Figure <ref type="figure" target="#fig_2">3A</ref>). While inside the magnetosphere, the electron flux is more intense, and mostly isotropic, indicating closed field lines. Therefore, we confirm that the secondary reconnection occurs between closed magnetospheric field lines and the open field lines previously generated by the primary magnetopause reconnection (Figure <ref type="figure" target="#fig_2">3B</ref>), which is different from the primary magnetopause reconnection, occurring between the shocked solar wind magnetic field lines and the magnetospheric field lines.</p><formula xml:id="formula_0">ρ out ∼ ρ 1 B 2 + ρ 2 B 1 B 1 + B 2 (1) v drift ∼ ρ 1 B 2 V L,1 + ρ 2 B 1 V L,2 ρ 1 B 2 + ρ 2 B 1 (2) v out ∼ c 2 A,asym − V L,1 − V L,2 2 ρ 1 B 2 ρ 2 B 1 ρ 1 B 2 + ρ 2 B 1 2 ± V drift ,<label>(3)</label></formula><p>Spatial structures of the secondary reconnection at the scale of MMS separations near the B L reversal are further investigated (Figure <ref type="figure" target="#fig_5">5</ref>). The reduced/enhanced B M variations (Figure <ref type="figure" target="#fig_5">5C</ref>), indicating a Hall pattern of reconnection <ref type="bibr">(Øieroset et al., 2001)</ref> with a guide-field of ∼ 5 nT, are consistent with the anti-sunward crossing of the X-line. During this crossing, the minimum magnetic field (|B|) at MMS two is obviously larger than that at other spacecraft (Figure <ref type="figure" target="#fig_5">5A</ref>). Therefore, even though the "nominal" magnetic curvature radius (R C ) is comparable with the electron gyro-radius (ρ e , κ 2 R C /ρ e , Figure <ref type="figure" target="#fig_5">5G</ref>) at the time interval of |B|, the expected electron pitch angle mixing due to the magnetic curvature scattering <ref type="bibr" target="#b25">(Lavraud et al., 2016;</ref><ref type="bibr" target="#b45">Tang et al., 2019)</ref> is only found at MMS 1, 3 and 4, but not at MMS 2 (Figure <ref type="figure" target="#fig_5">5I1-I4</ref>). The out-of-plane current density (J M , Figure <ref type="figure" target="#fig_5">5F</ref>) at MMS 1-MMS 4 are also different. In general, there are two main J M peaks; one is at the centre of the B L reversal and the other is near the magnetospheric side. The magnitude of the current density at these two current sheets observed at MMS two is about 200 nA m −2 , which is significantly weaker than that observed by other spacecraft. All these differences suggest dramatic changes of the electron dynamics at MMS separation scales, which can be explained by the spatial evolution of the reconnection structure along the outflow direction. MMS 2 then is the furthermost spacecraft in the outflow region (Figure <ref type="figure" target="#fig_0">1B</ref>). The peak-to-peak separation of the two current sheets is approximately 0.8 s, corresponding to ∼ 65 km or 0.33d i (the ion inertial length d i ≈ 200 km). Note that the spatial separation is estimated using the magnetopause speed of 80 km s −1 along its normal direction estimated from the multi-spacecraft timing analysis of B L . Such two strong current sheets are also found in the kinetic particle simulation with similar guide field strength and density asymmetry [see (Figure <ref type="figure" target="#fig_2">3</ref>-7 of <ref type="bibr" target="#b29">Montag, 2018)</ref>]. In his simulation, the two current sheets, with a separation less than 1d i along the normal direction, extend from the X-line only up to several ion inertial lengths. These results, as well as the electron flow that is faster than predicted outflow speed (Figure <ref type="figure" target="#fig_3">4H</ref>), demonstrate that MMS may cross in the vicinity of the electron diffusion region.</p><p>Agyrotropic electron distributions, which are an important indicator of the electron diffusion region <ref type="bibr" target="#b3">(Burch et al., 2016;</ref><ref type="bibr" target="#b56">Webster et al., 2018)</ref>, are also found during the secondary magnetic reconnection crossing, and measure of electron agyrotropy, Q √ <ref type="bibr" target="#b43">(Swisdak, 2016)</ref> in Figure <ref type="figure" target="#fig_5">5G</ref> presents several peaks. On the magnetosheath side, electrons with energies from approximately 150-300 eV are observed to be almost isotropic around 01:02:49.5 UT (Figure <ref type="figure" target="#fig_5">5</ref>, panels (H1)-(H4)), and at its edge, agyrotropic crescent electron distributions in the plane perpendicular to the local magnetic field are found due to the finite gyro-radius effect (Figure <ref type="figure" target="#fig_5">5K</ref>). The energy of these agyrotropic electrons is larger than that of typical sheath electrons (Figure <ref type="figure" target="#fig_1">2E</ref>), which are energized sheath electrons and/or the electrons originated from the magnetosphere. At the boundary of the |B| min region, the gyration of the electrons after the magnetic curvature scattering forms crescent electron distributions as well (Figure <ref type="figure" target="#fig_5">5L</ref>), and the energy of these electrons are similar to sheath electrons. Finally, agyrotropic electron distributions are found on the magnetospheric side (Figure <ref type="figure" target="#fig_5">5M</ref>), where a density gradient is present. These observed agyrotropic electron distributions not only support the encounter of the electron diffusion region vicinity, but also indicate characteristic reconnection features with weak density and magnetic field asymmetry (Figures <ref type="figure" target="#fig_3">4F,G</ref>).</p><p>The secondary reconnection re-closes the open magnetic field lines in the primary exhaust by reconnecting with closed magnetospheric field lines. The newly closed field lines can transport plasma in the solar wind into magnetosphere, which could populate the plasma sheet (e.g., <ref type="bibr" target="#b1">Allen et al., 2017)</ref> and even precipitate in to the ionosphere. In this study, we present auroral observations in the northern hemisphere from Defense Meteorological Satellite Program (DMSP)/F18 satellite, and find some bright aurora in the morning sector (Figures 6) as observed by the on board Special Sensor Ultraviolet Spectrographic Imager (SSUSI) <ref type="bibr" target="#b35">(Paxton et al., 2002)</ref>. The magnetic footprint of MMS, marked by a white circle, is also located at one end of the bright auroral arc/streamer. The magnetic field used for the MMS footprint tracing includes an internal IGRF model <ref type="bibr" target="#b46">(Thébault et al., 2015)</ref> and an external Tsyganenko-96 model <ref type="bibr" target="#b52">(Tsyganenko, 1995)</ref>. Unfortunately, the DMSP/F18 satellite does not fly over the bright aurora region (Figures 6A), which prevents direct observations of the particle  indicates that the usual magnetopause reconnection cannot well explain the bright aurora in the morning ionosphere, and we suggest the secondary reconnection, which generates earthward propagating plasma flows in the magnetosphere, can be closely related to the bright aurora in the morning ionosphere. This relation is similar to that between the auroral streamer at the nightside ionosphere and the flow bursts in the magnetotail <ref type="bibr" target="#b30">(Nakamura et al., 2001;</ref><ref type="bibr" target="#b41">Sergeev et al., 2004)</ref>. Therefore the secondary reconnection reported in this study serves to transfer the mass and energy in the solar wind into geospace. Finally, it is addressed that the scanning of the bright aurora at the morning ionosphere is ∼ 10 min prior to the flank magnetopause crossing of MMS, which could bring some errors to the relative locations between the footprint of MMS and aurora. Considering the solar wind is relatively stable during this period (Supplementary Figure <ref type="figure" target="#fig_0">S1</ref>), this uncertainty for the MMS footprint is about 2 °in latitude and 1 h in longitude according to the drift speed of the secondary X-line estimated above, which thus has not been taken into account here. Based on this point, more observational assessment should be performed in the future investigations.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">DISCUSSION AND SUMMARY</head><p>In this study, we have presented newly revealed secondary magnetic reconnection at Earth's flank magnetopause from MMS observations. The observed secondary ion jet agrees well with predictions of magnetic reconnection with a flow shear, and The concept of secondary reconnection has been widely proposed in previous studies (e.g., <ref type="bibr" target="#b6">Daughton et al., 2011;</ref><ref type="bibr" target="#b24">Lapenta et al., 2015;</ref><ref type="bibr" target="#b15">Fuselier et al., 2017</ref><ref type="bibr" target="#b14">Fuselier et al., , 2018))</ref>, but there are some differences existing in these so-called secondary reconnection. For example, secondary reconnection can occur in the exhaust region of the primary reconnection, behaving as an important feature of 3D magnetic reconnection <ref type="bibr" target="#b6">(Daughton et al., 2011;</ref><ref type="bibr" target="#b24">Lapenta et al., 2015)</ref>. Both the primary and secondary reconnection can be found between the magnetosheath and magnetospheric filed lines, or the magnetic field lines at two sides of the magnetopause, which can generate flux ropelike structures <ref type="bibr" target="#b15">(Fuselier et al., 2017</ref><ref type="bibr" target="#b14">(Fuselier et al., , 2018))</ref>. In this study, secondary reconnection reconnects the previously reconnected open magnetic field lines with closed magnetospheric field lines (Figure <ref type="figure" target="#fig_0">1A</ref>), resulting into the re-closure of the open field lines. Regarding this, the reported secondary reconnection, which is found at the flank magnetopause, is different from other secondary reconnection.</p><p>The secondary reconnection here is found at the flank magnetopause with a large magnetic B x shear, which suggests that the primary X-line at the flank and the magnetotail current sheet should not be co-located at the magnetopause (Figure <ref type="figure" target="#fig_0">1A</ref>). In this study, the magnetotail current sheet is twisted due to interplanetary B y component <ref type="bibr" target="#b51">(Tsyganenko, 1998;</ref><ref type="bibr" target="#b53">Tsyganenko and Fairfield, 2004)</ref>, which leads a substantial offset of the magnetotail current sheet from the equatorial plane at the flank region (Supplementary Figure <ref type="figure" target="#fig_0">S1</ref>). Meanwhile, the location of the primary magnetopause reconnection is shifted southward of the equator plane (Figure <ref type="figure" target="#fig_2">3A</ref>). This noncolocation of the primary X-line at the flank and the magnetotail current sheet produces favorable external conditions for a large magnetic shear, and also the secondary reconnection. A general description of this non-colocation should be investigated in the future.</p><p>Magnetic reconnection between the open and closed magnetic field lines is sometimes referred to as the interchange reconnection. It has been widely applied at the surface of the Sun, which is responsible for the acceleration of the slow solar wind <ref type="bibr" target="#b0">(Abbo et al., 2016)</ref> and is suggested to play a role in the generation of magnetic switchbacks <ref type="bibr" target="#b12">(Fisk and Kasper, 2020)</ref>. The present finding shows that this type of reconnection also works in the Earth's magnetosphere, but behaves as secondary reconnection, as it relies on the generation of open field lines from the primary reconnection. Therefore the observed secondary reconnection essentially reflects a cross-scale process from the global magnetospheric scale to kinetic scales, and we suggest this reconnection process is applicable to other planets with similar magnetosphere structures, such as Mercury and Jupiter's moon, Ganymede.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>FIGURE 1 |</head><label>1</label><figDesc>FIGURE 1 | Schematic illustration of the three-dimensional structure of Earth's magnetosphere and the secondary reconnection process at the flank magnetopause. (A) View of the magnetosphere, showing the opening of closed magnetospheric field lines through the magnetopause reconnection, and the re-closure of these open field lines by magnetotail reconnection. At the flank magnetopause, the reconnected open field lines can form a large magnetic shear with closed magnetospheric field lines, providing favorable conditions for the reported secondary reconnection. The closed magnetospheric field lines, open field lines and the solar wind field lines are presented in blue, red and yellow, respectively. (B) Two-dimensional schematic of the local secondary reconnection. The color of the magnetic field lines show their topology before secondary reconnection, and the magenta contours indicate the out-of-plane current density. The green line presents the MMS trajectory relative to the secondary reconnection, showing a short excursion into the reconnection exhaust and a full crossing anti-sunward of the X-line.</figDesc><graphic coords="3,123,70,67,75,347,96,367,60" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>FIGURE 2 |</head><label>2</label><figDesc>FIGURE 2 | Overview of the flank magnetopause crossing of MMS. MMS one observations of (A) Magnetic field (GSM), (B) Ion number density, (C) Ion bulk velocity (GSM), (D) Electron omnidirectional differential energy flux and (E) Ion omnidirectional differential energy flux. The color bars indicate the different regions during the magnetopause crossing. (F-H) Two dimensional cuts of ion velocity distribution functions in the plane of GSM-X and GSM-Z axis at 01:00:36.317 UT, 01:02:14.343 UT, and 01:02:45.543 UT as indicated by the dotted vertical lines. The overplotted magenta arrows show the projection of the local magnetic field.</figDesc><graphic coords="4,78,24,67,75,438,94,423,33" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>FIGURE 3 |</head><label>3</label><figDesc>FIGURE 3 | (A)The predicted location of magnetopause reconnection from the maximum magnetic shear model. The color shows magnetic shear angle across the magnetopause. The circle represents the magnetopause shape at the terminator plane and the blue symbol marks the MMS position. (B) Wal\'en test for primary magnetic reconnection between 01:01:10 UT and 01:02:20 UT.</figDesc><graphic coords="5,69,90,67,75,455,52,214,24" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>FIGURE 4 |</head><label>4</label><figDesc>FIGURE 4 | Observations of secondary reconnection from MMS 1. MMS one observations of (A) Magnetic field (LMN), (B) Ion number density, (C) Ion bulk velocity (LMN), (D) Ion omnidirectional differential energy flux and (E) Electron pitch angle spectrum of energy larger than 3 keV. Zoom-in of the time interval at B L reversal: (F) Magnetic field (LMN), (G) Electron number density, (H) Electron bulk velocity (LMN), (I) Electron temperature, (J) Electron omnidirectional differential energy flux, and (K) Electron pitch angle spectrum of all energies. The panels on the right show: (L) A schematic of MMS crossing of the secondary reconnection with a shear flow. The red reconnected field lines are dragged out of the reconnecting L-N plane due to the shear flow in M direction and the dashed brown line shows the MMS trajectory relative to the reconnection X-line (M-P) Two dimensional cuts of ion velocity distribution functions in the v L − v M plane at times indicated by the black vertical lines in left panels. The projected local magnetic fields are shown by the magenta arrows.</figDesc><graphic coords="6,69,39,67,75,456,43,343,67" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>This</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>FIGURE 5 |</head><label>5</label><figDesc>FIGURE 5 | Four MMS observations of the secondary magnetic reconnection. (A) |B|, (B) B L , (C) B M , (D) N e , (E) V e,L⊥ , (F) J M , (G) the agyrotropic measure Q √ , (H) κ 2 , defined by the ratio of magnetic curvature radius and the electron gyro-radius, (I1-I4), (J1-J4) and (K1-K4) electron pitch angle spectrum at the magnetosheath side, the central current sheet and the magnetospheric side, (L-N) reduced electron distributions in the v E×B − v E⊥ plane at 01:02:49.833 UT, 01:02:50.883 UT and 01: 02:51.747 UT, respectively.</figDesc><graphic coords="7,69,90,67,75,455,52,464,94" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head></head><label></label><figDesc>the electron signatures indicate the encounter of the electron diffusion region. This secondary reconnection re-closes the open field lines generated by the primary magnetopause reconnection, so that it indicates a new pathway for the entry of the solar wind into the magnetosphere. The re-closure of open field lines by the reported secondary reconnection, rather than the nightside magnetotail reconnection, provides an important modification to the classic Dungey cycle.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>FIGURE 6 |</head><label>6</label><figDesc>FIGURE 6 | Aurora and in situ plasma observations in the northern hemisphere from DMSP/F18 satellite. (A) Aurora in the Lyman-Birge-Hopfield band (LBHS) from the SSUSI instrument in the northern hemisphere on June 1, 2018. The data are shown in the geomagnetic coordinate with noon at the top of the panel. The white circle marks the magnetic footprint of MMS (MLT: 7.1 h and MLat: 76.8 °) and the white dotted line shows the satellite track. (B, C) in situ electron and ion energy spectrum from the special sensor for precipitating particles (SSJ5) instrument.</figDesc><graphic coords="8,129,66,67,75,335,95,432,68" type="bitmap" /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Frontiers in Astronomy and Space Sciences | www.frontiersin.org December 2021 | Volume 8 | Article 740560</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Frontiers in Astronomy and Space Sciences | www.frontiersin.org December 2021 | Volume 8 | Article 740560 7 Tang et al. Secondary Reconnection at Flank Magnetopause</note>
+		</body>
+		<back>
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>DATA AVAILABILITY STATEMENT</head><p>The datasets presented in this study can be found in online repositories. The names of the repository/repositories and accession number(s) can be found below: MMS science data center (https://lasp.colorado.edu/mms/sdc/public/), the Johns Hopkins University Applied Physics Laboratory (https://ssusi. jhuapl.edu/data/_retriver) and NASA OMNIWeb (https:// omniweb.gsfc.nasa.gov/form/omni/_min.html).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>AUTHOR CONTRIBUTIONS</head><p>BBT, WL, and CW performed the data analysis, interpretation and manuscript preparation. YK, DG and KJT contributed to the data interpretation. QHZ and XYW contributed to the data interpretation of DMSP. TRS and HL contricuted to the MHD simulations. BG, PAL and RE contributed to the development and operation of MMS instruments. JB is the PI of MMS science and led the operation of the MMS mission. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>SUPPLEMENTARY MATERIAL</head><p>The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/fspas.2021.740560/ full#supplementary-material Conflict of Interest: The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.</p><p>Publisher's Note: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.</p><p>Copyright © 2021 <ref type="bibr">Tang, Li, Wang, Khotyaintsev, Graham, Zhang, Sun, Li, Wang, Trattner, Giles, Lindqvist, Ergun and Burch.</ref> This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Slow solar wind: Observations and modeling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Abbo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ofman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Antiochos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">H</forename><surname>Hansteen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Harra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-K</forename><surname>Ko</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-016-0264-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="page" from="55" to="108" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Storm time empirical model of O+ and O6+ distributions in the magnetosphere</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Livi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Vines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017ja024245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="8353" to="8374" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The rudiments of a theory of solar wind/magnetosphere coupling derived from first principles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Borovsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2007ja012646</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Electron-scale measurements of magnetic reconnection in space</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaf2939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">352</biblScope>
+			<biblScope unit="page">2939</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Scaling of asymmetric magnetic reconnection: General theory and collisional simulations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Shay</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.2795630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">102114</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A qualitative study of the reconnection between the Earth&apos;s magnetic field and an interplanetary field of arbitrary orientation</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W H</forename><surname>Cowley</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/rs008i011p00903</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Radio Sci</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="903" to="913" />
+			<date type="published" when="1973">1973</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Role of electron physics in the development of turbulent magnetic reconnection in collisionless plasmas</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Roytershteyn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karimabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Albright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bergen</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphys1965</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Phys</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="539" to="542" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Asymmetric magnetic reconnection with a flow shear and applications to the magnetopause</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Doss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Komar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Wilder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015ja021489</idno>
+		<idno>doi:10.1002/ 2015ja021489</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="7748" to="7763" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Interplanetary magnetic field and the auroral zones</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Dungey</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/physrevlett.6.47</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="47" to="48" />
+			<date type="published" when="1961">1961</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Electron dynamics in two-dimensional asymmetric anti-parallel reconnection</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Egedal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Le</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">L</forename><surname>Pritchett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daughton</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3646316</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Plasmas</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">102901</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The axial double probe and fields signal processing for the MMS mission</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westfall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Goodrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Malaspina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Summers</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0115-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="167" to="188" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Magnetospheric Multiscale observations of magnetic reconnection associated with Kelvin-Helmholtz waves</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">D</forename><surname>Wilder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Stawarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Giles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl068783</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="5606" to="5615" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Global circulation of the open magnetic flux of the Sun</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Fisk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/2041-8213/ab8acd</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">894</biblScope>
+			<biblScope unit="page">L4</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Properties of near-Earth magnetic reconnection from in-situ observations</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Lewis</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-011-9820-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="page" from="95" to="121" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Observational Evidence of Large-Scale Multiple Reconnection at the Earth&apos;s Dayside Magnetopause</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Petrinec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Broll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Giles</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018ja025681</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="8407" to="8421" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Large-scale characteristics of reconnection diffusion regions and associated magnetopause crossings observed by MMS</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Vines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Petrinec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017ja024024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="5466" to="5486" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Antiparallel and component reconnection at the dayside magnetopause</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petrinec</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2011ja016888</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Multiscale coupling during magnetopause reconnection: Interface between the electron and ion diffusion regions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Genestreti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Denton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burch</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2020ja027985</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="e2020J" to="A27985" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Stable reconnection at the dusk flank magnetopause</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Gomez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Vines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Strangeway</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Petrinec</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl069692</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="9374" to="9382" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Characteristics of the flank magnetopause: MMS results</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haaland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fuselier</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019ja027623</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="e2019J" to="A27623" />
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Transport of solar wind into Earth&apos;s magnetosphere through rolled-up Kelvin-Helmholtz vortices</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T.-D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rème</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Dunlop</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature02799</idno>
+		<idno>doi:10.1038/ nature02799</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">430</biblScope>
+			<biblScope unit="page" from="755" to="758" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Evidence for a flux transfer event generated by multiple x-line reconnection at the magnetopause</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dunlop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q.-H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2010gl044219</idno>
+		<idno>doi:10.1029/ 2010gl044219</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="page">37</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Magnetic reconnection at a thin current sheet separating two interlaced flux tubes at the Earth&apos;s magnetopause</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kacem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jacquey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Génot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Vernisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Marchaudon</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017ja024537</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="1779" to="1793" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Transient reconnection in the cusp during strongly negative IMF by</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Khotyaintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Buchert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stasiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vaivads</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Savin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Papitashvili</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003ja009908</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Secondary reconnection sites in reconnection-generated flux ropes and reconnection fronts</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lapenta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Markidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Newman</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nphys3406</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Phys</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="690" to="695" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Currents and associated electron scattering and bouncing near the diffusion region at Earth&apos;s magnetopause</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Vernisse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Gershman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dorelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cassak</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl068359</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="3042" to="3050" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Kinetic evidence of magnetic reconnection due to Kelvin-Helmholtz waves</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Khotyaintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vaivads</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Toledo-Redondo</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016gl069192</idno>
+		<idno>doi:10.1002/ 2016gl069192</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="5635" to="5643" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">The spin-plane double probe electric field instrument for MMS</title>
+		<author>
+			<persName><forename type="first">P.-A</forename><surname>Lindqvist</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Olsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Granoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rau</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0116-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="137" to="165" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Magnetic flux transport in the Dungey cycle: A survey of dayside and nightside reconnection rates</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Milan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Provan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hubert</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006ja011642</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Modeling the formation of current sheets in symmetric and asymmetric reconnection</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Montag</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018">2018</date>
+			<pubPlace>Massachusetts</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Massachusetts Institute of Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Earthward flow bursts, auroral streamers, and small expansions</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schödel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brittnacher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Sergeev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kubyshkina</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000ja000306</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="10791" to="10802" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Turbulent mass transfer caused by vortex induced reconnection in collisionless magnetospheric plasmas</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K M</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daughton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Eriksson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41467-017-01579-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1582" to="1588" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Reconnection with magnetic flux pileup at the interface of converging jets at the magnetopause</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Eastwood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Strangeway</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018gl080994</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="1937" to="1946" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">In situ detection of collisionless reconnection in the Earth&apos;s magnetotail</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lepping</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/35086520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">412</biblScope>
+			<biblScope unit="page" from="414" to="417" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Electron and ion edges and the associated magnetic topology of the reconnecting magnetopause</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Angelopoulos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename></persName>
+		</author>
+		<idno type="DOI">10.1002/2015ja021580</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="9294" to="9306" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Validation of remote sensing products produced by the special sensor ultraviolet scanning imager (SSUSI): A far UV-imaging spectrograph on DMSP F-16</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Paxton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wolven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Ogorzalek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Optical spectroscopic techniques, remote sensing, and instrumentation for atmospheric and space research IV (Massachusetts: International Society for Optics and Photonics)</title>
+				<imprint>
+			<date type="published" when="2002">2002</date>
+			<biblScope unit="volume">4485</biblScope>
+			<biblScope unit="page" from="338" to="348" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">The dependence of magnetic reconnection on plasmaβand magnetic shear: Evidence from magnetopause observations</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Oieroset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fujimoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2012gl054528</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="11" to="16" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Fast plasma investigation for magnetospheric multiscale</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Gliese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saito</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="331" to="406" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Magnetic topologies of an in vivo FTE observed by Double Star/TC-1 at Earth&apos;s magnetopause</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raeder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Bogdanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dunlop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Xiao</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/grl.50714</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="3502" to="3506" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">The magnetospheric multiscale magnetometers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Bromund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dearborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fischer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-024-0861-4_8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="page" from="189" to="256" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Initial isee magnetometer results: Magnetopause observations</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Elphic</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/bf00212619</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="681" to="715" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Auroral streamers: characteristics of associated precipitation,convection and field-aligned currents</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">A</forename><surname>Sergeev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-I</forename><surname>Ohtani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Hairston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rich</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/angeo-22-537-2004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="537" to="548" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Evidence for magnetic field reconnection at the Earth&apos;s magnetopause</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U Ö</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Papamastorakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sckopke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Haerendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bame</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/ja086ia12p10049</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="10049" to="10067" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Quantifying gyrotropy in magnetic reconnection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015gl066980</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="43" to="49" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Diamagnetic suppression of component magnetic reconnection at the magnetopause</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Swisdak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rogers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Drake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shay</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2002ja009726</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Crescent-Shaped Electron Distributions at the Nonreconnecting Magnetopause: Magnetospheric Multiscale Observations</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Rager</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Khotyaintsev</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019gl082231</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="3024" to="3032" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">International geomagnetic reference field: the 12th generation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thébault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Finlay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Beggan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Barrois</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40623-015-0313-0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Earth, Planets and Space</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1" to="19" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Location of the reconnection line at the magnetopause during southward imf conditions</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mulcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petrinec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fuselier</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006gl028397</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The location of reconnection at the magnetopause: Testing the maximum magnetic shear model with themis observations</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petrinec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Phan</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2011ja016959</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">117</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The location of magnetic reconnection at Earth&apos;s magnetopause</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petrinec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fuselier</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-021-00817-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page" from="1" to="47" />
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Plasma diffusion at the magnetopause: The case of lower hybrid drift waves</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Treumann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Labelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pottelette</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/91ja01671</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page" from="16009" to="16013" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Modeling of twisted/warped magnetospheric configurations using the general deformation method</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Tsyganenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/98ja02292</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="23551" to="23563" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Modeling the Earth&apos;s magnetospheric magnetic field confined within a realistic magnetopause</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Tsyganenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/94ja03193</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="page" from="5599" to="5612" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Global shape of the magnetotail current sheet as derived from geotail and polar data</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tsyganenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fairfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003ja010062</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Ion acceleration dependence on magnetic shear angle in dayside magnetopause reconnection</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Vines</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Trattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Petrinec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Drake</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015ja021464</idno>
+		<idno>doi:10.1002/ 2015ja021464</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="7255" to="7269" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Interaction of magnetic flux ropes via magnetic reconnection observed at the magnetopause</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burch</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017ja024482</idno>
+		<idno>doi:10.1002/ 2017ja024482</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="10" to="436" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Magnetospheric multiscale dayside reconnection electron diffusion region events</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Webster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">H</forename><surname>Reiff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Daou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Genestreti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Graham</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2018ja025245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="4858" to="4878" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Welling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dandouras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Delcourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fazakerley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fontaine</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0187-2</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The Earth: Plasma sources, losses, and transport processes</title>
+				<imprint>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="145" to="208" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Coalescence of macroscopic flux ropes at the subsolar magnetopause: Magnetospheric multiscale observations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berchem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>El-Alaoui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cazzola</surname></persName>
+		</author>
+		<idno type="DOI">10.1103/PhysRevLett.119.055101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">55101</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

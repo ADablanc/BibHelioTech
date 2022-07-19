@@ -1,0 +1,1151 @@
+[
+    {
+        "end": 861,
+        "start": 850,
+        "text": "29 OCT 2021",
+        "timex-value": "2021-10-29",
+        "type": "DATE",
+        "value": "2021-10-29"
+    },
+    {
+        "end": 882,
+        "start": 871,
+        "text": "20 JAN 2022",
+        "timex-value": "2022-01-20",
+        "type": "DATE",
+        "value": "2022-01-20"
+    },
+    {
+        "end": 2634,
+        "start": 2602,
+        "text": "from March 2013 to December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03",
+            "end": "2017-12"
+        }
+    },
+    {
+        "end": 6955,
+        "start": 6939,
+        "text": "the next 1-12 hr",
+        "type": "DURATION",
+        "value": {}
+    },
+    {
+        "end": 10168,
+        "start": 10144,
+        "text": "March 2013\u2014December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03",
+            "end": "2017-12"
+        }
+    },
+    {
+        "end": 12865,
+        "start": 12827,
+        "text": "from 31 March 2013 to 31 December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03-31",
+            "end": "2017-12-31"
+        }
+    },
+    {
+        "end": 16043,
+        "start": 15994,
+        "text": "start 2013/03/31 2013/03/31 2013/03/31 2013/03/31",
+        "timex-value": "2013-03-31",
+        "type": "DATE",
+        "value": "2013-03-31"
+    },
+    {
+        "end": 16083,
+        "start": 16058,
+        "text": "end 2017/01/23 2017/01/23",
+        "timex-value": "2017-01-23",
+        "type": "DATE",
+        "value": "2017-01-23"
+    },
+    {
+        "end": 16094,
+        "start": 16084,
+        "text": "2017/01/25",
+        "timex-value": "2017-01-25",
+        "type": "DATE",
+        "value": "2017-01-25"
+    },
+    {
+        "end": 16105,
+        "start": 16095,
+        "text": "2017/01/27",
+        "timex-value": "2017-01-27",
+        "type": "DATE",
+        "value": "2017-01-27"
+    },
+    {
+        "end": 16143,
+        "start": 16116,
+        "text": "start 2017/01/23 2017/01/23",
+        "timex-value": "2017-01-23",
+        "type": "DATE",
+        "value": "2017-01-23"
+    },
+    {
+        "end": 16154,
+        "start": 16144,
+        "text": "2017/01/25",
+        "timex-value": "2017-01-25",
+        "type": "DATE",
+        "value": "2017-01-25"
+    },
+    {
+        "end": 16165,
+        "start": 16155,
+        "text": "2017/01/27",
+        "timex-value": "2017-01-27",
+        "type": "DATE",
+        "value": "2017-01-27"
+    },
+    {
+        "end": 16223,
+        "start": 16176,
+        "text": "end 2017/12/31 2017/12/31 2017/12/31 2017/12/31",
+        "timex-value": "2017-12-31",
+        "type": "DATE",
+        "value": "2017-12-31"
+    },
+    {
+        "end": 20619,
+        "start": 20584,
+        "text": "from 26 March 2017 to 29 March 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2017-03-26",
+            "end": "2017-03-29"
+        }
+    },
+    {
+        "end": 22417,
+        "start": 22408,
+        "text": "August 04",
+        "timex-value": "2022-08-04",
+        "type": "DATE",
+        "value": "2022-08-04"
+    },
+    {
+        "end": 25096,
+        "start": 25086,
+        "text": "2017-03-26",
+        "timex-value": "2017-03-26",
+        "type": "DATE",
+        "value": "2017-03-26"
+    },
+    {
+        "end": 25140,
+        "start": 25124,
+        "text": "2017-03-26 12:24",
+        "timex-value": "2017-03-26T12:24",
+        "type": "TIME",
+        "value": "2017-03-26T12:24"
+    },
+    {
+        "end": 25184,
+        "start": 25168,
+        "text": "2017-03-27 14:54",
+        "timex-value": "2017-03-27T14:54",
+        "type": "TIME",
+        "value": "2017-03-27T14:54"
+    },
+    {
+        "end": 25228,
+        "start": 25212,
+        "text": "2017-03-28 03:05",
+        "timex-value": "2017-03-28T03:05",
+        "type": "TIME",
+        "value": "2017-03-28T03:05"
+    },
+    {
+        "end": 25272,
+        "start": 25256,
+        "text": "2017-03-29 04:50",
+        "timex-value": "2017-03-29T04:50",
+        "type": "TIME",
+        "value": "2017-03-29T04:50"
+    },
+    {
+        "end": 25283,
+        "start": 25273,
+        "text": "2017-03-27",
+        "timex-value": "2017-03-27",
+        "type": "DATE",
+        "value": "2017-03-27"
+    },
+    {
+        "end": 25346,
+        "start": 25336,
+        "text": "2017-03-28",
+        "timex-value": "2017-03-28",
+        "type": "DATE",
+        "value": "2017-03-28"
+    },
+    {
+        "end": 25390,
+        "start": 25374,
+        "text": "2017-03-27 00:05",
+        "timex-value": "2017-03-27T00:05",
+        "type": "TIME",
+        "value": "2017-03-27T00:05"
+    },
+    {
+        "end": 25434,
+        "start": 25418,
+        "text": "2017-03-27 18:08",
+        "timex-value": "2017-03-27T18:08",
+        "type": "TIME",
+        "value": "2017-03-27T18:08"
+    },
+    {
+        "end": 25478,
+        "start": 25462,
+        "text": "2017-03-28 09:54",
+        "timex-value": "2017-03-28T09:54",
+        "type": "TIME",
+        "value": "2017-03-28T09:54"
+    },
+    {
+        "end": 25524,
+        "start": 25508,
+        "text": "2017-03-29 12:55",
+        "timex-value": "2017-03-29T12:55",
+        "type": "TIME",
+        "value": "2017-03-29T12:55"
+    },
+    {
+        "end": 25625,
+        "start": 25615,
+        "text": "2017-03-29",
+        "timex-value": "2017-03-29",
+        "type": "DATE",
+        "value": "2017-03-29"
+    },
+    {
+        "end": 25669,
+        "start": 25653,
+        "text": "2017-03-27 08:47",
+        "timex-value": "2017-03-27T08:47",
+        "type": "TIME",
+        "value": "2017-03-27T08:47"
+    },
+    {
+        "end": 25713,
+        "start": 25697,
+        "text": "2017-03-27 20:09",
+        "timex-value": "2017-03-27T20:09",
+        "type": "TIME",
+        "value": "2017-03-27T20:09"
+    },
+    {
+        "end": 25757,
+        "start": 25741,
+        "text": "2017-03-28 20:56",
+        "timex-value": "2017-03-28T20:56",
+        "type": "TIME",
+        "value": "2017-03-28T20:56"
+    },
+    {
+        "end": 25801,
+        "start": 25785,
+        "text": "2017-03-29 22:27",
+        "timex-value": "2017-03-29T22:27",
+        "type": "TIME",
+        "value": "2017-03-29T22:27"
+    },
+    {
+        "end": 25869,
+        "start": 25859,
+        "text": "2017-03-30",
+        "timex-value": "2017-03-30",
+        "type": "DATE",
+        "value": "2017-03-30"
+    },
+    {
+        "end": 26131,
+        "start": 26110,
+        "text": "2017-08-04 2017-08-04",
+        "timex-value": "2017-08-04",
+        "type": "DATE",
+        "value": "2017-08-04"
+    },
+    {
+        "end": 26274,
+        "start": 26264,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26285,
+        "start": 26275,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26296,
+        "start": 26286,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26307,
+        "start": 26297,
+        "text": "2017-08-04",
+        "timex-value": "2017-08-04",
+        "type": "DATE",
+        "value": "2017-08-04"
+    },
+    {
+        "end": 26318,
+        "start": 26308,
+        "text": "2017-08-07",
+        "timex-value": "2017-08-07",
+        "type": "DATE",
+        "value": "2017-08-07"
+    },
+    {
+        "end": 26329,
+        "start": 26319,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26340,
+        "start": 26330,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26351,
+        "start": 26341,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26414,
+        "start": 26404,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26425,
+        "start": 26415,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26436,
+        "start": 26426,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26447,
+        "start": 26437,
+        "text": "2017-08-04",
+        "timex-value": "2017-08-04",
+        "type": "DATE",
+        "value": "2017-08-04"
+    },
+    {
+        "end": 26458,
+        "start": 26448,
+        "text": "2017-08-07",
+        "timex-value": "2017-08-07",
+        "type": "DATE",
+        "value": "2017-08-07"
+    },
+    {
+        "end": 26469,
+        "start": 26459,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26480,
+        "start": 26470,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26491,
+        "start": 26481,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26561,
+        "start": 26551,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26572,
+        "start": 26562,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26583,
+        "start": 26573,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26594,
+        "start": 26584,
+        "text": "2017-08-04",
+        "timex-value": "2017-08-04",
+        "type": "DATE",
+        "value": "2017-08-04"
+    },
+    {
+        "end": 26605,
+        "start": 26595,
+        "text": "2017-08-07",
+        "timex-value": "2017-08-07",
+        "type": "DATE",
+        "value": "2017-08-07"
+    },
+    {
+        "end": 26616,
+        "start": 26606,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26627,
+        "start": 26617,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26638,
+        "start": 26628,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26701,
+        "start": 26691,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26712,
+        "start": 26702,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26723,
+        "start": 26713,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26734,
+        "start": 26724,
+        "text": "2017-08-04",
+        "timex-value": "2017-08-04",
+        "type": "DATE",
+        "value": "2017-08-04"
+    },
+    {
+        "end": 26745,
+        "start": 26735,
+        "text": "2017-08-07",
+        "timex-value": "2017-08-07",
+        "type": "DATE",
+        "value": "2017-08-07"
+    },
+    {
+        "end": 26756,
+        "start": 26746,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26767,
+        "start": 26757,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26778,
+        "start": 26768,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26841,
+        "start": 26831,
+        "text": "2017-08-04",
+        "timex-value": "2017-08-04",
+        "type": "DATE",
+        "value": "2017-08-04"
+    },
+    {
+        "end": 26852,
+        "start": 26842,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26863,
+        "start": 26853,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26874,
+        "start": 26864,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 26885,
+        "start": 26875,
+        "text": "2017-08-04",
+        "timex-value": "2017-08-04",
+        "type": "DATE",
+        "value": "2017-08-04"
+    },
+    {
+        "end": 26896,
+        "start": 26886,
+        "text": "2017-08-07",
+        "timex-value": "2017-08-07",
+        "type": "DATE",
+        "value": "2017-08-07"
+    },
+    {
+        "end": 26907,
+        "start": 26897,
+        "text": "2017-08-10",
+        "timex-value": "2017-08-10",
+        "type": "DATE",
+        "value": "2017-08-10"
+    },
+    {
+        "end": 26918,
+        "start": 26908,
+        "text": "2017-08-14",
+        "timex-value": "2017-08-14",
+        "type": "DATE",
+        "value": "2017-08-14"
+    },
+    {
+        "end": 26929,
+        "start": 26919,
+        "text": "2017-08-17",
+        "timex-value": "2017-08-17",
+        "type": "DATE",
+        "value": "2017-08-17"
+    },
+    {
+        "end": 40032,
+        "start": 39995,
+        "text": "from 1 July 2004 to 15 September 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2004-07-01",
+            "end": "2017-09-15"
+        }
+    },
+    {
+        "end": 41426,
+        "start": 41403,
+        "text": "2004/07/01",
+        "timex-value": "2004-07-01",
+        "type": "DATE",
+        "value": "2004-07-01"
+    },
+    {
+        "end": 41448,
+        "start": 41427,
+        "text": "2016/06/04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 41492,
+        "start": 41469,
+        "text": "2004/07/01",
+        "timex-value": "2004-07-01",
+        "type": "DATE",
+        "value": "2004-07-01"
+    },
+    {
+        "end": 41514,
+        "start": 41493,
+        "text": "2016/06/06",
+        "timex-value": "2016-06-06",
+        "type": "DATE",
+        "value": "2016-06-06"
+    },
+    {
+        "end": 41548,
+        "start": 41538,
+        "text": "2004/07/01",
+        "timex-value": "2004-07-01",
+        "type": "DATE",
+        "value": "2004-07-01"
+    },
+    {
+        "end": 41559,
+        "start": 41549,
+        "text": "2016/06/06",
+        "timex-value": "2016-06-06",
+        "type": "DATE",
+        "value": "2016-06-06"
+    },
+    {
+        "end": 41570,
+        "start": 41560,
+        "text": "2016/06/06",
+        "timex-value": "2016-06-06",
+        "type": "DATE",
+        "value": "2016-06-06"
+    },
+    {
+        "end": 41581,
+        "start": 41571,
+        "text": "2017/09/15",
+        "timex-value": "2017-09-15",
+        "type": "DATE",
+        "value": "2017-09-15"
+    },
+    {
+        "end": 41636,
+        "start": 41626,
+        "text": "2004/07/01",
+        "timex-value": "2004-07-01",
+        "type": "DATE",
+        "value": "2004-07-01"
+    },
+    {
+        "end": 41647,
+        "start": 41637,
+        "text": "2016/06/04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 41658,
+        "start": 41648,
+        "text": "2016/06/04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 41669,
+        "start": 41659,
+        "text": "2017/09/15",
+        "timex-value": "2017-09-15",
+        "type": "DATE",
+        "value": "2017-09-15"
+    },
+    {
+        "end": 42077,
+        "start": 42045,
+        "text": "during 4 June 2016 to 3 May 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2016-06-04",
+            "end": "2017-05-03"
+        }
+    },
+    {
+        "end": 42257,
+        "start": 42247,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 42268,
+        "start": 42258,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 42279,
+        "start": 42269,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 42290,
+        "start": 42280,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 42301,
+        "start": 42291,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 42312,
+        "start": 42302,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 42323,
+        "start": 42313,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 42334,
+        "start": 42324,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 42345,
+        "start": 42335,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 42356,
+        "start": 42346,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 42503,
+        "start": 42493,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 42514,
+        "start": 42504,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 42525,
+        "start": 42515,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 42536,
+        "start": 42526,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 42547,
+        "start": 42537,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 42558,
+        "start": 42551,
+        "text": "6-06-04",
+        "timex-value": "2004-06-06",
+        "type": "DATE",
+        "value": "2004-06-06"
+    },
+    {
+        "end": 42569,
+        "start": 42559,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 42580,
+        "start": 42570,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 42591,
+        "start": 42581,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 42602,
+        "start": 42592,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 42750,
+        "start": 42740,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 42761,
+        "start": 42751,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 42772,
+        "start": 42762,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 42783,
+        "start": 42773,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 42794,
+        "start": 42784,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 42805,
+        "start": 42795,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 42816,
+        "start": 42806,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 42827,
+        "start": 42817,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 42838,
+        "start": 42828,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 42849,
+        "start": 42839,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 42997,
+        "start": 42987,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 43008,
+        "start": 42998,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 43019,
+        "start": 43009,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 43030,
+        "start": 43020,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 43041,
+        "start": 43031,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 43052,
+        "start": 43042,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 43063,
+        "start": 43053,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 43074,
+        "start": 43064,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 43085,
+        "start": 43075,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 43096,
+        "start": 43086,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 43229,
+        "start": 43219,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 43240,
+        "start": 43230,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 43251,
+        "start": 43241,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 43262,
+        "start": 43252,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 43273,
+        "start": 43263,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 43284,
+        "start": 43274,
+        "text": "2016-06-04",
+        "timex-value": "2016-06-04",
+        "type": "DATE",
+        "value": "2016-06-04"
+    },
+    {
+        "end": 43295,
+        "start": 43285,
+        "text": "2016-10-15",
+        "timex-value": "2016-10-15",
+        "type": "DATE",
+        "value": "2016-10-15"
+    },
+    {
+        "end": 43306,
+        "start": 43296,
+        "text": "2017-01-04",
+        "timex-value": "2017-01-04",
+        "type": "DATE",
+        "value": "2017-01-04"
+    },
+    {
+        "end": 43327,
+        "start": 43317,
+        "text": "2017-03-09",
+        "timex-value": "2017-03-09",
+        "type": "DATE",
+        "value": "2017-03-09"
+    },
+    {
+        "end": 43338,
+        "start": 43328,
+        "text": "2017-05-03",
+        "timex-value": "2017-05-03",
+        "type": "DATE",
+        "value": "2017-05-03"
+    },
+    {
+        "end": 45112,
+        "start": 45101,
+        "text": "3.03.7445",
+        "timex-value": "7445-03-03",
+        "type": "DATE",
+        "value": "7445-03-03"
+    },
+    {
+        "end": 45785,
+        "start": 45774,
+        "text": "3.03.74",
+        "timex-value": "1974-03-03",
+        "type": "DATE",
+        "value": "1974-03-03"
+    },
+    {
+        "end": 50290,
+        "start": 50250,
+        "text": "during 31 March 2013 to 31 December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03-31",
+            "end": "2017-12-31"
+        }
+    }
+]
