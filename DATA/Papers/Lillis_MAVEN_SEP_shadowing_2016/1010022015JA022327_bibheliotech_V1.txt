@@ -1,5 +1,5 @@
 # Name: 1010022015JA022327_bibheliotech_V1;
-# Creation Date: 2022-07-19T10:26:35.860949;
+# Creation Date: 2022-07-19T10:33:42.116473;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1002/2015JA022327". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -30,7 +30,7 @@
 2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "MEX" "" "Mars" 4249 1 1 24 2 0.9053910078840827 
 2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "IMAGE" "" "Earth.Magnetosphere" 7784 1 4 24 2 0.41466013211165564 
 2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "IMAGE" "" "Earth.Magnetosphere" 7775 1 4 24 2 0.4141806946516088 
-2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "Mars Odyssey" "Gamma Ray Spectrometer,MARIE" "Earth.Magnetosphere.Polar" 4693 1 1 24 2 1.0 
+2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "Mars-Odyssey" "Gamma-Ray-Spectrometer,MARIE" "Earth.Magnetosphere.Polar" 4693 1 1 24 2 1.0 
 2015-03-02T10:00:00.000 2015-03-02T10:00:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SWIA,SEP" "Mars" 832 1 16 24 2 0.0110803324099723 
 2015-03-02T10:00:00.000 2015-03-02T10:00:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SWIA,SEP" "Mars" 5484 1 16 24 2 0.0730343064138078 
 2015-03-02T10:00:00.000 2015-03-02T10:00:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SWIA,SEP" "Mars" 12028 1 16 24 2 0.16018538248455147 

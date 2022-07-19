@@ -1,5 +1,5 @@
 # Name: 101038nature02799_bibheliotech_V1;
-# Creation Date: 2022-07-19T10:27:52.018221;
+# Creation Date: 2022-07-19T10:34:55.570300;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1038/nature02799". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -12,7 +12,7 @@
 # Parameter 9: id:column9; name:nb_durations; size:1; type:int;
 # Parameter 10: id:column10; name:conf; size:1; type:float;
 2001-11-20T09:30:00.000 2001-11-20T23:30:00.000 https://doi.org/10.1038/nature02799 "ACE" "" "Heliosphere.NearEarth" 496 1 1 20 20 0.04394436076902632 
-2001-11-20T09:30:00.000 2001-11-20T23:30:00.000 https://doi.org/10.1038/nature02799 "Cluster 1" "" "Heliosphere.NearEarth" 418 1 2 20 20 0.01851687782404536 
+2001-11-20T09:30:00.000 2001-11-20T23:30:00.000 https://doi.org/10.1038/nature02799 "Cluster-1" "" "Heliosphere.NearEarth" 418 1 2 20 20 0.01851687782404536 
 2001-11-20T09:30:00.000 2001-11-20T23:30:00.000 https://doi.org/10.1038/nature02799 "Cluster" "" "Heliosphere.NearEarth" 3044 1 9 20 20 0.0299656438577321 
 2001-11-20T09:30:00.000 2001-11-20T23:30:00.000 https://doi.org/10.1038/nature02799 "Cluster" "" "Heliosphere.NearEarth" 2620 1 9 20 20 0.025791717118021713 
 2001-11-20T09:30:00.000 2001-11-20T23:30:00.000 https://doi.org/10.1038/nature02799 "Cluster" "" "Heliosphere.NearEarth" 1595 1 9 20 20 0.01570144610810864 
@@ -22,6 +22,6 @@
 2001-11-20T20:27:30.495 2001-11-20T20:27:30.505 https://doi.org/10.1038/nature02799 "Cluster" "" "Heliosphere.NearEarth" 2040 1 9 20 20 0.020082100351436753 
 2001-11-20T20:34:00.000 2001-11-20T20:34:59.000 https://doi.org/10.1038/nature02799 "Cluster" "" "Heliosphere.NearEarth" 10897 1 9 20 20 0.10727188604392467 
 2001-11-20T20:36:00.000 2001-11-20T20:36:59.000 https://doi.org/10.1038/nature02799 "Geotail" "" "Earth.Magnetosphere" 10030 1 1 20 20 0.8886329405510764 
-2001-11-20T20:40:00.000 2001-11-20T20:40:59.000 https://doi.org/10.1038/nature02799 "Cluster 1" "" "Heliosphere.NearEarth" 238 1 2 20 20 0.010543102684504297 
+2001-11-20T20:40:00.000 2001-11-20T20:40:59.000 https://doi.org/10.1038/nature02799 "Cluster-1" "" "Heliosphere.NearEarth" 238 1 2 20 20 0.010543102684504297 
 2001-11-20T20:40:00.000 2001-11-20T20:40:59.000 https://doi.org/10.1038/nature02799 "Cluster" "" "Heliosphere.NearEarth" 238 1 9 20 20 0.0023429117076676216 
 2001-11-20T20:42:00.000 2001-11-20T20:42:59.000 https://doi.org/10.1038/nature02799 "Hawkeye" "" "Earth.Magnetosphere" 11287 1 1 20 20 1.0 

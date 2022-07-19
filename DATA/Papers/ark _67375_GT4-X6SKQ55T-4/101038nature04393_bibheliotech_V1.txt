@@ -1,5 +1,5 @@
 # Name: 101038nature04393_bibheliotech_V1;
-# Creation Date: 2022-07-19T10:26:05.920374;
+# Creation Date: 2022-07-19T10:33:12.367900;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1038/nature04393". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -17,7 +17,7 @@
 2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 71 1 13 55 17 0.00013471309904638306 
 2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 961 1 13 55 17 0.0018233702561066777 
 2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "ACE" "" "Heliosphere.NearEarth" 1075 1 13 55 17 0.0020396701616177716 
-2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster 3" "PEACE" "Heliosphere.NearEarth" 76 1 1 55 17 0.0018745991810961472 
+2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster-3" "PEACE" "Heliosphere.NearEarth" 76 1 1 55 17 0.0018745991810961472 
 2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 2724 1 20 55 17 0.003359479058753885 
 2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 2279 1 20 55 17 0.002810665482709289 
 2002-02-02T02:00:00.000 2002-02-02T02:00:59.000 https://doi.org/10.1038/nature04393 "Cluster" "PEACE" "Heliosphere.NearEarth" 1923 1 20 55 17 0.0023716146218736127 
