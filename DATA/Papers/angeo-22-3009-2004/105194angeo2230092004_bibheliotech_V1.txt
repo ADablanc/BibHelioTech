@@ -1,5 +1,5 @@
 # Name: 105194angeo2230092004_bibheliotech_V1;
-# Creation Date: 2022-07-19T09:38:45.756396;
+# Creation Date: 2022-07-19T10:28:10.713736;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.5194/angeo-22-3009-2004". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -11,10 +11,10 @@
 # Parameter 8: id:column8; name:occur_sat; size:1; type:int;
 # Parameter 9: id:column9; name:nb_durations; size:1; type:int;
 # Parameter 10: id:column10; name:conf; size:1; type:float;
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MFI,EPAM,SWEPAM,MAG" "Heliosphere.NearEarth" 25138 2 4 40 2 0.6790200156667837 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MFI,EPAM,SWEPAM,MAG" "Heliosphere.NearEarth" 28643 2 4 40 2 0.7736960103724912 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MFI,EPAM,SWEPAM,MAG" "Heliosphere.NearEarth" 36951 2 4 40 2 0.9981091812754923 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MFI,EPAM,SWEPAM,MAG" "Heliosphere.NearEarth" 37021 2 4 40 2 1.0 
+2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,EPAM,SWEPAM,MFI" "Heliosphere.NearEarth" 25138 2 4 40 2 0.6790200156667837 
+2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,EPAM,SWEPAM,MFI" "Heliosphere.NearEarth" 28643 2 4 40 2 0.7736960103724912 
+2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,EPAM,SWEPAM,MFI" "Heliosphere.NearEarth" 36951 2 4 40 2 0.9981091812754923 
+2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,EPAM,SWEPAM,MFI" "Heliosphere.NearEarth" 37021 2 4 40 2 1.0 
 2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "FGM,HIA,CIS" "Heliosphere.NearEarth" 94 1 25 40 2 0.00020312795440425706 
 2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "FGM,HIA,CIS" "Heliosphere.NearEarth" 988 1 25 40 2 0.0021350044569298505 
 2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "FGM,HIA,CIS" "Heliosphere.NearEarth" 4669 1 25 40 2 0.010089408713973149 

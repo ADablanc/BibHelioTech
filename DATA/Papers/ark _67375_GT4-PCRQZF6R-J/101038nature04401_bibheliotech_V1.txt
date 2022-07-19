@@ -1,5 +1,5 @@
 # Name: 101038nature04401_bibheliotech_V1;
-# Creation Date: 2022-07-19T09:39:14.103879;
+# Creation Date: 2022-07-19T10:28:20.314438;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1038/nature04401". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -11,19 +11,19 @@
 # Parameter 8: id:column8; name:occur_sat; size:1; type:int;
 # Parameter 9: id:column9; name:nb_durations; size:1; type:int;
 # Parameter 10: id:column10; name:conf; size:1; type:float;
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 2464 1 11 19 8 0.0706847585989271 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Saturn" 2065 1 11 19 8 0.05923864712125993 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 454 1 11 19 8 0.013023896267821796 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 1317 1 11 19 8 0.037780773975157056 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 2824 1 11 19 8 0.08101207722539373 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 3157 1 11 19 8 0.09056484695487535 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 3425 1 11 19 8 0.09825296193235607 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 3537 1 11 19 8 0.10146590550503456 
-2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 5148 1 11 19 8 0.14768065635847272 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 2464 1 11 19 8 0.0706847585989271 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Saturn" 2065 1 11 19 8 0.05923864712125993 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 454 1 11 19 8 0.013023896267821796 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 1317 1 11 19 8 0.037780773975157056 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 2824 1 11 19 8 0.08101207722539373 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 3157 1 11 19 8 0.09056484695487535 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 3425 1 11 19 8 0.09825296193235607 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 3537 1 11 19 8 0.10146590550503456 
+2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 5148 1 11 19 8 0.14768065635847272 
 2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "SPSG" "" "Earth.Magnetosphere" 2131 1 1 19 8 0.6724518775639002 
 2004-10-26T11:27:00.000 2004-10-26T11:27:59.000 https://doi.org/10.1038/nature04401 "Voyager" "" "Heliosphere.NearEarth" 3169 1 1 19 8 1.0 
-2005-11-02T20:17:00.000 2005-11-02T20:20:00.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 790 4 11 19 8 0.09065090794342924 
-2005-11-02T20:17:00.000 2005-11-02T20:20:00.000 https://doi.org/10.1038/nature04401 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 3842 5 11 19 8 0.5510771967067328 
+2005-11-02T20:17:00.000 2005-11-02T20:20:00.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 790 4 11 19 8 0.09065090794342924 
+2005-11-02T20:17:00.000 2005-11-02T20:20:00.000 https://doi.org/10.1038/nature04401 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 3842 5 11 19 8 0.5510771967067328 
 2005-11-02T20:17:00.000 2005-11-02T20:20:00.000 https://doi.org/10.1038/nature04401 "FAST" "" "Earth.NearSurface" 159 1 2 19 8 0.025086778163458504 
 2005-11-02T20:17:00.000 2005-11-02T20:20:00.000 https://doi.org/10.1038/nature04401 "FAST" "" "Earth.NearSurface" 41 2 2 19 8 0.012937835279267907 
 2005-11-02T20:17:00.000 2005-11-02T20:20:00.000 https://doi.org/10.1038/nature04401 "Galileo" "" "Earth.Magnetosphere" 348 3 1 19 8 0.32944146418428527 
