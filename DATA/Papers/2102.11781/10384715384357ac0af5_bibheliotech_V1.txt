@@ -1,6 +1,6 @@
 # Name: 10384715384357ac0af5_bibheliotech_V1;
-# Creation Date: 2022-07-20T11:03:58.496641;
-# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.3847/1538-4357/ac0af5". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Creation Date: 2022-07-20T11:36:11.126508;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper "https://doi.org/10.3847/1538-4357/ac0af5". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
 # Parameter 3: id:column3; name:INSTS; size:1; type:char;
@@ -48,4 +48,4 @@
 2018-11-15T20:08:00.000 2018-11-21T20:11:00.000 https://doi.org/10.3847/1538-4357/ac0af5 "PSP" "SPC" "Sun" 10552 1 20 39 3 0.14975872835651435 
 2018-11-15T20:08:00.000 2018-11-21T20:11:00.000 https://doi.org/10.3847/1538-4357/ac0af5 "PSP" "SPC" "Sun" 13205 1 20 39 3 0.187411297189895 
 2018-11-15T20:08:00.000 2018-11-21T20:11:00.000 https://doi.org/10.3847/1538-4357/ac0af5 "PSP" "SPC" "Sun" 13282 1 20 39 3 0.1885041158103889 
-2018-11-15T20:08:00.000 2018-11-21T20:11:00.000 https://doi.org/10.3847/1538-4357/ac0af5 "THEMIS-A" "ESA,SST" "Heliosphere.NearEarth" 3523 1 1 39 3 1.0 
+2018-11-15T20:08:00.000 2018-11-21T20:11:00.000 https://doi.org/10.3847/1538-4357/ac0af5 "THEMIS-A" "SST,ESA" "Heliosphere.NearEarth" 3523 1 1 39 3 1.0 

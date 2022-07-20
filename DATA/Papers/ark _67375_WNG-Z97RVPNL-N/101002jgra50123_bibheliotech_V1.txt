@@ -1,6 +1,6 @@
 # Name: 101002jgra50123_bibheliotech_V1;
-# Creation Date: 2022-07-20T11:03:43.119765;
-# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1002/jgra.50123". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Creation Date: 2022-07-20T11:35:56.211806;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper "https://doi.org/10.1002/jgra.50123". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
 # Parameter 3: id:column3; name:INSTS; size:1; type:char;
@@ -11,33 +11,33 @@
 # Parameter 8: id:column8; name:occur_sat; size:1; type:int;
 # Parameter 9: id:column9; name:nb_durations; size:1; type:int;
 # Parameter 10: id:column10; name:conf; size:1; type:float;
-2011-05-15T00:00:00.000 2011-06-07T23:59:59.000 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 1915 1 24 30 13 0.004080371601465951 
-2011-11-21T10:29:22.038 2011-11-21T10:29:22.040 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 1806 1 24 30 13 0.00384812068524674 
-2011-11-21T10:29:22.038 2011-11-21T10:29:22.040 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 2527 1 24 30 13 0.005384385920054547 
-2011-11-24T10:29:00.495 2011-11-24T10:29:00.505 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 9227 1 24 30 13 0.019660359669308788 
-2011-11-24T10:29:00.495 2011-11-24T10:29:00.505 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 9963 1 24 30 13 0.021228586039376118 
+2011-05-15T00:00:00.000 2011-06-07T23:59:59.000 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 1915 1 24 30 13 0.004080371601465951 
+2011-11-21T10:29:22.038 2011-11-21T10:29:22.040 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 1806 1 24 30 13 0.00384812068524674 
+2011-11-21T10:29:22.038 2011-11-21T10:29:22.040 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 2527 1 24 30 13 0.005384385920054547 
+2011-11-24T10:29:00.495 2011-11-24T10:29:00.505 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 9227 1 24 30 13 0.019660359669308788 
+2011-11-24T10:29:00.495 2011-11-24T10:29:00.505 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 9963 1 24 30 13 0.021228586039376118 
 2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "Cluster" "" "Earth.Magnetosphere.Polar" 9416 1 1 30 13 0.48151367936589107 
 2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "IMAGE" "" "Earth.Magnetosphere" 20123 1 3 30 13 0.3430154265746186 
 2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "IMAGE" "" "Earth.Magnetosphere" 20216 1 3 30 13 0.344600698883491 
 2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "ISEE" "" "Heliosphere.NearEarth" 9379 1 1 30 13 0.47962158015852724 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Mercury" 22914 1 24 30 13 0.0488238302224495 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Mercury" 20836 1 24 30 13 0.044396147617830055 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 19517 1 24 30 13 0.041585698457342536 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 19142 1 24 30 13 0.04078667007585443 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 14448 1 24 30 13 0.03078496548197392 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 11968 1 24 30 13 0.025500724452399214 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 11571 1 24 30 13 0.024654819739197135 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 10876 1 24 30 13 0.02317395380550584 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 10511 1 24 30 13 0.022396232847524077 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 9091 1 24 30 13 0.019370578709622433 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 7747 1 24 30 13 0.016506860990369045 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 7471 1 24 30 13 0.015918776101593795 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 7304 1 24 30 13 0.015562942129037756 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 6255 1 24 30 13 0.013327793403221683 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 615 1 24 30 13 0.0013104065456405012 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 424 1 24 30 13 0.0009034347566692235 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 695 1 24 30 13 0.0014808659336912982 
-2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 8449 1 24 30 13 0.01800264212051479 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Mercury" 22914 1 24 30 13 0.0488238302224495 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Mercury" 20836 1 24 30 13 0.044396147617830055 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 19517 1 24 30 13 0.041585698457342536 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 19142 1 24 30 13 0.04078667007585443 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 14448 1 24 30 13 0.03078496548197392 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 11968 1 24 30 13 0.025500724452399214 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 11571 1 24 30 13 0.024654819739197135 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 10876 1 24 30 13 0.02317395380550584 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 10511 1 24 30 13 0.022396232847524077 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 9091 1 24 30 13 0.019370578709622433 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 7747 1 24 30 13 0.016506860990369045 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 7471 1 24 30 13 0.015918776101593795 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 7304 1 24 30 13 0.015562942129037756 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 6255 1 24 30 13 0.013327793403221683 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 615 1 24 30 13 0.0013104065456405012 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 424 1 24 30 13 0.0009034347566692235 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 695 1 24 30 13 0.0014808659336912982 
+2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 8449 1 24 30 13 0.01800264212051479 
 2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "Mariner-10" "MAG" "Mercury" 19555 1 1 30 13 1.0 
 2011-11-24T10:29:04.048 2011-11-24T10:29:04.050 https://doi.org/10.1002/jgra.50123 "IMAGE" "" "Earth.Magnetosphere" 20123 1 3 30 13 0.3430154265746186 
-2011-11-24T10:29:10.495 2011-11-24T10:29:10.505 https://doi.org/10.1002/jgra.50123 "MESSENGER" "FIPS,MAG" "Earth.Magnetosphere" 19897 1 24 30 13 0.042395380550583825 
+2011-11-24T10:29:10.495 2011-11-24T10:29:10.505 https://doi.org/10.1002/jgra.50123 "MESSENGER" "MAG,FIPS" "Earth.Magnetosphere" 19897 1 24 30 13 0.042395380550583825 

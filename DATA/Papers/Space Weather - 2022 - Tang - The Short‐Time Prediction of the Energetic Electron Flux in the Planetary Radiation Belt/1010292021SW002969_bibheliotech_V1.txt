@@ -1,6 +1,6 @@
 # Name: 1010292021SW002969_bibheliotech_V1;
-# Creation Date: 2022-07-20T11:03:03.288901;
-# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1029/2021SW002969". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Creation Date: 2022-07-20T11:35:18.668336;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper "https://doi.org/10.1029/2021SW002969". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
 # Parameter 3: id:column3; name:INSTS; size:1; type:char;
@@ -22,7 +22,7 @@
 2013-03-01T00:00:00.000 2017-12-28T23:59:59.000 https://doi.org/10.1029/2021SW002969 "RBSP-A" "" "Earth.Magnetosphere" 25 1 10 39 19 0.0005629785317519892 
 2013-03-01T00:00:00.000 2017-12-28T23:59:59.000 https://doi.org/10.1029/2021SW002969 "RBSP-A" "" "Earth.Magnetosphere" 1932 1 10 39 19 0.04350698093379373 
 2013-03-31T00:00:00.000 2017-12-31T23:59:59.000 https://doi.org/10.1029/2021SW002969 "AE" "" "Earth.NearSurface" 7864 1 14 39 19 0.12649323353421837 
-2013-03-31T00:00:00.000 2017-12-31T23:59:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 579 1 6 39 19 0.021730971325626784 
+2013-03-31T00:00:00.000 2017-12-31T23:59:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 579 1 6 39 19 0.021730971325626784 
 2013-03-31T00:00:00.000 2017-12-31T23:59:59.000 https://doi.org/10.1029/2021SW002969 "RBSP" "" "Earth.Magnetosphere" 608 1 5 39 19 0.027383275784416756 
 2013-03-31T00:00:00.000 2017-12-31T23:59:59.000 https://doi.org/10.1029/2021SW002969 "RBSP" "" "Earth.Magnetosphere" 488 1 5 39 19 0.021978681879597662 
 2013-03-31T00:00:00.000 2017-12-31T23:59:59.000 https://doi.org/10.1029/2021SW002969 "RBSP" "" "Earth.Magnetosphere" 148 1 5 39 19 0.006665665815943553 
@@ -42,11 +42,11 @@
 2017-03-27T00:05:00.000 2017-03-27T00:05:59.000 https://doi.org/10.1029/2021SW002969 "AE" "" "Earth.NearSurface" 13482 1 14 39 19 0.21685933043086625 
 2017-03-27T08:47:00.000 2017-03-27T08:47:59.000 https://doi.org/10.1029/2021SW002969 "RBSP-A" "" "Earth.Magnetosphere" 14897 1 10 39 19 0.33546764750037533 
 2017-03-27T14:54:00.000 2017-03-27T14:54:59.000 https://doi.org/10.1029/2021SW002969 "AE" "" "Earth.NearSurface" 11103 1 14 39 19 0.17859287537263815 
-2017-03-27T18:08:00.000 2017-03-27T18:08:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 13966 1 6 39 19 0.5241705449632187 
-2017-03-27T20:09:00.000 2017-03-27T20:09:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 15529 1 6 39 19 0.582832907971776 
+2017-03-27T18:08:00.000 2017-03-27T18:08:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 13966 1 6 39 19 0.5241705449632187 
+2017-03-27T20:09:00.000 2017-03-27T20:09:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 15529 1 6 39 19 0.582832907971776 
 2017-03-28T03:05:00.000 2017-03-28T03:05:59.000 https://doi.org/10.1029/2021SW002969 "RBSP-A" "" "Earth.Magnetosphere" 11579 1 10 39 19 0.26074913676625133 
 2017-03-28T09:54:00.000 2017-03-28T09:54:59.000 https://doi.org/10.1029/2021SW002969 "RBSP-A" "" "Earth.Magnetosphere" 14339 1 10 39 19 0.322901966671671 
-2017-03-28T20:56:00.000 2017-03-28T20:56:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 16089 1 6 39 19 0.6038507731571836 
+2017-03-28T20:56:00.000 2017-03-28T20:56:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 16089 1 6 39 19 0.6038507731571836 
 2017-03-29T04:50:00.000 2017-03-29T04:50:59.000 https://doi.org/10.1029/2021SW002969 "AE" "" "Earth.NearSurface" 11809 1 14 39 19 0.18994895661312114 
-2017-03-29T12:55:00.000 2017-03-29T12:55:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 14311 1 6 39 19 0.5371190511935144 
-2017-03-29T22:27:00.000 2017-03-29T22:27:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "MIMI,LEMMS" "Earth.Magnetosphere" 18729 1 6 39 19 0.7029349947455337 
+2017-03-29T12:55:00.000 2017-03-29T12:55:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 14311 1 6 39 19 0.5371190511935144 
+2017-03-29T22:27:00.000 2017-03-29T22:27:59.000 https://doi.org/10.1029/2021SW002969 "Cassini" "LEMMS,MIMI" "Earth.Magnetosphere" 18729 1 6 39 19 0.7029349947455337 

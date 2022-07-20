@@ -35,4 +35,4 @@
 {'start_time': '2018-11-15T20:08:00.000', 'stop_time': '2018-11-21T20:11:00.000', 'DOI': '10.3847/1538-4357/ac0af5', 'sat': 'PSP', 'inst': 'SPC', 'reg': 'Sun', 'D': 10552, 'R': 1, 'SO': 20, 'conf': 0.14975872835651435}
 {'start_time': '2018-11-15T20:08:00.000', 'stop_time': '2018-11-21T20:11:00.000', 'DOI': '10.3847/1538-4357/ac0af5', 'sat': 'PSP', 'inst': 'SPC', 'reg': 'Sun', 'D': 13205, 'R': 1, 'SO': 20, 'conf': 0.187411297189895}
 {'start_time': '2018-11-15T20:08:00.000', 'stop_time': '2018-11-21T20:11:00.000', 'DOI': '10.3847/1538-4357/ac0af5', 'sat': 'PSP', 'inst': 'SPC', 'reg': 'Sun', 'D': 13282, 'R': 1, 'SO': 20, 'conf': 0.1885041158103889}
-{'start_time': '2018-11-15T20:08:00.000', 'stop_time': '2018-11-21T20:11:00.000', 'DOI': '10.3847/1538-4357/ac0af5', 'sat': 'THEMIS-A', 'inst': 'ESA,SST', 'reg': 'Heliosphere.NearEarth', 'D': 3523, 'R': 1, 'SO': 1, 'conf': 1.0}
+{'start_time': '2018-11-15T20:08:00.000', 'stop_time': '2018-11-21T20:11:00.000', 'DOI': '10.3847/1538-4357/ac0af5', 'sat': 'THEMIS-A', 'inst': 'SST,ESA', 'reg': 'Heliosphere.NearEarth', 'D': 3523, 'R': 1, 'SO': 1, 'conf': 1.0}

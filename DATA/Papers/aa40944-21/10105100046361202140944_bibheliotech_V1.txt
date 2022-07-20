@@ -1,6 +1,6 @@
 # Name: 10105100046361202140944_bibheliotech_V1;
-# Creation Date: 2022-07-20T11:03:47.434347;
-# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1051/0004-6361/202140944". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Creation Date: 2022-07-20T11:36:00.652925;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper "https://doi.org/10.1051/0004-6361/202140944". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
 # Parameter 3: id:column3; name:INSTS; size:1; type:char;
@@ -14,18 +14,18 @@
 2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "IMAGE" "" "Earth.Magnetosphere" 20192 1 4 18 12 0.6472624695473779 
 2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "IMAGE" "" "Earth.Magnetosphere" 19301 1 4 18 12 0.6187011155276317 
 2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "PSP" "MAG" "Sun" 7799 1 1 18 12 1.0 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 20784 1 13 18 12 0.20499669582885383 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 20685 1 13 18 12 0.20402023928117016 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 18649 1 13 18 12 0.183938769270222 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 14194 1 13 18 12 0.13999822462445877 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 2917 1 13 18 12 0.028770946965587307 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 2787 1 13 18 12 0.027488731296911834 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 1871 1 13 18 12 0.018454042431475436 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 1543 1 13 18 12 0.015218913667432709 
-2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 8340 1 13 18 12 0.08225906674425716 
-2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 8226 1 13 18 12 0.08113466223480328 
-2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 7376 1 13 18 12 0.07275094440115597 
-2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 7053 1 13 18 12 0.06956513162436999 
-2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "MAG,PAS,SWA,EAS" "Heliosphere.Inner" 5742 1 13 18 12 0.05663447976565043 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 20784 1 13 18 12 0.20499669582885383 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 20685 1 13 18 12 0.20402023928117016 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 18649 1 13 18 12 0.183938769270222 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 14194 1 13 18 12 0.13999822462445877 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 2917 1 13 18 12 0.028770946965587307 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 2787 1 13 18 12 0.027488731296911834 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 1871 1 13 18 12 0.018454042431475436 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 1543 1 13 18 12 0.015218913667432709 
+2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 8340 1 13 18 12 0.08225906674425716 
+2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 8226 1 13 18 12 0.08113466223480328 
+2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 7376 1 13 18 12 0.07275094440115597 
+2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 7053 1 13 18 12 0.06956513162436999 
+2020-07-16T12:35:00.000 2020-07-16T12:38:00.000 https://doi.org/10.1051/0004-6361/202140944 "SolarOrbiter" "SWA,PAS,MAG,EAS" "Heliosphere.Inner" 5742 1 13 18 12 0.05663447976565043 
 2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "IMAGE" "" "Earth.Magnetosphere" 20192 1 4 18 12 0.6472624695473779 
 2020-07-16T12:35:00.000 2020-07-16T12:40:00.000 https://doi.org/10.1051/0004-6361/202140944 "IMAGE" "" "Earth.Magnetosphere" 19301 1 4 18 12 0.6187011155276317 
