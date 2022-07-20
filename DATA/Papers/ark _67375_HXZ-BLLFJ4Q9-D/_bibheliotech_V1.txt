@@ -1,5 +1,5 @@
 # Name: _bibheliotech_V1;
-# Creation Date: 2022-07-20T10:09:01.291176;
+# Creation Date: 2022-07-20T11:03:31.769051;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -11,35 +11,35 @@
 # Parameter 8: id:column8; name:occur_sat; size:1; type:int;
 # Parameter 9: id:column9; name:nb_durations; size:1; type:int;
 # Parameter 10: id:column10; name:conf; size:1; type:float;
-2001-02-04T01:36:00.000 2001-02-04T22:02:00.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 2847 1 32 34 20 0.25804404966917427 
-2001-02-04T01:36:00.000 2001-02-04T22:02:00.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 3374 1 32 34 20 0.3058098431976797 
-2001-02-04T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 3854 1 32 34 20 0.34931568929574913 
-2001-02-04T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 4708 1 32 34 20 0.4267198404785643 
-2001-02-04T19:55:00.000 2001-02-04T19:55:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 5040 1 32 34 20 0.456811384029729 
-2001-02-04T21:30:00.000 2001-02-04T21:30:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 5649 1 32 34 20 0.5120094262666546 
-2001-02-04T22:02:00.000 2001-02-04T22:02:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 5817 1 32 34 20 0.5272364724009789 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 11033 1 32 34 20 1.0 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 10857 1 32 34 20 0.9840478564307079 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 10649 1 32 34 20 0.9651953231215444 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 10151 1 32 34 20 0.9200580077947974 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 8615 1 32 34 20 0.7808393002809753 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 8580 1 32 34 20 0.7776669990029911 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 8471 1 32 34 20 0.7677875464515544 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 7873 1 32 34 20 0.7135865131877096 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 7390 1 32 34 20 0.6698087555515272 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 7092 1 32 34 20 0.6427988760989758 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 5666 1 32 34 20 0.5135502583159612 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 5504 1 32 34 20 0.4988670352578628 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 4473 1 32 34 20 0.4054201033263845 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 3983 1 32 34 20 0.36100788543460527 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Polar" 3766 1 32 34 20 0.34133961751110303 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 214 1 32 34 20 0.019396356385389286 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 148 1 32 34 20 0.01341430254690474 
-2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 22 1 32 34 20 0.0019940179461615153 
-2003-04-01T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 249 1 32 34 20 0.022568657663373515 
-2003-04-01T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 984 1 32 34 20 0.08918698450104233 
-2003-04-01T20:00:00.000 2001-02-04T20:00:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 1140 1 32 34 20 0.1033263844829149 
-2003-04-01T20:30:00.000 2001-02-04T20:30:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 1326 1 32 34 20 0.12018489984591679 
-2003-04-01T21:00:00.000 2001-02-04T21:00:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 1961 1 32 34 20 0.1777395087464878 
-2003-04-01T21:30:00.000 2003-04-01T21:30:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 2556 1 32 34 20 0.2316686304722197 
-2003-04-01T22:00:00.000 2003-04-01T22:00:59.000 https://doi.org/ "Cluster" "HIA,FGM,STAFF" "Earth.Magnetosphere.Main" 3049 1 32 34 20 0.27635275990211183 
+2001-02-04T01:36:00.000 2001-02-04T22:02:00.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 3374 1 32 34 21 0.30838131797824697 
+2001-02-04T01:36:00.000 2001-02-04T22:02:00.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 4238 1 32 34 21 0.3873503336075313 
+2001-02-04T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 4708 1 32 34 21 0.43030801572068367 
+2001-02-04T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 5281 1 32 34 21 0.4826798281692716 
+2001-02-04T21:30:00.000 2001-02-04T21:30:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 5649 1 32 34 21 0.5163147792706334 
+2001-02-04T21:30:00.000 2001-02-04T21:30:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 5877 1 32 34 21 0.5371538250616945 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 10941 1 32 34 21 1.0 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 10765 1 32 34 21 0.9839137190384791 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 10557 1 32 34 21 0.9649026597203181 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 10059 1 32 34 21 0.9193857965451055 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 8523 1 32 34 21 0.7789964354263779 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 8488 1 32 34 21 0.7757974590988027 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 8379 1 32 34 21 0.7658349328214972 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 7781 1 32 34 21 0.7111781372817841 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 7298 1 32 34 21 0.6670322639612467 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 7000 1 32 34 21 0.6397952655150352 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 5574 1 32 34 21 0.509459829997258 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 5412 1 32 34 21 0.4946531395667672 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 4381 1 32 34 21 0.40042043688876705 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 3891 1 32 34 21 0.35563476830271457 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Polar" 3674 1 32 34 21 0.3358011150717485 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 122 1 32 34 21 0.011150717484690613 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 56 1 32 34 21 0.005118362124120281 
+2003-04-01T00:00:00.000 2001-02-04T23:59:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 114 1 32 34 21 0.010419522895530574 
+2003-04-01T00:05:00.000 2003-04-01T00:05:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 463 1 32 34 21 0.04231788684763733 
+2003-04-01T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 984 1 32 34 21 0.08993693446668495 
+2003-04-01T01:36:00.000 2001-02-04T01:36:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 1154 1 32 34 21 0.1054748194863358 
+2003-04-01T20:00:00.000 2001-02-04T20:00:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 1332 1 32 34 21 0.1217438990951467 
+2003-04-01T20:30:00.000 2001-02-04T20:30:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 1967 1 32 34 21 0.17978246960972488 
+2003-04-01T21:00:00.000 2001-02-04T21:00:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 2765 1 32 34 21 0.2527191298784389 
+2003-04-01T21:30:00.000 2003-04-01T21:30:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 3055 1 32 34 21 0.27922493373549034 
+2003-04-01T22:00:00.000 2003-04-01T22:00:59.000 https://doi.org/ "Cluster" "STAFF,HIA,FGM" "Earth.Magnetosphere.Main" 3239 1 32 34 21 0.29604240928617126 

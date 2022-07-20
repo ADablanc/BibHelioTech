@@ -286,6 +286,16 @@
         }
     },
     {
+        "end": 22488,
+        "start": 22456,
+        "text": "14 October 2014 to 14 April 2015",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-10-14T00:00:00.000",
+            "end": "2015-04-14T23:59:59.000"
+        }
+    },
+    {
         "end": 24579,
         "start": 24555,
         "text": "14 October 2014 at 18:30",
@@ -865,6 +875,36 @@
         "value": {
             "begin": "2014-12-31T00:00:02.495",
             "end": "2014-12-31T00:00:02.505"
+        }
+    },
+    {
+        "end": 50597,
+        "start": 50567,
+        "text": "18 January to 14 February 2015",
+        "type": "DURATION",
+        "value": {
+            "begin": "2015-01-18T00:00:00.000",
+            "end": "2015-02-14T23:59:59.000"
+        }
+    },
+    {
+        "end": 59731,
+        "start": 59685,
+        "text": "between late December 2015 and late March 2016",
+        "type": "DURATION",
+        "value": {
+            "begin": "2015-12-01T00:00:00.000",
+            "end": "2016-03-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 61575,
+        "start": 61549,
+        "text": "June 1993 to February 1994",
+        "type": "DURATION",
+        "value": {
+            "begin": "1993-06-01T00:00:00.000",
+            "end": "1994-02-28T23:59:59.000"
         }
     },
     {

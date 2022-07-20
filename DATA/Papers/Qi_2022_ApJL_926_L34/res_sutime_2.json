@@ -99,6 +99,16 @@
         }
     },
     {
+        "end": 15215,
+        "start": 15183,
+        "text": "18 November 2016  and February 7",
+        "type": "DURATION",
+        "value": {
+            "begin": "2016-11-18T00:00:00.000",
+            "end": "2016-02-07T23:59:59.000"
+        }
+    },
+    {
         "end": 19061,
         "start": 19040,
         "text": "25 Oct 2015  11:07:46",

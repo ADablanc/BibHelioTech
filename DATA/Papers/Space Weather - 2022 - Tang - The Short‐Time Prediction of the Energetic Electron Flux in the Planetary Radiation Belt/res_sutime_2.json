@@ -1,5 +1,45 @@
 [
     {
+        "end": 2592,
+        "start": 2560,
+        "text": "from March 2013 to December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03-01T00:00:00.000",
+            "end": "2017-12-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 10126,
+        "start": 10102,
+        "text": "March 2013\u2014December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03-01T00:00:00.000",
+            "end": "2017-12-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 12823,
+        "start": 12785,
+        "text": "from 31 March 2013 to 31 December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03-31T00:00:00.000",
+            "end": "2017-12-31T23:59:59.000"
+        }
+    },
+    {
+        "end": 20577,
+        "start": 20542,
+        "text": "from 26 March 2017 to 29 March 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2017-03-26T00:00:00.000",
+            "end": "2017-03-29T23:59:59.000"
+        }
+    },
+    {
         "end": 25098,
         "start": 25082,
         "text": "2017-03-26 12:24",
@@ -129,6 +169,36 @@
         "value": {
             "begin": "2017-03-29T22:27:00.000",
             "end": "2017-03-29T22:27:59.000"
+        }
+    },
+    {
+        "end": 39990,
+        "start": 39953,
+        "text": "from 1 July 2004 to 15 September 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2004-07-01T00:00:00.000",
+            "end": "2017-09-15T23:59:59.000"
+        }
+    },
+    {
+        "end": 42035,
+        "start": 42003,
+        "text": "during 4 June 2016 to 3 May 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2016-06-04T00:00:00.000",
+            "end": "2017-05-03T23:59:59.000"
+        }
+    },
+    {
+        "end": 50248,
+        "start": 50208,
+        "text": "during 31 March 2013 to 31 December 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-03-31T00:00:00.000",
+            "end": "2017-12-31T23:59:59.000"
         }
     }
 ]

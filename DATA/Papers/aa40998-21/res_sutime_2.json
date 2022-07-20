@@ -1,5 +1,15 @@
 [
     {
+        "end": 7242,
+        "start": 7220,
+        "text": "July and November 2020",
+        "type": "DURATION",
+        "value": {
+            "begin": "2020-07-01T00:00:00.000",
+            "end": "2020-11-28T23:59:59.000"
+        }
+    },
+    {
         "end": 20875,
         "start": 20854,
         "text": "11 July 2020 at 02:30",

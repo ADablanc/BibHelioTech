@@ -10,6 +10,116 @@
         }
     },
     {
+        "end": 12408,
+        "start": 12383,
+        "text": "1 February to 1 June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-06-01T23:59:59.000"
+        }
+    },
+    {
+        "end": 14430,
+        "start": 14406,
+        "text": "1 February \u2014 1 June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-06-01T23:59:59.000"
+        }
+    },
+    {
+        "end": 15424,
+        "start": 15389,
+        "text": "from 1 February 2007 to 1 June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-06-01T23:59:59.000"
+        }
+    },
+    {
+        "end": 16614,
+        "start": 16582,
+        "text": "from 26 January to 10 March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-01-26T00:00:00.000",
+            "end": "2007-03-10T23:59:59.000"
+        }
+    },
+    {
+        "end": 16728,
+        "start": 16705,
+        "text": "20 March \u2014 1 April 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-03-20T00:00:00.000",
+            "end": "2007-04-01T23:59:59.000"
+        }
+    },
+    {
+        "end": 17081,
+        "start": 17051,
+        "text": "from 20 March to 31 March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-03-20T00:00:00.000",
+            "end": "2007-03-31T23:59:59.000"
+        }
+    },
+    {
+        "end": 17962,
+        "start": 17935,
+        "text": "26 January to 10 March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-01-26T00:00:00.000",
+            "end": "2007-03-10T23:59:59.000"
+        }
+    },
+    {
+        "end": 18457,
+        "start": 18428,
+        "text": "28 January to 2 February 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-01-28T00:00:00.000",
+            "end": "2007-02-02T23:59:59.000"
+        }
+    },
+    {
+        "end": 19097,
+        "start": 19062,
+        "text": "12 February 2007 - 28 February 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-12T00:00:00.000",
+            "end": "2007-02-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 19212,
+        "start": 19184,
+        "text": "28 January \u2014 2 February 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-01-28T00:00:00.000",
+            "end": "2007-02-02T23:59:59.000"
+        }
+    },
+    {
+        "end": 19302,
+        "start": 19272,
+        "text": "12 February \u2014 28 February 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-12T00:00:00.000",
+            "end": "2007-02-28T23:59:59.000"
+        }
+    },
+    {
         "end": 19374,
         "start": 19369,
         "text": "20:07",
@@ -18,6 +128,126 @@
         "value": {
             "begin": "2007-02-28T20:07:00.000",
             "end": "2007-02-28T20:07:59.000"
+        }
+    },
+    {
+        "end": 19808,
+        "start": 19774,
+        "text": "from 28 January to 2 February 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-01-28T00:00:00.000",
+            "end": "2007-02-02T23:59:59.000"
+        }
+    },
+    {
+        "end": 22792,
+        "start": 22774,
+        "text": "February\u2014June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-06-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 23734,
+        "start": 23715,
+        "text": "February-March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-03-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 23820,
+        "start": 23805,
+        "text": "March\u2014June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-03-01T00:00:00.000",
+            "end": "2007-06-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 25792,
+        "start": 25768,
+        "text": "17 January \u2014 1 June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-01-17T00:00:00.000",
+            "end": "2007-06-01T23:59:59.000"
+        }
+    },
+    {
+        "end": 26189,
+        "start": 26163,
+        "text": "1 February \u2014 10 March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-03-10T23:59:59.000"
+        }
+    },
+    {
+        "end": 26915,
+        "start": 26893,
+        "text": "10 March \u2014 1 June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-03-10T00:00:00.000",
+            "end": "2007-06-01T23:59:59.000"
+        }
+    },
+    {
+        "end": 28000,
+        "start": 27968,
+        "text": "from 1 February to 10 March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-03-10T23:59:59.000"
+        }
+    },
+    {
+        "end": 29668,
+        "start": 29636,
+        "text": "from 1 February to 10 March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-03-10T23:59:59.000"
+        }
+    },
+    {
+        "end": 29807,
+        "start": 29772,
+        "text": "from 17 January 2007 to 1 June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-01-17T00:00:00.000",
+            "end": "2007-06-01T23:59:59.000"
+        }
+    },
+    {
+        "end": 30384,
+        "start": 30352,
+        "text": "from 1 February to 10 March 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-02-01T00:00:00.000",
+            "end": "2007-03-10T23:59:59.000"
+        }
+    },
+    {
+        "end": 31125,
+        "start": 31097,
+        "text": "from 10 March to 1 June 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-03-10T00:00:00.000",
+            "end": "2007-06-01T23:59:59.000"
         }
     },
     {

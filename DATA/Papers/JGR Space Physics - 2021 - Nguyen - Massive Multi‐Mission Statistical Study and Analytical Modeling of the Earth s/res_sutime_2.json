@@ -187,6 +187,26 @@
         }
     },
     {
+        "end": 10941,
+        "start": 10906,
+        "text": "between April 2007 and January 2010",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-04-01T00:00:00.000",
+            "end": "2010-01-28T23:59:59.000"
+        }
+    },
+    {
+        "end": 30290,
+        "start": 30254,
+        "text": "between September 2015 and July 2019",
+        "type": "DURATION",
+        "value": {
+            "begin": "2015-09-01T00:00:00.000",
+            "end": "2019-07-28T23:59:59.000"
+        }
+    },
+    {
         "end": 30885,
         "start": 30868,
         "text": "02:00 02:00 02:00",

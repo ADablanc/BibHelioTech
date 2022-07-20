@@ -1,5 +1,15 @@
 [
     {
+        "end": 6346,
+        "start": 6317,
+        "text": "from May 2015 to January 2016",
+        "type": "DURATION",
+        "value": {
+            "begin": "2015-05-01T00:00:00.000",
+            "end": "2016-01-28T23:59:59.000"
+        }
+    },
+    {
         "end": 22537,
         "start": 22516,
         "text": "7 December 2014 03:49",

@@ -44,6 +44,16 @@
         }
     },
     {
+        "end": 20730,
+        "start": 20699,
+        "text": "September 1997 until March 1999",
+        "type": "DURATION",
+        "value": {
+            "begin": "1997-09-01T00:00:00.000",
+            "end": "1999-03-28T23:59:59.000"
+        }
+    },
+    {
         "end": 21087,
         "start": 21065,
         "text": "2:00 a.m.\nto 2:00 p.m.",
