@@ -8,8 +8,8 @@
         "value": "2000T15:02"
     },
     {
-        "end": 4370,
-        "start": 4338,
+        "end": 4282,
+        "start": 4250,
         "text": "days, April 29 1996 and February",
         "type": "DURATION",
         "value": {
@@ -17,8 +17,8 @@
         }
     },
     {
-        "end": 5522,
-        "start": 5509,
+        "end": 5434,
+        "start": 5421,
         "text": "14:30 - 15:30",
         "type": "DURATION",
         "value": {
@@ -27,8 +27,8 @@
         }
     },
     {
-        "end": 7288,
-        "start": 7275,
+        "end": 7200,
+        "start": 7187,
         "text": "07:00 - 11:00",
         "type": "DURATION",
         "value": {
@@ -37,24 +37,24 @@
         }
     },
     {
-        "end": 8147,
-        "start": 8134,
+        "end": 8059,
+        "start": 8046,
         "text": "29 April 1495",
         "timex-value": "1495-04-29",
         "type": "DATE",
         "value": "1495-04-29"
     },
     {
-        "end": 8537,
-        "start": 8524,
+        "end": 8449,
+        "start": 8436,
         "text": "April 29 1996",
         "timex-value": "1996-04-29",
         "type": "DATE",
         "value": "1996-04-29"
     },
     {
-        "end": 8688,
-        "start": 8675,
+        "end": 8600,
+        "start": 8587,
         "text": "14:30 - 15:30",
         "type": "DURATION",
         "value": {
@@ -63,32 +63,32 @@
         }
     },
     {
-        "end": 8986,
-        "start": 8973,
+        "end": 8898,
+        "start": 8885,
         "text": "April 29 1996",
         "timex-value": "1996-04-29",
         "type": "DATE",
         "value": "1996-04-29"
     },
     {
-        "end": 9092,
-        "start": 9087,
+        "end": 9004,
+        "start": 8999,
         "text": "08:50",
         "timex-value": "T08:50",
         "type": "TIME",
         "value": "T08:50"
     },
     {
-        "end": 9137,
-        "start": 9132,
+        "end": 9049,
+        "start": 9044,
         "text": "11:02",
         "timex-value": "T11:02",
         "type": "TIME",
         "value": "T11:02"
     },
     {
-        "end": 9261,
-        "start": 9248,
+        "end": 9173,
+        "start": 9160,
         "text": "08:50 - 09:42",
         "type": "DURATION",
         "value": {
@@ -97,8 +97,8 @@
         }
     },
     {
-        "end": 9279,
-        "start": 9266,
+        "end": 9191,
+        "start": 9178,
         "text": "10:10 - 11:02",
         "type": "DURATION",
         "value": {
@@ -107,8 +107,8 @@
         }
     },
     {
-        "end": 9550,
-        "start": 9537,
+        "end": 9462,
+        "start": 9449,
         "text": "08:50 - 09:42",
         "type": "DURATION",
         "value": {
@@ -117,16 +117,16 @@
         }
     },
     {
-        "end": 9567,
-        "start": 9562,
+        "end": 9479,
+        "start": 9474,
         "text": "11:02",
         "timex-value": "T11:02",
         "type": "TIME",
         "value": "T11:02"
     },
     {
-        "end": 10795,
-        "start": 10782,
+        "end": 10707,
+        "start": 10694,
         "text": "10:07 - 10:17",
         "type": "DURATION",
         "value": {
@@ -135,8 +135,8 @@
         }
     },
     {
-        "end": 11055,
-        "start": 11042,
+        "end": 10967,
+        "start": 10954,
         "text": "10:50 - 11:00",
         "type": "DURATION",
         "value": {
@@ -145,32 +145,32 @@
         }
     },
     {
-        "end": 11502,
-        "start": 11487,
+        "end": 11414,
+        "start": 11399,
         "text": "February 1 1995",
         "timex-value": "1995-02-01",
         "type": "DATE",
         "value": "1995-02-01"
     },
     {
-        "end": 11756,
-        "start": 11741,
+        "end": 11668,
+        "start": 11653,
         "text": "February 1 1995",
         "timex-value": "1995-02-01",
         "type": "DATE",
         "value": "1995-02-01"
     },
     {
-        "end": 12087,
-        "start": 12074,
+        "end": 11999,
+        "start": 11986,
         "text": "April 29 1996",
         "timex-value": "1996-04-29",
         "type": "DATE",
         "value": "1996-04-29"
     },
     {
-        "end": 12169,
-        "start": 12156,
+        "end": 12081,
+        "start": 12068,
         "text": "10:30 - 13:00",
         "type": "DURATION",
         "value": {
@@ -179,8 +179,8 @@
         }
     },
     {
-        "end": 12187,
-        "start": 12174,
+        "end": 12099,
+        "start": 12086,
         "text": "13:00 - 14:00",
         "type": "DURATION",
         "value": {
@@ -189,8 +189,8 @@
         }
     },
     {
-        "end": 12309,
-        "start": 12291,
+        "end": 12221,
+        "start": 12203,
         "text": "from 16:00 - 18:00",
         "type": "DURATION",
         "value": {
@@ -199,8 +199,8 @@
         }
     },
     {
-        "end": 12428,
-        "start": 12415,
+        "end": 12340,
+        "start": 12327,
         "text": "15:30 - 16:00",
         "type": "DURATION",
         "value": {
@@ -209,8 +209,8 @@
         }
     },
     {
-        "end": 12446,
-        "start": 12433,
+        "end": 12358,
+        "start": 12345,
         "text": "16:55 - 17:40",
         "type": "DURATION",
         "value": {
@@ -219,8 +219,8 @@
         }
     },
     {
-        "end": 13140,
-        "start": 13120,
+        "end": 13052,
+        "start": 13032,
         "text": "during 15:30 - 16:00",
         "type": "DURATION",
         "value": {
@@ -229,8 +229,8 @@
         }
     },
     {
-        "end": 13173,
-        "start": 13153,
+        "end": 13085,
+        "start": 13065,
         "text": "during 16:55 - 17:40",
         "type": "DURATION",
         "value": {
@@ -239,8 +239,8 @@
         }
     },
     {
-        "end": 13622,
-        "start": 13609,
+        "end": 13534,
+        "start": 13521,
         "text": "16:55 - 17:46",
         "type": "DURATION",
         "value": {
@@ -249,8 +249,8 @@
         }
     },
     {
-        "end": 14737,
-        "start": 14724,
+        "end": 14649,
+        "start": 14636,
         "text": "16:30 - 18:00",
         "type": "DURATION",
         "value": {
@@ -259,72 +259,72 @@
         }
     },
     {
-        "end": 15338,
-        "start": 15323,
+        "end": 15250,
+        "start": 15235,
         "text": "1 February 1497",
         "timex-value": "1497-02-01",
         "type": "DATE",
         "value": "1497-02-01"
     },
     {
-        "end": 15626,
-        "start": 15611,
+        "end": 15538,
+        "start": 15523,
         "text": "February 1 1995",
         "timex-value": "1995-02-01",
         "type": "DATE",
         "value": "1995-02-01"
     },
     {
-        "end": 17538,
-        "start": 17523,
+        "end": 17450,
+        "start": 17435,
         "text": "February 1 1995",
         "timex-value": "1995-02-01",
         "type": "DATE",
         "value": "1995-02-01"
     },
     {
-        "end": 17577,
-        "start": 17572,
+        "end": 17489,
+        "start": 17484,
         "text": "16:30",
         "timex-value": "T16:30",
         "type": "TIME",
         "value": "T16:30"
     },
     {
-        "end": 17583,
-        "start": 17578,
+        "end": 17495,
+        "start": 17490,
         "text": "17:00",
         "timex-value": "T17:00",
         "type": "TIME",
         "value": "T17:00"
     },
     {
-        "end": 17589,
-        "start": 17584,
+        "end": 17501,
+        "start": 17496,
         "text": "17:30",
         "timex-value": "T17:30",
         "type": "TIME",
         "value": "T17:30"
     },
     {
-        "end": 17595,
-        "start": 17590,
+        "end": 17507,
+        "start": 17502,
         "text": "18:00",
         "timex-value": "T18:00",
         "type": "TIME",
         "value": "T18:00"
     },
     {
-        "end": 18477,
-        "start": 18462,
+        "end": 18389,
+        "start": 18374,
         "text": "February 1 1995",
         "timex-value": "1995-02-01",
         "type": "DATE",
         "value": "1995-02-01"
     },
     {
-        "end": 19403,
-        "start": 19366,
+        "end": 19315,
+        "start": 19278,
         "text": "from 15:00 - 18:00 on February 1 1995",
         "type": "DURATION",
         "value": {
@@ -333,16 +333,16 @@
         }
     },
     {
-        "end": 20153,
-        "start": 20145,
+        "end": 20065,
+        "start": 20057,
         "text": "April 29",
         "timex-value": "2022-04-29",
         "type": "DATE",
         "value": "2022-04-29"
     },
     {
-        "end": 20310,
-        "start": 20292,
+        "end": 20222,
+        "start": 20204,
         "text": "from 14:30 - 15:30",
         "type": "DURATION",
         "value": {
@@ -351,8 +351,8 @@
         }
     },
     {
-        "end": 20755,
-        "start": 20726,
+        "end": 20667,
+        "start": 20638,
         "text": "April 29 1996 - April 29 1996",
         "type": "DURATION",
         "value": {
@@ -361,24 +361,24 @@
         }
     },
     {
-        "end": 22332,
-        "start": 22319,
+        "end": 22244,
+        "start": 22231,
         "text": "April 29 1996",
         "timex-value": "1996-04-29",
         "type": "DATE",
         "value": "1996-04-29"
     },
     {
-        "end": 23465,
-        "start": 23460,
+        "end": 23377,
+        "start": 23372,
         "text": "13:30",
         "timex-value": "T13:30",
         "type": "TIME",
         "value": "T13:30"
     },
     {
-        "end": 23925,
-        "start": 23912,
+        "end": 23837,
+        "start": 23824,
         "text": "13:20 - 13:40",
         "type": "DURATION",
         "value": {
@@ -387,8 +387,8 @@
         }
     },
     {
-        "end": 25564,
-        "start": 25544,
+        "end": 25476,
+        "start": 25456,
         "text": "January - July, 1995",
         "type": "DURATION",
         "value": {
@@ -397,8 +397,8 @@
         }
     },
     {
-        "end": 27948,
-        "start": 27933,
+        "end": 27860,
+        "start": 27845,
         "text": "November 6 1977",
         "timex-value": "1977-11-06",
         "type": "DATE",

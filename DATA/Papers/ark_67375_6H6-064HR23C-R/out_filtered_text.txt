@@ -4,8 +4,7 @@ Vol.
 25, No.
 7/8, pp.
 14:93 - 15:02, 2000 © 2000 COSPAR.
-Published by Elsevier Science Ltd.
-All rights reserved Printed in Great Britain 02:73 - 11:77/00 $20.00 + 0.00 Pergamon www.elsevier.nl/locate/asr PII: S02:73 - 11:77(99)00661-4 SURFACE WAVES ON THE DAWN MAGNETOPAUSE: CONNECTION WITH GROUND PC 5 PULSATIONS S.
+ Printed in Great Britain 02:73 - 11:77/00 $20.00 + 0.00 Pergamon www.elsevier.nl/locate/asr PII: S02:73 - 11:77(99)00661-4 SURFACE WAVES ON THE DAWN MAGNETOPAUSE: CONNECTION WITH GROUND PC 5 PULSATIONS S.
 Kokubun', H.
 Kawano”, T.
 Mukai?, Y.
@@ -21,8 +20,7 @@ Most of magnetopause crossings analyzed are cases with high magnetic shears (Bz 
 Outward and sunward flows, whose magnitudes are greater than those in the magnetosheath, were observed in the magnetosphere after inbound crossings, while inward and tailward flows were detected before outbound crossings.
 These characteristics are not necessarily consistent with the excitation of surface waves by the Kelvin-Helmholtz instability.
 A high-speed flow with the sunward and outward component was also observed in the magnetosphere after the inbound crossing with high magnetic shear in an isolated and temporal! magnetopause crossing event driven by a pressure pulse.© 2000 COSPAR.
-Published by Elsevier Science Ltd.
-INTRODUCTION Pc 5 waves are believed to be generated as the normal mode of the field line resonance (FLR) whose energy source is surface waves excited by the Kelvin-Helmholtz (K-H) instability at the magnetopause or in the low-latitude boundary layer (LLBL) (Chen and Hasegawa, 1974; Southwood, 1974).
+ INTRODUCTION Pc 5 waves are believed to be generated as the normal mode of the field line resonance (FLR) whose energy source is surface waves excited by the Kelvin-Helmholtz (K-H) instability at the magnetopause or in the low-latitude boundary layer (LLBL) (Chen and Hasegawa, 1974; Southwood, 1974).
 Related works on the FLR have been developed by a number of researchers and account for many observed properties of magnetic pulsations and ionospheric flows detected by radar measurements (e.g., Fenrich and Samson, 1995).
 A few studies have been conducted on properties of plasma flow oscillations in the magnetosphere (Mitchell, et a/., 1990; Nakamura et a/., 1994), while the FLR has been clarified by magnetic field observations (e.g.,Kokubun et al/., 1976, 1977; Singer et al., 1982).
 Early observations revealed the presence of tailward propagating surface waves on the magnetopause (Lepping and Burlaga, 1979; Song et al., 1988).

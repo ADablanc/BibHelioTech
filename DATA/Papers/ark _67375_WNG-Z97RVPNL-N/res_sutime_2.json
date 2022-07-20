@@ -1,7 +1,7 @@
 [
     {
-        "end": 23120,
-        "start": 23108,
+        "end": 23022,
+        "start": 23010,
         "text": "T10:29:04.49",
         "timex-value": "T10:29:04.049",
         "type": "DURATION",
@@ -11,8 +11,8 @@
         }
     },
     {
-        "end": 26199,
-        "start": 26187,
+        "end": 26101,
+        "start": 26089,
         "text": "T10:29:22.39",
         "timex-value": "T10:29:22.039",
         "type": "DURATION",
@@ -22,8 +22,8 @@
         }
     },
     {
-        "end": 28941,
-        "start": 28908,
+        "end": 28843,
+        "start": 28810,
         "text": "T10:29:04.49  on 24 November 2011",
         "timex-value": "2011-11-24T10:29:04.049",
         "type": "DURATION",
@@ -33,8 +33,8 @@
         }
     },
     {
-        "end": 29774,
-        "start": 29766,
+        "end": 29676,
+        "start": 29668,
         "text": "10:29:00",
         "timex-value": "T10:29:00",
         "type": "DURATION",
@@ -44,8 +44,8 @@
         }
     },
     {
-        "end": 29783,
-        "start": 29775,
+        "end": 29685,
+        "start": 29677,
         "text": "10:29:10",
         "timex-value": "T10:29:10",
         "type": "DURATION",
@@ -55,8 +55,8 @@
         }
     },
     {
-        "end": 29792,
-        "start": 29784,
+        "end": 29694,
+        "start": 29686,
         "text": "10:29:20",
         "timex-value": "T10:29:20",
         "type": "DURATION",
@@ -66,8 +66,8 @@
         }
     },
     {
-        "end": 29801,
-        "start": 29793,
+        "end": 29703,
+        "start": 29695,
         "text": "10:29:30",
         "timex-value": "T10:29:30",
         "type": "DURATION",
@@ -77,8 +77,8 @@
         }
     },
     {
-        "end": 29810,
-        "start": 29802,
+        "end": 29712,
+        "start": 29704,
         "text": "10:29:40",
         "timex-value": "T10:29:40",
         "type": "DURATION",
@@ -88,8 +88,8 @@
         }
     },
     {
-        "end": 29819,
-        "start": 29811,
+        "end": 29721,
+        "start": 29713,
         "text": "10:29:50",
         "timex-value": "T10:29:50",
         "type": "DURATION",
@@ -99,8 +99,8 @@
         }
     },
     {
-        "end": 30136,
-        "start": 30103,
+        "end": 30038,
+        "start": 30005,
         "text": "T10:29:22.39  on 21 November 2011",
         "timex-value": "2011-11-21T10:29:22.039",
         "type": "DURATION",
@@ -110,8 +110,8 @@
         }
     },
     {
-        "end": 32056,
-        "start": 32043,
+        "end": 31958,
+        "start": 31945,
         "text": "08:00 - 16:00",
         "type": "DURATION",
         "value": {
@@ -120,8 +120,8 @@
         }
     },
     {
-        "end": 33727,
-        "start": 33714,
+        "end": 33629,
+        "start": 33616,
         "text": "08:00 - 16:00",
         "type": "DURATION",
         "value": {

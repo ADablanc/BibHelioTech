@@ -64,24 +64,8 @@
         "value": "2006-02-09"
     },
     {
-        "end": 16040,
-        "start": 16033,
-        "text": "13 June",
-        "timex-value": "2022-06-13",
-        "type": "DATE",
-        "value": "2022-06-13"
-    },
-    {
-        "end": 16066,
-        "start": 16051,
-        "text": "2 November 2005",
-        "timex-value": "2005-11-02",
-        "type": "DATE",
-        "value": "2005-11-02"
-    },
-    {
-        "end": 16744,
-        "start": 16731,
+        "end": 16700,
+        "start": 16687,
         "text": "20:17 - 20:20",
         "type": "DURATION",
         "value": {
@@ -90,8 +74,8 @@
         }
     },
     {
-        "end": 16888,
-        "start": 16875,
+        "end": 16844,
+        "start": 16831,
         "text": "20:25 - 20:28",
         "type": "DURATION",
         "value": {
@@ -100,8 +84,8 @@
         }
     },
     {
-        "end": 18147,
-        "start": 18134,
+        "end": 18103,
+        "start": 18090,
         "text": "12:55 - 12:59",
         "type": "DURATION",
         "value": {
@@ -110,8 +94,8 @@
         }
     },
     {
-        "end": 20545,
-        "start": 20530,
+        "end": 20501,
+        "start": 20486,
         "text": "9 February 2006",
         "timex-value": "2006-02-09",
         "type": "DATE",

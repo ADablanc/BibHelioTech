@@ -1,5 +1,5 @@
 # Name: 105194angeo2230092004_bibheliotech_V1;
-# Creation Date: 2022-07-19T10:35:13.066115;
+# Creation Date: 2022-07-20T10:13:51.822058;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.5194/angeo-22-3009-2004". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -11,39 +11,3 @@
 # Parameter 8: id:column8; name:occur_sat; size:1; type:int;
 # Parameter 9: id:column9; name:nb_durations; size:1; type:int;
 # Parameter 10: id:column10; name:conf; size:1; type:float;
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,MFI,SWEPAM,EPAM" "Heliosphere.NearEarth" 25138 2 4 40 2 0.6790200156667837 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,MFI,SWEPAM,EPAM" "Heliosphere.NearEarth" 28643 2 4 40 2 0.7736960103724912 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,MFI,SWEPAM,EPAM" "Heliosphere.NearEarth" 36951 2 4 40 2 0.9981091812754923 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "ACE" "MAG,MFI,SWEPAM,EPAM" "Heliosphere.NearEarth" 37021 2 4 40 2 1.0 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 94 1 25 40 2 0.00020312795440425706 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 988 1 25 40 2 0.0021350044569298505 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 4669 1 25 40 2 0.010089408713973149 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 5935 1 25 40 2 0.012825153291375166 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 6071 1 25 40 2 0.013119040544555793 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 7232 1 25 40 2 0.015627886875016882 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 7715 1 25 40 2 0.01667161881094514 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 10373 2 25 40 2 0.04483077172415656 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 12360 2 25 40 2 0.0534183301369493 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 12595 2 25 40 2 0.054433969908970585 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 12651 2 25 40 2 0.05467599470570757 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 13085 2 25 40 2 0.05655168688041922 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 13896 2 25 40 2 0.06005672456173523 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 15688 2 25 40 2 0.06780151805731882 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 15953 2 25 40 2 0.0689468139704492 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 19447 2 25 40 2 0.08404743253828909 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 20447 2 25 40 2 0.08836930390859242 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 24429 2 25 40 2 0.10557899570514033 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 28226 2 25 40 2 0.12198914129818211 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 29343 2 25 40 2 0.12681667161881097 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 32979 2 25 40 2 0.1425309959212339 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 33451 2 25 40 2 0.14457091920801707 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 33673 2 25 40 2 0.14553037465222443 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 35416 2 25 40 2 0.15306339645066314 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Cluster" "HIA,FGM,CIS" "Heliosphere.NearEarth" 36152 2 25 40 2 0.1562442937792064 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Hawkeye" "MAG" "Earth.Magnetosphere" 3177 1 2 40 2 0.08581615839658573 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Hawkeye" "MAG" "Earth.Magnetosphere" 4041 1 2 40 2 0.10915426379622377 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Interball" "" "Heliosphere.NearEarth" 5562 1 1 40 2 0.3004781070203398 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Interball-Tail" "" "Heliosphere.NearEarth" 5110 1 2 40 2 0.13802976688906296 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Interball-Tail" "" "Heliosphere.NearEarth" 5299 1 2 40 2 0.1431349774452338 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Magion-4" "MAG" "Heliosphere.NearEarth" 5530 1 2 40 2 0.14937467923610923 
-2003-11-18T14:32:00.000 2003-11-18T14:32:59.000 https://doi.org/10.5194/angeo-22-3009-2004 "Magion-4" "MAG" "Heliosphere.NearEarth" 5635 1 2 40 2 0.1522109073228708 

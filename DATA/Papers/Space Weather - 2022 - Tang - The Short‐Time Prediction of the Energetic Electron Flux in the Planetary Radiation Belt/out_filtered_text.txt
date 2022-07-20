@@ -4,7 +4,7 @@ Chen, chenzhou @ncu.edu.cn Citation: Tang, R., Tao, Y., Li, J., Chen, Z., Deng, 
 (2022).
 The short-time prediction of the energetic electron flux in the planetary radiation belt based on stacking ensemble-learning algorithm.
 Space Weather, 20, e2021SW002969.
-https://doi.org/10.1029/2021SW002969 Received 29 OCT 2021 Accepted 20 JAN 2022 Author Contributions: Conceptualization: Rongxin Tang Formal analysis: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen, Xiaohua Deng, Haimeng Li Investigation: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen, Haimeng Li Methodology: Rongxin Tang Project Administration: Xiaohua Deng Software: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen Supervision: Rongxin Tang, Xiaohua Deng Validation: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen, Xiaohua Deng © 2022.
+https://doi.org/10.1029/2021SW002969 Author Contributions: Conceptualization: Rongxin Tang Formal analysis: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen, Xiaohua Deng, Haimeng Li Investigation: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen, Haimeng Li Methodology: Rongxin Tang Project Administration: Xiaohua Deng Software: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen Supervision: Rongxin Tang, Xiaohua Deng Validation: Rongxin Tang, Yuhao Tao, Jiahao Li, Zhou Chen, Xiaohua Deng © 2022.
 The Authors.
 This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
 TANG ET AL.

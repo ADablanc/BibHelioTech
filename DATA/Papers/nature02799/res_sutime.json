@@ -172,32 +172,16 @@
         "value": "2004-08-12"
     },
     {
-        "end": 17194,
-        "start": 17186,
-        "text": "12 April",
-        "timex-value": "2022-04-12",
-        "type": "DATE",
-        "value": "2022-04-12"
-    },
-    {
-        "end": 17217,
-        "start": 17205,
-        "text": "29 June 2004",
-        "timex-value": "2004-06-29",
-        "type": "DATE",
-        "value": "2004-06-29"
-    },
-    {
-        "end": 18114,
-        "start": 18109,
+        "end": 18047,
+        "start": 18042,
         "text": "21:10",
         "timex-value": "T21:10",
         "type": "TIME",
         "value": "T21:10"
     },
     {
-        "end": 18298,
-        "start": 18285,
+        "end": 18231,
+        "start": 18218,
         "text": "14:11 - 14:20",
         "type": "DURATION",
         "value": {
@@ -206,24 +190,24 @@
         }
     },
     {
-        "end": 21821,
-        "start": 21816,
+        "end": 21754,
+        "start": 21749,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "TIME",
         "value": "T20:00"
     },
     {
-        "end": 23113,
-        "start": 23108,
+        "end": 23046,
+        "start": 23041,
         "text": "21:36",
         "timex-value": "T21:36",
         "type": "TIME",
         "value": "T21:36"
     },
     {
-        "end": 28298,
-        "start": 28284,
+        "end": 28231,
+        "start": 28217,
         "text": "12 AUGUST 2004",
         "timex-value": "2004-08-12",
         "type": "DATE",

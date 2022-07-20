@@ -13,8 +13,7 @@ Hasegawa, K.
 Ackerson,° K.
 Jelinek,’ J.
 Safrankova,’ and Z.
-Némeéek’ Received 26 February 2010; revised 23 April 2010; accepted 12 May 2010; published 9 October 2010.
-[1] We report Time History of Events and Macroscale Interactions during Substorms (THEMIS) and Geotail observations of prolonged magnetopause (MP) expansions during long-lasting intervals of quasi-radial interplanetary magnetic field (IMF) and nearly constant solar wind dynamic pressure.
+Némeéek’ [1] We report Time History of Events and Macroscale Interactions during Substorms (THEMIS) and Geotail observations of prolonged magnetopause (MP) expansions during long-lasting intervals of quasi-radial interplanetary magnetic field (IMF) and nearly constant solar wind dynamic pressure.
 The expansions were global: The magnetopause was located more than 3 Ry and ~7 R; outside its nominal dayside and magnetotail locations, respectively.
 The expanded states persisted several hours, just as long as the quasi-radial IMF conditions, indicating steady state situations.
 For an observed solar wind pressure of ~1.1—1.3 nPa, the new equilibrium subsolar MP position lay at ~14.5 Rez, far beyond its expected location.

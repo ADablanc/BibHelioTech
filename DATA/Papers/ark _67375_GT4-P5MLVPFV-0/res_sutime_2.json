@@ -6,13 +6,13 @@
         "timex-value": "T07:37",
         "type": "DURATION",
         "value": {
-            "begin": "2021-08-12T07:37:00.000",
-            "end": "2021-08-12T07:37:59.000"
+            "begin": "2003-12-04T07:37:00.000",
+            "end": "2003-12-04T07:37:59.000"
         }
     },
     {
-        "end": 9786,
-        "start": 9778,
+        "end": 9715,
+        "start": 9707,
         "text": "13:30:52",
         "timex-value": "T13:30:52",
         "type": "DURATION",
@@ -22,8 +22,8 @@
         }
     },
     {
-        "end": 9798,
-        "start": 9790,
+        "end": 9727,
+        "start": 9719,
         "text": "15:27:35",
         "timex-value": "T15:27:35",
         "type": "DURATION",
@@ -33,8 +33,8 @@
         }
     },
     {
-        "end": 12879,
-        "start": 12875,
+        "end": 12808,
+        "start": 12804,
         "text": "8:56",
         "timex-value": "T08:56",
         "type": "DURATION",
@@ -44,8 +44,8 @@
         }
     },
     {
-        "end": 12889,
-        "start": 12882,
+        "end": 12818,
+        "start": 12811,
         "text": "4:26:09",
         "timex-value": "T04:26:09",
         "type": "DURATION",
@@ -55,8 +55,8 @@
         }
     },
     {
-        "end": 12924,
-        "start": 12917,
+        "end": 12853,
+        "start": 12846,
         "text": "6:20:47",
         "timex-value": "T06:20:47",
         "type": "DURATION",
@@ -66,8 +66,8 @@
         }
     },
     {
-        "end": 13003,
-        "start": 12990,
+        "end": 12932,
+        "start": 12919,
         "text": "morning 06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -77,8 +77,8 @@
         }
     },
     {
-        "end": 15246,
-        "start": 15241,
+        "end": 15175,
+        "start": 15170,
         "text": "14:40",
         "timex-value": "T14:40",
         "type": "DURATION",
@@ -88,8 +88,8 @@
         }
     },
     {
-        "end": 16817,
-        "start": 16788,
+        "end": 16746,
+        "start": 16717,
         "text": "01:00 - 10:00 on 18 September",
         "type": "DURATION",
         "value": {
@@ -98,8 +98,8 @@
         }
     },
     {
-        "end": 16987,
-        "start": 16958,
+        "end": 16916,
+        "start": 16887,
         "text": "16:20 \u2014 19:30 on 17 September",
         "type": "DURATION",
         "value": {
@@ -108,8 +108,8 @@
         }
     },
     {
-        "end": 17268,
-        "start": 17229,
+        "end": 17197,
+        "start": 17158,
         "text": "Between 05:45 and 09:00 on 18 September",
         "type": "DURATION",
         "value": {
@@ -118,8 +118,8 @@
         }
     },
     {
-        "end": 19537,
-        "start": 19532,
+        "end": 19466,
+        "start": 19461,
         "text": "14:00",
         "timex-value": "T14:00",
         "type": "DURATION",
@@ -129,8 +129,8 @@
         }
     },
     {
-        "end": 19543,
-        "start": 19538,
+        "end": 19472,
+        "start": 19467,
         "text": "15:00",
         "timex-value": "T15:00",
         "type": "DURATION",
@@ -140,8 +140,8 @@
         }
     },
     {
-        "end": 19549,
-        "start": 19544,
+        "end": 19478,
+        "start": 19473,
         "text": "16:00",
         "timex-value": "T16:00",
         "type": "DURATION",
@@ -151,8 +151,8 @@
         }
     },
     {
-        "end": 20790,
-        "start": 20785,
+        "end": 20719,
+        "start": 20714,
         "text": "14:40",
         "timex-value": "T14:40",
         "type": "DURATION",
@@ -162,8 +162,8 @@
         }
     },
     {
-        "end": 20929,
-        "start": 20924,
+        "end": 20858,
+        "start": 20853,
         "text": "16:00",
         "timex-value": "T16:00",
         "type": "DURATION",
@@ -173,8 +173,8 @@
         }
     },
     {
-        "end": 20935,
-        "start": 20930,
+        "end": 20864,
+        "start": 20859,
         "text": "18:00",
         "timex-value": "T18:00",
         "type": "DURATION",
@@ -184,8 +184,8 @@
         }
     },
     {
-        "end": 20941,
-        "start": 20936,
+        "end": 20870,
+        "start": 20865,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "DURATION",
@@ -195,8 +195,8 @@
         }
     },
     {
-        "end": 20946,
-        "start": 20942,
+        "end": 20875,
+        "start": 20871,
         "text": "1:00",
         "timex-value": "T01:00",
         "type": "DURATION",
@@ -206,18 +206,18 @@
         }
     },
     {
-        "end": 21276,
-        "start": 21257,
+        "end": 21205,
+        "start": 21186,
         "text": "from 05:45 to 09:00",
         "type": "DURATION",
         "value": {
-            "begin": "2000-09-17T05:45:00.000",
+            "begin": "2000-09-18T05:45:00.000",
             "end": "2000-09-18T09:00:00.000"
         }
     },
     {
-        "end": 23247,
-        "start": 23243,
+        "end": 23176,
+        "start": 23172,
         "text": "3:00",
         "timex-value": "T03:00",
         "type": "DURATION",
@@ -227,8 +227,8 @@
         }
     },
     {
-        "end": 23306,
-        "start": 23302,
+        "end": 23235,
+        "start": 23231,
         "text": "5:00",
         "timex-value": "T05:00",
         "type": "DURATION",
@@ -238,8 +238,8 @@
         }
     },
     {
-        "end": 23311,
-        "start": 23307,
+        "end": 23240,
+        "start": 23236,
         "text": "7:00",
         "timex-value": "T07:00",
         "type": "DURATION",
@@ -249,8 +249,8 @@
         }
     },
     {
-        "end": 23316,
-        "start": 23312,
+        "end": 23245,
+        "start": 23241,
         "text": "9:00",
         "timex-value": "T09:00",
         "type": "DURATION",
@@ -260,8 +260,8 @@
         }
     },
     {
-        "end": 23322,
-        "start": 23317,
+        "end": 23251,
+        "start": 23246,
         "text": "11:00",
         "timex-value": "T11:00",
         "type": "DURATION",
@@ -271,8 +271,8 @@
         }
     },
     {
-        "end": 23491,
-        "start": 23468,
+        "end": 23420,
+        "start": 23397,
         "text": "Between 19:30 and 01:20",
         "type": "DURATION",
         "value": {
@@ -281,19 +281,19 @@
         }
     },
     {
-        "end": 24561,
-        "start": 24556,
+        "end": 24419,
+        "start": 24414,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "DURATION",
         "value": {
-            "begin": "2003-09-23T20:00:00.000",
-            "end": "2003-09-23T20:00:59.000"
+            "begin": "2000-09-18T20:00:00.000",
+            "end": "2000-09-18T20:00:59.000"
         }
     },
     {
-        "end": 27932,
-        "start": 27927,
+        "end": 27790,
+        "start": 27785,
         "text": "04:40",
         "timex-value": "T04:40",
         "type": "DURATION",

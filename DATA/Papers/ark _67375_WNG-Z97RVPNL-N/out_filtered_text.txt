@@ -8,8 +8,7 @@ Zurbuchen,' Jim M.
 Raines,’ Daniel N.
 Baker,° Ralph L.
 McNutt Jr.,* and Sean C.
-Solomon’ Received 18 May 2012; revised 13 December 2012; accepted 10 January 2013; published 1 March 2013.
-[1] On 18 March 2011, MErcury Surface, Space ENvironment, GEochemistry, and Ranging (MESSENGER) became the first spacecraft to orbit Mercury, providing a new opportunity to study the outer boundary of the planet’s magnetosphere—the magnetopause.
+Solomon’ [1] On 18 March 2011, MErcury Surface, Space ENvironment, GEochemistry, and Ranging (MESSENGER) became the first spacecraft to orbit Mercury, providing a new opportunity to study the outer boundary of the planet’s magnetosphere—the magnetopause.
 Here we characterize Mercury’s magnetopause using measurements collected by MESSENGER’s Magnetometer and Fast Imaging Plasma Spectrometer.
 Analysis of measurements from two of MESSENGER’s “hot seasons,” when the orbital periapsis is on Mercury’s dayside and the magnetopause crossing takes place in the subsolar region, resulted in 43 events with well-determined boundary normals.
 The typical duration of a magnetopause traversal was ~5 s.

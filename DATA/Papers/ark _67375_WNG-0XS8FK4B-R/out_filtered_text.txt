@@ -2,8 +2,7 @@ JOURNAL OF GEOPHYSICAL RESEARCH, VOL.
 109, A11202, doi:10.1029/2004JA010540, 2004 Modeling of Earth’s bow shock: Applications J.
 F.
 Chapman and Iver H.
-Cairns School of Physics, University of Sydney, Sydney, New South Wales, Australia Received 14 April 2004; revised 5 July 2004; accepted 4 August 2004; published 3 November 2004.
-[1] Shock-crossing data obtained from spacecraft are used to test the shock location models derived by Chapman and Cairns [2003].
+Cairns School of Physics, University of Sydney, Sydney, New South Wales, Australia [1] Shock-crossing data obtained from spacecraft are used to test the shock location models derived by Chapman and Cairns [2003].
 Three sets of data are considered: (1) ISEE 1 for 24—25 September 1987, (2) Wind, Geotail, IMP 8, and Interball for the intervals 26—27 April and 10—13 May 1999, and (3) IMP 8, Geotail, Magion-4, and Cluster during the period 19:73 - 20:03 from the bow shock database (available at http:// nssdc.gsfc.nasa.gov/ftphelper/bowshock.html).
 Derived from MHD simulations, the two shock models are for angles ®0;yyp = 45° and 90° between the upstream magnetic field Bry and solar wind velocity v,,,.
 These models have azimuthal asymmetries, and they depend explicitly on the upstream Mach number M, and ram pressure Pa, We also test Cairns et al.’s [1995] rotationally symmetric shock model.

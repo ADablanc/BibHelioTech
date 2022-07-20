@@ -1,7 +1,7 @@
 [
     {
-        "end": 7369,
-        "start": 7356,
+        "end": 7263,
+        "start": 7250,
         "text": "20:07 - 20:09",
         "type": "DURATION",
         "value": {
@@ -10,19 +10,19 @@
         }
     },
     {
-        "end": 19480,
-        "start": 19475,
+        "end": 19374,
+        "start": 19369,
         "text": "20:07",
         "timex-value": "T20:07",
         "type": "DURATION",
         "value": {
-            "begin": "2007-02-26T20:07:00.000",
-            "end": "2007-02-26T20:07:59.000"
+            "begin": "2007-02-28T20:07:00.000",
+            "end": "2007-02-28T20:07:59.000"
         }
     },
     {
-        "end": 31750,
-        "start": 31745,
+        "end": 31644,
+        "start": 31639,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -32,8 +32,8 @@
         }
     },
     {
-        "end": 31756,
-        "start": 31751,
+        "end": 31650,
+        "start": 31645,
         "text": "08:00",
         "timex-value": "T08:00",
         "type": "DURATION",
@@ -43,8 +43,8 @@
         }
     },
     {
-        "end": 31762,
-        "start": 31757,
+        "end": 31656,
+        "start": 31651,
         "text": "10:00",
         "timex-value": "T10:00",
         "type": "DURATION",
@@ -54,8 +54,8 @@
         }
     },
     {
-        "end": 31768,
-        "start": 31763,
+        "end": 31662,
+        "start": 31657,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "DURATION",
@@ -65,8 +65,8 @@
         }
     },
     {
-        "end": 31774,
-        "start": 31769,
+        "end": 31668,
+        "start": 31663,
         "text": "14:00",
         "timex-value": "T14:00",
         "type": "DURATION",
@@ -76,8 +76,8 @@
         }
     },
     {
-        "end": 31780,
-        "start": 31775,
+        "end": 31674,
+        "start": 31669,
         "text": "16:00",
         "timex-value": "T16:00",
         "type": "DURATION",
@@ -87,8 +87,8 @@
         }
     },
     {
-        "end": 31786,
-        "start": 31781,
+        "end": 31680,
+        "start": 31675,
         "text": "18:00",
         "timex-value": "T18:00",
         "type": "DURATION",
@@ -98,8 +98,8 @@
         }
     },
     {
-        "end": 31792,
-        "start": 31787,
+        "end": 31686,
+        "start": 31681,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "DURATION",
@@ -109,30 +109,30 @@
         }
     },
     {
-        "end": 34538,
-        "start": 34533,
+        "end": 34432,
+        "start": 34427,
         "text": "06:45",
         "timex-value": "T06:45",
         "type": "DURATION",
         "value": {
-            "begin": "2007-03-15T06:45:00.000",
-            "end": "2007-03-15T06:45:59.000"
+            "begin": "2007-02-25T06:45:00.000",
+            "end": "2007-02-25T06:45:59.000"
         }
     },
     {
-        "end": 34820,
-        "start": 34815,
+        "end": 34714,
+        "start": 34709,
         "text": "15:00",
         "timex-value": "T15:00",
         "type": "DURATION",
         "value": {
-            "begin": "2007-03-15T15:00:00.000",
-            "end": "2007-03-15T15:00:59.000"
+            "begin": "2007-02-25T15:00:00.000",
+            "end": "2007-02-25T15:00:59.000"
         }
     },
     {
-        "end": 39523,
-        "start": 39518,
+        "end": 39417,
+        "start": 39412,
         "text": "06:45",
         "timex-value": "T06:45",
         "type": "DURATION",

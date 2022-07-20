@@ -134,7 +134,6 @@ Their origin and their physical relation to Jupiter’s aurorae are, however, un
 Observations of beams at Saturn, that is, in a magnetospheric configuration that lies between that of Earth and Jupiter, suggest that anti-planetward acceleration of electrons is a universal property of aurorae.
 The energy fluxes in the anti-planetward accelerated beams compete with the fluxes contained in the beams that are directed towards the planet, and therefore generate aurorae.
 Thus in addition to the universality of anti-planetward acceleration, Saturn’s aurorae suggest that anti-planetward acceleration is also a key player in the energetics of the auroral process.
-Received 13 June; accepted 2 November 2005.
 1.
 Paschmann, G., Haaland, S.
 & Treumann, R.

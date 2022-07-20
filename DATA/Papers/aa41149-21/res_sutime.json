@@ -8,248 +8,232 @@
         "value": "T00:04"
     },
     {
-        "end": 2418,
-        "start": 2405,
-        "text": "21 April 2021",
-        "timex-value": "2021-04-21",
-        "type": "DATE",
-        "value": "2021-04-21"
-    },
-    {
-        "end": 2447,
-        "start": 2430,
-        "text": "18 September 2021",
-        "timex-value": "2021-09-18",
-        "type": "DATE",
-        "value": "2021-09-18"
-    },
-    {
-        "end": 3265,
-        "start": 3253,
+        "end": 3213,
+        "start": 3201,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 9714,
-        "start": 9702,
+        "end": 9662,
+        "start": 9650,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 10408,
-        "start": 10396,
+        "end": 10356,
+        "start": 10344,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 12485,
-        "start": 12473,
+        "end": 12433,
+        "start": 12421,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 12733,
-        "start": 12728,
+        "end": 12681,
+        "start": 12676,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "TIME",
         "value": "T00:00"
     },
     {
-        "end": 12739,
-        "start": 12734,
+        "end": 12687,
+        "start": 12682,
         "text": "04:00",
         "timex-value": "T04:00",
         "type": "TIME",
         "value": "T04:00"
     },
     {
-        "end": 12745,
-        "start": 12740,
+        "end": 12693,
+        "start": 12688,
         "text": "08:00",
         "timex-value": "T08:00",
         "type": "TIME",
         "value": "T08:00"
     },
     {
-        "end": 12751,
-        "start": 12746,
+        "end": 12699,
+        "start": 12694,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "TIME",
         "value": "T12:00"
     },
     {
-        "end": 12757,
-        "start": 12752,
+        "end": 12705,
+        "start": 12700,
         "text": "16:00",
         "timex-value": "T16:00",
         "type": "TIME",
         "value": "T16:00"
     },
     {
-        "end": 12763,
-        "start": 12758,
+        "end": 12711,
+        "start": 12706,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "TIME",
         "value": "T20:00"
     },
     {
-        "end": 12843,
-        "start": 12831,
+        "end": 12791,
+        "start": 12779,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 13330,
-        "start": 13322,
+        "end": 13278,
+        "start": 13270,
         "text": "18:35:00",
         "timex-value": "T18:35:00",
         "type": "TIME",
         "value": "T18:35:00"
     },
     {
-        "end": 14461,
-        "start": 14451,
+        "end": 14409,
+        "start": 14399,
         "text": "about 9:30",
         "timex-value": "T09:30",
         "type": "TIME",
         "value": "T09:30"
     },
     {
-        "end": 15382,
-        "start": 15378,
+        "end": 15330,
+        "start": 15326,
         "text": "9:30",
         "timex-value": "T09:30",
         "type": "TIME",
         "value": "T09:30"
     },
     {
-        "end": 16333,
-        "start": 16321,
+        "end": 16281,
+        "start": 16269,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 16517,
-        "start": 16512,
+        "end": 16465,
+        "start": 16460,
         "text": "18:10",
         "timex-value": "T18:10",
         "type": "TIME",
         "value": "T18:10"
     },
     {
-        "end": 16523,
-        "start": 16518,
+        "end": 16471,
+        "start": 16466,
         "text": "18:15",
         "timex-value": "T18:15",
         "type": "TIME",
         "value": "T18:15"
     },
     {
-        "end": 16529,
-        "start": 16524,
+        "end": 16477,
+        "start": 16472,
         "text": "18:20",
         "timex-value": "T18:20",
         "type": "TIME",
         "value": "T18:20"
     },
     {
-        "end": 16535,
-        "start": 16530,
+        "end": 16483,
+        "start": 16478,
         "text": "18:25",
         "timex-value": "T18:25",
         "type": "TIME",
         "value": "T18:25"
     },
     {
-        "end": 16541,
-        "start": 16536,
+        "end": 16489,
+        "start": 16484,
         "text": "18:50",
         "timex-value": "T18:50",
         "type": "TIME",
         "value": "T18:50"
     },
     {
-        "end": 16547,
-        "start": 16542,
+        "end": 16495,
+        "start": 16490,
         "text": "18:55",
         "timex-value": "T18:55",
         "type": "TIME",
         "value": "T18:55"
     },
     {
-        "end": 16553,
-        "start": 16548,
+        "end": 16501,
+        "start": 16496,
         "text": "18:40",
         "timex-value": "T18:40",
         "type": "TIME",
         "value": "T18:40"
     },
     {
-        "end": 16559,
-        "start": 16554,
+        "end": 16507,
+        "start": 16502,
         "text": "18:45",
         "timex-value": "T18:45",
         "type": "TIME",
         "value": "T18:45"
     },
     {
-        "end": 16577,
-        "start": 16565,
+        "end": 16525,
+        "start": 16513,
         "text": "18:18:31",
         "timex-value": "T18:18:31",
         "type": "TIME",
         "value": "T18:18:31"
     },
     {
-        "end": 16592,
-        "start": 16580,
+        "end": 16540,
+        "start": 16528,
         "text": "18:25:39",
         "timex-value": "T18:25:39",
         "type": "TIME",
         "value": "T18:25:39"
     },
     {
-        "end": 16605,
-        "start": 16593,
+        "end": 16553,
+        "start": 16541,
         "text": "18:33:23",
         "timex-value": "T18:33:23",
         "type": "TIME",
         "value": "T18:33:23"
     },
     {
-        "end": 16618,
-        "start": 16606,
+        "end": 16566,
+        "start": 16554,
         "text": "18:40:23",
         "timex-value": "T18:40:23",
         "type": "TIME",
         "value": "T18:40:23"
     },
     {
-        "end": 16631,
-        "start": 16619,
+        "end": 16579,
+        "start": 16567,
         "text": "18:42:59",
         "timex-value": "T18:42:59",
         "type": "TIME",
         "value": "T18:42:59"
     },
     {
-        "end": 16705,
-        "start": 16691,
+        "end": 16653,
+        "start": 16639,
         "text": "20:04 - 20:04",
         "type": "DURATION",
         "value": {
@@ -258,64 +242,64 @@
         }
     },
     {
-        "end": 16992,
-        "start": 16971,
+        "end": 16940,
+        "start": 16919,
         "text": "18:35 on 16 July 2020",
         "timex-value": "2020-07-16T18:35",
         "type": "TIME",
         "value": "2020-07-16T18:35"
     },
     {
-        "end": 25878,
-        "start": 25870,
+        "end": 25826,
+        "start": 25818,
         "text": "03:15:20",
         "timex-value": "T03:15:20",
         "type": "TIME",
         "value": "T03:15:20"
     },
     {
-        "end": 25888,
-        "start": 25880,
+        "end": 25836,
+        "start": 25828,
         "text": "05:47:50",
         "timex-value": "T05:47:50",
         "type": "TIME",
         "value": "T05:47:50"
     },
     {
-        "end": 25898,
-        "start": 25890,
+        "end": 25846,
+        "start": 25838,
         "text": "06:06:00",
         "timex-value": "T06:06:00",
         "type": "TIME",
         "value": "T06:06:00"
     },
     {
-        "end": 25908,
-        "start": 25900,
+        "end": 25856,
+        "start": 25848,
         "text": "14:28:15",
         "timex-value": "T14:28:15",
         "type": "TIME",
         "value": "T14:28:15"
     },
     {
-        "end": 25918,
-        "start": 25910,
+        "end": 25866,
+        "start": 25858,
         "text": "22:02:00",
         "timex-value": "T22:02:00",
         "type": "TIME",
         "value": "T22:02:00"
     },
     {
-        "end": 25932,
-        "start": 25924,
+        "end": 25880,
+        "start": 25872,
         "text": "23:21:10",
         "timex-value": "T23:21:10",
         "type": "TIME",
         "value": "T23:21:10"
     },
     {
-        "end": 26168,
-        "start": 26147,
+        "end": 26116,
+        "start": 26095,
         "text": "07:01:45 and 07:04:55",
         "type": "DURATION",
         "value": {
@@ -324,120 +308,120 @@
         }
     },
     {
-        "end": 31263,
-        "start": 31251,
+        "end": 31211,
+        "start": 31199,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 31521,
-        "start": 31513,
+        "end": 31469,
+        "start": 31461,
         "text": "06:56:50",
         "timex-value": "T06:56:50",
         "type": "TIME",
         "value": "T06:56:50"
     },
     {
-        "end": 31527,
-        "start": 31522,
+        "end": 31475,
+        "start": 31470,
         "text": "01:30",
         "timex-value": "T01:30",
         "type": "TIME",
         "value": "T01:30"
     },
     {
-        "end": 31542,
-        "start": 31534,
+        "end": 31490,
+        "start": 31482,
         "text": "12:36:02",
         "timex-value": "T12:36:02",
         "type": "TIME",
         "value": "T12:36:02"
     },
     {
-        "end": 31548,
-        "start": 31543,
+        "end": 31496,
+        "start": 31491,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "TIME",
         "value": "T06:00"
     },
     {
-        "end": 31566,
-        "start": 31558,
+        "end": 31514,
+        "start": 31506,
         "text": "14:56:30",
         "timex-value": "T14:56:30",
         "type": "TIME",
         "value": "T14:56:30"
     },
     {
-        "end": 31572,
-        "start": 31567,
+        "end": 31520,
+        "start": 31515,
         "text": "00:30",
         "timex-value": "T00:30",
         "type": "TIME",
         "value": "T00:30"
     },
     {
-        "end": 31587,
-        "start": 31579,
+        "end": 31535,
+        "start": 31527,
         "text": "18:35:00",
         "timex-value": "T18:35:00",
         "type": "TIME",
         "value": "T18:35:00"
     },
     {
-        "end": 31593,
-        "start": 31588,
+        "end": 31541,
+        "start": 31536,
         "text": "19:00",
         "timex-value": "T19:00",
         "type": "TIME",
         "value": "T19:00"
     },
     {
-        "end": 31608,
-        "start": 31600,
+        "end": 31556,
+        "start": 31548,
         "text": "21:56:50",
         "timex-value": "T21:56:50",
         "type": "TIME",
         "value": "T21:56:50"
     },
     {
-        "end": 31614,
-        "start": 31609,
+        "end": 31562,
+        "start": 31557,
         "text": "00:20",
         "timex-value": "T00:20",
         "type": "TIME",
         "value": "T00:20"
     },
     {
-        "end": 31629,
-        "start": 31621,
+        "end": 31577,
+        "start": 31569,
         "text": "23:01:30",
         "timex-value": "T23:01:30",
         "type": "TIME",
         "value": "T23:01:30"
     },
     {
-        "end": 31635,
-        "start": 31630,
+        "end": 31583,
+        "start": 31578,
         "text": "01:00",
         "timex-value": "T01:00",
         "type": "TIME",
         "value": "T01:00"
     },
     {
-        "end": 32711,
-        "start": 32699,
+        "end": 32659,
+        "start": 32647,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",
         "value": "2020-07-16"
     },
     {
-        "end": 35443,
-        "start": 35431,
+        "end": 35391,
+        "start": 35379,
         "text": "16 July 2020",
         "timex-value": "2020-07-16",
         "type": "DATE",

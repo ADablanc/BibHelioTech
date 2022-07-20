@@ -1,9 +1,8 @@
   © 2022.
 The Author(s).
-Published by the American Astronomical Society.
-OPEN ACCESS https: / /doi.org/10.3847 /20:41 - 82:13 /ac5181 CrossMark Magnetic Flux Transport Identification of Active Reconnection: MMS Observations in Earth’s Magnetosphere Yi Qi ®, Tak Chu Li? ®, Christopher T.
+ OPEN ACCESS https: / /doi.org/10.3847 /20:41 - 82:13 /ac5181 CrossMark Magnetic Flux Transport Identification of Active Reconnection: MMS Observations in Earth’s Magnetosphere Yi Qi ®, Tak Chu Li? ®, Christopher T.
 Russell’ ®, Robert E.
-Ergun’, Ying-Dong Jia! ®, and Mark Hubbert! Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, CA, USA; Yi.Qi@lasp.colorado.edu Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, Boulder, CO, USA Department of Physics and Astronomy, Dartmouth College, Hanover, NH, USA Received  6 November 2021 ; revised  24 January 2022 ; accepted  27 January 2022 ; published  23 February 2022  Abstract Magnetic reconnection plays an important role in converting energy while modifying field topology.
+Ergun’, Ying-Dong Jia! ®, and Mark Hubbert! Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, CA, USA; Yi.Qi@lasp.colorado.edu Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, Boulder, CO, USA Department of Physics and Astronomy, Dartmouth College, Hanover, NH, USA Abstract Magnetic reconnection plays an important role in converting energy while modifying field topology.
 This process takes place under varied plasma conditions during which the transport of magnetic flux is intrinsic.
 Identifying active magnetic reconnection sites with in situ observations is challenging.
 A new technique, Magnetic Flux Transport (MFT) analysis, has been developed recently and proven in numerical simulation for identifying active reconnection efficiently and accurately.

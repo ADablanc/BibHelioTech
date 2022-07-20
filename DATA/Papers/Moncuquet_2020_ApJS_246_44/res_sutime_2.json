@@ -11,8 +11,8 @@
         }
     },
     {
-        "end": 13366,
-        "start": 13330,
+        "end": 13252,
+        "start": 13216,
         "text": "Nov 15 21 days from 2018-10-25 12:00",
         "timex-value": "2018-11-15T12:00",
         "type": "DURATION",
@@ -22,8 +22,8 @@
         }
     },
     {
-        "end": 29534,
-        "start": 29508,
+        "end": 29420,
+        "start": 29394,
         "text": "midday on  9 November 2018",
         "timex-value": "2018-11-09T12:00",
         "type": "DURATION",
@@ -33,8 +33,8 @@
         }
     },
     {
-        "end": 41565,
-        "start": 41560,
+        "end": 41451,
+        "start": 41446,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -44,8 +44,8 @@
         }
     },
     {
-        "end": 41619,
-        "start": 41608,
+        "end": 41505,
+        "start": 41494,
         "text": "12:00 hours",
         "timex-value": "T12:00",
         "type": "DURATION",
@@ -55,8 +55,8 @@
         }
     },
     {
-        "end": 41665,
-        "start": 41649,
+        "end": 41551,
+        "start": 41535,
         "text": "18:00 2018-10-30",
         "timex-value": "2018-10-30T18:00",
         "type": "DURATION",
@@ -66,8 +66,8 @@
         }
     },
     {
-        "end": 41674,
-        "start": 41666,
+        "end": 41560,
+        "start": 41552,
         "text": "20:20:17",
         "timex-value": "T20:20:17",
         "type": "DURATION",
@@ -77,8 +77,8 @@
         }
     },
     {
-        "end": 42272,
-        "start": 42267,
+        "end": 42158,
+        "start": 42153,
         "text": "00:02",
         "timex-value": "T00:02",
         "type": "DURATION",
@@ -88,8 +88,8 @@
         }
     },
     {
-        "end": 42402,
-        "start": 42397,
+        "end": 42288,
+        "start": 42283,
         "text": "00:02",
         "timex-value": "T00:02",
         "type": "DURATION",
@@ -99,8 +99,8 @@
         }
     },
     {
-        "end": 42461,
-        "start": 42456,
+        "end": 42347,
+        "start": 42342,
         "text": "00:02",
         "timex-value": "T00:02",
         "type": "DURATION",
@@ -110,8 +110,8 @@
         }
     },
     {
-        "end": 42521,
-        "start": 42516,
+        "end": 42407,
+        "start": 42402,
         "text": "00:02",
         "timex-value": "T00:02",
         "type": "DURATION",
@@ -121,8 +121,8 @@
         }
     },
     {
-        "end": 42582,
-        "start": 42577,
+        "end": 42468,
+        "start": 42463,
         "text": "00:02",
         "timex-value": "T00:02",
         "type": "DURATION",
@@ -132,8 +132,8 @@
         }
     },
     {
-        "end": 42649,
-        "start": 42644,
+        "end": 42535,
+        "start": 42530,
         "text": "00:02",
         "timex-value": "T00:02",
         "type": "DURATION",
@@ -143,8 +143,8 @@
         }
     },
     {
-        "end": 42710,
-        "start": 42705,
+        "end": 42596,
+        "start": 42591,
         "text": "00:03",
         "timex-value": "T00:03",
         "type": "DURATION",
@@ -154,8 +154,8 @@
         }
     },
     {
-        "end": 42767,
-        "start": 42762,
+        "end": 42653,
+        "start": 42648,
         "text": "00:01",
         "timex-value": "T00:01",
         "type": "DURATION",
@@ -165,8 +165,8 @@
         }
     },
     {
-        "end": 42829,
-        "start": 42824,
+        "end": 42715,
+        "start": 42710,
         "text": "00:02",
         "timex-value": "T00:02",
         "type": "DURATION",
@@ -176,8 +176,8 @@
         }
     },
     {
-        "end": 42960,
-        "start": 42947,
+        "end": 42846,
+        "start": 42833,
         "text": "00:00 - 00:01",
         "type": "DURATION",
         "value": {
@@ -186,8 +186,8 @@
         }
     },
     {
-        "end": 43023,
-        "start": 43018,
+        "end": 42909,
+        "start": 42904,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "DURATION",
@@ -197,8 +197,8 @@
         }
     },
     {
-        "end": 43044,
-        "start": 43039,
+        "end": 42930,
+        "start": 42925,
         "text": "15:58",
         "timex-value": "T15:58",
         "type": "DURATION",

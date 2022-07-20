@@ -392,4 +392,4 @@ Standard errors in the correlation coefficient were also calculated and propagat
 The SWMF simulation data generated in this study are available in the Community Coordinated Modeling Center (CCMC) at https://ccmc.gsfc.nasa.gov/ results/viewrun.php?domain=GM &runnumber=Michael_Hartinger_061418_1.
 Code availability The SWMEF and BATS-R-US (Block-Adaptive Tree Solarwind Roe-type Upwind Scheme) software are available at https://github.com/MSTEM-QUDA.
 The SWMEF and BATS-RUS tools used are available at https://ccmce.gsfc.nasa.gov.
-Received: 1 March 2021; Accepted: 30 August 2021; Published online: 06 October 2021 NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 .
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 .

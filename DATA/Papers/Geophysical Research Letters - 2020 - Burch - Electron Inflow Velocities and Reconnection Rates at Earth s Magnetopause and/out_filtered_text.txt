@@ -10,7 +10,7 @@ D., et al.
 Electron inflow velocities and reconnection rates at Earth's magnetopause and magnetosheath.
 Geophysical Research Letters, 47, e2020GL089082.
 https://doi.
-org/10.1029/2020GL089082 Received 28 MAY 2020 Accepted 14 AUG 2020 Accepted article online 18 August 2020 ©2020.
+org/10.1029/2020GL089082  ©2020.
 The Authors.
 This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
 BURCH ET AL.

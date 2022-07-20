@@ -1,71 +1,39 @@
 [
     {
-        "end": 976,
-        "start": 965,
-        "text": "31 MAY 2016",
-        "timex-value": "2016-05-31",
-        "type": "DATE",
-        "value": "2016-05-31"
-    },
-    {
-        "end": 997,
-        "start": 986,
-        "text": "26 JUL 2016",
-        "timex-value": "2016-07-26",
-        "type": "DATE",
-        "value": "2016-07-26"
-    },
-    {
-        "end": 1033,
-        "start": 1022,
-        "text": "28 JUL 2016",
-        "timex-value": "2016-07-28",
-        "type": "DATE",
-        "value": "2016-07-28"
-    },
-    {
-        "end": 1062,
-        "start": 1051,
-        "text": "17 AUG 2016",
-        "timex-value": "2016-08-17",
-        "type": "DATE",
-        "value": "2016-08-17"
-    },
-    {
-        "end": 4363,
-        "start": 4347,
+        "end": 4257,
+        "start": 4241,
         "text": "1 September 2015",
         "timex-value": "2015-09-01",
         "type": "DATE",
         "value": "2015-09-01"
     },
     {
-        "end": 5941,
-        "start": 5930,
+        "end": 5835,
+        "start": 5824,
         "text": "2015-12",
         "timex-value": "2015-12",
         "type": "DATE",
         "value": "2015-12"
     },
     {
-        "end": 5950,
-        "start": 5942,
+        "end": 5844,
+        "start": 5836,
         "text": "11-20-43",
         "timex-value": "1943-11-20",
         "type": "DATE",
         "value": "1943-11-20"
     },
     {
-        "end": 6875,
-        "start": 6862,
+        "end": 6769,
+        "start": 6756,
         "text": "December 2015",
         "timex-value": "2015-12",
         "type": "DATE",
         "value": "2015-12"
     },
     {
-        "end": 7003,
-        "start": 6980,
+        "end": 6897,
+        "start": 6874,
         "text": "between 11:20 and 11:21",
         "type": "DURATION",
         "value": {
@@ -74,80 +42,80 @@
         }
     },
     {
-        "end": 7061,
-        "start": 7053,
+        "end": 6955,
+        "start": 6947,
         "text": "11:20:43",
         "timex-value": "T11:20:43",
         "type": "TIME",
         "value": "T11:20:43"
     },
     {
-        "end": 7995,
-        "start": 7982,
+        "end": 7889,
+        "start": 7876,
         "text": "12 March 2015",
         "timex-value": "2015-03-12",
         "type": "DATE",
         "value": "2015-03-12"
     },
     {
-        "end": 8652,
-        "start": 8640,
+        "end": 8546,
+        "start": 8534,
         "text": "1 March 2016",
         "timex-value": "2016-03-01",
         "type": "DATE",
         "value": "2016-03-01"
     },
     {
-        "end": 10519,
-        "start": 10508,
+        "end": 10413,
+        "start": 10402,
         "text": "2015-12",
         "timex-value": "2015-12",
         "type": "DATE",
         "value": "2015-12"
     },
     {
-        "end": 10528,
-        "start": 10520,
+        "end": 10422,
+        "start": 10414,
         "text": "11-20-43",
         "timex-value": "1943-11-20",
         "type": "DATE",
         "value": "1943-11-20"
     },
     {
-        "end": 11156,
-        "start": 11148,
+        "end": 11050,
+        "start": 11042,
         "text": "11:20:43",
         "timex-value": "T11:20:43",
         "type": "TIME",
         "value": "T11:20:43"
     },
     {
-        "end": 11213,
-        "start": 11200,
+        "end": 11107,
+        "start": 11094,
         "text": "December 2015",
         "timex-value": "2015-12",
         "type": "DATE",
         "value": "2015-12"
     },
     {
-        "end": 12018,
-        "start": 12003,
+        "end": 11912,
+        "start": 11897,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 12296,
-        "start": 12281,
+        "end": 12190,
+        "start": 12175,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 13124,
-        "start": 13103,
+        "end": 13018,
+        "start": 12997,
         "text": "11:20:20 and 11:20:35",
         "type": "DURATION",
         "value": {
@@ -156,56 +124,56 @@
         }
     },
     {
-        "end": 13651,
-        "start": 13640,
+        "end": 13545,
+        "start": 13534,
         "text": "08 Dec 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 13808,
-        "start": 13795,
+        "end": 13702,
+        "start": 13689,
         "text": "T11:20:43.120",
         "timex-value": "T11:20:43.120",
         "type": "TIME",
         "value": "T11:20:43.120"
     },
     {
-        "end": 13822,
-        "start": 13809,
+        "end": 13716,
+        "start": 13703,
         "text": "T11:20:47.170",
         "timex-value": "T11:20:47.170",
         "type": "TIME",
         "value": "T11:20:47.170"
     },
     {
-        "end": 13837,
-        "start": 13824,
+        "end": 13731,
+        "start": 13718,
         "text": "T11:20:51.220",
         "timex-value": "T11:20:51.220",
         "type": "TIME",
         "value": "T11:20:51.220"
     },
     {
-        "end": 13851,
-        "start": 13838,
+        "end": 13745,
+        "start": 13732,
         "text": "T11:20:55.120",
         "timex-value": "T11:20:55.120",
         "type": "TIME",
         "value": "T11:20:55.120"
     },
     {
-        "end": 13893,
-        "start": 13878,
+        "end": 13787,
+        "start": 13772,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 14449,
-        "start": 14420,
+        "end": 14343,
+        "start": 14314,
         "text": "between 11:20:43 and 11:20:45",
         "type": "DURATION",
         "value": {
@@ -214,8 +182,8 @@
         }
     },
     {
-        "end": 14814,
-        "start": 14785,
+        "end": 14708,
+        "start": 14679,
         "text": "between 11:20:43 and 11:20:44",
         "type": "DURATION",
         "value": {
@@ -224,16 +192,16 @@
         }
     },
     {
-        "end": 15014,
-        "start": 15006,
+        "end": 14908,
+        "start": 14900,
         "text": "11:20:43",
         "timex-value": "T11:20:43",
         "type": "TIME",
         "value": "T11:20:43"
     },
     {
-        "end": 15639,
-        "start": 15620,
+        "end": 15533,
+        "start": 15514,
         "text": "11:20:42 \u2014 11:20:45",
         "type": "DURATION",
         "value": {
@@ -242,40 +210,40 @@
         }
     },
     {
-        "end": 16187,
-        "start": 16176,
+        "end": 16081,
+        "start": 16070,
         "text": "08 Dec 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 16282,
-        "start": 16255,
+        "end": 16176,
+        "start": 16149,
         "text": "11:20:42 on 8 December 2015",
         "timex-value": "2015-12-08T11:20:42",
         "type": "TIME",
         "value": "2015-12-08T11:20:42"
     },
     {
-        "end": 17259,
-        "start": 17247,
+        "end": 17153,
+        "start": 17141,
         "text": "T11:20:43.45",
         "timex-value": "T11:20:43.045",
         "type": "TIME",
         "value": "T11:20:43.045"
     },
     {
-        "end": 18878,
-        "start": 18867,
+        "end": 18772,
+        "start": 18761,
         "text": "08 Dec 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 18999,
-        "start": 18955,
+        "end": 18893,
+        "start": 18849,
         "text": "from 11:20:42 to 11:20:45 on 8 December 2015",
         "type": "DURATION",
         "value": {
@@ -284,8 +252,8 @@
         }
     },
     {
-        "end": 19681,
-        "start": 19652,
+        "end": 19575,
+        "start": 19546,
         "text": "between 11:20:43 and 11:20:44",
         "type": "DURATION",
         "value": {
@@ -294,112 +262,112 @@
         }
     },
     {
-        "end": 21096,
-        "start": 21081,
+        "end": 20990,
+        "start": 20975,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 21283,
-        "start": 21268,
+        "end": 21177,
+        "start": 21162,
         "text": "16 October 2015",
         "timex-value": "2015-10-16",
         "type": "DATE",
         "value": "2015-10-16"
     },
     {
-        "end": 22720,
-        "start": 22709,
+        "end": 22614,
+        "start": 22603,
         "text": "08 Dec 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 27072,
-        "start": 27061,
+        "end": 26966,
+        "start": 26955,
         "text": "08 Dec 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 29761,
-        "start": 29750,
+        "end": 29655,
+        "start": 29644,
         "text": "08 Dec 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 33972,
-        "start": 33961,
+        "end": 33866,
+        "start": 33855,
         "text": "08 Dec 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 35570,
-        "start": 35555,
+        "end": 35464,
+        "start": 35449,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 36259,
-        "start": 36241,
+        "end": 36153,
+        "start": 36135,
         "text": "late November 2015",
         "timex-value": "2015-11",
         "type": "DATE",
         "value": "2015-11"
     },
     {
-        "end": 38367,
-        "start": 38353,
+        "end": 38261,
+        "start": 38247,
         "text": "September 2016",
         "timex-value": "2016-09",
         "type": "DATE",
         "value": "2016-09"
     },
     {
-        "end": 38615,
-        "start": 38602,
+        "end": 38509,
+        "start": 38496,
         "text": "last 120 days",
-        "timex-value": "2022-03-21/",
+        "timex-value": "2022-03-22/",
         "type": "DATE",
-        "value": "2022-03-21/"
+        "value": "2022-03-22/"
     },
     {
-        "end": 39399,
-        "start": 39384,
+        "end": 39293,
+        "start": 39278,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 39616,
-        "start": 39601,
+        "end": 39510,
+        "start": 39495,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 41029,
-        "start": 41014,
+        "end": 40923,
+        "start": 40908,
         "text": "8 December 2015",
         "timex-value": "2015-12-08",
         "type": "DATE",
         "value": "2015-12-08"
     },
     {
-        "end": 41098,
-        "start": 41083,
+        "end": 40992,
+        "start": 40977,
         "text": "16 October 2015",
         "timex-value": "2015-10-16",
         "type": "DATE",

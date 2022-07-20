@@ -12,8 +12,7 @@ On the other hand, the actual predicted value of the Galactic merger rate and he
 For the most favourable distribution model available (model 15 of ref.
 6), the updated cosmic detection rate for first-generation gravity wave detectors such as VIRGO”, LIGO” and GEO” can be as high as 1 every 1-2 yr at the 95% confidence level.
 After a few years of operation of the gravity wave detectors, it should be possible to test these predictions directly and thus place better constraints on the cosmic population of double-neutron-star binaries.
-L Received 12 August; accepted 15 October 2003; doi:10.1038/nature02124.
-1.
+L 1.
 Misner, C., Thorne, K.
 S.
 & Wheeler, J.
@@ -393,7 +392,6 @@ To evaluate fully the controlling factors that dictate the temporal behaviour of
 O 536 3:00 © 2003 Nature Publishing Group Solar wind Proton spot 5:00 7:00 9:00 11:00 Time (on 18 Sept.
 2000) east-west (y) component of the solar-wind magnetic field, and its brightness is correlated with the solar-wind pressure.
 Between 19:30 and 01:20 ut there were no proton aurora observations by IMAGE because the spacecraft moved through perigee in the southern hemisphere.
-Received 13 June; accepted 23 September 2003; doi:10.1038/nature02084.
 1.
 Cowley, S.
 W.

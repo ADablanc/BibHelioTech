@@ -1,71 +1,39 @@
 [
     {
-        "end": 581,
-        "start": 570,
-        "text": "17 MAR 2014",
-        "timex-value": "2014-03-17",
-        "type": "DATE",
-        "value": "2014-03-17"
-    },
-    {
-        "end": 602,
-        "start": 591,
-        "text": "17 JUL 2014",
-        "timex-value": "2014-07-17",
-        "type": "DATE",
-        "value": "2014-07-17"
-    },
-    {
-        "end": 638,
-        "start": 627,
-        "text": "23 JUL 2014",
-        "timex-value": "2014-07-23",
-        "type": "DATE",
-        "value": "2014-07-23"
-    },
-    {
-        "end": 667,
-        "start": 656,
-        "text": "20 AUG 2014",
-        "timex-value": "2014-08-20",
-        "type": "DATE",
-        "value": "2014-08-20"
-    },
-    {
-        "end": 3094,
-        "start": 3084,
+        "end": 2988,
+        "start": 2978,
         "text": "March 2007",
         "timex-value": "2007-03",
         "type": "DATE",
         "value": "2007-03"
     },
     {
-        "end": 4630,
-        "start": 4622,
+        "end": 4524,
+        "start": 4516,
         "text": "May 2007",
         "timex-value": "2007-05",
         "type": "DATE",
         "value": "2007-05"
     },
     {
-        "end": 5894,
-        "start": 5885,
+        "end": 5788,
+        "start": 5779,
         "text": "the 1990s",
         "timex-value": "199X",
         "type": "DATE",
         "value": "199X"
     },
     {
-        "end": 6229,
-        "start": 6221,
+        "end": 6123,
+        "start": 6115,
         "text": "May 2007",
         "timex-value": "2007-05",
         "type": "DATE",
         "value": "2007-05"
     },
     {
-        "end": 7369,
-        "start": 7356,
+        "end": 7263,
+        "start": 7250,
         "text": "20:07 - 20:09",
         "type": "DURATION",
         "value": {
@@ -74,8 +42,8 @@
         }
     },
     {
-        "end": 12514,
-        "start": 12489,
+        "end": 12408,
+        "start": 12383,
         "text": "1 February to 1 June 2007",
         "type": "DURATION",
         "value": {
@@ -84,8 +52,8 @@
         }
     },
     {
-        "end": 14536,
-        "start": 14512,
+        "end": 14430,
+        "start": 14406,
         "text": "1 February \u2014 1 June 2007",
         "type": "DURATION",
         "value": {
@@ -94,72 +62,72 @@
         }
     },
     {
-        "end": 15363,
-        "start": 15353,
+        "end": 15257,
+        "start": 15247,
         "text": "1 Feb 2007",
         "timex-value": "2007-02-01",
         "type": "DATE",
         "value": "2007-02-01"
     },
     {
-        "end": 15375,
-        "start": 15364,
+        "end": 15269,
+        "start": 15258,
         "text": "15 Feb 2007",
         "timex-value": "2007-02-15",
         "type": "DATE",
         "value": "2007-02-15"
     },
     {
-        "end": 15401,
-        "start": 15390,
+        "end": 15295,
+        "start": 15284,
         "text": "15 Mar 2007",
         "timex-value": "2007-03-15",
         "type": "DATE",
         "value": "2007-03-15"
     },
     {
-        "end": 15412,
-        "start": 15402,
+        "end": 15306,
+        "start": 15296,
         "text": "1 Apr 2007",
         "timex-value": "2007-04-01",
         "type": "DATE",
         "value": "2007-04-01"
     },
     {
-        "end": 15424,
-        "start": 15413,
+        "end": 15318,
+        "start": 15307,
         "text": "15 Apr 2007",
         "timex-value": "2007-04-15",
         "type": "DATE",
         "value": "2007-04-15"
     },
     {
-        "end": 15435,
-        "start": 15425,
+        "end": 15329,
+        "start": 15319,
         "text": "1 May 2007",
         "timex-value": "2007-05-01",
         "type": "DATE",
         "value": "2007-05-01"
     },
     {
-        "end": 15447,
-        "start": 15436,
+        "end": 15341,
+        "start": 15330,
         "text": "15 May 2007",
         "timex-value": "2007-05-15",
         "type": "DATE",
         "value": "2007-05-15"
     },
     {
-        "end": 15458,
-        "start": 15448,
+        "end": 15352,
+        "start": 15342,
         "text": "1 Jun 2007",
         "timex-value": "2007-06-01",
         "type": "DATE",
         "value": "2007-06-01"
     },
     {
-        "end": 15530,
-        "start": 15495,
+        "end": 15424,
+        "start": 15389,
         "text": "from 1 February 2007 to 1 June 2007",
         "type": "DURATION",
         "value": {
@@ -168,8 +136,8 @@
         }
     },
     {
-        "end": 16720,
-        "start": 16688,
+        "end": 16614,
+        "start": 16582,
         "text": "from 26 January to 10 March 2007",
         "type": "DURATION",
         "value": {
@@ -178,8 +146,8 @@
         }
     },
     {
-        "end": 16834,
-        "start": 16811,
+        "end": 16728,
+        "start": 16705,
         "text": "20 March \u2014 1 April 2007",
         "type": "DURATION",
         "value": {
@@ -188,48 +156,48 @@
         }
     },
     {
-        "end": 17094,
-        "start": 17085,
+        "end": 16988,
+        "start": 16979,
         "text": "20 Mar 22",
         "timex-value": "2022-03-20",
         "type": "DATE",
         "value": "2022-03-20"
     },
     {
-        "end": 17101,
-        "start": 17095,
+        "end": 16995,
+        "start": 16989,
         "text": "Mar 24",
         "timex-value": "2022-03-24",
         "type": "DATE",
         "value": "2022-03-24"
     },
     {
-        "end": 17108,
-        "start": 17102,
+        "end": 17002,
+        "start": 16996,
         "text": "Mar 26",
         "timex-value": "2022-03-26",
         "type": "DATE",
         "value": "2022-03-26"
     },
     {
-        "end": 17115,
-        "start": 17109,
+        "end": 17009,
+        "start": 17003,
         "text": "Mar 28",
         "timex-value": "2022-03-28",
         "type": "DATE",
         "value": "2022-03-28"
     },
     {
-        "end": 17126,
-        "start": 17116,
+        "end": 17020,
+        "start": 17010,
         "text": "Mar 30 Mar",
         "timex-value": "2022-03-30",
         "type": "DATE",
         "value": "2022-03-30"
     },
     {
-        "end": 17187,
-        "start": 17157,
+        "end": 17081,
+        "start": 17051,
         "text": "from 20 March to 31 March 2007",
         "type": "DURATION",
         "value": {
@@ -238,8 +206,8 @@
         }
     },
     {
-        "end": 18068,
-        "start": 18041,
+        "end": 17962,
+        "start": 17935,
         "text": "26 January to 10 March 2007",
         "type": "DURATION",
         "value": {
@@ -248,8 +216,8 @@
         }
     },
     {
-        "end": 18563,
-        "start": 18534,
+        "end": 18457,
+        "start": 18428,
         "text": "28 January to 2 February 2007",
         "type": "DURATION",
         "value": {
@@ -258,112 +226,112 @@
         }
     },
     {
-        "end": 18702,
-        "start": 18692,
+        "end": 18596,
+        "start": 18586,
         "text": "1 Feb 2007",
         "timex-value": "2007-02-01",
         "type": "DATE",
         "value": "2007-02-01"
     },
     {
-        "end": 18829,
-        "start": 18818,
+        "end": 18723,
+        "start": 18712,
         "text": "12 Feb 2007",
         "timex-value": "2007-02-12",
         "type": "DATE",
         "value": "2007-02-12"
     },
     {
-        "end": 18861,
-        "start": 18850,
+        "end": 18755,
+        "start": 18744,
         "text": "29 Jan 2007",
         "timex-value": "2007-01-29",
         "type": "DATE",
         "value": "2007-01-29"
     },
     {
-        "end": 18903,
-        "start": 18892,
+        "end": 18797,
+        "start": 18786,
         "text": "14 Feb 2007",
         "timex-value": "2007-02-14",
         "type": "DATE",
         "value": "2007-02-14"
     },
     {
-        "end": 18915,
-        "start": 18904,
+        "end": 18809,
+        "start": 18798,
         "text": "16 Feb 2007",
         "timex-value": "2007-02-16",
         "type": "DATE",
         "value": "2007-02-16"
     },
     {
-        "end": 18952,
-        "start": 18941,
+        "end": 18846,
+        "start": 18835,
         "text": "30 Jan 2007",
         "timex-value": "2007-01-30",
         "type": "DATE",
         "value": "2007-01-30"
     },
     {
-        "end": 18964,
-        "start": 18953,
+        "end": 18858,
+        "start": 18847,
         "text": "31 Jan 2007",
         "timex-value": "2007-01-31",
         "type": "DATE",
         "value": "2007-01-31"
     },
     {
-        "end": 19006,
-        "start": 18995,
+        "end": 18900,
+        "start": 18889,
         "text": "18 Feb 2007",
         "timex-value": "2007-02-18",
         "type": "DATE",
         "value": "2007-02-18"
     },
     {
-        "end": 19018,
-        "start": 19007,
+        "end": 18912,
+        "start": 18901,
         "text": "20 Feb 2007",
         "timex-value": "2007-02-20",
         "type": "DATE",
         "value": "2007-02-20"
     },
     {
-        "end": 19038,
-        "start": 19027,
+        "end": 18932,
+        "start": 18921,
         "text": "22 Feb 2007",
         "timex-value": "2007-02-22",
         "type": "DATE",
         "value": "2007-02-22"
     },
     {
-        "end": 19050,
-        "start": 19039,
+        "end": 18944,
+        "start": 18933,
         "text": "24 Feb 2007",
         "timex-value": "2007-02-24",
         "type": "DATE",
         "value": "2007-02-24"
     },
     {
-        "end": 19061,
-        "start": 19051,
+        "end": 18955,
+        "start": 18945,
         "text": "1 Mar 2007",
         "timex-value": "2007-03-01",
         "type": "DATE",
         "value": "2007-03-01"
     },
     {
-        "end": 19072,
-        "start": 19062,
+        "end": 18966,
+        "start": 18956,
         "text": "1 Feb 2007",
         "timex-value": "2007-02-01",
         "type": "DATE",
         "value": "2007-02-01"
     },
     {
-        "end": 19203,
-        "start": 19168,
+        "end": 19097,
+        "start": 19062,
         "text": "12 February 2007 - 28 February 2007",
         "type": "DURATION",
         "value": {
@@ -372,16 +340,16 @@
         }
     },
     {
-        "end": 19289,
-        "start": 19278,
+        "end": 19183,
+        "start": 19172,
         "text": "10 Mar 2007",
         "timex-value": "2007-03-10",
         "type": "DATE",
         "value": "2007-03-10"
     },
     {
-        "end": 19318,
-        "start": 19290,
+        "end": 19212,
+        "start": 19184,
         "text": "28 January \u2014 2 February 2007",
         "type": "DURATION",
         "value": {
@@ -390,16 +358,16 @@
         }
     },
     {
-        "end": 19357,
-        "start": 19347,
+        "end": 19251,
+        "start": 19241,
         "text": "2 Feb 2007",
         "timex-value": "2007-02-02",
         "type": "DATE",
         "value": "2007-02-02"
     },
     {
-        "end": 19408,
-        "start": 19378,
+        "end": 19302,
+        "start": 19272,
         "text": "12 February \u2014 28 February 2007",
         "type": "DURATION",
         "value": {
@@ -408,32 +376,32 @@
         }
     },
     {
-        "end": 19467,
-        "start": 19456,
+        "end": 19361,
+        "start": 19350,
         "text": "26 Feb 2007",
         "timex-value": "2007-02-26",
         "type": "DATE",
         "value": "2007-02-26"
     },
     {
-        "end": 19474,
-        "start": 19468,
+        "end": 19368,
+        "start": 19362,
         "text": "28 Feb",
         "timex-value": "2022-02-28",
         "type": "DATE",
         "value": "2022-02-28"
     },
     {
-        "end": 19480,
-        "start": 19475,
+        "end": 19374,
+        "start": 19369,
         "text": "20:07",
         "timex-value": "T20:07",
         "type": "TIME",
         "value": "T20:07"
     },
     {
-        "end": 19914,
-        "start": 19880,
+        "end": 19808,
+        "start": 19774,
         "text": "from 28 January to 2 February 2007",
         "type": "DURATION",
         "value": {
@@ -442,72 +410,72 @@
         }
     },
     {
-        "end": 20454,
-        "start": 20444,
+        "end": 20348,
+        "start": 20338,
         "text": "29 January",
         "timex-value": "2022-01-29",
         "type": "DATE",
         "value": "2022-01-29"
     },
     {
-        "end": 20926,
-        "start": 20907,
+        "end": 20820,
+        "start": 20801,
         "text": "14:30 on 29 January",
         "timex-value": "2022-01-29T14:30",
         "type": "TIME",
         "value": "2022-01-29T14:30"
     },
     {
-        "end": 21102,
-        "start": 21083,
+        "end": 20996,
+        "start": 20977,
         "text": "03:44 on 1 February",
         "timex-value": "2022-02-01T03:44",
         "type": "TIME",
         "value": "2022-02-01T03:44"
     },
     {
-        "end": 21280,
-        "start": 21264,
+        "end": 21174,
+        "start": 21158,
         "text": "28 February 2007",
         "timex-value": "2007-02-28",
         "type": "DATE",
         "value": "2007-02-28"
     },
     {
-        "end": 21329,
-        "start": 21318,
+        "end": 21223,
+        "start": 21212,
         "text": "12 February",
         "timex-value": "2022-02-12",
         "type": "DATE",
         "value": "2022-02-12"
     },
     {
-        "end": 22171,
-        "start": 22155,
+        "end": 22065,
+        "start": 22049,
         "text": "13 February 2007",
         "timex-value": "2007-02-13",
         "type": "DATE",
         "value": "2007-02-13"
     },
     {
-        "end": 22257,
-        "start": 22241,
+        "end": 22151,
+        "start": 22135,
         "text": "21 February 2007",
         "timex-value": "2007-02-21",
         "type": "DATE",
         "value": "2007-02-21"
     },
     {
-        "end": 22346,
-        "start": 22319,
+        "end": 22240,
+        "start": 22213,
         "text": "the beginning of March 2007",
         "timex-value": "2007-03",
         "type": "DATE",
         "value": "2007-03"
     },
     {
-        "end": 22898,
-        "start": 22880,
+        "end": 22792,
+        "start": 22774,
         "text": "February\u2014June 2007",
         "type": "DURATION",
         "value": {
@@ -516,8 +484,8 @@
         }
     },
     {
-        "end": 23840,
-        "start": 23821,
+        "end": 23734,
+        "start": 23715,
         "text": "February-March 2007",
         "type": "DURATION",
         "value": {
@@ -526,8 +494,8 @@
         }
     },
     {
-        "end": 23926,
-        "start": 23911,
+        "end": 23820,
+        "start": 23805,
         "text": "March\u2014June 2007",
         "type": "DURATION",
         "value": {
@@ -536,8 +504,8 @@
         }
     },
     {
-        "end": 25898,
-        "start": 25874,
+        "end": 25792,
+        "start": 25768,
         "text": "17 January \u2014 1 June 2007",
         "type": "DURATION",
         "value": {
@@ -546,48 +514,48 @@
         }
     },
     {
-        "end": 26222,
-        "start": 26212,
+        "end": 26116,
+        "start": 26106,
         "text": "1 Feb 2007",
         "timex-value": "2007-02-01",
         "type": "DATE",
         "value": "2007-02-01"
     },
     {
-        "end": 26233,
-        "start": 26223,
+        "end": 26127,
+        "start": 26117,
         "text": "1 Mar 2007",
         "timex-value": "2007-03-01",
         "type": "DATE",
         "value": "2007-03-01"
     },
     {
-        "end": 26244,
-        "start": 26234,
+        "end": 26138,
+        "start": 26128,
         "text": "1 Apr 2007",
         "timex-value": "2007-04-01",
         "type": "DATE",
         "value": "2007-04-01"
     },
     {
-        "end": 26255,
-        "start": 26245,
+        "end": 26149,
+        "start": 26139,
         "text": "1 May 2007",
         "timex-value": "2007-05-01",
         "type": "DATE",
         "value": "2007-05-01"
     },
     {
-        "end": 26266,
-        "start": 26256,
+        "end": 26160,
+        "start": 26150,
         "text": "1 Jun 2007",
         "timex-value": "2007-06-01",
         "type": "DATE",
         "value": "2007-06-01"
     },
     {
-        "end": 26295,
-        "start": 26269,
+        "end": 26189,
+        "start": 26163,
         "text": "1 February \u2014 10 March 2007",
         "type": "DURATION",
         "value": {
@@ -596,80 +564,80 @@
         }
     },
     {
-        "end": 26779,
-        "start": 26769,
+        "end": 26673,
+        "start": 26663,
         "text": "1 Feb 2007",
         "timex-value": "2007-02-01",
         "type": "DATE",
         "value": "2007-02-01"
     },
     {
-        "end": 26790,
-        "start": 26780,
+        "end": 26684,
+        "start": 26674,
         "text": "5 Feb 2007",
         "timex-value": "2007-02-05",
         "type": "DATE",
         "value": "2007-02-05"
     },
     {
-        "end": 26802,
-        "start": 26791,
+        "end": 26696,
+        "start": 26685,
         "text": "10 Feb 2007",
         "timex-value": "2007-02-10",
         "type": "DATE",
         "value": "2007-02-10"
     },
     {
-        "end": 26814,
-        "start": 26803,
+        "end": 26708,
+        "start": 26697,
         "text": "15 Feb 2007",
         "timex-value": "2007-02-15",
         "type": "DATE",
         "value": "2007-02-15"
     },
     {
-        "end": 26826,
-        "start": 26815,
+        "end": 26720,
+        "start": 26709,
         "text": "20 Feb 2007",
         "timex-value": "2007-02-20",
         "type": "DATE",
         "value": "2007-02-20"
     },
     {
-        "end": 26838,
-        "start": 26827,
+        "end": 26732,
+        "start": 26721,
         "text": "25 Feb 2007",
         "timex-value": "2007-02-25",
         "type": "DATE",
         "value": "2007-02-25"
     },
     {
-        "end": 26849,
-        "start": 26839,
+        "end": 26743,
+        "start": 26733,
         "text": "1 Mar 2007",
         "timex-value": "2007-03-01",
         "type": "DATE",
         "value": "2007-03-01"
     },
     {
-        "end": 26860,
-        "start": 26850,
+        "end": 26754,
+        "start": 26744,
         "text": "5 Mar 2007",
         "timex-value": "2007-03-05",
         "type": "DATE",
         "value": "2007-03-05"
     },
     {
-        "end": 26872,
-        "start": 26861,
+        "end": 26766,
+        "start": 26755,
         "text": "10 Mar 2007",
         "timex-value": "2007-03-10",
         "type": "DATE",
         "value": "2007-03-10"
     },
     {
-        "end": 27021,
-        "start": 26999,
+        "end": 26915,
+        "start": 26893,
         "text": "10 March \u2014 1 June 2007",
         "type": "DURATION",
         "value": {
@@ -678,112 +646,112 @@
         }
     },
     {
-        "end": 27483,
-        "start": 27472,
+        "end": 27377,
+        "start": 27366,
         "text": "10 Mar 2007",
         "timex-value": "2007-03-10",
         "type": "DATE",
         "value": "2007-03-10"
     },
     {
-        "end": 27495,
-        "start": 27484,
+        "end": 27389,
+        "start": 27378,
         "text": "20 Mar 2007",
         "timex-value": "2007-03-20",
         "type": "DATE",
         "value": "2007-03-20"
     },
     {
-        "end": 27506,
-        "start": 27496,
+        "end": 27400,
+        "start": 27390,
         "text": "1 Apr 2007",
         "timex-value": "2007-04-01",
         "type": "DATE",
         "value": "2007-04-01"
     },
     {
-        "end": 27518,
-        "start": 27507,
+        "end": 27412,
+        "start": 27401,
         "text": "10 Apr 2007",
         "timex-value": "2007-04-10",
         "type": "DATE",
         "value": "2007-04-10"
     },
     {
-        "end": 27530,
-        "start": 27519,
+        "end": 27424,
+        "start": 27413,
         "text": "20 Apr 2007",
         "timex-value": "2007-04-20",
         "type": "DATE",
         "value": "2007-04-20"
     },
     {
-        "end": 27541,
-        "start": 27531,
+        "end": 27435,
+        "start": 27425,
         "text": "1 May 2007",
         "timex-value": "2007-05-01",
         "type": "DATE",
         "value": "2007-05-01"
     },
     {
-        "end": 27553,
-        "start": 27542,
+        "end": 27447,
+        "start": 27436,
         "text": "10 May 2007",
         "timex-value": "2007-05-10",
         "type": "DATE",
         "value": "2007-05-10"
     },
     {
-        "end": 27565,
-        "start": 27554,
+        "end": 27459,
+        "start": 27448,
         "text": "20 May 2007",
         "timex-value": "2007-05-20",
         "type": "DATE",
         "value": "2007-05-20"
     },
     {
-        "end": 27576,
-        "start": 27566,
+        "end": 27470,
+        "start": 27460,
         "text": "1 Jun 2007",
         "timex-value": "2007-06-01",
         "type": "DATE",
         "value": "2007-06-01"
     },
     {
-        "end": 28022,
-        "start": 28016,
+        "end": 27916,
+        "start": 27910,
         "text": "Feb 01",
         "timex-value": "2022-02-01",
         "type": "DATE",
         "value": "2022-02-01"
     },
     {
-        "end": 28029,
-        "start": 28023,
+        "end": 27923,
+        "start": 27917,
         "text": "Feb 11",
         "timex-value": "2022-02-11",
         "type": "DATE",
         "value": "2022-02-11"
     },
     {
-        "end": 28036,
-        "start": 28030,
+        "end": 27930,
+        "start": 27924,
         "text": "Feb 21",
         "timex-value": "2022-02-21",
         "type": "DATE",
         "value": "2022-02-21"
     },
     {
-        "end": 28043,
-        "start": 28037,
+        "end": 27937,
+        "start": 27931,
         "text": "Mar 03",
         "timex-value": "2022-03-03",
         "type": "DATE",
         "value": "2022-03-03"
     },
     {
-        "end": 28106,
-        "start": 28074,
+        "end": 28000,
+        "start": 27968,
         "text": "from 1 February to 10 March 2007",
         "type": "DURATION",
         "value": {
@@ -792,24 +760,24 @@
         }
     },
     {
-        "end": 29215,
-        "start": 29207,
+        "end": 29109,
+        "start": 29101,
         "text": "May 2007",
         "timex-value": "2007-05",
         "type": "DATE",
         "value": "2007-05"
     },
     {
-        "end": 29540,
-        "start": 29525,
+        "end": 29434,
+        "start": 29419,
         "text": "end of May 2007",
         "timex-value": "2007-05",
         "type": "DATE",
         "value": "2007-05"
     },
     {
-        "end": 29774,
-        "start": 29742,
+        "end": 29668,
+        "start": 29636,
         "text": "from 1 February to 10 March 2007",
         "type": "DURATION",
         "value": {
@@ -818,8 +786,8 @@
         }
     },
     {
-        "end": 29913,
-        "start": 29878,
+        "end": 29807,
+        "start": 29772,
         "text": "from 17 January 2007 to 1 June 2007",
         "type": "DURATION",
         "value": {
@@ -828,8 +796,8 @@
         }
     },
     {
-        "end": 30490,
-        "start": 30458,
+        "end": 30384,
+        "start": 30352,
         "text": "from 1 February to 10 March 2007",
         "type": "DURATION",
         "value": {
@@ -838,8 +806,8 @@
         }
     },
     {
-        "end": 31231,
-        "start": 31203,
+        "end": 31125,
+        "start": 31097,
         "text": "from 10 March to 1 June 2007",
         "type": "DURATION",
         "value": {
@@ -848,144 +816,144 @@
         }
     },
     {
-        "end": 31515,
-        "start": 31503,
+        "end": 31409,
+        "start": 31397,
         "text": "7 March 2007",
         "timex-value": "2007-03-07",
         "type": "DATE",
         "value": "2007-03-07"
     },
     {
-        "end": 31750,
-        "start": 31745,
+        "end": 31644,
+        "start": 31639,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "TIME",
         "value": "T06:00"
     },
     {
-        "end": 31756,
-        "start": 31751,
+        "end": 31650,
+        "start": 31645,
         "text": "08:00",
         "timex-value": "T08:00",
         "type": "TIME",
         "value": "T08:00"
     },
     {
-        "end": 31762,
-        "start": 31757,
+        "end": 31656,
+        "start": 31651,
         "text": "10:00",
         "timex-value": "T10:00",
         "type": "TIME",
         "value": "T10:00"
     },
     {
-        "end": 31768,
-        "start": 31763,
+        "end": 31662,
+        "start": 31657,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "TIME",
         "value": "T12:00"
     },
     {
-        "end": 31774,
-        "start": 31769,
+        "end": 31668,
+        "start": 31663,
         "text": "14:00",
         "timex-value": "T14:00",
         "type": "TIME",
         "value": "T14:00"
     },
     {
-        "end": 31780,
-        "start": 31775,
+        "end": 31674,
+        "start": 31669,
         "text": "16:00",
         "timex-value": "T16:00",
         "type": "TIME",
         "value": "T16:00"
     },
     {
-        "end": 31786,
-        "start": 31781,
+        "end": 31680,
+        "start": 31675,
         "text": "18:00",
         "timex-value": "T18:00",
         "type": "TIME",
         "value": "T18:00"
     },
     {
-        "end": 31792,
-        "start": 31787,
+        "end": 31686,
+        "start": 31681,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "TIME",
         "value": "T20:00"
     },
     {
-        "end": 31944,
-        "start": 31932,
+        "end": 31838,
+        "start": 31826,
         "text": "7 March 2007",
         "timex-value": "2007-03-07",
         "type": "DATE",
         "value": "2007-03-07"
     },
     {
-        "end": 32869,
-        "start": 32859,
+        "end": 32763,
+        "start": 32753,
         "text": "8 February",
         "timex-value": "2022-02-08",
         "type": "DATE",
         "value": "2022-02-08"
     },
     {
-        "end": 32883,
-        "start": 32876,
+        "end": 32777,
+        "start": 32770,
         "text": "7 March",
         "timex-value": "2022-03-07",
         "type": "DATE",
         "value": "2022-03-07"
     },
     {
-        "end": 33789,
-        "start": 33778,
+        "end": 33683,
+        "start": 33672,
         "text": "25 February",
         "timex-value": "2022-02-25",
         "type": "DATE",
         "value": "2022-02-25"
     },
     {
-        "end": 34538,
-        "start": 34533,
+        "end": 34432,
+        "start": 34427,
         "text": "06:45",
         "timex-value": "T06:45",
         "type": "TIME",
         "value": "T06:45"
     },
     {
-        "end": 34820,
-        "start": 34815,
+        "end": 34714,
+        "start": 34709,
         "text": "15:00",
         "timex-value": "T15:00",
         "type": "TIME",
         "value": "T15:00"
     },
     {
-        "end": 36551,
-        "start": 36541,
+        "end": 36445,
+        "start": 36435,
         "text": "March 2007",
         "timex-value": "2007-03",
         "type": "DATE",
         "value": "2007-03"
     },
     {
-        "end": 36618,
-        "start": 36610,
+        "end": 36512,
+        "start": 36504,
         "text": "May 2007",
         "timex-value": "2007-05",
         "type": "DATE",
         "value": "2007-05"
     },
     {
-        "end": 39523,
-        "start": 39518,
+        "end": 39417,
+        "start": 39412,
         "text": "06:45",
         "timex-value": "T06:45",
         "type": "TIME",

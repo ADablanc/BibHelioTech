@@ -7,7 +7,7 @@ D.
 Measuring particle current density J on NASA’s magnetospheric multiscale mission (MMS).
 Journal of Geophysical Research: Space Physics, 126, €2020JA028619.
 https://doi.
-org/10.1029/2020JA028619 Received 25 AUG 2020 Accepted 11 NOV 2020 © 2020.
+org/10.1029/2020JA028619 © 2020.
 American Geophysical Union.
 All Rights Reserved.
 SCUDDER Measuring Particle Current Density J on NASA's Magnetospheric Multiscale Mission (MMS) J.

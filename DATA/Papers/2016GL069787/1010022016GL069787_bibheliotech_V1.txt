@@ -1,5 +1,5 @@
 # Name: 1010022016GL069787_bibheliotech_V1;
-# Creation Date: 2022-07-19T10:36:24.347493;
+# Creation Date: 2022-07-20T10:19:19.054990;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1002/2016GL069787". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -52,8 +52,8 @@
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "Cluster" "" "Earth.Magnetosphere.Polar" 2238 1 1 77 16 0.15519034741002705 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "Geotail" "LEP" "Earth.Magnetosphere" 2257 1 1 77 16 0.15650787046668055 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "ISEE" "" "Heliosphere.NearEarth" 2325 1 1 77 16 0.1612232161431246 
-2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 6674 1 50 77 16 0.009255946189584634 
-2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 6096 1 50 77 16 0.008454337424589141 
+2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 6568 1 50 77 16 0.009108938353789613 
+2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 5990 1 50 77 16 0.00830732958879412 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 5537 1 50 77 16 0.007679079120726718 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 4650 1 50 77 16 0.006448928645724984 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 2617 1 50 77 16 0.0036294293044865124 
@@ -66,7 +66,7 @@
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 172 1 50 77 16 0.00023854101657305317 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 20 1 50 77 16 2.7737327508494556e-05 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "FPI,HPCA" "Earth.Magnetosphere" 168 1 50 77 16 0.0002329935510713543 
-2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "" "Earth.Magnetosphere" 6859 1 50 77 16 0.009512516469038208 
+2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "" "Earth.Magnetosphere" 6753 1 50 77 16 0.009365508633243187 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "" "Earth.Magnetosphere" 4836 1 50 77 16 0.006706885791553984 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "MMS" "" "Earth.Magnetosphere" 3122 1 50 77 16 0.0043297968240760005 
 2015-12-15T11:20:00.000 2015-12-15T11:21:00.000 https://doi.org/10.1002/2016GL069787 "THEMIS-A" "" "Earth.Magnetosphere.Main" 2225 1 5 77 16 0.030857776853200194 

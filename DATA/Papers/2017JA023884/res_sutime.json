@@ -8,583 +8,551 @@
         "value": "2014-10-19"
     },
     {
-        "end": 865,
-        "start": 854,
-        "text": "10 JAN 2017",
-        "timex-value": "2017-01-10",
-        "type": "DATE",
-        "value": "2017-01-10"
-    },
-    {
-        "end": 886,
-        "start": 875,
-        "text": "21 JUN 2017",
-        "timex-value": "2017-06-21",
-        "type": "DATE",
-        "value": "2017-06-21"
-    },
-    {
-        "end": 922,
-        "start": 911,
-        "text": "23 JUN 2017",
-        "timex-value": "2017-06-23",
-        "type": "DATE",
-        "value": "2017-06-23"
-    },
-    {
-        "end": 951,
-        "start": 940,
-        "text": "14 AUG 2017",
-        "timex-value": "2017-08-14",
-        "type": "DATE",
-        "value": "2017-08-14"
-    },
-    {
-        "end": 4184,
-        "start": 4169,
+        "end": 4078,
+        "start": 4063,
         "text": "14 October 2014",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 4217,
-        "start": 4207,
+        "end": 4111,
+        "start": 4101,
         "text": "17 October",
         "timex-value": "2021-10-17",
         "type": "DATE",
         "value": "2021-10-17"
     },
     {
-        "end": 4626,
-        "start": 4616,
+        "end": 4520,
+        "start": 4510,
         "text": "22 October",
         "timex-value": "2022-10-22",
         "type": "DATE",
         "value": "2022-10-22"
     },
     {
-        "end": 4680,
-        "start": 4670,
+        "end": 4574,
+        "start": 4564,
         "text": "16 October",
         "timex-value": "2022-10-16",
         "type": "DATE",
         "value": "2022-10-16"
     },
     {
-        "end": 4755,
-        "start": 4744,
+        "end": 4649,
+        "start": 4638,
         "text": "12 November",
         "timex-value": "2022-11-12",
         "type": "DATE",
         "value": "2022-11-12"
     },
     {
-        "end": 5729,
-        "start": 5714,
+        "end": 5623,
+        "start": 5608,
         "text": "19 October 2014",
         "timex-value": "2014-10-19",
         "type": "DATE",
         "value": "2014-10-19"
     },
     {
-        "end": 6505,
-        "start": 6490,
+        "end": 6399,
+        "start": 6384,
         "text": "14 October 2014",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 6521,
-        "start": 6516,
+        "end": 6415,
+        "start": 6410,
         "text": "18:30",
         "timex-value": "T18:30",
         "type": "TIME",
         "value": "T18:30"
     },
     {
-        "end": 7137,
-        "start": 7122,
+        "end": 7031,
+        "start": 7016,
         "text": "late March 2016",
         "timex-value": "2016-03",
         "type": "DATE",
         "value": "2016-03"
     },
     {
-        "end": 9095,
-        "start": 9080,
+        "end": 8989,
+        "start": 8974,
         "text": "14 October 2014",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 9906,
-        "start": 9891,
+        "end": 9800,
+        "start": 9785,
         "text": "14 October 2014",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 9957,
-        "start": 9952,
+        "end": 9851,
+        "start": 9846,
         "text": "18:21",
         "timex-value": "T18:21",
         "type": "TIME",
         "value": "T18:21"
     },
     {
-        "end": 10095,
-        "start": 10090,
+        "end": 9989,
+        "start": 9984,
         "text": "19:07",
         "timex-value": "T19:07",
         "type": "TIME",
         "value": "T19:07"
     },
     {
-        "end": 10359,
-        "start": 10342,
+        "end": 10253,
+        "start": 10236,
         "text": "the last 24 years",
         "type": "DURATION",
         "value": {}
     },
     {
-        "end": 10892,
-        "start": 10887,
+        "end": 10786,
+        "start": 10781,
         "text": "21:27",
         "timex-value": "T21:27",
         "type": "TIME",
         "value": "T21:27"
     },
     {
-        "end": 11104,
-        "start": 11089,
+        "end": 10998,
+        "start": 10983,
         "text": "14 October 2014",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 13061,
-        "start": 13046,
+        "end": 12955,
+        "start": 12940,
         "text": "14 October 2014",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 13829,
-        "start": 13814,
+        "end": 13723,
+        "start": 13708,
         "text": "22 October 2014",
         "timex-value": "2014-10-22",
         "type": "DATE",
         "value": "2014-10-22"
     },
     {
-        "end": 13922,
-        "start": 13906,
+        "end": 13816,
+        "start": 13800,
         "text": "12 November 2014",
         "timex-value": "2014-11-12",
         "type": "DATE",
         "value": "2014-11-12"
     },
     {
-        "end": 14013,
-        "start": 13996,
+        "end": 13907,
+        "start": 13890,
         "text": "late January 2015",
         "timex-value": "2015-01",
         "type": "DATE",
         "value": "2015-01"
     },
     {
-        "end": 14215,
-        "start": 14210,
+        "end": 14109,
+        "start": 14104,
         "text": "18:30",
         "timex-value": "T18:30",
         "type": "TIME",
         "value": "T18:30"
     },
     {
-        "end": 14668,
-        "start": 14649,
+        "end": 14562,
+        "start": 14543,
         "text": "14 October at 18:30",
         "timex-value": "2022-10-14T18:30",
         "type": "TIME",
         "value": "2022-10-14T18:30"
     },
     {
-        "end": 14809,
-        "start": 14790,
+        "end": 14703,
+        "start": 14684,
         "text": "18:48 on 14 October",
         "timex-value": "2022-10-14T18:48",
         "type": "TIME",
         "value": "2022-10-14T18:48"
     },
     {
-        "end": 15026,
-        "start": 15021,
+        "end": 14920,
+        "start": 14915,
         "text": "20:48",
         "timex-value": "T20:48",
         "type": "TIME",
         "value": "T20:48"
     },
     {
-        "end": 15202,
-        "start": 15197,
+        "end": 15096,
+        "start": 15091,
         "text": "21:39",
         "timex-value": "T21:39",
         "type": "TIME",
         "value": "T21:39"
     },
     {
-        "end": 16038,
-        "start": 16024,
+        "end": 15932,
+        "start": 15918,
         "text": "1 October 2014",
         "timex-value": "2014-10-01",
         "type": "DATE",
         "value": "2014-10-01"
     },
     {
-        "end": 16937,
-        "start": 16927,
+        "end": 16831,
+        "start": 16821,
         "text": "2014/10/14",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 16973,
-        "start": 16961,
+        "end": 16867,
+        "start": 16855,
         "text": "Oct 14 12:00",
         "timex-value": "2022-10-14T12:00",
         "type": "TIME",
         "value": "2022-10-14T12:00"
     },
     {
-        "end": 18299,
-        "start": 18294,
+        "end": 18193,
+        "start": 18188,
         "text": "20:48",
         "timex-value": "T20:48",
         "type": "TIME",
         "value": "T20:48"
     },
     {
-        "end": 18326,
-        "start": 18314,
+        "end": 18220,
+        "start": 18208,
         "text": "Oct 14 14:00",
         "timex-value": "2022-10-14T14:00",
         "type": "TIME",
         "value": "2022-10-14T14:00"
     },
     {
-        "end": 18339,
-        "start": 18327,
+        "end": 18233,
+        "start": 18221,
         "text": "Oct 14 16:00",
         "timex-value": "2022-10-14T16:00",
         "type": "TIME",
         "value": "2022-10-14T16:00"
     },
     {
-        "end": 18352,
-        "start": 18340,
+        "end": 18246,
+        "start": 18234,
         "text": "Oct 14 18:00",
         "timex-value": "2022-10-14T18:00",
         "type": "TIME",
         "value": "2022-10-14T18:00"
     },
     {
-        "end": 18365,
-        "start": 18353,
+        "end": 18259,
+        "start": 18247,
         "text": "Oct 14 20:00",
         "timex-value": "2022-10-14T20:00",
         "type": "TIME",
         "value": "2022-10-14T20:00"
     },
     {
-        "end": 18378,
-        "start": 18366,
+        "end": 18272,
+        "start": 18260,
         "text": "Oct 14 22:00",
         "timex-value": "2022-10-14T22:00",
         "type": "TIME",
         "value": "2022-10-14T22:00"
     },
     {
-        "end": 18391,
-        "start": 18379,
+        "end": 18285,
+        "start": 18273,
         "text": "Oct 15 00:00",
         "timex-value": "2022-10-15T00:00",
         "type": "TIME",
         "value": "2022-10-15T00:00"
     },
     {
-        "end": 18429,
-        "start": 18411,
+        "end": 18323,
+        "start": 18305,
         "text": "14 Oct 2014 T18:30",
         "timex-value": "2014-10-14T18:30",
         "type": "TIME",
         "value": "2014-10-14T18:30"
     },
     {
-        "end": 18448,
-        "start": 18430,
+        "end": 18342,
+        "start": 18324,
         "text": "16 Oct 2014 T07:19",
         "timex-value": "2014-10-16T07:19",
         "type": "TIME",
         "value": "2014-10-16T07:19"
     },
     {
-        "end": 18467,
-        "start": 18449,
+        "end": 18361,
+        "start": 18343,
         "text": "16 Oct 2014 T09:00",
         "timex-value": "2014-10-16T09:00",
         "type": "TIME",
         "value": "2014-10-16T09:00"
     },
     {
-        "end": 18486,
-        "start": 18468,
+        "end": 18380,
+        "start": 18362,
         "text": "16 Oct 2014 T07:12",
         "timex-value": "2014-10-16T07:12",
         "type": "TIME",
         "value": "2014-10-16T07:12"
     },
     {
-        "end": 18505,
-        "start": 18487,
+        "end": 18399,
+        "start": 18381,
         "text": "16 Oct 2014 T20:00",
         "timex-value": "2014-10-16T20:00",
         "type": "TIME",
         "value": "2014-10-16T20:00"
     },
     {
-        "end": 18524,
-        "start": 18506,
+        "end": 18418,
+        "start": 18400,
         "text": "17 Oct 2014 T00:00",
         "timex-value": "2022-10-17T00:00",
         "type": "TIME",
         "value": "2022-10-17T00:00"
     },
     {
-        "end": 18543,
-        "start": 18525,
+        "end": 18437,
+        "start": 18419,
         "text": "16 Oct 2014 T20:57",
         "timex-value": "2014-10-16T20:57",
         "type": "TIME",
         "value": "2014-10-16T20:57"
     },
     {
-        "end": 18562,
-        "start": 18544,
+        "end": 18456,
+        "start": 18438,
         "text": "17 Oct 2014 T22:53",
         "timex-value": "2022-10-17T22:53",
         "type": "TIME",
         "value": "2022-10-17T22:53"
     },
     {
-        "end": 18593,
-        "start": 18563,
+        "end": 18487,
+        "start": 18457,
         "text": "17 Oct 2014 T20:09 17 Oct 2014",
         "timex-value": "2014-10-17T20:09",
         "type": "TIME",
         "value": "2014-10-17T20:09"
     },
     {
-        "end": 18619,
-        "start": 18601,
+        "end": 18513,
+        "start": 18495,
         "text": "18 Oct 2014 T00:00",
         "timex-value": "2014-10-18T00:00",
         "type": "TIME",
         "value": "2014-10-18T00:00"
     },
     {
-        "end": 18638,
-        "start": 18620,
+        "end": 18532,
+        "start": 18514,
         "text": "17 Oct 2014 T22:51",
         "timex-value": "2022-10-17T22:51",
         "type": "TIME",
         "value": "2022-10-17T22:51"
     },
     {
-        "end": 18669,
-        "start": 18639,
+        "end": 18563,
+        "start": 18533,
         "text": "22 Oct 2014 T16:30 22 Oct 2014",
         "timex-value": "2014-10-22T16:30",
         "type": "TIME",
         "value": "2014-10-22T16:30"
     },
     {
-        "end": 18688,
-        "start": 18677,
+        "end": 18582,
+        "start": 18571,
         "text": "22 Oct 2014",
         "timex-value": "2014-10-22",
         "type": "DATE",
         "value": "2014-10-22"
     },
     {
-        "end": 18714,
-        "start": 18696,
+        "end": 18608,
+        "start": 18590,
         "text": "22 Oct 2014 T09:30",
         "timex-value": "2014-10-22T09:30",
         "type": "TIME",
         "value": "2014-10-22T09:30"
     },
     {
-        "end": 18733,
-        "start": 18715,
+        "end": 18627,
+        "start": 18609,
         "text": "22 Oct 2014 T17:00",
         "timex-value": "2014-10-22T17:00",
         "type": "TIME",
         "value": "2014-10-22T17:00"
     },
     {
-        "end": 18745,
-        "start": 18734,
+        "end": 18639,
+        "start": 18628,
         "text": "12 Nov 2014",
         "timex-value": "2014-11-12",
         "type": "DATE",
         "value": "2014-11-12"
     },
     {
-        "end": 18764,
-        "start": 18753,
+        "end": 18658,
+        "start": 18647,
         "text": "12 Nov 2014",
         "timex-value": "2014-11-12",
         "type": "DATE",
         "value": "2014-11-12"
     },
     {
-        "end": 18790,
-        "start": 18772,
+        "end": 18684,
+        "start": 18666,
         "text": "15 Nov 2014 T12:00",
         "timex-value": "2014-11-15T12:00",
         "type": "TIME",
         "value": "2014-11-15T12:00"
     },
     {
-        "end": 18802,
-        "start": 18791,
+        "end": 18696,
+        "start": 18685,
         "text": "12 Nov 2014",
         "timex-value": "2014-11-12",
         "type": "DATE",
         "value": "2014-11-12"
     },
     {
-        "end": 18869,
-        "start": 18858,
+        "end": 18763,
+        "start": 18752,
         "text": "17 Oct 2014",
         "timex-value": "2014-10-17",
         "type": "DATE",
         "value": "2014-10-17"
     },
     {
-        "end": 19008,
-        "start": 18996,
+        "end": 18902,
+        "start": 18890,
         "text": "Oct 15 02:00",
         "timex-value": "2022-10-15T02:00",
         "type": "TIME",
         "value": "2022-10-15T02:00"
     },
     {
-        "end": 19021,
-        "start": 19009,
+        "end": 18915,
+        "start": 18903,
         "text": "Oct 15 04:00",
         "timex-value": "2022-10-15T04:00",
         "type": "TIME",
         "value": "2022-10-15T04:00"
     },
     {
-        "end": 19038,
-        "start": 19022,
+        "end": 18932,
+        "start": 18916,
         "text": "2014/10/14 21:39",
         "timex-value": "2014-10-14T21:39",
         "type": "TIME",
         "value": "2014-10-14T21:39"
     },
     {
-        "end": 19051,
-        "start": 19039,
+        "end": 18945,
+        "start": 18933,
         "text": "Oct 15 06:00",
         "timex-value": "2022-10-15T06:00",
         "type": "TIME",
         "value": "2022-10-15T06:00"
     },
     {
-        "end": 19064,
-        "start": 19052,
+        "end": 18958,
+        "start": 18946,
         "text": "Oct 15 08:00",
         "timex-value": "2022-10-15T08:00",
         "type": "TIME",
         "value": "2022-10-15T08:00"
     },
     {
-        "end": 19138,
-        "start": 19126,
+        "end": 19032,
+        "start": 19020,
         "text": "Oct 15 10:00",
         "timex-value": "2022-10-15T10:00",
         "type": "TIME",
         "value": "2022-10-15T10:00"
     },
     {
-        "end": 19183,
-        "start": 19171,
+        "end": 19077,
+        "start": 19065,
         "text": "Oct 15 12:00",
         "timex-value": "2022-10-15T12:00",
         "type": "TIME",
         "value": "2022-10-15T12:00"
     },
     {
-        "end": 19224,
-        "start": 19209,
+        "end": 19118,
+        "start": 19103,
         "text": "14 October 2014",
         "timex-value": "2014-10-14",
         "type": "DATE",
         "value": "2014-10-14"
     },
     {
-        "end": 19234,
-        "start": 19229,
+        "end": 19128,
+        "start": 19123,
         "text": "18:30",
         "timex-value": "T18:30",
         "type": "TIME",
         "value": "T18:30"
     },
     {
-        "end": 19271,
-        "start": 19266,
+        "end": 19165,
+        "start": 19160,
         "text": "21:27",
         "timex-value": "T21:27",
         "type": "TIME",
         "value": "T21:27"
     },
     {
-        "end": 19334,
-        "start": 19329,
+        "end": 19228,
+        "start": 19223,
         "text": "20:48",
         "timex-value": "T20:48",
         "type": "TIME",
         "value": "T20:48"
     },
     {
-        "end": 19395,
-        "start": 19371,
+        "end": 19289,
+        "start": 19265,
         "text": "07:40 on 15 October 2014",
         "timex-value": "2014-10-15T07:40",
         "type": "TIME",
         "value": "2014-10-15T07:40"
     },
     {
-        "end": 19431,
-        "start": 19426,
+        "end": 19325,
+        "start": 19320,
         "text": "21:39",
         "timex-value": "T21:39",
         "type": "TIME",
         "value": "T21:39"
     },
     {
-        "end": 22594,
-        "start": 22562,
+        "end": 22488,
+        "start": 22456,
         "text": "14 October 2014 to 14 April 2015",
         "type": "DURATION",
         "value": {
@@ -593,192 +561,192 @@
         }
     },
     {
-        "end": 24685,
-        "start": 24661,
+        "end": 24579,
+        "start": 24555,
         "text": "14 October 2014 at 18:30",
         "timex-value": "2014-10-14T18:30",
         "type": "TIME",
         "value": "2014-10-14T18:30"
     },
     {
-        "end": 25175,
-        "start": 25165,
+        "end": 25069,
+        "start": 25059,
         "text": "2014-10-16",
         "timex-value": "2014-10-16",
         "type": "DATE",
         "value": "2014-10-16"
     },
     {
-        "end": 25193,
-        "start": 25180,
+        "end": 25087,
+        "start": 25074,
         "text": "2014-10-17T00",
         "timex-value": "2014-10-17T00",
         "type": "TIME",
         "value": "2014-10-17T00"
     },
     {
-        "end": 25346,
-        "start": 25333,
+        "end": 25240,
+        "start": 25227,
         "text": "2014-10-18T00",
         "timex-value": "2014-10-18T00",
         "type": "TIME",
         "value": "2014-10-18T00"
     },
     {
-        "end": 25360,
-        "start": 25347,
+        "end": 25254,
+        "start": 25241,
         "text": "2014-10-22T09",
         "timex-value": "2014-10-22T09",
         "type": "TIME",
         "value": "2014-10-22T09"
     },
     {
-        "end": 25439,
-        "start": 25426,
+        "end": 25333,
+        "start": 25320,
         "text": "2014-11-14T00",
         "timex-value": "2014-11-14T00",
         "type": "TIME",
         "value": "2014-11-14T00"
     },
     {
-        "end": 25471,
-        "start": 25455,
+        "end": 25365,
+        "start": 25349,
         "text": "2015-02-08T00:00",
         "timex-value": "2015-02-08T00:00",
         "type": "TIME",
         "value": "2015-02-08T00:00"
     },
     {
-        "end": 28036,
-        "start": 28012,
+        "end": 27930,
+        "start": 27906,
         "text": "16 October 2014 at 20:15",
         "timex-value": "2014-10-16T20:15",
         "type": "TIME",
         "value": "2014-10-16T20:15"
     },
     {
-        "end": 28486,
-        "start": 28474,
+        "end": 28380,
+        "start": 28368,
         "text": "January 2016",
         "timex-value": "2016-01",
         "type": "DATE",
         "value": "2016-01"
     },
     {
-        "end": 28726,
-        "start": 28707,
+        "end": 28620,
+        "start": 28601,
         "text": "20:15 on 16 October",
         "timex-value": "2022-10-16T20:15",
         "type": "TIME",
         "value": "2022-10-16T20:15"
     },
     {
-        "end": 28856,
-        "start": 28837,
+        "end": 28750,
+        "start": 28731,
         "text": "17 October at 20:00",
         "timex-value": "2022-10-17T20:00",
         "type": "TIME",
         "value": "2022-10-17T20:00"
     },
     {
-        "end": 28975,
-        "start": 28956,
+        "end": 28869,
+        "start": 28850,
         "text": "19 October at 06:00",
         "timex-value": "2022-10-19T06:00",
         "type": "TIME",
         "value": "2022-10-19T06:00"
     },
     {
-        "end": 29760,
-        "start": 29755,
+        "end": 29654,
+        "start": 29649,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "TIME",
         "value": "T00:00"
     },
     {
-        "end": 29766,
-        "start": 29761,
+        "end": 29660,
+        "start": 29655,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "TIME",
         "value": "T12:00"
     },
     {
-        "end": 29772,
-        "start": 29767,
+        "end": 29666,
+        "start": 29661,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "TIME",
         "value": "T00:00"
     },
     {
-        "end": 29778,
-        "start": 29773,
+        "end": 29672,
+        "start": 29667,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "TIME",
         "value": "T12:00"
     },
     {
-        "end": 29784,
-        "start": 29779,
+        "end": 29678,
+        "start": 29673,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "TIME",
         "value": "T00:00"
     },
     {
-        "end": 29790,
-        "start": 29785,
+        "end": 29684,
+        "start": 29679,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "TIME",
         "value": "T12:00"
     },
     {
-        "end": 29796,
-        "start": 29791,
+        "end": 29690,
+        "start": 29685,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "TIME",
         "value": "T00:00"
     },
     {
-        "end": 29802,
-        "start": 29797,
+        "end": 29696,
+        "start": 29691,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "TIME",
         "value": "T12:00"
     },
     {
-        "end": 29808,
-        "start": 29803,
+        "end": 29702,
+        "start": 29697,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "TIME",
         "value": "T00:00"
     },
     {
-        "end": 29814,
-        "start": 29809,
+        "end": 29708,
+        "start": 29703,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "TIME",
         "value": "T12:00"
     },
     {
-        "end": 29820,
-        "start": 29815,
+        "end": 29714,
+        "start": 29709,
         "text": "00:00",
         "timex-value": "T00:00",
         "type": "TIME",
         "value": "T00:00"
     },
     {
-        "end": 30709,
-        "start": 30684,
+        "end": 30603,
+        "start": 30578,
         "text": "from 2006 to January 2015",
         "type": "DURATION",
         "value": {
@@ -787,152 +755,152 @@
         }
     },
     {
-        "end": 30906,
-        "start": 30896,
+        "end": 30800,
+        "start": 30790,
         "text": "16 October",
         "timex-value": "2021-10-16",
         "type": "DATE",
         "value": "2021-10-16"
     },
     {
-        "end": 30918,
-        "start": 30914,
+        "end": 30812,
+        "start": 30808,
         "text": "7:00",
         "timex-value": "T07:00",
         "type": "TIME",
         "value": "T07:00"
     },
     {
-        "end": 31714,
-        "start": 31709,
+        "end": 31608,
+        "start": 31603,
         "text": "2 SEP",
         "timex-value": "2022-09-02",
         "type": "DATE",
         "value": "2022-09-02"
     },
     {
-        "end": 31904,
-        "start": 31888,
+        "end": 31798,
+        "start": 31782,
         "text": "19 Oct 18 Oct 19",
         "timex-value": "2022-10-19",
         "type": "DATE",
         "value": "2022-10-19"
     },
     {
-        "end": 31911,
-        "start": 31905,
+        "end": 31805,
+        "start": 31799,
         "text": "Oct 20",
         "timex-value": "2022-10-20",
         "type": "DATE",
         "value": "2022-10-20"
     },
     {
-        "end": 31918,
-        "start": 31912,
+        "end": 31812,
+        "start": 31806,
         "text": "Oct 21",
         "timex-value": "2022-10-21",
         "type": "DATE",
         "value": "2022-10-21"
     },
     {
-        "end": 31924,
-        "start": 31919,
+        "end": 31818,
+        "start": 31813,
         "text": "Oct 7",
         "timex-value": "2022-10-07",
         "type": "DATE",
         "value": "2022-10-07"
     },
     {
-        "end": 31931,
-        "start": 31925,
+        "end": 31825,
+        "start": 31819,
         "text": "Oct 13",
         "timex-value": "2022-10-13",
         "type": "DATE",
         "value": "2022-10-13"
     },
     {
-        "end": 31938,
-        "start": 31932,
+        "end": 31832,
+        "start": 31826,
         "text": "Oct 19",
         "timex-value": "2022-10-19",
         "type": "DATE",
         "value": "2022-10-19"
     },
     {
-        "end": 31958,
-        "start": 31939,
+        "end": 31852,
+        "start": 31833,
         "text": "Oct 25 Oct 18:15:54",
         "timex-value": "2022-10-25T18:15:54",
         "type": "TIME",
         "value": "2022-10-25T18:15:54"
     },
     {
-        "end": 31967,
-        "start": 31959,
+        "end": 31861,
+        "start": 31853,
         "text": "20:40:31",
         "timex-value": "T20:40:31",
         "type": "TIME",
         "value": "T20:40:31"
     },
     {
-        "end": 31976,
-        "start": 31968,
+        "end": 31870,
+        "start": 31862,
         "text": "23:05:09",
         "timex-value": "T23:05:09",
         "type": "TIME",
         "value": "T23:05:09"
     },
     {
-        "end": 31985,
-        "start": 31977,
+        "end": 31879,
+        "start": 31871,
         "text": "01:29:46",
         "timex-value": "T01:29:46",
         "type": "TIME",
         "value": "T01:29:46"
     },
     {
-        "end": 31994,
-        "start": 31986,
+        "end": 31888,
+        "start": 31880,
         "text": "03:54:23",
         "timex-value": "T03:54:23",
         "type": "TIME",
         "value": "T03:54:23"
     },
     {
-        "end": 32020,
-        "start": 31995,
+        "end": 31914,
+        "start": 31889,
         "text": "06:19:01 17 Oct 17 Oct 17",
         "timex-value": "2022-10-17T06:19:01",
         "type": "TIME",
         "value": "2022-10-17T06:19:01"
     },
     {
-        "end": 32045,
-        "start": 32021,
+        "end": 31939,
+        "start": 31915,
         "text": "Oct 18 Oct 18 Oct 18 Oct",
         "timex-value": "2022-10-18",
         "type": "DATE",
         "value": "2022-10-18"
     },
     {
-        "end": 34151,
-        "start": 34127,
+        "end": 34045,
+        "start": 34021,
         "text": "09:00 on 16 October 2014",
         "timex-value": "2014-10-16T09:00",
         "type": "TIME",
         "value": "2014-10-16T09:00"
     },
     {
-        "end": 34195,
-        "start": 34171,
+        "end": 34089,
+        "start": 34065,
         "text": "00:00 on 17 October 2014",
         "timex-value": "2014-10-17T00:00",
         "type": "TIME",
         "value": "2014-10-17T00:00"
     },
     {
-        "end": 34288,
-        "start": 34273,
+        "end": 34182,
+        "start": 34167,
         "text": "07:12 and 20:57",
         "type": "DURATION",
         "value": {
@@ -941,504 +909,504 @@
         }
     },
     {
-        "end": 34320,
-        "start": 34310,
+        "end": 34214,
+        "start": 34204,
         "text": "16 October",
         "timex-value": "2022-10-16",
         "type": "DATE",
         "value": "2022-10-16"
     },
     {
-        "end": 34402,
-        "start": 34386,
+        "end": 34296,
+        "start": 34280,
         "text": "16 October 20:15",
         "timex-value": "2022-10-16T20:15",
         "type": "TIME",
         "value": "2022-10-16T20:15"
     },
     {
-        "end": 34671,
-        "start": 34666,
+        "end": 34565,
+        "start": 34560,
         "text": "07:00",
         "timex-value": "T07:00",
         "type": "TIME",
         "value": "T07:00"
     },
     {
-        "end": 34980,
-        "start": 34965,
+        "end": 34874,
+        "start": 34859,
         "text": "17 October 2014",
         "timex-value": "2014-10-17",
         "type": "DATE",
         "value": "2014-10-17"
     },
     {
-        "end": 35187,
-        "start": 35179,
+        "end": 35081,
+        "start": 35073,
         "text": "22:53:48",
         "timex-value": "T22:53:48",
         "type": "TIME",
         "value": "T22:53:48"
     },
     {
-        "end": 36076,
-        "start": 36066,
+        "end": 35970,
+        "start": 35960,
         "text": "17 October",
         "timex-value": "2022-10-17",
         "type": "DATE",
         "value": "2022-10-17"
     },
     {
-        "end": 37166,
-        "start": 37148,
+        "end": 37060,
+        "start": 37042,
         "text": "late on 17 October",
         "timex-value": "2022-10-17",
         "type": "DATE",
         "value": "2022-10-17"
     },
     {
-        "end": 37738,
-        "start": 37728,
+        "end": 37632,
+        "start": 37622,
         "text": "19 October",
         "timex-value": "2021-10-19",
         "type": "DATE",
         "value": "2021-10-19"
     },
     {
-        "end": 38266,
-        "start": 38256,
+        "end": 38160,
+        "start": 38150,
         "text": "19 October",
         "timex-value": "2021-10-19",
         "type": "DATE",
         "value": "2021-10-19"
     },
     {
-        "end": 38422,
-        "start": 38398,
+        "end": 38316,
+        "start": 38292,
         "text": "22:51 on 17 October 2014",
         "timex-value": "2014-10-17T22:51",
         "type": "TIME",
         "value": "2014-10-17T22:51"
     },
     {
-        "end": 38601,
-        "start": 38582,
+        "end": 38495,
+        "start": 38476,
         "text": "18 OCT 2014 at 0:00",
         "timex-value": "2014-10-18T00:00",
         "type": "TIME",
         "value": "2014-10-18T00:00"
     },
     {
-        "end": 39252,
-        "start": 39233,
+        "end": 39146,
+        "start": 39127,
         "text": "22 October at 16:30",
         "timex-value": "2022-10-22T16:30",
         "type": "TIME",
         "value": "2022-10-22T16:30"
     },
     {
-        "end": 40448,
-        "start": 40443,
+        "end": 40342,
+        "start": 40337,
         "text": "14:30",
         "timex-value": "T14:30",
         "type": "TIME",
         "value": "T14:30"
     },
     {
-        "end": 40591,
-        "start": 40586,
+        "end": 40485,
+        "start": 40480,
         "text": "16:30",
         "timex-value": "T16:30",
         "type": "TIME",
         "value": "T16:30"
     },
     {
-        "end": 41123,
-        "start": 41115,
+        "end": 41017,
+        "start": 41009,
         "text": "7 Oct 12",
         "timex-value": "2022-10-07",
         "type": "DATE",
         "value": "2022-10-07"
     },
     {
-        "end": 41130,
-        "start": 41124,
+        "end": 41024,
+        "start": 41018,
         "text": "Oct 17",
         "timex-value": "2022-10-17",
         "type": "DATE",
         "value": "2022-10-17"
     },
     {
-        "end": 41259,
-        "start": 41253,
+        "end": 41153,
+        "start": 41147,
         "text": "24 Oct",
         "timex-value": "2022-10-24",
         "type": "DATE",
         "value": "2022-10-24"
     },
     {
-        "end": 41275,
-        "start": 41269,
+        "end": 41169,
+        "start": 41163,
         "text": "26 Oct",
         "timex-value": "2022-10-26",
         "type": "DATE",
         "value": "2022-10-26"
     },
     {
-        "end": 41397,
-        "start": 41389,
+        "end": 41291,
+        "start": 41283,
         "text": "14:33:34",
         "timex-value": "T14:33:34",
         "type": "TIME",
         "value": "T14:33:34"
     },
     {
-        "end": 41406,
-        "start": 41398,
+        "end": 41300,
+        "start": 41292,
         "text": "16:29:53",
         "timex-value": "T16:29:53",
         "type": "TIME",
         "value": "T16:29:53"
     },
     {
-        "end": 41415,
-        "start": 41407,
+        "end": 41309,
+        "start": 41301,
         "text": "18:26:13",
         "timex-value": "T18:26:13",
         "type": "TIME",
         "value": "T18:26:13"
     },
     {
-        "end": 41424,
-        "start": 41416,
+        "end": 41318,
+        "start": 41310,
         "text": "20:22:32",
         "timex-value": "T20:22:32",
         "type": "TIME",
         "value": "T20:22:32"
     },
     {
-        "end": 41433,
-        "start": 41425,
+        "end": 41327,
+        "start": 41319,
         "text": "22:18:51",
         "timex-value": "T22:18:51",
         "type": "TIME",
         "value": "T22:18:51"
     },
     {
-        "end": 41442,
-        "start": 41434,
+        "end": 41336,
+        "start": 41328,
         "text": "00:15:10",
         "timex-value": "T00:15:10",
         "type": "TIME",
         "value": "T00:15:10"
     },
     {
-        "end": 41452,
-        "start": 41443,
+        "end": 41346,
+        "start": 41337,
         "text": "22 Oct 27",
         "timex-value": "2022-10-22",
         "type": "DATE",
         "value": "2022-10-22"
     },
     {
-        "end": 41458,
-        "start": 41453,
+        "end": 41352,
+        "start": 41347,
         "text": "Oct 1",
         "timex-value": "2022-10-01",
         "type": "DATE",
         "value": "2022-10-01"
     },
     {
-        "end": 41464,
-        "start": 41459,
+        "end": 41358,
+        "start": 41353,
         "text": "Nov 6",
         "timex-value": "2022-11-06",
         "type": "DATE",
         "value": "2022-11-06"
     },
     {
-        "end": 41471,
-        "start": 41465,
+        "end": 41365,
+        "start": 41359,
         "text": "Nov 11",
         "timex-value": "2022-11-11",
         "type": "DATE",
         "value": "2022-11-11"
     },
     {
-        "end": 41478,
-        "start": 41472,
+        "end": 41372,
+        "start": 41366,
         "text": "Nov 22",
         "timex-value": "2022-11-22",
         "type": "DATE",
         "value": "2022-11-22"
     },
     {
-        "end": 41485,
-        "start": 41479,
+        "end": 41379,
+        "start": 41373,
         "text": "Oct 23",
         "timex-value": "2022-10-23",
         "type": "DATE",
         "value": "2022-10-23"
     },
     {
-        "end": 42241,
-        "start": 42236,
+        "end": 42135,
+        "start": 42130,
         "text": "7 may",
         "timex-value": "2022-05-07",
         "type": "DATE",
         "value": "2022-05-07"
     },
     {
-        "end": 42310,
-        "start": 42305,
+        "end": 42204,
+        "start": 42199,
         "text": "16:30",
         "timex-value": "T16:30",
         "type": "TIME",
         "value": "T16:30"
     },
     {
-        "end": 42412,
-        "start": 42407,
+        "end": 42306,
+        "start": 42301,
         "text": "17:30",
         "timex-value": "T17:30",
         "type": "TIME",
         "value": "T17:30"
     },
     {
-        "end": 42844,
-        "start": 42839,
+        "end": 42738,
+        "start": 42733,
         "text": "17:30",
         "timex-value": "T17:30",
         "type": "TIME",
         "value": "T17:30"
     },
     {
-        "end": 43095,
-        "start": 43071,
+        "end": 42989,
+        "start": 42965,
         "text": "17:00 on 22 October 2014",
         "timex-value": "2014-10-22T17:00",
         "type": "TIME",
         "value": "2014-10-22T17:00"
     },
     {
-        "end": 43351,
-        "start": 43327,
+        "end": 43245,
+        "start": 43221,
         "text": "22 October 2014 at 10:00",
         "timex-value": "2014-10-22T10:00",
         "type": "TIME",
         "value": "2014-10-22T10:00"
     },
     {
-        "end": 43511,
-        "start": 43495,
+        "end": 43405,
+        "start": 43389,
         "text": "12 November 2014",
         "timex-value": "2014-11-12",
         "type": "DATE",
         "value": "2014-11-12"
     },
     {
-        "end": 43696,
-        "start": 43691,
+        "end": 43590,
+        "start": 43585,
         "text": "18:55",
         "timex-value": "T18:55",
         "type": "TIME",
         "value": "T18:55"
     },
     {
-        "end": 43918,
-        "start": 43907,
+        "end": 43812,
+        "start": 43801,
         "text": "21 November",
         "timex-value": "2022-11-21",
         "type": "DATE",
         "value": "2022-11-21"
     },
     {
-        "end": 44408,
-        "start": 44397,
+        "end": 44302,
+        "start": 44291,
         "text": "28 November",
         "timex-value": "2022-11-28",
         "type": "DATE",
         "value": "2022-11-28"
     },
     {
-        "end": 45079,
-        "start": 45071,
+        "end": 44973,
+        "start": 44965,
         "text": "03:59:02",
         "timex-value": "T03:59:02",
         "type": "TIME",
         "value": "T03:59:02"
     },
     {
-        "end": 45088,
-        "start": 45080,
+        "end": 44982,
+        "start": 44974,
         "text": "20:47:36",
         "timex-value": "T20:47:36",
         "type": "TIME",
         "value": "T20:47:36"
     },
     {
-        "end": 45097,
-        "start": 45089,
+        "end": 44991,
+        "start": 44983,
         "text": "13:36:11",
         "timex-value": "T13:36:11",
         "type": "TIME",
         "value": "T13:36:11"
     },
     {
-        "end": 45106,
-        "start": 45098,
+        "end": 45000,
+        "start": 44992,
         "text": "06:24:46",
         "timex-value": "T06:24:46",
         "type": "TIME",
         "value": "T06:24:46"
     },
     {
-        "end": 45115,
-        "start": 45107,
+        "end": 45009,
+        "start": 45001,
         "text": "23:13:20",
         "timex-value": "T23:13:20",
         "type": "TIME",
         "value": "T23:13:20"
     },
     {
-        "end": 45124,
-        "start": 45116,
+        "end": 45018,
+        "start": 45010,
         "text": "16:01:55",
         "timex-value": "T16:01:55",
         "type": "TIME",
         "value": "T16:01:55"
     },
     {
-        "end": 45273,
-        "start": 45267,
+        "end": 45167,
+        "start": 45161,
         "text": "12 Nov",
         "timex-value": "2022-11-12",
         "type": "DATE",
         "value": "2022-11-12"
     },
     {
-        "end": 45289,
-        "start": 45280,
+        "end": 45183,
+        "start": 45174,
         "text": "16 Nov 18",
         "timex-value": "2022-11-16",
         "type": "DATE",
         "value": "2022-11-16"
     },
     {
-        "end": 45296,
-        "start": 45290,
+        "end": 45190,
+        "start": 45184,
         "text": "Nov 20",
         "timex-value": "2022-11-20",
         "type": "DATE",
         "value": "2022-11-20"
     },
     {
-        "end": 45307,
-        "start": 45297,
+        "end": 45201,
+        "start": 45191,
         "text": "Nov 22 Nov",
         "timex-value": "2022-11-22",
         "type": "DATE",
         "value": "2022-11-22"
     },
     {
-        "end": 45327,
-        "start": 45314,
+        "end": 45221,
+        "start": 45208,
         "text": "26 Nov 28 Nov",
         "timex-value": "2022-11-26",
         "type": "DATE",
         "value": "2022-11-26"
     },
     {
-        "end": 46171,
-        "start": 46150,
+        "end": 46065,
+        "start": 46044,
         "text": "midday on 15 November",
         "timex-value": "2022-11-15T12:00",
         "type": "TIME",
         "value": "2022-11-15T12:00"
     },
     {
-        "end": 46400,
-        "start": 46389,
+        "end": 46294,
+        "start": 46283,
         "text": "15 November",
         "timex-value": "2022-11-15",
         "type": "DATE",
         "value": "2022-11-15"
     },
     {
-        "end": 46597,
-        "start": 46586,
+        "end": 46491,
+        "start": 46480,
         "text": "18 November",
         "timex-value": "2021-11-18",
         "type": "DATE",
         "value": "2021-11-18"
     },
     {
-        "end": 47115,
-        "start": 47104,
+        "end": 47009,
+        "start": 46998,
         "text": "22 November",
         "timex-value": "2022-11-22",
         "type": "DATE",
         "value": "2022-11-22"
     },
     {
-        "end": 47543,
-        "start": 47532,
+        "end": 47437,
+        "start": 47426,
         "text": "28 November",
         "timex-value": "2022-11-28",
         "type": "DATE",
         "value": "2022-11-28"
     },
     {
-        "end": 48075,
-        "start": 48070,
+        "end": 47969,
+        "start": 47964,
         "text": "18:55",
         "timex-value": "T18:55",
         "type": "TIME",
         "value": "T18:55"
     },
     {
-        "end": 48094,
-        "start": 48083,
+        "end": 47988,
+        "start": 47977,
         "text": "12 November",
         "timex-value": "2022-11-12",
         "type": "DATE",
         "value": "2022-11-12"
     },
     {
-        "end": 48229,
-        "start": 48224,
+        "end": 48123,
+        "start": 48118,
         "text": "16:09",
         "timex-value": "T16:09",
         "type": "TIME",
         "value": "T16:09"
     },
     {
-        "end": 48253,
-        "start": 48237,
+        "end": 48147,
+        "start": 48131,
         "text": "12 November 2014",
         "timex-value": "2014-11-12",
         "type": "DATE",
         "value": "2014-11-12"
     },
     {
-        "end": 48426,
-        "start": 48406,
+        "end": 48320,
+        "start": 48300,
         "text": "12:00 on 15 November",
         "timex-value": "2022-11-15T12:00",
         "type": "TIME",
         "value": "2022-11-15T12:00"
     },
     {
-        "end": 48911,
-        "start": 48901,
+        "end": 48805,
+        "start": 48795,
         "text": "12/31/2014",
         "timex-value": "2014-12-31",
         "type": "DATE",
         "value": "2014-12-31"
     },
     {
-        "end": 48940,
-        "start": 48918,
+        "end": 48834,
+        "start": 48812,
         "text": "23:59:30 to 03/15/2015",
         "type": "DURATION",
         "value": {
@@ -1447,40 +1415,40 @@
         }
     },
     {
-        "end": 48955,
-        "start": 48947,
+        "end": 48849,
+        "start": 48841,
         "text": "00:00:02",
         "timex-value": "T00:00:02",
         "type": "TIME",
         "value": "T00:00:02"
     },
     {
-        "end": 49576,
-        "start": 49564,
+        "end": 49470,
+        "start": 49458,
         "text": "October 2014",
         "timex-value": "2014-10",
         "type": "DATE",
         "value": "2014-10"
     },
     {
-        "end": 49670,
-        "start": 49658,
+        "end": 49564,
+        "start": 49552,
         "text": "14 July 2015",
         "timex-value": "2015-07-14",
         "type": "DATE",
         "value": "2015-07-14"
     },
     {
-        "end": 50487,
-        "start": 50476,
+        "end": 50381,
+        "start": 50370,
         "text": "31 December",
         "timex-value": "2022-12-31",
         "type": "DATE",
         "value": "2022-12-31"
     },
     {
-        "end": 50641,
-        "start": 50620,
+        "end": 50535,
+        "start": 50514,
         "text": "2014 to 15 March 2015",
         "type": "DURATION",
         "value": {
@@ -1489,8 +1457,8 @@
         }
     },
     {
-        "end": 50703,
-        "start": 50673,
+        "end": 50597,
+        "start": 50567,
         "text": "18 January to 14 February 2015",
         "type": "DURATION",
         "value": {
@@ -1499,32 +1467,32 @@
         }
     },
     {
-        "end": 58316,
-        "start": 58301,
+        "end": 58210,
+        "start": 58195,
         "text": "8 February 2015",
         "timex-value": "2015-02-08",
         "type": "DATE",
         "value": "2015-02-08"
     },
     {
-        "end": 59031,
-        "start": 59021,
+        "end": 58925,
+        "start": 58915,
         "text": "March 2016",
         "timex-value": "2016-03",
         "type": "DATE",
         "value": "2016-03"
     },
     {
-        "end": 59467,
-        "start": 59444,
+        "end": 59361,
+        "start": 59338,
         "text": "the end of January 2015",
         "timex-value": "2015-01",
         "type": "DATE",
         "value": "2015-01"
     },
     {
-        "end": 59837,
-        "start": 59791,
+        "end": 59731,
+        "start": 59685,
         "text": "between late December 2015 and late March 2016",
         "type": "DURATION",
         "value": {
@@ -1533,8 +1501,8 @@
         }
     },
     {
-        "end": 61681,
-        "start": 61655,
+        "end": 61575,
+        "start": 61549,
         "text": "June 1993 to February 1994",
         "type": "DURATION",
         "value": {
@@ -1543,136 +1511,136 @@
         }
     },
     {
-        "end": 62324,
-        "start": 62312,
+        "end": 62218,
+        "start": 62206,
         "text": "11 June 1991",
         "timex-value": "1991-06-11",
         "type": "DATE",
         "value": "1991-06-11"
     },
     {
-        "end": 68985,
-        "start": 68967,
+        "end": 68879,
+        "start": 68861,
         "text": "16 Oct 2014 T18:11",
         "timex-value": "2014-10-16T18:11",
         "type": "TIME",
         "value": "2014-10-16T18:11"
     },
     {
-        "end": 69004,
-        "start": 68986,
+        "end": 68898,
+        "start": 68880,
         "text": "17 Oct 2014 T20:09",
         "timex-value": "2014-10-17T20:09",
         "type": "TIME",
         "value": "2014-10-17T20:09"
     },
     {
-        "end": 69023,
-        "start": 69005,
+        "end": 68917,
+        "start": 68899,
         "text": "19 Oct 2014 T04:56",
         "timex-value": "2014-10-19T04:56",
         "type": "TIME",
         "value": "2014-10-19T04:56"
     },
     {
-        "end": 69067,
-        "start": 69049,
+        "end": 68961,
+        "start": 68943,
         "text": "16 Oct 2014 T18:05",
         "timex-value": "2014-10-16T18:05",
         "type": "TIME",
         "value": "2014-10-16T18:05"
     },
     {
-        "end": 69079,
-        "start": 69068,
+        "end": 68973,
+        "start": 68962,
         "text": "17 Oct 2014",
         "timex-value": "2014-10-17",
         "type": "DATE",
         "value": "2014-10-17"
     },
     {
-        "end": 69105,
-        "start": 69087,
+        "end": 68999,
+        "start": 68981,
         "text": "19 Oct 2014 T08:35",
         "timex-value": "2014-10-19T08:35",
         "type": "TIME",
         "value": "2014-10-19T08:35"
     },
     {
-        "end": 69148,
-        "start": 69130,
+        "end": 69042,
+        "start": 69024,
         "text": "22 Oct 2014 T09:50",
         "timex-value": "2014-10-22T09:50",
         "type": "TIME",
         "value": "2014-10-22T09:50"
     },
     {
-        "end": 69167,
-        "start": 69149,
+        "end": 69061,
+        "start": 69043,
         "text": "22 Oct 2014 T14:24",
         "timex-value": "2022-10-22T14:24",
         "type": "TIME",
         "value": "2022-10-22T14:24"
     },
     {
-        "end": 69186,
-        "start": 69168,
+        "end": 69080,
+        "start": 69062,
         "text": "25 Oct 2014 T02:40",
         "timex-value": "2014-10-25T02:40",
         "type": "TIME",
         "value": "2014-10-25T02:40"
     },
     {
-        "end": 69217,
-        "start": 69206,
+        "end": 69111,
+        "start": 69100,
         "text": "12 Nov 2014",
         "timex-value": "2014-11-12",
         "type": "DATE",
         "value": "2014-11-12"
     },
     {
-        "end": 69236,
-        "start": 69225,
+        "end": 69130,
+        "start": 69119,
         "text": "15 Nov 2014",
         "timex-value": "2014-11-15",
         "type": "DATE",
         "value": "2014-11-15"
     },
     {
-        "end": 69255,
-        "start": 69244,
+        "end": 69149,
+        "start": 69138,
         "text": "16 Nov 2014",
         "timex-value": "2014-11-16",
         "type": "DATE",
         "value": "2014-11-16"
     },
     {
-        "end": 83751,
-        "start": 83741,
+        "end": 83645,
+        "start": 83635,
         "text": "14 October",
         "timex-value": "2021-10-14",
         "type": "DATE",
         "value": "2021-10-14"
     },
     {
-        "end": 91088,
-        "start": 91076,
+        "end": 90982,
+        "start": 90970,
         "text": "January 2016",
         "timex-value": "2016-01",
         "type": "DATE",
         "value": "2016-01"
     },
     {
-        "end": 96564,
-        "start": 96559,
+        "end": 96458,
+        "start": 96453,
         "text": "16:00",
         "timex-value": "T16:00",
         "type": "TIME",
         "value": "T16:00"
     },
     {
-        "end": 98166,
-        "start": 98161,
+        "end": 98060,
+        "start": 98055,
         "text": "20:13",
         "timex-value": "T20:13",
         "type": "TIME",

@@ -128,7 +128,6 @@ The large number of dual-spacecraft detections of reconnection flow with no coun
 Our finding also raises an interesting question: how does the reconnection X-line become so extended? We suspect that in the case of the solar wind, reconnection starts in a limited region in the solar wind current sheet closer to the Sun and spreads with time from its initiation region.
 By the time the current sheet reaches 1 Au, the X-line has reached hundreds of R; or more.
 The true size of the solar wind X-line can be investigated by the upcoming NASA/STEREO mission, which will provide large spacecraft separations that exceed 1 AU in the GSE-y direction.
-Received 30 August; accepted 31 October 2005.
 1.
 Pare, V.
 K.

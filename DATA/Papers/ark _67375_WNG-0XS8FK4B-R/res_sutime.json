@@ -1,71 +1,39 @@
 [
     {
-        "end": 257,
-        "start": 244,
-        "text": "14 April 2004",
-        "timex-value": "2004-04-14",
-        "type": "DATE",
-        "value": "2004-04-14"
-    },
-    {
-        "end": 278,
-        "start": 267,
-        "text": "5 July 2004",
-        "timex-value": "2004-07-05",
-        "type": "DATE",
-        "value": "2004-07-05"
-    },
-    {
-        "end": 302,
-        "start": 289,
-        "text": "4 August 2004",
-        "timex-value": "2004-08-04",
-        "type": "DATE",
-        "value": "2004-08-04"
-    },
-    {
-        "end": 329,
-        "start": 314,
-        "text": "3 November 2004",
-        "timex-value": "2004-11-03",
-        "type": "DATE",
-        "value": "2004-11-03"
-    },
-    {
-        "end": 531,
-        "start": 514,
+        "end": 435,
+        "start": 418,
         "text": "25 September 1987",
         "timex-value": "1987-09-25",
         "type": "DATE",
         "value": "1987-09-25"
     },
     {
-        "end": 602,
-        "start": 594,
+        "end": 506,
+        "start": 498,
         "text": "27 April",
         "timex-value": "2022-04-27",
         "type": "DATE",
         "value": "2022-04-27"
     },
     {
-        "end": 621,
-        "start": 610,
+        "end": 525,
+        "start": 514,
         "text": "13 May 1999",
         "timex-value": "1999-05-13",
         "type": "DATE",
         "value": "1999-05-13"
     },
     {
-        "end": 700,
-        "start": 695,
+        "end": 604,
+        "start": 599,
         "text": "20:03",
         "timex-value": "T20:03",
         "type": "TIME",
         "value": "T20:03"
     },
     {
-        "end": 3459,
-        "start": 3446,
+        "end": 3363,
+        "start": 3350,
         "text": "01:48 - 02:27",
         "type": "DURATION",
         "value": {
@@ -74,24 +42,24 @@
         }
     },
     {
-        "end": 5047,
-        "start": 5030,
+        "end": 4951,
+        "start": 4934,
         "text": "25 September 1987",
         "timex-value": "1987-09-25",
         "type": "DATE",
         "value": "1987-09-25"
     },
     {
-        "end": 5183,
-        "start": 5170,
+        "end": 5087,
+        "start": 5074,
         "text": "27 April 1999",
         "timex-value": "1999-04-27",
         "type": "DATE",
         "value": "1999-04-27"
     },
     {
-        "end": 5214,
-        "start": 5189,
+        "end": 5118,
+        "start": 5093,
         "text": "10 May 1999 - 13 May 1999",
         "type": "DURATION",
         "value": {
@@ -100,40 +68,40 @@
         }
     },
     {
-        "end": 5619,
-        "start": 5614,
+        "end": 5523,
+        "start": 5518,
         "text": "20:03",
         "timex-value": "T20:03",
         "type": "TIME",
         "value": "T20:03"
     },
     {
-        "end": 9940,
-        "start": 9928,
+        "end": 9844,
+        "start": 9832,
         "text": "1202 hours",
         "timex-value": "T12:02",
         "type": "TIME",
         "value": "T12:02"
     },
     {
-        "end": 9969,
-        "start": 9952,
+        "end": 9873,
+        "start": 9856,
         "text": "September 24 1987",
         "timex-value": "1987-09-24",
         "type": "DATE",
         "value": "1987-09-24"
     },
     {
-        "end": 10077,
-        "start": 10060,
+        "end": 9981,
+        "start": 9964,
         "text": "25 September 1987",
         "timex-value": "1987-09-25",
         "type": "DATE",
         "value": "1987-09-25"
     },
     {
-        "end": 12767,
-        "start": 12730,
+        "end": 12671,
+        "start": 12634,
         "text": "24 September 1987 - 25 September 1987",
         "type": "DURATION",
         "value": {
@@ -142,32 +110,32 @@
         }
     },
     {
-        "end": 12883,
-        "start": 12866,
+        "end": 12787,
+        "start": 12770,
         "text": "25 September 1987",
         "timex-value": "1987-09-25",
         "type": "DATE",
         "value": "1987-09-25"
     },
     {
-        "end": 13443,
-        "start": 13426,
+        "end": 13347,
+        "start": 13330,
         "text": "25 September 1987",
         "timex-value": "1987-09-25",
         "type": "DATE",
         "value": "1987-09-25"
     },
     {
-        "end": 15137,
-        "start": 15120,
+        "end": 15041,
+        "start": 15024,
         "text": "September 24 1987",
         "timex-value": "1987-09-24",
         "type": "DATE",
         "value": "1987-09-24"
     },
     {
-        "end": 18833,
-        "start": 18804,
+        "end": 18737,
+        "start": 18708,
         "text": "26 April 1999 - 27 April 1999",
         "type": "DURATION",
         "value": {
@@ -176,32 +144,32 @@
         }
     },
     {
-        "end": 18960,
-        "start": 18947,
+        "end": 18864,
+        "start": 18851,
         "text": "27 April 1999",
         "timex-value": "1999-04-27",
         "type": "DATE",
         "value": "1999-04-27"
     },
     {
-        "end": 19508,
-        "start": 19500,
+        "end": 19412,
+        "start": 19404,
         "text": "April 26",
         "timex-value": "2022-04-26",
         "type": "DATE",
         "value": "2022-04-26"
     },
     {
-        "end": 19625,
-        "start": 19612,
+        "end": 19529,
+        "start": 19516,
         "text": "27 April 1999",
         "timex-value": "1999-04-27",
         "type": "DATE",
         "value": "1999-04-27"
     },
     {
-        "end": 21979,
-        "start": 21954,
+        "end": 21883,
+        "start": 21858,
         "text": "10 May 1999 - 13 May 1999",
         "type": "DURATION",
         "value": {
@@ -210,104 +178,104 @@
         }
     },
     {
-        "end": 22172,
-        "start": 22161,
+        "end": 22076,
+        "start": 22065,
         "text": "13 May 1999",
         "timex-value": "1999-05-13",
         "type": "DATE",
         "value": "1999-05-13"
     },
     {
-        "end": 22569,
-        "start": 22561,
+        "end": 22473,
+        "start": 22465,
         "text": "April 26",
         "timex-value": "2022-04-26",
         "type": "DATE",
         "value": "2022-04-26"
     },
     {
-        "end": 22686,
-        "start": 22673,
+        "end": 22590,
+        "start": 22577,
         "text": "27 April 1999",
         "timex-value": "1999-04-27",
         "type": "DATE",
         "value": "1999-04-27"
     },
     {
-        "end": 22818,
-        "start": 22812,
+        "end": 22722,
+        "start": 22716,
         "text": "May 10",
         "timex-value": "2022-05-10",
         "type": "DATE",
         "value": "2022-05-10"
     },
     {
-        "end": 22994,
-        "start": 22983,
+        "end": 22898,
+        "start": 22887,
         "text": "13 May 1999",
         "timex-value": "1999-05-13",
         "type": "DATE",
         "value": "1999-05-13"
     },
     {
-        "end": 23397,
-        "start": 23391,
+        "end": 23301,
+        "start": 23295,
         "text": "10 May",
         "timex-value": "2022-05-10",
         "type": "DATE",
         "value": "2022-05-10"
     },
     {
-        "end": 24609,
-        "start": 24603,
+        "end": 24513,
+        "start": 24507,
         "text": "May 10",
         "timex-value": "2022-05-10",
         "type": "DATE",
         "value": "2022-05-10"
     },
     {
-        "end": 26005,
-        "start": 25994,
+        "end": 25909,
+        "start": 25898,
         "text": "13 May 1999",
         "timex-value": "1999-05-13",
         "type": "DATE",
         "value": "1999-05-13"
     },
     {
-        "end": 26179,
-        "start": 26167,
+        "end": 26083,
+        "start": 26071,
         "text": "1202 Hours",
         "timex-value": "T12:02",
         "type": "TIME",
         "value": "T12:02"
     },
     {
-        "end": 26202,
-        "start": 26191,
+        "end": 26106,
+        "start": 26095,
         "text": "May 10 1999",
         "timex-value": "1999-05-10",
         "type": "DATE",
         "value": "1999-05-10"
     },
     {
-        "end": 26311,
-        "start": 26300,
+        "end": 26215,
+        "start": 26204,
         "text": "13 May 1999",
         "timex-value": "1999-05-13",
         "type": "DATE",
         "value": "1999-05-13"
     },
     {
-        "end": 28491,
-        "start": 28486,
+        "end": 28395,
+        "start": 28390,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "TIME",
         "value": "T20:00"
     },
     {
-        "end": 28544,
-        "start": 28531,
+        "end": 28448,
+        "start": 28435,
         "text": "20:01 - 20:02",
         "type": "DURATION",
         "value": {
@@ -316,16 +284,16 @@
         }
     },
     {
-        "end": 36097,
-        "start": 36086,
+        "end": 36001,
+        "start": 35990,
         "text": "13 May 1999",
         "timex-value": "1999-05-13",
         "type": "DATE",
         "value": "1999-05-13"
     },
     {
-        "end": 44401,
-        "start": 44396,
+        "end": 44305,
+        "start": 44300,
         "text": "20:00",
         "timex-value": "T20:00",
         "type": "TIME",

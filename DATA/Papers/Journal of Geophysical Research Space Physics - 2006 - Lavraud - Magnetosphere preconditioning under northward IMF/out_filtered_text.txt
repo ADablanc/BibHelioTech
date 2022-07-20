@@ -8,8 +8,7 @@ Borovsky, ' M.
 H.
 Denton,' and T.
 I.
-Pulkkinen!' Received 13 December 2005; revised 18 May 2006; accepted 26 June 2006; published 16 September 2006.
-[1] Motivated by recent observations and simulations of the formation of a cold and dense plasma sheet in the tail of the magnetosphere under northward interplanetary magnetic field (IMF) and of the direct influence of the plasma sheet density on the ring current strength, this paper aims at (1) highlighting how the coupling of these effects may lead to a preconditioning of the magnetosphere under northward IMF and (2) performing first tests of the validity of this hypothesis.
+Pulkkinen!' [1] Motivated by recent observations and simulations of the formation of a cold and dense plasma sheet in the tail of the magnetosphere under northward interplanetary magnetic field (IMF) and of the direct influence of the plasma sheet density on the ring current strength, this paper aims at (1) highlighting how the coupling of these effects may lead to a preconditioning of the magnetosphere under northward IMF and (2) performing first tests of the validity of this hypothesis.
 We have analyzed superposed epoch time series of various parameters to investigate the response of the magnetosphere (as indicated by the Dst index) to the passage of coronal mass ejections (CMEs) and corotating interaction regions (CIRs).
 We first focused on the difference between the measured Dst signature and that predicted by a semiempirical Dst model.
 For both CME- and CIR-driven storms the superposed epoch results show that the model Dst predictions tend to underestimate the actual storm strength (by up to 10—30%) for events that are preceded by a substantial interval of northward IMF, as opposed to those with no such preceding northward IMF.

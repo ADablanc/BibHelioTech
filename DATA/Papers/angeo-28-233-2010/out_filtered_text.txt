@@ -33,7 +33,7 @@ Steinberg’, K.
 D.
 Simunac!”, and A.
 B.
-Galvin!? 1Centre d’Etude Spatiale des Rayonnements, Université de Toulouse (UPS), 9 Avenue du Colonel Roche, 31028 Toulouse Cedex 4, France 2Centre National de la Recherche Scientifique, UMR 5187, Toulouse, France 3Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, CO, USA 4Space Environment Physics Group, School of Physics and Astronomy, University of Southampton, UK >Department of Physics, University of New Brunswick, Fredericton, Canada ©Space Sciences Laboratory, University of California, Berkeley, USA Institute of Geophysics and Planetary Physics, University of California, Los Angeles, USA ’Centre for Fusion, Space and Astrophysics, Department of Physics, University of Warwick, Coventry, UK Space Science and Applications, Los Alamos National Laboratory, Los Alamos, New Mexico, USA !0University of New Hampshire, Durham, USA Received: 6 August 2009 — Revised: 10 December 2009 — Accepted: 18 January 2010 — Published: 22 January 2010 Abstract.
+Galvin!? 1Centre d’Etude Spatiale des Rayonnements, Université de Toulouse (UPS), 9 Avenue du Colonel Roche, 31028 Toulouse Cedex 4, France 2Centre National de la Recherche Scientifique, UMR 5187, Toulouse, France 3Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, CO, USA 4Space Environment Physics Group, School of Physics and Astronomy, University of Southampton, UK >Department of Physics, University of New Brunswick, Fredericton, Canada ©Space Sciences Laboratory, University of California, Berkeley, USA Institute of Geophysics and Planetary Physics, University of California, Los Angeles, USA ’Centre for Fusion, Space and Astrophysics, Department of Physics, University of Warwick, Coventry, UK Space Science and Applications, Los Alamos National Laboratory, Los Alamos, New Mexico, USA !0University of New Hampshire, Durham, USA Abstract.
 Previous work has shown that solar wind suprathermal electrons can display a number of features in terms of their anisotropy.
 Of importance is the occurrence of counter-streaming electron patterns, 1.e., with “beams” both parallel and anti-parallel to the local magnetic field, which is believed to shed light on the heliospheric magnetic field topology.
 In the present study, we use STEREO data to obtain the statistical properties of counter-streaming suprathermal electrons (CSEs) in the vicinity of corotating interaction regions (CIRs) during the period March—December 2007.
@@ -46,8 +46,7 @@ We further argue that (1) the formation of shocks contributes to the occurrence 
 Keywords.
 Interplanetary physics (Energetic particles; Interplanetary shocks) — Ionosphere (Wave-particle interactions) 1 Introduction 1.1 Counter-streaming suprathermal electron patterns Owing to their mean-free path of order 1 AU, solar wind suprathermal electrons are essentially collision-less.
 They travel freely along the magnetic field while thermal electrons and ions are essentially bound to one another in the solar wind rest frame.
-Up to about 2 keV, solar wind electrons can Published by Copernicus Publications on behalf of the European Geosciences Union.
-234 @ Back scattered halo @ Mirrored back scattered halo Magnetic field strength Distance along magnetic field line Fig.
+Up to about 2 keV, solar wind electrons can 234 @ Back scattered halo @ Mirrored back scattered halo Magnetic field strength Distance along magnetic field line Fig.
 1.
 Schematic illustration of changes in suprathermal electron pitch angle distributions assuming adiabatic evolution along a magnetic field line with a non-monotonic magnetic strength decrease away from the Sun.
 See text for details.

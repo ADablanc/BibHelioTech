@@ -10,7 +10,7 @@ Massive multimission statistical study and analytical modeling of the Earth's ma
 A gradient boosting based automatic detection of near-Earth regions.
 Journal of Geophysical Research: Space Physics, 127, e2021JA029773.
 https://doi.
-org/10.1029/2021JA029773 Received 9 JUL 2021 Accepted 5 DEC 2021 © 2021.
+org/10.1029/2021JA029773 © 2021.
 American Geophysical Union.
 All Rights Reserved.
 NGUYEN ET AL.

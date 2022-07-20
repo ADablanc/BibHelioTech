@@ -118,8 +118,7 @@ The present results indicate that the KHI occurs at the flank magnetopause and t
 But the microphysical process that causes the plasma transport in the KH vortices, which would control the rate at which mass and energy of the solar wind are transferred, remain to be understood.
 The identification of the transport processes requires high-resolution measurements capable of resolving small-scale structures and dynamics embedded in the vortices.
 Such observations (which will be carried out by the future NASA Magnetospheric Multiscale mission*? and the Japanese SCOPE mission) would enable us to determine the relative contributions of reconnection and the KHI during northward solar-wind magnetic field conditions.
-L Received 12 April; accepted 29 June 2004; doi:10.1038/nature02799.
-1.
+L 1.
 Akasofu, S.-I.
 Energy coupling between the solar wind and the magnetosphere.
 Space Sci.

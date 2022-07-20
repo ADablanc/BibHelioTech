@@ -1,143 +1,111 @@
 [
     {
-        "end": 866,
-        "start": 849,
-        "text": "15 September 2020",
-        "timex-value": "2020-09-15",
-        "type": "DATE",
-        "value": "2020-09-15"
-    },
-    {
-        "end": 905,
-        "start": 889,
-        "text": "21 November 2020",
-        "timex-value": "2020-11-21",
-        "type": "DATE",
-        "value": "2020-11-21"
-    },
-    {
-        "end": 932,
-        "start": 916,
-        "text": "12 February 2021",
-        "timex-value": "2021-02-12",
-        "type": "DATE",
-        "value": "2021-02-12"
-    },
-    {
-        "end": 959,
-        "start": 946,
-        "text": "26 March 2021",
-        "timex-value": "2021-03-26",
-        "type": "DATE",
-        "value": "2021-03-26"
-    },
-    {
-        "end": 2219,
-        "start": 2207,
+        "end": 2099,
+        "start": 2087,
         "text": "23 July 2009",
         "timex-value": "2009-07-23",
         "type": "DATE",
         "value": "2009-07-23"
     },
     {
-        "end": 3342,
-        "start": 3330,
+        "end": 3222,
+        "start": 3210,
         "text": "23 July 2009",
         "timex-value": "2009-07-23",
         "type": "DATE",
         "value": "2009-07-23"
     },
     {
-        "end": 5018,
-        "start": 5005,
+        "end": 4816,
+        "start": 4803,
         "text": "December 2010",
         "timex-value": "2010-12",
         "type": "DATE",
         "value": "2010-12"
     },
     {
-        "end": 6885,
-        "start": 6863,
+        "end": 6683,
+        "start": 6661,
         "text": "17:30  on 23 July 2009",
         "timex-value": "2009-07-23T17:30",
         "type": "TIME",
         "value": "2009-07-23T17:30"
     },
     {
-        "end": 7247,
-        "start": 7242,
+        "end": 7045,
+        "start": 7040,
         "text": "19:00",
         "timex-value": "T19:00",
         "type": "TIME",
         "value": "T19:00"
     },
     {
-        "end": 8735,
-        "start": 8727,
+        "end": 8533,
+        "start": 8525,
         "text": "19:51:00",
         "timex-value": "T19:51:00",
         "type": "TIME",
         "value": "T19:51:00"
     },
     {
-        "end": 8909,
-        "start": 8897,
+        "end": 8707,
+        "start": 8695,
         "text": "23 July 2009",
         "timex-value": "2009-07-23",
         "type": "DATE",
         "value": "2009-07-23"
     },
     {
-        "end": 10526,
-        "start": 10514,
+        "end": 10324,
+        "start": 10312,
         "text": "23 July 2009",
         "timex-value": "2009-07-23",
         "type": "DATE",
         "value": "2009-07-23"
     },
     {
-        "end": 10606,
-        "start": 10601,
+        "end": 10404,
+        "start": 10399,
         "text": "16:20",
         "timex-value": "T16:20",
         "type": "TIME",
         "value": "T16:20"
     },
     {
-        "end": 10612,
-        "start": 10607,
+        "end": 10410,
+        "start": 10405,
         "text": "17:20",
         "timex-value": "T17:20",
         "type": "TIME",
         "value": "T17:20"
     },
     {
-        "end": 10618,
-        "start": 10613,
+        "end": 10416,
+        "start": 10411,
         "text": "18:20",
         "timex-value": "T18:20",
         "type": "TIME",
         "value": "T18:20"
     },
     {
-        "end": 10624,
-        "start": 10619,
+        "end": 10422,
+        "start": 10417,
         "text": "19:20",
         "timex-value": "T19:20",
         "type": "TIME",
         "value": "T19:20"
     },
     {
-        "end": 10630,
-        "start": 10625,
+        "end": 10428,
+        "start": 10423,
         "text": "20:20",
         "timex-value": "T20:20",
         "type": "TIME",
         "value": "T20:20"
     },
     {
-        "end": 12115,
-        "start": 12079,
+        "end": 11913,
+        "start": 11877,
         "text": "20:05:47 \u2014 20:05:51  on 23 July 2009",
         "type": "DURATION",
         "value": {
@@ -146,16 +114,16 @@
         }
     },
     {
-        "end": 12133,
-        "start": 12123,
+        "end": 11931,
+        "start": 11921,
         "text": "23.07.2009",
         "timex-value": "2009-07-23",
         "type": "DATE",
         "value": "2009-07-23"
     },
     {
-        "end": 12153,
-        "start": 12140,
+        "end": 11951,
+        "start": 11938,
         "text": "15:00 - 21:00",
         "type": "DURATION",
         "value": {
@@ -164,16 +132,16 @@
         }
     },
     {
-        "end": 12351,
-        "start": 12341,
+        "end": 12149,
+        "start": 12139,
         "text": "23.07.2009",
         "timex-value": "2009-07-23",
         "type": "DATE",
         "value": "2009-07-23"
     },
     {
-        "end": 12371,
-        "start": 12358,
+        "end": 12169,
+        "start": 12156,
         "text": "19:00 - 20:00",
         "type": "DURATION",
         "value": {
@@ -182,24 +150,24 @@
         }
     },
     {
-        "end": 13906,
-        "start": 13894,
+        "end": 13704,
+        "start": 13692,
         "text": "T20:05:49.13",
         "timex-value": "T20:05:49.013",
         "type": "TIME",
         "value": "T20:05:49.013"
     },
     {
-        "end": 14027,
-        "start": 14015,
+        "end": 13825,
+        "start": 13813,
         "text": "T20:05:49.14",
         "timex-value": "T20:05:49.014",
         "type": "TIME",
         "value": "T20:05:49.014"
     },
     {
-        "end": 14147,
-        "start": 14135,
+        "end": 13945,
+        "start": 13933,
         "text": "T20:05:49.23",
         "timex-value": "T20:05:49.023",
         "type": "TIME",

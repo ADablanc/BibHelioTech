@@ -3,8 +3,7 @@ GEOPHYSICAL RESEARCH LETTERS, VOL.
 Gosling,’ D.J.
 McComas,’ R.M.
 Skoug,” and C.W.
-Smith? Received 12 June 2006; revised 31 July 2006; accepted 10 August 2006; published 13 September 2006.
-[1] We have identified a sunward-directed reconnection exhaust in the solar wind at a crossing of the heliospheric current sheet, HCS, by the ACE spacecraft.
+Smith? [1] We have identified a sunward-directed reconnection exhaust in the solar wind at a crossing of the heliospheric current sheet, HCS, by the ACE spacecraft.
 The exhaust was embedded within an interval of counterstreaming suprathermal electron strahls that provides direct evidence that reconnection produced closed (1.e., doubly connected to the Sun) magnetic field lines sunward of the reconnection site.
 We suggest that local, quasi-stationary reconnection at the HCS may, in general, be an important source of closed magnetic field lines often observed in the vicinity of the HCS.
 Citation: Gosling, J.

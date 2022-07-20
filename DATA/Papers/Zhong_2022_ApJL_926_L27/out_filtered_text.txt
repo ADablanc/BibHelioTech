@@ -1,7 +1,6 @@
   © 2022.
 The Author(s).
-Published by the American Astronomical Society.
-OPEN ACCESS https: / /doi.org /10.3847 /20:41 - 82:13 /ac4dee CrossMark Stacked Electron Diffusion Regions and Electron Kelvin-Helmholtz Vortices within the Ion Diffusion Region of Collisionless Magnetic Reconnection Z.
+ OPEN ACCESS https: / /doi.org /10.3847 /20:41 - 82:13 /ac4dee CrossMark Stacked Electron Diffusion Regions and Electron Kelvin-Helmholtz Vortices within the Ion Diffusion Region of Collisionless Magnetic Reconnection Z.
 H.
 Zhong! ®, M.
 Zhou', Yi-Hsin Liu*®, X.
@@ -17,7 +16,7 @@ Y.
 Man’, Y.
 Pang’, and ; Yu.
 V.
-Khotyaintsev’ ® Nanchang University, Nanchang 330031, People’s Republic of China; monmentum82@ gmail.com Department of Physics and Astronomy, Dartmouth College, Hanover, NH, USA Swedish Institute of Space Physics, Uppsala, Sweden Received  27 November 2021 ; revised  18 January 2022 ; accepted  22 January 2022 ; published  21 February 2022  Abstract The structure of the electron diffusion region (EDR) is essential for determining how fast the magnetic energy converts to plasma energy during magnetic reconnection.
+Khotyaintsev’ ® Nanchang University, Nanchang 330031, People’s Republic of China; monmentum82@ gmail.com Department of Physics and Astronomy, Dartmouth College, Hanover, NH, USA Swedish Institute of Space Physics, Uppsala, Sweden Abstract The structure of the electron diffusion region (EDR) is essential for determining how fast the magnetic energy converts to plasma energy during magnetic reconnection.
 Conventional knowledge of the diffusion region assumes that the EDR is a single layer embedded within the ion diffusion region (IDR).
 This paper reports the first observation of two EDRs that stack in parallel within an IDR by the Magnetospheric Multiscale mission.
 The oblique tearing modes can result in these stacked EDRs.

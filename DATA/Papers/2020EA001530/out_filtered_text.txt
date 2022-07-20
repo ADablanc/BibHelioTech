@@ -3,7 +3,7 @@ Lenouvel, quentin.lenouvel@irap.omp.eu Citation: Lenouvel, Q., Génot, V., Garni
 (2021).
 Identification of electron diffusion regions with a machine learning approach on MMS data at the Earth's magnetopause.
 Earth and Space Science, 8, e2020EA001530.
-https://doi.org/10.1029/2020EA001530 Received 9 NOV 2020 Accepted 11 APR 2021 © 2021.
+https://doi.org/10.1029/2020EA001530 © 2021.
 The Authors.
 Earth and Space Science published by Wiley Periodicals LLC on behalf of American Geophysical Union.
 This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.

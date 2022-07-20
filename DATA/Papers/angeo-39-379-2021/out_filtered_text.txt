@@ -5,7 +5,7 @@ Annales Geophysicae Warm protons at comet 67P/Churyumov—Gerasimenko — implic
 G.
 T.
 Taylor! 'European Space Research and Technology Centre, European Space Agency, Keplerlaan 1, 2201 AZ Noordwijk, the Netherlands *Tnstitut fiir Geophysik und extraterrestrische Physik, Technische Universitat Braunschweig, Mendelssohnstr.
-3, 38106 Braunschweig, Germany >Department of Physics, Umea University, 901 87 Umea, Sweden 4Royal Belgian Institute for Space Aeronomy (BIRA-IASB), Avenue Circulaire 3, 1180 Brussels, Belgium “Institutet for rymdfysik, Ligerhyddsvagen 1, 752 37 Uppsala, Sweden ©Southwest Research Institute, 6220 Culebra Road, San Antonio, TX 782:38 - 51:66, USA Institutet for rymdfysik, Rymdcampus 1, Kiruna, Sweden Correspondence: Charlotte Goetz (charlotte.goetz @esa.int) Received: 22 September 2020 — Discussion started: 16 October 2020 Revised: 11 March 2021 — Accepted: 18 March 2021 — Published: 5 May 2021 Abstract.
+3, 38106 Braunschweig, Germany >Department of Physics, Umea University, 901 87 Umea, Sweden 4Royal Belgian Institute for Space Aeronomy (BIRA-IASB), Avenue Circulaire 3, 1180 Brussels, Belgium “Institutet for rymdfysik, Ligerhyddsvagen 1, 752 37 Uppsala, Sweden ©Southwest Research Institute, 6220 Culebra Road, San Antonio, TX 782:38 - 51:66, USA Institutet for rymdfysik, Rymdcampus 1, Kiruna, Sweden Correspondence: Charlotte Goetz (charlotte.goetz @esa.int) Revised: 11 March 2021 —  Abstract.
 The plasma around comet 67P/Churyumov— Gerasimenko showed remarkable variability throughout the entire Rosetta mission.
 Plasma boundaries such as the diamagnetic cavity, solar wind ion cavity and infant bow shock separate regions with distinct plasma parameters from each other.
 Here, we focus on a particular feature in the plasma: warm, slow solar wind protons.
@@ -22,7 +22,6 @@ For future research, Comet Interceptor, with its multi-point measurements, can h
 The Rosetta orbiter (referred to as Rosetta from here on) arrived at the comet in August 2014, and it was passivated and impacted the surface in September 2016.
 The long duration of the mission enables us to explore different stages in the interaction between a comet and the solar wind.
 As a comet moves from aphelion to perihelion, this interaction evolves from an almost asteroid-like interaction regime with very low neutral-gas production to one where a fully formed bow shock and diamagnetic cavity are formed (e.g.
-Published by Copernicus Publications on behalf of the European Geosciences Union.
 380 Glassmeier, 2017; Goetz et al., 2017; Nilsson et al., 2017) along with a plethora of other identified boundaries (Mandt et al., 2016).
 For a more thorough review of the plasma environment of comets, see Gotz et al.
 (2019).

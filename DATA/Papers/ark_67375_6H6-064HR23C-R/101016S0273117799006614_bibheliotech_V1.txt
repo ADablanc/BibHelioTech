@@ -1,5 +1,5 @@
 # Name: 101016S0273117799006614_bibheliotech_V1;
-# Creation Date: 2022-07-19T10:35:59.507320;
+# Creation Date: 2022-07-20T10:16:54.846768;
 # Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper https://doi.org/10.1016/S0273-1177(99)00661-4". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
 # Parameter 1: id:column1; name:DOI; size:1; type:char;
 # Parameter 2: id:column2; name:SATS; size:1; type:char;
@@ -29,7 +29,7 @@
 1996-04-29T10:30:00.000 1996-04-29T13:00:00.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Baker-Lake" "" "Earth.Magnetosheath" 4047 1 2 42 29 0.22850636151471806 
 1996-04-29T11:02:00.000 1996-04-29T11:02:59.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Geotail" "" "Earth.Magnetosphere" 5595 1 22 42 29 0.028719210474085124 
 1996-04-29T13:00:00.000 1996-04-29T14:00:00.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Baker-Lake" "" "Earth.Magnetosheath" 4029 1 2 42 29 0.22749002484378528 
-1996-04-29T14:30:00.000 1996-04-29T15:30:00.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Geotail" "" "Earth.Magnetosphere" 7867 3 22 42 29 0.12114425136709259 
+1996-04-29T14:30:00.000 1996-04-29T15:30:00.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Geotail" "" "Earth.Magnetosphere" 7833 3 22 42 29 0.12062068399115752 
 1996-04-29T14:30:00.000 1996-04-29T15:30:00.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Geotail" "" "Earth.Magnetosphere" 4712 3 22 42 29 0.07256027868841239 
 1996-04-29T14:30:00.000 1996-04-29T15:30:00.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Geotail" "" "Earth.Magnetosphere" 4237 3 22 42 29 0.06524573446579017 
 1996-04-29T14:30:00.000 1996-04-29T15:30:00.000 https://doi.org/10.1016/S0273-1177(99)00661-4 "Geotail" "" "Earth.Magnetosphere" 245 3 22 42 29 0.0037727649148261958 

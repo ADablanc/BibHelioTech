@@ -8,7 +8,7 @@ Belmont!, R.
 Smets!, B.
 Lavraud2’, and A.
 Vaivads* 'T aboratoire de Physique des Plasmas, UMR 7648, Ecole Polytechnique, Route de Saclay, 91128 Palaiseau, France “Institut de Recherche en Astrophysique et Planétologie, Université de Toulouse (UPS), France 3Centre National de la Recherche Scientifique, UMR 5277, Toulouse, France 4Swedish Institute of Space Physics, PO.
-Box 537, 75121 Uppsala, Sweden Received: 1 July 2011 — Revised: 31 August 2011 — Accepted: 5 September 2011 — Published: 12 September 2011 Abstract.
+Box 537, 75121 Uppsala, Sweden Abstract.
 Cluster data is analyzed to test the proton pressure tensor variations as a proxy of the proton decoupling region in collisionless magnetic reconnection.
 The Hall electric potential well created in the proton decoupling region results in bounce trajectories of the protons which appears as a characteristic variation of one of the in-plane off-diagonal components of the proton pressure tensor in this region.
 The event studied in this paper is found to be consistent with classical Hall field signatures with a possible 20 % guide field.
@@ -30,8 +30,7 @@ As uncertainties on the physical interpretation of spacecraft measurements are t
 Recently, an interesting study based on Cluster satellites measurements revealed the presence of strong inward electric field in a divergent exhaust structure formed in a very thin current sheet (Wygant et al., 2005).
 The corresponding electric force on the proton fluid along the direction normal to the main current sheet was found to be balanced by a pressure gradient, the exhaust region being hot compared to the upstream region.
 They have shown that the temperature enhancement has a kinetic origin due to the appearance of counterstreaming beams in the normal direction, as one enters the exhaust region.
-These beams were interpreted as Published by Copernicus Publications on behalf of the European Geosciences Union.
-1572 Table 1.
+These beams were interpreted as 1572 Table 1.
 Position of Cluster spacecraft in the GSM coordinate system at 17:00 UT.
 Position/satellite Cluster1 Cluster2 Cluster3 Cluster 4 X Pos.
 (RE) —17.3 —17.8 —17.7 —17.9 Y Pos.

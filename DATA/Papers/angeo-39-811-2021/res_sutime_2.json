@@ -1,7 +1,7 @@
 [
     {
-        "end": 9447,
-        "start": 9439,
+        "end": 9256,
+        "start": 9248,
         "text": "03:58:31",
         "timex-value": "T03:58:31",
         "type": "DURATION",
@@ -11,8 +11,8 @@
         }
     },
     {
-        "end": 11961,
-        "start": 11956,
+        "end": 11770,
+        "start": 11765,
         "text": "04:00",
         "timex-value": "T04:00",
         "type": "DURATION",
@@ -22,8 +22,8 @@
         }
     },
     {
-        "end": 11967,
-        "start": 11962,
+        "end": 11776,
+        "start": 11771,
         "text": "05:00",
         "timex-value": "T05:00",
         "type": "DURATION",
@@ -33,8 +33,8 @@
         }
     },
     {
-        "end": 11973,
-        "start": 11968,
+        "end": 11782,
+        "start": 11777,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -44,8 +44,8 @@
         }
     },
     {
-        "end": 11979,
-        "start": 11974,
+        "end": 11788,
+        "start": 11783,
         "text": "07:00",
         "timex-value": "T07:00",
         "type": "DURATION",
@@ -55,8 +55,8 @@
         }
     },
     {
-        "end": 11985,
-        "start": 11980,
+        "end": 11794,
+        "start": 11789,
         "text": "08:00",
         "timex-value": "T08:00",
         "type": "DURATION",
@@ -66,8 +66,8 @@
         }
     },
     {
-        "end": 11991,
-        "start": 11986,
+        "end": 11800,
+        "start": 11795,
         "text": "09:00",
         "timex-value": "T09:00",
         "type": "DURATION",
@@ -77,8 +77,8 @@
         }
     },
     {
-        "end": 11997,
-        "start": 11992,
+        "end": 11806,
+        "start": 11801,
         "text": "10:00",
         "timex-value": "T10:00",
         "type": "DURATION",
@@ -88,8 +88,8 @@
         }
     },
     {
-        "end": 12003,
-        "start": 11998,
+        "end": 11812,
+        "start": 11807,
         "text": "11:00",
         "timex-value": "T11:00",
         "type": "DURATION",
@@ -99,8 +99,8 @@
         }
     },
     {
-        "end": 12021,
-        "start": 12004,
+        "end": 11830,
+        "start": 11813,
         "text": "12:00 15 Oct 2020",
         "timex-value": "2020-10-15T12:00",
         "type": "DURATION",
@@ -110,8 +110,8 @@
         }
     },
     {
-        "end": 12441,
-        "start": 12436,
+        "end": 12250,
+        "start": 12245,
         "text": "04:14",
         "timex-value": "T04:14",
         "type": "DURATION",
@@ -121,8 +121,8 @@
         }
     },
     {
-        "end": 12478,
-        "start": 12473,
+        "end": 12287,
+        "start": 12282,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "DURATION",
@@ -132,8 +132,8 @@
         }
     },
     {
-        "end": 17768,
-        "start": 17763,
+        "end": 17577,
+        "start": 17572,
         "text": "04:14",
         "timex-value": "T04:14",
         "type": "DURATION",
@@ -143,8 +143,8 @@
         }
     },
     {
-        "end": 18863,
-        "start": 18858,
+        "end": 18672,
+        "start": 18667,
         "text": "04:44",
         "timex-value": "T04:44",
         "type": "DURATION",
@@ -154,8 +154,8 @@
         }
     },
     {
-        "end": 19391,
-        "start": 19386,
+        "end": 19200,
+        "start": 19195,
         "text": "04:14",
         "timex-value": "T04:14",
         "type": "DURATION",
@@ -165,8 +165,8 @@
         }
     },
     {
-        "end": 19397,
-        "start": 19392,
+        "end": 19206,
+        "start": 19201,
         "text": "04:44",
         "timex-value": "T04:44",
         "type": "DURATION",
@@ -176,8 +176,8 @@
         }
     },
     {
-        "end": 19430,
-        "start": 19425,
+        "end": 19239,
+        "start": 19234,
         "text": "04:48",
         "timex-value": "T04:48",
         "type": "DURATION",
@@ -187,8 +187,8 @@
         }
     },
     {
-        "end": 19436,
-        "start": 19431,
+        "end": 19245,
+        "start": 19240,
         "text": "05:33",
         "timex-value": "T05:33",
         "type": "DURATION",
@@ -198,8 +198,8 @@
         }
     },
     {
-        "end": 19477,
-        "start": 19472,
+        "end": 19286,
+        "start": 19281,
         "text": "05:23",
         "timex-value": "T05:23",
         "type": "DURATION",
@@ -209,8 +209,8 @@
         }
     },
     {
-        "end": 19483,
-        "start": 19478,
+        "end": 19292,
+        "start": 19287,
         "text": "06:08",
         "timex-value": "T06:08",
         "type": "DURATION",
@@ -220,8 +220,8 @@
         }
     },
     {
-        "end": 19527,
-        "start": 19522,
+        "end": 19336,
+        "start": 19331,
         "text": "06:08",
         "timex-value": "T06:08",
         "type": "DURATION",
@@ -231,8 +231,8 @@
         }
     },
     {
-        "end": 19533,
-        "start": 19528,
+        "end": 19342,
+        "start": 19337,
         "text": "06:15",
         "timex-value": "T06:15",
         "type": "DURATION",
@@ -242,8 +242,8 @@
         }
     },
     {
-        "end": 19570,
-        "start": 19565,
+        "end": 19379,
+        "start": 19374,
         "text": "06:46",
         "timex-value": "T06:46",
         "type": "DURATION",
@@ -253,8 +253,8 @@
         }
     },
     {
-        "end": 19576,
-        "start": 19571,
+        "end": 19385,
+        "start": 19380,
         "text": "07:01",
         "timex-value": "T07:01",
         "type": "DURATION",
@@ -264,8 +264,8 @@
         }
     },
     {
-        "end": 19608,
-        "start": 19603,
+        "end": 19417,
+        "start": 19412,
         "text": "07:45",
         "timex-value": "T07:45",
         "type": "DURATION",
@@ -275,8 +275,8 @@
         }
     },
     {
-        "end": 19614,
-        "start": 19609,
+        "end": 19423,
+        "start": 19418,
         "text": "14:00",
         "timex-value": "T14:00",
         "type": "DURATION",
@@ -286,8 +286,8 @@
         }
     },
     {
-        "end": 19760,
-        "start": 19755,
+        "end": 19569,
+        "start": 19564,
         "text": "07:00",
         "timex-value": "T07:00",
         "type": "DURATION",
@@ -297,8 +297,8 @@
         }
     },
     {
-        "end": 19766,
-        "start": 19761,
+        "end": 19575,
+        "start": 19570,
         "text": "08:00",
         "timex-value": "T08:00",
         "type": "DURATION",
@@ -308,8 +308,8 @@
         }
     },
     {
-        "end": 19772,
-        "start": 19767,
+        "end": 19581,
+        "start": 19576,
         "text": "09:00",
         "timex-value": "T09:00",
         "type": "DURATION",
@@ -319,8 +319,8 @@
         }
     },
     {
-        "end": 19778,
-        "start": 19773,
+        "end": 19587,
+        "start": 19582,
         "text": "10:00",
         "timex-value": "T10:00",
         "type": "DURATION",
@@ -330,8 +330,8 @@
         }
     },
     {
-        "end": 19784,
-        "start": 19779,
+        "end": 19593,
+        "start": 19588,
         "text": "11:00",
         "timex-value": "T11:00",
         "type": "DURATION",
@@ -341,8 +341,8 @@
         }
     },
     {
-        "end": 19790,
-        "start": 19785,
+        "end": 19599,
+        "start": 19594,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "DURATION",
@@ -352,8 +352,8 @@
         }
     },
     {
-        "end": 19812,
-        "start": 19807,
+        "end": 19621,
+        "start": 19616,
         "text": "04:00",
         "timex-value": "T04:00",
         "type": "DURATION",
@@ -363,8 +363,8 @@
         }
     },
     {
-        "end": 19818,
-        "start": 19813,
+        "end": 19627,
+        "start": 19622,
         "text": "05:00",
         "timex-value": "T05:00",
         "type": "DURATION",
@@ -374,8 +374,8 @@
         }
     },
     {
-        "end": 20656,
-        "start": 20651,
+        "end": 20465,
+        "start": 20460,
         "text": "04:20",
         "timex-value": "T04:20",
         "type": "DURATION",
@@ -385,8 +385,8 @@
         }
     },
     {
-        "end": 20662,
-        "start": 20657,
+        "end": 20471,
+        "start": 20466,
         "text": "04:40",
         "timex-value": "T04:40",
         "type": "DURATION",
@@ -396,8 +396,8 @@
         }
     },
     {
-        "end": 21460,
-        "start": 21455,
+        "end": 21269,
+        "start": 21264,
         "text": "04:45",
         "timex-value": "T04:45",
         "type": "DURATION",
@@ -407,8 +407,8 @@
         }
     },
     {
-        "end": 21466,
-        "start": 21461,
+        "end": 21275,
+        "start": 21270,
         "text": "05:00",
         "timex-value": "T05:00",
         "type": "DURATION",
@@ -418,8 +418,8 @@
         }
     },
     {
-        "end": 21472,
-        "start": 21467,
+        "end": 21281,
+        "start": 21276,
         "text": "05:15",
         "timex-value": "T05:15",
         "type": "DURATION",
@@ -429,8 +429,8 @@
         }
     },
     {
-        "end": 21478,
-        "start": 21473,
+        "end": 21287,
+        "start": 21282,
         "text": "05:30",
         "timex-value": "T05:30",
         "type": "DURATION",
@@ -440,8 +440,8 @@
         }
     },
     {
-        "end": 21484,
-        "start": 21479,
+        "end": 21293,
+        "start": 21288,
         "text": "05:45",
         "timex-value": "T05:45",
         "type": "DURATION",
@@ -451,8 +451,8 @@
         }
     },
     {
-        "end": 21490,
-        "start": 21485,
+        "end": 21299,
+        "start": 21294,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -462,8 +462,8 @@
         }
     },
     {
-        "end": 21819,
-        "start": 21814,
+        "end": 21628,
+        "start": 21623,
         "text": "05:25",
         "timex-value": "T05:25",
         "type": "DURATION",
@@ -473,8 +473,8 @@
         }
     },
     {
-        "end": 21879,
-        "start": 21874,
+        "end": 21688,
+        "start": 21683,
         "text": "05:33",
         "timex-value": "T05:33",
         "type": "DURATION",
@@ -484,8 +484,8 @@
         }
     },
     {
-        "end": 21956,
-        "start": 21951,
+        "end": 21765,
+        "start": 21760,
         "text": "05:43",
         "timex-value": "T05:43",
         "type": "DURATION",
@@ -495,8 +495,8 @@
         }
     },
     {
-        "end": 22052,
-        "start": 22047,
+        "end": 21861,
+        "start": 21856,
         "text": "05:45",
         "timex-value": "T05:45",
         "type": "DURATION",
@@ -506,8 +506,8 @@
         }
     },
     {
-        "end": 22350,
-        "start": 22327,
+        "end": 22159,
+        "start": 22136,
         "text": "between 06:08 and 06:15",
         "type": "DURATION",
         "value": {
@@ -516,8 +516,8 @@
         }
     },
     {
-        "end": 22567,
-        "start": 22544,
+        "end": 22376,
+        "start": 22353,
         "text": "Between 06:46 and 07:01",
         "type": "DURATION",
         "value": {
@@ -526,8 +526,8 @@
         }
     },
     {
-        "end": 22819,
-        "start": 22814,
+        "end": 22628,
+        "start": 22623,
         "text": "05:45",
         "timex-value": "T05:45",
         "type": "DURATION",
@@ -537,8 +537,8 @@
         }
     },
     {
-        "end": 22825,
-        "start": 22820,
+        "end": 22634,
+        "start": 22629,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -548,8 +548,8 @@
         }
     },
     {
-        "end": 22831,
-        "start": 22826,
+        "end": 22640,
+        "start": 22635,
         "text": "06:15",
         "timex-value": "T06:15",
         "type": "DURATION",
@@ -559,8 +559,8 @@
         }
     },
     {
-        "end": 22837,
-        "start": 22832,
+        "end": 22646,
+        "start": 22641,
         "text": "06:30",
         "timex-value": "T06:30",
         "type": "DURATION",
@@ -570,8 +570,8 @@
         }
     },
     {
-        "end": 22855,
-        "start": 22838,
+        "end": 22664,
+        "start": 22647,
         "text": "06:45 15 Oct 2020",
         "timex-value": "2020-10-15T06:45",
         "type": "DURATION",
@@ -581,8 +581,8 @@
         }
     },
     {
-        "end": 24098,
-        "start": 24093,
+        "end": 23907,
+        "start": 23902,
         "text": "07:45",
         "timex-value": "T07:45",
         "type": "DURATION",
@@ -592,8 +592,8 @@
         }
     },
     {
-        "end": 24637,
-        "start": 24632,
+        "end": 24446,
+        "start": 24441,
         "text": "06:46",
         "timex-value": "T06:46",
         "type": "DURATION",
@@ -603,8 +603,8 @@
         }
     },
     {
-        "end": 24643,
-        "start": 24638,
+        "end": 24452,
+        "start": 24447,
         "text": "06:50",
         "timex-value": "T06:50",
         "type": "DURATION",
@@ -614,8 +614,8 @@
         }
     },
     {
-        "end": 24649,
-        "start": 24644,
+        "end": 24458,
+        "start": 24453,
         "text": "06:54",
         "timex-value": "T06:54",
         "type": "DURATION",
@@ -625,8 +625,8 @@
         }
     },
     {
-        "end": 24655,
-        "start": 24650,
+        "end": 24464,
+        "start": 24459,
         "text": "06:59",
         "timex-value": "T06:59",
         "type": "DURATION",
@@ -636,8 +636,8 @@
         }
     },
     {
-        "end": 24665,
-        "start": 24660,
+        "end": 24474,
+        "start": 24469,
         "text": "06:49",
         "timex-value": "T06:49",
         "type": "DURATION",
@@ -647,8 +647,8 @@
         }
     },
     {
-        "end": 24671,
-        "start": 24666,
+        "end": 24480,
+        "start": 24475,
         "text": "06:53",
         "timex-value": "T06:53",
         "type": "DURATION",
@@ -658,8 +658,8 @@
         }
     },
     {
-        "end": 24677,
-        "start": 24672,
+        "end": 24486,
+        "start": 24481,
         "text": "06:57",
         "timex-value": "T06:57",
         "type": "DURATION",
@@ -669,8 +669,8 @@
         }
     },
     {
-        "end": 24683,
-        "start": 24678,
+        "end": 24492,
+        "start": 24487,
         "text": "07:01",
         "timex-value": "T07:01",
         "type": "DURATION",
@@ -680,8 +680,8 @@
         }
     },
     {
-        "end": 25443,
-        "start": 25438,
+        "end": 25252,
+        "start": 25247,
         "text": "14:00",
         "timex-value": "T14:00",
         "type": "DURATION",
@@ -691,8 +691,8 @@
         }
     },
     {
-        "end": 26515,
-        "start": 26502,
+        "end": 26324,
+        "start": 26311,
         "text": "04:00 \u2014 23:00",
         "type": "DURATION",
         "value": {
@@ -701,8 +701,8 @@
         }
     },
     {
-        "end": 26702,
-        "start": 26697,
+        "end": 26511,
+        "start": 26506,
         "text": "06:48",
         "timex-value": "T06:48",
         "type": "DURATION",
@@ -712,8 +712,8 @@
         }
     },
     {
-        "end": 26708,
-        "start": 26703,
+        "end": 26517,
+        "start": 26512,
         "text": "06:50",
         "timex-value": "T06:50",
         "type": "DURATION",
@@ -723,8 +723,8 @@
         }
     },
     {
-        "end": 26714,
-        "start": 26709,
+        "end": 26523,
+        "start": 26518,
         "text": "06:52",
         "timex-value": "T06:52",
         "type": "DURATION",
@@ -734,8 +734,8 @@
         }
     },
     {
-        "end": 26720,
-        "start": 26715,
+        "end": 26529,
+        "start": 26524,
         "text": "06:54",
         "timex-value": "T06:54",
         "type": "DURATION",
@@ -745,8 +745,8 @@
         }
     },
     {
-        "end": 26726,
-        "start": 26721,
+        "end": 26535,
+        "start": 26530,
         "text": "06:56",
         "timex-value": "T06:56",
         "type": "DURATION",
@@ -756,8 +756,8 @@
         }
     },
     {
-        "end": 26732,
-        "start": 26727,
+        "end": 26541,
+        "start": 26536,
         "text": "06:58",
         "timex-value": "T06:58",
         "type": "DURATION",
@@ -767,8 +767,8 @@
         }
     },
     {
-        "end": 26738,
-        "start": 26733,
+        "end": 26547,
+        "start": 26542,
         "text": "07:00",
         "timex-value": "T07:00",
         "type": "DURATION",
@@ -778,8 +778,8 @@
         }
     },
     {
-        "end": 26760,
-        "start": 26743,
+        "end": 26569,
+        "start": 26552,
         "text": "06:46 15 Oct 2020",
         "timex-value": "2020-10-15T06:46",
         "type": "DURATION",
@@ -789,8 +789,8 @@
         }
     },
     {
-        "end": 27901,
-        "start": 27896,
+        "end": 27710,
+        "start": 27705,
         "text": "04:45",
         "timex-value": "T04:45",
         "type": "DURATION",
@@ -800,8 +800,8 @@
         }
     },
     {
-        "end": 27913,
-        "start": 27908,
+        "end": 27722,
+        "start": 27717,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -811,8 +811,8 @@
         }
     },
     {
-        "end": 28348,
-        "start": 28335,
+        "end": 28157,
+        "start": 28144,
         "text": "04:00 \u2014 23:00",
         "type": "DURATION",
         "value": {
@@ -821,8 +821,8 @@
         }
     },
     {
-        "end": 28507,
-        "start": 28502,
+        "end": 28316,
+        "start": 28311,
         "text": "14:00",
         "timex-value": "T14:00",
         "type": "DURATION",
@@ -832,8 +832,8 @@
         }
     },
     {
-        "end": 29146,
-        "start": 29141,
+        "end": 28955,
+        "start": 28950,
         "text": "05:35",
         "timex-value": "T05:35",
         "type": "DURATION",
@@ -843,8 +843,8 @@
         }
     },
     {
-        "end": 31332,
-        "start": 31327,
+        "end": 31141,
+        "start": 31136,
         "text": "04:08",
         "timex-value": "T04:08",
         "type": "DURATION",
@@ -854,8 +854,8 @@
         }
     },
     {
-        "end": 32005,
-        "start": 32000,
+        "end": 31814,
+        "start": 31809,
         "text": "04:08",
         "timex-value": "T04:08",
         "type": "DURATION",
@@ -865,8 +865,8 @@
         }
     },
     {
-        "end": 32011,
-        "start": 32006,
+        "end": 31820,
+        "start": 31815,
         "text": "13:04",
         "timex-value": "T13:04",
         "type": "DURATION",
@@ -876,8 +876,8 @@
         }
     },
     {
-        "end": 32027,
-        "start": 32022,
+        "end": 31836,
+        "start": 31831,
         "text": "04:14",
         "timex-value": "T04:14",
         "type": "DURATION",
@@ -887,8 +887,8 @@
         }
     },
     {
-        "end": 32033,
-        "start": 32028,
+        "end": 31842,
+        "start": 31837,
         "text": "14:00",
         "timex-value": "T14:00",
         "type": "DURATION",
@@ -898,8 +898,8 @@
         }
     },
     {
-        "end": 32043,
-        "start": 32038,
+        "end": 31852,
+        "start": 31847,
         "text": "04:53",
         "timex-value": "T04:53",
         "type": "DURATION",
@@ -909,8 +909,8 @@
         }
     },
     {
-        "end": 32049,
-        "start": 32044,
+        "end": 31858,
+        "start": 31853,
         "text": "07:37",
         "timex-value": "T07:37",
         "type": "DURATION",
@@ -920,8 +920,8 @@
         }
     },
     {
-        "end": 32077,
-        "start": 32072,
+        "end": 31886,
+        "start": 31881,
         "text": "04:48",
         "timex-value": "T04:48",
         "type": "DURATION",
@@ -931,8 +931,8 @@
         }
     },
     {
-        "end": 32083,
-        "start": 32078,
+        "end": 31892,
+        "start": 31887,
         "text": "07:45",
         "timex-value": "T07:45",
         "type": "DURATION",
@@ -942,8 +942,8 @@
         }
     },
     {
-        "end": 32089,
-        "start": 32084,
+        "end": 31898,
+        "start": 31893,
         "text": "05:41",
         "timex-value": "T05:41",
         "type": "DURATION",
@@ -953,8 +953,8 @@
         }
     },
     {
-        "end": 32095,
-        "start": 32090,
+        "end": 31904,
+        "start": 31899,
         "text": "06:03",
         "timex-value": "T06:03",
         "type": "DURATION",
@@ -964,8 +964,8 @@
         }
     },
     {
-        "end": 32114,
-        "start": 32109,
+        "end": 31923,
+        "start": 31918,
         "text": "05:43",
         "timex-value": "T05:43",
         "type": "DURATION",
@@ -975,8 +975,8 @@
         }
     },
     {
-        "end": 32120,
-        "start": 32115,
+        "end": 31929,
+        "start": 31924,
         "text": "06:15",
         "timex-value": "T06:15",
         "type": "DURATION",
@@ -986,8 +986,8 @@
         }
     },
     {
-        "end": 32143,
-        "start": 32138,
+        "end": 31952,
+        "start": 31947,
         "text": "06:46",
         "timex-value": "T06:46",
         "type": "DURATION",
@@ -997,8 +997,8 @@
         }
     },
     {
-        "end": 32149,
-        "start": 32144,
+        "end": 31958,
+        "start": 31953,
         "text": "07:01",
         "timex-value": "T07:01",
         "type": "DURATION",
@@ -1008,8 +1008,8 @@
         }
     },
     {
-        "end": 32718,
-        "start": 32713,
+        "end": 32527,
+        "start": 32522,
         "text": "04:53",
         "timex-value": "T04:53",
         "type": "DURATION",
@@ -1019,8 +1019,8 @@
         }
     },
     {
-        "end": 36098,
-        "start": 36093,
+        "end": 35907,
+        "start": 35902,
         "text": "04:00",
         "timex-value": "T04:00",
         "type": "DURATION",
@@ -1030,8 +1030,8 @@
         }
     },
     {
-        "end": 36104,
-        "start": 36099,
+        "end": 35913,
+        "start": 35908,
         "text": "04:30",
         "timex-value": "T04:30",
         "type": "DURATION",
@@ -1041,8 +1041,8 @@
         }
     },
     {
-        "end": 36110,
-        "start": 36105,
+        "end": 35919,
+        "start": 35914,
         "text": "05:00",
         "timex-value": "T05:00",
         "type": "DURATION",
@@ -1052,8 +1052,8 @@
         }
     },
     {
-        "end": 36116,
-        "start": 36111,
+        "end": 35925,
+        "start": 35920,
         "text": "05:30",
         "timex-value": "T05:30",
         "type": "DURATION",
@@ -1063,8 +1063,8 @@
         }
     },
     {
-        "end": 36122,
-        "start": 36117,
+        "end": 35931,
+        "start": 35926,
         "text": "06:00",
         "timex-value": "T06:00",
         "type": "DURATION",
@@ -1074,8 +1074,8 @@
         }
     },
     {
-        "end": 36327,
-        "start": 36322,
+        "end": 36136,
+        "start": 36131,
         "text": "06:30",
         "timex-value": "T06:30",
         "type": "DURATION",
@@ -1085,8 +1085,8 @@
         }
     },
     {
-        "end": 36333,
-        "start": 36328,
+        "end": 36142,
+        "start": 36137,
         "text": "07:00",
         "timex-value": "T07:00",
         "type": "DURATION",
@@ -1096,8 +1096,8 @@
         }
     },
     {
-        "end": 36339,
-        "start": 36334,
+        "end": 36148,
+        "start": 36143,
         "text": "07:30",
         "timex-value": "T07:30",
         "type": "DURATION",
@@ -1107,8 +1107,8 @@
         }
     },
     {
-        "end": 36355,
-        "start": 36340,
+        "end": 36164,
+        "start": 36149,
         "text": "08:00 Universal",
         "timex-value": "T08:00+0000",
         "type": "DURATION",
@@ -1118,8 +1118,8 @@
         }
     },
     {
-        "end": 36573,
-        "start": 36568,
+        "end": 36382,
+        "start": 36377,
         "text": "04:40",
         "timex-value": "T04:40",
         "type": "DURATION",
@@ -1129,8 +1129,8 @@
         }
     },
     {
-        "end": 38792,
-        "start": 38787,
+        "end": 38601,
+        "start": 38596,
         "text": "01:56",
         "timex-value": "T01:56",
         "type": "DURATION",
@@ -1140,8 +1140,8 @@
         }
     },
     {
-        "end": 38798,
-        "start": 38793,
+        "end": 38607,
+        "start": 38602,
         "text": "01:58",
         "timex-value": "T01:58",
         "type": "DURATION",
@@ -1151,8 +1151,8 @@
         }
     },
     {
-        "end": 38804,
-        "start": 38799,
+        "end": 38613,
+        "start": 38608,
         "text": "02:00",
         "timex-value": "T02:00",
         "type": "DURATION",
@@ -1162,8 +1162,8 @@
         }
     },
     {
-        "end": 38810,
-        "start": 38805,
+        "end": 38619,
+        "start": 38614,
         "text": "02:02",
         "timex-value": "T02:02",
         "type": "DURATION",
@@ -1173,8 +1173,8 @@
         }
     },
     {
-        "end": 38816,
-        "start": 38811,
+        "end": 38625,
+        "start": 38620,
         "text": "02:04",
         "timex-value": "T02:04",
         "type": "DURATION",
@@ -1184,8 +1184,8 @@
         }
     },
     {
-        "end": 38822,
-        "start": 38817,
+        "end": 38631,
+        "start": 38626,
         "text": "02:06",
         "timex-value": "T02:06",
         "type": "DURATION",
@@ -1195,8 +1195,8 @@
         }
     },
     {
-        "end": 38828,
-        "start": 38823,
+        "end": 38637,
+        "start": 38632,
         "text": "02:08",
         "timex-value": "T02:08",
         "type": "DURATION",
@@ -1206,8 +1206,8 @@
         }
     },
     {
-        "end": 38834,
-        "start": 38829,
+        "end": 38643,
+        "start": 38638,
         "text": "02:10",
         "timex-value": "T02:10",
         "type": "DURATION",
@@ -1217,8 +1217,8 @@
         }
     },
     {
-        "end": 44353,
-        "start": 44332,
+        "end": 44162,
+        "start": 44141,
         "text": "10 October 2020 04:24",
         "timex-value": "2020-10-10T04:24",
         "type": "DURATION",
@@ -1228,8 +1228,8 @@
         }
     },
     {
-        "end": 46825,
-        "start": 46792,
+        "end": 46634,
+        "start": 46601,
         "text": "2020-10-10 00:12 2020/10/10 00:12",
         "timex-value": "2020-10-10T00:12",
         "type": "DURATION",
@@ -1239,8 +1239,8 @@
         }
     },
     {
-        "end": 46865,
-        "start": 46849,
+        "end": 46674,
+        "start": 46658,
         "text": "2020-10-10 22:09",
         "timex-value": "2020-10-10T22:09",
         "type": "DURATION",
@@ -1250,8 +1250,8 @@
         }
     },
     {
-        "end": 46926,
-        "start": 46893,
+        "end": 46735,
+        "start": 46702,
         "text": "2020-10-10 07:36 2020/10/10 07:36",
         "timex-value": "2020-10-10T07:36",
         "type": "DURATION",
@@ -1261,8 +1261,8 @@
         }
     },
     {
-        "end": 48053,
-        "start": 48029,
+        "end": 47862,
+        "start": 47838,
         "text": "13 October 2020 at 21:12",
         "timex-value": "2020-10-13T21:12",
         "type": "DURATION",
@@ -1272,8 +1272,8 @@
         }
     },
     {
-        "end": 48480,
-        "start": 48451,
+        "end": 48289,
+        "start": 48260,
         "text": "13 October 2020 at about noon",
         "timex-value": "2020-10-13T12:00",
         "type": "DURATION",
@@ -1283,8 +1283,8 @@
         }
     },
     {
-        "end": 48654,
-        "start": 48624,
+        "end": 48463,
+        "start": 48433,
         "text": "15 October 2020 at about 15:00",
         "timex-value": "2020-10-15T15:00",
         "type": "DURATION",
@@ -1294,8 +1294,8 @@
         }
     },
     {
-        "end": 49845,
-        "start": 49840,
+        "end": 49654,
+        "start": 49649,
         "text": "12:04",
         "timex-value": "T12:04",
         "type": "DURATION",
@@ -1305,8 +1305,8 @@
         }
     },
     {
-        "end": 49875,
-        "start": 49870,
+        "end": 49684,
+        "start": 49679,
         "text": "12:00",
         "timex-value": "T12:00",
         "type": "DURATION",
@@ -1316,8 +1316,8 @@
         }
     },
     {
-        "end": 50422,
-        "start": 50398,
+        "end": 50231,
+        "start": 50207,
         "text": "13 October 2020 at 12:04",
         "timex-value": "2020-10-13T12:04",
         "type": "DURATION",
@@ -1327,8 +1327,8 @@
         }
     },
     {
-        "end": 50477,
-        "start": 50453,
+        "end": 50286,
+        "start": 50262,
         "text": "15 October 2020 at 12:00",
         "timex-value": "2020-10-15T12:00",
         "type": "DURATION",
@@ -1338,8 +1338,8 @@
         }
     },
     {
-        "end": 50553,
-        "start": 50529,
+        "end": 50362,
+        "start": 50338,
         "text": "17 October 2020 at 12:02",
         "timex-value": "2020-10-17T12:02",
         "type": "DURATION",
@@ -1349,8 +1349,8 @@
         }
     },
     {
-        "end": 57372,
-        "start": 57367,
+        "end": 57181,
+        "start": 57176,
         "text": "03:30",
         "timex-value": "T03:30",
         "type": "DURATION",
@@ -1360,8 +1360,8 @@
         }
     },
     {
-        "end": 57390,
-        "start": 57385,
+        "end": 57199,
+        "start": 57194,
         "text": "10:27",
         "timex-value": "T10:27",
         "type": "DURATION",
@@ -1371,8 +1371,8 @@
         }
     },
     {
-        "end": 57428,
-        "start": 57423,
+        "end": 57237,
+        "start": 57232,
         "text": "06:30",
         "timex-value": "T06:30",
         "type": "DURATION",

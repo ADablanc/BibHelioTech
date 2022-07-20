@@ -1,47 +1,15 @@
 [
     {
-        "end": 407,
-        "start": 396,
-        "text": "23 May 2003",
-        "timex-value": "2003-05-23",
-        "type": "DATE",
-        "value": "2003-05-23"
-    },
-    {
-        "end": 431,
-        "start": 417,
-        "text": "28 August 2003",
-        "timex-value": "2003-08-28",
-        "type": "DATE",
-        "value": "2003-08-28"
-    },
-    {
-        "end": 456,
-        "start": 442,
-        "text": "8 October 2003",
-        "timex-value": "2003-10-08",
-        "type": "DATE",
-        "value": "2003-10-08"
-    },
-    {
-        "end": 479,
-        "start": 468,
-        "text": "11 May 2004",
-        "timex-value": "2004-05-11",
-        "type": "DATE",
-        "value": "2004-05-11"
-    },
-    {
-        "end": 568,
-        "start": 555,
+        "end": 474,
+        "start": 461,
         "text": "31 March 2001",
         "timex-value": "2001-03-31",
         "type": "DATE",
         "value": "2001-03-31"
     },
     {
-        "end": 3577,
-        "start": 3564,
+        "end": 3483,
+        "start": 3470,
         "text": "01:48 - 02:27",
         "type": "DURATION",
         "value": {
@@ -50,24 +18,24 @@
         }
     },
     {
-        "end": 6456,
-        "start": 6443,
+        "end": 6362,
+        "start": 6349,
         "text": "31 March 2001",
         "timex-value": "2001-03-31",
         "type": "DATE",
         "value": "2001-03-31"
     },
     {
-        "end": 8052,
-        "start": 8044,
+        "end": 7958,
+        "start": 7950,
         "text": "18:02:17",
         "timex-value": "T18:02:17",
         "type": "TIME",
         "value": "T18:02:17"
     },
     {
-        "end": 8622,
-        "start": 8609,
+        "end": 8528,
+        "start": 8515,
         "text": "18:00 - 18:04",
         "type": "DURATION",
         "value": {
@@ -76,8 +44,8 @@
         }
     },
     {
-        "end": 9516,
-        "start": 9497,
+        "end": 9422,
+        "start": 9403,
         "text": "18:02:55 \u2014 18:04:07",
         "type": "DURATION",
         "value": {
@@ -86,8 +54,8 @@
         }
     },
     {
-        "end": 9550,
-        "start": 9531,
+        "end": 9456,
+        "start": 9437,
         "text": "18:00:31 \u2014 18:01:43",
         "type": "DURATION",
         "value": {
@@ -96,24 +64,24 @@
         }
     },
     {
-        "end": 10649,
-        "start": 10643,
+        "end": 10555,
+        "start": 10549,
         "text": "30 Sep",
         "timex-value": "2022-09-30",
         "type": "DATE",
         "value": "2022-09-30"
     },
     {
-        "end": 13131,
-        "start": 13123,
+        "end": 13037,
+        "start": 13029,
         "text": "18:02:17",
         "timex-value": "T18:02:17",
         "type": "TIME",
         "value": "T18:02:17"
     },
     {
-        "end": 17021,
-        "start": 16991,
+        "end": 16927,
+        "start": 16897,
         "text": "17:54 - 18:06 on 31 March 2001",
         "type": "DURATION",
         "value": {
@@ -122,24 +90,24 @@
         }
     },
     {
-        "end": 17083,
-        "start": 17075,
+        "end": 16989,
+        "start": 16981,
         "text": "18:02:17",
         "timex-value": "T18:02:17",
         "type": "TIME",
         "value": "T18:02:17"
     },
     {
-        "end": 17236,
-        "start": 17228,
+        "end": 17142,
+        "start": 17134,
         "text": "17:56:30",
         "timex-value": "T17:56:30",
         "type": "TIME",
         "value": "T17:56:30"
     },
     {
-        "end": 17881,
-        "start": 17868,
+        "end": 17787,
+        "start": 17774,
         "text": "17:54 - 18:06",
         "type": "DURATION",
         "value": {
@@ -148,96 +116,96 @@
         }
     },
     {
-        "end": 17921,
-        "start": 17913,
+        "end": 17827,
+        "start": 17819,
         "text": "18:02:17",
         "timex-value": "T18:02:17",
         "type": "TIME",
         "value": "T18:02:17"
     },
     {
-        "end": 18032,
-        "start": 18024,
+        "end": 17938,
+        "start": 17930,
         "text": "17:56:30",
         "timex-value": "T17:56:30",
         "type": "TIME",
         "value": "T17:56:30"
     },
     {
-        "end": 25872,
-        "start": 25864,
+        "end": 25778,
+        "start": 25770,
         "text": "17:58:38",
         "timex-value": "T17:58:38",
         "type": "TIME",
         "value": "T17:58:38"
     },
     {
-        "end": 26938,
-        "start": 26930,
+        "end": 26844,
+        "start": 26836,
         "text": "17:58:38",
         "timex-value": "T17:58:38",
         "type": "TIME",
         "value": "T17:58:38"
     },
     {
-        "end": 27968,
-        "start": 27960,
+        "end": 27874,
+        "start": 27866,
         "text": "17:55:16",
         "timex-value": "T17:55:16",
         "type": "TIME",
         "value": "T17:55:16"
     },
     {
-        "end": 29455,
-        "start": 29447,
+        "end": 29361,
+        "start": 29353,
         "text": "17:55:10",
         "timex-value": "T17:55:10",
         "type": "TIME",
         "value": "T17:55:10"
     },
     {
-        "end": 29475,
-        "start": 29467,
+        "end": 29381,
+        "start": 29373,
         "text": "17:55:11",
         "timex-value": "T17:55:11",
         "type": "TIME",
         "value": "T17:55:11"
     },
     {
-        "end": 30273,
-        "start": 30265,
+        "end": 30179,
+        "start": 30171,
         "text": "17:55:16",
         "timex-value": "T17:55:16",
         "type": "TIME",
         "value": "T17:55:16"
     },
     {
-        "end": 30705,
-        "start": 30697,
+        "end": 30611,
+        "start": 30603,
         "text": "17:55:10",
         "timex-value": "T17:55:10",
         "type": "TIME",
         "value": "T17:55:10"
     },
     {
-        "end": 30744,
-        "start": 30736,
+        "end": 30650,
+        "start": 30642,
         "text": "17:55:11",
         "timex-value": "T17:55:11",
         "type": "TIME",
         "value": "T17:55:11"
     },
     {
-        "end": 36271,
-        "start": 36263,
+        "end": 36177,
+        "start": 36169,
         "text": "17:38:22",
         "timex-value": "T17:38:22",
         "type": "TIME",
         "value": "T17:38:22"
     },
     {
-        "end": 39308,
-        "start": 39300,
+        "end": 39214,
+        "start": 39206,
         "text": "17:17:49",
         "timex-value": "T17:17:49",
         "type": "TIME",

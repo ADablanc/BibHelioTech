@@ -2,7 +2,7 @@
 Treumann, Ludwig Maximilian University of Munich, Germany Reviewed by: Daniel Heyner, Technische Universitat Braunschweig, Germany Alexander Kozyrev, Space Research Institute (RAS), Russia *Correspondence: L.
 Z.
 Hadid lina.hadid@lpp.polytechnique.
-fr Specialty section: This article was submitted to Space Physics, a section of the journal Frontiers in Astronomy and Space Sciences Received: 31 May 2021 Accepted: 30 August 2021 Published: 14 September 2021 Citation: Hadid LZ, Génot V, Aizawa S, Milillo A, Zender J, Murakami G, Benkhoff J, Zouganelis |, Alberti T, André N, Bebesi Z, Califano F, Dimmock AP, Dosa M, Escoubet CP, Griton L, Ho GC, Horbury TS, Iwai K, Janvier M, Kiloua E, Lavraud B, Madar A, Miyoshi Y, Muller D, Pinto FF, Rouillard AP, Raines J M, Raouafi N, Sahraoui F, Sanchez-Cano B, Shiota D, Vainio R and Walsh A (2021) BepiColombo’s Cruise Phase: Unique Opportunity for Synergistic Observations.
+fr Specialty section: This article was submitted to Space Physics, a section of the journal Frontiers in Astronomy and Space Sciences  Citation: Hadid LZ, Génot V, Aizawa S, Milillo A, Zender J, Murakami G, Benkhoff J, Zouganelis |, Alberti T, André N, Bebesi Z, Califano F, Dimmock AP, Dosa M, Escoubet CP, Griton L, Ho GC, Horbury TS, Iwai K, Janvier M, Kiloua E, Lavraud B, Madar A, Miyoshi Y, Muller D, Pinto FF, Rouillard AP, Raines J M, Raouafi N, Sahraoui F, Sanchez-Cano B, Shiota D, Vainio R and Walsh A (2021) BepiColombo’s Cruise Phase: Unique Opportunity for Synergistic Observations.
 Front.
 Astron.
 Space Sci.

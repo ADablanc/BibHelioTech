@@ -1,47 +1,15 @@
 [
     {
-        "end": 882,
-        "start": 871,
-        "text": "24 JAN 2018",
-        "timex-value": "2018-01-24",
-        "type": "DATE",
-        "value": "2018-01-24"
-    },
-    {
-        "end": 903,
-        "start": 892,
-        "text": "23 MAR 2018",
-        "timex-value": "2018-03-23",
-        "type": "DATE",
-        "value": "2018-03-23"
-    },
-    {
-        "end": 938,
-        "start": 928,
-        "text": "6 APR 2018",
-        "timex-value": "2018-04-06",
-        "type": "DATE",
-        "value": "2018-04-06"
-    },
-    {
-        "end": 967,
-        "start": 956,
-        "text": "18 MAY 2018",
-        "timex-value": "2018-05-18",
-        "type": "DATE",
-        "value": "2018-05-18"
-    },
-    {
-        "end": 5987,
-        "start": 5973,
+        "end": 5882,
+        "start": 5868,
         "text": "6 October 2016",
         "timex-value": "2016-10-06",
         "type": "DATE",
         "value": "2016-10-06"
     },
     {
-        "end": 6356,
-        "start": 6318,
+        "end": 6251,
+        "start": 6213,
         "text": "during 18:03 - 18:12 on 6 October 2016",
         "type": "DURATION",
         "value": {
@@ -50,32 +18,32 @@
         }
     },
     {
-        "end": 7169,
-        "start": 7164,
+        "end": 7064,
+        "start": 7059,
         "text": "18:03",
         "timex-value": "T18:03",
         "type": "TIME",
         "value": "T18:03"
     },
     {
-        "end": 7194,
-        "start": 7171,
+        "end": 7089,
+        "start": 7066,
         "text": "18:12 on 6 October 2016",
         "timex-value": "2016-10-06T18:12",
         "type": "TIME",
         "value": "2016-10-06T18:12"
     },
     {
-        "end": 7237,
-        "start": 7229,
+        "end": 7132,
+        "start": 7124,
         "text": "18:07:15",
         "timex-value": "T18:07:15",
         "type": "TIME",
         "value": "T18:07:15"
     },
     {
-        "end": 10472,
-        "start": 10442,
+        "end": 10367,
+        "start": 10337,
         "text": "2016-10-06/18:03:00 - 18:12:00",
         "type": "DURATION",
         "value": {
@@ -84,8 +52,8 @@
         }
     },
     {
-        "end": 11010,
-        "start": 10972,
+        "end": 10905,
+        "start": 10867,
         "text": "during 18:03 - 18:12 on 6 October 2016",
         "type": "DURATION",
         "value": {
@@ -94,24 +62,24 @@
         }
     },
     {
-        "end": 11758,
-        "start": 11744,
+        "end": 11653,
+        "start": 11639,
         "text": "6 October 2016",
         "timex-value": "2016-10-06",
         "type": "DATE",
         "value": "2016-10-06"
     },
     {
-        "end": 12178,
-        "start": 12167,
+        "end": 12073,
+        "start": 12062,
         "text": "06 Oct 2016",
         "timex-value": "2016-10-06",
         "type": "DATE",
         "value": "2016-10-06"
     },
     {
-        "end": 12280,
-        "start": 12242,
+        "end": 12175,
+        "start": 12137,
         "text": "during 18:03 - 18:12 on 6 October 2016",
         "type": "DURATION",
         "value": {
@@ -120,16 +88,16 @@
         }
     },
     {
-        "end": 14989,
-        "start": 14983,
+        "end": 14884,
+        "start": 14878,
         "text": "06 Oct",
         "timex-value": "2022-10-06",
         "type": "DATE",
         "value": "2022-10-06"
     },
     {
-        "end": 15847,
-        "start": 15821,
+        "end": 15742,
+        "start": 15716,
         "text": "during 18:06:38 - 18:08:00",
         "type": "DURATION",
         "value": {
@@ -138,8 +106,8 @@
         }
     },
     {
-        "end": 18450,
-        "start": 18439,
+        "end": 18345,
+        "start": 18334,
         "text": "06 Oct 2016",
         "timex-value": "2016-10-06",
         "type": "DATE",

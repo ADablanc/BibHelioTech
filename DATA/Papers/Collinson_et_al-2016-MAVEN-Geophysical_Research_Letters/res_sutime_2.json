@@ -1,7 +1,7 @@
 [
     {
-        "end": 13453,
-        "start": 13445,
+        "end": 13412,
+        "start": 13404,
         "text": "06:10:00",
         "timex-value": "T06:10:00",
         "type": "DURATION",
@@ -11,8 +11,8 @@
         }
     },
     {
-        "end": 13462,
-        "start": 13454,
+        "end": 13421,
+        "start": 13413,
         "text": "06:13:00",
         "timex-value": "T06:13:00",
         "type": "DURATION",
@@ -22,8 +22,8 @@
         }
     },
     {
-        "end": 13471,
-        "start": 13463,
+        "end": 13430,
+        "start": 13422,
         "text": "06:16:00",
         "timex-value": "T06:16:00",
         "type": "DURATION",
@@ -33,8 +33,8 @@
         }
     },
     {
-        "end": 13480,
-        "start": 13472,
+        "end": 13439,
+        "start": 13431,
         "text": "06:19:00",
         "timex-value": "T06:19:00",
         "type": "DURATION",
@@ -44,8 +44,8 @@
         }
     },
     {
-        "end": 13489,
-        "start": 13481,
+        "end": 13448,
+        "start": 13440,
         "text": "06:22:00",
         "timex-value": "T06:22:00",
         "type": "DURATION",
@@ -55,8 +55,8 @@
         }
     },
     {
-        "end": 13508,
-        "start": 13490,
+        "end": 13467,
+        "start": 13449,
         "text": "06:25:00 Greenwich",
         "timex-value": "T06:25:00+0000",
         "type": "DURATION",
@@ -66,8 +66,8 @@
         }
     },
     {
-        "end": 15169,
-        "start": 15154,
+        "end": 15128,
+        "start": 15113,
         "text": "06:15 Greenwich",
         "timex-value": "T06:15+0000",
         "type": "DURATION",
@@ -77,8 +77,8 @@
         }
     },
     {
-        "end": 15198,
-        "start": 15189,
+        "end": 15157,
+        "start": 15148,
         "text": "06:17 GMT",
         "timex-value": "T06:17+0100",
         "type": "DURATION",
@@ -88,8 +88,8 @@
         }
     },
     {
-        "end": 15534,
-        "start": 15525,
+        "end": 15493,
+        "start": 15484,
         "text": "06:14 GMT",
         "timex-value": "T06:14+0100",
         "type": "DURATION",
@@ -99,8 +99,8 @@
         }
     },
     {
-        "end": 15802,
-        "start": 15793,
+        "end": 15761,
+        "start": 15752,
         "text": "06:19 GMT",
         "timex-value": "T06:19+0100",
         "type": "DURATION",
@@ -110,8 +110,8 @@
         }
     },
     {
-        "end": 16475,
-        "start": 16461,
+        "end": 16434,
+        "start": 16420,
         "text": "06:15 to 06:16",
         "type": "DURATION",
         "value": {
@@ -120,8 +120,8 @@
         }
     },
     {
-        "end": 16531,
-        "start": 16508,
+        "end": 16490,
+        "start": 16467,
         "text": "Between 06:14 and 06:19",
         "type": "DURATION",
         "value": {
@@ -130,8 +130,8 @@
         }
     },
     {
-        "end": 17217,
-        "start": 17203,
+        "end": 17176,
+        "start": 17162,
         "text": "06:16 to 06:17",
         "type": "DURATION",
         "value": {
@@ -140,8 +140,8 @@
         }
     },
     {
-        "end": 20239,
-        "start": 20220,
+        "end": 20198,
+        "start": 20179,
         "text": "2007-03-29 06:27:00",
         "timex-value": "2007-03-29T06:27:00",
         "type": "DURATION",
@@ -151,8 +151,8 @@
         }
     },
     {
-        "end": 20280,
-        "start": 20261,
+        "end": 20239,
+        "start": 20220,
         "text": "2007-04-13 06:15:00",
         "timex-value": "2007-04-13T06:15:00",
         "type": "DURATION",
@@ -162,8 +162,8 @@
         }
     },
     {
-        "end": 20311,
-        "start": 20303,
+        "end": 20270,
+        "start": 20262,
         "text": "06:16:00",
         "timex-value": "T06:16:00",
         "type": "DURATION",
@@ -173,8 +173,8 @@
         }
     },
     {
-        "end": 20353,
-        "start": 20334,
+        "end": 20312,
+        "start": 20293,
         "text": "2007-12-05 02:40:00",
         "timex-value": "2007-12-05T02:40:00",
         "type": "DURATION",
@@ -184,8 +184,8 @@
         }
     },
     {
-        "end": 20395,
-        "start": 20376,
+        "end": 20354,
+        "start": 20335,
         "text": "2008-02-04 04:45:00",
         "timex-value": "2008-02-04T04:45:00",
         "type": "DURATION",
@@ -195,8 +195,8 @@
         }
     },
     {
-        "end": 20424,
-        "start": 20416,
+        "end": 20383,
+        "start": 20375,
         "text": "04:46:00",
         "timex-value": "T04:46:00",
         "type": "DURATION",
@@ -206,8 +206,8 @@
         }
     },
     {
-        "end": 20455,
-        "start": 20447,
+        "end": 20414,
+        "start": 20406,
         "text": "04:47:00",
         "timex-value": "T04:47:00",
         "type": "DURATION",
@@ -217,8 +217,8 @@
         }
     },
     {
-        "end": 20484,
-        "start": 20476,
+        "end": 20443,
+        "start": 20435,
         "text": "04:48:00",
         "timex-value": "T04:48:00",
         "type": "DURATION",
@@ -228,8 +228,8 @@
         }
     },
     {
-        "end": 20513,
-        "start": 20505,
+        "end": 20472,
+        "start": 20464,
         "text": "04:49:00",
         "timex-value": "T04:49:00",
         "type": "DURATION",
@@ -239,8 +239,8 @@
         }
     },
     {
-        "end": 20553,
-        "start": 20534,
+        "end": 20512,
+        "start": 20493,
         "text": "2008-03-31 04:05:30",
         "timex-value": "2008-03-31T04:05:30",
         "type": "DURATION",
@@ -250,8 +250,8 @@
         }
     },
     {
-        "end": 20593,
-        "start": 20574,
+        "end": 20552,
+        "start": 20533,
         "text": "2008-04-08 03:56:00",
         "timex-value": "2008-04-08T03:56:00",
         "type": "DURATION",
@@ -261,8 +261,8 @@
         }
     },
     {
-        "end": 20624,
-        "start": 20616,
+        "end": 20583,
+        "start": 20575,
         "text": "03:57:00",
         "timex-value": "T03:57:00",
         "type": "DURATION",
@@ -272,8 +272,8 @@
         }
     },
     {
-        "end": 20653,
-        "start": 20645,
+        "end": 20612,
+        "start": 20604,
         "text": "03:58:00",
         "timex-value": "T03:58:00",
         "type": "DURATION",
@@ -283,8 +283,8 @@
         }
     },
     {
-        "end": 20684,
-        "start": 20676,
+        "end": 20643,
+        "start": 20635,
         "text": "03:59:00",
         "timex-value": "T03:59:00",
         "type": "DURATION",

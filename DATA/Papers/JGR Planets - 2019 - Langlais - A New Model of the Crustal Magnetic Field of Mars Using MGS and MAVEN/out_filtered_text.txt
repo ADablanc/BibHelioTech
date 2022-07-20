@@ -6,7 +6,7 @@ J.
 A new model of the crustal magnetic field of Mars using MGS and MAVEN.
 Journal of Geophysical Research: Planets, 124, 15:42 - 15:69.
 https://doi.
-org/10.1029/2018JE005854 Received 15 OCT 2018 Accepted 26 APR 2019 Accepted article online 1 MAY 2019 Published online 12 JUN 2019 Author Contributions Conceptualization: Benoit Langlais, Erwan Thébault Methodology: Benoit Langlais, Erwan Thébault Validation: Benoit Langlais, Erwan Thébault, Michael E.
+org/10.1029/2018JE005854  Author Contributions Conceptualization: Benoit Langlais, Erwan Thébault Methodology: Benoit Langlais, Erwan Thébault Validation: Benoit Langlais, Erwan Thébault, Michael E.
 Purucker, Robert J.
 Lillis Writing - Original Draft: Benoit Langlais, Erwan Thébault Formal Analysis: Benoit Langlais, Erwan Thébault Investigation: Benoit Langlais, Erwan Thébault, Aymeric Houliez, Michael E.
 Purucker, Robert J.

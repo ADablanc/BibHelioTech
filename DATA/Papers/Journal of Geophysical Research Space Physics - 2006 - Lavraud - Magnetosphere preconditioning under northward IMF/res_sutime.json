@@ -1,39 +1,7 @@
 [
     {
-        "end": 342,
-        "start": 326,
-        "text": "13 December 2005",
-        "timex-value": "2005-12-13",
-        "type": "DATE",
-        "value": "2005-12-13"
-    },
-    {
-        "end": 363,
-        "start": 352,
-        "text": "18 May 2006",
-        "timex-value": "2006-05-18",
-        "type": "DATE",
-        "value": "2006-05-18"
-    },
-    {
-        "end": 386,
-        "start": 374,
-        "text": "26 June 2006",
-        "timex-value": "2006-06-26",
-        "type": "DATE",
-        "value": "2006-06-26"
-    },
-    {
-        "end": 415,
-        "start": 398,
-        "text": "16 September 2006",
-        "timex-value": "2006-09-16",
-        "type": "DATE",
-        "value": "2006-09-16"
-    },
-    {
-        "end": 3527,
-        "start": 3514,
+        "end": 3427,
+        "start": 3414,
         "text": "01:48 - 02:27",
         "type": "DURATION",
         "value": {
@@ -42,103 +10,103 @@
         }
     },
     {
-        "end": 12436,
-        "start": 12431,
+        "end": 12336,
+        "start": 12331,
         "text": "20:03",
         "timex-value": "T20:03",
         "type": "TIME",
         "value": "T20:03"
     },
     {
-        "end": 17258,
-        "start": 17241,
+        "end": 17158,
+        "start": 17141,
         "text": "the next 24 hours",
         "type": "DURATION",
         "value": {}
     },
     {
-        "end": 19326,
-        "start": 19311,
+        "end": 19226,
+        "start": 19211,
         "text": "22 January 2000",
         "timex-value": "2000-01-22",
         "type": "DATE",
         "value": "2000-01-22"
     },
     {
-        "end": 19522,
-        "start": 19510,
+        "end": 19422,
+        "start": 19410,
         "text": "25 June 1998",
         "timex-value": "1998-06-25",
         "type": "DATE",
         "value": "1998-06-25"
     },
     {
-        "end": 19654,
-        "start": 19639,
+        "end": 19554,
+        "start": 19539,
         "text": "22 January 2000",
         "timex-value": "2000-01-22",
         "type": "DATE",
         "value": "2000-01-22"
     },
     {
-        "end": 19864,
-        "start": 19852,
+        "end": 19764,
+        "start": 19752,
         "text": "25 June 1998",
         "timex-value": "1998-06-25",
         "type": "DATE",
         "value": "1998-06-25"
     },
     {
-        "end": 20262,
-        "start": 20250,
+        "end": 20162,
+        "start": 20150,
         "text": "25 June 1998",
         "timex-value": "1998-06-25",
         "type": "DATE",
         "value": "1998-06-25"
     },
     {
-        "end": 20291,
-        "start": 20276,
+        "end": 20191,
+        "start": 20176,
         "text": "22 January 2000",
         "timex-value": "2000-01-22",
         "type": "DATE",
         "value": "2000-01-22"
     },
     {
-        "end": 21208,
-        "start": 21193,
+        "end": 21108,
+        "start": 21093,
         "text": "22 January 2000",
         "timex-value": "2000-01-22",
         "type": "DATE",
         "value": "2000-01-22"
     },
     {
-        "end": 21233,
-        "start": 21221,
+        "end": 21133,
+        "start": 21121,
         "text": "25 June 1998",
         "timex-value": "1998-06-25",
         "type": "DATE",
         "value": "1998-06-25"
     },
     {
-        "end": 21658,
-        "start": 21643,
+        "end": 21558,
+        "start": 21543,
         "text": "22 January 2000",
         "timex-value": "2000-01-22",
         "type": "DATE",
         "value": "2000-01-22"
     },
     {
-        "end": 31038,
-        "start": 31033,
+        "end": 30938,
+        "start": 30933,
         "text": "20:03",
         "timex-value": "T20:03",
         "type": "TIME",
         "value": "T20:03"
     },
     {
-        "end": 33839,
-        "start": 33826,
+        "end": 33739,
+        "start": 33726,
         "text": "18:00 - 06:00",
         "type": "DURATION",
         "value": {
@@ -147,32 +115,32 @@
         }
     },
     {
-        "end": 34781,
-        "start": 34772,
+        "end": 34681,
+        "start": 34672,
         "text": "the 1970s",
         "timex-value": "197X",
         "type": "DATE",
         "value": "197X"
     },
     {
-        "end": 35017,
-        "start": 35008,
+        "end": 34917,
+        "start": 34908,
         "text": "the 1970s",
         "timex-value": "197X",
         "type": "DATE",
         "value": "197X"
     },
     {
-        "end": 36632,
-        "start": 36620,
+        "end": 36532,
+        "start": 36520,
         "text": "25 June 1998",
         "timex-value": "1998-06-25",
         "type": "DATE",
         "value": "1998-06-25"
     },
     {
-        "end": 45951,
-        "start": 45939,
+        "end": 45851,
+        "start": 45839,
         "text": "25 June 1998",
         "timex-value": "1998-06-25",
         "type": "DATE",

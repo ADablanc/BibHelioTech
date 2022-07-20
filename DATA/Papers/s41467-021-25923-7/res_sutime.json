@@ -74,29 +74,5 @@
         "timex-value": "T22:08",
         "type": "TIME",
         "value": "T22:08"
-    },
-    {
-        "end": 57291,
-        "start": 57279,
-        "text": "1 March 2021",
-        "timex-value": "2021-03-01",
-        "type": "DATE",
-        "value": "2021-03-01"
-    },
-    {
-        "end": 57317,
-        "start": 57303,
-        "text": "30 August 2021",
-        "timex-value": "2021-08-30",
-        "type": "DATE",
-        "value": "2021-08-30"
-    },
-    {
-        "end": 57352,
-        "start": 57337,
-        "text": "06 October 2021",
-        "timex-value": "2021-10-06",
-        "type": "DATE",
-        "value": "2021-10-06"
     }
 ]

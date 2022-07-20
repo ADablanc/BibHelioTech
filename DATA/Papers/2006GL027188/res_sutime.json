@@ -1,103 +1,71 @@
 [
     {
-        "end": 282,
-        "start": 270,
-        "text": "12 June 2006",
-        "timex-value": "2006-06-12",
-        "type": "DATE",
-        "value": "2006-06-12"
-    },
-    {
-        "end": 304,
-        "start": 292,
-        "text": "31 July 2006",
-        "timex-value": "2006-07-31",
-        "type": "DATE",
-        "value": "2006-07-31"
-    },
-    {
-        "end": 329,
-        "start": 315,
-        "text": "10 August 2006",
-        "timex-value": "2006-08-10",
-        "type": "DATE",
-        "value": "2006-08-10"
-    },
-    {
-        "end": 358,
-        "start": 341,
-        "text": "13 September 2006",
-        "timex-value": "2006-09-13",
-        "type": "DATE",
-        "value": "2006-09-13"
-    },
-    {
-        "end": 4932,
-        "start": 4915,
+        "end": 4833,
+        "start": 4816,
         "text": "17 September 1998",
         "timex-value": "1998-09-17",
         "type": "DATE",
         "value": "1998-09-17"
     },
     {
-        "end": 5288,
-        "start": 5272,
+        "end": 5189,
+        "start": 5173,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 5384,
-        "start": 5367,
+        "end": 5285,
+        "start": 5268,
         "text": "17 September 1998",
         "timex-value": "1998-09-17",
         "type": "DATE",
         "value": "1998-09-17"
     },
     {
-        "end": 5446,
-        "start": 5432,
+        "end": 5347,
+        "start": 5333,
         "text": "25 August 1997",
         "timex-value": "1997-08-25",
         "type": "DATE",
         "value": "1997-08-25"
     },
     {
-        "end": 5985,
-        "start": 5969,
+        "end": 5886,
+        "start": 5870,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 6575,
-        "start": 6559,
+        "end": 6476,
+        "start": 6460,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 6653,
-        "start": 6648,
+        "end": 6554,
+        "start": 6549,
         "text": "05:36",
         "timex-value": "T05:36",
         "type": "TIME",
         "value": "T05:36"
     },
     {
-        "end": 7131,
-        "start": 7115,
+        "end": 7032,
+        "start": 7016,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 7272,
-        "start": 7259,
+        "end": 7173,
+        "start": 7160,
         "text": "05:00 \u2014 06:00",
         "type": "DURATION",
         "value": {
@@ -106,48 +74,48 @@
         }
     },
     {
-        "end": 7301,
-        "start": 7285,
+        "end": 7202,
+        "start": 7186,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 7466,
-        "start": 7453,
+        "end": 7367,
+        "start": 7354,
         "text": "December 1998",
         "timex-value": "1998-12",
         "type": "DATE",
         "value": "1998-12"
     },
     {
-        "end": 7698,
-        "start": 7693,
+        "end": 7599,
+        "start": 7594,
         "text": "05:00",
         "timex-value": "T05:00",
         "type": "TIME",
         "value": "T05:00"
     },
     {
-        "end": 7704,
-        "start": 7699,
+        "end": 7605,
+        "start": 7600,
         "text": "05:30",
         "timex-value": "T05:30",
         "type": "TIME",
         "value": "T05:30"
     },
     {
-        "end": 7727,
-        "start": 7705,
+        "end": 7628,
+        "start": 7606,
         "text": "06:00 25 December 1998",
         "timex-value": "1998-12-25T06:00",
         "type": "TIME",
         "value": "1998-12-25T06:00"
     },
     {
-        "end": 7798,
-        "start": 7785,
+        "end": 7699,
+        "start": 7686,
         "text": "05:00 \u2014 06:00",
         "type": "DURATION",
         "value": {
@@ -156,24 +124,24 @@
         }
     },
     {
-        "end": 7827,
-        "start": 7811,
+        "end": 7728,
+        "start": 7712,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 9738,
-        "start": 9727,
+        "end": 9639,
+        "start": 9628,
         "text": "25 December",
         "timex-value": "2022-12-25",
         "type": "DATE",
         "value": "2022-12-25"
     },
     {
-        "end": 11219,
-        "start": 11198,
+        "end": 11120,
+        "start": 11099,
         "text": "05:07:37 and 05:28:57",
         "type": "DURATION",
         "value": {
@@ -182,8 +150,8 @@
         }
     },
     {
-        "end": 11336,
-        "start": 11315,
+        "end": 11237,
+        "start": 11216,
         "text": "06:30:49 and 06:32:57",
         "type": "DURATION",
         "value": {
@@ -192,16 +160,16 @@
         }
     },
     {
-        "end": 11734,
-        "start": 11726,
+        "end": 11635,
+        "start": 11627,
         "text": "05:33:13",
         "timex-value": "T05:33:13",
         "type": "TIME",
         "value": "T05:33:13"
     },
     {
-        "end": 12050,
-        "start": 12029,
+        "end": 11951,
+        "start": 11930,
         "text": "05:35:21 and 05:37:29",
         "type": "DURATION",
         "value": {
@@ -210,64 +178,64 @@
         }
     },
     {
-        "end": 12223,
-        "start": 12215,
+        "end": 12124,
+        "start": 12116,
         "text": "05:39:37",
         "timex-value": "T05:39:37",
         "type": "TIME",
         "value": "T05:39:37"
     },
     {
-        "end": 12357,
-        "start": 12349,
+        "end": 12258,
+        "start": 12250,
         "text": "06:30:49",
         "timex-value": "T06:30:49",
         "type": "TIME",
         "value": "T06:30:49"
     },
     {
-        "end": 15363,
-        "start": 15347,
+        "end": 15264,
+        "start": 15248,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 16031,
-        "start": 16015,
+        "end": 15932,
+        "start": 15916,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 16911,
-        "start": 16895,
+        "end": 16812,
+        "start": 16796,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 17246,
-        "start": 17229,
+        "end": 17147,
+        "start": 17130,
         "text": "17 September 1998",
         "timex-value": "1998-09-17",
         "type": "DATE",
         "value": "1998-09-17"
     },
     {
-        "end": 17749,
-        "start": 17733,
+        "end": 17650,
+        "start": 17634,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",
         "value": "1998-12-25"
     },
     {
-        "end": 18384,
-        "start": 18368,
+        "end": 18285,
+        "start": 18269,
         "text": "25 December 1998",
         "timex-value": "1998-12-25",
         "type": "DATE",

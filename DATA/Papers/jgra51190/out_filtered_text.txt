@@ -4,7 +4,7 @@ Opitz, aopitz@cosmos.esa.int Citation: Opitz, A., et al.
 Geophys.
 Res.
 Space Physics, 119, 63:42 - 63:55, doi:10.1002/ 2014JA019988.
-Received 17 MAR 2014 Accepted 17 JUL 2014 Accepted article online 23 JUL 2014 Published online 20 AUG 2014 OPITZ ET AL.
+ OPITZ ET AL.
 Solar wind control of the terrestrial magnetotail as seen by STEREO Andrea Opitz”, Jean-Andre Sauvaud2, Andreas Klassen*, Raul Gomez-Herrero-, Radoslav Bucik’, Lynn M.
 Kistler®, Christian Jacquey’, Janet Luhmann/’, Glenn Mason®, Primoz Kajdic', and Benoit Lavraud” "ESTEC, European Space Agency, Noordwijk, Netherlands, 7IRAP (CNRS-UPS), University of Toulouse, Toulouse, France, >Institute of Experimental and Applied Physics, University of Kiel, Kiel, Germany, “Space Research Group, University of Alcala, Alcala de Henares, Spain,°-Max-Planck-Institut fir Sonnensystemforschung, Géttingen, Germany, °EOS, University of New Hampshire, Durham, New Hampshire, USA, “SSL, University of California, Berkeley, California, USA, Johns Hopkins University Applied Physics Laboratory, Laurel, Maryland, USA Abstract At the beginning of 2007 the twin STEREO spacecraft provided a unique opportunity to study the global solar wind control of the terrestrial magnetotail under typical solar activity minimum conditions.
 The STEREO-B (STB) spacecraft flew in the vicinity of the far terrestrial magnetotail, while the STEREO-A (STA) spacecraft was located in front of the Earth performing measurements in the undisturbed solar wind.

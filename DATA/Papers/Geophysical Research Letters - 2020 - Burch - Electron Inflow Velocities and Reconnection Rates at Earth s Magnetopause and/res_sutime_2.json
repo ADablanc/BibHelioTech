@@ -1,7 +1,7 @@
 [
     {
-        "end": 10500,
-        "start": 10495,
+        "end": 10420,
+        "start": 10415,
         "text": "04:32",
         "timex-value": "T04:32",
         "type": "DURATION",
@@ -11,8 +11,8 @@
         }
     },
     {
-        "end": 10516,
-        "start": 10503,
+        "end": 10436,
+        "start": 10423,
         "text": "04:27 - 04:37",
         "type": "DURATION",
         "value": {
@@ -21,8 +21,8 @@
         }
     },
     {
-        "end": 10771,
-        "start": 10749,
+        "end": 10691,
+        "start": 10669,
         "text": "04:32 on 15 April 2018",
         "timex-value": "2018-04-15T04:32",
         "type": "DURATION",
@@ -32,8 +32,8 @@
         }
     },
     {
-        "end": 11012,
-        "start": 11007,
+        "end": 10932,
+        "start": 10927,
         "text": "04:32",
         "timex-value": "T04:32",
         "type": "DURATION",
@@ -43,8 +43,8 @@
         }
     },
     {
-        "end": 13377,
-        "start": 13372,
+        "end": 13297,
+        "start": 13292,
         "text": "04:32",
         "timex-value": "T04:32",
         "type": "DURATION",
@@ -54,8 +54,8 @@
         }
     },
     {
-        "end": 24444,
-        "start": 24423,
+        "end": 24364,
+        "start": 24343,
         "text": "09 Dec 2016  09:03:54",
         "timex-value": "2016-12-09T09:03:54",
         "type": "DURATION",

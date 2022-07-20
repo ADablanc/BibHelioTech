@@ -2,7 +2,7 @@
 B.
 Tang bbtang@spaceweather.ac.cn W.
 Y.
-Li wyli@spaceweather.ac.cn Specialty section: This article was submitted to Space Physics, a section of the journal Frontiers in Astronomy and Space Sciences Received: 13 July 2021 Accepted: 27 Seotember 2021 Published: 09 December 2021 Citation: Tang BB, Li WY, Wang C, Khotyaintsev YV, Graham DB, Zhang QH, Sun TR, Li H, Wang xY, Trattner KJ, Giles BL, Lindqvist PA, Ergun RE and Burch J (2021) Secondary Magnetic Reconnection at Earth’s Flank Magnetopause.
+Li wyli@spaceweather.ac.cn Specialty section: This article was submitted to Space Physics, a section of the journal Frontiers in Astronomy and Space Sciences  Citation: Tang BB, Li WY, Wang C, Khotyaintsev YV, Graham DB, Zhang QH, Sun TR, Li H, Wang xY, Trattner KJ, Giles BL, Lindqvist PA, Ergun RE and Burch J (2021) Secondary Magnetic Reconnection at Earth’s Flank Magnetopause.
 Front.
 Astron.
 Space Sci.

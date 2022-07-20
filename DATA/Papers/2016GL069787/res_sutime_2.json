@@ -1,7 +1,7 @@
 [
     {
-        "end": 7003,
-        "start": 6980,
+        "end": 6897,
+        "start": 6874,
         "text": "between 11:20 and 11:21",
         "type": "DURATION",
         "value": {
@@ -10,8 +10,8 @@
         }
     },
     {
-        "end": 7061,
-        "start": 7053,
+        "end": 6955,
+        "start": 6947,
         "text": "11:20:43",
         "timex-value": "T11:20:43",
         "type": "DURATION",
@@ -21,8 +21,8 @@
         }
     },
     {
-        "end": 11156,
-        "start": 11148,
+        "end": 11050,
+        "start": 11042,
         "text": "11:20:43",
         "timex-value": "T11:20:43",
         "type": "DURATION",
@@ -32,8 +32,8 @@
         }
     },
     {
-        "end": 13124,
-        "start": 13103,
+        "end": 13018,
+        "start": 12997,
         "text": "11:20:20 and 11:20:35",
         "type": "DURATION",
         "value": {
@@ -42,8 +42,8 @@
         }
     },
     {
-        "end": 13808,
-        "start": 13795,
+        "end": 13702,
+        "start": 13689,
         "text": "T11:20:43.120",
         "timex-value": "T11:20:43.120",
         "type": "DURATION",
@@ -53,8 +53,8 @@
         }
     },
     {
-        "end": 13822,
-        "start": 13809,
+        "end": 13716,
+        "start": 13703,
         "text": "T11:20:47.170",
         "timex-value": "T11:20:47.170",
         "type": "DURATION",
@@ -64,8 +64,8 @@
         }
     },
     {
-        "end": 13837,
-        "start": 13824,
+        "end": 13731,
+        "start": 13718,
         "text": "T11:20:51.220",
         "timex-value": "T11:20:51.220",
         "type": "DURATION",
@@ -75,8 +75,8 @@
         }
     },
     {
-        "end": 13851,
-        "start": 13838,
+        "end": 13745,
+        "start": 13732,
         "text": "T11:20:55.120",
         "timex-value": "T11:20:55.120",
         "type": "DURATION",
@@ -86,8 +86,8 @@
         }
     },
     {
-        "end": 14449,
-        "start": 14420,
+        "end": 14343,
+        "start": 14314,
         "text": "between 11:20:43 and 11:20:45",
         "type": "DURATION",
         "value": {
@@ -96,8 +96,8 @@
         }
     },
     {
-        "end": 14814,
-        "start": 14785,
+        "end": 14708,
+        "start": 14679,
         "text": "between 11:20:43 and 11:20:44",
         "type": "DURATION",
         "value": {
@@ -106,8 +106,8 @@
         }
     },
     {
-        "end": 15014,
-        "start": 15006,
+        "end": 14908,
+        "start": 14900,
         "text": "11:20:43",
         "timex-value": "T11:20:43",
         "type": "DURATION",
@@ -117,8 +117,8 @@
         }
     },
     {
-        "end": 15639,
-        "start": 15620,
+        "end": 15533,
+        "start": 15514,
         "text": "11:20:42 \u2014 11:20:45",
         "type": "DURATION",
         "value": {
@@ -127,8 +127,8 @@
         }
     },
     {
-        "end": 16282,
-        "start": 16255,
+        "end": 16176,
+        "start": 16149,
         "text": "11:20:42 on 8 December 2015",
         "timex-value": "2015-12-08T11:20:42",
         "type": "DURATION",
@@ -138,8 +138,8 @@
         }
     },
     {
-        "end": 17259,
-        "start": 17247,
+        "end": 17153,
+        "start": 17141,
         "text": "T11:20:43.45",
         "timex-value": "T11:20:43.045",
         "type": "DURATION",
@@ -149,8 +149,8 @@
         }
     },
     {
-        "end": 18999,
-        "start": 18955,
+        "end": 18893,
+        "start": 18849,
         "text": "from 11:20:42 to 11:20:45 on 8 December 2015",
         "type": "DURATION",
         "value": {
@@ -159,8 +159,8 @@
         }
     },
     {
-        "end": 19681,
-        "start": 19652,
+        "end": 19575,
+        "start": 19546,
         "text": "between 11:20:43 and 11:20:44",
         "type": "DURATION",
         "value": {

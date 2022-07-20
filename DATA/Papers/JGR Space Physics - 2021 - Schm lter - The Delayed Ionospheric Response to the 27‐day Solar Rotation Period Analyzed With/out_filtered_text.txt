@@ -4,7 +4,7 @@ Schmolter, Erik.Schmoelter@dlr.de Citation: Schmolter, E., Berdermann, J., & Cod
 The delayed ionospheric response to the 27-day solar rotation period analyzed with GOLD and IGS TEC data.
 Journal of Geophysical Research: Space Physics, 126, e2020JA028861.
 https://doi.
-org/10.1029/2020JA028861 Received 23 OCT 2020 Accepted 8 JAN 2021 © 2021.
+org/10.1029/2020JA028861 © 2021.
 Deutsches Zentrum fiir luftund Raumfahrt.
 This article has been contributed to by US Government employees and their work is in the public domain in the USA.
 This is an open access article under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
