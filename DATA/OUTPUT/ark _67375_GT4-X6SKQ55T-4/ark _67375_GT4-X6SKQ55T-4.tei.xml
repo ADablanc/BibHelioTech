@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A magnetic reconnection X-line extending more than 390 Earth radii in the solar wind</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="laboratory">Laboratory for Atmospheric and Space Physics</orgName>
+								<orgName type="institution">University of Colorado</orgName>
+								<address>
+									<postCode>80303</postCode>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Davis</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<postCode>D466, 87545</postCode>
+									<settlement>Los Alamos</settlement>
+									<region>MS, New Mexico</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">M</forename><surname>Øieroset</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Space Sciences Laboratory</orgName>
+								<orgName type="institution">University of California</orgName>
+								<address>
+									<postCode>94720</postCode>
+									<settlement>Berkeley</settlement>
+									<region>California</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lepping</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="laboratory">Laboratory for Solar and Space Physics</orgName>
+								<orgName type="institution">NASA/Goddard Space Flight Center</orgName>
+								<address>
+									<postCode>20771</postCode>
+									<settlement>Greenbelt</settlement>
+									<region>Maryland</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department">Space Science and Engineering Division</orgName>
+								<orgName type="institution">Southwest Research Institute</orgName>
+								<address>
+									<addrLine>San Antonio</addrLine>
+									<postBox>PO Drawer</postBox>
+									<postCode>28510, 78228</postCode>
+									<region>Texas</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+							<affiliation key="aff5">
+								<orgName type="department">Department of Physics and Space Science Center</orgName>
+								<orgName type="institution">University of New Hampshire</orgName>
+								<address>
+									<addrLine>Room 207 Morse Hall, 30 College Road</addrLine>
+									<postCode>03824</postCode>
+									<settlement>Durham</settlement>
+									<region>New Hampshire</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">H</forename><surname>Reme</surname></persName>
+							<affiliation key="aff6">
+								<orgName type="department">Centre d&apos;Etude Spatiale des Rayonnements</orgName>
+								<address>
+									<addrLine>BP 4346</addrLine>
+									<postCode>31029</postCode>
+									<settlement>Toulouse</settlement>
+									<country key="FR">France</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Balogh</surname></persName>
+							<affiliation key="aff7">
+								<orgName type="laboratory">Space and Atmospheric Physics Group</orgName>
+								<orgName type="institution">Imperial College</orgName>
+								<address>
+									<postCode>SW7 2BZ</postCode>
+									<settlement>London</settlement>
+									<country key="GB">UK</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A magnetic reconnection X-line extending more than 390 Earth radii in the solar wind</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">D4D45384C253CF9068A5418EBF717451</idno>
+					<note type="submission">Received 30 August; accepted 31 October 2005.</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T14:31+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract/>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Magnetic reconnection in a current sheet converts magnetic energy into particle energy, a process that is important in many laboratory <ref type="bibr" target="#b0">1</ref> , space <ref type="bibr" target="#b1">2,</ref><ref type="bibr" target="#b2">3</ref> and astrophysical contexts <ref type="bibr" target="#b3">[4]</ref><ref type="bibr" target="#b4">[5]</ref><ref type="bibr" target="#b5">[6]</ref> . It is not known at present whether reconnection is fundamentally a process that can occur over an extended region in space or whether it is patchy and unpredictable in nature <ref type="bibr" target="#b6">7</ref> . Frequent reports of small-scale flux ropes and flow channels associated with reconnection <ref type="bibr" target="#b7">[8]</ref><ref type="bibr" target="#b8">[9]</ref><ref type="bibr" target="#b9">[10]</ref><ref type="bibr" target="#b10">[11]</ref><ref type="bibr" target="#b11">[12]</ref><ref type="bibr" target="#b12">[13]</ref> in the Earth's magnetosphere raise the possibility that reconnection is intrinsically patchy, with each reconnection X-line (the line along which oppositely directed magnetic field lines reconnect) extending at most a few Earth radii (R E ), even though the associated current sheets span many tens or hundreds of R E . Here we report three-spacecraft observations of accelerated flow associated with reconnection in a current sheet embedded in the solar wind flow, where the reconnection X-line extended at least 390R E (or 2.5 3 10 6 km). Observations of this and 27 similar events imply that reconnection is fundamentally a large-scale process. Patchy reconnection observed in the Earth's magnetosphere is therefore likely to be a geophysical effect associated with fluctuating boundary conditions, rather than a fundamental property of reconnection. Our observations also reveal, surprisingly, that reconnection can operate in a quasi-steady-state manner even when undriven by the external flow.</p><p>Until recently, in situ observations of reconnection in space plasmas were made almost exclusively in the Earth's magnetosphere, in current sheets formed by the interaction between the solar wind and the geomagnetic field. Such current sheets have finite extents, and their boundary conditions (determined by the solar wind magnetic field) often change rapidly. It is generally difficult to establish the presence of an extended reconnection X-line in the magnetosphere from in situ measurements since that requires the presence of widely separated spacecraft detecting the same reconnection events. The chances of such conjunctions are exceedingly small because the spacecraft are seldom ideally positioned for such observations and because of the variable boundary conditions. The single event reported where two spacecraft (separated by 3R E ) detected the same reconnection event at the magnetopause only allowed the deduction that the X-line was at least 3R E long <ref type="bibr" target="#b13">14</ref> . Remote observations of proton auroras <ref type="bibr" target="#b14">15</ref> and ionospheric convection <ref type="bibr" target="#b15">16</ref> have hinted at the presence of a magnetopause X-line up to 40R E in length but that has not yet been confirmed by in situ observations.</p><p>The recent discovery of reconnection exhausts in the solar wind <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> introduces a new laboratory where reconnection can be investigated by in situ measurements. The solar wind reconnection events are often associated with interplanetary coronal mass ejections, and the magnetic field orientations on the two sides of the current sheets are LETTERS Figure <ref type="figure">1</ref> | Diagram of the encounters of three spacecraft with an extended (390R E ) magnetic reconnection X-line in the solar wind. Reconnection in the current sheet (in blue) occurs at the X-line between magnetic field lines with large anti-parallel components B L,1 and B L,2 ; the resulting bi-directional plasma jets (confined to the reconnection exhausts) can be observed far from the X-line. The ACE, Cluster and Wind spacecraft positions are shown in units of Earth radius (R E ) and in geocentric solar ecliptic (GSE) coordinates with the x-axis pointing from Earth to Sun, the y-axis pointing towards dusk and the z-axis parallel to the ecliptic pole. All three spacecraft were relatively close to the ecliptic plane (in yellow). ACE was 222R E upstream of Cluster while Wind was 331R E dawnward of Cluster. Also shown is the LMN current sheet coordinate system, with N along the overall current sheet normal, M along the X-line direction and L along the anti-parallel magnetic field direction. The current sheet normal (0.71x, 0.60ŷ, 20.37ẑ) in GSE, is tilted 458 relative to the Sun-Earth line. The X-line is oriented along (0.47x, 20.79ŷ, 20.39ẑ) in GSE. The thick solid red line is the (390R E ) portion of the X-line whose effect is observed by the three spacecraft. The solid orange lines denote the spacecraft trajectory relative to the solar wind, with the red line portion marking the intersections of the exhaust with the spacecraft. The total reconnected magnetic flux</p><formula xml:id="formula_0">( ¼ V in,1 B L,1 L X-line or V in,2 B L,2 L X-line</formula><p>) is determined by the inflow velocity, V in , the strength of the anti-parallel field components, B L , and the length of the X-line, L X-line . The angle of the diverging exhausts is exaggerated for illustration. The actual calculated angle is ,48. B M is the magnetic field along the X-line. usually well defined. The combination of extended current sheets with stable boundary conditions and the fact that the solar wind rapidly convects the exhausts past observing spacecraft make these solar wind reconnection events ideal for addressing the question of extended versus patchy reconnection without complications due to boundary effects.</p><p>On 2 February 2002, the Wind, ACE and Cluster spacecraft were all in the solar wind (Fig. <ref type="figure">1</ref>). Cluster was 14R E upstream (sunward) of the Earth. ACE was 222R E further upstream of Cluster, while Wind, in its furthest orbit from Earth during its 10-yr mission, was located at 331R E dawnward of Cluster (and 321R E from the Sun-Earth line). Figure <ref type="figure" target="#fig_0">2</ref> shows that all three spacecraft detected the passage of the same bifurcated current sheet with accelerated plasma flow embedded in it. The total magnetic field rotation (or shear) across the bifurcated current sheet was 1408. The observed plasma acceleration within the exhaust agreed with the reconnection prediction to within 58 in direction and 10% in flow speed (see Fig. <ref type="figure">3c and d</ref> for more details). This is consistent with the plasma acceleration being accomplished by the magnetic tension force associated with linkage of the magnetic field across the exhaust. Furthermore, Fig. <ref type="figure">3</ref> shows that the plasma density and temperature were sharply enhanced at the edges of the current sheet while the magnetic field strength was reduced. These signatures are consistent with the Petscheck <ref type="bibr" target="#b18">19</ref> model of fast reconnection, where the reconnection exhaust is bounded by Alfven and/or slow mode waves. The plasma and field signatures just described are typical of solar wind reconnection exhausts <ref type="bibr" target="#b16">17,</ref><ref type="bibr" target="#b17">18</ref> . What is significant about this 2 February 2002 event is the fact that the reconnection exhaust was observed by three widely separated spacecraft, which allows the deduction of a long reconnection X-line.</p><p>The extent of the X-line that can be measured depends on the orientation of the exhaust and of the X-line relative to the spacecraft.</p><p>To obtain the X-line orientation, one first needs to determine the exhaust geometry.</p><p>The bifurcated current sheet associated with the reconnection exhaust was convecting with the solar wind, and was first detected at ACE at ,01:32 UT, followed by Cluster an hour later (at ,02:32 UT) and 2.5 h later than at ACE by Wind (at ,03:57 UT). The fact that Cluster and Wind detected the current sheet 85 min apart even though both spacecraft were at nearly the same distance from the Sun (but 330R E apart in dawn-dusk direction) implies that the current sheet must make a large angle relative to the 'east-west' direction (that is, relative to the y direction in Geocentric Solar Ecliptic (GSE) coordinates; see Fig. <ref type="figure">1</ref>). This angle is confirmed by the analysis of the current sheet geometry at Wind. The normal to the current sheet tilt was determined by minimum variance analysis <ref type="bibr" target="#b19">20</ref> of the magnetic field across the current sheet, and was found to be (0.71x, 0.60ŷ, 20.37ẑ) in GSE. The resulting error in the propagation time from ACE to Cluster is 4 min 20 s, or 7%. From ACE to Wind, the error is only 6 s, or 0.07%. This agreement demonstrates that the current sheet was indeed approximately flat on a scale of hundreds of Earth radii (or 0.01 AU) and that the current sheet normal was accurate. The small magnitude of the normal magnetic field (B N ) across the current sheet (Fig. <ref type="figure">3e</ref>) further confirms the accuracy of the current sheet normal.</p><p>The X-line orientation (0.47x, 20.79ŷ, 20.39ẑ) in GSE is obtained from the components of the magnetic field in the current sheet plane <ref type="bibr" target="#b20">21</ref> . From the X-line orientation one can determine, based on the locations where the three spacecraft intersected the current sheet, that Cluster and Wind detected flow from positions along the X-line that were 390R E apart, while ACE detected flow from the X-line at an intermediate location (see Fig. <ref type="figure">1</ref>). This implies that the X-line extended at least 390R E (or 4 £ 10 4 ion inertial lengths) and very probably a great deal further. If reconnection were patchy, one or The velocity components were correlated (anti-correlated) with the components of the magnetic field at the leading (trailing) edge of the exhaust, as expected from reconnection sunward and northward of the spacecraft. It is concluded that all three (widely separated) spacecraft detected essentially the same reconnection signature. The abrupt changes in the magnetic field B z at the two edges and a plateau in the B z profile in the middle of the current sheet indicate that the current sheet is bifurcated. more spacecraft most probably would not have encountered accelerated flow. Another fact that is consistent with a coherent and extended X-line is that the reconnection jets detected by all three spacecraft were directed in the same direction, implying that the X-line was north of all spacecraft. Patchy and random reconnection could result in different spacecraft detecting jets directed in different directions.</p><p>In addition to finding an extended X-line, the fact that the three spacecraft detected the reconnection exhaust over a period of 2.5 h implies that reconnection must have been quasi-steady over at least that time span. This finding is similar to reports of quasi-steady reconnection at the Earth's magnetopause <ref type="bibr" target="#b21">[22]</ref><ref type="bibr" target="#b22">[23]</ref><ref type="bibr" target="#b23">[24]</ref> . An important difference is that while reconnection is strongly driven at the magnetopause (by the solar wind impinging on the Earth's magnetosphere), reconnection in the present case appears to have been largely undriven. There was a discontinuity in the flow speed across the current sheet of 27 km s 21 ; however, Fig. <ref type="figure">3d</ref> shows that much of the flow speed discontinuity was due to a 22 km s 21 shear in the flow component tangential to the current sheet which does not compress the current sheet. In the normal direction the velocity across the current sheet was nearly constant except for a small 5 km s 21 shift. The velocity shift was consistent with a normal inflow, in the frame of the current sheet, of v N,rec ¼ 2.5 km s 21 associated with reconnection (at the position of Wind). The fact that reconnection can be quasi-steady in the undriven regime is surprising, and has not been previously reported to the best of our knowledge.</p><p>Finally, with a 12-nT magnetic field convecting into the reconnection region at 2.5 km s 21 (for a dimensionless reconnection rate, v N,rec /v Alfven , of 3.3%, where v Alfven ¼ B(m 0 r) 21/2 is the Alfven speed), the reconnection electric field was 0.03 mV m <ref type="bibr" target="#b20">21</ref> . Along an X-line of at least 390R E , the minimum reconnection potential was thus 75 kV.</p><p>Although we have shown detailed observations from a single event, our conclusions in terms of extended X-lines and steady reconnection are general. We have identified 27 additional events when both ACE and Wind were in the solar wind and detected essentially the same reconnection signatures, irrespective of how far apart (in space and time) the two spacecraft were. Common among all 28 events is the fact that the plasma b (the ratio of plasma to magnetic pressure) in the ambient solar wind (outside the exhausts) is less than unity <ref type="bibr" target="#b16">17</ref> (,b . 28 events ¼ 0.4 ^0.2), a condition that has been suggested to be necessary for the occurrence of reconnection <ref type="bibr" target="#b24">25</ref> . In four of these cases, we have evidence for an X-line extending more than 100R E . We are aware of no counter-examples where one spacecraft detected the reconnection signature and the other did not. The large number of dual-spacecraft detections of reconnection flow with no counter-examples strongly indicate that reconnection in the solar wind, and probably in other astrophysical domains as well, can operate in a large-scale (much larger than the ion inertial scale) and quasi-steady mode, leading to the release of large amount of magnetic energy.</p><p>Our finding also raises an interesting question: how does the reconnection X-line become so extended? We suspect that in the case of the solar wind, reconnection starts in a limited region in the solar wind current sheet closer to the Sun and spreads with time from its initiation region. By the time the current sheet reaches 1 AU, the X-line has reached hundreds of R E or more. The true size of the solar wind X-line can be investigated by the upcoming NASA/STEREO mission, which will provide large spacecraft separations that exceed 1 AU in the GSE-y direction.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 2 |</head><label>2</label><figDesc>Figure 2 | Detections of the magnetic reconnection exhaust by the ACE, Cluster-3 and Wind spacecraft on 2 February 2002. a, b, The magnetic field and plasma velocity in GSE coordinates measured by ACE; c, d, the magnetic field and velocity measured by Cluster-3; and e, f, the magnetic field and velocity measured by Wind. The x component of the velocity in b, d and f has been shifted by þ300 km s 21 . The red horizontal bars in a, c and e indicate the durations of the encounters by the three spacecraft. The magnetic field rotated 1408 across the exhaust. The plasma flow in the exhaust was enhanced by ,50 km s 21 relative to the ambient solar wind flow speed. The velocity components were correlated (anti-correlated) with the components of the magnetic field at the leading (trailing) edge of the exhaust, as expected from reconnection sunward and northward of the spacecraft. It is concluded that all three (widely separated) spacecraft detected essentially the same reconnection signature. The abrupt changes in the magnetic field B z at the two edges and a plateau in the B z profile in the middle of the current sheet indicate that the current sheet is bifurcated.</figDesc></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">© 2006 Nature Publishing Group</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Acknowledgements Wind, ACE and Cluster research in the US is supported by NASA. Cluster research in France and the UK is supported by CNES and PPARC.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Figure <ref type="figure">3</ref> | Quantitative comparison between the flow acceleration observed by the Wind spacecraft and the prediction from reconnection. a, The ion density; b, the parallel and perpendicular ion temperatures; c, the observed and (reconnection) predicted plasma flow speed; d, the observed and predicted (in black) plasma velocity in LMN coordinates; and e, the magnetic field in LMN coordinates. The anti-parallel component of the magnetic field (B L ) was nearly equal in magnitude on the two sides of the exhaust. The guide field (along the M or X-line direction) was ,4 nT, or 35% of the anti-parallel field. The flow velocity perpendicular to the magnetic field (v N ) was nearly constant (except for a small shift of 5 km s 21 ) across the bifurcated current sheet. The 5 km s 21 shift in v N corresponds to a normal reconnection inflow v N,rec of 2.5 km s <ref type="bibr" target="#b20">21</ref> (or a dimensionless reconnection rate, v N,rec /v Alfven , of 3.3%). The flow predictions in c and d are based on the local magnetic field measurements and the reference velocity and magnetic field: 25, 26). The positive (negative) sign is chosen for the leading (trailing) edge of the bifurcated current sheet. a ¼ (p // 2 p ' )m 0 /B 2 is the pressure anisotropy factor, r is the plasma mass density. The left (right) dashed line in c and d denotes the reference times for the prediction of reconnection flow acceleration at the leading (trailing) edge of the exhaust. The leading and trailing edge predictions merge at 03:59 <ref type="bibr">UT.</ref> The agreement between the predicted and observed flow is excellent in both the magnitude (c) and the components of the velocity (d). This level of agreement is similar to other reconnection exhaust events in the solar wind <ref type="bibr" target="#b16">17</ref> .</p><p>Author Information Reprints and permissions information is available at npg.nature.com/reprintsandpermissions. The authors declare no competing financial interests. Correspondence and requests for materials should be addressed to T.D.P. (phan@ssl.berkeley.edu).</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Pare</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magnetic Reconnection in Space and Laboratory Plasmas</title>
+				<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Geophysical Union</publisher>
+			<date type="published" when="1984">1984</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="341" to="346" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Cowley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magnetic Reconnection in Space and Laboratory Plasmas</title>
+				<editor>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Hones</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Geophysical Union</publisher>
+			<date type="published" when="1984">1984</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="375" to="378" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Priest</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Magnetic Reconnection in Space and Laboratory Plasmas</title>
+				<meeting><address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>American Geophysical Union</publisher>
+			<date type="published" when="1984">1984</date>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="63" to="78" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Formation of very strongly magnetized neutron stars: implications for gamma-ray bursts</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Duncan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thompson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. J</title>
+		<imprint>
+			<biblScope unit="volume">392</biblScope>
+			<biblScope unit="page" from="L9" to="L13" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">An exceptionally bright flare from SGR 1806--20 and the origins of short-duration g-ray bursts</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hurley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">434</biblScope>
+			<biblScope unit="page" from="1098" to="1103" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Intergalactic magnetic fields</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Kronberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Today</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="40" to="46" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Can random reconnection on the magnetopause produce the low latitude boundary layer?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nishida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="227" to="230" />
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Initial ISEE magnetometer results: Magnetopause observations</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Elphic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="681" to="715" />
+			<date type="published" when="1978">1978</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Plasma and magnetic characteristics of magnetic flux transfer events</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="2159" to="2168" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Cluster PEACE observations of electrons during magnetospheric flux transfer events</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Owen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1509" to="1522" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Anatomy of a flux transfer event seen by Cluster</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004GL020134</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Spatial scale of high-speed flows in the plasma sheet observed by Cluster</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nakamura</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004GL019558</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Cluster observations of complex 3D magnetic structures at the magnetopause</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Louarn</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004GL020625</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Extended magnetic reconnection at the Earth&apos;s magnetopause from detection of bi-directional jets</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">404</biblScope>
+			<biblScope unit="page" from="848" to="850" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Cusp aurora dependence on IMF B z</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Fuselier</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2001JA900165</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">1111</biblScope>
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The location and rate of dayside reconnection during an interval of southward interplanetary magnetic field</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pinnock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1467" to="1482" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Direct evidence for magnetic reconnection in the solar wind near 1AU</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004JA010809</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Magnetic disconnection from the Sun: Observations of a reconnection exhaust in the solar wind at the heliospheric current sheet</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2005GL022406</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">-50, NASA Science and Technical Information Division</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Petscheck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AAS-NASA Symp. on the Physics of Solar Flares</title>
+		<title level="s">NASA Spec. Publ. SP</title>
+		<meeting><address><addrLine>Greenbelt, Maryland) (ed. Hess, W. N.; Washington DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1963-10-30">28--30 October 1963. 1964</date>
+			<biblScope unit="page" from="425" to="437" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Jr Magnetopause structure and attitude from Explorer 12 observations</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><surname>O ¨</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Cahill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="171" to="183" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Magnetopause reconnection rate</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><surname>O ¨</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">79</biblScope>
+			<biblScope unit="page" from="1546" to="1549" />
+			<date type="published" when="1974">1974</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Evidence for quasi-stationary reconnection at the dayside magnetopause</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page" from="2147" to="2158" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Continuous magnetic reconnection at Earth&apos;s magnetopause</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Frey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">426</biblScope>
+			<biblScope unit="page" from="533" to="537" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Cluster observations of continuous reconnection at the magnetopause under steady interplanetary magnetic field conditions</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="2355" to="2367" />
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">The magnetopause for large magnetic shear: AMPTE/IRM observations</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page" from="11099" to="11115" />
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Discontinuities in an anisotropic plasma and their identification in the solar wind</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Hudson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planet. Space Sci</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1611" to="1622" />
+			<date type="published" when="1970">1970</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,14 @@
+# Name: 105194angeo393212021_bibheliotech_V1;
+# Creation Date: 2022-07-20T11:35:14.373435;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper "https://doi.org/10.5194/angeo-39-321-2021". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Parameter 1: id:column1; name:DOI; size:1; type:char;
+# Parameter 2: id:column2; name:SATS; size:1; type:char;
+# Parameter 3: id:column3; name:INSTS; size:1; type:char;
+# Parameter 4: id:column4; name:REGS; size:1; type:char;
+# Parameter 5: id:column5; name:D; size:1; type:int;
+# Parameter 6: id:column6; name:R; size:1; type:int;
+# Parameter 7: id:column7; name:SO; size:1; type:int;
+# Parameter 8: id:column8; name:occur_sat; size:1; type:int;
+# Parameter 9: id:column9; name:nb_durations; size:1; type:int;
+# Parameter 10: id:column10; name:conf; size:1; type:float;
+2009-07-23T17:30:00.000 2009-07-23T17:30:59.000 https://doi.org/10.5194/angeo-39-321-2021 "Thule" "" "Earth.NearSurface" 4114 1 1 1 14 1.0 

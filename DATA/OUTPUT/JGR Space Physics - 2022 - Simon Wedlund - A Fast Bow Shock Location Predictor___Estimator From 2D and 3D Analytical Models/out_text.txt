@@ -1,0 +1,2403 @@
+JGR Space Physics
+
+RESEARCH ARTICLE
+10.1029/2021JA029942
+
+Key Points:
+
+e A simple predictor-corrector
+algorithm based on magnetic field
+data is presented to locate the bow
+shock position in spacecraft data
+
+e The method, biased toward quasiperpendicular crossings, is general
+and applicable to all planetary bodies
+including Mars, Venus, and Earth
+
+e More than 14,900 bow shock
+
+crossings are identified with MAVEN
+for Mars Years 32—35, with 2D/3D fits
+
+revealing North-South asymmetries
+
+Correspondence to:
+
+C. Simon Wedlund,
+cyril.simon.wedlund @ gmail.com
+
+Citation:
+
+Simon Wedlund, C., Volwerk, M., Beth,
+A., Mazelle, C., Méstl, C., Halekas, J.,
+et al. (2022). A fast bow shock location
+predictor-estimator from 2D and 3D
+analytical models: Application to Mars
+and the MAVEN mission. Journal of
+Geophysical Research: Space Physics,
+127, e2021JA029942. https://doi.
+org/10.1029/2021JA029942
+
+Received 6 SEP 2021
+Accepted 21 DEC 2021
+
+©2022. The Authors.
+
+This is an open access article under
+
+the terms of the Creative Commons
+Attribution License, which permits use,
+distribution and reproduction in any
+medium, provided the original work is
+properly cited.
+
+SIMON WEDLUND ET AL.
+
+® Check for updates
+
+Ah = a il ADVANCING
+PAIS sence science
+
+ap
+
+A Fast Bow Shock Location Predictor-Estimator From 2D and
+3D Analytical Models: Application to Mars and the MAVEN
+Mission
+
+Cyril Simon Wedlund! ©, Martin Volwerk! ©, Arnaud Beth? ©, Christian Mazelle? ©,
+
+Christian Méstl! ©, Jasper Halekas* ©, Jacob R. Gruesbeck® ©, and Diana Rojas-Castillo® ©
+
+'Space Research Institute, Austrian Academy of Sciences, Graz, Austria, 7Department of Physics, Umea University, Umea,
+Sweden, *Institut de Recherche en Astrophysique et Planétologie, Université de Toulouse, CNRS, UPS, CNES, Toulouse,
+France, *Department of Physics and Astronomy, University of lowa, Iowa City, IA, USA, °>NASA Goddard Space Flight
+Center, Laboratory for Planetary Magnetospheres, Greenbelt, MD, USA, “Instituto de Geofisica, Universidad Nacional
+Autonoma de México, Coyoacan, Mexico
+
+Abstract We present fast algorithms to automatically estimate the statistical position of the bow shock
+from spacecraft data, using existing analytical two-dimensional (2D) and three-dimensional (3D) models of
+the shock surface. We derive expressions of the standoff distances in 2D and 3D and of the normal to the bow
+shock at any given point on it. Two simple bow shock detection algorithms are constructed, one solely based
+on a geometrical predictor from existing models, the other using this predicted position to further refine it with
+the help of magnetometer data, an instrument flown on many planetary missions. Both empirical techniques are
+applicable to any planetary environment with a defined shock structure. Applied to the Martian environment
+and the NASA/MAVEN mission, the predicted shock position is on average within 0.15 planetary radius R, of
+the bow shock crossing. Using the predictor-corrector algorithm, this estimate is further refined to within a few
+minutes of the true crossing (~0.05R,). Between 2014 and 2021, we detect 14,929 clear bow shock crossings,
+predominantly quasi-perpendicular. Thanks to 2D conic and 3D quadratic fits, we investigate the variability of
+the shock surface with respect to Mars Years (MY), solar longitude (Ls), and solar EUV flux levels. Although
+asymmetry in Y and Z Mars Solar Orbital coordinates is on average small, we show that for MY32 and MY35,
+Ls = [135°—225°] and high solar flux, it can become particularly noticeable, and is superimposed to the usual
+North-South asymmetry due in part to the presence of crustal magnetic fields.
+
+1. Introduction
+
+Historically, planetary bow shocks, their position, size, and shape, have been characterized statistically with the
+use of (empirical) analytical fitting models in two-dimensional (2D) or three-dimensional (3D) spatial coordinates. A classical starting point for characterizing the Earth’s bow shock in 3D includes the seminal work of
+Formisano (1979), who investigated the asymmetry of the shock with respect to the apparent solar wind flow
+direction, with the use of quadratic surface fits with nine free parameters. In parallel, other studies, such as that
+of Slavin and Holzer (1981) relied on a simple polar equation assuming axisymmetry along the Sun-planet line,
+corrected by the apparent motion of the solar wind in the rest frame of the planet, the so-called aberrated X axis.
+The 2D approach has the merit of needing only three free parameters but ignores the potential asymmetries
+of the shock as, for example, seen at Earth’s bow shock (e.g., Formisano, 1979; Merka et al., 2005; Peredo
+et al., 1995, 1993).
+
+More advanced physics-based models have also been proposed as a complement to those empirical attempts. A
+good introduction into analytical models of the bow shock, based on gasdynamic theory and magnetohydrodynamics solutions, is given in Verigin, Slavin, Szabo, Gombosi, et al. (2003) and recently in Kotova et al. (2021).
+These studies present analytical functions describing the curvature, bluntness, and skewing angle of the shock
+structure, which are arguably better suited to the fitting of the shock flanks; they are applicable to many planetary
+bow shock conditions.
+
+At Mars, due to the sparsity of early data and the non-collisional nature of the shock, the tendency has been to use
+in priority the simplest fitting model available with least free parameters, that is, an empirical 2D polar equation
+(Edberg et al., 2008; Hall et al., 2019; Russell, 1977; Slavin et al., 1991; Trotignon et al., 2006). Only recently
+
+1 of 31
+Ast it ‘ 0
+ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+with the NASA/Mars Atmospheric and Volatile EvolutioN (MAVEN) mission were quadratic fits used to characterize the general structure of the Martian bow shock, with Gruesbeck et al. (2018) providing fits to a careful
+subset of identified crossings in the first year of operations of the MAVEN mission.
+
+In recent years, many studies have attempted to characterize the Martian shock position and shape and its evolution under various solar wind and EUV conditions (Hall et al., 2019 and references therein). Two missions have
+been used for this goal, the ESA/Mars Express mission and the NASA/MAVEN mission. Mars Express (hereafter
+MEX for brevity) was launched in 2003 and has been orbiting Mars since 2004, whereas MAVEN was launched
+10 yr later in November 2013 and has been orbiting the planet since 22 September 2014. MAVEN’s scientific
+payload includes among others a fluxgate magnetometer (MAG, Connerney et al., 2015), two ion spectrometers
+including the Solar Wind Ion Analyzer (SWIA, Halekas et al., 2015) and the Suprathermal and Thermal [on
+Composition instrument (STATIC, McFadden et al., 2015), and an electron spectrometer (Solar Wind Electron
+Analyzer, SWEA, Mitchell et al., 2016). MEX unfortunately does not carry any magnetometer but includes a
+plasma suite (ions and electrons) as part of the ASPERA-3 package (Barabash et al., 2006), which was used to
+investigate the plasma boundaries at Mars (Dubinin et al., 2006). Both missions aim at studying the upper atmosphere and the magnetospheric environment of Mars.
+
+Detections of the bow shock in spacecraft data have relied on manual determinations using as many instruments (including plasma instruments and magnetometer) as available to avoid ambiguous detections (Gruesbeck
+et al., 2018). Recently, Némec et al. (2020) proposed a region identification scheme based on selected plasma
+parameters and applied their technique to the MAVEN dataset in order to identify upstream solar wind, magnetosheath, and magnetosphere regions crossed by the spacecraft. This method has the advantage of mapping these
+regions statistically, removing certain biases usually associated with manually picked individual boundary crossings which may be orbit-dependent. However, it requires the reliable knowledge of flow speed, ion density and
+magnetic field, which may not all always be available. A parallel trend has also been to apply machine-learning
+techniques to plasma data for the labeling and identification of the regions crossed by a given spacecraft (see
+Breuillard et al., 2020; Hall et al., 2016; for Mars and Earth, respectively), as part of online databases (Génot
+et al., 2021). However, these studies require extensive amounts of time and patience, as well as large computer
+resources to become efficient. Sometimes, a precise determination of the shock position in the data is not of
+paramount importance and simpler, faster, more straightforward approaches, such as the one presented in this
+study, can be advantageous. This may be the case in statistical studies where one of those regions needs to be
+systematically excluded, as in space weather databases monitoring the solar wind. This can also be of interest
+when areas around the predicted bow shock must be excluded for qualified reasons, as in wave studies focusing
+on regions outside of foreshock and shock wake structures, or when a first guess of the location and geometry of
+the shock is needed.
+
+We present in this study new, simple analytical algorithms using two types of historical fitting techniques (2D
+and 3D), which make it possible to quickly estimate from spacecraft spatial coordinates the statistical geometrical
+position of the shock in planetary atmospheres. Special emphasis on the Martian environment and the MAVEN
+dataset is given throughout, however the method is applicable to any planetary environment and spacecraft dataset. This first crude estimator can be refined further by applying additional criteria, for example, on the magnetic
+field amplitude measured by the MAVEN spacecraft. This provides a fast means to approximately and quite
+reliably identify the position of the shock so that solar wind and magnetosheath regions can be studied on a statistical level in the data. Moreover, other characteristics of the shock crossing, such as the quasi-parallel (q,) or
+quasi-perpendicular (g¢,) geometry of the shock can easily be obtained by deriving the perpendicular direction to
+the shock at any point on the surface.
+
+After a review of 2D and 3D bow shock fitting models at Mars in Section 2, we present in a consistent manner the
+leading equations behind these models in 2D and 3D, give the analytical expressions for standoff distances, and
+propose a geometric calculation of the normal to the bow shock at any point on the surface. Starting in Section 3,
+we introduce a predictor algorithm for a fast estimation of the shock position in spacecraft orbital coordinates
+and its timing (Section 3.1). In Section 3.2, we propose a simple correction on this position and timing with the
+sole help of magnetometer data (predictor-corrector algorithm). Application to the MAVEN MAG dataset is
+then given as validation on a few examples and then extended to the whole available dataset. Finally, as a result
+of the automatic detection proposed here, statistical analytical fits are given for the MAVEN mission between
+
+2 of 31
+Ast it ° °
+ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+Aberration angle for modified MSO coordinates
+
+4.5
+
+| |
+22 22.5 23 23.5 24 24.5 25 25.5 26 26.5
+Mars orbital velocity [km/s]
+
+Figure 1. Aberration angle (in °) with respect to the orbital velocity of Mars (in km s~') and the solar wind mean speed
+(color-coded isocontours, in km s~').
+
+November 2014 and February 2021, with a discussion of the shock’s asymmetry based on terminator and standoff
+distances. Applications for space weather-related databases are also mentioned.
+
+2. Bow Shock Models at Mars
+
+In this section, following a survey of existing fitting models at Mars, we present comprehensive formulae for analytical fits in 2D polar coordinates and 3D Cartesian coordinates, with a calculation of bow shock subsolar and
+terminator standoff distances. We also show how to calculate the normal to the surface at a given point in space,
+in order to estimate the q, — q, shock conditions.
+
+2.1. Coordinate Systems and Solar Wind Flow Aberration
+
+All spacecraft coordinates in this study are in Mars Solar Orbital coordinates (MSO) for simplicity, in accordance
+with most previous studies. In the MSO system, identical to the Sun-state coordinate system, the +X\so9 axis
+points toward the Sun from the planet’s center, +Z,,<, 1s toward Mars’ North pole and perpendicular to the orbital
+plane defined as the X\,.9—Yysq plane passing through the center of Mars, and Y,,.. completes the orthogonal
+system.
+
+Because of the orbital motion of Mars with respect to the average direction of the solar wind, the apparent direction of the solar wind in the rest frame of the planet deviates from the anti-sunward direction. As a result, an anti-clockwise rotation by an angle a around the Z axis must be applied so that the bow shock’s major axis is aligned
+with respect to the X axis along the solar wind flow. This aberration, first seen in cometary tails and at the origin
+of the hypothesis by Biermann of a stellar wind (Biermann, 1951), 1s taken into account in the so-called aberrated
+MSO coordinates, denoted X\ygos Yugo ANA Zyyg9 (although Z is left unchanged by the transformation). To unclutter notations, the “MSO” subscript is now dropped. Following Formisano et al. (1979), Slavin and Holzer (1981)
+define the angle a as a = arctan (V,/vsw) where V,, is Mars’ orbital velocity and Uy is the solar wind velocity,
+for example expressed in km s~'. Mars’ average orbital velocity is V, = 24.078? km s~'. For the maximum value
+(26.5 km s~'), the angle is a = 3.8° for a typical solar wind speed of 400 km s~!. The angle assumed by all studies
+except those of Slavin and Holzer (1981) and Slavin et al. (1991) is 4°. In Slavin and Holzer (1981), the aberration
+angle was chosen to be varying with solar wind speed conditions. In Slavin et al. (1991), a = 3.2°. Figure | shows
+
+the aberration angle with respect to orbital velocity (abscissa) and to solar wind velocity (color code).
+
+3 of 31
+Arr a °
+dened Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Table 1
+Statistical Studies on the Martian Bow Shock Position Replaced Chronologically (With Respect to In-Situ Observations) in the Context of Solar Activity and Mars
+Year (MY)
+
+References Spacecraft Years N Solar activity Cycle # Start Max. MY
+Slavin and Holzer (1981) Mariner4 1965 Z Low 20 1964 1968 6
+Russell (1977)* Mars 2, 3, 5 1965-1974 11 Low-Medium 20 1964 1968 9-11
+Slavin and Holzer (1981) Mars 2, 3 1971-1972 10 Medium 20 1964 1968 9-10
+Slavin and Holzer (1981) Mars 5 1974 4 Low 20 1964 1968 11
+Slavin et al. (1991) Mariner 4, Mars 2, 3, 5 1965-1974 24 Low-Medium 20 1964 1968 6-11
+Schwingenschuh et al. (1990) Phobos 2 1989 ~100 High 22 1986 1989 19
+Slavin et al. (1991) Phobos 2 1989 94 High 22 1986 1989 19
+Zhang et al. (1991) Phobos 2 1989 oy High 22 1986 1989 19
+Trotignon et al. (1991) Phobos 2 1989 26 High ): 1986 1989 19
+Trotignon et al. (1993)° Phobos 2 1989 126 High 22 1986 1989 19
+Verigin et al. (1993), (1999)° Phobos 2 1989 126 High 22 1986 1989 19
+Vignes et al. (2000) MGS 1997-1998 450 Low 23 1996 2001 23-24
+Trotignon et al. (2006) MGS 09/1997-02/1999 573 Low-Medium 23 1996 2001 23-24
+Edberg et al. (2008) MGS 09/1997-02/1999 619 Low-Medium 23 1996 2001 23-24
+Hall et al. (2016), (2019)4 MEX 2004-2008 4,422 Medium-Low 23 1996 2001 27-29
+Ramstad et al. (2017)* MEX 11/2005—12/2016 2,166 High-Medium 23, 24 1996, 2008 2001, 2014 27-33
+Hall et al. (2016), (2019)! MEX 2008-2015 7,669 Low-High 24 2008 2014 30-32
+Hall et al. (2019) MEX 2015-—12/2017 1,494 High-Medium 24 2008 2014 33
+Halekas et al. (2017)" MAVEN 10/2014—-05/2016 — High-Medium 24 2008 2014 32-33
+Gruesbeck et al. (2018) MAVEN 11/2014—04/2017 1,799 High-Medium 24 2008 2014 32-34
+Némec et al. (2020)! MAVEN 11/2014—02/2020 — High-low 24 2008 2014 32-35
+
+Note. N is the number of bow shock crossings considered in each study. MGS, Mars Global Surveyor. MEX, Mars Express. Column "Start" marks the start year of the
+corresponding solar cycle, whereas column "Max." gives the year when the maximum of the solar cycle occurred.
+
+‘Observations by Gringauz et al. (1976) and analyzed further by Russell (1977). "In Trotignon et al. (2006), 127 Phobos 2 crossings of the bow shock were reported,
+that is, one more than in Trotignon et al. (1993). ‘Number of observations from Phobos 2 used in this study was presumably the same as in Trotignon et al. (1993). “Data
+from Hall et al. (2019), MY27—29, Table 3. with respect to Mars Years (MY). About 7,000 orbits were first manually examined, “out of which 1,083 orbit inbound
+and outbound segments with identified BS, IMB [...] crossings were included.” Orbital coverage of MEX is shown in their Figure 9. No discrimination with solar
+cycle or MY is given, although EUV flux and solar-wind parameter dependence are studied. ‘Data from Hall et al. (2019), MY30-32, Table 3 with respect to MY.
+MY32 runs from 31 July 2013 to 17 June 2015. *Data from Hall et al. (2019), MY33, Table 3 with respect to MY. MY33 runs from 18 June 2015 to 4 May 2017. "Bow
+shock variations are obtained by fitting 2D-gridded datasets of average plasma density jumps through the shock location as measured with MAVEN/SWIA and are
+
+discriminated against magnetosonic Mach number M,,
+
+EUV flux, and dynamic pressure. ‘Number of individual crossings not disclosed due to the nature of the region
+
+Ss?
+
+detection scheme used. A total of 2,040 full orbits reported.
+
+SIMON WEDLUND ET AL.
+
+2.2. Parametric Models
+
+Table 1 chronologically lists past bow shock studies at Mars and their characteristics in terms of solar activity,
+solar cycle number, and number of observations, including the recent MEX and MAVEN surveys.
+
+Bow shock models at Mars have been proposed since the end of the 1970s, including (but not limited to): Russell (1977), Slavin and Holzer (1981), Slavin et al. (1991), Schwingenschuh et al. (1990), Trotignon et al. (1991),
+Zhang, Schwingenschuh, Russell, and Luhmann (1991), Zhang, Schwingenschuh, Lichtenegger, et al. (1991),
+Trotignon et al. (1993), Verigin et al. (1999), Vignes et al. (2000), Trotignon et al. (2006), and Edberg
+et al., 2008, 2010. These studies were performed with several spacecraft including Viking, Mars Global Surveyor
+(MGS) and Phobos-2, and for varying solar conditions. Gringauz et al. (1976) quoted in Russell (1977) reported
+11 crossings for the Russian Mars-2, 3, 5 satellites, but Slavin and Holzer (1981) later reanalyzed the datasets and
+found 14 crossings in total. Slavin et al. (1991) reported 94 crossings for Phobos 2, upped to 126 by Trotignon
+et al. (1993), as later reported in Trotignon et al. (2006). Using the same dataset, Verigin et al. (1993) reported
+
+a weak dependence of terminator bow shock position on solar wind dynamic pressure P..; additionally in an
+
+sw?
+
+4 of 31
+Ast it ° °
+ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+analogy with magnetized planets regarding the dependence of the magnetopause thickness to P.., these authors
+
+sw?
+
+anticipated the discovery of crustal magnetic field sources at Mars, later vindicated with MGS measurements
+(Acufia et al., 1998).
+
+In contrast with what was found at Venus, Slavin and Holzer (1981) and later Vignes et al., 2000, 2002; using
+MGS and data from previous mission suggested that the mean bow shock standoff distance was likely independent of the solar activity. Slavin et al. (1991) showed that the terminator distance, which is a marker of the swelling
+of the cavity flanks, varied by as much as 11% between the Mars-2, 3, 5 observations (low activity) and the
+Phobos-2 observations (high activity), although the number of crossings for each mission largely differed. Mars
+EXpress (MEX), with its very long activity spanning the end of solar cycle 23 and cycle 24 up to now (toward the
+beginning of new cycle 25), had the best chance to conclusively solve this aspect: Hall et al. (2019) found that for
+the years 2004—2017, the terminator distance underwent variations up to ~7%, in agreement with the preliminary
+results of Trotignon et al. (1993). Of note, Mazelle et al. (2004) made a review of all available measurements
+before MEX started observing, and discussed the solar cycle variations and the differences observed with Venus
+(for which up to 35% increases of the bow shock location in the terminator plane with increasing activity have
+been reported, see Edberg et al., 2010; Russell et al., 1988; Zhang et al., 2008).
+
+Of great import, Edberg et al. (2009, 2010) used MGS and MEX data in combination with ACE data extrapolated
+to Mars to study the dependence of the bow shock location to solar EUV flux and magnetosonic Mach number
+(noted M_.). They pointed out that the shape of the magnetosonic shock wave depends on the ratio of the solar
+wind speed to the magnetosonic speed. Later, for the entire period 2004—2015, Hall et al. (2016) identified 11,861
+crossings in the MEX database, using electron spectrometer data with machine-learning algorithms. This study
+was extended by Hall et al. (2019) up to 2017 with a total of 13,585 crossings, totaling 13 yr of operations of
+MEX. Both works used a standard 2D conic fit depending on the Mars Year (MY), with observed variations up to
+a few percent in terms of standoff bow shock distance. In addition to solar wind cycle variations and hemispherical changes from a 2D perspective, these studies confirmed the dependence of the shock position with P,,, and,
+most drastically, with solar EUV flux. Correspondingly, Ramstad et al. (2017) studied with coincident electron
+and ion data a subset of only 1,083 inbound and outbound MEX orbits for the period 2005-2016. They evaluated
+the dependence of the Induced Magnetospheric Boundary (IMB) and bow shock (BS) to EUV flux and the solar
+wind’s lowest moments (density and bulk velocity), showing that the BS mostly expands and contracts with the
+IMB. However, they also found that the BS swelling in the flank due to increased EUV fluxes cannot be solely
+explained by a corresponding swelling of the IMB. Simultaneously with MAVEN with both magnetometer and
+10n measurements, Halekas et al. (2017) investigated how the Martian magnetosphere and bow shock responded
+to EUV flux, M,., and P,,, between October 2014 and May 2016 (0.85 MY). In agreement with previous studies,
+they showed that the shock inflates with increasing EUV flux and contracts with increasing dynamic pressure
+and M
+
+ms?
+
+this in turn leads to EUV flux and dynamic pressure competing against one another because of their
+common | /d ; dependence on heliocentric distance d,.
+
+Recently, Némec et al. (2020) used MAVEN plasma and magnetometer data to construct maps of the solar wind/
+EUV flux, and crustal
+field intensities, were in good agreement with the average fits of Trotignon et al. (2006), with appreciable differences in terminator extensions as compared to the results of Ramstad et al. (2017).
+
+magnetosheath regions. Their modeled bow shock locations, explicitly dependent on P
+
+sw?
+
+Broadly speaking, two approaches fitting the shape of bow shocks have historically been employed, one using a
+simple 2D polar form (e.g., Slavin & Holzer, 1981), the other the 3D general Cartesian conic form (e.g., Formisano, 1979; Formisano et al., 1979). Semi-empirical models based on gasdynamic and MHD predictions such as
+those of Verigin et al., 1993, 1999 are not discussed in the following.
+
+2.2.1. The 2D Polar Form
+
+Assuming that a full-formed bow shock in aberrated coordinates is symmetric with respect to the X’ axis, the 3D
+shape of the bow shock can be reduced to a 2D problem in the (X’, VY” + Z’*) plane. All Martian studies except
+that of Gruesbeck et al. (2018) have made this assumption. A simple 2D conic of revolution (usually a parabola or
+a hyperbola), symmetric around the aberrated MSO axis X’ and decentered from its focus x,, is shown in Figure 2.
+Such a 2D conic takes the parametric form (e.g., Hall et al., 2019):
+
+5 of 31
+[Ves
+
+AW’ Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+V(Y?+Z7)
+
+L
+
+r= —————__,
+1+e cos 0
+
+(1)
+
+with : r= \/(X'’ —xry + Y?4Z”, (2)
+! —
+
+and : cos 0= Aa xr (3)
+r
+
+where € is the conic’s eccentricity, L the semilatus rectum (called terminator
+crossing by Volwerk et al., 2016; Zhang et al., 2008, at Venus, because the focus
+is taken at the center of the planet) and 0 the angle measured from the focus of
+the conic, typically within the [—z/2, z/2] range. This range of angles depends
+on the nature of the conic section: for a parabola (e = 1) 8 € | — z, z[(bor
+Figure 2. Typical 2D conic bow shock shape in the aberrated ders excluded), for an ellipse (« < 1) 86 € ]—2a,z], and for a hyperbola
+(X’, VY” + Z’) coordinate system. For a point M on the shock surface, p (e > 1) 44 € J0,2/2[| cosO) = 1/e, and 0 €] — 4, A[ U ]00,2z — Oo[.
+
+is the Euclidean distance to the shock from the center of the planet of radius
+R,, and r is the distance to the shock surface from the focus x, of the conic
+with semilatus rectum L and making an angle 0 with the X’ direction, so that
+Equation (1) holds. 8 is the usual polar angle, with respect to the center of
+Mars. R,, and R,, are the standoff subsolar and terminator distances.
+
+SIMON WEDLUND ET AL.
+
+The equivalent rectangular (Cartesian) form of this equation is (Trotignon
+et al., 2006):
+
+¥"? 4 Z!? — (2-1) (X'!—xr) +2eL(X’-xr)-V=0. (4)
+
+In this representation, Trotignon et al. (2006) derived two additional useful quantities, the standoff shock distance along the X axis, R,. (also called
+subsolar aerocentric distance in Trotignon et al., 2006) and the standoff terminator distance R,, along the cylindrical coordinate VY” + Z” (which is
+none other than the diameter of the tail at X’ = O divided by 2, or as in Russell, 1977, the “dawn radius’’):
+
+L
+Rss = *r ’
+XP l+e (9)
+
+Ra = 4/ L? + (€? — 1) x4, + 2€ L xp. (6)
+
+We can derive another parameter of interest, that 1s, the aperture of the Mach cone related to the shock structure—the limiting Mach cone angle (Verigin, Slavin, Szabo, Kotova, & Gombosi, 2003). In the gasdynamic
+approach, it is defined as e = arcsin(1/M,), where My = Ugy/Us; is the sonic Mach number. The sonic speed is
+vs = Vy P/p, with p the solar wind ion mass density, y = 5/3 the ratio of specific heats, and P = n,, k,(T, + T,)
+the solar wind thermal pressure, with 7, and T, the electron and ion temperatures, respectively. For a hyperbola
+(e>1), the limiting Mach cone angle is exactly the angle made by the asymptotes of the hyperbola (Slavin
+et al., 1984):
+
+o = arctan ( e2 — 1) (7)
+A
+
+with : Ag = Acle (8)
+e~ — |
+
+as uncertainty. In a canonical form for the hyperbola, with a the distance from the nose to the intersection of the
+asymptotes on the X’ axis, and b that from the shock nose to the asymptote on the Y’ axis, arctan (b/a). Since,
+by definition e = 1/1 + b*/a’, the substitution readily yields expression (7). It is noteworthy to remark that for
+€ close to 1, the uncertainty increases to infinity; any determination of g is thus unreliable for quasi-parabolic
+curves.
+
+For the fit, Slavin and Holzer (1981) and Slavin et al. (1991) rewrote Equation (1) as y = ax + b (posing y = I/r,
+x = cos@, a = e/L, and b = 1/L) and performed simple linear regressions for a range of focus locations. As pointed out by Vignes et al. (2000), this may result in fitting biases when observations are widely disparate in their
+location: in this case direct fitting methods to Equation (1) should be preferred. With a direct polar fit to MGS
+
+6 of 31
+vrij
+rwJ\
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Journal of Geophysical Research: Space Physics
+
+10.1029/2021JA029942
+
+Table 2
+
+Summary of Martian Bow Shock 2D Conic Parameters
+
+Reference C L [R,] ap [R,] R,. [R,] ihe [R,] Qa Nature oe [°]
+Russell (1977)* 0.99 + 0.11 2.985 0 1.50 + 0.15 3.00 + 0.13 0 Ellipse —
+Slavin and Holzer (1981)? 0.94 + 0.04 1.94 + 0.02 0.5 1.50 + 0.04 2230" tan~! — Ellipse =
+Slavin et al. (1991)° 1.02 1.68 0.7 1.55 oe tan— Hyperbola 11.4+42.9
+Schwingenschuh et al. (1990) 0.85 272 0 1.47 + 0.03 22 3.8° Ellipse —
+Trotignon et al. (1991) 0.95 + 0.10 2.17 + 0.03 0.5 1.62 + 0.07 2.60™ 4° Ellipse —
+Trotignon et al. (1993) 1.02 + 0.01 2.17 + 0.03 0.5 1.57 + 0.03 2.6 4° Hyperbola 11.4+2.8
+Vignes et al. (2000)? 1.03 + 0.01 2.04 + 0.02 0.64 + 0.02 1.64 + 0.08 2.62 + 0.09 4° Hyperbola 13.9+2.3
+Vignes et al. (2000)° 1.02 + 0.02 1.93 + 0.01 0.72 1.67 + 0.03 2.56 + 0.06 4° Hyperbola 11.4+5.6
+Trotignon et al. (2006) 1.026 + 0.002 2.081 + 0.006 0.6 1.63 + 0.01 2.63 + 0.01 4° Hyperbola 12.9+0.5
+Edberg et al. (2008)! 1.05 + 0.04 2.10 + 0.09 0.55 + 0.12 1.58 + 0.18 2.69™ 4° Hyperbola 17.8+6.8
+Hall et al. (2016) 1.01+0.11 1.82 + 0.08 0.74705 1.65705 2.467 4° Hyperbola —K
+Halekas et al. (2017) 1.0 2.01—2.54 0.6 1.6-1.9! 25 =o 4° Parabola —
+Ramstad et al. (2017)* 1.022 1.48 0.85 1.58 2.19 (4°) Hyperbola 11.9+2.7
+Hall et al. (2019)! 0.998 + 0.001 1.802 + 0.002 0.76 1.662! 2.445 + 0.003 4° Ellipse —
+
+All (one per mission)! 1.016 + 0.012 2.01 + 0.25 0.61 + 0.10 1.61 + 0.08 2.56 + 0.20 4° Hyperbola 1344
+
+Note. Pre-Mars Express results were already summarized in Trotignon et al. (2006), Table 1. The aberration angle a is given for each reference. g is the limiting Mach
+cone angle, calculated by formula (7) in the case of a hyperbolic shape. The mean value for each mission is also given, with Mars 2, 3, and 5 and Mariner 4 (Slavin
+et al., 1991), Phobos 2 (Trotignon et al., 1993), Mars Global Surveyor (MGS; Edberg et al., 2008), and Mars Express (MEX; with Hall et al., 2016, 2019). The planetary
+radius of Mars is by definition R, = 3,389.5 km.
+
+“Because the Mars 2, 3, and 5 measurements reported by Gringauz et al., 1976; in total 11 crossings did not specify local times, aberration angle a was assumed to be
+zero. "These authors use the full definition of the aberration angle, resulting in a = arctan (V, / Usw)s in contrast to the more recent studies. See Section 2.1. ‘Mariner 4,
+and Mars 2, 3, 5 data only here. Uncertainties on ¢ fitted values assumed to be 1%. “Direct fit” method with all three parameters varying simultaneously. “‘Slavin’s
+method,” using a linear regression in (1/r,cos 9) space. ‘Note that e = 1.03 matches better with Figure 1 of Edberg et al. (2008), for which the Mach cone aperture would
+instead be g = 13.9. *Fits were performed on 2D-gridded density data, co-depending on M,,, and EUV flux levels on the one hand, and solar wind dynamic pressure
+and EUV flux levels on the other. The coordinate system adopted by Halekas et al. (2017) was the Mars Solar Electric (MSE) system, with the X axis lying anti-parallel
+to the solar wind flow. "Ramstad et al. (2017) use the following rectangular function (required to be cylindrically symmetric with respect to the solar wind direction):
+p=Ve—-1 V(x—Rs —6) —C?, with p the radial distance to the bow shock on the Y’ axis from the center of Mars, R., the subsolar standoff bow shock distance
+on the X’ axis, and ¢ the so-called scale length. This function is valid Vx # R,, since p(y = 0) = R,,. By definition, Rig = p(x = 0) = Ve? —1 VCRs + cy -—c.¢
+is a constant equal to 33.54 R, derived in Ramstad et al. (2017) from the bow shock model values for R,,, R,,, and € of Vignes et al. (2000) and can be calculated as
+G¢=- TR (Ri — R., (ec? — 1)). The original values of R., and € in their study were fitted to a function a n>, (Usw /100)° + d; we have assumed here nominal conditions
+(Nsw, Usw) = (2 cm3,400 km s7!) for simplicity. We calculate the semilatus rectum as L = (R?, —(e? — 1) R2,) /(2Rss) from formulae (5) and (6). Uncertainties on
+€ fitted values assumed to be 1%. 'Here, we only recall the results for all MYs (MY27-33). Individual MYs have eccentricities below 1 (ellipse), except for MY28—29
+(hyperbola). /That is, Mariner 4 and Mars 2, 3, and 5 (Slavin et al., 1991), Phobos 2 (Trotignon et al., 1993), MGS (Edberg et al., 2008), MEX (Hall et al., 2019), and
+MAVEN (Halekas et al., 2017). The listed uncertainties are the standard deviations of the series. Accordingly mean angles g are calculated only for 3 values and are
+only given for for completeness here. ‘Although this is a hyperbola with cone angle g = 8.1°, the large eccentricity uncertainty leads to a cone angle uncertainty of 44°,
+hence no g value is provided here. 'Calculated from formula (5). "Calculated from formula (6).
+
+data, Edberg et al. (2008) gave for example, the following fitted values: e = 1.05 + 0.04, L = 2.10 + 0.09, and
+X, = 0.55 + 0.12. However, to match the results plotted in Figure 1 of Edberg et al. (2008), the value of « must
+be modified down to e = 1.03, a marginal difference likely due to rounding errors. For comparison, the corresponding values derived by Hall et al. (2019), for MEX data but with a larger sample, are € = 0.998 + 0.003,
+L = 1.802 + 0.002, and x, = 0.76. For MGS and MEX data (Edberg et al., 2008; Hall et al., 2016, 2019), the
+subsolar standoff distance is R,. = 1.63 + 0.04 R,, whereas the terminator standoff distance is R,, = 2.50 + 0.09
+R,. By comparison, Halekas et al. (2017) found large variations of the bow shock standoff distances in the early
+MAVEN data, with R,, ~1.6-1.9 R, and R,, ~2.5—3.1 R, depending on EUV flux levels and combined with either
+M,,,, oF the solar wind dynamic pressure. Differences toward upper values with previous studies likely stem from
+different EUV levels encountered by the respective missions, the solar EUV flux being one of the main drivers,
+through ionosphere and exosphere variations, of the bow shock position (Halekas et al., 2017; Hall et al., 2019).
+
+SIMON WEDLUND ET AL. 7 of 31
+Ast it ‘ 0
+ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+We present in Table 2 the fitted conic parameters of the main quoted references in Table 1, in chronological order.
+It is interesting to remark that most shapes fitted are stricto sensu hyperbolic (€ > 1), but in practice can be considered quasi-parabolic as eccentricity e€ ~ 1, which makes it possible to calculate the limiting Mach cone angle.
+For example, when fitting bow shocks from different MYs, Hall et al. (2019) showed that eccentricities varied
+around € = 1 by <5% between MY27 and MY33, with a marked tendency toward ellipsoidal shapes (only two
+consecutive years, MY28 and MY29 had eccentricities above 1).
+
+2.2.2. The 3D Cartesian Form
+
+The more general way of characterizing the bow shock shape does not assume any symmetry with respect to
+any axis. A 3D shape model can be constructed in the form of a quadratic equation (e.g., Formisano et al., 1979;
+Gruesbeck et al., 2018; Simon Wedlund et al., 2017, for Earth, Mars, and comets):
+
+Ax’ + By? + Cz’? 4+ Dxy+ Eyz+ Fxz+Gx+Hy+Iz-1=0. (9)
+
+Here and for clarity in the equations, (x, y, z) coordinates are by definition the unaberrated (X\;o9, Yugo» Zysgo)
+coordinates. With the MAVEN spacecraft including both magnetometer and ion spectrometer, Gruesbeck
+et al. (2018) used a limited subset of bow shock crossings when ignoring rapid spatial motions of the boundary
+across the spacecraft due to the variable solar wind (see Halekas et al., 2017), leaving a database of only 1,799
+crossings spanning about 3 years of data (November 2014—April 2017). For all bow shock detections considered
+in their study, the best least-squares ellipsoid fit was obtained with A = 0.049, B = 0.157, C = 0.153, D = 0.026,
+E=0.012, F = 0.051, G = 0.566, H = — 0.031, and J = 0.019 and is valid only for the dayside bow shock up
+to a few 0.1 R, downstream of the terminator (X 2 —0.5 R,) because of the poor MAVEN orbital coverage on
+the nightside flanks of the shock. Gruesbeck et al. (2018) concluded that asymmetry of the shock surface was
+particularly pronounced in the North-South direction, likely due to the influence of crustal magnetic fields. Located predominantly in the southern hemisphere of Mars between 30° and 85°S (Acufia et al., 1998), they tend to
+increase the altitude of the induced magnetospheric boundary and hence increase the subsolar standoff distance
+of the shock (see Matsunaga et al., 2017 and references therein).
+
+Although quadratic surfaces are not necessarily centered on the planet nor is their main axis directed along the
+Xyso AXIS (See Appendix A), a simple estimator of the shock’s position in the subsolar and terminator directions
+can be of interest. We propose here such an expression, based on Equation (9). We calculate thus the subsolar
+standoff distance along the X,,.9 axis at coordinates (x, y = 0, and z = Q) by finding the positive root of the simplified quadratic equation (i.e., the intersection of the surface with the X);.9 axis):
+
+Ax*+Gx-1=0 (10)
+—-G+vVG*+4A
+>Xmax = Rss = a (11)
+
+whereas the terminator standoff distances in the Y — Z plane (non-aberrated MSO coordinates) are similarly given
+by:
+
+—-H+~v\H?+4B (12)
+
+2B
+
+—-[+vVI?+4C (13)
+
+2C
+
+By +Hy-1=0 => Ymax = Rtay =
+
+Cz7>+Iz-1=0 => Zmax = Riaz =
+
+Because of the small angles involved at Mars, non-aberrated coordinates are rather accurate for the subsolar
+standoff distance. That said, rotating the MSO coordinate system by a certain small angle a about the Z axis does
+tag = 2.50 R,,,
+= 2.62 R,. Because the shock is a 3D object, the exact position of the tip of the ellipsoid may vary with
+
+impact the terminator distances by a few 0.01 K,. For the parameters given above, R,. = 1.56 K,, R
+and Ri,
+respect to the values taken at the origin.
+
+8 of 31
+Ars l . °
+mMwvu Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Mars bow shock models - MSO abberrated coordinates
+
+ae
+a *
+"2a," “a,
+
+etm, es
+"an fae
+tem "te
+ay *e
+"7 ".
+Fenme “Te,
+pT el
+e
+“am “*0,
+= a
+* *
+a &
+*
+rigs
+"og %s,
+x
+2 a
+* *
+hee te,
+2 a
+2 *
+* 2
+s
+a We
+lage,
+OT
+*a te
+2
+
+x
+Te ,
+“Seg y,
+= "Say X
+-f295 x
+%9; x
+£24, x
+&, x
+“te, x
+%e 8 x
+Slavin & Holzer 1981 Mars 2,3,5 9
+Slavin+ 1991 Mariner 4, Mars 2,3,5
+Vignes+ 2000 MGS \
+Trotignon+ 2006 Phobos 2, MGS '
+— Edberg+ 2008 MGS
+conseose Hall+ 2016 Mars Express
+stcececs Hall+ 2019 Mars Express
+<x Gruesbeck+ 2018 X-Y plane MAVEN
+x X-Z plane MAVEN
+x
+“net. »
+“Xx Xx X ait
+awe
+-8 -6 -4 -2 0 2
+/
+Xuso Rp!
+
+Figure 3. Bow shock fitted models to observations in MSO aberrated coordinates. The 3D quadratic model of Gruesbeck
+
+et al. (2018) fitted from MAVEN data was rotated anticlockwise 4° around the Z axis. All other models are obtained in
+cylindrical conic form from other missions, including Mars Express (MEX), Mars Global Surveyor (MGS), Phobos 2, and the
+Mars 2, 3, and 5 missions. The fits of Hall et al. (2016, 2019) and Gruesbeck et al. (2018) consider all shock detection points
+of their respective studies. Because the cylindrical models are symmetric about the X’ axis, the figure’s cylindrical y-axis
+VY" + Z” is equivalent to the Y’ or to the Z’ axis, regardless. The coordinates are normalized to the radius of Mars, R, =
+3,389.5 km.
+
+2.2.3. Comparison of Historical Models
+
+A comparison of a representative selection of historical bow shock models (some of them as listed in Vignes
+et al., 2000; Trotignon et al., 2006) in the X’ —Y7/Z’ plane is given in Figure 3. The 3D quadratic model of Gruesbeck et al. (2018) was rotated anticlockwise by 4° around the Z axis to ease the comparison. It is noteworthy to
+remark that although the fit is not valid for X" < —0.5 R,, the figure displays the fits for X" > —2.5 R, to illustrate
+the differences in shock surface swelling.
+
+All models are in excellent agreement around the subsolar point, with a mean subsolar standoff distance value
+of R.. = 1.59 + 0.05 R,. The terminator standoff distance is also in very good agreement—however, for X" < 0
+R,,, the difference between fits becomes substantial, especially (a) between the recent MEX investigations of Hall
+et al., 2016, 2019 and the other fits on the one hand and (b) between the MAVEN fits and all other fits on the other. For MAVEN, this is due, as previously mentioned, to the lack of orbital coverage by the spacecraft for X’ < 0
+R,. In this sense, MEX has a much better antisolar spatial coverage. Of note, the North-South asymmetry in the
+
+SIMON WEDLUND ET AL. 9 of 31
+Ast it ‘ 0
+ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+3D fits of Gruesbeck et al. (2018), coinciding with the presence of crustal fields in the Southern hemisphere of
+Mars, can easily be seen, a characteristic which no axisymmetric model directly quantifies.
+
+2.3. Shock Geometry
+2.3.1. Quasi-Perpendicular or Quasi-Parallel Shock?
+
+A collisionless shock may have different behaviors depending on the upstream solar wind magnetic field (the
+IMF), which conditions how the solar wind is losing its energy to the magnetosheath. Two main cases are
+conveniently studied for their varying properties: q, and q, shocks. Additional important physical quantities driving the shock structure and dynamics are the magnetosonic Mach number (which defines the shock’s criticality)
+and the plasma-/ (Balogh & Treumann, 2013).
+
+It is useful to recall that a g, shock condition is defined so that the background IMF lines are intersecting normally
+the shock surface, whereas a q, shock describes an IMF that is in effect in the tangent plane to the surface shock.
+Thus, the angle of importance is the angle between the average IMF vector upstream of the shock and the shock
+normal. This angle is in the literature almost always named @,,, which is kept here for convenience. The geometry
+of the shock is defined as follows:
+
+OBn > 45° 2 g, shock (14)
+
+Opn 45° : qy shock (15)
+
+Starting in the magnetic field compression region in the solar wind, g, shocks have structures, from the point of
+view of B-fields, almost always characterized by (a) a foot, (b) a fast ramp, and (c) a wider overshoot followed
+by a more gradual undershoot (see Kennel et al., 1985, Figure 11). This classic picture is a first approximation
+as fine electron-scale structures in the foreshock, foot and ramp can be seen with high-cadence magnetic field
+measurements. Q, shocks reflect particles back upstream to satisfy the shock conditions and are on average
+diffusive. Magnetic structures trapping particles such as mirror modes are observed to predominantly take place
+in the magnetosheath behind a q, shock (Gary, 1992). On the other hand, q, shocks are on average resistive and
+are usually characterized by heavy turbulence. Their foreshock contains MHD turbulence that can give rise to
+first-order Fermi acceleration. Also common in the foreshock region, highly compressive structures such as Short
+Large-Amplitude Magnetic Structures (SLAMS) are associated with large density variations: they originate from
+the steepening of ULF waves and are of great importance in the shock reformation (Burgess et al., 2005; Burgess
+& Scholer, 2014).
+
+In order to determine the q, or g, geometry of the shock crossed by a spacecraft, the normal direction to the
+shock surface needs to be first estimated. For a single spacecraft, this can be done either with methods that
+take advantage of upstream and downstream magnetic field measurements (coplanarity method as in Horbury
+et al., 2002 and Schwartz, 1998, although prone to rather large uncertainties) or through geometrical considerations only, as we propose in Section 2.3.2. The accuracy of the geometrical method presented here is linked
+to the assumption that the shock surface is smooth and does not possess any kinks or local structures where
+the current curls on itself. In practice, we do not expect such a smooth surface as the shock may assume a
+more rippled shape which depends on the upstream solar wind condition and the turbulence at the boundary
+(Moullard et al., 2006). However, our geometric determination may still be a useful first approximation of the
+geometry of the shock.
+
+2.3.2. Determination of the Shock Normal
+
+The normal to the shock surface, at point (7,, 6) in polar coordinates, (Xp, yp, Z)) in Cartesian coordinates, or (79,
+95, Po) in spherical coordinates, is simply defined as the gradient vector of the (assumed) smooth surface fat that
+point. Mathematically we can express this condition as:
+
+Vf-v=0 (16)
+
+10 of 31
+A ° °
+mMwvu Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+(a) Normal directions to the bow shock surface, polar equation (b) Normal directions to the bow shock surface, Gruesbeck+ 2018
+7 T T T ; T T
+! — E08
+6 ! 5
+‘J
+: 3
+o ;
+f 4 ! 2~
+(3 | “
+N \ 1 _|
+.2 ! e
++
+98 ! > 0+
+a N | :
+ra |
+-1 —| |
+2 444 fino
+1‘ -2 + | \ »
+_ til awe
+1 | 2 3+ M iN \\
+! \ -4
+0 ! L
+-4 -3 -2 -1 @) Xe 1 P 3 0 ,
+x’ [RJ : Vises (el
+MSO * 'P Xuso [Rel MSO * 'P
+
+Figure 4. Bow shock normal. (a) Polar 2D case (model of Edberg et al., 2008). (b) Cartesian 3D case (model of Gruesbeck et al., 2018). All coordinates are normalized
+
+to the radius of Mars, R, = 3,389.5 km.
+
+SIMON WEDLUND ET AL.
+
+where V is a vector tangential to the surface at that point. This leads to the following expressions in the 2D and
+3D cases.
+
+2.3.2.1. The 2D Case
+
+For the 2D polar coordinate case, let fbe equal to f(r, 8) = r — L/(1 + ecos@) following Equation (1) where @ is
+the angle from the focus x, on the X’ axis. The gradient of f depends on the two variables (r, @):
+
+Of
+an 1
+
+VI lag |= __esin@ ay)
+r 00 (1 + ecos @)
+
+At point (7, 95) vector Vf = (Ry, ©,) is perpendicular to the surface. Note that because of the peculiarity of a conic, values in x must always be corrected by the focus distance x,,, because the typical polar angle 9 is not strictly
+the same as the conic angle @ used in Equation 1; see Figure 2.
+
+In Cartesian coordinates, using Equation (4), the gradient will be against directions along X’ and Y’ and equal to:
+
+= —2 (e? —1) (X’ — xp) + 2eL
+Vi =l ae |= oy (18)
+oY’
+
+This expression circumvents the ambiguity on the angle direction of the polar formula, and as such should be
+preferred when calculating the normal direction. Figure 4a displays our estimates of the normal direction to several points on the shock surface applied to the 2D bow shock polar fit of Edberg et al. (2008), and converted to
+Cartesian coordinates.
+
+11 of 31
+Ast it ‘ 0
+ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+2.3.2.2. The 3D case
+
+For the 3D Cartesian quadratic equation, fis simply equal to the left member of Equation (9).
+
+The gradient of fis then:
+Of
+— 2Ax+ Dy+Fz+G
+Ox
+Of
+Vf = ay =|Dx+2By+Ez+H (19)
+Of
+Oz Fx+ Ey+2Cz+I
+
+At point (Xp, Yo. Z,) vector Vf = (X_, Yo, Zp) iS perpendicular to the surface. Additionally, the equation of the tangent plane to the smooth surface at that point is of the general form:
+Of Of
+
+—— — + ——
+ax ao x0) Dy
+
+Of
+i yo + Oz
+
+(Z — Zo) = 90, (20)
+0
+where subscript “O” in the gradient components denotes the gradient taken at points (Xp, Yo, Z)) for brevity. Thus,
+knowing the 3D position of the spacecraft at the expected bow shock position, one can calculate the transverse
+and tangent directions to the bow shock surface. Figure 4b shows our results with this technique applied to the
+3D bow shock fit of Gruesbeck et al. (2018), assuming a spacecraft situated on random points of the shock’s
+surface.
+
+With the knowledge of the normal direction to the shock at the spacecraft location, it becomes possible, from the
+2D and 3D model cases, to calculate the angle 0,,, from the average direction of the magnetic field at the spacecraft position near the shock, noted B,,,.:
+
+ITV FX Bogll
+tan Opn = Vi Bre (21)
+For added robustness, the function arctan2 is recommended for the calculation of the inverse tangent, as it returns a value corresponding to the correct quadrant of the Euclidean plane. Because of the inherent 3D nature
+of a spacecraft orbit and of the local magnetic field, we prefer the 3D calculation with Equation (19) over the
+corresponding 2D case [Equation 18]. It is however important to recall here that the shock’s local shape may
+be assuming that of a “corrugated iron” section, as evidenced, for example at Earth, with the Cluster quartet of
+spacecraft (Moullard et al., 2006). No method is foolproof in estimating @,,,: in case studies, the local normal to
+the shock can be more carefully checked, for which several complementary methods exist, such as the magnetic
+coplanarity method mentioned earlier.
+
+When applied to the MAVEN dataset, the geometric calculation of 0,,, assuming a smooth surface, is expected
+to reach an uncertainty of about +5° depending on the upstream field determination. We obtained this estimate
+for a small sample of crossings, by extending over a few minutes the time spans used to calculate the upstream
+magnetic field direction.
+
+3. Detecting the Bow Shock in Spacecraft Orbits
+
+Estimating the bow shock position from spacecraft spatial coordinates can be achieved either empirically or
+theoretically, depending on the precision needed. Semi-empirical but computationally intensive techniques using
+machine-learning imaging algorithms are currently attempted to detect automatically and precisely the exact
+position of the shock. Such techniques make use of the full plasma instrumental payload on board planetary
+missions, when available. Other techniques like that of Némec et al. (2020) use ion and magnetic field data in
+combination to statistically identify the regions crossed by the spacecraft. However, a faster approach, based on a
+simple geometrical estimator using a static analytical bow shock model (see Section 2), may still prove valuable
+for statistical studies or for new datasets. We present such an approach and its possible refinements in 2D and 3D
+coordinate systems based on magnetic field-only measurements. Because in the following we do not take into ac
+12 of 31
+Ast it ° °
+ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+count plasma measurements, and because the true signature of the shock may be difficult to detect with magnetic
+field data only, a range of simultaneous criteria to identify solar wind and magnetosheath regions is required to
+mitigate this ambiguity. These criteria are presented in Section 3.2.
+
+3.1. Predictor Algorithm for the Shock Position From Existing Analytical Models
+
+The predictor algorithm is based on the calculation of polar (2D, @) or spherical (3D, [9, @]) angles in the corresponding frame of reference centered on the planet in MSO coordinates. These angles unequivocally define the
+predicted distance to the bow shock at the position of the spacecraft (X.., Y.
+
+sc? sc?
+
+Z,.). Comparing this bow shock
+distance with the Euclidean spacecraft distance to the center of the planet gives access to the region in which the
+spacecraft is located either in the solar wind or in the magnetosheath.
+
+3.1.1. The 2D Case
+Our algorithm is (see Figure 2 for definitions of angle and distances):
+
+e Choose conic model 7(@), with eccentricity e, semilatus rectum L and focus’ position (x,, 0, 0).
+
+e Calculate the spacecraft’s Euclidean distance r,, from the chosen conic model focus x,, in aberrated MSO
+coordinates, so that: rse = /(X!. — xr) +Y¥24 22.
+
+¢ Calculate the angle 0, at the position of the spacecraft: 0s. = arctan2 ( Y¥24Z2,(Xl,-—x r)).
+
+e Calculate the predicted bow shock distance R,, at the corresponding spacecraft 0,. from the focus x;
+R,, = (9,.) = L/A + ecos @,.) following Equation (1).
+
+e Calculate AR=r,,—R,,.. If AR goes from negative to positive (respectively, from positive to negative) values,
+the spacecraft 1s expected to move from the magnetosheath to the solar wind (respectively, from solar wind to
+magnetosheath). At the temporal precision of the spacecraft ephemerides, the closest value to AR = O defines
+the shock position (Xs, Yos, Zps) and crossing time ¢,..
+
+This purely geometrical approach was tested for polar coordinate models (such as Edberg et al., 2008; Hall
+et al., 2016, 2019), provided that all spacecraft coordinates are first rotated 4° into the aberrated MSO system.
+
+3.1.2. The 3D Case
+
+For 3D quadric models (Gruesbeck et al., 2018), the aberration is already taken into account and there is no need
+to correct the spacecraft coordinates for the position of the focus of the conic. Thus we only need generalize the
+approach above to spherical coordinates (p, 8, ~), where p =  X* + Y? + Z? is the planetocentric distance,
+whereas 9 = arctan(Y /X) and @ = arctan (Z /VX*+Y? ) represent azimuth and elevation (measured from the
+X—Y plane) by convention. To compensate for the inherent ambiguity on azimuth depending on the quadrant and
+gain robustness, the function arctan2 is preferred throughout for simplicity, in a programing sense. Equation (9)
+becomes a second-degree equation of the form:
+
+ap>+bp—-1=0 (22)
+with:
+a = Acos’ 9g cos? 8+ Bcos’ sin? 9+ C sin’ g
++5 cos’ g sin29 + = sin 2 sin 9 + = sin2 cos 9
+and :
+b=Gcos@g cos8+ Hcos@ sind + Ising
+
+In the case of an ellipsoid of revolution (as it is the case for the parametrization of Gruesbeck et al., 2018), the
+bow shock distance R,, at the angles (8, @) corresponds to the positive root of this equation:
+
+_—hb+.1/4 2
+Ry. = ~b+ Via +b (23)
+
+7 2a ,
+
+13 of 31
+Ast it ‘ 0
+ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+for a # O. For other parametrizations such as a hyperboloid of two sheets, there may be two positive roots, in
+which case the smallest root should be chosen. The denominator 2a in expression (23) never reaches zero, no
+matter the combination of angles chosen, which makes it a robust formula throughout any orbit. For azimuth and
+elevation angles (18 = 115°, lgl S$ 55°), the model of Gruesbeck et al. (2018) is not applicable any more (standoff
+distances above 4 RK.) as these particular angular combinations correspond to a tail-flank position, lying outside
+of MAVEN’s orbital range.
+
+The next step is to determine whether the spacecraft is inside the bow shock surface or outside of it in the orbital
+sequence. Our algorithm follows a similar sequence as for the 2D case, but all variables are calculated with respect to the center of Mars, in unaberrated MSO coordinates:
+
+1. Choose 3D model of the bow shock with A, B, C, D, E, F, G, H, and J parameters.
+
+2. Calculate the spacecraft’s Euclidean distance in non-aberrated coordinates, Ry. = /X2.+ ¥2 + Z2..
+
+3. Calculate (azimuth, elevation) angles (&, gm) at position of the spacecraft: Ys. = arctan2 (Ysc, Xs-) and
+Msc = arctan2 (Ze. Xo + ¥2)
+
+4. Calculate the bow shock distance R,, at the corresponding spacecraft spherical angles with Equation (23).
+
+5. Calculate AR=R,. — R,,.. If AR goes from negative to positive (respectively, from positive to negative) values,
+the spacecraft is expected to move from the magnetosheath to the solar wind (respectively, from solar wind to
+magnetosheath). At the temporal precision of the spacecraft ephemerides, the closest value to AR = 0 defines
+the shock position (Xs, Yos, Zps) and crossing time ¢,..
+
+3.1.3. Application to MAVEN Orbits
+
+Using 1-min-averaged MAVEN orbits to test our prediction algorithm, we perform the automatic detection of
+the bow shock as shown in Figure 5. Because of the relatively poor temporal resolution of this dataset, as well as
+the fast approach in the early stages of the orbit insertion, some points in the orbit yield false positive detections
+which disappear when increasing the orbital data resolution to | s.
+
+Thanks to the simple algorithms presented above, we can statistically predict bow shock crossings in a given
+spacecraft orbit. To help identify the solar wind region, we can distinguish between trajectories moving from the
+magnetosheath to the solar wind region, and vice-versa. For each orbit intersecting the bow shock model, two
+points per orbit will be identified. At 1 s resolution, we predicted a total of 16,515 bow shock crossings using the
+3D analytical model of Gruesbeck et al. (2018) for the MAVEN dataset between November 2014 and February
+2021, including 8,256 crossings from the sheath to the solar wind and 8,259 crossings from the solar wind to the
+sheath.
+
+Actual crossings may in practice be different than the predictions and the algorithms may fail to pinpoint the
+location of the shock sometimes by several tens of minutes, mostly because of solar wind varying conditions, or
+due to the geometry of the shock at the point of passage for an individual orbit (Halekas et al., 2017). We estimate
+thus the precision of these automatic estimates to be of the order of +0.08R, (+270 km) around the “true’”’ bow
+shock location, from a representative subset of data. Because of variable shock position from orbit to orbit and
+the geometric average nature of the detection, some orbits that may have experienced shock crossings but lie
+inside the average shock position will not be tested for potential detection. It is estimated that only a few hundred
+potential crossings were ignored in the process. Consequently, the true shock structure location should be checked
+directly in the magnetic field and plasma data. Moreover, since the bow shock is a dynamical object, it may experience fast forward and backward motions, crossing the spacecraft trajectory several times more per orbit. This
+can be seen, for example, in Figure 6c, where the total magnetic field undergoes sharp intermittent jumps in the
+foreshock area (23 June 2018, around 01:00 UT). As in Gruesbeck et al. (2018), these multiple crossings, usually
+the first one in the temporal sequence for crossings into the sheath, and the last one for crossings into the solar
+wind, are identified as one with our algorithm.
+
+We successfully applied this 3D algorithm to the retrieval of undisturbed solar wind density and velocity moments in the MAVEN/SWIA data with 1 min resolution, as part of the Helio4Cast solar wind in-situ data catalog,
+enabling the statistical study of interplanetary coronal mass ejections and high speed streams (MOstl et al., 2020).
+
+14 of 31
+Avrrti | ; ,
+Pa \e LO Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+MAVEN orbits 2014-10-10 to 2021-01-21
+
+Zuso [R.]
+
+-2
+
+-3
+
+-3
+
+2 | 1
+Yuso [Rp : Xuso [Rp
+
+Figure 5. Automatic detection of bow shock in MSO coordinates normalized to the planet’s radius, using the general quadric formula of Gruesbeck et al. (2018).
+The bow shock surface is in brown, the orbit of MAVEN between 1 November 2014 and 7 February 2021 is in blue. Detections of the crossings from inside the shock
+surface to outside of it are shown as orange circles, whereas outside-to-inside crossings are depicted by yellow circles. Coordinates are normalized to the radius of Mars,
+R, = 3,389.5 km.
+
+Pp 9
+
+3.2. Refining the Position of the Shock: A Predictor-Corrector Algorithm
+
+Because of variations in the shock position, the automatic detection may give inaccurate predictions. We present
+here a fast method to correct to a certain extent for these discrepancies. It makes use of the magnitude of B to
+identify the position of the shock structure, either when crossing from the magnetosheath into the solar wind or
+vice-versa. As before, the main assumption is that the shock is crossed twice per orbit at maximum, although in
+practice the shock structure may be crossed several times due to the fast motion of the boundary across the spacecraft trajectory (Halekas et al., 2017). As we are interested in the statistical position of the shock, this assumption
+nonetheless provides a valuable estimate of the average position of the shock during those times. All magnetic
+field data are assumed here to be of the order of | s resolution.
+
+SIMON WEDLUND ET AL. 15 of 31
+fri
+AGU
+
+plied Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+AND SPACE SCIENCE
+
+2
+(a) 60 mmm SW --> MS
+= = automatic 15 —
+= 40 me [1S --> SW fc
+= = = automatic 1 co
+s
+O71 WH —— MiP —--—--—--—---————— — —}eern a — 05 4
+0 0
+06:00 13:00 14:00
+Dec 25, 2014
+2
+° iA
+le
+kK
+= £,
+= | { «a
+a x
+=
+— — —I4 at. 05 %
+. i
+| L, 0
+04:00 05:00 06:00
+Sep 23, 2016-Sep 24, 2016
+=,
+£,
+jaa)
+~
+=
+
+02:00 03:00 04:00 05:00 06:00 07:00 08:00
+
+02:00 03:00 04:00 05:00 06:00 07:00 08:00
+Time [UT] Mar 28, 2020
+
+Figure 6. Examples of total magnetic field amplitudes IBI at 1 s resolution measured by the MAVEN/MAG instrument throughout the mission (left y-axes), and
+calculated running median absolute deviations ¢,..4, (right y-axes in green). (a) 25 December 2014 (beginning of mission). The first crossing is quite oblique
+
+(0, © 45°) followed by two highly g, shock crossings (@,,,> 85°). (b) 23-24 September 2016. The two detected crossings are q,, the first one with 6, + 58°, the
+second with 63, © 78°. (c) 23 June 2018, with two detected q, crossings (3, © 8, 25°). (d) 28 March 2020, with five crossings all oblique toward q, conditions, with
+0, © 45°, 49°, 80°, 82°, and 88°, successively. The predictor geometric detections (Section 3.1) are in dashed lines and labeled “automatic,” whereas the predictorcorrector detections proposed in Section 3.2 are in solid lines. Highlighted in different colors are crossings from solar wind to magnetosheath (labeled SW — MS, red)
+and from magnetosheath to solar wind (labeled MS — SW, blue). Calculations of 6,, angles were performed using median averages of B over the color-highlighted
+regions (blue for MS — SW crossings, red for SW — MS crossings). The threshold ¢,, = 0.5 is shown as a horizontal dashed line (right y-axis, green).
+
+SIMON WEDLUND ET AL.
+
+From the point of view of a single spacecraft’s magnetic field measurements across the shock boundary, the total
+magnetic field intensity increases sharply, from typically 5 to 10 nT in the solar wind at Mars to about twice that
+level on average when moving into the magnetosheath. Additionally, fluctuations increase, going from small
+standard deviations around the mean in the solar wind, to comparatively larger fluctuations in the magnetosheath.
+Typical crossings of the Martian shock illustrating these behaviors are shown, for example, in Figure 6 which
+presents examples of bow shock crossings around Mars as seen with the MAG instrument on board MAVEN
+throughout the mission. As discussed in Section 2.3, g, shocks usually display distinct features (foot, sharp
+ramp, and overshoot) as in Figure 6a, 6b, and 6d, whereas q, geometries have less clear signatures in magnetic
+
+16 of 31
+[Ves
+
+AW’ Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+field data, making it difficult to detect reliably (Figure 6c). Consequently, the corrector method presented here is
+biased toward the detection of q, crossings.
+
+Our predictor-corrector detection algorithm attempts to consistently identify solar wind undisturbed regions in the
+chosen dataset, characterized by relatively low magnetic field intensities in combination with small fluctuations.
+For each orbit of a spacecraft, it proceeds as follows, with user-defined values (At,., B,,, T, and ¢,,) discussed
+afterward:
+
+1. Calculate predictor estimate of the shock crossing time ¢,. with the automatic algorithm in 2D aberrated polar
+coordinates or in 3D (as in Section 3.1).
+
+2. If t,, exists in the considered orbit, choose a small time interval symmetric around the estimated shock so that
+[t,, — Aties th, + At,,] (user-defined).
+
+3. Calculate a robust estimate of the average magnetic field, for example, the median of the magnetic field in half
+of this interval, noted IB.,|,,.. By definition IB,,|,,, corresponds to the assumed solar wind region magnetic
+field. For crossings from the solar wind into the sheath, the first half-interval is selected. For crossings from
+the sheath to the solar wind, the second half-interval is selected. There are two possibilities at this junction:
+(a) IflB,,|,,. > By, where B,, is the solar wind-to-magnetosheath threshold (user-defined), the position of the
+
+solar wind region is difficult to assess. In that case:
+
+i. Make the time interval float around the estimated location of the shock, by increments of Az, /3 in one
+direction or the other, so that 7,, = t,, + At,/3,
+
+ii. Repeat interval shift until |B..|,,. < B,, or until a maximum shift of 2Az,. is effected from the estimated shock timing in either direction. If IB,,|,,. > B,, still, either the spacecraft is always in the sheath
+or in an usually high solar wind B-field region, in which case the crossing is altogether ignored and
+removed from the database. If not, go to step (b):
+
+(b) IflB,,|,,. < B,,, this half-interval is a good candidate for undisturbed solar wind conditions. In that case:
+1. Calculate the running Median Absolute Deviation (MAD) ¢,,.4, of the total B-field signal over a
+temporal window of duration T (user-defined) in the chosen half-interval, and smooth further the
+result with a running median over a time span enclosing the shock structure in its entirety (e.g., 2T or
+3T). This also helps remove potentially abrupt but temporally isolated changes in the signal. Note that
+this particular choice of ¢,,,4 18 somewhat arbitrary. After several tests including running standard
+deviations, normalized or not to the “solar wind” signal, the choice of a smoothed running MAD was
+empirically found to work consistently well with the MAVEN dataset at Is resolution. For all times
+
+at which the total magnetic field B,,, is measured over a running interval [t,, t, + T]:
+
+Cmad,B(t) = ( median ( )) VtE€ [t,t:+T] (24)
+
+Beo(ti) - median( Brox)
+
+i. Compare ¢,,,4, to threshold value ¢,, (user-defined). A jump above a certain threshold ¢,, indicates a
+transition between a less turbulent region (¢,,,4.3 < $j,) to a more turbulent one (¢,.45 > Sin)» an indicator of the presence of a shock-like structure. If this threshold 1s reached, take the first (respectively,
+last) time this happens in the chosen interval for solar wind-to-sheath (respectively, sheath-to-solar
+
+wind) crossings, and correct the original timing ¢,, of step | to new tf, If not, discard crossing.
+
+Ss, Corr’
+
+(c) Repeat for each orbit.
+
+At Mars, we tested step | (predictor) in the previous section with the MAVEN dataset: on average, the detected
+shock was within +0.08R, (+270 km) of the true shock crossing, corresponding to about +30 min of data along
+the orbit. We thus set the interval of study for the corrector algorithm to At,. = 30 min. This value depends on the
+orbit inclination with respect to the bow shock surface and is thus mission-dependent.
+
+We determined the typical user-defined threshold values for the MAVEN mission manually, for simplicity, on a
+reduced dataset. We found a good compromise by trial and error with B,, = 11 nT, because the undisturbed solar
+wind magnetic field in Mars’ vicinity is of the order of 2-6 nT on average (Slavin & Holzer, 1981), but can reach
+up to about 10 nT or more when solar transient effects such as coronal mass ejections or co-rotating interaction
+regions are involved (Liu et al., 2021). In future studies, a more dynamic criterion in step (3a) may be preferred,
+that is, where the amplitude of the magnetic field is normalized to the assumed upstream solar wind value. The
+criterion for being in the magnetosheath could, for example, become y = |B|/|Bywl12 > Yn, where y,, is an ad
+17 of 31
+Ast it ‘ 0
+ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+equately chosen threshold (y ~ 1.5 for a clear increase of magnetic field when moving into the magnetosheath,
+with nominal solar wind levels y ~ 1).
+
+Because the shock appears in measurements as a turbulent structure whereas the solar wind is on average less
+so, step (3b—1) calculates a measure of the variability of the magnetic field in the vicinity of the shock. The value
+of Tis also mission- and instrument-dependent; for MAVEN/MAG data at a resolution of 1 s, a value T= 120s
+was chosen, which adequately captures the mean magnetic field variations. When in the solar wind, we found
+that the intrinsic variability of the signal ¢_..4,, calculated over a running window of duration 7’ = 120 s, was on
+average <0.5, which is adopted as the threshold ¢,,. This makes it possible to detect the very first perturbations
+in the solar wind leading to the creation of the shock structure, a point which is identified here as the position
+of the shock proper at time ¢,.. Again, in future studies, the threshold can be normalized to the magnetic field
+level, as in Halekas et al. (2017) where, together with constraints on plasma parameters, the normalized rootsum-squared value of the magnetic field was chosen so that RSS(B)/IBI < 0.15 to identify undisturbed solar
+wind intervals.
+
+3.2.1. Application to MAVEN Dataset
+
+Applied to the MAVEN dataset at 1 s orbital and magnetic field resolution, the corrector algorithm reaches an
+accuracy of +0.02R,, (+70 km) around the “true” shock (manually picked on a reduced dataset for comparison), a factor 4 increase in accuracy with respect to step 1. In the temporal datasets, this corresponds to only a
+few minutes of continuous data along MAVEN’s orbit. This is epitomized in Figure 6, which shows examples
+of shock crossing predictions from step 1 (dashed lines) in magnetic field data (left axis) as compared to the
+predictions from the predictor-corrector algorithm (unbroken lines, red for crossings into the magnetosheath,
+and blue for crossings into the solar wind). Right axes in green show ¢,,.4, and the associated threshold of 0.5,
+where ¢,,,4.3 < 9.5 mainly occurs for upstream solar wind intervals. With the addition of criterion B,, on the total
+magnetic field, only clear solar wind regions are captured by our algorithm, whereas ambiguous regions from the
+point of view of the magnetic field data are rejected.
+
+At the beginning of the mission (Figure 6a, December 2014), the automatic predictor algorithm gives a
+reliable estimate of this g, shock’s position: this is expected since the prediction is based on the 3D quadric
+model of Gruesbeck et al. (2018) who specifically performed shock fits on the first years of the mission. In
+this case, the predictor-corrector algorithm only corrects the shock’s estimated location by a few minutes.
+Figure 6b (September 2016) displays a case where the shock position is hard to ascertain from magnetic-field data only: the predictor estimate is off by up to 20 min for all crossings. Because of the constraints
+on the magnetic field amplitude and the lack of significant variations in IBI between 22:00 and 01:00 UT,
+the predictor-corrector algorithm ignores the two first expected crossings but corrects well for the two next
+crossings (around 03:30 and 04:45 UT). Figure 6c shows a more complex mix between sheath and solar wind
+conditions, and even though the boundaries are more subtle and the overall B-field magnitude below 10 nT,
+the predictor-corrector algorithm manages to estimate the position of the g, shock well, ignoring possibly
+unclear crossings which do not fulfill the combined threshold conditions on ¢,,,,., and B,, (around 01:00 UT).
+Figure 6d shows yet another example of the superiority of the predictor-corrector algorithm for some very
+clear bow shock crossings in 2020, after the orbit of MAVEN had been altered into a different orbit than at
+the beginning of the mission.
+
+The final corrected timings for the detections yield with this algorithm a lower estimate of the total actual number
+of crossings encountered by a spacecraft throughout its mission. Events occurring when |B. |,,. > B,,, even after
+shifting the temporal window significantly, or when ¢,..43 < Sj,» Were discarded in the final selection as can be
+seen in Figure 6. They may indicate that the magnetic field was either too turbulent or too complex in its structure
+(e.g., multiple crossings as is regularly the case with q, crossings) for the corrector algorithm to capture. Moreover, as discussed previously, the analytical approximation model used for the determination in step 1 (either 2D
+or 3D) is likely to underestimate the true number of crossings due to the planetary bow shock variability (Halekas
+et al., 2017). Because our study is primarily interested in the statistical position of the bow shock throughout the
+mission, this loss of potential detections may be compensated by the large number of orbits of the considered
+spacecraft.
+
+For MAVEN, from the original 16,515 candidate detections from step 1 (predictor) using the 3D model of
+Gruesbeck et al. (2018) as a first approximation, our predictor-corrector algorithm selected 14,929 events
+
+18 of 31
+Ast it ° °
+ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+2000
+
+quasi-//
+
+—h
+
+Ol
+
+oO
+
+(o)
+l
+
+1000 5
+
+# of crossings
+
+500 
+0 10 20 30
+
+(7,494 detections from the solar wind to the magnetosheath and 7,435 from
+the sheath to the solar wind) for the period 01 November 2014—07 February
+2021. This is a 10% decrease in number of crossings, leaving out the less
+ambiguous events from the predictor algorithm. On average, the correction
+to the original timing is within about Art + 20 min along the spacecraft orbit, which corresponds to a percentage difference in radial distance of about
++25% (not shown). The calculated average difference |AR, | over the entire
+
+quasi- |
+
+dataset between predictor and predictor-corrector algorithm is ~0.11K,,
+that is, ~380 km or about 5% difference. The complete list of MAVEN
+crossings (times and spatial coordinates) derived with the predictor-correc
+tor algorithm is compiled in Simon Wedlund et al. (2021).
+50 60 70 80 90
+
+05,17] Out of these 14,929 crossings, we found that an overwhelming number
+
+(11,967) was predominantly q, crossings with @,, > 45° as calculated with
+
+Figure 7. Statistical distribution of crossings with respect to 6,, angles, formula (19), the remaining 2,962 events being classified as more reminis
+the angle between the normal to the shock and the average magnetic field
+direction. The limit between q, and q, conditions is for 6, = 45°.
+
+SIMON WEDLUND ET AL.
+
+cent of q, shock conditions. It is important to recall that the method is biased
+toward clear signatures of q-like bow shock crossings, in practice filtering
+out many q, crossings, which may explain part of the discrepancy. About
+22% of the g, crossings are highly perpendicular shocks (6, > 80°, 2,674
+crossings), whereas only ~1% of the q, shocks are highly parallel ones (63, < 10°, 30 crossings). This is shown in
+Figure 7, where the highest number of crossings occurs for 0, ~ 80°. This is also in qualitative agreement with
+the results of Vignes et al. (2002) for the MGS mission, when they investigated a proportion of 93 g, shocks for
+only 23 q, shocks.
+
+4. Application to the Study of the Martian Bow Shock Variability
+
+In this section, as an application and statistical test of our new predictor-corrector algorithm, we present 2D and
+3D fits of the average bow shock position with the MAVEN spacecraft for the 1 November 2014—7 February
+2021 period. First, we sort out the detected shock positions (compiled in Simon Wedlund et al., 2021) by MY
+(MY32—-MY35), aerocentric solar longitude Ls range (four seasons centered on equinoxes and solstices), EUV
+flux (two regimes, one for higher solar flux and one for lower solar flux), and shock geometry (q, or q,). These
+cases correspond to:
+
+1. Mars Years: MY32 (incomplete), 33, 34, and 35, inspired by the work of Hall et al. (2019) on MEX datasets.
+
+2. Solar longitude Ls ranges from [315° to 45°] (centered on Northern Hemisphere [NH] spring equinox), [45°—
+135°] (NH summer solstice), [135°—225°] (NH autumn equinox), [225°—315°] (NH winter solstice). Ls defines the geographic Martian season, with Ls = 251° (Ls = 71°, respectively), marking perihelion (aphelion)
+conditions.
+
+3. Two EUV flux levels, inspired by the works of Halekas et al. (2017) and Gruesbeck et al. (2018) on the early
+MAVEN datasets. The EUV flux at Mars is obtained using the FISM-IUVS daily irradiances at 121.5 nm calculated from the Mars EUVM model (Thiemann et al., 2017). The median of the EUV flux in the 2014-2021
+period is 0.002 8 W m7? and defines two EUV flux levels, one “high” for fluxes strictly above that limit, one
+“low” for fluxes below.
+
+In Section 4.1, we perform 2D and 3D fits to the found Mars bow shock positions using the spacecraft ephemerides. A discussion of these fits and what they imply is given in Section 4.2.
+
+4.1. Statistical Position of the Martian Bow Shock
+4.1.1. The 2D Case
+
+In 2D MSO aberrated coordinates, the polar equation, Equation (1), can be rewritten in the linear form y = ax +b
+(see Trotignon et al., 2006):
+
+r=L—e(X'-xr), (25)
+
+19 of 31
+vrij
+rwJ\
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Table 3
+
+Journal of Geophysical Research: Space Physics
+
+10.1029/2021JA029942
+
+Martian Bow Shock 2D Conic Parameters in Aberrated MSO Coordinates From Linear Regression Fits Applied to Equation (25) and the MAVEN Orbits and
+Magnetic Field Data (Predictor-Corrector Algorithm)
+
+Case
+
+All points, this work
+
+MY32, this work
+
+MY33, this work
+
+MY 34, this work
+
+MY35, this work
+
+Ls = [315°-45°], this work
+Ls = [45°-135°], this work
+Ls = [135°-225°], this work
+Ls = [225°-315°], this work
+EUV flux > 0.002 8W m-?
+EUV flux < 0.002 8W m~”
+Quasi-L
+
+Quasi-||
+
+E L [R,] Xp [R,] R,, [R,] R,, [RI R? Nature e[°] # detections
+1.00 1.75 0.86 1.74 2.46 0.98 Parabola = 14,929
+0.83 2.24 0.65 1.87 2.70 0.97 Ellipse = 1,196
+0.99 1.88 0.75 1.69 ES 0.98 Ellipse = 4,586
+1.02 1.72 0.84 1.69 2.44 0.96 Hyperbola 11 5,073
+1.02 1.63 0.91 P72 2,39 0.98 Hyperbola 11 4,074
+1.01 1.73 0.86 We: 2.45 0.98 Hyperbola 8 293
+1.00 1.81 0.71 1.61 2.42 0.99 Parabola = 3,746
+0.99 1.82 0.71 1.62 2.42 0.98 Ellipse = 3,134
+0.98 1.91 0.86 1.82 2.62 0.98 Ellipse = 4,256
+1.00 1.79 0.91 1.80 2.54 0.98 Parabola — 6,502
+1.00 1.75 0.79 1.67 2.41 0.98 Parabola = 8,427
+1.00 1.79 0.82 72 2.48 0.98 Parabola = 11,967
+1.06 1.47 1.07 1.78 2.37 0.94 Hyperbola 19 2,962
+
+Note. Subsolar and terminator standoff distances R,. and R,, are calculated with Equations (5) and (6). For hyperbolae, the Mach cone aperture g is also given as
+calculated by Equation (7). For each fit, the coefficient of determination R* gives a measure of the goodness of the linear regression. Due to the large data spread,
+uncertainties on R,, and R,, are of the order of 5% and of the order of 2% for the other quantities. R, = 3,389.5 km is the radius of Mars.
+
+SIMON WEDLUND ET AL.
+
+with a linear regression in the (r, X° — x,) space performed for a chosen focus location x,. First we chose a
+focus location randomly between O and IR,,, and for each linear fit performed, the residuals are calculated.
+The adopted focus point is the one that minimizes the residuals. Because MAVEN’s orbits are not suited to
+bow shock detections for X’ < —0.5 R,, additional constraints on the tail distributions are necessary to obtain a
+more realistic conic fit. This can be achieved, for example, by using the predictions from a chosen pre-existing
+model for deeply negative X’ values, such as those of Edberg et al. (2008, noted “E08” in the following) or Hall
+et al. (2019, noted “H19”) where bow shock detections were reported downstream to X7, & —1.5 Rp and to
+~—5 Rp, respectively. First, additional “ghost” points (representing 10% of the total number of detections for
+the considered case) are calculated for X’,. < X' < —0.5 Ry for the chosen model and randomized spatially
+around this result to give a more realistic tail spread. The linear regressions are then performed on the new constrained dataset. Tests were performed on the robustness of this method using different analytical models: E08
+and H19 fits are essentially the same around the nose of the shock downstream to about —1 R, where patent
+differences start to appear. Because of the added cloud of ghost points, this is expected and thus 2D fits presented below are only valid in practice in the range [— 0.5 R,, R,,]. Incidentally, differences on the terminator
+and subsolar standoff distances are less than < 2% in each case. It is noteworthy to add that the determination
+of the nature of the conic section found from the fits can be significantly altered when using tail models either
+from E08 (hyperbola) or from H19 (fits’ nature given by these authors, ranging from ellipse to hyperbola,
+depend on the MY considered): in that case, the fit's nature will naturally be biased toward matching that of
+their respective parent tail model.
+
+Table 3 and Figure 8 display our 2D fits when the E08 tail model supplements the MAVEN dataset for additional constraints on the tail. Candidate bow shock detections are also drawn as semi-transparent circles. Despite
+the constraints on the predictor-corrector algorithm, several detected points appear to fall well into the magnetosheath of Mars, and are false detections. Because of their relative scarcity and thanks to the large statistical
+database, these points do not significantly impact the final fits, which remain robust.
+
+4.1.2. A 3D Case
+
+In 3D, we perform quadric fits using the method first put forward by Taubin (1991), adapted to the quadratic
+surface of Equation (9). This fitting method constructs scatter matrices from local gradients S of tested model T
+and finds the diagonal matrix of the generalized eigenvalue problem so that Tv = ASv, where v is the generalized
+
+20 of 31
+vrij
+rid
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Journal of Geophysical Research: Space Physics
+
+10.1029/2021JA029942
+
+4 +
+@ Mmy32 N @ MY34 6 @ EUVmax | = 4 ++ > + 1 1.
+he m~ ‘ Jan 2021
+@ MyY33 t | x @ MyY35 t | ~ @® EUV min ——All, this work [|
+— — MY32,H19 — = All,H19 All, H19 — =—-All, H19
+B--#822» MY33, H19
+. | Jan 2020
+k4
+be
+[ Jan 2019
+' Jan 2018
+@ Ls=(315-45] | » @ Ls=[135-225] | § _ © = Quasi-1
+@ Ls = [45-135] S @ Ls = [225-315] ~ ® Quasi-||
+— — All, H19 r - All, H19 r J — — All,H19 | Jan 2017
+f l Jan 2016
+| _— i a4 | Jan 2015
+(e) \ (f) \ > 8
+| 2 3
+
+Figure 8. The 2D fits performed on the predictor-corrector algorithm for the detection of bow shock crossings in the MAVEN dataset, 2014-2021 in aberrated MSO
+
+‘ / i f
+coordinates (Xoo sot se
+
+), and parametrized in Table 3. (a) and (b) Versus MY 32-35. (c) and (d) Versus Ls (season) ranges. (e) Versus EUV flux levels. (f)
+
+Versus shock geometry (q, and q,). (g) All detected points in the current database color-coded by year, and comparison to the analytical quadric fit of Hall et al. (2019).
+All coordinates are expressed in units of the planet’s radius, that is, R, = 3,389.5 km. Superimposed on all panels are the corresponding analytical models of Hall
+
+et al. (2019) for MY 27-33, except for MYs 32 and 33, where their corresponding yearly fits are plotted. Candidate detections points for each case are also drawn as
+filled circles of varying colors, with the opacity giving a measure of the density of points in that area, giving more or less weight to the fitting method.
+
+Table 4
+
+eigenvector of T and S, and / are the eigenvalues. Because of the scatter of points in the database, uncertainties
+on the found parameters A to J are of the order of 1%, in a least-squares sense.
+
+Table 4 collects all 3D fit parameters for each case; all fitted surfaces are ellipsoids of revolution. For completeness, we present and give the physical interpretation of these parameters in Appendix A, in terms of principal
+axes, their direction and lengths and the centering of the ellipsoids. Figure 9 shows the corresponding fits and
+
+Martian Bow Shock 3D Conic Parameters From Quadric Surface Fits Applied to the MAVEN Orbits and Magnetic Field Data (Predictor-Corrector Algorithm)
+
+Case
+
+Gruesbeck et al. (2018) ?
+All points, this work
+
+MY 32, this work
+
+MY 33, this work
+
+MY 34, this work
+
+MY35, this work
+
+Ls = [315°-45°], this work
+Ls = [45°-135°], this work
+Ls = [135°-225°], this work
+Ls = [225°-315°], this work
+EUV flux > 0.0028 W m~
+EUV flux < 0.002 8W m~”
+Quasi-L
+
+Quasi-||
+
+A
+
+0.049 0
+0.1769
+0.1369
+0.1660
+0.1719
+0.5577
+0.1554
+0.1719
+0.2490
+0.1559
+0.1096
+0.2138
+0.1798
+0.1427
+
+B
+
+0.1570
+0.1609
+0.1419
+0.1516
+0.1742
+0.2245
+0.1625
+0.1761
+0.1473
+0.1484
+0.1480
+0.1807
+0.1607
+0.1675
+
+C
+
+0.1530
+0.1559
+0.1400
+0.1501
+0.1551
+0.2000
+0.1587
+0.1555
+0.2624
+0.1400
+0.1500
+0.1577
+0.1539
+0.1666
+
+D
+
+0.0260
+0.005 7
+0.038 1
+0.0235
+—0.0112
+—0.0509
+—0.0265
+—0.0275
+0.0409
+0.0047
+0.0274
+—0.023 1
+0.0016
+—0.0004
+
+E
+
+0.0120
+0.004 4
+0.0178
+—0.006 1
+—0.006 8
+—0.0103
+—0.008 1
+0.004 8
+0.0415
+0.0227
+0.003 1
+—0.005 1
+0.004 0
+0.005 1
+
+F
+
+0.0510
+0.028 1
+0.0547
+0.0203
+0.0165
+0.096 3
+0.002 3
+0.0564
+0.1098
+0.040 0
+0.035 5
+0.0314
+0.033 0
+0.005 0
+
+G
+
+0.5660
+0.3773
+0.3783
+0.3807
+0.3955
+—0.1421
+0.4260
+0.4107
+0.2368
+0.3583
+0.4329
+0.3473
+Q3777
+0.399 2
+
+H
+
+—0.0310
+—0.0323
+
+0.004 4
+—0.028 4
+—0.0256
+
+0.001 1
+
+0.0013
+—0.028 7
+—0.094 1
+—0.007 2
+—0.0293
+—0.0207
+—0.0348
+—0.009 8
+
+I
+
+0.0190
+0.0143
+0.0279
+—0.0018
+0.0127
+—0.0119
+0.004 4
+0.005 7
+—0.1510
+—0.0197
+0.004 5
+0.0185
+0.0124
+0.023 0
+
+R
+
+SS
+
+Leo57
+1.539
+1.654
+1.562
+1522
+1.472
+1.513
+1.497
+1.584
+1.632
+1.634
+1.498
+1.531
+1.595
+
+2.624
+2.595
+2.639
+2.664
+2.470
+2.108
+2.477
+2.466
+2.945
+2.620
+2.700
+2.410
+2.605
+2.473
+
+2.495
+2.487
+2575
+2.587
+2.499
+2.266
+2.496
+2.518
+2.261
+2.744
+2.567
+2.460
+2509
+2.382
+
+Note. See Equation (9) for the definition of parameters A to J and Equations (11), (12), and (13) for those of the subsolar standoff distance R,, along the X\,5¢ axis and
+the terminator standoff distances R,, along the Y\,<9 and Z,\,,9 axes. Uncertainties on the parameters are of the order of 1% in a least squares sense. All quadrics here
+are ellipsoids. The domain of validity for each fit is shown in Figure 9: fits are valid for X59 = —0.5 RK, on average. The number of fitting points used for each case is
+
+the same as for the 2D fits, see Table 3 (last column). Also, see Appendix A for a physical interpretation of the tabulated parameters. R,, and R,, are expressed in units
+
+of Mars radius R, = 3,389.5 km.
+
+*For all points considered in their data subset.
+
+SIMON WEDLUND ET AL.
+
+21 of 31
+Pa \e LO Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+—— MY32 —— MY33 —-—— MY34 —— MY35
+
+So 2 ft oO 1 2 8 8 2 4+ 014 2 8
+(b) — Ls = [315°-45°] ——Ls = [459-1359] ——~ Ls = [135°-225°] —— Ls = [225°-315%
+
+a eer i 3
+
+1 — rs T
+' }
+’
+H
+h
+: L
+'
+'
+
+X[R
+
+ul
+
+Figure 9.
+
+SIMON WEDLUND ET AL. 22 of 31
+[Ves
+
+AW’ Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+their sections onto the X\jsq — Yugo (dawn-dusk hemispheres), Xyjoq — Zygoq (South-North hemispheres) and
+Yuso — Zmso (at the terminator, 1.e., X\o¢9 = 0) non-aberrated MSO coordinates.
+
+Because of the spacecraft changing orbits during the mission, some of the ellipsoid fits appear anomalous in
+their orientation. This is especially obvious for MY35 when MAVEN, as of March 2020, decreased its apogee
+to ~4,500 km and hence its revolution period to 3.5 hr to accommodate Mars 2020 rover operations on the
+ground. Consequently, MAVEN only seldom explored regions below X < 0 R, for half of MY35: this makes
+it difficult to constrain the fit, and we end up with an ellipsoid having its longest principal axis unphysically
+tilted almost 90° in the X-Z plane (purple curves of Figure 9a). A similar issue is found for Ls = 135°-—225°
+(yellow, Figure 9b), which has the lowest number of detections among Ls ranges and for which the orbit was
+never favorable for detections due to orbit precession. Thus, in these two cases, no physical interpretation
+should be drawn from the axes orientations of the ellipsoid and the fit should only be valid for near-subsolar
+crossings. More robust physics-based analytical models could be used to overcome these fitting issues (Kotova
+et al., 2021).
+
+4.2. Discussion
+
+Our 2D and 3D fits give some insight on how the Martian bow shock is moving globally for different conditions
+of MY, Ls, and EUV flux and complements previous studies with the MAVEN mission (Gruesbeck et al., 2018;
+Halekas et al., 2017; Némec et al., 2020). As the bow shock position is connected to the balance between thermal
+pressure from the plasma in the ionosphere and the dynamic pressure from the solar wind, any variation of these
+two quantities will have repercussions on the position of the shock.
+
+When assuming axisymmetry around the aberrated axis X’ in the 2D polar rectangular coordinates case, Table 2
+and the average subsolar and terminator distances can be a first guide for our interpretation. Our new results with
+MAVEN (all points, Table 3) agree rather well with past measurements (Table 2) considering the data spread
+and estimated uncertainties: R,. = 1.74 + 0.09 compared to 1.61 + 0.08 R, and R,, = 2.46 + 0.13 compared to
+2.56 + 0.20 R,. More specifically, for:
+
+1. Mars Years: The subsolar standoff distance decreases by as much as 10% between MY32 and MY33-MY34,
+from 1.87 to 1.69 R,, although some of this variation may be stemming from the relatively lower statistics for
+the first year (1,196 points for MY32 compared to >4, 000 for all other years), due to the MAVEN mission
+starting toward the end of MY32. A similar tendency is seen for terminator standoff distances, with a 11%
+decrease seen between MY32 and MY35. Following Hall et al. (2019), these variations may be connected
+through solar EUV irradiance to the solar cycle itself, when descending from the maximum of solar cycle 24
+(encompassed by MY32) toward a minimum of activity (MY34) and the start of solar cycle 25 (MY35). A
+variation in R.. of similar magnitude (~7% between minimum and maximum of activity) was shown by Hall
+et al. (2019) using MEX data for the previous solar cycles (23-24).
+
+2. Seasonal variations: In contrast, the Ls ranges have a much more even statistics throughout, with more than
+3,000 detections per season. Arguably, this makes comparing results between seasons statistically more
+significant than for the previous case. Overall, for northern spring equinox (Ls = [315°-45°]) and winter
+solstice (Ls = [225°-—315°]) conditions, the bow shock appears to expand in the subsolar direction by about
+7%-13% from its summer and autumn position (R,, 2 1.72 R, compared to R,, © 1.61 R,). Simultaneously,
+the area encompassed by the bow shock conic is also increased during those two instances. One possible
+driving factor behind these changes may be in turn linked to changes in Mars’ dayside upper atmosphere
+and extended exosphere, and how they expand and contract with seasons, increasing or decreasing the size
+of the obstacle to the solar wind flow (Hall et al., 2016 and references therein). A denser lower atmosphere around perihelion (Ls° ~ 251° where the EUV flux is highest on average) and during the dust storm
+season in the autumn (Trainer et al., 2019) may drive the ionosphere to expand significantly at constant
+EUV flux (Dubinin et al., 2019; Sanchez-Cano et al., 2016), offering a more efficient obstacle to the solar
+
+Figure 9. The 3D fits performed on the refined predictor-corrector algorithm for the detection of bow shock crossings in the MAVEN dataset, 2014-2021 in the
+Xuiso — Yuso» Xmso — Ymsor 224 Yuso — Zuso Planes (traces of ellipsoids of revolution parametrized in Table 4). (a) Versus Mars Years (MY). (b) Versus Ls (season)
+ranges. (c) Versus EUV flux levels, with their corresponding subset of detected points (blue and orange dots). (d) Versus bow shock geometry, g, (blue dots) and q,
+(orange dots). (e) All detected points in the current database with a comparison of present fit (black line) to the analytical quadric fit of Gruesbeck et al. (2018, orange
+dashed line). On each figure, superimposed crosses show where the nose of the shock is located, in the plane of projection (see Appendix B). All coordinates are
+expressed in units of the planet’s radius, that is, R, = 3,389.5 km.
+
+SIMON WEDLUND ET AL.
+
+23 of 31
+AVY Journal of Geophysical Research: Space Physics 10.1029/202 154029942
+
+Qc.
+
+Standoff distance [R
+
+All MY32 MY33 MY34 MY35 _ Ls1 Ls2 Ls3 Ls4 EUV ax EUV
+
+Cases
+
+min
+
+Figure 10. Comparison of standoff distances, both at the subsolar point and at the terminator, calculated from the 2D and 3D fits, and for each case as in Tables 3
+and 4. Terminator standoff values are in blue, orange, and yellow (wider bars), whereas subsolar standoff values are in violet and green (thinner bars). For brevity in
+the axis labeling, Ls] = [315°-45°], Ls2 = [45°-135°], Ls3 = [135°-225°], and Ls4 = [225°-315°]. All distances are expressed in units of the planet’s radius, that is,
+R,= 3,389.5 km.
+
+wind. Similarly the expansion of Mars’ extended exosphere (notably modulated by the solar wind flux)
+increases the efficiency of the solar wind charge-exchange process (with a net conversion of fast solar wind
+ions to slow-moving heavy ions of planetary origin, effectively slowing down the solar wind, see Edberg
+et al., 2009; Halekas et al., 2017). Both aspects result in the standoff distance moving outwards. The opposite effect is expected when upper atmosphere densities are lower in the deep summer and in the beginning
+of the autumn and the bow shock surface shrinks. The fits and characteristics of the shock appear consistent
+with this picture.
+
+3. EUV flux variations: The effect of a relatively larger flux on the shock position is twofold, globally increasing the ionization rates in the ionosphere and through photoionization of the extended exosphere as
+well as heating up and expanding the neutral atmosphere-exosphere system (Edberg et al., 2009; Forbes
+et al., 2008; Hall et al., 2016). Photoionization of exospheric neutrals creates newly born ions that are
+picked up by the solar wind convective electric field, resulting in mass-loading and slowing down of
+the solar wind flow (Yamauchi et al., 2015, with the presence of pickup ions in the foreshock region).
+Such combined effects have been shown to expand the bow shock in the solar wind direction (Mazelle
+et al., 2004). The two fits we present here, one for higher and one for lower EUV fluxes (more than 6,500
+points each), display the expected behavior, with a larger standoff distance by 7% and a noticeably larger
+flaring of the fitted conic for the higher EUV fluxes (terminator distances increasing from 2.41 to 2.54
+R,, i.e., 5%).
+
+4. Shock conditions: q, and q, bow shock crossings are related to the average interplanetary magnetic field’s
+(IMF) direction and the spacecraft’s orbit (more precisely, the spherical quadrant in which the spacecraft
+emerges into the solar wind). Because the predictor-corrector algorithm favors g, detections (Section 3.2),
+the statistics between the two cases is heavily unbalanced (see Vignes et al., 2002, for a similar result). On
+average, we find no significant difference between the two conditions, with the shock surface slightly contracting and flaring up in q, conditions with respect to q, conditions (IAR,, ,,| ~4%). Such a tendency is marginal
+considering that these percentages are at the precision limit obtained with the fits.
+
+Let us now look at our 3D fit results. Figure 9 clearly shows several asymmetries depending on the MY, Ls,
+
+EUV flux’ and shock condition. The usual pronounced North-South asymmetry (X\sg — Zyso Plane, second
+column, and also Yyjog — Zyscq Plane, third column), mostly ascribed to the presence of crustal magnetic fields
+
+SIMON WEDLUND ET AL. 24 of 31
+Ast it ° °
+ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+in the southern hemisphere (Gruesbeck et al., 2018), is clearly seen for all cases with the standoff subsolar
+distances being skewed toward that hemisphere. This is shown by crosses representing the tip of the projected
+ellipsoid (calculated by the formulae in Appendix B) located all in the fourth quadrant in the X\ycg — Zyso
+plane. A similar tendency is sometimes marginally observed in the Xyog — Yiysoq plane (first column), when
+the shock surface is skewed toward the dawn hemisphere (—Yy.9), with standoff subsolar distances on average
+larger than on the dusk hemisphere. This is true for MY32 and MY33 (Figure 9a) and for larger EUV fluxes
+(Figure 9c). For lower EUV fluxes (and, incidentally, all other cases), the opposite seems to be taking place
+with the position of the maximum standoff distance being in the dusk +Y,,., hemisphere. It is difficult at this
+stage to tell if these latter (small) effects may stem mainly or not from the dawn-dusk asymmetry of the atmosphere and hence of the ionosphere (Gupta et al., 2019). Likewise, as in the 2D case, it is important to note
+that many drivers of the shock position (EUV flux, atmospheric seasons, etc.) all act in combination at any
+given time: our fits do not discriminate precisely between these effects. A finer characterization of each driver
+separately is left for another study.
+
+A comparison between all standoff distances, subsolar and terminator alike, and calculated by our 2D and 3D
+algorithms is shown in Figure 10, and based on Tables 3 and 4. The standoff distances calculated from the 3D
+fits show the same tendencies as their 2D counterparts, although since the X and Y coordinates are not solar-wind
+aberrated and hence no axisymmetry is considered, the comparison between the 2D and 3D cases can only be that
+of general trends. From MY32 to MY35, a general decrease of standoff distances can be seen. Excluding R,, ,, the
+other standoff distances first steadily decrease from Ls centered on 0° (labeled “Ls1’’) to 180° (“Ls3’’) but then
+increase significantly toward Ls values around 270° (“Ls4’), which may be linked to the EUV flux becoming
+maximum at perihelion Ls = 251°. This result is arguably in contrast to those presented in Vignes et al. (2002)
+although our statistics with MAVEN is much larger than in their study. In an identical way to the 2D fits, larger
+EUV fluxes result in a bow shock surface significantly expanding in the solar wind toward the subsolar direction.
+With respect to the geometry of the shock, the subsolar standoff distances R.. appear to marginally increase from
+q, to q, conditions, although the inverse trend is seen for the terminator distances. Again, these differences are
+slight, which may reflect in part the bias against g, conditions of our bow shock estimator (thus yielding a low
+amount of q, shock detections).
+
+As a preliminary conclusion, we note that:
+
+1. The Xyso — Yyso and Xysoq — Zyso ASYmmmMetry seems particularly marked for Ls = [135°-225°] (labeled
+“Ls3” on the figure), MY32, MY35, and higher EUV fluxes: it can readily be seen by comparing the length of
+the blue and red bars. As explained earlier, the number of points used for fits for MY32 is the lowest of all the
+cases because MAVEN arrived at Mars late in MY32. This is in qualitative agreement with the conclusions of
+Gruesbeck et al. (2018). On average and outside of those special cases, the shock’s shape stays rather symmet
+ia (3D fits) and R,, (2D fits) indeed seem to match rather
+
+well most of the time. This axisymmetric tendency can be further amplified by aligning the X\;o9 — Yyso plane
+
+ric about the X\,<9 axis: the terminator distances R
+
+with the solar wind aberration system, rotating the 3D quadric surface 4° anticlockwise around the Z),.9 axis;
+new standoff distances for the 3D fits (R,,, and K,,) differ by less than 5% with their corresponding 2D fits
+values (not shown).
+
+2. Although the 3D and 2D conic fits retain strong similarities in their behavior, the 3D fits (seemingly paradoxically) appear more robust and less affected by external assumptions. It is recalled here that not only do
+
+the 2D fits assume axisymmetry around X,,,,, but certain 2D fits had to also be constrained at larger Eu
+clidean distances from the center of the planet due to the poor coverage of MAVEN for Xj co S$ 0.5 Rp. This
+superiority of the 3D fitting algorithm is due to: (a) the number of fitting variables (A to J, allowing more
+flexibility despite risking over-determination of the linear system of equations), (b) the natural asymmetry
+of the shock (however small), and (c) the fitting points being statistically better distributed over a larger
+space (both in Xyco — Yyso and Xysq — Zyso Planes instead of a single polar plane) and thus optimizing
+the fits.
+
+3. Because the Martian seasons (monitored by Ls ranges) to a degree and the EUV flux both depend on Mars’
+heliocentric distance, correlations between these fits are to be expected. For example, similar fits for low Ls
+values (<135°) and low EUV flux can be seen in Figures 8c and 8e (orange curves) and Figure 9b and 9c (red
+
+curves).
+
+25 of 31
+Ast it ‘ 0
+ANIL Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+4. Because the solar cycle is a continuous underlying driver of the shock’s position regardless of the binnings
+adopted here (Hall et al., 2019), we expect also correlations between EUV flux and Mars year results. This
+effect is most clearly exemplified with the shock standoff decrease when going from the declining phase of
+solar cycle 24 (MY32 and MY33, high fluxes) to the next solar minimum (MY 34, low fluxes)
+
+5. Conclusions
+
+In this study, we presented a fast method to estimate automatically the position of the bow shock in real spacecraft
+orbits, as well as analytical expressions for the normal direction to the shock surface at any point in its close vicinity. After a survey of existing analytical smooth models of the bow shock surface at the planet Mars based on 2D
+and 3D fits, we used these models as a first prediction of the shock position in the data and refined this prediction
+further with a predictor-corrector algorithm based on the median absolute deviation of the magnetic field around
+the predicted shock. This method, biased toward the detection of g, shocks but not entirely limited to them, does
+not substitute for a detailed analysis of the crossing or for machine-learning techniques currently developed for
+space missions. It however finds a useful application when it is necessary to quickly determine the position of the
+spacecraft, or at least an estimate thereof, with respect to the bow shock.
+
+As part of the solar wind and space weather database Helio4Cast, our technique was successfully used to
+retrieve solar wind undisturbed parameters from the MAVEN mission (M6stl et al., 2020). We also successfully applied the predictor-corrector method to the MAVEN orbit and magnetic field data between November
+2014 and February 2021 (see list compiled by Simon Wedlund et al., 2021), and performed a series of fits,
+in 2D and in 3D, to test our method and investigate statistically the shape of the shock depending on MY,
+solar longitude Ls, and two solar EUV flux levels. The 3D fitting has obvious advantages over the 2D polar
+axisymmetric geometry usually used to describe the shock structure, namely, a more accurate estimate of
+asymmetries in the global structure, and taking full advantage of the 3D distribution of bow shock detections
+in space. This is especially important for bodies such as Mars with large orbital eccentricities and axial tilts
+to the ecliptic, and for which the heliocentric distance is a strong driver of the EUV flux input and seasonal
+changes on the planet.
+
+Expectedly, we found the Martian shock to be highly asymmetric with respect to the North-South hemispheres,
+in agreement with previous studies (see, e.g., Gruesbeck et al., 2018; Halekas et al., 2017; Hall et al., 2016). Such
+an asymmetry is in part linked to the presence of crustal magnetic fields at Mars; a specific study taking into
+account the planet’s rotation and the location of these crustal magnetic sources on the nightside or on the dayside
+is left for the future. Bow shock fits for quasi-perpendicular and parallel shock conditions were, to the precision
+of our approach, almost identical. In addition, the shock appeared noticeably asymmetric with respect to Yy,;9 and
+Zmso directions in specific conditions, namely, for MY32 and MY35, Ls = [135°—225°] and larger EUV fluxes.
+Despite this observed asymmetry, solar-aberrated axisymmetric models may still provide a worthy first approx1mation of the shock’s shape and position.
+
+To investigate further the conditions of the shock’s asymmetry throughout different solar cycles, solar drivers,
+and internal drivers, such as crustal magnetic fields, and isolate their respective contribution, a full exploitation
+of MAVEN’s continuously growing datasets is warranted; likewise, a reanalysis of past encounters at Mars using
+3D quadric fits would be a welcome addition. These are left for future studies. Applications of these methods,
+especially in 3D, to other bodies with large orbital eccentricities (such as Mercury) may also prove of interest.
+
+Appendix A: Characteristics of a Quadric Surface
+
+The 3D planetary bow shock in this paper is approximated as a quadratic surface described by a Cartesian
+equation (Equation 9). Mathematically, 17 different quadrics can exist. However, here only three are physically
+acceptable for the approximation of a bow shock surface. These are the “real” ellipsoid, the elliptic paraboloid,
+and the hyperboloid of two sheets. From coefficients A to J defining the quadric’s surface equation, it is possible
+to extract more “physical” quantities from these surfaces, such as the center of the surface, the direction of the
+principal axes, the typical length, or the “nose” of the surface. This requires the analysis of one particular matrix
+M given by:
+
+26 of 31
+Ast it ° °
+ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+A D/2 F/2
+M=/D/2 B_~ E/2}|- (Al)
+F/2 E/2 C
+Determinant det M yields useful pieces of information on the considered surface. If det M < 0, the surface is an
+ellipsoid or a hyperboloid of two sheets. If det M = 0, it 1s an elliptic paraboloid.
+
+The coordinates of the center of the surface is given by:
+G/2
+Preentre = —M™"| H/2
+I/2
+if M~! exists. In the case of an elliptic paraboloid, there is an infinite number of centers placed along the inter
+sections of the two planes of symmetry.
+
+As M is symmetric, its eigenvalues are real and eigenvectors are orthogonal. Let us define 2, (i = 1, 2, 3), the
+eigenvalues of M, and Vj, their associated eigenvectors. Physically, only three cases should be considered:
+
+1. Ellipsoid: 1,, 4,, 2, > 0. The characteristic lengths of the ellipsoid are proportional to 1/+/ 4;, with the same
+constant to the length of the conic along the three principal axes of the ellipsoid.
+
+2. Elliptic paraboloid: 4,, 2, > 0, and A, = 0.
+
+3. Hyperboloid of two sheets: 4,, A, < 0, and 2, > 0. The characteristic lengths of the hyperboloid are propor
+tional to 1/4/|A;|.
+
+Finally, one may be interested in the position of the tip (tail-like direction) or of the nose (subsolar direction) of
+the surface. These extremum points are at a distance L,, L,, and L, from the center in the direction + V;. Therefore
+
+—1
+L; = (v2) \/ Pi tre M Prentre + 1
+
+they are given by:
+
+and
+Ps ext = Pentre ( 1 1 1 ) + (1, VY; LoV> Ly V3 ) (A2)
+
+where the columns of P, .,, are the locations of the extrema. For a hyperboloid of two sheets, only the real
+
+solution associated with 1, should be considered: this gives the position of the noses or tips of both sheets. The
+
+sunward-most position of the ellipsoid (its nose) is referred to as P__.. The tip or nose of the ellipsoid is in our
+
+nose’
+
+context along the direction of the eigenvectors with the largest X (in absolute value) component.
+
+The volume of the ellipsoid is:
+
+vase Li Lsbs (a3)
+
+Table Al presents the length of each of the three principal axes of the quadric L,, the ellipsoid’s volume, eigenvectors VY; and the coordinates of the center and sunward nose of the surface for each ellipsoid in Table 4.
+
+27 of 31
+N
+oh WY COREE = “Y SI SHUpeL SIE “oBvIOAL uO “y C-Q— < Ny soy prea
+oe O18 SIL 76 OINST] UL UMOYS ST IJ Yous Joy AWpITeA JO UTeWIOP dU], ‘SOJVUIPIOOS UvISaIeD OSW UI ‘asou pIeMUNS sj pue prlosdiy[a oy) Jo J9]U99 oY) JO suoMIsod oy} ose "gg pue A “(CO
+= JO | NSUSS OJOINS JOU ST YN" JO YO'] JO ONTRA & ‘UMOP pepuNoL pue “y 0} pozITeUIOU ore sonTeA ay} OsNed0q) Soa}eUIPIOOD UeISAIeD OSW| UI soxe edroursd ay) Jo suonsenp pozipeuLoU
+Ss OU} ‘ST VU) ‘JA, XLNCUI JO SIOJOOAUASTO OY} OTe | “OLUNIOA ITY) A pue sprosdi[a ay} Jo soxe Tedroursd oy Jo “y Jo sun ur syySua] oy) ose (¢ ‘Z ‘| = 2) "7 ‘sprosdiyyo ose sorspenb [py ‘aon
+NN ————sssSS =.=... !:°—.°00 :°—° °0°=°0°00—::°00—0&  .=:°—0—0=.=»°0— EE!!! !!:?..0@.===—— =. !!:?:?. 8 =.=... !!?=?*}?°:°x0» 0&°&3 & & =... ==? =!?(}:>°.°0°0=»0—0—.=»0—0 0 :.:.:°00=.=.=».»°0:0—  !!:.:.000E!!!:280.08_\»CKc™
+= 9¢0- 800 8ST soo- 00 OVI- 990 SLO 900 SLO 990- 600 O©FO0 cO- 660- CI96 SLC 6L7 ODE ||-Fseng
+=<
+= SIT 970 IcT L00 ITO 90I- vvO0- 900- 060- 900 660 600- 060 O10- f70- ITE8 eC ELC LET T -Isend
+oS
+= z-Ul M8 C000 >
+a LSO 8 =6690- Ss OF TS CO'0 100 I80- vcoO 8c0- £60 600- 960- L70- L60 WjO- 920- LLSO LTT HST ELT xniF ANA
+z-U M 8 700 0<
+860- L90- Wt cco 620 SOc SLO- €SO0- OVO- 890 I80- coO0- ceO SctO c60- B800ST OO ETE I8E xntF ANA
+yIOM sTy}
+9LT 60 6L0 v70 WO 8II- 8g0- re0- rLO- 800 880 Lr0- I80 €€0- 8r0- $966 S97 987 ETE ‘LSTE-$77] =ST
+3s YOM sty)
+7, 6lI- IV70 LVI 8€0 Ss¢€0 6fS0- vlLO LITO S90 L9YO0- £00 LO 110 660- €10 S6IS 881 9€7 O87 ‘LS?Z-SEI]=ST
+= YOM sTy)
+as cyt O'I- 690 O0@O cjO0- ¢cI- 8YO- trO 9L0- PHO L80 IcO 9L0 ¢c0- I190- OFL8 CS? 897 B80'E ‘LoSEI—oSv] = ST
+© yIOM STU)
+ay veo = ELT v60 100- clO- 8¢I- scO 8L0- 890 960 f€10 Ssc0O- clO c#O 8L0 O6L146 ELT 98C 667 ‘LoSP-oS TE] = ST
+N L1O 8 86©600- SVT 000 loo 8=69©fTO)0SCO ET 0- =—800 02S 660- + Sd00- ODT 800 660 900 ¢10- O6FLOe vel eI 807 HOM STU “CE AW
+5 080 €LTI- 090 CO vd STI- O£FO0 890- L90 Ic0O- ¢lL0- Ss90- £60 SOO LeO0- 6LE8 O97 OLT S8T 3IOM STU} “PEA
+= 060 ¢cl cll 600 o6f0 LII- Tg0- OVO- L8O0- CLO- 690 £900- 790 190 OSO- £876 S9CT C8T LOT 3IOM STU} “CE AW
+= csiI- 6L0- 9IT LIO LIO vriI- 660 OSO0 90 SSO c80- TO 6fS0- 8c0- 9L0 8 8IT 897 60 CE yom Sty} “TE AIN
+Po) 6lT Ogs0 SIT soo tO LOI- Sr0- ST0- 880- I00- 660 910- 060 900- PrrO- LEES SOT PLT PBT Wom sty) ‘syuz0d Vy
+- (S10) ‘Te 39
+>) yooqsanin
+Da O80- Ic0- CST 660 660 SsSvy9- 690 690 cco 690 cLO- 800 %ccO O10 L60- O¢ECI9 ITv rev OC8 ‘stuiod 11V
+= OSW7 OSWOSWy OSH COS“ OSWy OS OSH OS OS OS OSWy SWZ OS OS yy] (ow) ase)
+= d asou d 19]U99 d ¢ d Z d I € G I
+= [wl od [wld aa [al <A Dalia A TI ‘IT 7
+(é) pasapisuo) saovfing G¢E ay) fo sAajauvivg ay] 10f p aJqD], aa ‘JasvIDg NAAVW AY) WOL] padliag sv yOoYS Mog univ CE ayj fo sIs14ajovADYD
+= TV 91981
+=
+&
+=
+=
+—)
+—)
+=
+
+vrij
+rwJ\
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+28 of 31
+
+SIMON WEDLUND ET AL.
+fri
+AGU
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+Acknowledgments
+
+Cyril Simon Wedlund, Martin Volwerk,
+and Christian Méstl thank the Austrian
+Science Fund (FWF): P32035-N36,
+P31659-N27, and P31521-N27. Arnaud
+Beth thanks the Swedish National Space
+Agency (SNSA) and its support with
+
+the Grant 108/18. Parts of this work
+
+for the observations obtained with the
+SWEA instrument are supported by the
+French space agency CNES. Cyril Simon
+Wedlund thanks Mea Simon Wedlund for
+insightful comments and discussions. The
+authors acknowledge Emmanuel Penou
+for help and access to the CLWeb software (v16.09) from IRAP/Observatoire
+Midi-Pyrénées. The authors thank Dr.
+Jared Espley (NASA) for his support in
+using MAVEN/MAG data. Cyril Simon
+Wedlund acknowledges L. Hunyadi for
+the matrix implementation of the Taubin
+3D fitting algorithm, and Yair Altman for
+developing and maintaining the Matlab
+package “export_fig” for figure pdf
+exports. Finally, the authors would like
+
+to acknowledge ISSI for the opportunity
+it offered for very valuable discussions
+on this topic as part of the International
+Team #499 “Similarities and Differences
+in the Plasma at Comets and Mars” led by
+Charlotte Gétz during these hard Covid
+times.
+
+SIMON WEDLUND ET AL.
+
+Journal of Geophysical Research: Space Physics
+
+10.1029/2021JA029942
+
+Appendix B: Subsolar Tip of the Trace of an Ellipsoid Surface in Cartesian
+Coordinates
+
+The subsolar point of the projection of a 3D ellipsoid in 2D planes, as shown in Figure 9 (crosses), can be
+obtained by finding the roots of the corresponding 2D conic in the plane considered. For z = 0, Equation (9)
+becomes a second order equation:
+
+Ax? + By + Dxy+Gx+Hy-1=0. (B1)
+
+Fixing variable y, the equation can be put in quadratic form with the following positive root:
+
+xy = —(Dy + @)+ VA (B2)
+2A
+A =(Dy+G) -4A(By’ + Hy-1)>0 (B3)
+
+Finding the maximum of this function is equivalent to finding a y value that maximizes this function. Posing
+€ = Dy + G, its derivative has the form:
+
+OXM 2DéE —4AQBy+ Hf) D
+dy 4A\/é2 —4A(By? + Hy—1) 2A (B4)
+
+Solving " = () for y and using that result in Equation (B2) makes it possible to calculate the final (x, y) coordinates of the projected ellipsoid’s tip in the corresponding x — y plane. An identical reasoning can be made for
+the x — z plane.
+
+This tip in a plane is however not necessarily the farthest subsolar point of the ellipsoid’s surface. Its position in
+3D is by contrast given by Equation (A2) in Appendix A.
+
+Data Availability Statement
+
+The calibrated MAVEN/MAG datasets are freely available from the NASA Planetary Data System (PDS) at
+https://doi.org/10.17189/1414178. The corresponding predicted bow shock times and spatial coordinates for the
+2014—2021 dataset using our predictor-corrector algorithm are provided for reference on Zenodo at https://doi.
+org/10.528 1/zenodo.5725288 (Version 2, Simon Wedlund et al., 2021). The FISM-P Mars Solar Spectral Irradiance model is available at https://lasp.colorado.edu/lisird/data/fism_p_ssi_mars/. The Helio4Cast database is
+available at www.helioforecast.space/icmecat and www.helioforecast.space/sircat. The solar wind monitor da
+taset at Mars was specifically derived for Helio4Cast using our predictor algorithm and can be downloaded at
+https://doi.org/10.6084/m9.figshare.6356420.
+
+References
+
+Acufia, M. H., Connerney, J. E. P., Wasilewski, P., Lin, R. P., Anderson, K. A., Carlson, C. W., et al. (1998). Magnetic field and plasma observations
+at mars: Initial results of the mars global surveyor mission. Science, 279(5357), 1676-1680. https://doi.org/10.1126/science.279.5357.1676
+Balogh, A., & Treumann, R. A. (2013). Physics of collisionless shocks: Space plasma shock waves. Springer-Verlag. https://doi.
+
+org/10.1007/978-1-4614-6099-2
+
+Barabash, S., Lundin, R., Andersson, H., Brinkfeldt, K., Grigoriev, A., Gunell, H., et al. (2006). The Analyzer of Space Plasmas And Energetic
+Atoms (ASPERA-3) for the mars express mission. Space Science Reviews, 126(1), 113-164. https://doi.org/10.1007/s11214-006-9124-8
+
+Biermann, L. (1951). Kometenschweife und solare korpuskularstrahlung. Zeitschrift fur Astrophysik, 29, 274.
+
+Breuillard, H., Dupuis, R., Retino, A., Le Contel, O., Amaya, J., & Lapenta, G. (2020). Automatic classification of plasma regions in near-Earth
+space with supervised machine learning: Application to magnetospheric multi scale 2016-2019 observation. Frontiers in Astronomy and Space
+Sciences, 7, 55. https://doi.org/10.3389/fspas.2020.00055
+
+Burgess, D., Lucek, E. A., Scholer, M., Bale, S. D., Balikhin, M. A., Balogh, A., et al. (2005). Quasi-parallel shock structure and Processes. In
+G. Paschmann, S. J. Schwartz, C. P. Escoubet, & S. Haaland (Eds.), Outer magnetospheric boundaries: Cluster results (Vol. 20, pp. 205-222).
+Springer
+
+Burgess, D., & Scholer, M. (2014). Microphysics of quasi-parallel shocks in collisionless plasmas. In A. Balogh, A. Bykov, P. Cargill, R. Dendy, T.
+Dudok de Wit, & J. Raymond (Eds.), Microphysics of cosmic plasmas (pp. 437-457). Springer. https://doi.org/10.1007/978-1-4899-7413-6_17
+
+Connerney, J. E. P., Espley, J., Lawton, P., Murphy, S., Odom, J., Oliversen, R., & Sheppard, D. (2015). The MAVEN magnetic field investigation.
+Space Science Reviews, 195(1-4), 257-291. https://doi.org/10.1007/s11214-015-0169-4
+
+Dubinin, E., Fraenz, M., Paétzold, M., Woch, J., McFadden, J., Halekas, J. S., et al. (2019). Expansion and shrinking of the Martian topside ionosphere. Journal of Geophysical Research: Space Physics, 124(11), 9725-9738. https://doi.org/10.1029/2019JA027077
+
+29 of 31
+Asti ‘ 2
+NWI Journal of Geophysical Research: Space Physics 10.1029/2021JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+Dubinin, E., Franz, M., Woch, J., Roussos, E., Barabash, S., Lundin, R., et al. (2006). Plasma morphology at mars. Aspera-3 observations. Space
+Science Reviews, 126(1), 209-238. https://doi.org/10.1007/s11214-006-9039-4
+
+Edberg, N. J. T., Brain, D. A., Lester, M., Cowley, S. W. H., Modolo, R., Franz, M., & Barabash, S. (2009). Plasma boundary variability at mars
+as observed by mars global surveyor and mars express. Annales Geophysicae, 27(9), 3537-3550. https://doi.org/10.5194/angeo-27-3537-2009
+
+Edberg, N. J. T., Lester, M., Cowley, S. W. H., Brain, D. A., Franz, M., & Barabash, S. (2010). Magnetosonic Mach number effect of the
+position of the bow shock at Mars in comparison to Venus. Journal of Geophysical Research: Space Physics, 115(A7). https://doi.
+org/10.1029/2009JA014998
+
+Edberg, N. J. T., Lester, M., Cowley, S. W. H., & Eriksson, A. I. (2008). Statistical analysis of the location of the Martian magnetic pileup boundary
+and bow shock and the influence of crustal magnetic fields. Journal of Geophysical Research, 113(A8). https://doi.org/10.1029/2008JA013096
+
+Forbes, J. M., Lemoine, F. G., Bruinsma, S. L., Smith, M. D., & Zhang, X. (2008). Solar flux variability of Mars’ exosphere densities and temperatures. Geophysical Research Letters, 35(1). https://doi.org/10.1029/2007GL03 1904
+
+Formisano, V. (1979). Orientation and shape of the Earth’s bow shock in three dimensions. Planetary and Space Science, 27(9), 1151-1161.
+https://doi.org/10.1016/0032-0633(79)90135-1
+
+Formisano, V., Domingo, V., & Wenzel, K. P. (1979). The three-dimensional shape of the magnetopause. Planetary and Space Science, 27(9),
+1137-1149. https://doi.org/10.1016/0032-0633(79)90134-X
+
+Gary, S. P. (1992). The mirror and ion cyclotron anisotropy instabilities. Journal of Geophysical Research, 97(A6), 8519. https://doi.
+org/10.1029/92JA00299
+
+Génot, V., Budnik, E., Jacquey, C., Bouchemit, M., Renard, B., Dufourg, N., et al. (2021). Automated Multi-Dataset Analysis (AMDA): An on-line
+database and analysis tool for heliospheric and planetary plasma data. Planetary and Space Science, 201, 105214. https://doi.org/10.1016/j.
+pss.2021.105214
+
+Gringauz, K. I., Bezrukikh, V. V., Verigin, M. I., & Remizov, A. P. (1976). On electron and ion components of plasma in the antisolar part of
+near-Martian space. Journal of Geophysical Research, 81(19), 3349-3352. https://doi.org/10.1029/JA08 11019p03349
+
+Gruesbeck, J. R., Espley, J. R., Connerney, J. E. P., DiBraccio, G. A., Soobiah, Y. I., Brain, D., et al. (2018). The three-dimensional bow shock of
+Mars as observed by MAVEN. Journal of Geophysical Research: Space Physics, 123(6), 4542-4555. https://doi.org/10.1029/2018JA025366
+
+Gupta, N., Venkateswara Rao, N., & Kadhane, U. R. (2019). Dawn-dusk asymmetries in the Martian upper atmosphere. Journal of Geophysical
+Research: Planets, 124(12), 3219-3230. https://doi.org/10.1029/2019JE006151
+
+Halekas, J. S., Ruhunusiri, S., Harada, Y., Collinson, G., Mitchell, D. L., Mazelle, C., et al. (2017). Structure, dynamics, and seasonal variability
+of the Mars-solar wind interaction: MAVEN Solar Wind Ion Analyzer in-flight performance and science results. Journal of Geophysical Research: Space Physics, 122(1), 547-578. https://doi.org/10.1002/2016JA023167
+
+Halekas, J. S., Taylor, E. R., Dalton, G., Johnson, G., Curtis, D. W., McFadden, J. P., et al. (2015). The Solar Wind Ion Analyzer for MAVEN.
+Space Science Reviews, 195(1), 125-151. https://doi.org/10.1007/s11214-013-0029-z
+
+Hall, B. E. S., Lester, M., Sanchez-Cano, B., Nichols, J. D., Andrews, D. J., Edberg, N. J. T., et al. (2016). Annual variations in the Martian bow
+shock location as observed by the Mars Express mission. Journal of Geophysical Research: Space Physics, 121(11), 11474-11494. https://
+doi.org/10.1002/2016JA023316
+
+Hall, B. E. S., Sanchez-Cano, B., Wild, J. A., Lester, M., & Holmstrém, M. (2019). The Martian bow shock over solar cycle 23—24 as observed
+by the Mars Express mission. Journal of Geophysical Research: Space Physics, 124(6), 4761-4772. https://doi.org/10.1029/2018JA026404
+
+Horbury, T. S., Cargill, P. J., Lucek, E. A., Eastwood, J., Balogh, A., Dunlop, M. W., et al. (2002). Four spacecraft measurements of the quasiperpendicular terrestrial bow shock: Orientation and motion. Journal of Geophysical Research: Space Physics, 107(A8), SSH10-1—-SSH10-11.
+https://doi.org/10.1029/2001JA000273
+
+Kennel, C. F., Edmiston, J. P., Hada, T., Stone, R. G., & Tsurutani, B. T.(1985). A quarter century of collisionless shock research. In Collisionless
+shocks in the heliosphere: A tutorial review (pp. 1-36). American Geophysical Union.
+
+Kotova, G., Verigin, M., Gombosi, T., Kabin, K., Slavin, J., & Bezrukikh, V. (2021). Physics-based analytical model of the planetary bow shock
+position and shape. Journal of Geophysical Research: Space Physics, 126(6), e€2021JA029104. https://doi.org/10.1029/2021JA029 104
+
+Liu, D., Rong, Z., Gao, J., He, J., Klinger, L., Dunlop, M. W., et al. (2021). Statistical properties of solar wind upstream of mars: MAVEN observations. The Astrophysical Journal, 911(2), 113. https://doi.org/10.3847/1538-4357/abed50
+
+Matsunaga, K., Seki, K., Brain, D. A., Hara, T., Masunaga, K., Mcfadden, J. P., et al. (2017). Statistical study of relations between the induced
+magnetosphere, ion composition, and pressure balance boundaries around mars based on MAVEN observations. Journal of Geophysical Research, 122(9), 9723-9737. https://doi.org/10.1002/2017JA024217
+
+Mazelle, C., Winterhalter, D., Sauer, K., Trotignon, J., Acufia, M., Baumgartel, K., et al. (2004). Bow shock and upstream phenomena at mars.
+Space Science Reviews, 111(1), 115-181. https://doi.org/10.1023/B:SPAC.0000032717.98679.d0
+
+McFadden, J. P., Kortmann, O., Curtis, D., Dalton, G., Johnson, G., Abiad, R., et al. (2015). MAVEN SupraThermal and Thermal Ion Compostion
+(STATIC) instrument. Space Science Reviews, 195(1), 199-256. https://doi.org/10.1007/s11214-015-0175-6
+
+Merka, J., Szabo, A., Slavin, J. A., & Peredo, M. (2005). Three-dimensional position and shape of the bow shock and their variation with upstream Mach numbers and interplanetary magnetic field orientation. Journal of Geophysical Research: Space Physics, 110(A4). https://doi.
+org/10.1029/2004JA010944
+
+Mitchell, D. L., Mazelle, C., Sauvaud, J.-A., Thocaven, J.-J., Rouzaud, J., Fedorov, A., et al. (2016). The MAVEN Solar Wind Electron Analyzer.
+Space Science Reviews, 200(1), 495-528. https://doi.org/10.1007/s11214-015-0232-1
+
+Mostl, C., Weiss, A., Bailey, R., Isavnin, A., Simon Wedlund, C., Stansby, D., et al. (2020). Solar wind in situ data for creating catalogs and
+statistics of interplanetary coronal mass ejections and high speed streams (Solar Orbiter, Parker Solar Probe, STEREO-A/B, MAVEN, Wind,
+MESSENGER, VEX, Ulysses) 2007-2020. (Data Set). https://doi.org/10.6084/m9.figshare. 11973693.v14
+
+Moullard, O., Burgess, D., Horbury, T. S., & Lucek, E. A. (2006). Ripples observed on the surface of the Earth’s quasi-perpendicular bow shock.
+Journal of Geophysical Research: Space Physics, 111(AQ). https://doi.org/10.1029/2005JA01 1594
+
+Némec, F., Linzmayer, V., Nemecek, Z., & Aafrankova, J. (2020). Martian bow shock and magnetic pileup boundary models based on an automated region identification. Journal of Geophysical Research: Space Physics, 125(11), e28509. https://doi.org/10.1029/2020JA028509
+
+Peredo, M., Slavin, J. A., Mazur, E., & Curtis, S. A. (1995). Three-dimensional position and shape of the bow shock and their variation with
+Alfvénic, sonic and magnetosonic Mach numbers and interplanetary magnetic field orientation. Journal of Geophysical Research: Space
+Physics, 100(A5), 7907-7916. https://doi.org/10.1029/94JA02545
+
+Peredo, M., Stern, D. P., & Tsyganenko, N. A. (1993). Are existing magnetospheric models excessively stretched? Journal of Geophysical Research: Space Physics, 98(A9), 15343-15354. https://doi.org/10.1029/93JA01150
+
+Ramstad, R., Barabash, S., Futaana, Y., & Holmstr6m, M. (2017). Solar wind- and EUV-dependent models for the shapes of the Martian plasma boundaries based on Mars Express measurements. Journal of Geophysical Research: Space Physics, 122(7), 7279-7290.
+https://doi.org/10.1002/2017JA024098
+
+30 of 31
+Ast it ° °
+ANIL Journal of Geophysical Research: Space Physics 10.1029/202 1JA029942
+
+ADVANCING EARTH
+AND SPACE SCIENCE
+
+SIMON WEDLUND ET AL.
+
+Russell, C. T. (1977). On the relative locations of the bow shocks of the terrestrial planets. Geophysical Research Letters, 4(10), 387-390. https://
+doi.org/10.1029/GL004i010p00387
+
+Russell, C. T., Chou, E., Luhmann, J. G., Gazis, P., Brace, L. H., & Hoegy, W. R. (1988). Solar and interplanetary control of the location of the
+Venus bow shock. Journal of Geophysical Research, 93(A6), 5461. https://doi.org/10.1029/JA0931A06p05461
+
+Sanchez-Cano, B., Lester, M., Witasse, O., Milan, S. E., Hall, B. E. S., Cartacci, M., et al. (2016). Solar cycle variations in the ionosphere
+of Mars as seen by multiple Mars Express data sets. Journal of Geophysical Research: Space Physics, 121(3), 2547-2568. https://doi.
+org/10.1002/2015JA022281
+
+Schwartz, S. J. (1998). Shock and discontinuity normals, Mach numbers, and related parameters. /SSI Scientific Reports Series, 1, 249-270.
+https://doi.org/10.2307/3052576
+
+Schwingenschuh, K., Riedler, W., Lichtenegger, H., Yeroshenko, Y., Sauer, K., Luhmann, J. G., et al. (1990). Martian bow shock: Phobos observations. Geophysical Research Letters, 17(6), 889-892. https://doi.org/10.1029/GL017i006p00889
+
+Simon Wedlund, C., Alho, M., Gronoff, G., Kallio, E., Gunell, H., Nilsson, H., et al. (2017). Hybrid modelling of cometary plasma environments:
+I. Impact of photoionisation, charge exchange, and electron ionisation on bow shock and cometopause at 67P/Churyumov-Gerasimenko. Astronomy & Astrophysics, 604, A73. https://doi.org/10.105 1/0004-6361/201730514
+
+Simon Wedlund, C., Volwerk, M., Beth, A., Mazelle, C., Mostl, C., Halekas, J., & Rojas-Castillo, D. (2021). Predicted times of bow Shock crossings at Mars from the NASA/MAVEN mission, using spacecraft ephemerides and magnetic field data, with a predictor-corrector algorithm.
+(Data Set). Zenodo. https://doi.org/10.528 1/zenodo.5725288
+
+Slavin, J. A., & Holzer, R. E. (1981). Solar wind flow about the terrestrial planets 1. Modeling bow shock position and shape. Journal of Geophysical Research: Space Physics, 86(A13), 11401-11418. https://doi.org/10.1029/JA0861A13p11401
+
+Slavin, J. A., Holzer, R. E., Spreiter, J. R., & Stahara, S. S. (1984). Planetary Mach cones: Theory and observation. Journal of Geophysical Research: Space Physics, 89(A5), 2708-2714. https://doi.org/10.1029/JA089i1A05p02708
+
+Slavin, J. A., Schwingenschuh, K., Riedler, W., & Yeroshenko, Y. (1991). The solar wind interaction with Mars: Mariner 4, Mars 2, Mars 3,
+Mars 5, and Phobos 2 observations of bow shock position and shape. Journal of Geophysical Research: Space Physics, 96(A7), 11235-11241.
+https://doi.org/10.1029/91JA00439
+
+Taubin, G. (1991). Estimation of planar curves, surfaces, and nonplanar space curves defined by implicit equations with applications to
+edge and range image segmentation. JEEE Transactions on Pattern Analysis and Machine Intelligence, 13(11), 1115-1138. https://doi.
+org/10.1109/34.103273
+
+Thiemann, E. M. B., Chamberlin, P. C., Eparvier, F. G., Templeman, B., Woods, T. N., Bougher, S. W., & Jakosky, B. M. (2017). The MAVEN
+EUVM model of solar spectral irradiance variability at Mars: Algorithms and results. Journal of Geophysical Research: Space Physics, 122(3),
+2748-2767. https://doi.org/10.1002/2016JA0235 12
+
+Trainer, M. G., Wong, M. H., McConnochie, T. H., Franz, H. B., Atreya, S. K., Conrad, P. G., et al. (2019). Seasonal variations in atmospheric composition as measured in gale crater, Mars. Journal of Geophysical Research: Planets, 124(11), 3000-3024. https://doi.
+org/10.1029/2019JE006175
+
+Trotignon, J., Mazelle, C., Bertucci, C., & Acufia, M. (2006). Martian shock and magnetic pile-up boundary positions and shapes determined from
+the Phobos 2 and Mars Global Surveyor data sets. Planetary and Space Science, 54(4), 357-369. https://doi.org/10.1016/j.pss.2006.01.003
+
+Trotignon, J. G., Grard, R., & Klimov, S. (1991). Location of the Martian bow shock measurements by the plasma wave system on Phobos 2.
+Geophysical Research Letters, 18(3), 365-368. https://doi.org/10.1029/91GL00025
+
+Trotignon, J. G., Grard, R., & Skalsky, A. (1993). Position and shape of the Martian bow shock: The Phobos 2 plasma wave system observations.
+Planetary and Space Science, 41(3), 189-198. https://doi.org/10.1016/0032-0633(93)90058-A
+
+Verigin, M., Slavin, J., Szabo, A., Gombosi, T., Kotova, G., Plochova, O., et al. (2003). Planetary bow shocks: Gasdynamic analytic approach.
+Journal of Geophysical Research: Space Physics, 108(A8). https://doi.org/10.1029/2002JA009711
+
+Verigin, M., Slavin, J., Szabo, A., Kotova, G., & Gombosi, T. (2003). Planetary bow shocks: Asymptotic MHD Mach cones. Earth Planets and
+Space, 55, 33-38. https://doi.org/10.1186/BF03352460
+
+Verigin, M. I., Gringauz, K. I., Kotova, G. A., Remizov, A. P., Shutte, N. M., Rosenbauer, H., et al. (1993). The dependence of the Martian magnetopause and bow shock on solar wind ram pressure according to Phobos 2 TAUS ion spectrometer measurements. Journal of Geophysical
+Research, 98(A2), 1303-1309. https://doi.org/10.1029/92JA01666
+
+Verigin, M. I., Kotova, G. A., Remizov, A. P., Styazhkin, V. A., Shutte, N. M., Zhang, T. L., & Schwingenschuh, K. (1999). Shape and location
+of planetary bow shocks. Kosmicheskie Issledovaniia, 37(1), 38-43.
+
+Vignes, D., Acufia, M. H., Connerney, J. E. P., Crider, D. H., Reme, H., & Mazelle, C. (2002). Factors controlling the location of the bow shock
+at Mars. Geophysical Research Letters, 29(9), 42-1—42-4. https://doi.org/10.1029/2001GL014513
+
+Vignes, D., Mazelle, C., Rme, H., Acufia, M. H., Connerney, J. E. P., Lin, R. P., et al. (2000). The solar wind interaction with Mars: Locations and
+shapes of the bow shock and the magnetic pile-up boundary from the observations of the MAG/ER Experiment onboard Mars Global Surveyor.
+Geophysical Research Letters, 27(1), 49-52. https://doi.org/10.1029/1999GL010703
+
+Volwerk, M., Schmid, D., Tsurutani, B. T., Delva, M., Plaschke, F., Narita, Y., et al. (2016). Mirror mode waves in Venus’s magnetosheath: Solar
+minimum vs. solar maximum. Annales Geophysicae, 34(11), 1099-1108. https://doi.org/10.5194/angeo-34- 1099-2016
+
+Yamauchi, M., Hara, T., Lundin, R., Dubinin, E., Fedorov, A., Sauvaud, J. A., et al. (2015). Seasonal variation of Martian pick-up ions: Evidence
+of breathing exosphere. Planetary and Space Science, 119, 54-61. https://doi.org/10.1016/j.pss.2015.09.013
+
+Zhang, T. L., Delva, M., Baumjohann, W., Volwerk, M., Russell, C., Barabash, S., et al. (2008). Initial Venus Express magnetic field observations
+of the Venus bow shock location at solar minimum. Planetary and Space Science, 56(6), 785-789. https://doi.org/10.1016/j.pss.2007.09.012
+
+Zhang, T. L., Schwingenschuh, K., Lichtenegger, H., Riedler, W., Russell, C. T., & Luhmann, J. G. (1991). Interplanetary magnetic field control
+of the Mars bow shock: Evidence for Venuslike interaction. Journal of Geophysical Research: Space Physics, 96(A7), 11265-11269. https://
+doi.org/10.1029/91JA01099
+
+Zhang, T. L., Schwingenschuh, K., Russell, C. T., & Luhmann, J. G. (1991). Asymmetries in the location of the Venus and Mars bow shock.
+Geophysical Research Letters, 18(2), 127-129. https://doi.org/10.1029/90GL02723
+
+31 of 31

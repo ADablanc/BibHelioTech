@@ -1,0 +1,323 @@
+Annales Geophysicae (2004) 22: 30:09 - 30:19 SRef-ID: 14:32 - 05:76/ag/2004-22-3009 © European Geosciences Union 2004 (eS \ Annales LS 7 Geophysicae Cluster survey of the high-altitude cusp properties: a three-year Statistical study B.
+Lavraud!"”, A.
+Balogh? A.
+Fedorov!, E.
+Budnik!, A.
+Grigoriev’, P.
+J.
+Cargill’, M.
+W.
+Dunlop*, H.
+Réme!, I.
+Dandouras!, and 1Centre d’Etude Spatiale des Rayonnements, 9 ave du Colonel Roche, 31028 Toulouse Cedex 4,Toulouse, France * Swedish Institute of Space Physics, Box 812, SE-981 28 Kiruna, Sweden Imperial College, South Kensington campus, London SW7 2AZ, UK *Rutherford Appleton Laboratory, Chilton, Didcot OX11 0QX, UK “now at: Space and atmospheric sciences, Los Alamos National Laboratory, New Mexico, NM 87545, USA Abstract.
+The global characteristics of the high-altitude cusp and its surrounding regions are investigated using a threeyear statistical survey based on data obtained by the Cluster spacecraft.
+The analysis involves an elaborate orbit-sampling methodology that uses a model field and takes into account the actual solar wind conditions and level of geomagnetic activity.
+The spatial distribution of the magnetic field and various plasma parameters in the vicinity of the low magnetic field exterior cusp are determined and it is found that: 1) The magnetic field distribution shows the presence of an intermediate region between the magnetosheath and the magnetosphere: the exterior cusp, 2) This region is characterized by the presence of dense plasma of magnetosheath origin; a comparison with the Tsyganenko (1996) magnetic field model shows that it is diamagnetic in nature, 3) The spatial distributions show that three distinct boundaries with the lobes, the dayside plasma sheet and the magnetosheath surround the exterior cusp, 4) The external boundary with the magnetosheath has a sharp bulk velocity gradient, as well as a density decrease and temperature increase as one goes from the magnetosheath to the exterior cusp, 5) While the two inner boundaries form a funnel, the external boundary shows no clear indentation, 6) The plasma and magnetic pressure distributions suggest that the exterior cusp is in equilibrium with its surroundings in a statistical sense, and 7) A preliminary analysis of the bulk flow distributions suggests that the exterior cusp is stagnant under northward IMF conditions but convective under southward IMF conditions.
+Key words.
+Magnetosphere physics (Magnetopause, cusp, and boundary layers; Solar wind-magnetosphere interactions; Magnetospheric configuration and dynamics) Correspondence to: B.
+Lavraud (lavraud @lanl.gov) 1 Introduction Extensive studies of the low- and mid-altitude cusp regions of the magnetosphere have been made using data from many spacecraft (Newell and Meng, 1988; Newell et al., 1989; Escoubet et al., 1992; Lockwood and Smith, 1992; Woch and Lundin, 1992; Newell and Meng, 1994; Yamauchi et al., 1996).
+However, statistical studies of the high-altitude cusp region (above 6 Rg) have been more limited, and mostly focused on the high-latitude magnetopause position.
+Zhou and Russell (1997) used Hawkeye spacecraft data to study the position of the high-latitude magnetopause.
+Based on 148 high-altitude passes they concluded that the magnetopause at cusp latitudes is not indented, thus contradicting the earlier works of Spreiter and Summers (1967), Paschmann et al.
+(1976) and Haerendel et al.
+(1978).
+Using HEOS-2 data, Dunlop et al.
+(2000) compared the observed high-altitude cusp magnetic field configuration with that from a model field (Tsyganenko, 1989).
+The deviation between the two configurations (spacecraft data and model) led them to conclude that there is the presence of an indentation at the magnetopause in this region.
+However, they did not give reasons for their inconsistency with the results of Zhou and Russell (1997).
+Fung et al.
+(1997), and later Eastman et al.
+(2000), have analyzed a large number (1757 for the latter) of passes of Hawkeye in the distant cusp region.
+Defining the magnetopause by a complete set of criterion (overall comparable to the Dunlop et al.
+(2000) ones) they also concluded that the magnetopause was indented in this region.
+They noted the differences with the results of Zhou and Russell (1997) and suggested it may have arisen from a different magnetopause identification routine.
+The generic properties of the high-altitude cusp were further investigated by Zhou et al.
+(1999; 2000) and Tsyganenko and Russell (1999) on the basis of Polar data.
+Zhou et al.
+(1999; 2000) mainly studied the cusp location as a 3010 B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties function of the solar wind conditions while Tsyganenko and Russell (1999) focused on the extent of the cusp diamagnetic cavity as a function of the dipole tilt angle and IMF conditions.
+Because the Polar orbit has an apogee of 9 Rg, they did not investigate the position of the outer boundaries of the cusp region.
+Grigoriev et al.
+(1999) also attempted to perform a statistical survey of Interball-Tail passes of the region near the highlatitude magnetopause.
+A significant diamagnetic effect in the vicinity of the high-altitude cusp and plasma mantle was found.
+However, the Interball-Tail orbit declination did not allow coverage of the central part of the high-altitude cusp.
+More recently, Mérka et al.
+(2002) investigated the location and spatial extent of the cusp-like plasma regions observed by the Magion-4 satellite (part of the Interball mission).
+For this purpose they used the mid- and highaltitude Magion-4 measurements, which they mapped to lowaltitudes using the Tsyganenko (1996) model with the actual solar-wind conditions.
+This study confirmed the cusp latitudinal displacement observed for varying IMF conditions, which illustrate the need to take this into account in the present paper.
+The Cluster orbit permits a full examination of the characteristics of the high-altitude cusp and of its surrounding boundaries.
+We use the Cluster data to address the following objectives: — asurvey of the global magnetic field and plasma properties of the cusp diamagnetic cavity (hereafter referred to as “exterior cusp’), — the identification and characterization of the various boundaries surrounding the exterior cusp region, — a preliminary characterization of the plasma flows in this region, and their dependence on the IMF orientations.
+The sampling technique used here (superposed epoch analysis) was first introduced by Grigoriev et al.
+(1999) and is described in Sect.
+2.
+It allows an accurate estimation of the position of the cusp boundaries, as well as a description of its various internal features.
+In this paper we provide spatial distributions of many key plasma parameters (magnetic field, density, temperature and velocity) which give new insights into the overall structure of the high-altitude cusp.
+Section 2 presents the sampling methodology that is used to order the data and make the spatial distributions.
+The results and their discussion are given in Sect.
+3.
+Conclusions are finally drawn in Sect.
+4.
+2 Instrumentation and methodology 2.1 Orbits and instrumentation The Cluster spacecraft fly through the high-altitude cusp during spring each year and the passes used here were all taken from between January and April.
+During 20:01 - 20:02, the inter-spacecraft separation was of the order of 600km and 100 km, respectively.
+Consequently, only data from spacecraft 3 are used for these periods.
+However, in 2003 the interspacecraft separation was about ~1 Rg and so data from both spacecraft 1 and 3 are used.
+In the present survey, we make use of the Cluster ion and magnetic field data from the Cluster Ion Spectrometry (CIS) (Reme et al., 2001) and FluxGate Magnetometer (FGM) (Balogh et al., 2001) instruments, respectively.
+The ion data come from the Hot Ion Analyser (HIA) which allows measurements of the full 3-D ion distribution functions and moments up to a resolution of ~4s (spin).
+However, due to the sampling method, the data are averaged as described in the next sections.
+2.2 Coordinates transformations As discussed earlier, a number of statistical studies of the high-altitude cusp region have previously been presented (Fung et al., 1997; Zhou and Russell, 1997; Zhou et al., 1999; 2000; Eastman et al., 2000; Dunlop et al., 2000).
+While these earlier works made use of simple coordinates systems (such as GSE, GSM or SM) to order their data spatially, here we utilize a more elaborate technique that takes into account the actual solar wind (interplanetary magnetic field (IMF) and dynamic pressure (P;gm) aS monitored by ACE) and geomagnetic (Dst) conditions during each orbit.
+We use the Tsyganenko (1995, 1996) (T96) magnetic field model and the Shue et al.
+(1997) magnetopause model to estimate, respectively, the displacement of the latitudinal cusp location and the magnetopause radial location as a function of the solar wind and magnetospheric conditions.
+In turn, this should allow us to fix more accurately the location of the various dayside boundaries in our statistics.
+Each orbit is sampled at intervals of two minutes; the coordinate transformations that are performed can be listed as follows: — Firstly, each orbit point A (in SM coordinates) is transformed into point A’ through a rotation about the Xs, axis.
+The rotation angle is chosen so that the orbit points are brought back into the (X,Z)sjy plane, as shown in Fig.
+la.
+The resulting upward axis is thus a radius; this plane is called (X,R)Norm.
+— We use the T96 magnetic field model to define a reference frame (coordinate system and model magnetic field) for some reference conditions; these reference conditions are defined as: IMF B=(0.0; 2.0; —0.1) nT, Pram=2.5nPa and Dst=—10.0nT (a reference dipole tilt angle was also chosen).
+These dynamic pressure and Dst values were chosen because they constitute typical values for the solar wind and magnetosphere.
+We chose a mainly duskward IMF in order to avoid referencing the data set to the specific cases of northward or southward IMF.
+It is known that the cusp is displaced equatorward (poleward) for southward (northward) IMF direction (Newell et al., 1989); this duskward orientation is median and therefore more convenient as a reference.
+B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties 3011 a Zsm A \' Rup current RwPreference Reference Field spilt a xXsm a te /_, ____—— Current Field MPreference MP current 1 woe gers oe mas.
+™ ‘ ‘ xXsm Fig.
+1.
+Representation of the various coordinate transformations: (a) rotation of all orbit points about the Xgjy axis, which results in a projection into the (X,Z)sjy plane, (b) rotation about the Ysjy axis as defined by the difference between the “current” and “reference” separatrices angles (see text) by use of the T96 magnetic field model (c) radial scaling of the orbit points as a function of the difference between the “current” and “reference” magnetopause position (model from Shue et al., 1997).
+For these reference conditions in the T96 model, we search for the angle of the separatrix between the last field line that is bended (or draped) toward the dayside and the first field line that extends tailward.
+This angle is used as the reference angle of the reference separatrix (labeled in Fig.
+1b).
+— Each orbit point A’ is then transformed as follows.
+The actual lagged solar wind conditions and geomagnetic activity are fed into the T96 model.
+A specific separatrix angle between the dayside and nightside field lines is defined for these conditions (the “current” separatrix in Fig.
+1b).
+A rotation about the Ys, axis 1s then accomplished which allows a normalization of the orbit point to the reference frame.
+The resulting orbit point is A” (Fig.
+1b).
+— Finally, a radial adjustment is performed.
+Using the Shue et al.
+(1997) magnetopause model, we define a reference magnetopause location for the reference con ditions given above.
+We then proportionally scale the point A” as a function of the radial distance difference between this reference magnetopause and the one obtained with the actual condition for each orbit point.
+This scaling is illustrated in Fig.
+1c and the final orbit point is named A”’.
+These coordinate transformations are applied to all the Cluster orbits for which both FGM and CIS (as well as ACE) data are available.
+This then allows us to represent the data as spatial distributions in the normalized (X,R)jorm plane.
+2.3 Orbit and data sampling As already mentioned, the Cluster orbits are sampled at intervals of two minutes.
+Cluster measurements are therefore averaged over these two-minute intervals in our Statistics.
+The interplanetary conditions are averaged over intervals of 10min.
+Therefore, these latter values are used for five successive orbit samples in order to derive the normalized orbit 3012 4000 ADOD 2000 Number of samples 1000 Pressure (0.2 nPa bins) 1500 1 O00 Number of samples SOG —100 O 100 Clack Angle (10 deg.
+bins) B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties ob 4000 4000 2000 Number of samples 1000 —150 —-100 —50 a) 5D Dst (5 nT bins} 2500 2000 1800 1600 Number af samples SOG —100 O 100 Garden Hase Angle (10 deg.
+bins) Fig.
+2.
+The distributions of the solar wind and geomagnetic parameters used in the survey.
+The distribution of the dynamic pressure is displayed on the top left-hand side plot, where averages over 0.2 nPa bins were used.
+The distribution of the Dst is shown in the top right-hand plot, with averages made over 5nT bins.
+The distributions of the IMF clock angle (tan~ | (By /Bz)) and garden hose angle (tan—!(B,/B,)) are, respectively, given on the left and right-hand side plots shown at the bottom (averages were here made for 10° bins).
+y point position in the reference frame.
+A total of 163 Cluster passes are used in this study.
+In order to obtain spatial distributions of the magnetic field and plasma parameters in a pre-defined grid of the (X,R) Norm plane, we average the data coming from all the orbit points that fall into square bins of size 0.3 Rg.
+Because most of the parameters depend on solar wind conditions they should be normalized before epoch superposition procedure.
+Otherwise, the high case-to-case parameter variance would mask the desired spatial distribution of the mean values.
+The particular normalization procedures are described in the corresponding sections below, along with the results and discussions.
+A color scale is then used (for the bins) to display the distributions of the parameters.
+We additionally scale the size of each colored squares according to the number of samples averaged within each bin.
+When the number of samples equals or exceeds 20, the colored squares are saturated to the maximum size of the bin, which is 0.3Rpg.
+This allows a direct estimation of the amount of samples and of the reliability of some features.
+This scaling is not used for the first distribution studied here since we actually draw the average magnetic field vectors (Sect.
+3.1).
+To avoid mixing the data from the high-altitude cusp and the plasma sheet or low-latitude boundary layer passes, only orbit points that form an angle with the (Y,Z)sy plane less than 25° have been used.
+The most important reason for transforming the orbit points into the (X,R)Norm plane 1s to obtain 2-D distributions with large enough statistics for averaging purpose.
+However, it must be mentioned that the highaltitude cusp region may also be structured in the dawn-dusk direction.
+The study of such distributions is beyond the scope of the present paper.
+B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties 3013 Magnetic Configuration, all IMF oa — — ND Oo Co th tt Owl 5|B-BT96| R Normal, Re Magnetic Pressure Ratio, all IMF log( B2/BT967) 5 10 LS xX Normal, Re (b) Fig.
+3.
+The statistical spatial distributions of the Cluster FGM magnetic field measurements, for all IMF conditions.
+(a) The distribution of the magnetic field vectors, which correspond to a projection using the transformations given in Sect.
+2.
+The size of each vector is |B| magnitude in logarithmic scale.
+The color of the vectors corresponds to the deviation of the measured B and the model B T96 ((|Bmeas— BtTo6|)).
+Its magnitude (in nT) is illustrated by the color palette at the top right-hand corner of the figure.
+(b) The scalar spatial distribution of the ratio between the square of the measured magnetic field (i.e.
+the pressure) and that from the T96 model in logarithmic scale.
+The corresponding color scale is presented in the palette at the top right-hand corner of the figure.
+In both figures, the background field lines presents the T96 “reference” magnetic field.
+The three boundaries drawn as red curves are simply shown for context and are defined from all the distributions shown in this paper.
+See text for details.
+2.4 Solar wind parameters distributions Our statistics are based on a large number of orbit points and solar wind conditions (25 427 orbit samples, so the number of solar wind conditions is 5 times smaller).
+In Fig.
+2 we display the distributions of the number of orbit samples as a function of the solar wind dynamic pressure (top left-hand side histogram), Dst index (top right), IMF “clock” angle (C A=tan~!(B,/B,) in GSM) (bottom left) and IMF “garden hose” angle (tan—!(B y/B,x) in GSM) (bottom right).
+The distribution of the dynamic pressure is determined from averages over bins of 0.2nPa.
+It shows a peak at low pressures, about 1—2 nPa, and it is characterized by a quite sharp tail and the number of samples above 6 nPa is very low (all events above 10 nPa have been removed from the statistics).
+This distribution appears quite typical, as well as that of the Dst index, shown in the top right-hand side histogram of Fig.
+2.
+The latter is basically centered about slightly negative values and shows quite sharp tails.
+The solar wind dynamic pressure and geomagnetic conditions used in this survey are, on average, relatively quiet.
+The clock angle and garden hose angle show more complex distributions (the averages are made for bins of 10°).
+Two major peaks are observed in both distributions; these are broadly centered in the intervals 45°<CA<90° and —135°<CA<-—90° for the clock angle.
+Those peaks are seen near —45° and 135° in the case of the garden hose angle.
+This behavior is well known and attributed to the preferential spiral configuration of the IMF in the ecliptic plane (Parker, 1958).
+In general, the number of samples is always high, and in the case of southward and northward IMF orientations discussed later, the intervals used have significant statistics.
+To investigate the possible effects of the IMF orientation on the cusp flows (Sect.
+3.4), we will present distributions that arise from the use of restricted IMF clock angle ranges, namely, the distributions referred to as southward (northward) IMF correspond to distributions of orbit points that occurred during conditions of IMF clock angle |C A|>120°(<60°).
+3 Results and discussions In this section, we present and discuss the results of our statistical study.
+First, in Sect.
+3.1 we show the overall magnetic field configuration of the high-altitude cusp, and compare the results with the T96 model field.
+We then determine the density and temperature distributions in Sect.
+3.2.
+Combined 3014 B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties Bulk Velocity, all IMF N3 if lViions (km/s) R Normal, Re ‘< 0 .
+10 15 X Normal, Re Fig.
+4.
+The spatial distribution of the bulk velocity magnitude from the HIA measurements.
+In this figure all conditions of IMF are taken into account.
+The boundary between the exterior cusp and the magnetosheath is clearly distinguished as the strong velocity gradient.
+A color palette shows the magnitude of the average velocity at the top right-hand corner of the figure.
+with the bulk velocity distribution, it is possible to identify all the boundaries surrounding the low magnetic field exterior cusp region.
+The properties of magnetic, ion and total pressure distributions are analyzed in Sect.
+3.3.
+In Sect.
+3.4, we show preliminary results of the bulk plasma flow distributions which illustrate the statistical difference between northward and southward IMF orientation.
+3.1 The exterior cusp diamagnetic cavity The statistical spatial distribution of the Cluster magnetic field vector measurements is shown in Fig.
+3a.
+The vectors are projected into the normalized frame according to the transformations given in Sect.
+2.
+The vectors lengths are proportional to the logarithm of the magnetic field magnitudes.
+The color of the vectors indicates the deviation between the measured magnetic field and the T96 model magnetic field (see caption).
+This figure makes use of the entire data set for all IMF conditions.
+By definition, the T96 model field in the magnetosheath is set to the IMF value (B, and B, components, but B,=0 nT), and does not take into account the actual compressed nature of the magnetosheath.
+The T96 model field in the magnetosheath is therefore underestimated and the deviations observed there are not physically meaningful (see the discussion of the external boundary in Sect.
+3.2).
+However, Fig.
+3a clearly suggests that the spatial sampling method is well adapted to the study of the inner magnetospheric regions.
+In the left-hand part of the figure in the lobe region, the average magnetic field direction appears to be consistent with that from the background “reference’”’ model field.
+In addition, the magnitude of the field is also very close to that expected (blue color).
+A similar agreement is evident in the dayside plasma sheet region; in the cells bounded by 5<XwNorm<10 and 5<RyNorm<7 (in Rg), the magnetic field orientations and magnitudes are consistent.
+The boundaries of these two regions appear roughly compatible with the reference model field topology.
+In the distant cusp region (R>7 Rg along the open-closed field line separatrix), the measured direction and magnitude gradually depart from the T96 model field with increasing radial distances.
+This demonstrates the presence of a wide interface between the magnetosheath and the magnetosphere that is not resolved by the T96 model.
+This region is the low magnetic field exterior cusp.
+Figure 3b shows the (scalar) spatial distribution of the ratio between the square of the measured magnetic field magnitude (magnetic pressure) and that from the T96 model.
+Both the lobes and the dayside plasma sheet show ratios around 1, as expected.
+However, the exterior cusp region shows a very low magnetic field on average compared to that in the model.
+This is consistent with the presence of a dense plasma population of magnetosheath origin (see Sect.
+3.2).
+The T96 model only takes into account a large-scale magnetopause current (with a symmetric shape approximation) which results in a simple broad vacuum-type low magnetic field region (Tsyganenko, 1995; Tsyganenko and Russell, 1999) near the null points of the cusps (Chapman and Ferraro, 1931).
+The combined occurrence of magnetic depression and plasma density enhancement in the transition region observed in our distribution shows the existence of additional diamagnetic current systems; this region is therefore a “diamagnetic cavity”.
+3.2 Characteristics of the boundaries The distribution of Fig.
+3b suggests that the diamagnetic cavity is bounded by three distinct boundaries.
+Two boundaries, respectively, equatorward with the dayside plasma sheet and poleward with the plasma mantle, surround the exterior cusp diamagnetic cavity on its inner edges.
+The positions of these boundaries were actually defined by the density and temperature distributions presented later in this section.
+It is worth noting that the red curves have been drawn with no particular criteria, and only serve as guides.
+A third boundary separates the exterior cusp from the magnetosheath.
+The position of this outer boundary is defined by the position of the sharp bulk velocity gradient observed in the velocity distribution shown in Fig.
+4 (for all IMF directions).
+In this figure, the bulk flow appears, on average, to be much lower in the magnetosphere (and the cusp) compared to the adjacent magnetosheath.
+Further discussion of the flow structure in this region is given in Sect.
+3.4.
+B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties 3015 Normalized Density, all IMF log(N/Nsw) ob ; no re oO .
+R Normal, Re Normalized Temperature, all IMF NO at log(T/Tpred) \ 41c& J 2a (b) Fig.
+5.
+The density (a) and temperature (b) spatial distributions using the measurements from the HIA instruments.
+In both cases, all values are shown in logarithmic scale and all IMF orientations are used.
+The left-hand distribution, in fact, shows the average of the ratio of the HIA density to the density measured in the solar wind.
+The right-hand distribution presents the average of the ratio of the HIA temperature to the predicted temperature in the magnetosheath.
+For this purpose, we make use of the actual ACE solar wind measurements and estimate the plasma temperature in the magnetosheath near the cusp by use of the Spreiter et al.
+(1966) model.
+Figure 5 presents distributions of the density (a) and temperature (b) measured by the HIA instruments.
+In both cases, all IMF orientations are used.
+The density distribution is shown as the ratio of the measured density to the solar wind density.
+Similarly, the temperature distribution is shown as the ratio of the measured temperature to that calculated from the solar wind parameters (see figure caption).
+The density distribution shows a density ratio larger than unity in the magnetosheath, which is expected (because of the bow shock ahead of the magnetosheath).
+As expected also, the temperature ratio is seen to be very close to | on average in the magnetosheath.
+Moreover, both the density and temperature ratio distributions are homogeneous in the magnetosheath, which suggests that the normalization method is successful.
+It should be noted that there are a few saturated points (black) in the temperature ratio distribution, which are possibly the result of bad measurements that have not been properly removed.
+However, the temperature distribution shows a consistent behavior globally, in particular when compared to the other distributions already introduced.
+The boundaries between the exterior cusp, the dayside plasma sheet and the lobes are seen very clearly in these distributions.
+The lobes appear cold and tenuous while the dayside plasma sheet is much hotter than any other region.
+On average, the boundaries between these regions appear gradual, as is to be expected from such a statistical method.
+The boundary between the exterior cusp and the magnetosheath is also visible in these distributions (Fig.
+5).
+Going from the magnetosheath to the exterior cusp, it is characterized by a decrease in density and an increase in temperature.
+This property confirms the results obtained in the context of recent case studies by Lavraud et al.
+(2002) and Cargill et al.
+(2004).
+While the two inner boundaries of the exterior cusp form a funnel (thus an indentation), the external boundary with the magnetosheath shows no clear indentation in the various distributions presented here.
+Therefore, it may be concluded that the indented magnetopause revealed in the studies of Dunlop et al.
+(2000) and Eastman et al.
+(2000) corresponds to the inner boundaries of the exterior cusp, identified in the present paper as the high-altitude part of the cusp funnel.
+On the other hand, Zhou and Russell (1997) found no indentation at the magnetopause.
+It is therefore probable that the definition these latter authors used corresponds to the external boundary, separating the exterior cusp from the magnetosheath and that also shows no clear indentation in our study.
+While the inner boundaries may form the “traditional” magnetopause (Paschmann et al., 1976; Haerendel et al., 1978; Russell et al., 2000), the external boundary has recently been proposed as a more suitable magnetopause by Onsager et al.
+(2001).
+3016 B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties Magnetic Pressure, all IMF — en ee Lo Lad Eto on fe mo Co ee 2 OD log(Pb/Pram) Ly en | meme ae Pet a Eee om] R Normal, Re X Normal: Re Jon Pressure (NkT), all IMF log(Pi/Pram) a om 4 £ a Taya! oe (c) Fig.
+6.
+The distributions of the magnetic (B2/2119) (a), ionic (n.kp.T) (b) and total (c) pressures normalized to the solar wind ram pressure (p.Vey//2) measured by ACE.
+The corresponding logarithmic color scale is shown in the top right-hand corner of each figure.
+The distributions are made for all solar wind conditions.
+3.3.
+Global equilibrium in the exterior cusp region Figure 6 shows the distributions of the magnetic (B*/2j10), ion (n.kg.T) and total pressures normalized to the actual solar wind ram pressure (p.Viy//2).
+Normalization to the so lar wind ram pressure is a rough substitute to normalization to the magnetosheath pressure in the vicinity of the cusp.
+The thermal pressure of the solar wind is small compared to its ram pressure, and the solar wind kinetic energy is the main source of the magnetosheath pressure.
+Since the B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties 3017 southward IMF, ICAI > 120° lVlions (km/s) R Normal, Re —5 0 é 10 15 xX Normal, Re (a) Northward IMF, ICAI < 60° fa, E — ie = — = 5 10 TH X Normal, Re (b) Fig.
+7.
+The distributions of the bulk velocity magnitude for two different IMF orientations; (a) and (b) respectively are the distributions for IMF |C A|>120°(<60°), thus for a southward and northward orientation respectively.
+magnetosheath pressure is a linear function of M* (M being the solar wind Mach number) (Spreiter et al., 1966), it may be roughly estimated as a linear function of Viw- The magnetosheath density is roughly proportional to the solar wind density.
+Hence, for reasonable ranges of M the magnetosheath pressure is proportional to p.Viw The magnetic pressure distribution (Fig.
+6a) shows an (inner) indentation that is compatible with the locations of the boundaries quoted previously (and also shown here).
+The ion pressure distribution (Fig.
+6b) clearly shows that this low magnetic pressure region corresponds to a high plasma pressure region.
+The distribution of total pressure (Fig.
+6c) does not show any clear indentation within the whole region.
+There are no latitudinal variations of the total pressure and no discontinuities are observed between the exterior cusp and the lobes or the dayside plasma sheet.
+Yet the external boundary with the magnetosheath is also not discernable.
+This characteristic demonstrates that the exterior cusp is in equilibrium with its surrounding, at least in a statistical sense.
+3.4 IME orientation dependence of the velocity distributions In this paper we limit our investigation of the statistical IMF dependence of the cusp structure to the plasma bulk flow magnitude distributions.
+Future papers will be devoted to more specific, focused studies on this topic.
+Figure 7 presents the distributions of the bulk velocity magnitude for two different IMF orientations: Fig.
+7a(b) is the distribution for IMF |CA|>120°(<60°), thus for a southward (northward) orientation.
+Although both distributions show, on average, small bulk velocities in the exterior cusp compared to the adjacent magnetosheath (equivalently to Fig.
+4), a marked difference is still observed between the two IMF orientations.
+Very little flow is measured, on average, in the exterior cusp region for northward IMF.
+There is, however, little evidence for larger flows near the poleward boundary at highaltitudes between 3<Xjpnorm< 6 and 8<Ryorm<10 (in Rpg).
+However, the sizes of the squares (relative to the amount of samples) in this area render this characteristic questionable.
+We may point out that such properties would not be inconsistent with observations from case studies (Fuselier et al., 2000; Lavraud et al., 2002).
+These were explained in terms of the possible consequences of lobe reconnection, implying plasma precipitation at high-latitudes and a slow sunward field line convection (perpendicular flow).
+Because of the combined presence of a large amount of reflected ions (Lavraud et al., 2003), the exterior cusp region shows both low perpendicular and parallel velocities.
+The southward IMF distribution shows a different behavior.
+It seems that the flows are, on average, larger for these conditions than for northward IMF, in particular near the plasma sheet boundary at relatively low latitudes (3<XNorm</ and 6<Ryorm<8 Rg).
+These properties support the generally accepted model of dayside low-latitude 3018 reconnection followed by tailward convection of the open field lines and plasma precipitation at the dayside edge of the cusp (Lockwood and Smith, 1992).
+A recent Cluster case study by Cargill et al.
+(2004) showed the presence of very large flows in the exterior cusp under strongly southward IMF.
+These later results are, however, very preliminary and any possible tendencies will be addressed in the near future through the analysis of the parallel and perpendicular components of the flows, which should shed some new, important insights in this respect.
+4 Summary We have reported on new statistical results from encounters of the Cluster spacecraft in the high-altitude cusp region during the first three years of operations.
+By use of an elaborate sampling method we have determined the spatial distributions of the ion and magnetic measurements from Cluster which gave an unprecedented opportunity to study the global high-altitude cusp characteristics.
+The main conclusions that arise from this study may be summarized as follows: Although some improvement is still needed, the spatial sampling method used here appears well adapted to study this region of the magnetosphere.
+It allows us to fix the boundaries locations in a proper way.
+The magnetic field vector structure clearly highlights the presence of an intermediate region between the magnetosheath and the magnetosphere: the exterior cusp.
+This region is large and characterized by the presence of cold dense plasma near the null point of the traditional Chapman-Ferraro (1931) model.
+Comparison with the Tsyganenko (1995, 1996) magnetic field model demonstrates that this region is diamagnetic in nature.
+The density, temperature and velocity distributions have allowed us to establish the presence of three distinct boundaries surrounding the exterior cusp region: with the lobes, the dayside plasma sheet and the magnetosheath.
+— While the two inner boundaries are well known, the average position of the external boundary with the magnetosheath has been presented here and is most accurately obtained through the statistical distribution of the bulk velocity.
+This study further demonstrates that this external boundary is characterized by a density decrease and a temperature increase, from the magnetosheath to the exterior cusp.
+— The two inner boundaries form a funnel which can be viewed as the traditional magnetopause (Paschmann et al., 1976; Haerendel et al., 1978) when observed at high altitude.
+The external boundary shows no clear indentation in our distributions.
+In the context of reconnection, B.
+Lavraud et al.: Cluster survey of the high-altitude cusp properties this latter boundary was proposed as a more appropriate magnetopause in a recent paper (Onsager et al., 2001).
+— The pressure distributions further illustrate that the exterior cusp region is in equilibrium with its surrounding in a Statistical sense.
+— Finally, preliminary analysis of the bulk flow magnitude distributions suggests that the exterior cusp is overall stagnant under northward IMF conditions (Lavraud et al., 2002), but more convective under southward IMF conditions (Vasyliunas, 1995; Cargill et al., 2004).
+We finally comment on the ability to analyze averages of the various plasma and field parameters in the exterior cusp region.
+It has been shown through recent Cluster case studies that this region shows a depressed magnetic field, a slightly lower density and a greater temperature than the adjacent magnetosheath for both southward (Cargill et al., 2004) and northward (Lavraud et al., 2002) IMF orientations.
+Making averages for the ensemble of the IMF conditions for these parameters is thus meaningful, as further revealed throughout the present paper.
+It is, however, clearly revealed here that the study of the plasma flows in this region needs the use of restricted IMF clock angle ranges, which will be continued in a forthcoming study.
+Acknowledgements.
+The authors are grateful to the CIS and FGM teams for their incomparable work in data processing.
+P.
+J.
+Cargill acknowledges support from PPARC through a Senior research Fellowship.
+We thank the ACE MFI and SWEPAM instruments teams and the CDAWeb for providing the ACE data.
+Topical Editor T.
+Pulkkinen thanks two referees for their help in evaluating this paper.
+.

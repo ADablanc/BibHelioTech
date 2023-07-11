@@ -1,0 +1,176 @@
+[
+    {
+        "end": 2099,
+        "start": 2087,
+        "text": "23 July 2009",
+        "timex-value": "2009-07-23",
+        "type": "DATE",
+        "value": "2009-07-23"
+    },
+    {
+        "end": 3222,
+        "start": 3210,
+        "text": "23 July 2009",
+        "timex-value": "2009-07-23",
+        "type": "DATE",
+        "value": "2009-07-23"
+    },
+    {
+        "end": 4816,
+        "start": 4803,
+        "text": "December 2010",
+        "timex-value": "2010-12",
+        "type": "DATE",
+        "value": "2010-12"
+    },
+    {
+        "end": 6683,
+        "start": 6661,
+        "text": "17:30  on 23 July 2009",
+        "timex-value": "2009-07-23T17:30",
+        "type": "TIME",
+        "value": "2009-07-23T17:30"
+    },
+    {
+        "end": 7045,
+        "start": 7040,
+        "text": "19:00",
+        "timex-value": "T19:00",
+        "type": "TIME",
+        "value": "T19:00"
+    },
+    {
+        "end": 8533,
+        "start": 8525,
+        "text": "19:51:00",
+        "timex-value": "T19:51:00",
+        "type": "TIME",
+        "value": "T19:51:00"
+    },
+    {
+        "end": 8707,
+        "start": 8695,
+        "text": "23 July 2009",
+        "timex-value": "2009-07-23",
+        "type": "DATE",
+        "value": "2009-07-23"
+    },
+    {
+        "end": 10324,
+        "start": 10312,
+        "text": "23 July 2009",
+        "timex-value": "2009-07-23",
+        "type": "DATE",
+        "value": "2009-07-23"
+    },
+    {
+        "end": 10404,
+        "start": 10399,
+        "text": "16:20",
+        "timex-value": "T16:20",
+        "type": "TIME",
+        "value": "T16:20"
+    },
+    {
+        "end": 10410,
+        "start": 10405,
+        "text": "17:20",
+        "timex-value": "T17:20",
+        "type": "TIME",
+        "value": "T17:20"
+    },
+    {
+        "end": 10416,
+        "start": 10411,
+        "text": "18:20",
+        "timex-value": "T18:20",
+        "type": "TIME",
+        "value": "T18:20"
+    },
+    {
+        "end": 10422,
+        "start": 10417,
+        "text": "19:20",
+        "timex-value": "T19:20",
+        "type": "TIME",
+        "value": "T19:20"
+    },
+    {
+        "end": 10428,
+        "start": 10423,
+        "text": "20:20",
+        "timex-value": "T20:20",
+        "type": "TIME",
+        "value": "T20:20"
+    },
+    {
+        "end": 11913,
+        "start": 11877,
+        "text": "20:05:47 \u2014 20:05:51  on 23 July 2009",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:05:47",
+            "end": "2009-07-23T20:05:51"
+        }
+    },
+    {
+        "end": 11931,
+        "start": 11921,
+        "text": "23.07.2009",
+        "timex-value": "2009-07-23",
+        "type": "DATE",
+        "value": "2009-07-23"
+    },
+    {
+        "end": 11951,
+        "start": 11938,
+        "text": "15:00 - 21:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:00",
+            "end": "T21:00"
+        }
+    },
+    {
+        "end": 12149,
+        "start": 12139,
+        "text": "23.07.2009",
+        "timex-value": "2009-07-23",
+        "type": "DATE",
+        "value": "2009-07-23"
+    },
+    {
+        "end": 12169,
+        "start": 12156,
+        "text": "19:00 - 20:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:00",
+            "end": "T20:00"
+        }
+    },
+    {
+        "end": 13704,
+        "start": 13692,
+        "text": "T20:05:49.13",
+        "timex-value": "T20:05:49.013",
+        "type": "TIME",
+        "value": "T20:05:49.013"
+    },
+    {
+        "end": 13825,
+        "start": 13813,
+        "text": "T20:05:49.14",
+        "timex-value": "T20:05:49.014",
+        "type": "TIME",
+        "value": "T20:05:49.014"
+    },
+    {
+        "end": 13945,
+        "start": 13933,
+        "text": "T20:05:49.23",
+        "timex-value": "T20:05:49.023",
+        "type": "TIME",
+        "value": "T20:05:49.023"
+    }
+]

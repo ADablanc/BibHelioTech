@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Observations of the Venus Dramatic Response to an Extremely Strong Interplanetary Coronal Mass Ejection</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019-05-07">2019 May 7</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Qi</forename><surname>Xu</surname></persName>
+							<idno type="ORCID">0000-0003-4662-476X</idno>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">Xiaojun</forename><surname>Xu</surname></persName>
+							<email>xjxu@must.edu.mo</email>
+							<idno type="ORCID">0000-0002-2309-0649</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Qing</forename><surname>Chang</surname></persName>
+							<idno type="ORCID">0000-0003-4883-949X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Zhaojin</forename><surname>Rong</surname></persName>
+							<idno type="ORCID">0000-0003-4609-4519</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jing</forename><surname>Wang</surname></persName>
+							<idno type="ORCID">0000-0003-0471-5532</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Jiaying</forename><surname>Xu</surname></persName>
+							<idno type="ORCID">0000-0002-9579-6739</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Tielong</forename><surname>Zhang</surname></persName>
+							<idno type="ORCID">0000-0002-0980-6292</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 State Key Laboratory of Lunar and Planetary Sciences, Macau University of Science and Technology, </orgName>
+								<address><addrLine>Macao, People&apos;s Republic of China</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 Key Laboratory of Earth and Planetary Physics, Institute of Geology and Geophysics, Chinese Academy of Sciences, </orgName>
+								<address><addrLine> Beijing, People&apos;s Republic of China Beijing, People&apos;s Republic of China Shenzhen, People&apos;s Republic of China Graz, Austria</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 College of Earth and Planetary Sciences, University of Chinese Academy of Sciences, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 4 Harbin Institute of Technology, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 5 Space Research Institute, Austrian Academy of Sciences,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Observations of the Venus Dramatic Response to an Extremely Strong Interplanetary Coronal Mass Ejection</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019-05-07">2019 May 7</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">BE1D0D4C299D694AA487D7715A6AB96A</idno>
+					<idno type="DOI">10.3847/1538-4357/ab14e1</idno>
+					<note type="submission">Received 2019 February 21; revised 2019 March 28; accepted 2019 March 28;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T13:44+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>planets and satellites</term>
+					<term>atmospheresplanets and satellites</term>
+					<term>individual (Venus)planets and satellites</term>
+					<term>magnetic fieldssolar wind</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>On 2011 November 5, Venus Express observed the impact of an extremely strong interplanetary coronal mass ejection (ICME) on Venus. As a result, the Venusian induced magnetosphere dramatically fluctuated during the ICME passage: the bow shock was compressed and broadened by the sheath and the body of the ICME, respectively; an atypically strong magnetic barrier (over 250 nT) of Venus was detected; and the plasma sheet in the magnetotail flapped so rapidly that it was crossed by Venus Express 5 times within 1.5 minutes. The ionosphere was totally magnetized because of the very high magnetic pressure of the induced magnetosphere. However, the altitude of the ionopause did not decrease with respect to those in neighboring orbits, which is inconsistent with the ionopause descents reported by previous studies. We found that the ionosphere was greatly excited by the ICME as evidenced by the much higher heavy ion density. That is why the balance between the ionospheric thermal pressure and the strong magnetic pressure can be maintained at a relatively high altitude. We propose that a much stronger massloading effect resulting from the excited ionosphere is responsible for the anomalously high magnetic barrier because much more magnetic field lines were anchored. Our results also suggest that such ICMEs that can excite the ionosphere are substantially efficient in enhancing the atmospheric loss of Venus.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Without a global intrinsic magnetosphere, the Venus interacts with the solar wind directly on the upper ionosphere. As the solar wind approaches Venus, planetary ions (O + predominates here <ref type="bibr" target="#b25">Nagy et al. 1980</ref>) are picked up by the solar wind convectional electric field. Due to the massloading effect, the solar wind together with the frozen magnetic field slows down near Venus, leading to the draping of interplanetary magnetic field (IMF) lines <ref type="bibr" target="#b23">(McComas et al. 1986;</ref><ref type="bibr" target="#b28">Rong et al. 2014</ref>). This massloading process, which transfers momentum and energy from solar wind to local plasma <ref type="bibr" target="#b3">(Bertucci et al. 2011;</ref><ref type="bibr" target="#b20">Lundin 2011)</ref>, produces an induced magnetosphere where solar wind and ionospheric particles coexist behind the bow shock. The Venusian induced magnetosphere consists of a magnetic barrier close to Venus on the dayside and a magnetotail with a plasma sheet between the opposite-directed magnetic field lines on the nightside <ref type="bibr" target="#b16">(Gringauz 1981)</ref>. The dominated magnetic pressure of the induced magnetosphere balances the solar wind dynamic pressure <ref type="bibr" target="#b45">(Zhang et al. 1991</ref>) at the induced magnetosphere boundary (IMB), or magnetopause, and is balanced by the thermal pressure of the ionospheric plasma at the ionopause <ref type="bibr" target="#b18">(Luhmann 1986)</ref>.</p><p>In addition to the solar activity (e.g., <ref type="bibr" target="#b17">Knudsen 1988;</ref><ref type="bibr" target="#b32">Russell et al. 2006;</ref><ref type="bibr" target="#b6">Chang et al. 2018)</ref>, the solar wind conditions also highly affect the Venusian induced magnetosphere. The solar wind magnetosonic Mach number, rather than the dynamic pressure <ref type="bibr" target="#b42">(Zhang et al. 2004;</ref><ref type="bibr" target="#b5">Chai et al. 2014)</ref>, is suggested to linearly control the location of the bow shock <ref type="bibr" target="#b31">(Russell et al. 1988;</ref><ref type="bibr" target="#b46">Zhang et al. 2008b;</ref><ref type="bibr" target="#b37">Vech et al. 2015)</ref>. The magnetic barrier is controlled by not only the IMF magnitude <ref type="bibr" target="#b38">(Xiao &amp; Zhang 2018</ref>) but also the IMF cone angle, the angle between the solar wind velocity and the IMF <ref type="bibr" target="#b44">(Zhang et al. 1990;</ref><ref type="bibr" target="#b37">Vech et al. 2015)</ref>. In the condition of almost flow-aligned IMF, the magnetic barrier can sometimes even disappear <ref type="bibr" target="#b41">(Zhang et al. 2009;</ref><ref type="bibr" target="#b30">Rong et al. 2016)</ref>. The magnetization of the ionosphere is usually dependent on solar activities. During solar minimum when solar EUV radiations are relatively low, the thermal pressure of the ionospheric plasma is weak and the IMF can reach altitudes low enough to diffuse and magnetize the whole ionosphere. While during solar maximum when solar EUV radiations are relatively high, the ionospheric thermal pressure is strong enough to prevent the entry of IMF. However, high solar wind dynamic pressure can still make the ionopause descend <ref type="bibr" target="#b13">(Elphic et al. 1980;</ref><ref type="bibr" target="#b33">Russell &amp; Vaisberg 1983;</ref><ref type="bibr" target="#b26">Phillips et al. 1985;</ref><ref type="bibr" target="#b0">Angsmann et al. 2011)</ref> or even magnetize the ionosphere <ref type="bibr" target="#b19">(Luhmann et al. 1981</ref>) at solar maximum.</p><p>ICMEs are the interplanetary manifestations of coronal mass ejections. Magnetic clouds, which are a well-structured subset of ICMEs, are characterized by strong magnetic field, large smooth rotation of magnetic field direction, relatively low (with respect to ambient solar wind) plasma temperature, and low plasma beta <ref type="bibr" target="#b4">(Burlaga et al. 1981)</ref>. The interactions between ICMEs and Venus have been reported by many previous studies. <ref type="bibr" target="#b12">Edberg et al. (2011)</ref> reported that the escape fluxes of O + increase by a factor of 1.9 during 147 stormy space weather events (including ICMEs) in comparison with that in normal solar wind at solar minimum. <ref type="bibr" target="#b8">Collinson et al. (2015)</ref> found that even a weak ICME with no driving shock can increase ion loss of Venus. However, <ref type="bibr" target="#b24">McEnulty et al. (2010)</ref> suggested that there is no clear dependence of pick-up ion flux on ICMEs during solar minimum. <ref type="bibr" target="#b8">Collinson et al. (2015)</ref> observed compressions of the bow shock, magnetopause and ionopause during the passage of ICME. But <ref type="bibr" target="#b37">Vech et al. (2015)</ref> reported that most ICMEs leading to high magnetic barriers (&gt;65 nT) cannot affect the position of the bow shock, the upper and lower boundaries of the magnetic barrier as well as the ion composition boundary.</p><p>Since the magnetic barrier was over 250 nT when interacting with the ICME on 2011 November 5, several studies have paid attention to this event. <ref type="bibr" target="#b37">Vech et al. (2015)</ref> suggested that the anomalously strong magnetic barrier is a result of the very intense magnetic field suddenly piling up in front of the obstacle. While recently, <ref type="bibr" target="#b9">Dimmock et al. (2018)</ref> proposed that the prolonged external pressure driving and magnetic flux pileup seems to play a dominant role in forming such a strong magnetic barrier. They further numerically studied this case by hybrid simulation and found that the ion escape rate increased by ∼30%. In this study, by using observations from Venus Express (hereafter, VEX), we investigate comprehensively the responses of the induced magnetosphere and the ionosphere to this extremely strong ICME.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Data and Instrument</head><p>VEX is an orbiter mission developed by the European Space Agency (ESA) in 2005 October. VEX aims at performing a global investigation of the Venusian space environment. The spacecraft carried out observations of Venus from an elliptic polar orbit with a period of 24 hr <ref type="bibr" target="#b36">(Svedhem et al. 2007)</ref>. Such orbits cover the regions where the Pioneer Venus Orbiter (PVO) could not reach, including low altitude regions of the terminator and the near-Venus magnetotail within 3 Venusian Radii (R V ). The Analyzer of Space Plasmas and Energetic Atoms (ASPERA-4; <ref type="bibr" target="#b2">Barabash et al. 2007b</ref>) contains the ion mass analyzer (IMA) instrument, which measures ions in the energy range of 0.01-30 keV/q with 96 energy channels, and the electron spectrometer (ELS), which measures electron fluxes in the energy range of 0.01-20 keV/q with 128 energy channels. It takes IMA 12 s for one energy sweep and 192 s to complete a full 3D scan. Limited by sampling frequency, the time resolution of plasma parameters, such as the bulk velocity and the plasma density, is 192 s. The magnetometer (MAG) instrument <ref type="bibr" target="#b39">(Zhang et al. 2006</ref>) measures magnetic field around Venus in three operation modes with different sampling frequencies. The standard mode of 1 Hz resolution works in the solar wind, while the 32 Hz periapsis mode and the 128 Hz burst mode are implemented within 2 hours and 2 minutes near the periapsis, respectively. Here, we used a 1 s magnetic field as well as IMA and ELS data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Observations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Overview of the ICME on 2011 November 5</head><p>For lacking high-quality plasma data, <ref type="bibr" target="#b15">Good &amp; Forsyth (2016)</ref> proposed the following criteria: enhanced magnetic fields with respect to ambient solar wind and a large-scale smooth rotation of magnetic field direction lasting for at least 4 hr, to identify ICMEs near Venus. The ICME on 2011 November 5 is a well-structured case identified by <ref type="bibr" target="#b15">Good &amp; Forsyth (2016)</ref>. Figure <ref type="figure" target="#fig_0">1</ref> shows the overview of this event in the Venus-Solar-orbital (VSO) coordinate system, where +X points from Venus to the Sun along the Venus-Sun line, +Y points opposite the planet's direction of motion, Z completes the right-handed set and the origin is the geometrical center of Venus. The enhanced magnetic field strength shown in Figure <ref type="figure" target="#fig_0">1</ref>(a) and the smooth rotation of the field direction shown in 1(e) clearly show that the ICME is a magnetic cloud. The two red vertical dashed lines mark the arrival of the leading shock and the trailing boundary of the ICME. The two blue vertical dashed lines indicate the inbound bow shock on the dayside and outbound bow shock with unsteady fluctuations on the nightside. The leading edge of the magnetic cloud body is hard to identify because VEX was already in the induced magnetosphere. The observed magnetic field strength of the magnetic cloud body (between the outbound bow shock and the trailing boundary of the ICME) is over 50 nT, which is rarely discovered near Venus.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Morphology of Induced Magnetosphere</head><p>Figure <ref type="figure" target="#fig_2">2</ref> shows the comparisons of the induced magnetosphere in quiet solar wind and under the impact of the ICME. The magnetosphere of 2011 November 5 is shown in the right column and the data measured one orbit earlier on 2011 November 4 is presented in the left column as a case in normal solar wind. The inbound/outbound bow shock crossing can be recognized by the sharp increase/decrease of magnetic field strength in 2(a), (b). The compression ratio of bow shock, estimated by the ratio of the downstream magnetic field strength over the upstream field strength, during the passing of ICME is up to 3.6, which is much greater than that (∼3.0) in the quiet solar wind on November 4. The outbound bow shock crossing happens several times, which is indicative of dynamic motions of bow shock. The magnetic field shows triple strength upstream of the inbound bow shock on November 5 compared with that the day before, while the peak strength of magnetic barrier is over 5 times. The magnetic field of the entire induced magnetosphere in ICME is much stronger. From Figures <ref type="figure" target="#fig_2">2(a)</ref>, (b), it can be easily seen that the ionosphere was completely magnetized on November 5 by the ICME. Figures <ref type="figure" target="#fig_2">2(c), (d)</ref> show the three components of the magnetic field in VSO coordinates. The reversal of the B x component in red indicates the plasma sheet. The electron spectra are plotted in Figures <ref type="figure" target="#fig_2">2(e), (f)</ref>. We identify the IMB to be the position where the solar wind electron fluxes with energies over 50 eV show jump variation <ref type="bibr" target="#b0">(Angsmann et al. 2011;</ref><ref type="bibr" target="#b11">Dubinin et al. 2014)</ref>. Characterized by the appearance of photoelectrons <ref type="bibr" target="#b7">(Coates et al. 2008</ref>) and the sharp drop of magnetic field strength <ref type="bibr" target="#b33">(Russell &amp; Vaisberg 1983)</ref>, the ionopause is almost overlapped at the IMB. The electron flux in the plasma sheet is much greater on November 5, indicating potentially more planetary ion escape. In fact, the ion flux with 192 s resolution also shows great enhancements on November 5 in comparison with that on November 4. However, because the plasma keeps quasi-neutral, which means higher electron fluxes exactly represent higher ion fluxes, we did not plot the ion flux due to the very low resolution. In comparison with the morphology of the induced magnetosphere on November 4, the inbound bow shock on November 5 was significantly compressed and the outbound bow shock expanded visibly. It should be noted that the bow shock location does not move a lot based on a statistical result at solar minimum <ref type="bibr" target="#b22">(Martinecz et al. 2009)</ref>. <ref type="bibr" target="#b37">Vech et al. (2015)</ref> attributed such variations to the high magnetosonic Mach number (3.87) of the ICME sheath (the region of shocked solar wind) and the small magnetosonic Mach number (1.21) of the magnetic cloud body. The anticorrelation between bow shock location and magnetosonic Mach number is also evident on Mars <ref type="bibr" target="#b21">(Ma et al. 2017)</ref>. Furthermore, the thickness of the magnetic barrier does not change during the passage of ICME because neither its upper boundary (IMB) nor the lower boundary (ionopause) shifts. But the peak magnetic magnitude of the magnetic barrier was anomalously high with respect to that in the quiet solar wind. Some other reasons are required to account for the atypically strong magnetic barrier.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Rapid Flapping Motions of the Plasma Sheet</head><p>Due to the draping of IMF, an induced magnetotail similar to Earth's magnetotail can be produced on the nightside of Venus <ref type="bibr" target="#b23">(McComas et al. 1986;</ref><ref type="bibr" target="#b28">Rong et al. 2014</ref>). As a result, a plasma sheet exists in the region separating the oppositely directed magnetic field. Figure <ref type="figure" target="#fig_3">3</ref> shows the VEX observations near the plasma sheet where the B x component in red (Figure <ref type="figure" target="#fig_3">3(b)</ref>) reverses in direction. The magnetic magnitude drops to nearly 0 shown in Figure <ref type="figure" target="#fig_3">3</ref>(a) and energetic electrons with energies over 100 eV shown in Figure <ref type="figure" target="#fig_3">3</ref>(e) are also the characteristics of plasma sheet <ref type="bibr" target="#b1">(Barabash et al. 2007a;</ref><ref type="bibr" target="#b29">Rong et al. 2015)</ref>. Note that the ambient magnetic field is up to 60 nT in magnitude which is much greater than that in quiet solar wind. It requires much higher thermal pressure to maintain the magnetic pressure difference from the ambient ∼60 nT field to almost no field within the plasma sheet. Therefore, it needs a greater density of the planetary ions as well as electrons in the plasma sheet to provide enough thermal pressure. That is what we see in Figure <ref type="figure" target="#fig_2">2</ref>(e). And it thus indicates that the ion escape rate would be significantly enhanced since the plasma sheet is the main loss channel as suggested by <ref type="bibr" target="#b1">Barabash et al. (2007a)</ref>.</p><p>From Figure <ref type="figure" target="#fig_3">3</ref>(b), the B x component of magnetic field changed directions five times within only 1.5 minutes (07:49:30-07:51:00), which shows very rapid flapping motions of the plasma sheet. Besides, at 07:53, a dip of spacecraft to the plasma sheet or a possible sausage-like flapping was observed <ref type="bibr" target="#b29">(Rong et al. 2015)</ref>. For each current sheet crossing, we applied the method of Minimum Variance Analysis of magnetic field (MVAB; <ref type="bibr" target="#b35">Sonnerup &amp; Cahill 1967)</ref> to investigate the variations of the current sheet normal. The results and the quality of the MVAB method, indicated by the ratio of the intermediate eigenvalue over the minimal eigenvalue, are shown in Table <ref type="table" target="#tab_0">1</ref>. The average normal component of magnetic field (B n ) at each crossing time of the plasma sheet is also displayed. We can see that the normal of the plasma sheet changed a little after No. 1 flapping while it changed greatly after almost every flapping, showing probable kink-like flapping features <ref type="bibr" target="#b29">(Rong et al. 2015)</ref>. The sources of flapping motions are previously proposed to be magnetic reconnection <ref type="bibr" target="#b10">(Dubinin et al. 2012)</ref> or perturbations of magnetosheath flow <ref type="bibr" target="#b29">(Rong et al. 2015)</ref>. In this case, both sources can be identified. First, the entire induced magnetosphere is violently disturbed, which can also be seen from the outbound bow shock flapping that it was crossed by VEX 8 times as pointed out by <ref type="bibr" target="#b37">Vech et al. (2015)</ref>. Second, the significant nonzero B n components (especially for No. 3-5 crossings) together with their relatively high percentages of the total field strengths strongly indicate that magnetic reconnection occurred. The reason is that significantly non-zero B n components indicate that the magnetic field lines at both sides of the plasma sheet are connected with each other. Relatively large B n components result from either continuous slipping of the draping (bended) IMF or magnetic reconnection. However, it should be expected that all five crossings should have observed significantly nonzero B n , if such B n components are caused by the continuous slipping of the draping IMF lines. Note that the calculated B n | | and B B n | | of the plasma sheet in quiet solar wind on November 4 are 0.17 nT and 0.02, respectively. This small B n | | suggests that the draping IMF lines cannot usually slip into such a depth of the nightside. Since there is no high-resolution plasma data by VEX, we cannot provide signals of reconnection jet and plasma heating to further evidence the existence of magnetic reconnection. Note that the plasmoid characterized by bipolar B n components is a strong indicator for magnetic reconnection. Unfortunately, we found no solid evidence for the existence of plasmoid. Nevertheless, magnetic reconnection can connect the magnetic fields at both sides of the plasma sheet and is thus suggested to account for the presence of significantly nonzero B n components. As suggested by <ref type="bibr" target="#b43">Zhang et al. (2012)</ref>, magnetic reconnection in Venusian magnetotail could increase the atmospheric loss.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">The Response of Ionosphere</head><p>As we pointed out above, the ionosphere during the passage of ICME was completely magnetized while it was not on 2011 November 4. To investigate the magnetization and ionopause in detail, we displayed in Figure <ref type="figure" target="#fig_4">4</ref> the dependency of the magnetic field strength on altitude near periapsis in quiet solar wind on November 4, in the very strong ICME on November 5 and in a relatively weak ICME on November 6 that is also  listed in <ref type="bibr" target="#b15">Good &amp; Forsyth (2016)</ref>. The ionopauses determined in Figure <ref type="figure" target="#fig_2">2</ref> by the sharp drop of magnetic field strength and appearance of photoelectrons are marked here. The altitude of ionopause during the weak ICME (Figure <ref type="figure" target="#fig_4">4</ref>(c)) is significantly lower than that in quiet solar wind (Figure <ref type="figure" target="#fig_4">4</ref>(a)) for stronger dynamic pressure, although the ionosphere was not magnetized. This result is consistent with previous studies that show an anticorrelated relationship between the magnetic field strength and the ionopause altitude <ref type="bibr" target="#b13">(Elphic et al. 1980;</ref><ref type="bibr" target="#b33">Russell &amp; Vaisberg 1983;</ref><ref type="bibr" target="#b26">Phillips et al. 1985;</ref><ref type="bibr" target="#b0">Angsmann et al. 2011</ref>).</p><p>The ionospheric thermal pressure balances the magnetic pressure difference at the ionopause. To sustain stronger magnetic pressure, it needs higher thermal pressure, and thus higher plasma density in the ionosphere. Therefore, the ionopause would be pushed down to a lower altitude with higher plasma density. However, it is important to point out that this process is based on an assumption that the ionization of the ionosphere is not significantly changed. Nevertheless, the altitude of the ionopause during the strong ICME (Figure <ref type="figure" target="#fig_4">4</ref>(b)) did not decrease at all considering that the magnetic field strength increased a lot. The magnetic pressure differences ( B 2 2 0 m -</p><p>) across the ionopause on November 4 and 6 are 0.7, and 1.1×10 −8 dyn cm −2 , respectively. But on November 5, the magnetic pressure difference reaches 2× 10 −7 dyn cm −2 ( B | | from 250 to 116 nT) or 9.0× 10 −8 dyn cm −2 even if we use 200 nT as the magnetic strength in the ionosphere. To balance such atypically higher magnetic pressure, the plasma density of the ionosphere must be correspondingly much greater. The heavy ion densities measured by the IMA instrument are also shown in Figure <ref type="figure" target="#fig_4">4</ref>. Although the resolution of IMA data is low, we can still easily see that the ionospheric plasma density was over 1000 cm −3 during the strong ICME with respect to that less than 400 cm −3 during quiet solar wind. The much higher ionospheric plasma shows that the ionosphere had been greatly excited and perhaps entirely expanded under the impact of the strong ICME. The strengthened ionosphere during the passage of ICME has been evidenced by the fact that the magnetized ionosphere can be demagnetized by some ICMEs during solar minimum <ref type="bibr" target="#b40">(Zhang et al. 2008a)</ref>. Due to the limitation of measurements, we have no ideas about the reason why the ionosphere was greatly enhanced by the ICME. However, previous study of the Venus and Mars ionosphere has determined that the solar energetic particles (SEPs) could cause extra ionization of the neutral particles in exosphere through impact ionization and chargeexchange reactions <ref type="bibr" target="#b14">(Futaana et al. 2008)</ref>. Simulations also show that the SEPs can effectively increase the ionization rate of the Venusian atmosphere <ref type="bibr" target="#b27">(Plainaki et al. 2016)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussions and Conclusions</head><p>We have presented very detailed observations of the induced magnetosphere and ionosphere during the passage of the extremely strong ICME on 2011 November 5. From our observations, a clear picture is presented that the plasma environment of Venus was strongly disturbed. The bow shock was first compressed and then expanded because of the much different magnetosonic Mach numbers from the ICME sheath to the ICME body. Other fluctuated signatures include rapid flapping motions of the plasma sheet as well as the outbound bow shock. In particular, the normals of the plasma sheet changed significantly during its flapping motion, suggesting that different types of fluctuations as well as magnetic reconnection might occur during the strong ICME event. Meanwhile, the ionosphere was so greatly excited that the plasma density became three times larger than that during quiet solar wind. If this density difference (over 600 cm −3 ) is greater than the density of the neutral atmospheric particles during quiet solar wind, it can be determined that the ionosphere or atmosphere expanded entirely. Unfortunately, VEX cannot provide the density of neutral atmospheric particles. We are unable to confirm whether the ionosphere expanded entirely or not.</p><p>The most important feature of the ICME on 2011 November 5 is that it caused the strongest magnetic barrier of Venus observed by VEX. Although previous studies <ref type="bibr" target="#b37">(Vech et al. 2015;</ref><ref type="bibr" target="#b9">Dimmock et al. 2018</ref>) have focused on this issue as pointed out above, they actually did not figure out the physical reason behind the phenomenon. However, <ref type="bibr" target="#b37">Vech et al. (2015)</ref> shed some light by finding that stronger magnetic barriers are closely related to stronger tangential (to the solar wind flow) magnetic field. The magnetic barrier is physically a result of the massloading effect (e.g., <ref type="bibr" target="#b41">Zhang et al. 2009;</ref><ref type="bibr" target="#b38">Xiao &amp; Zhang 2018)</ref>. We believe a stronger magnetic barrier represents a strong massloading effect </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>= -´= V B</head><p>sw tan , is dependent on the solar wind velocity (V sw ) and the tangential magnetic field B tan . Generally, E conv plays a critical role in determining the massloading effect since the planetary ion loss rate is usually not significantly changed. In this event, the velocity of the ICME measured by VEX is nearly 1000 km s −1 (not shown) and the tangential magnetic field is relatively large as pointed out by <ref type="bibr" target="#b37">Vech et al. (2015)</ref>. Thus, the E conv is very strong during the ICME. However, a very strong E conv is not enough to produce an atypically strong magnetic barrier up to 250 nT. The reason is that magnetic field lines would slip away if there are not enough planetary ions anchoring them. Therefore, only when both of the E conv and the planetary ion loss rate on the dayside are high can an anomalously strong magnetic barrier be formed. During the passage of the extremely strong ICME, it can be expected that the ion loss rate on the dayside was very high since the ionosphere is greatly excited and the whole plasma system near Venus was so violently fluctuated that more planetary ions can escape in such an unsteady system. In fact, the enhancement of heavy ion flux and energy (approximately 10 keV), which have been identified as picked-up ions with tailward outflow velocity, in the plasma sheet on 2011 November 5 <ref type="bibr" target="#b37">(Vech et al. 2015;</ref><ref type="bibr" target="#b9">Dimmock et al. 2018</ref>) is evidence of a stronger pick-up effect. Besides, the IMA measurements also show that the heavy ion density in the magnetosheath (altitude of ∼1000 km) is 8.222 cm −3 during the ICME compared to 0.001 cm −3 in the quiet solar wind two orbit earlier on November 3 (the heavy ion density is missing in the magnetosheath on November 4).</p><p>Our observations of the highly fluctuated plasma environment of Venus and atypically magnetic barrier strongly suggest that the ion loss would be greatly enhanced during the passage of the extremely strong ICME. This result can be indicated by at least three reasons. First, the anomalously high magnetic barrier is an indicator of a more effective pick-up process, which means much greater ion loss on the dayside as discussed above. Second, the high electron flux in the plasma sheet required to balance the high magnetic pressure in the magnetotail is a strong signal of ion loss enhancement since the plasma sheet is the main channel for ion escape <ref type="bibr" target="#b1">(Barabash et al. 2007a</ref>). The very strong magnetic field in the magnetotail can provide strong magnetic tension forces that can accelerate planetary ions to escape, or equivalently it plays like an aspirator to provide a strong pressure gradient force. Third, the existence of magnetic reconnection as indicated by rotational discontinuities of the plasma sheet can potentially increase the ion loss as suggested by <ref type="bibr" target="#b43">Zhang et al. (2012)</ref>. The enhanced percentage could be possibly much greater than 30% as suggested by <ref type="bibr" target="#b9">Dimmock et al. (2018)</ref>.</p><p>In summary, we report observationally in detail the dramatic responses of the induced magnetosphere and ionosphere of Venus to the extremely strong ICME on 2011 November 5. We propose that some ICMEs can greatly excite the ionosphere of Venus and thus are substantially different from other ICMEs in affecting the ion loss of Venus.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Magnetic field measurements of the strong ICME event on 2011 November 5. (a) The magnetic field strength. (b)-(d)The three components of the magnetic vector in the VSO system. (e), (f) The latitudinal and azimuthal angles of the magnetic field in VSO coordinates, respectively. The vertical dashed lines denote the leading shock encounter (03:41), inbound bow shock (07:00), the outbound bow shock (11:03), and the trailing edge of the ICME (15:49), respectively. The interface of ICME sheath and magnetic cloud body (∼07:00-09:00) is in the induced magnetosphere.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head></head><label></label><figDesc>Figure 2(g) presents the trajectory of VEX (almost the same for both orbits) in the cylindrical coordinates, where the X axis points from Venus to the Sun and the Y axis is the distance from X axis calculated by R Figure 2(f) shows the zoom-in view of the dashed box in Figure 2(g). Here we display the average locations of the bow shock (Shan et al. 2015), the IMB and the ionopause (Zhang et al. 1991) at solar maximum as references. The big black and yellow dots denote the positions marked in Figures 2(a), (b) by the vertical dashed lines.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Selected observations of the induced magnetosphere during the ICME passage compared with those in quiet solar wind one orbit earlier. (a), (b) The magnetic field strength. (c), (d) Three magnetic field vectors in VSO. (e), (f) Electron energy spectra, both panels share the same color scale. Since the resolution of IMA measurements is too low (192 s), the ion flux is not presented here. The vertical dashed lines mark the positions of the inbound bow shock (BS), IMB/ionopause (IP) plasma sheet (PS) and the outbound bow shock (BS). The IMB and ionopause are almost overlapped. Photoelectrons appear after the IMB/IP line. (g) The trajectory of VEX around Venus in cylindrical coordinates. (h) Zoom-in view of the dashed box in Panel (g). The bow shock model (Shan et al. 2015) as well as the IMB and ionopause models (Zhang et al. 1991) at solar maximum are presented. The big black and yellow dots denote the positions in panels (a), (b) marked by the vertical dashed lines.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Rapid flapping motions of the plasma sheet in the magnetotail. (a) The magnetic field strength. (b) Magnetic field vectors in VSO system. (c) The latitudinal angle of magnetic field. (d) The azimuthal angle of magnetic field. (f) Electron energy spectra.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure4. Left to right: the magnetic field strength near the periapsis prior to, during, and after the passage of the ICME on November 4, November 5, and November 6, respectively. The IMA measurements of heavy ion density are overplotted (red dots). The heavy ion density on November 6 is not available.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>MVAB of the Current Sheet Crossings on 2011 November 5 by VEX</figDesc><table><row><cell>No.</cell><cell>Interval</cell><cell>Normal in VSO</cell><cell>λ 2 /λ 3</cell><cell>B n | |</cell><cell>B B n | |</cell></row><row><cell>1</cell><cell cols="2">07:49:25-07:49:45 [0.25, 0.73, −0.63]</cell><cell>12.5</cell><cell>3.15</cell><cell>0.17</cell></row><row><cell>2</cell><cell cols="2">07:49:54-07:50:06 [−0.14, −0.80, 0.58]</cell><cell>1.7</cell><cell>1.70</cell><cell>0.09</cell></row><row><cell>3</cell><cell cols="2">07:50:20-07:50:31 [0.01, 0.03, 1.00]</cell><cell>3.1</cell><cell>3.84</cell><cell>0.18</cell></row><row><cell>4</cell><cell cols="2">07:50:32-07:50:39 [0.07, 0.66, −0.75]</cell><cell>50.9</cell><cell>4.37</cell><cell>0.31</cell></row><row><cell>5</cell><cell cols="2">07:50:40-07:50:52 [−0.01, −0.07, 0.99]</cell><cell>3.8</cell><cell>5.42</cell><cell>0.26</cell></row><row><cell>6</cell><cell cols="2">07:53:07-07:54:12 [−0.09, 0.67, −0.74]</cell><cell>4.2</cell><cell>8.29</cell><cell>0.26</cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">The Astrophysical Journal, 876:84 (6pp), 2019 May 1 Xu et al.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We acknowledge the Venus Express team for providing the magnetic field data and plasma data. The data for this study are available at ESA's Planetary Science Archive (ftp://psa.esac. esa.int/pub/mirror/VENUS-EXPRESS/) and the AMDA (http://amda.cdpp.eu/) science analysis system provided by the Centre de Données de la Physique des Plasmas (CDPP) supported by CNRS, CNES, Observatoire de Paris and Université Paul Sabatier, Toulouse. This work is supported by the Science and Technology Development Fund of Macao SAR (008/2016/A1) and National Natural Science Foundation of China (NSFC) under grants 41564007 and 41731067.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>ORCID iDs</head><p>Qi Xu https:/ /orcid.org/0000-0003-4662-476X Xiaojun Xu https:/ /orcid.org/0000-0002-2309-0649 Qing Chang https:/ /orcid.org/0000-0003-4883-949X Zhaojin Rong https://orcid.org/0000-0003-4609-4519 Jing Wang https:/ /orcid.org/0000-0003-0471-5532 Jiaying Xu https://orcid.org/0000-0002-9579-6739 Tielong Zhang https:/ /orcid.org/0000-0002-0980-6292</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Angsmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fränz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dubinin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2010.12.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="page">327</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barabash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Sauvaud</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature06434</idno>
+		<imprint>
+			<date type="published" when="2007">2007a</date>
+			<biblScope unit="volume">450</biblScope>
+			<biblScope unit="page">650</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barabash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-A</forename><surname>Sauvaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gunell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2007.01.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">1772</biblScope>
+			<date type="published" when="2007">2007b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bertucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Duru</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Edberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-011-9845-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page">113</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Burlaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sittler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mariani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schwenn</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA086iA08p06673</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">6673</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fraenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wan</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA019878</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">9464</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/aae3e7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">867</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Frahm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Linder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2007.12.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">802</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Collinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grebowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Sibeck</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA020616</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">3489</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Dimmock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kallio</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2017JA024852</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page">3580</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dubinin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fraenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woch</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2011GL049883</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page">L01104</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dubinin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fraenz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Woch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA020195</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">7587</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J T</forename><surname>Edberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Futaana</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2011JA016749</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">116</biblScope>
+			<biblScope unit="page">A09308</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Elphic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Slavin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">H</forename><surname>Brace</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA085iA13p07679</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">7679</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Futaana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barabash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yamauchi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2007.10.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">873</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Good</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Forsyth</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11207-015-0828-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page">239</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gringauz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0273-1177(81)90084-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Knudsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA093iA08p08756</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">8756</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00200818</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page">241</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Elphic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Slavin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Mihalov</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/GL008i005p00517</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">517</biblScope>
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lundin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-011-9811-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">162</biblScope>
+			<biblScope unit="page">309</biblScope>
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA023402</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">1714</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Martinecz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Boesswetter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fränz</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2008JE003174</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRE</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page" from="E00B" to="30" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Spence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Saunders</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA091iA07p07939</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">7939</biblScope>
+			<date type="published" when="1986">1986</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Mcenulty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>De Pater</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2010.07.019</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page">1784</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Cravens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Brinton</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA085iA13p07795</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">7795</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0273-1177(85)90286-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">173</biblScope>
+			<date type="published" when="1985">1985</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Plainaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Paschalis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Grassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mavromichalaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Andriopoulou</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/angeo-34-595-2016</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AnGeo</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page">595</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barabash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Futaana</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA020461</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">8838</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Barabash</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stenberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015JA021317</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">5593</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Rong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Stenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA022413</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA093iA06p05461</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">93</biblScope>
+			<biblScope unit="page">5461</biblScope>
+			<date type="published" when="1988">1988</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Strangeway</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2006.04.025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">1482</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Vaisberg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983">1983</date>
+			<publisher>Univ. Arizona Press</publisher>
+			<biblScope unit="page">873</biblScope>
+			<pubPlace>Venus (Tucson, AZ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2015.01.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U Ö</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Cahill</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JZ072i001p00171</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">171</biblScope>
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">H</forename><surname>Svedhem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">V</forename><surname>Titov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mccoy</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2007.01.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page">1636</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Vech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Szego</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Opitz</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA020782</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">4613</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Xiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2018.05.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">158</biblScope>
+			<biblScope unit="page">53</biblScope>
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delva</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2006.04.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page">1336</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Delva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2007.10.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">P&amp;SS</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">790</biblScope>
+			<date type="published" when="2008">2008a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">J</forename><surname>Ma</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009GL040515</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page">L20203</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Khurana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2003.05.038</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<date type="published" when="1920">2004. 1920</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><forename type="middle">M</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1217013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page">567</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA095iA09p14961</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">14961</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/91JA00088</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">11145</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balikhin</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2008JE003128</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRE</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="E00B" to="12" />
+			<date type="published" when="2008">2008b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

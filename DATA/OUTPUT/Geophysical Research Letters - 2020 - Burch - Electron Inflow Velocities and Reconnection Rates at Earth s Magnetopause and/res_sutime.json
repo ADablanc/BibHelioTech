@@ -1,0 +1,270 @@
+[
+    {
+        "end": 8464,
+        "start": 8451,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 10324,
+        "start": 10316,
+        "text": "APR-2018",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-04",
+            "end": "2018"
+        }
+    },
+    {
+        "end": 10420,
+        "start": 10415,
+        "text": "04:32",
+        "timex-value": "T04:32",
+        "type": "TIME",
+        "value": "T04:32"
+    },
+    {
+        "end": 10436,
+        "start": 10423,
+        "text": "04:27 - 04:37",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:27",
+            "end": "T04:37"
+        }
+    },
+    {
+        "end": 10576,
+        "start": 10565,
+        "text": "15 Apr 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 10691,
+        "start": 10669,
+        "text": "04:32 on 15 April 2018",
+        "timex-value": "2018-04-15T04:32",
+        "type": "TIME",
+        "value": "2018-04-15T04:32"
+    },
+    {
+        "end": 10932,
+        "start": 10927,
+        "text": "04:32",
+        "timex-value": "T04:32",
+        "type": "TIME",
+        "value": "T04:32"
+    },
+    {
+        "end": 13297,
+        "start": 13292,
+        "text": "04:32",
+        "timex-value": "T04:32",
+        "type": "TIME",
+        "value": "T04:32"
+    },
+    {
+        "end": 13499,
+        "start": 13486,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 16190,
+        "start": 16179,
+        "text": "15 Apr 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 16823,
+        "start": 16810,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 17912,
+        "start": 17901,
+        "text": "15 Apr 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 19685,
+        "start": 19672,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 19703,
+        "start": 19687,
+        "text": "14 December 2015",
+        "timex-value": "2015-12-14",
+        "type": "DATE",
+        "value": "2015-12-14"
+    },
+    {
+        "end": 19720,
+        "start": 19705,
+        "text": "9 December 2016",
+        "timex-value": "2016-12-09",
+        "type": "DATE",
+        "value": "2016-12-09"
+    },
+    {
+        "end": 19742,
+        "start": 19729,
+        "text": "December 2016",
+        "timex-value": "2016-12",
+        "type": "DATE",
+        "value": "2016-12"
+    },
+    {
+        "end": 19964,
+        "start": 19951,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 20470,
+        "start": 20454,
+        "text": "14 December 2015",
+        "timex-value": "2015-12-14",
+        "type": "DATE",
+        "value": "2015-12-14"
+    },
+    {
+        "end": 20797,
+        "start": 20782,
+        "text": "9 December 2016",
+        "timex-value": "2016-12-09",
+        "type": "DATE",
+        "value": "2016-12-09"
+    },
+    {
+        "end": 21400,
+        "start": 21384,
+        "text": "29 December 2016",
+        "timex-value": "2016-12-29",
+        "type": "DATE",
+        "value": "2016-12-29"
+    },
+    {
+        "end": 24165,
+        "start": 24154,
+        "text": "15 Apr 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 24364,
+        "start": 24343,
+        "text": "09 Dec 2016  09:03:54",
+        "timex-value": "2016-12-09T09:03:54",
+        "type": "TIME",
+        "value": "2016-12-09T09:03:54"
+    },
+    {
+        "end": 24377,
+        "start": 24366,
+        "text": "29 Dec 2016",
+        "timex-value": "2016-12-29",
+        "type": "DATE",
+        "value": "2016-12-29"
+    },
+    {
+        "end": 24455,
+        "start": 24442,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 24473,
+        "start": 24457,
+        "text": "14 December 2015",
+        "timex-value": "2015-12-14",
+        "type": "DATE",
+        "value": "2015-12-14"
+    },
+    {
+        "end": 24490,
+        "start": 24475,
+        "text": "9 December 2016",
+        "timex-value": "2016-12-09",
+        "type": "DATE",
+        "value": "2016-12-09"
+    },
+    {
+        "end": 24512,
+        "start": 24499,
+        "text": "December 2016",
+        "timex-value": "2016-12",
+        "type": "DATE",
+        "value": "2016-12"
+    },
+    {
+        "end": 26262,
+        "start": 26249,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 26703,
+        "start": 26687,
+        "text": "14 December 2015",
+        "timex-value": "2015-12-14",
+        "type": "DATE",
+        "value": "2015-12-14"
+    },
+    {
+        "end": 26720,
+        "start": 26705,
+        "text": "9 December 2016",
+        "timex-value": "2016-12-09",
+        "type": "DATE",
+        "value": "2016-12-09"
+    },
+    {
+        "end": 26742,
+        "start": 26729,
+        "text": "December 2016",
+        "timex-value": "2016-12",
+        "type": "DATE",
+        "value": "2016-12"
+    },
+    {
+        "end": 26989,
+        "start": 26976,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    },
+    {
+        "end": 28794,
+        "start": 28781,
+        "text": "15 April 2018",
+        "timex-value": "2018-04-15",
+        "type": "DATE",
+        "value": "2018-04-15"
+    }
+]

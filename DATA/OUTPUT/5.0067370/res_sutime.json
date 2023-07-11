@@ -1,0 +1,636 @@
+[
+    {
+        "end": 190,
+        "start": 176,
+        "text": "16 August 2021",
+        "timex-value": "2021-08-16",
+        "type": "DATE",
+        "value": "2021-08-16"
+    },
+    {
+        "end": 1366,
+        "start": 1352,
+        "text": "16 August 2021",
+        "timex-value": "2021-08-16",
+        "type": "DATE",
+        "value": "2021-08-16"
+    },
+    {
+        "end": 2637,
+        "start": 2620,
+        "text": "September 23 2017",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    },
+    {
+        "end": 7336,
+        "start": 7319,
+        "text": "September 23 2017",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    },
+    {
+        "end": 7361,
+        "start": 7338,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 12324,
+        "start": 12307,
+        "text": "September 23 2017",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    },
+    {
+        "end": 12458,
+        "start": 12435,
+        "text": "between 12:00 and 20:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T12:00",
+            "end": "T20:00"
+        }
+    },
+    {
+        "end": 13916,
+        "start": 13893,
+        "text": "between 12:00 and 20:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T12:00",
+            "end": "T20:00"
+        }
+    },
+    {
+        "end": 14428,
+        "start": 14414,
+        "text": "15:30 to 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 15049,
+        "start": 15044,
+        "text": "17:30",
+        "timex-value": "T17:30",
+        "type": "TIME",
+        "value": "T17:30"
+    },
+    {
+        "end": 15439,
+        "start": 15425,
+        "text": "15:30 to 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 15975,
+        "start": 15952,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 16381,
+        "start": 16376,
+        "text": "15:57",
+        "timex-value": "T15:57",
+        "type": "TIME",
+        "value": "T15:57"
+    },
+    {
+        "end": 16708,
+        "start": 16685,
+        "text": "between 16:00 and 16:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T16:00",
+            "end": "T16:20"
+        }
+    },
+    {
+        "end": 17067,
+        "start": 17044,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 17229,
+        "start": 17206,
+        "text": "between 15:40 and 16:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:40",
+            "end": "T16:00"
+        }
+    },
+    {
+        "end": 17641,
+        "start": 17624,
+        "text": "September 23 2017",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    },
+    {
+        "end": 17662,
+        "start": 17643,
+        "text": "from 15:30 to 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 18259,
+        "start": 18240,
+        "text": "2017-09-23 14:00:00",
+        "timex-value": "2017-09-23T14:00:00",
+        "type": "TIME",
+        "value": "2017-09-23T14:00:00"
+    },
+    {
+        "end": 18268,
+        "start": 18260,
+        "text": "12:00:00",
+        "timex-value": "T12:00:00",
+        "type": "TIME",
+        "value": "T12:00:00"
+    },
+    {
+        "end": 18284,
+        "start": 18276,
+        "text": "16:00:00",
+        "timex-value": "T16:00:00",
+        "type": "TIME",
+        "value": "T16:00:00"
+    },
+    {
+        "end": 18418,
+        "start": 18410,
+        "text": "18:00:00",
+        "timex-value": "T18:00:00",
+        "type": "TIME",
+        "value": "T18:00:00"
+    },
+    {
+        "end": 18535,
+        "start": 18494,
+        "text": "September 23 2017 between 12:00 and 20:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "2017-09-23T12:00",
+            "end": "T20:00"
+        }
+    },
+    {
+        "end": 18939,
+        "start": 18925,
+        "text": "15:30 to 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 19684,
+        "start": 19669,
+        "text": "15:58 and 16:02",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:58",
+            "end": "T16:02"
+        }
+    },
+    {
+        "end": 20744,
+        "start": 20725,
+        "text": "2017-09-23 15:40:00",
+        "timex-value": "2017-09-23T15:40:00",
+        "type": "TIME",
+        "value": "2017-09-23T15:40:00"
+    },
+    {
+        "end": 20753,
+        "start": 20745,
+        "text": "15:50:00",
+        "timex-value": "T15:50:00",
+        "type": "TIME",
+        "value": "T15:50:00"
+    },
+    {
+        "end": 20762,
+        "start": 20754,
+        "text": "16:00:00",
+        "timex-value": "T16:00:00",
+        "type": "TIME",
+        "value": "T16:00:00"
+    },
+    {
+        "end": 20771,
+        "start": 20763,
+        "text": "16:10:00",
+        "timex-value": "T16:10:00",
+        "type": "TIME",
+        "value": "T16:10:00"
+    },
+    {
+        "end": 20780,
+        "start": 20772,
+        "text": "16:20:00",
+        "timex-value": "T16:20:00",
+        "type": "TIME",
+        "value": "T16:20:00"
+    },
+    {
+        "end": 20837,
+        "start": 20820,
+        "text": "September 23 2017",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    },
+    {
+        "end": 20862,
+        "start": 20839,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 23041,
+        "start": 23018,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 23590,
+        "start": 23567,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 40243,
+        "start": 40214,
+        "text": "between 15:33:00 and 15:34:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:33:00",
+            "end": "T15:34:15"
+        }
+    },
+    {
+        "end": 42698,
+        "start": 42690,
+        "text": "15:33:00",
+        "timex-value": "T15:33:00",
+        "type": "TIME",
+        "value": "T15:33:00"
+    },
+    {
+        "end": 42797,
+        "start": 42784,
+        "text": "This 15:34:15",
+        "timex-value": "T15:34:15",
+        "type": "TIME",
+        "value": "T15:34:15"
+    },
+    {
+        "end": 43013,
+        "start": 42994,
+        "text": "15:33:00 - 15:34:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:33:00",
+            "end": "T15:34:15"
+        }
+    },
+    {
+        "end": 43155,
+        "start": 43147,
+        "text": "15:33:20",
+        "timex-value": "T15:33:20",
+        "type": "TIME",
+        "value": "T15:33:20"
+    },
+    {
+        "end": 43164,
+        "start": 43156,
+        "text": "15:33:40",
+        "timex-value": "T15:33:40",
+        "type": "TIME",
+        "value": "T15:33:40"
+    },
+    {
+        "end": 43173,
+        "start": 43165,
+        "text": "15:34:00",
+        "timex-value": "T15:34:00",
+        "type": "TIME",
+        "value": "T15:34:00"
+    },
+    {
+        "end": 43182,
+        "start": 43174,
+        "text": "15:34:15",
+        "timex-value": "T15:34:15",
+        "type": "TIME",
+        "value": "T15:34:15"
+    },
+    {
+        "end": 43272,
+        "start": 43247,
+        "text": "from 15:33:00 to 15:34:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:33:00",
+            "end": "T15:34:15"
+        }
+    },
+    {
+        "end": 45225,
+        "start": 45217,
+        "text": "15:33:28",
+        "timex-value": "T15:33:28",
+        "type": "TIME",
+        "value": "T15:33:28"
+    },
+    {
+        "end": 45266,
+        "start": 45258,
+        "text": "15:34:00",
+        "timex-value": "T15:34:00",
+        "type": "TIME",
+        "value": "T15:34:00"
+    },
+    {
+        "end": 45349,
+        "start": 45329,
+        "text": "15:33:45 to 15:33:50",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:33:45",
+            "end": "T15:33:50"
+        }
+    },
+    {
+        "end": 45909,
+        "start": 45888,
+        "text": "15:33:28 and 15:33:38",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:33:28",
+            "end": "T15:33:38"
+        }
+    },
+    {
+        "end": 49668,
+        "start": 49645,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 50111,
+        "start": 50092,
+        "text": "from 15:30 to 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 50666,
+        "start": 50643,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 52150,
+        "start": 52137,
+        "text": "15:30 - 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 52420,
+        "start": 52397,
+        "text": "between 15:30 and 16:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:30",
+            "end": "T16:30"
+        }
+    },
+    {
+        "end": 57311,
+        "start": 57292,
+        "text": "2017-09-23 15:55:50",
+        "timex-value": "2017-09-23T15:55:50",
+        "type": "TIME",
+        "value": "2017-09-23T15:55:50"
+    },
+    {
+        "end": 57320,
+        "start": 57312,
+        "text": "15:55:40",
+        "timex-value": "T15:55:40",
+        "type": "TIME",
+        "value": "T15:55:40"
+    },
+    {
+        "end": 57329,
+        "start": 57321,
+        "text": "15:56:00",
+        "timex-value": "T15:56:00",
+        "type": "TIME",
+        "value": "T15:56:00"
+    },
+    {
+        "end": 57552,
+        "start": 57544,
+        "text": "15:56:20",
+        "timex-value": "T15:56:20",
+        "type": "TIME",
+        "value": "T15:56:20"
+    },
+    {
+        "end": 57561,
+        "start": 57553,
+        "text": "15:56:10",
+        "timex-value": "T15:56:10",
+        "type": "TIME",
+        "value": "T15:56:10"
+    },
+    {
+        "end": 57714,
+        "start": 57685,
+        "text": "between 15:55:50 and 15:56:11",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:55:50",
+            "end": "T15:56:11"
+        }
+    },
+    {
+        "end": 58773,
+        "start": 58746,
+        "text": "during 15:55:40 to 15:56:25",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:55:40",
+            "end": "T15:56:25"
+        }
+    },
+    {
+        "end": 59039,
+        "start": 59019,
+        "text": "15:56:08 to 15:56:10",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:56:08",
+            "end": "T15:56:10"
+        }
+    },
+    {
+        "end": 60890,
+        "start": 60882,
+        "text": "15:56:11",
+        "timex-value": "T15:56:11",
+        "type": "TIME",
+        "value": "T15:56:11"
+    },
+    {
+        "end": 61663,
+        "start": 61644,
+        "text": "2017-09-23 15:56:09",
+        "timex-value": "2017-09-23T15:56:09",
+        "type": "TIME",
+        "value": "2017-09-23T15:56:09"
+    },
+    {
+        "end": 61683,
+        "start": 61673,
+        "text": "2017-09-23",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    },
+    {
+        "end": 61701,
+        "start": 61689,
+        "text": "15:56:09",
+        "timex-value": "T15:56:09",
+        "type": "TIME",
+        "value": "T15:56:09"
+    },
+    {
+        "end": 62094,
+        "start": 62086,
+        "text": "15:56:10",
+        "timex-value": "T15:56:10",
+        "type": "TIME",
+        "value": "T15:56:10"
+    },
+    {
+        "end": 63738,
+        "start": 63703,
+        "text": "between T15:56:09.6 and T15:56:10.6",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:56:09.006",
+            "end": "T15:56:10.006"
+        }
+    },
+    {
+        "end": 64168,
+        "start": 64139,
+        "text": "between 15:56:08 and 15:56:10",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:56:08",
+            "end": "T15:56:10"
+        }
+    },
+    {
+        "end": 70417,
+        "start": 70382,
+        "text": "between T15:56:09.6 and T15:56:10.6",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:56:09.006",
+            "end": "T15:56:10.006"
+        }
+    },
+    {
+        "end": 70964,
+        "start": 70947,
+        "text": "September 23 2017",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    },
+    {
+        "end": 72964,
+        "start": 72935,
+        "text": "between 15:33:00 and 15:34:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:33:00",
+            "end": "T15:34:15"
+        }
+    },
+    {
+        "end": 77586,
+        "start": 77569,
+        "text": "September 23 2017",
+        "timex-value": "2017-09-23",
+        "type": "DATE",
+        "value": "2017-09-23"
+    }
+]

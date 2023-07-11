@@ -1,0 +1,50 @@
+# Name: 105194angeo2915712011_bibheliotech_V1;
+# Creation Date: 2022-07-20T11:39:15.037804;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper "https://doi.org/10.5194/angeo-29-1571-2011". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Parameter 1: id:column1; name:DOI; size:1; type:char;
+# Parameter 2: id:column2; name:SATS; size:1; type:char;
+# Parameter 3: id:column3; name:INSTS; size:1; type:char;
+# Parameter 4: id:column4; name:REGS; size:1; type:char;
+# Parameter 5: id:column5; name:D; size:1; type:int;
+# Parameter 6: id:column6; name:R; size:1; type:int;
+# Parameter 7: id:column7; name:SO; size:1; type:int;
+# Parameter 8: id:column8; name:occur_sat; size:1; type:int;
+# Parameter 9: id:column9; name:nb_durations; size:1; type:int;
+# Parameter 10: id:column10; name:conf; size:1; type:float;
+2002-08-18T10:00:00.000 2002-08-18T10:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 11542 1 20 38 35 0.1763214176596395 
+2002-08-18T15:00:00.000 2002-08-18T18:00:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 1889 1 10 38 35 0.057714634891536824 
+2002-08-18T15:00:00.000 2002-08-18T18:00:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 167 1 20 38 35 0.00255117629086465 
+2002-08-18T15:00:00.000 2002-08-18T18:00:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 1889 1 20 38 35 0.028857317445768412 
+2002-08-18T17:00:00.000 2002-08-18T17:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "" "Earth.Magnetosphere.Main" 28 1 10 38 35 0.0008554842652001223 
+2002-08-18T17:00:00.000 2002-08-18T17:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-2" "" "Earth.Magnetosphere.Main" 37 1 1 38 35 0.011304613504430187 
+2002-08-18T17:00:00.000 2002-08-18T17:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-3" "" "Earth.Magnetosphere.Main" 46 1 1 38 35 0.014054384356859151 
+2002-08-18T17:00:00.000 2002-08-18T17:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-4" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 55 1 4 38 35 0.004201038802322029 
+2002-08-18T17:00:00.000 2002-08-18T17:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 682 1 20 38 35 0.010418576229758633 
+2002-08-18T17:00:00.000 2002-08-18T17:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 52 1 20 38 35 0.0007943782462572564 
+2002-08-18T17:00:00.000 2002-08-18T17:00:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 55 1 20 38 35 0.0008402077604644058 
+2002-08-18T17:00:00.495 2002-08-18T17:00:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 1975 1 10 38 35 0.06034219370608005 
+2002-08-18T17:05:00.000 2002-08-18T17:35:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 820 1 10 38 35 0.025053467766575008 
+2002-08-18T17:05:00.000 2002-08-18T17:35:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 2007 1 10 38 35 0.061319890009165906 
+2002-08-18T17:05:00.000 2002-08-18T17:35:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 69 1 20 38 35 0.0010540788267644362 
+2002-08-18T17:05:00.000 2002-08-18T17:35:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 820 1 20 38 35 0.012526733883287504 
+2002-08-18T17:06:00.495 2002-08-18T17:06:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 6849 1 20 38 35 0.10462878093492209 
+2002-08-18T17:06:40.000 2002-08-18T17:09:45.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 13078 1 10 38 35 0.39957225786739997 
+2002-08-18T17:06:40.000 2002-08-18T17:09:45.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-4" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 13092 1 4 38 35 1.0 
+2002-08-18T17:06:40.000 2002-08-18T17:09:45.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 13078 1 20 38 35 0.19978612893369999 
+2002-08-18T17:06:40.000 2002-08-18T17:09:45.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 13092 1 20 38 35 0.2 
+2002-08-18T17:07:00.495 2002-08-18T17:07:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 9787 1 10 38 35 0.2990223036969141 
+2002-08-18T17:07:00.495 2002-08-18T17:07:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-4" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 9596 1 4 38 35 0.7329666972196761 
+2002-08-18T17:07:00.495 2002-08-18T17:07:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 9582 1 20 38 35 0.14637946837763519 
+2002-08-18T17:07:00.495 2002-08-18T17:07:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 9596 1 20 38 35 0.14659333944393524 
+2002-08-18T17:07:00.495 2002-08-18T17:07:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 9787 1 20 38 35 0.14951115184845706 
+2002-08-18T17:07:40.495 2002-08-18T17:07:40.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 2426 1 10 38 35 0.07412160097769631 
+2002-08-18T17:07:40.495 2002-08-18T17:07:40.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 1770 1 20 38 35 0.027039413382218148 
+2002-08-18T17:07:40.495 2002-08-18T17:07:40.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 2426 1 20 38 35 0.037060800488848154 
+2002-08-18T17:08:00.000 2002-08-18T17:09:00.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 13941 1 20 38 35 0.2129697525206233 
+2002-08-18T17:08:00.495 2002-08-18T17:08:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 9075 1 10 38 35 0.2772685609532539 
+2002-08-18T17:08:40.495 2002-08-18T17:08:40.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-4" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 2376 1 4 38 35 0.18148487626031165 
+2002-08-18T17:10:00.495 2002-08-18T17:10:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 9066 1 20 38 35 0.13849679193400552 
+2002-08-18T17:12:00.495 2002-08-18T17:12:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster-1" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 10022 1 10 38 35 0.30620226092270086 
+2002-08-18T17:14:00.495 2002-08-18T17:14:00.505 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 943 1 20 38 35 0.01440574396578063 
+2002-08-18T20:11:00.000 2002-08-18T20:11:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Cluster" "HIA,CODIF,EFW,CIS" "Earth.Magnetosphere.Main" 636 1 20 38 35 0.009715857011915675 
+2002-08-18T20:11:00.000 2002-08-18T20:11:59.000 https://doi.org/10.5194/angeo-29-1571-2011 "Thule" "" "Earth.NearSurface" 610 1 1 38 35 0.1863733577757409 

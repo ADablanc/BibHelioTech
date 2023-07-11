@@ -1,0 +1,704 @@
+JGR Planets RESEARCH ARTICLE 10.1029/2018JE005854 Key Points: ¢« MGS and MAVEN magnetic field measurements are combined into a high-resolution magnetic field model ¢ The new model extends up to SH degree 134, corresponding to 160-km horizontal resolution at the Martian surface ¢ It enables local studies, where geologic and magnetic features can be compared Supporting Information: ¢ Supporting Information S1 ¢ Table S1 Correspondence to: B.
+Langlais, benoit.langlais@univ-nantes.fr Citation: Langlais, B., Thébault, E., Houliez, A., Purucker, M.
+E., & Lillis, R.
+J.
+(2019).
+A new model of the crustal magnetic field of Mars using MGS and MAVEN.
+Journal of Geophysical Research: Planets, 124, 15:42 - 15:69.
+https://doi.
+org/10.1029/2018JE005854  Author Contributions Conceptualization: Benoit Langlais, Erwan Thébault Methodology: Benoit Langlais, Erwan Thébault Validation: Benoit Langlais, Erwan Thébault, Michael E.
+Purucker, Robert J.
+Lillis Writing - Original Draft: Benoit Langlais, Erwan Thébault Formal Analysis: Benoit Langlais, Erwan Thébault Investigation: Benoit Langlais, Erwan Thébault, Aymeric Houliez, Michael E.
+Purucker, Robert J.
+Lillis ©2019.
+The Authors.
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+LANGLAIS ET AL.
+® Check for updates ADVANCING EARTH AND AGU SPACE SCIENCE A New Model of the Crustal Magnetic Field of Mars Using MGS and MAVEN Benoit Langlais, Erwan Thébault!, Aymeric Houliez2™, Michael E.
+Purucker’, and Robert J.
+Lillis#® 17 aboratoire de Planétologie et Géodynamique, Université de Nantes, Université d'Angers, CNRS, UMR 6112, Nantes, France, “Observatoire Royal de Belgique, Uccle, Belgium, *Planetary Magnetospheres Laboratory, NASA Goddard Space Flight Center, Greenbelt, MD, USA, 4Space Science Laboratory, University of California, Berkeley, CA, USA Abstract While devoid of an active magnetic dynamo field today, Mars possesses a remanent magnetic field that may reach several thousand nanoteslas locally.
+The exact origin and the events that have shaped the crustal magnetization remain largely enigmatic.
+Three magnetic field data sets from two spacecraft collected over 13 cumulative years have sampled the Martian magnetic field over a range of altitudes from 90 up to 6,000 km: (a) Mars Global Surveyor (MGS) magnetometer (19:97 - 20:06), (b) MGS Electron Reflectometer (19:99 - 20:06), and (c) Mars Atmosphere and Volatile EvolutioN (MAVEN) magnetometer (2014 to today).
+In this paper we combine these complementary data sets for the first time to build a new model of the Martian internal magnetic field.
+This new model improves upon previous ones in several aspects: comprehensive data coverage, refined data selection scheme, modified modeling scheme, discrete-to-continuous transformation of the model, and increased model resolution.
+The new model has a spatial resolution of ~160 km at the surface, corresponding to spherical harmonic degree 134.
+It shows small scales and well-defined features, which can now be associated with geological signatures.
+1.
+Introduction The Mars Global Surveyor (MGS) mission (19:96 - 20:06) led to major discoveries, including the discovery of the enigmatic crustal magnetic field (Acufia et al., 1998).
+Before this mission it was not known if Mars possessed an internally generated magnetic field or not.
+Based on the sparse measurements available, some defended a weak planetary field (Dolginov & Zhuzgov, 1991; Moehlmann et al., 1991; Slavin et al., 1991), while some argued for localized magnetic anomalies (Moehlmann, 1992).
+For instance, Hood and Hartdegen (1997) suggested that amaximum remanent magnetic field could be recorded above Tharsis region, reaching an amplitude of 5 nT at 300-km altitude.
+The actual figure of the Martian magnetic field is very different from what was anticipated.
+Like all other terrestrial bodies (Connerney, 2007), Mars has its own and unique magnetic signature.
+Measurements by MGS and models derived from these measurements show a planet that is devoid of a planetary scale magnetic field of deep, core origin, as is the case for the Earth (e.g., Thébault et al., 2015) or for Mercury (e.g., Anderson et al., 2011).
+Instead, it possesses very localized magnetic field anomalies.
+Such anomalies are also found on the Earth (e.g., Lesur et al., 2016), the Moon (e.g., Purucker & Nicholas, 2010), and Mercury (Hood, 2016; Johnson et al., 2015), but the Martian anomalies are 1 or 2 orders of magnitude more intense than on these bodies.
+There is a wealth of maps and models based on MGS measurements, which display a similar picture (e.g., Arkani-Hamed, 2007; Cain et al., 2003; Chiao et al., 2006; Langlais et al., 2004; Lillis et al., 2008; Morschhauser et al., 2014; Purucker et al., 2000; Whaler & Purucker, 2005).
+To first order, the magnetic field distribution mimics that of the topography.
+Most of the highly magnetized terrains are found in the southern highlands; most of the easily identified giant basins, volcanic provinces, and the northern lowlands are devoid of significant magnetic fields at spacecraft altitudes (above 150 km or so).
+It is universally accepted that these measurements and models imply that Mars once possessed a global magnetic field powered by a core dynamo, during a time period long enough for minerals to acquire a strong magnetization which has persisted until today.
+The origin of the Martian magnetic field remains, however, debated.
+The characteristics of the past dynamo are unknown.
+Different core regimes and magnetization acquisition processes have been proposed.
+These 1542 100 Journal of Geophysical Research: Planets 10.1029/2018JE005854 Supervision: Benoit Langlais Writing - review & editing: Benoit Langlais, Erwan Thébault, Aymeric Houliez, Michael E.
+Purucker, Robert J.
+Lillis LANGLAIS ET AL.
+include, for instance, a dynamo driven by a hemispheric heat flux pattern at the core mantle boundary (Amit et al., 2011; Dietrich & Wicht, 2013; Stanley et al., 2008) and a dynamo alternatively stopped by or initiated by a giant impact (Monteux et al., 2015, and Roberts et al., 2009, respectively).
+Whether the northern plains were once magnetized or not is uncertain.
+It is possible that only the southern highlands got magnetized (Citron & Zhong, 2012; Rochette, 2006; Quesnel et al., 2009) or that the entire northern hemisphere later demagnetized (Nimmo et al., 2008).
+The timing of the dynamo cessation is also important.
+This event may have provoked an important change in the internal dynamics (Bouley et al., 2016), which is also related to the growth of crustal material and to the building of the initial atmosphere (see the recent review of Mangold et al., 2016).
+It had drastic consequences on the atmospheric escape.
+This loss of atmospheric material to space may be due to several mechanisms, some of them being driven by both the solar wind and the planetary magnetic field (Chassefiére et al., 2007; Jakosky et al., 2018; Lammer et al., 2013).
+This latter point is the main objective of the Mars Atmosphere and Volatile EvolutioN (MAVEN) mission, which was launched in November 2013 (Jakosky et al., 2015).
+MAVEN carries a suite of instruments to study the Martian upper atmosphere and ionosphere, the interactions with the solar wind, and the current loss of gas to space.
+By quantifying the current atmospheric escape, it is possible to characterize the different processes and drivers and to extrapolate this escape back in time (Jakosky et al., 2018).
+Because the crustal magnetic field may reach in some places a few thousand nanoteslas, it creates so-called minimagnetospheres, locally modifying the interactions of the Martian atmosphere with the solar wind.
+For this reason, MAVEN's instruments include a dual sensor magnetic field experiment (Connerney et al., 2015).
+Most hypotheses of Mars's Martian magnetic field history and evolution nonetheless rely on models, which were solely based on MGS magnetic field measurements.
+In the following paper we combine these magnetic field measurements with those of the MAVEN mission to derive a high-resolution model of the Martian crustal magnetic field.
+The modeling scheme is based on equivalent source dipoles as in our previous study (Langlais et al., 2004), although the inversion scheme has been significantly modified in order to accommodate both scalar and vector measurements.
+This scheme is described in section 2.
+The data sets and data selection criteria are presented in section 3.
+We then present the new model in section 4 and discuss it in section 5.
+2.
+Modeling Scheme We extend the modeling scheme presented by Purucker et al.
+(2000) and Langlais et al.
+(2004).
+The model is based on Equivalent Source Dipoles (ESD).
+One advantage of the ESD approach is that it is relatively insensitive to inhomogeneous data distribution.
+In addition it does not need a formal, explicit regularization, as spherical harmonic (SH) models may (e.g., Connerney, 1981; Whaler & Gubbins, 1981).
+It has been successfully used to model the crustal field of the Earth (e.g., Dyment & Arkani-Hamed, 1998; Kother et al., 2015; Mayhew, 1979; Von Frese et al., 1981), the Moon (e.g., Purucker, 2008), and Mars.
+This method was also modified to model the core magnetic field of Mercury (Oliveira et al., 2015).
+2.1.
+General Setting In the ESD scheme the magnetic field of internal origin measured at any source-free location around the planet is assumed to result from the contribution of a large number of dipolar sources homogeneously located below the surface of the planet.
+The direct problem may be expressed as follows.
+Considering a dipole of magnetization M located at radius r,, colatitude 0,, and longitude @,, its magnetic potential observed in r,, 9,, and @, is V=-M-V-= (1) where | is the distance between the measurement and the dipole locations: Nike .
+l= |r, +1? — 2ryr, (cos (0,) cos (0,) + sin (@,) sin (@,) cos (¢, — b))| (2) The three magnetic field components B, (radial), B, (horizontal south), and B, (horizontal east) are related to the magnetic potential 1543 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 p=-vv=-(2,2 2 Vy, (3) or ro@d rsin(@)dd The complete expressions for each component can be found in Langlais et al.
+(2004, Appendix A).
+The magnetic field associated with a number of dipoles is obtained by summing the contributions of all dipoles.
+However, the influence of a dipole decays with the cube of the distance /.
+Therefore, only a limited number of dipoles will have significant contributions for a given observation point.
+This is generally accounted for by setting a maximum distance, or threshold value, beyond which dipoles are not considered (Purucker et al., 1996).
+For this study we use 1,800 km as the maximum threshold.
+This is slightly more than the 1,500 km used by Purucker et al.
+(2000) and Langlais et al.
+(2004).
+The problem is written as b, =G,m+v,, (4) where b, contains the magnetic field vector observations; m is the vector containing the model parameters, that is, magnetization components, to be found; G,, is the geometric source function relating m and b, (i.e., the partial derivatives between B and M); and v, is the vector containing the observation noise.
+Assuming this noise is of zero mean, the inverse problem can be solved by minimizing the quantity L(m) = v,V,, (5) which corresponds to solving G'G,m = G'b,,.
+(6) We use an iterative scheme based on a conjugate gradient approach (Press et al., 1992).
+The solution is found when VL = G,m — b, tends to 0, with at each iteration k a new solution given by Mm, + OP, = My41,; (7) with a, a scalar minimizing L (m,,,) in the direction p,, with a, = iteration k, G’b, — G'G,m.
+k k * * —_———_r, is the residual vector at P, GY Gy px k 2.2.
+Improvements of the Method In previous studies, Purucker et al.
+(2000) used binned measurements of the radial field as input and solved only for the radial component of the magnetization.
+Langlais et al.
+(2004) used the three components of binned measurements to derive the full magnetization vector.
+And Langlais and Purucker (2007) restricted their study to a limited area, using true measurements.
+In this study we bring a number of improvements.
+We improve the resolution of the dipole mesh, therefore leading to a finer-resolution model of the Martian crustal field.
+We use actual vector field measurements that are first carefully selected (see next section).
+And we also consider total field indirect estimates (from the Electron Reflectometer [ER] instrument), which requires the inversion scheme to be adapted.
+2.2.1.
+Mesh Definition and Resolution The ESD scheme is called “equivalent” because the solution can be transformed into another equivalent solution, which predicts a magnetic field similar to that of the true distribution.
+There are nonuniqueness issues, like with all potential field methods.
+The first and most obvious one are so-called magnetic annihilators, that is, magnetization distributions that do not produce magnetic field outside the source volume.
+An example of these annihilators would be a constant magnetization or a toroidal magnetization (e.g., Gubbins et al., 2011; Langel & Hinze, 1998; Vervelidou et al., 2017).
+In this study we use a polar coordinate subdivision (Katanforoush & Shahshahani, 2003) to define the ESD mesh.
+Its implementation is described in the following.
+We first set N, as the number of latitudinal bands.
+The separation between each band is constant and equal to 180/(N, — 1).
+For each colatitude we place (the nearest integer of) N, = ; + /3N, sin(@) points equally distributed.
+A phase shift is imposed on alternate colatitudes in order to get a distribution as symmetric as possible.
+For the same reason, only odd N, values are considered (i.e., a band is located along the equator).
+This mesh is preferred over the icosahedral distribution (Covington, 1993) as it is associated with fewer artifacts, as shown in Appendix A.
+1544 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 2.2.2.
+Scalar Measurements When considering vector field components the partial derivatives relating one field component to one magnetization component can be easily computed.
+This becomes more complex when dealing with the field intensity.
+Indeed, 1 B= (Bl+B,+B?,)’.
+(8) This is equivalent to B= —B,sinI — By, cosI cosD + By cosI sin D, (9) where J and D are the inclination and declination of the field due to the ensemble of dipoles at the observation location.
+The partial derivatives between B and M are nonlinear.
+One usually linearizes this equation using a Taylor series expansion to first order (e.g., Cain et al., 1967), leading to an expression of the form B=B,+AB (10) or in its matrix form, to b, = b,, + Ab,, (11) where b, is the vector containing the scalar measurements, b,, is the vector containing the scalar predictions by an a priori magnetization model my, and Ab, is the vector containing the incremental scalar field associated with the modification 4m of the magnetization model m.
+The solution can be estimated in a similar way to equation (4): b, = b, + Gs|m, 4m + V;.
+(12) Here G,|,,, contains the partial derivatives relating Ab, and 4m knowing m,, with 4m much smaller than m, (e.g., Santosa & Symes, 2015), and v, is a vector containing the observation noise for scalar observations.
+v, and v, can be given different values.
+Combining equations (4) and (12), we then have b=Gm+v b, _ G, Vv, b= (9 )=(e)m (3) G v = Vv Vv ; 1 m+(Gy, Jame) oO) The vector b, contains the field components and intensity predicted by model m,.
+This initial model is based on vector observations only to start with.
+The matrix G, is not computed.
+We note that G, and G,|,,, can be treated independently.
+The terms for the vector components remain identical, and only those of G,|,,, must be reevaluated at each iteration, when 4m modifies the magnetization model.
+The solution m results from the successive modifications of m, by Am, the latter being iteratively estimated by substituting (v,, v,) to v, and (G,,, G,|m,) to G in equations (5) and (6), respectively.
+2.2.3.
+Revised Scheme and Convergence Criteria The complete inversion scheme is described in Figure 1.
+It relies on two steps.
+In the first one, only vector data are used to derive a magnetization model using the conjugate gradient approach.
+Then in the second one, scalar measurements are added to the observation vector.
+The scalar design matrix is computed at each iteration, while the vector one remains identical to that of step 1.
+It is important to monitor the evolution of the solution and that of the unmodeled residuals to avoid (or limit) any divergence of the solution.
+Purucker et al.
+(1996) used the misfit to the data to monitor the evolution of the solution, which is for a given iteration i (14) 1545 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 Legend: Data products }| Processing Blocks [Iterative process _| Selected vector data (b,) Selected scalar data (b,) Building of the vector design matrix Gy Solution of the linear system Mj Building of the scalar Solution of Step1 design matrix Mo Gsim 0 Scalar design matrix Gsm, Solution of the linear system Mj Solution of step 2 m Figure 1.
+Inversion scheme.
+During the first step (top box) only vector data are considered.
+Once Aoy ; reaches some value €;, a model m is chosen and the second step starts (bottom).
+The matrix G,|,,, associated with the scalar measurements is then computed using the model of step 1, which becomes mo.
+The iterative process continues; G,| jp.
+is computed at each iteration until Ao, ; reaches an empirically set value e€).
+as well as a similar quantity associated with the magnetization distribution, i = 15 Oni Nan (15) Nops and Ngip are the number of measured components and of magnetization components, respectively.
+While the first quantity reflects the adequacy of the model to explain the observations, the second one represents the energy (or the smoothness) of the solution.
+This quantity is monitored, but it is not used to choose the iteration number and the final model.
+The only criterion is evolution of the misfit to the data.
+In the case studied by Purucker et al.
+(1996), the solution was found to be relatively stable, with very little evolution 1546 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 after nearly 200 iterations.
+On the contrary, Langlais et al.
+(2004) concluded that the o,; was not significantly decreasing after dozens of iterations, while o,, ; was still increasing.
+They monitored a posteriori the relative evolution of o, ; to choose a solution, with Op,, — %b,i-1 Ao, ; = —-——— « 100, (16) On i and empirically found that limiting Ao, ; to e; = 1% was satisfactory.
+We use here the same kind of criteria.
+During the first step, only the selected vector field measurements are considered.
+The matrix G,, is computed only once.
+We a posteriori monitor Ao,,,; the evolution of misfit to the vector data to choose a model m.
+This model then becomes m, and is used as input in step 2 to predict a magnetic field intensity, which is subtracted from the scalar measurements and to compute G,|,,,.
+A new model m, is then computed at each successive iteration during the second step, with a new matrix G,|,,, computed each time.
+As it will be shown in section 4 the solution is very stable, with no or very little increase of o,, ;- This in turn means that we let the inversion scheme run until a very small limit €, for Aoy, ; is reached or until 100 iterations are performed, whichever comes first.
+The final model is chosen a posteriori with a procedure which is described in section 4 and in Appendix D.
+3.
+Data Sets and Data Selection In this section we describe the different data sets.
+Although MGS main orbital characteristics have been extensively described in the past (e.g., Albee et al., 2001), we recall them here as they are compared to MAVEN ones.
+3.1.
+MGS 3.1.1.
+MGS-MAG One can categorize MGS vector measurements into two low- and high-altitude data sets.
+The first is from the premapping phases of the mission, namely, the AeroBraking and the Science Phase Orbits (AB/SPO; Albee et al., 2001).
+MGS was in a quasi-polar, elliptical orbit with a periapsis oscillating between 90 and 160 km.
+Low-altitude measurements (i.e., those useful to describe and model the crustal magnetic field) were mostly acquired on the dayside.
+The AB/SPO phase lasted from orbit insertion in September 1997 until March 1999, whereupon the Mapping Orbits (MO) phases (nominal and extended) started.
+These phases lasted until November 2006.
+The orbit was almost circular, with a quasi-constant altitude at about 360 km close to the south pole and 415 km close to the north pole.
+The periapsis remained constant in latitude.
+The orbit was Sun synchronous, on a 2:00 a.m.
+to 2:00 p.m.
+plane.
+3.1.2.
+MGS ER MGS also carried an ER instrument (Mitchell et al., 2001), designed to remotely detect weak crustal magnetic fields via the magnetic mirror effect (Acufia et al., 1992).
+By simultaneously measuring magnetic field and suprathermal (>90 eV) electron angular distributions at MGS's ~ 400-km mapping orbit, it is possible to remotely estimate the crustal magnetic field magnitude at the average altitude where incident electrons are absorbed by the Martian atmosphere, that is, 185 km above the Martian areoid.
+Initially, straight magnetic field lines between 400 and 185 km were assumed to locate each individual measurement.
+Note that the field magnitude cannot be measured in regions where magnetic fields at 400 km are always closed (i.e., they intersect the collisional atmosphere at both ends).
+About 2.3 million measurements were combined to create a 0.5° resolution map of B at 185 km.
+This map was used, along with vector magnetic field measurements, to create an earlier ESD model (Langlais et al., 2010).
+This model also used all available vector measurements by MGS (although the data selection scheme was not designed to eliminate transient events as is the case with the current one), as well as ER estimates at 185-km altitude.
+It further used a modeling scheme similar to that one presented in this study (Figure 1).
+Magnetic field lines from this ESD model were then used to correct the tracing of each ER measurement from 400 to 185 km, resulting in a corrected 0.5° ER map of crustal magnetic field, which we use in the current study.
+Uncertainties in each 0.5° x 0.5° pixel are proportional to the square root of the field strength, though with a minimum error of 3 nT.
+We use these individual uncertainties to fill v, (equation (12)).
+Full details of the ER technique and map construction can be found in Lillis, Frey, et al.
+(2008) and Lillis, Mitchell, et al.
+(2008), respectively.
+1547 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 3.2.
+MAVEN The MAVEN spacecraft was launched on 18 November 2013.
+It reached Mars's orbit on 21 September 2014, and its scientific operation started about 2 months later.
+In contrast to MGS, MAVEN has a nonpolar orbit, with an inclination of 74° and a period of 4.5 hr.
+Its periapsis is close to 150 km, but it is periodically lowered to 125 km during so-called deep-dip campaigns.
+Its periapsis precesses both in latitude and local time.
+These orbital parameters were chosen in order to provide a three-dimensional coverage (latitude, longitude, and local time) of the relevant plasma regions in Mars's near environment during the primary mission (one Earth year).
+MAVEN carries two vector magnetometers that are located at the end of the two solar arrays (Connerney et al., 2015).
+This configuration brings direct heritage from the MGS mission (Acufia, 2003) for which the final measurement accuracy was better than 1 nT per component.
+As for MGS, MAVEN measurements are available through the Planetary Plasma Interaction node of the Planetary data system.
+In this study, we use measurements until mid-May 2017.
+3.3.
+Data Selection and Decimation: Minimization of External Fields When dealing with the modeling of magnetic field, one typically faces a problem related to the enormous amount of available measurements.
+MGS returned more than 180 million vector triplets, and MAVEN will possibly return more data.
+These numbers make it impossible to use all measurements, and data selection/decimation procedures have to be defined.
+They are usually optimized so that those measurements possibly more influenced by external fields are eliminated or reduced.
+Several options have been pursued in the past.
+Data can be stacked and binned over relatively small volumes, in an attempt to average out time varying magnetic fields (Acufa et al., 1999; Purucker et al., 2000).
+A nighttime selection can be performed before this binning procedure (Connerney et al., 2005; Langlais et al., 2004).
+True measurements can be instead considered but selected on regular grids so that the data distribution is as homogeneous as possible in space (Moore & Bloxham, 2017; Morschhauser et al., 2014).
+With the exception of local time selection, none of these downsampling procedures attempt to select magnetic field measurements acquired during quiet magnetic times as is the case for terrestrial studies.
+Of course such Earth's studies are facilitated by the derivation of magnetic indices, based on measurements made at magnetic observatories (Love & Remick, 2007).
+Such indices do not exist on Mars, but the orbital configuration of MGS during its MO phase makes it possible to consider these measurements in a virtual observatory scheme to derive a magnetic field index.
+This is the approach followed by Langlais et al.
+(2017).
+The index is based on nightside measurements, sorted geographically, from which the local median value is computed and subtracted before statistics are computed on a daily basis.
+There is no dependence on any a priori magnetic field model to remove the crustal field, making the index model independent.
+This in situ index (measured around Mars) was compared to the extrapolation of interplanetary magnetic field measurements made on board Advanced Composition Explorer (ACE) at the L1 Lagrange point between the Earth and the Sun.
+Such extrapolation is possible only when the Earth (and ACE) and Mars were close to the same Parker spiral arm.
+In situ and remote (extrapolated) time series have correlation coefficients, exceeding 0.6 when the solar cycle was close to its minimum at the end of the MGS mission in 2006.
+This high correlation supports the pertinence of such locally derived proxies for magnetic data selection in order to minimize the external field perturbations.
+The daily index series covers the entire time period when MGS was in the MO phase.
+The index varies from 2.5 to 31.1 nT, with a mean value of 7.1 nT.
+We impose a maximum daily root-mean-square (rms) value of 4.5 nT.
+This arbitrary choice is actually consistent with terrestrial studies, as this corresponds to keeping only the quietest 10% of days.
+Most of the selected measurements were acquired during the last Martian year of the MGS mission.
+This epoch is closer to the solar minimum, which was reached in 2008 (see Langlais et al., 2017, for details).
+This selection leads to a data set made of 5.8 million vector triplets.
+This large number is further decreased using an along-track filtering procedure, which is described below and in Appendix C.
+3.4.
+Data Selection and Decimation: Along-Track Filtering The magnetic index as computed by Langlais et al.
+(2017) cannot be straightforwardly derived when measurements are acquired at variable altitudes.
+Using the remote proxy (derived with ACE data) is not possible as it does not cover the entire time period; restricting the selection to the appropriate periods would reduce the number of data points too drastically.
+1548 fri AGU 100 ADVANCING EARTH AND SPACE SCIENCE LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 EE 1 ') 0.0000 0.0002 0.0004 0.0006 0.0008 0.0010 0 20 40 60 80 100 b — MGS, AB/SPO e — MAVEN d- MGR, ER 60" gq: 60" 60’ go 60" Figure 2.
+(a) Data constraints on each dipole, expressed as "1/1, in units of per cubic kilometer.
+(b-e) Relative contribution of each data set to (a).
+Each dipole is individually plotted over a shaded relief Martian map background.
+Instead, we use a two-step data selection scheme.
+First, we compare the measurements separately for each orbit with a preliminary model we derive for that purpose.
+This model uses only MGS vector measurements.
+Because we do not want the data selection to be overconstrained by the model, we chose to not consider the misfit between observations and predictions.
+We only evaluate the correlation coefficients between observed and predicted series for the three components.
+After looking at all orbits we defined the following criteria: (i) the correlation coefficient has to be larger than 0.4 for at least two components, and (ii) it has to be larger than 0 for the last component (see Figures C1 and C2).
+These criteria may seem to be loose, but they are preferable to include more measurements than to exclude too many.
+This scheme leads to the selection of about 65% of the low-altitude orbit tracks, that is, 633 out of 967 for the MGS AB and SPO orbits.
+The same selection was made for MAVEN tracks below 600 km, except that only nightside measurements (between 19:00 and 5:00 local time) were initially kept.
+Using the correlation coefficients between observations and predictions, 1,585 out of 1,972 orbits (on the nightside) were selected, or approximately 80% of the data set.
+1549 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 Table 1 Number of Data Before and After Selection Data set #oforbits #oforbitsselected #ofdataselected #ofdata, final #of data, second run MGS AB/SPO 967 633 453,161 105,871 101,956 MGS MO n/a n/a 5,803,137 338,748 333,670 MGS ER n/a n/a n/a 218,436 214,675 MAVEN 1,972 1,585 1,254,770 164,146 158,102 Note.
+For MGS MO and MAVEN, these numbers are for nightside measurements.
+The number of selected data corresponds to data available on selected orbits.
+“Final” and “second run” numbers are those after along-track decimation and after outliers removal, respectively.
+n/a = not applicable; MGS = Mars Global Surveyor; AB/SPO = AeroBraking and the Science Phase Orbits; MO = Mapping Orbits; ER = Electron Reflectometer instrument; MAVEN = Mars Atmosphere and Volatile EvolutioN.
+The second selection step is designed to reduce the number of consecutive measurements along track.
+The across track distance is indeed larger than the along track one.
+The altitude of the measurements varies, from about 100 up to 600 km.
+The lower-altitude measurements are much more sensitive to the crustal field than the high altitude one.
+In addition, we aim to select more measurements where the crustal field changes or varies rapidly as the spacecraft orbits over it.
+This is why we define an along-track downsampling scheme, in which we monitor both the altitude and the variability of the measurements to compute the optimal distance between two consecutive measurements.
+This distance is found to vary between 20 and 111 km, depending on the measurement altitude and on the rate at which the magnetic field changes (this is illustrated by the upper panels in Figures Cl and C2).
+A maximum distance between consecutive selected measurements is also taken into account.
+The data selection scheme is described in Appendix C, together with examples of orbits accepted or rejected based on the correlation coefficients.
+3.5.
+Summary of Data Selection We conclude this section with Table 1, which summarizes the data selection process for MGS and MAVEN.
+The first step of the model (upper box in Figure 1) is constrained by 608,765 vector triplets.
+The second step (lower box in Figure 1) additionally uses 218,436 scalar measurements.
+The last column of Table 1 further indicates the number of measurements constraining the final model, which is essentially a second run after some outliers have been identified and removed (see Appendix D): Measurements that have differences with model predictions exceeding 30, for any field component are excluded.
+We also show in Figure 2 how each data set constrains the ESD model.
+A given dipole is constrained by the observations, which lie within the 1,800-km threshold distance.
+The measurements contribute to a level, which is inversely proportional to the cube of their distance / (equation (2)) to the dipole.
+By summing the quantity 1/1° for all measurements within the threshold distance of each dipole, we can evaluate how much each dipole is constrained.
+This is what is shown in Figure 2a.
+This quantity can also be computed separately for each data set, which allows to see where and how much each data set contributes the most, as shown in Figures 2b-2e.
+For each dipole, the relative contribution of each data set is plotted.
+Because | is typically of the order of 1,000 km, the plotted total quantity remains very small and tops at 0.001 km~°.
+The maximum is reached over the south pole area, where the effect of the minimum altitude of MGS over 8 years during its MO phases combines with the denser data coverage due to the almost polar orbit.
+A secondary maximum is found close to 74°S, which corresponds to the southernmost measurements by MAVEN.
+Except for the polar areas, the data constraint on the dipoles is relatively homogeneous, with a minimum reached in the vicinity of Alba Patera (40°N, 250°E).
+Relatively speaking, the MGS MO and MAVEN measurements globally contribute equally, at 32.9% and 29.5%, respectively.
+The MGS ER data set has the weakest contribution, at 17.1%.
+It nonetheless remains important as it well constrains dipoles over the northern hemisphere giant basins.
+4.
+Results 4.1.
+ESD Model Statistics We use a dipole mesh with N, = 115 latitudinal bands.
+This corresponds to 14,386 dipolar sources, or 43,158 unknown magnetization components.
+Each dipole has a mean surface area equal to ~10,000 km, with a mean spacing of 1.91°.
+The thickness of the magnetized layer is a priori set to 40 km.
+The depth of the dipoles 1550 100 Journal of Geophysical Research: Planets 10.1029/2018JE005854 Table 2 Mean (Computed as Data-Model Predictions), rms Misfits (Equation (14)), and Correlation Coefficients Associated With the Final Model for Each Data Set Mean misfit (nT) rms misfit o (nT) Correlation coefficient Data set B, By By B B, Bg By B B, By By B AB/SPO 0.57 2.52 —2.80 11.05 14.03 17.37 18.90 17.05 0.981 0.959 0.923 0.982 id, h < 350 km 0.65 223 —3.00 8.32 15.70 17.38 18.19 17.22 0.982 0.969 0.944 0.986 MO 0.02 —0.42 0.24 2.22 3.81 3.87 3.86 3.93 0.988 0.981 0.955 0.990 ER — — — 1.90 — — — 10.83 — — — 0.974 MAVEN —0.25 —0.11 0.95 4.68 8.11 9.23 9.65 9.42 0.992 0.986 0.968 0.993 Note.
+Statistics for the field intensity are calculated from the field components for the vector data sets.
+For the MGS AB/SPO data, statistics are also given for a subset below 350 km.
+AB/SPO = AeroBraking and the Science Phase Orbits; MO = Mapping Orbits; ER = Electron Reflectometer instrument; MAVEN = Mars Atmosphere and Volatile EvolutioN.
+LANGLAIS ET AL.
+is set to 20 km, following conclusions of Langlais et al.
+(2004).
+Measurement noise for v,, is set to be constant and equal to 3 nT, that is, the minimum noise associate with v, (see section 3.1.2).
+The final model is iteration 29 of the second step.
+Details on the convergence criteria and choice of the final solution are given in Appendix D.
+Misfits associated with each of the four data sets are given in Table 2.
+The final rms misfit is equal to 9.18 nT.
+Those associated with the AB/SPO data set below 350-km altitude are given for a comparison with those of Langlais et al.
+(2004).
+In their model, AB/SPO data were limited to a maximum altitude of 350 km, before being spatially averaged.
+Associated rms misfits were close to 20 nT, to be compared to about 17 nT here.
+For each data set and field components, histograms of the residuals are shown in Figure 3.
+The residuals are globally symmetrically distributed, with the exception of the ER data set: the mean misfit is positive, with very few residuals below —lo and many more above +1o.
+The lowest mean misfits are associated with the high-altitude MGS MO data set and with the radial component.
+Correlation coefficients are all above 0.92 and even excess 0.98 for the radial components.
+High-altitude measurements are associated with remarkably low misfits, below 4 nT.
+Morschhauser et al.
+(2014) had misfit between 5.7 and 7.2 nT, depending on the component.
+Misfits associated with the MGS AB/SPO data set are comparable with those of Morschhauser et al.
+(2014), closer to 16 nT.
+We interpret the better high-altitude misfits of our model as being a direct consequence of the external magnetic field proxy we used for data selection.
+The horizontal components are associated with slightly poorer rms misfits while showing nonzero biases.
+These are usually interpreted as being caused by nonlithospheric contributions, that is, external magnetic field contributions (Langlais et al., 2004; Morschhauser et al., 2014).
+The mean misfit of B, and B, have opposite signs for the MGS AB/SPO and MAVEN data sets, respectively.
+The MAVEN data set contains exclusively nightside data (as does the MGS MO one), while the MGS AB/SPO one is strongly dominated by dayside measurements.
+The sign difference could be explained by, for example, external magnetic fields having opposite directions on day and nightsides (Langlais et al., 2017).
+4.2.
+Transformation Into Spherical Harmonics and Extrapolation to the Surface One major disadvantage of the ESD approach is that it does not allow to extrapolate the field below an altitude which is equal, to first order, to the mean distance between adjacent dipoles.
+Before discussing the morphology of the Martian magnetic field and what this new model brings, we go one step further and convert the discrete ESD model into a continuous SH one.
+We start by a forward problem.
+The three components of the magnetic field are computed from the ESD model on a quasi-equisurface grid at an altitude of 150 km.
+The grid contains 100,000 locations.
+The set of Gauss coefficients (g"", h'") is found by a least squares inversion process.
+The number of points on the grid is defined so that a model can be estimated without aliasing up to at least SH degree n 250 or so, but we restrict the expansion up to degree 160.
+The misfit to the predicted field at 150 km is below 1 nT.
+This model is also discussed in the following section.
+1551 100 Journal of Geophysical Research: Planets 10.1029/2018JE005854 Relative count (%) O- NWA ODN WO OO O -20 -10 00 10 20 ER B misfit alAlal -206 -10 00 10 20 -20 -10 00 10 20 —-20 -10 00 10 20 MO B, misfit MO B, misfit MO By misfit Relative count (%) O-H-NWAATHDN OO CO Relative count (%) O-NMNWA ODN OO CO -20 -160 00 10 20 -260 -10 00 160 20 -260 -10 00 10 20 MAVEN B, misfit MAVEN B, misfit MAVEN By misfit Relative count (%) O-H-NWA AD N OO CO -20 -10 00 10 20 -20 -10 00 10 20 -20 -10 00 10 20 AB/SPO B, misfit AB/SPO B, misfit AB/SPO By misfit Figure 3.
+Histograms of the residuals for each data set and components.
+Misfits are normalized with respect to individual o as given in Table 2, MO = Mapping Orbits; MAVEN = Mars Atmosphere and Volatile EvolutioN; AB/SPO = AeroBraking and the Science Phase Orbits.
+LANGLAIS ET AL.
+1552 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 This study Morschhauser et al.
+(2014) Langlais et al.
+(2010) Langlais et al.
+(2004) Cain et al.
+(2003) SH Degree Figure 4.
+Martian magnetic field power spectrum.
+(a) The comparison of several models at the surface.
+Dashed line represents terms for n > 134.
+(b) The spectrum of our model at the surface and at 120-km altitude.
+SH = spherical harmonic.
+5.
+Discussion 5.1.
+A Field Spectrum We start the discussion by computing the Mauersberger-Lowes spatial power spectrum of the Martian magnetic field (Lowes, 1966; Mauersberger, 1956) associated with our SH model up ton, m = 160.
+This quantity represents a measure of the energy of the magnetic field as a function of the degree.
+It is written as R,(r) = man(2)""y ((gm)* + (nm)*).
+(17) m=0 This quantity can be expressed at any radius r above the mean planetary radius a, assuming that the magnetic sources are located within the planet.
+We show in Figure 4 the magnetic spectrum of our model together with that of previously published ones, by Cain et al.
+(2003), Langlais et al.
+(2004), and Morschhauser et al.
+(2014).
+For comparison we also present the unpublished model (Langlais et al., 2010), which was used for the ER data set (section 3.1.2).
+The spectra are plotted at the Martian surface and at an altitude of 120 km.
+The models by Cain et al.
+(2003) and Langlais et al.
+(2004) used MGS vector measurements taken before mid-2001 or so, but with different modeling techniques (SH vs.
+ESD, respectively).
+Morschhauser et al.
+(2014) used all available vector measurements by MGS, with a more sophisticated data weighting scheme to decrease the importance of measurement outliers.
+They further regularized the solution with an L1 norm in the spatial domain, which led to a rapid drop of coefficients beyond n, m = 107.
+1333 100 Journal of Geophysical Research: Planets 10.1029/2018JE005854 -600 -300 -150 0° e — AB, Langlais et al.
+(2004) - this study 60° +809°300° Figure 5.
+Maps of the Martian magnetic field at 200 km from the Equivalent Source Dipoles model.
+(a) B, (b) B,, (c) Bg, (d) By, and (e) total field difference between the Equivalent Source Dipoles model of Langlais et al.
+(2004) and the one presented in this study.
+LANGLAIS ET AL.
+1554 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 Our new model and the two previously published models have—to first order—a similar shape.
+Their energy is similar up ton ~ 55.
+Then that of Cain et al.
+(2003) shows no convergence, while the models of Morschhauser et al.
+(2014) and of Langlais et al.
+(2010) decrease and remain very close up to degree 107 (none used MAVEN measurements).
+Our new model has a lower energy per degree than these two other models.
+At degree 125 it is about half an order of magnitude below that of Langlais et al.
+(2010).
+It continues to decrease almost monotonically until n = 134, where it reaches a minimum at 200 nT’ per degree.
+It then starts to diverge, with increasing energy per degree.
+In order to understand why the behavior of the spectrum changes at this SH degree, we compute it at an altitude of 120 km and plot it also in Figure 4b.
+At n = 134, the energy of the Martian magnetic field model drops below 1.5 x 10-7 nT” per degree.
+The fact that the spectrum slope changes and becomes more or less flat can be interpreted as the maximum resolution of our model.
+For this reason we choose to truncate our model to n = 134.
+The misfit between that truncated solution and the grid derived from the ESD solution at 150 km remains below 1 nT.
+The truncated model has a spatial resolution of about 160 km at the Martian surface.
+This model is available in the supporting information of this paper.
+5.2.
+Field Map at 200-km Altitude We compute the magnetic field at constant altitude of 200 km using our ESD model and plot it in Figure 5.
+The main characteristics of the Martian magnetic field remain similar to those described in previous studies.
+At this altitude the magnetic field ranges between —410 and +650 nT for the radial component, with a field intensity up to 700 nT.
+Vast regions are devoid of significant magnetic field signatures.
+These include most of the northern lowlands, the eastern part of Tharsis bulge, and the southern hemisphere east of Argyre and west of Hellas.
+The most intense anomalies are found above Terra Cimmeria and Terra Sirenum, within a ~2,000-km-radius circle centered on 45°S, 180°E.
+In this area intense anomalies with opposite signs (in the radial direction) are found, but they do not show a large-scale trend or pattern.
+This total field map is also compared to the model of Langlais et al.
+(2004), as this new model is a direct improvement on it.
+The differences (old model-new model) are shown in Figure 5e.
+The old model is on average 1.3 nT less intense than the new one, with an rms difference of 7.7 nT.
+A closer look reveals that there are both medium- and small-scale intensity differences.
+They are on average slightly positive where the magnetic field is weak.
+They become more intense, more negative, and much more small scale where the largest anomalies are found, ranging within +100 nT, or about 15% of the modeled field.
+These differences are interpreted as resulting both from an increased signal-to-noise ratio (especially in the northern hemisphere) and from an improved spatial resolution.
+5.3.
+Field Map at the Surface We now turn to modeled surface fields.
+We use the SH model based on our ESD solution to predict the field on a spherical surface of radius 3,393.5 km.
+We plot the intensity and the field components in Figure 6.
+The SH model is truncated to n, m = 134, accordingly to the observed convergence of the spectrum until that degree.
+At the surface the total field reaches ~ 11,280 nT.
+The field components range between —8,520 and 11,260 nT, between —8,330 and 7,580 nT, and between —5,460 and 5,570 nT for B., By, and By, respectively.
+The mean intensity is 460 nT.
+These values are compared to the predicted field associated with the model of Morschhauser et al.
+(2014).
+Its extreme values are 10% larger or so, while the mean value is lower, down to 330 nT for the total field.
+The mean difference, computed as the model of Morschhauser et al.
+(2014) minus ours, is close to —105 nT.
+Our model nonetheless predicts much weaker field intensities than the local solution of Plattner and Simons (2015), who reported values reaching 63,000 nT over Terra Cimmeria, computed at a spherical surface of 3,376 km (corresponding to the polar radius).
+We verified that the differences with the model of Morschhauser et al.
+(2014) are not associated with our model larger degree truncation, that is, 134 versus 106 (see Appendix E).
+The maximum modeled magnetic field is 11,270 nT when our model is truncated to n = 106.
+The observed differences are related to the information carried by the model itself.
+A closer inspection of the differences, again computed as the model of Morschhauser et al.
+(2014) minus ours, here truncated to n = 106, reveals two things.
+First, our truncated model is in general still more intense, 110 nT on average, where the magnetic field predicted by our model is below 1,500 nT.
+This mean difference decreases to —6 nT where higher fields are found.
+This mean difference actually corresponds to a very dynamic difference range.
+The maximum differences are found over 13533 Fri AGU 100 Journal of Geophysical Research: Planets 10.1029/2018JE005854 ADVANCING EARTH AND SPACE SCIENCE A —100:00 - 50:00 — 25:00 - 12:00 -600 -300 -120 120 300 600 1200 2500 5000 10000 180° 0° —20:00 - 12:50 -1000 -750 -500 -250 -100 100 250 500 750 1000 1250 2000 180° 0° 0° e — AB, Morschhauser et al.
+(2014) - this study 60° 4g9°300° Figure 6.
+Maps of the Martian magnetic field at the surface, as predicted by the spherical harmonic model up to n, m = 134.
+(a) B, (b) B,, (c) Bg, (d) Bg, and (€) field difference between the Spherical Harmonics model of Morschhauser et al.
+(2014) and the one presented in this study.
+LANGLAIS ET AL.
+1556 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 Table 3 Statistics Associated With the Magnetization Model (in Amperes per Meter) M, M, My \M| Mean —0.03 0.03 0.14 1.01 Om 1.11 0.88 0.76 1.26 Minimum —12.71 —10.76 —7.53 0.02 Maximum 16.30 15.80 8.60 18.86 Fraction above +1lo,, 12.8% 12.7% 16.9% 22.2% the eastern part of Terra Cimmeria, around 166°E, 45°S, where they range from —2,410 to 4,670 nT.
+Over this area the total field exceeds several thousands of nanoteslas; that is, the differences and the signal are similar in magnitude.
+This is also over the same area that our model and that of Langlais et al.
+(2004) differ the most (see Figure 5e).
+It is nonetheless interesting to note that the modeled magnetic field anomalies at the surface of Mars are associated with very small wavelengths.
+This is especially visible for the field components.
+Very few large-scale structures seem to stand out, with the possible exception of a 1,500-km-long negative radial magnetic field structure associated with a negative B, component in the southern cap area, from 160°E, 70°S to about 230°E, 65°S.
+This feature is less prominent in the total field map, and it is possible that the origin of this anomaly is related to multiple sources.
+More generally, it is also possible that smaller spatial scale magnetic fields (below the spatial resolution of the model) exist and overlap with what is currently detectable from orbit.
+5.4.
+Magnetization Map One direct output of the ESD approach is the magnetization.
+It must be noted that the computed magnetization components may differ from the actual ones.
+In the ESD scheme, the magnetization is estimated over a relatively large area, nearly 10,000 km? in our case.
+This is much larger than the meter to kilometer spatial scale at which the Earth's crustal magnetic field is known to vary (e.g., Lesur et al., 2016; Théebault et al., 2010).
+Because there is no reason that the Martian and terrestrial crustal field would be associated with different spatial scales, we can extrapolate they also exist on Mars.
+Our model resolution simply reflects the scales, which can be resolved by the remote measurements.
+In addition, there are nonuniqueness issues, such as the previously mentioned magnetic annihilators.
+One further limitation comes from the fact that only the vertically integrated magnetization can be estimated.
+Assuming a thinner magnetized layer would have resulted in a more intense magnetization.
+Our results simply indicate a possible magnetization distribution, which well reproduces the magnetic field measurements at orbit altitudes given our modeling assumptions.
+The magnetization values reported here have to be seen as typical values at spatial scales representing the resolution of the model.
+The properties of the final magnetization model are given in Table 3.
+The mean magnetization is equal to 1.01 A/m, while the rms value is 1.26 A/m (equation (15)).
+Almost 90% of the dipoles possess a magnetization lower than 2 A/m.
+Extrema are consistent with the lower upper bound of the magnetization, found to be at lease 4.76 A/m for a 50-km-thick magnetized layer (Parker, 2003).
+These reflect the very heterogeneous distribution of the magnetization in the lithosphere of Mars.
+We plot the magnetization distribution in Figure 7.
+Only the radial and the total magnetization are shown, but similar properties are observed for the horizontal components.
+Two kinds of maps are displayed.
+First, we plot the magnetization for each dipole, without any interpolation.
+Because the dipole mesh is based on a polar subdivision scheme, nearly equisurface, the global map appears distorted above the polar areas.
+This apparent distortion disappears when the magnetization is plotted in orthographic polar views.
+Second, we interpolate the magnetization onto a regular 0.25 x 0.25° grid.
+This makes the maps more readable, but it introduces severe biases in the polar areas, which are visible for the radial component over the south pole, near longitude 180°.
+There is a strong correlation between the magnetization and the predicted magnetic field (Figures 7 and 6).
+There are however some differences.
+For instance, the magnetic field anomalies over the north pole area, ey, fri AGU 100 Journal of Geophysical Research: Planets 10.1029/2018JE005854 ADVANCING EARTH AND SPACE SCIENCE -16.0 -8.0 -50 -25 -1.7 -10 -0.5 0.5 60° 480°300° 60° 480°300° 0° d -—M,, interpolated 60° 4g89°300° Figure 7.
+Maps of the Martian equivalent magnetization.
+(a and b) Total magnetization.
+(c and d) Radial magnetization.
+For each case the magnetization is plotted at the dipole locations or interpolated on a regular grid.
+with alternating positive and negative radial polarities, can be explained by a negative radial magnetization only, with the exception of a small positive feature at the north pole.
+The case is different over the south pole area, where both maps (field and magnetization) show alternating radial polarities.
+However, there exists a large area, from —120 to +120° in longitude and between 60°S and 75°S latitude, where a weak 0.5to 0.6-A/m total magnetization is found.
+It does not produce a visible magnetic field (with the exception of the anomalies described in the next section).
+Such patterns are not found above the north pole; they are therefore not systematic biases.
+We nonetheless consider this magnetization level, 0.5 to 0.6 A/m, to be the possible error range associated with our magnetization distribution.
+LANGLAIS ET AL.
+1558 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 ° c — B (with structures) “ / Figure 8.
+Maps of the Martian magnetic field at the surface, as predicted by the SH model up to n, m = 134.
+(a) Total and (b) radial fields are shown.
+(c) Total field together with the location of several features discussed in the text.
+5.5.
+A Focus on Noachis Terra Instead of describing and discussing the new model in its entirety, we choose to study in detail one particular area, located southwest of Hellas basin and comprising Noachis Terra and Malea Planum.
+This area illustrates the different comparisons with geology our model could allow.
+We compute the surface magnetic field and plot it in Figure 8.
+Noachis Terra area is marked by numerous impact craters, especially on its western side.
+Only those larger than about 100 km in diameter are shown in the figure.
+The largest one is Greeley, at 457 km.
+To the east we find four of the six oldest central volcanoes on Mars (Williams et al., 2009).
+These are Amphitrites, Malea, Peneus, and Pityusa Paterae.
+These volcanoes are thought to have formed after the Hellas impact basin, between 3.5 and 3.8 Ga.
+We show in Figure 8 only the radial component and the total field, but the observations we discuss below are also valid for the horizontal components.
+At the surface the magnetic field above this area is very weak, generally below 80 nT.
+Very few magnetic field anomalies are found inside Hellas basin, and they are all below 100 nT.
+Some anomalies may be found about 5° away from Hellas's main rim.
+Most of the craters found 1559 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 in this area are associated with undetectable magnetic fields (e.g., Proctor or Neukum).
+Many other craters are characterized with close-to-0 magnetic fields, but some are actually associated with magnetic lows.
+This is the case for the craters South, Mitchel, Darwin, or Kaiser, where the plotted circular rims almost match the magnetic field lows.
+None of the mentioned paterae are clearly related with magnetic field features, with the possible exception of Pityusa Patera, as discussed below.
+Instead, there is a large area, centered around Malea Patera, where the magnetic field remains very low.
+The maximum magnetic field is close to 1,200 nT.
+It occurs in the vicinity of two craters, Roddenberry (diameter 139 km) and Green (182 km).
+These two craters, as well as the nearby Maunder (91 km, to the east of Roddenberry) show distinct lava flows (Leone, 2016).
+Their spatial extent and detailed characteristics remain to be studied, possibly in relation to their magnetic field anomalies.
+This particular anomaly is extremely well marked in its radial component, with a circular feature of negative field surrounded by a positive anomaly.
+A similar pattern, although less intense, can be found to the northwest, east of the crater Lhose.
+These ringed magnetic structures are in general associated with a single magnetization direction source and were also reported by Morschhauser et al.
+(2014) and Thomas et al.
+(2018).
+Another significant anomaly is found northwest of Pityusa Patera, over a formation known as Pityusa Rupes.
+The maximum predicted field is close to 930 nT.
+This formation is a S-N lobate scarp, a feature which is associated with a compression structure (Tanaka et al., 2014).
+Its age is estimated to be 3.5-3.6 Ga (Egea-Gonzalez et al., 2017).
+It is tempting to associate the source of the magnetic field anomaly with this compression, that is, thicker, structure.
+The magnetic anomaly, however, extends largely away from Pityusa Rupes, along a more SE-NW direction (this is more visible in the radial field map).
+In addition, there is a similar structure to the northwest of Pityusa Rupes.
+It is known as Chalcopores Rupes and was also studied by Egea-Gonzalez et al.
+(2017) who found an older age at 3.9 Ga.
+This compression structure is not associated with a clear magnetic field, and that located below Pityusa Rupes has therefore to be explained by a different origin.
+6.
+Concluding Remarks In this paper we present a new model of the Martian magnetic field.
+The is the first model combining vector field measurements and intensity estimates derived from Electron Reflectometry.
+It further incorporates MGS and MAVEN measurements, spanning a period of nearly 20 years.
+And it uses a data selection scheme designed to minimize external magnetic fields variations.
+The model is based on a discrete ESD scheme, with a mean spacing of 1.91° between adjacent sources assuming a 40-km-thick magnetized layer.
+We solve the three components of the magnetization without any a priori.
+The ESD model is then used to predict the field at a constant altitude above the Martian surface and is converted into a SH model.
+At the Martian surface the field components range within + ~10,000 nT.
+The magnetic field energy spectrum converges until degree 134, corresponding to a length scale of about 160 km at the Martian surface.
+Although it does not change the global picture, it brings several improvements, which should ease future interpretation.
+As demonstrated over Noachis Terra, small magnetic field anomalies can be detected and tentatively interpreted or associated with surface geological features.
+Further interpretation of this new model can be envisaged, in terms of dynamo cessation timing, ancient magnetizing field directions, or interactions with the solar wind to create so-called minimagnetospheres.
+Upcoming surface measurements of the Martian magnetic field by the InSight mission (Smrekar et al., 2019), or by future landers/rovers carrying appropriate instrumentation (Diaz-Michelena et al., 2017), will also help to constrain the surface intensity (even if this will be only locally) and to possibly monitor the magnetic field external variations (Mittelholz et al., 2017).
+Appendix A: Test of ESD Mesh An uneven dipole mesh may lead to some unwanted magnetized signatures.
+The ESD scheme relies on a homogeneous distribution, and each dipole should represent the same volume (or surface area, if the thickness is assumed to be constant).
+Langlais et al.
+(2004) used an icosahedral distribution (Covington, 1993), following the work of Purucker et al.
+(1996) and Purucker et al.
+(2000).
+The sphere is divided into three latitudinal bands.
+The northern and southern ones are subdivided into five equal-area spherical triangles, while the central band is subdivided into 10 triangles.
+Each of the sides of the 20 triangles is subdivided into smaller equal-length arcs, forming a mesh of smaller equal-area triangles.
+The dipoles are placed at the 1560 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 <b Te Lip ely, bs b 60" 489: 300° Figure A1.
+Predicted radial field at 150-km altitude from (a) a polar coordinate subdivision mesh and (b) an icosahedral mesh.
+nodes of these triangles.
+Due to the subdivision process, each dipole has six immediate neighbors, as it is at the center of six adjacent triangles.
+This is the case everywhere but at the poles and along two colatitudes (60° and 120°) where dipoles are surrounded by only five other dipoles.
+Any perfect dipole distribution on a spherical shell should not produce any magnetic field outside if its magnetization components (strength and directions) are imposed by an internal dipole.
+This is known as the Runcorn’s (1975) theorem .
+The icosahedral and polar subdivision meshes are tested with this approach.
+We consider two meshes with a very similar resolution of 119.5 km (mean distance between adjacent dipoles) corresponding to 37 subdivisions for the icosahedral (12,962 dipoles) or N, = 109 (12,922 dipoles) for the polar coordinate subdivision mesh.
+Note that the distribution we use later in this study has a finer resolution.
+The magnetized shell is 40 km thick.
+The magnetization is set to be parallel to a centered axial dipole, with a magnetization equal to 1 A/m at the equator.
+The resulting magnetic field is computed at an altitude of 125 km.
+Results are shown in Figure A1 for the two input dipole meshes.
+The input rms magnetization is 1.17 A/m.
+This is comparable to the magnetization model of Langlais et al.
+(2004), which predicts field values exceeding 1,500 nT at a similar altitude.
+Here the predicted radial magnetic field is, as expected, very close to 0.
+It is lower than 5 nT everywhere but within 2.5° of the poles.
+There are, however, some artifacts associated with the icosahedral mesh, with two anomaly bands located at colatitudes 6 = 60° and 120° (Figure Alb).
+These coincide with those dipoles having five immediate neighbors instead of six.
+Poleward regions show also more intense magnetic fields than those obtained with the polar coordinate subdivision mesh.
+This latter mesh shows only two weak large-scale anomalies located around the poles, similar to a weak dipole structure (Figure Ala).
+The mean absolute radial field for the icosahedral and polar coordinate subdivision meshes is 2.25 and 1.36 nT, respectively.
+1561 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 Based on these tests, and also considering the fact that the Martian magnetic field does not bear any significant planetary scale dipolar feature, we retain the polar coordinate subdivision mesh in the following.
+Appendix B: Linearization of the Solution Combining equations (9) and (10), one obtains the following equation, relating partial derivatives between the magnetic field and the magnetization components at a given location: BEB OB, OB, a.
+aM cosI cos D + Mo r sin] — Mo r OB.
++[- S OM, m, OB, +f[— aMy | Magnetic field angles I and D, as well as the magnetic field intensity B,, are predicted by an a priori known magnetization distribution m,).
+Once a new model m, is obtained, new partial derivatives must be computed.
+For simplicity, we do not update the model labels and refer to the newly computed model m, also as Mp.
+r csrsinD ) AM, Mo OBy cosI cos D + —— Mo 0 cos I sw) AM, (B1) Mo OBy cosI cos D+ —— Mo p OBy sin / — —— ) cos] sin D) AM; 0 Mo Appendix C: Along-Track Selection Procedure For measurements acquired along satellite tracks with varying altitude it is important to define an optimal data selection scheme.
+Lower-altitude measurements bear more information because they are closer to the sources.
+There are also locations where the measured magnetic field changes slowly and almost linearly along track, while it may be very rapid and important variations elsewhere.
+Wherever this happens, the distance between consecutive measurements shall be smaller.
+We therefore design a scheme in which the minimal distance between two consecutive measurements is proportional to the altitude h, with an actual distance which depends on the measured magnetic field variations.
+The minimal along-track distance is set to Ad = 0.55° x (<) 7 (C1) 400 This corresponds to a minimal distance of 0.35° (or 20 km) at an altitude of 100 km, or 0.63° (37 km) at an altitude of 600 km.
+When a measurement B, is kept, the scheme does not select another measurement B,; until this minimal distance Ad is reached.
+Then the rms difference between actual and linearly interpolated measurements (at those locations which are skipped, between B; and B,) is computed.
+If this rms difference is larger than 0.5 nT for any component, the measurement B,; is selected.
+If it is lower than this value, B; is skipped, and the following measurement B,,, is considered.
+A new rms difference is computed between actual and linearly interpolated measurements and compared to the 0.5-nT tolerance limit.
+This loop is repeated until a maximum distance, equal to 3 x Ad, is reached.
+The selected measurement becomes B, and the process is repeated until the end of the orbital track.
+The results of these selections are illustrated in Figures C1 and C2 for MGS and MAVEN, respectively.
+Two orbit tracks are shown on two consecutive days for both spacecrafts.
+In the case of MGS, the two tracks are separated by 3° in longitude at their lowest altitude.
+The first one (on day 2 of 1999) does not correlate with predicted measurements at the same location (correlation coefficients are lower than 0.4 for two components).
+There is a clear shift, possibly related to an erroneous time stamp and/or orbit location (this was also noticed by Morschhauser et al., 2014).
+The second one (on day 3 of 1999) flew over a nearby location (as can be seen from the similar shape of the measurements).
+Correlation coefficients are better and exceed 0.9 when compared to predictions by the model of Langlais et al.
+(2004).
+The predicted measurements are, however, associated with rapid and short length scale variations, which are not present in the observations.
+These variations are especially important at low altitude.
+This is 1562 LANGLAIS ET AL.
+10.1029/2018JE005854 -20 -15 Latitude (deg) Latitude (deg) 05:45 06:00 06:00 06:15 06:30 Time, day 2 of 1999 Time, day 3 of 1999 Figure Cl.
+Mars Global Surveyor measurements on days 2 (left column) and 3 (right column) of 1999.
+The lowermost panels display local time (in blue), altitude (in red), and latitude (in black).
+The three middle panels display the measured field components (in orange), those subselected by the scheme described in the text (red stars), the predictions by the model of Langlais et al.
+(2004; in light blue), and by a preliminary model developed here (in blue) as a function of absolute time.
+On each panel the dark green triangles correspond to the binned measurements used by Langlais et al.
+(2004) below 350 km.
+The uppermost panel is a close-up for the radial component as a function of latitude, from periapsis to 5 min afterward.
+Only the measured field (orange stars) and that subselected (red stars) are shown.
+a direct consequence of the too sparse model resolution of Langlais et al.
+(2004): At low altitude, the effect of individual ESDs dominates that of the sum of the ESDs.
+When compared to our preliminary model the correlation coefficients improve up to 0.992, 0.991, and 0.976 for B,, B,, and By, respectively.
+For each of these two specific orbits, the along-track subsampling scheme reduces the number of measurements from 600 to about 200 below 600-km altitude.
+In the case of MAVEN, the two tracks are more distant (about 26° in longitude at their periapsis), as the orbit period of MAVEN is longer.
+The magnetic anomalies that may be seen on both track are likely to differ, although none show high amplitudes.
+For these orbits, the decimation scheme retains only ~150 measurements.
+Most of the measurements were acquired on the nightside, as shown by the bottom panel of 1563 LANGLAIS ET AL.
+10.1029/2018JE005854 -60 G -60 Latitude (deg) Latitude (deg) By (nT) 600 450 € € § -30 412 300= § -30-412 300 = <x <x -60 4 6 Fill 150 -60 | 6 = 150 -~90 + 0 0 -90 + 0 0 21:15 21:30 23:30 23:45 Time, day 198 of 2015 Time, day 199 of 2015 Figure C2.
+Same as Figure C1 for Mars Atmosphere and Volatile EvolutioN measurements on days 198 (left column) and 199 (right column) of 2015.
+Figures C1 and C2.
+The general behavior is nonetheless very different, as there is a clear mismatch between measurements and predictions by the two models we used.
+Correlation coefficients are negative for the two horizontal components when measurements are compared to the model of Langlais et al.
+(2004).
+The situation slightly improves when they are compared to our preliminary model but not enough to retain this specific orbit.
+On the next day, there is a good correlation between the measurements and the two models, even if that of Langlais et al.
+(2004) continues to predict very small scale variations.
+Correlation coefficients for that orbit exceed 0.8 for all three components when compared to our preliminary model.
+Appendix D: Convergence of the Solution The results we describe here are those associated with the final model.
+It is built on a data set from which outliers have been individually identified and removed using a preliminary model.
+This preliminary model is built with the exact same procedure and outliers are later identified by comparing measurements to the predictions of the preliminary model and by excluding those measurements which are associated with dif 1564 100 Journal of Geophysical Research: Planets 10.1029/2018JE005854 20 = = 15 o 10 s) a—step 1 o,, (A.m-') 11 10 = — o 9 8 1.4 1.5 1.6 b-—step2 G,, (A.m-') Figure D1.
+Evolution of the misfit op, as a function of o,,,.
+(a) First step with vector measurement only, op,,.
+Black pluses and lines show all iterations.
+Blue pluses are plotted every five iterations, and the red one designs the final one.
+(b) Close-up on second step, when scalar measurements are added.
+Orange pluses show all iterations, and blue ones are plotted every five iterations.
+Fade symbols and line show the evolution of o,,, during step 2.
+The final model is denoted by the red cross.
+ferences larger than 3 o, (see equation (14)) for any field component.
+This corresponds to excluding 2.5% of the initial measurements, as shown in Table 1.
+As described in the section 2.2.3, the inverse problem consists of two steps.
+During the first step only 593,728 vector field measurements are considered.
+The goal is to derive a magnetization model, which is used in the second step to linearize the inverse problem once scalar measurements are included.
+It is thus important to not choose a model which would overfit the vector observations, so that the scalar measurements can make it converge to a better solution.
+We use a loose converging criterion, with Ao,,, = 2% (equation (16)).
+The convergence of the solution during this first step is shown in Figure D1.
+LANGLAIS ET AL.
+1565 LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE0058:54 - 20:00 - 12:50 - 10:00 -—750 -500 -250 -100 100 250 500 750 1000 1250 2000 180° ° 0 0° b — AB, Morschhauser et al.
+(2014) — this study 60° 4g9°300° Figure E1.
+Total field difference at the surface between the model (Morschhauser et al., 2014) and our model, truncated to (a) n, m = 106 or (b) n, m = 134.
+This last figure is shown in Figure 6e and is reproduced here for comparison purposes.
+Using the convergence criteria, iteration number 15 is retained to be used as the a priori model for the second step.
+In addition to the 593,728 vector field measurements we now use the 214,675 scalar measurements.
+After each iteration, the newly derived model is used to recompute G, (equation (12)) following the scheme described in Figure 1.
+The inversion process is continued as long as oy, (equation (14)) converges, or until a maximum number of 100 iterations is performed.
+The final solution is chosen using Ao;, (equation (16)).
+The evolution of the misfit versus the evolution of the solution is shown in Figure D1.
+The a priori model mz, is that chosen in the first step and has therefore the same o,,.
+The a priori misfit to the measurements o, is larger than the one with the first step in which only vector measurements are considered.
+There is a progressive decrease of the misfit together with a moderate increase of the model energy.
+The evolution is however much slower than in the first step.
+After 20 iterations or so, the evolution of o,, is less important, with more important Ao, .
+This quantity becomes lower than 0.1% after 29 iterations is the second step, and the evolution of the model becomes almost insignificant.
+In order to validate our choice, we also considered different values for Ao,,, in the first step.
+Models after 14, 16, and 18 iterations were successively used as inputs in the second step.
+Very similar evolution of o,, versus o,,, were observed, with a final o,, ranging between 9.24 and 9.43 nT.
+Appendix E: Effects of SH Model Truncation Two different cases are considered: we compute the differences between the model of Morschhauser et al.
+(2014; up ton, m = 110) and ours, either up to n, m = 134 or 106.
+The lower truncation degree is consistent with the drop in magnetic field energy observed in Figure 4.
+The differences are shown in Figure E1.
+The two maps are strikingly similar.
+They are associated with a correlation coefficient of 0.9.
+This means that the differences between our model and that of Morschhauser et al.
+(2014) are not related to the higher model truncation degree but rather to the modeled field below n, m = 106.
+The only area where differences are noticeable is found south of 65°S latitude.
+Differences between our model and that of Morschhauser et al.
+(2014) are larger when our model is truncated ton, n = 134.
+This may be related to an improved model resolution in that area.
+This improvement is not likely to be caused by the addition of MAVEN measurements, as MAVEN does not fly poleward of 74°.
+ER measurements are also less numerous over this area (see Figure 2).
+In addition, such effects are not observed above the northern polar cap.
+We conclude that 1566 Fri AGU 100 ADVANCING EARTH AND SPACE SCIENCE Acknowledgments This work is part of a project (NEWTON) that has received funding from the European Union's Horizon 2020 research and innovation program under grant agreement 730041.
+It is also supported by CNES in the frame of the InSight mission.
+It further benefited from the financial support from Région Pays de la Loire, project GeoPlaNet (convention 20:16 - 10:982).
+The MGS and MAVEN magnetic field data used in this study are archived in the Planetary Data System (http://pds.
+nasa.gov).
+We acknowledge the unselfish efforts of technicians, engineers, and scientists working on instruments, without whom none of these results would be possible.
+We also acknowledge Achim Morschhauser and an anonymous reviewer for very constructive comments.
+LANGLAIS ET AL.
+Journal of Geophysical Research: Planets 10.1029/2018JE005854 the improved spatial resolution of our model over this specific area is directly related to the improved data selection scheme.
+.

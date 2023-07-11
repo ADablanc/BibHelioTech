@@ -1,0 +1,2055 @@
+Ann. Geophys., 39, 811-831, 2021
+https://doi.org/10.5194/angeo-39-8 11-2021
+
+© Author(s) 2021. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+
+Annales
+Geophysicae
+
+Venus’s induced magnetosphere during active solar wind conditions
+
+at BepiColombo’s Venus 1 flyby
+
+Martin Volwerk!, Beatriz SAnchez-Cano*, Daniel Heyner’, Sae Aizawa‘, Nicolas André‘, Ali Varsani!,
+
+Johannes Mieth*, Stefano Orsini!°, Wolfgang Baumjohann!, David Fischer!, Yoshifumi Futaana’, Richard Harrison’,
+
+8
+
+Harald Jeszenszky!, Iwai Kazumasa>, Gunter Laky!, Herbert Lichtenegger!, Anna Milillo!°, Yoshizumi Miyoshi>,
+Rumi Nakamura!, Ferdinand Plaschke!, Ingo Richter*, Sebastian Rojas Mata’, Yoshifumi Saito’, Daniel Schmid',
+
+Daikou Shiota®, and Cyril Simon Wedlund!
+
+'Space Research Institute, Austrian Academy of Sciences, Graz, Austria
+School of Physics and Astronomy, University of Leicester, Leicester, UK
+Institute for Geophysics and Extraterrestrial Physics, Technische Universitit Braunschweig, Braunschweig, Germany
+
+4+IRAP, CNRS-UPS-CNES, Toulouse, France
+
+Institute for Space-Earth Environmental Research, Nagoya University, Nagoya, Japan
+
+National Institute of Information and Communications Technology, Tokyo, Japan
+
+Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, Kanagawa, Japan
+SRAL Space, UKRI-STFC Rutherford Appleton Laboratory, Harwell Campus, Oxfordshire, UK
+
+° Swedish Institute of Space Physics, Kiruna, Sweden
+
+!OTnstitute of Space Astrophysics and Planetology, INAF, Rome, Italy
+
+Correspondence: Martin Volwerk (martin. volwerk @ oeaw.ac.at)
+
+Received: 3 May 2021 — Discussion started: 4 May 2021
+
+Revised: 25 August 2021 — Accepted: 26 August 2021 — Published: 17 September 2021
+
+Abstract. Out of the two Venus flybys that BepiColombo
+uses aS a gravity assist manoeuvre to finally arrive at Mercury, the first took place on 15 October 2020. After passing the bow shock, the spacecraft travelled along the induced
+magnetotail, crossing it mainly in the Yyso direction. In this
+paper, the BepiColombo Mercury Planetary Orbiter Magnetometer (MPO-MAG) data are discussed, with support from
+three other plasma instruments: the Planetary Ion Camera
+(SERENA-PICAM) of the SERENA suite, the Mercury Electron Analyser (MEA), and the BepiColombo Radiation Monitor (BERM). Behind the bow shock crossing, the magnetic
+field showed a draping pattern consistent with field lines connected to the interplanetary magnetic field wrapping around
+the planet. This flyby showed a highly active magnetotail,
+with e.g. strong flapping motions at a period of ~ 7 min.
+This activity was driven by solar wind conditions. Just before this flyby, Venus’s induced magnetosphere was impacted
+by a stealth coronal mass ejection, of which the trailing side
+was still interacting with it during the flyby. This flyby is a
+unique opportunity to study the full length and structure of
+
+the induced magnetotail of Venus, indicating that the tail was
+most likely still present at about 48 Venus radii.
+
+1 Introduction
+
+The interaction of Venus with the magnetoplasma of the solar
+wind gives rise to the creation of a so-called induced magnetosphere (see e.g. Luhmann et al., 1986; Phillips and McComas, 1991; Bertucci et al., 2011; Dubinin et al., 2011;
+Futaana et al., 2017). The solar wind is first braked by the
+upstream bow shock and is then further mass-loaded and
+slowed down due to the ionization of exospheric particles
+and their pick-up by the solar wind convection electric field
+whilst approaching the planet. The magnetic field is subsequently draped around the planet (e.g. Saunders and Russell,
+1986) in what is often called a comet-like interaction.
+Closer to the planet the magnetic field piles up in a region that is known under various names: magnetic pile-up
+boundary, magnetic barrier, or magnetopause (Zhang et al.,
+
+Published by Copernicus Publications on behalf of the European Geosciences Union.
+812
+
+2008a, b). In this region, the interplanetary magnetic field
+(IMF) is stopped at the sunward side of the planet and cannot
+penetrate into the ionosphere. This boundary extends downstream to at least 11 planetary radii and encloses the induced
+magnetotail, where planetary plasma escape mainly occurs
+(Bertucci et al., 2011). One more boundary is created through
+the difference in plasma composition, where there is a strong
+gradient in the energetic electrons and the ion population
+starts to become dominated by planetary ions instead of solar wind ions (Martinecz et al., 2009a, b), the ion composition boundary. Finally, an additional boundary related to the
+upper limit of the collisional ionosphere is typically found at
+lower altitudes, the 1onopause. This boundary is where the
+thermal ionospheric pressure balances the induced magnetosphere’s magnetic pressure (Bertucci et al., 2011); 1t occurs
+mainly in the dayside and post-terminator nightside sectors.
+
+In the dayside and upstream regions of the induced magnetosphere, various kinds of plasma waves are typically detected. In particular, two wave modes related to the pick-up
+of freshly created ions (Gary, 1992) in Venus’s exosphere
+play an important role. In the solar wind, proton cyclotron
+waves are observed (Delva et al., 2008, 2015) created by the
+ion pick-up in a relatively low plasma-f8 environment. Behind the quasi-perpendicular bow shock, mirror modes are
+often found (Volwerk et al., 2008a, b, 2016) because of the
+relatively high plasma-f there and the mainly perpendicularto-the-magnetic-field energization of the ions crossing the
+bow shock.
+
+In Venus’s downstream region the induced magnetotail 1s
+created by the draped field lines, producing two regions of
+an oppositely directed magnetic field separated by a current
+sheet (Phillips and McComas, 1991), not unlike the Earth’s
+magnetotail. The direction of the field in the tail 1s mainly
+aligned with the direction of the solar wind, and the field in
+the lobes is stronger than that in the magnetosheath (Russell
+et al., 1981). A difference in wave power between the magnetosheath and the tail proper can also be seen (Russell et al.,
+1981; V6roés et al., 2008a, b). As in the Earth’s magnetotail,
+magnetic reconnection has been observed to take place (Volwerk et al., 2009, 2010; Zhang et al., 2010).
+
+The first flythrough of Venus’s magnetotail was done by
+Mariner 10 on 5 February 1974 (Lepping and Behannon,
+1978), from as far downstream as ~ 100 Ry. In October 1975
+the Venera 9 and 10 were injected into their very elongated
+orbits, with a pericentre at ~ 1500 km and an apocentre at
+~ 110000 km and an inclination of 30° (Verigin et al., 1978;
+Eroshenko, 1979). The induced magnetosphere of Venus has
+only been studied over a limited region of space because of
+the limited orbital coverage of the visiting spacecraft. Pioneer Venus Orbiter (PVO) did not explore the central region of the tail further than ~ 11.5 Ry downstream of Venus,
+and Venus Express (VEX), due to a larger inclination of the
+spacecraft orbit, did not venture beyond ~ 4 Ry downstream.
+This means that the structure and the dynamics of the Venusian far tail have not been fully characterized yet. Important
+
+Ann. Geophys., 39, 811-831, 2021
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+questions are still open with respect to e.g. the length of the
+tail and bow shock/wave along it: where does it “merge” with
+the ambient solar wind? How do flux ropes and plasmoids
+move through the far tail? Learning this will have strong implications for understanding the processes that encourage the
+atmosphere to escape or shield it from doing so.
+
+Recently, however, three newly launched missions have
+performed flybys using Venus as a gravitational assist to get
+into the correct orbit towards the inner solar system.
+
+The first one was Parker Solar Probe (PSP, Fox et al.,
+2016), which is set to use seven Venus flybys to adjust its perthelion distance. The first flyby was on 3 October 2018, the
+second on 26 December 2019 approaching from the downstream direction, and the third on 11 July 2020, approaching from the upstream direction. The first flyby passed into
+the induced magnetosphere, where strong kinetic-scale turbulence was found in the magnetosheath (Bowen et al., 2021)
+as well as sub-proton-scale magnetic holes (Goodrich et al.,
+2021), whereas the second flyby grazed Venus’s bow shock
+at the dawn terminator and double layers were observed at
+this boundary (Malaspina et al., 2020).
+
+BepiColombo is the second new mission with two planned
+Venus flybys (Benkhoff et al., 2010; Milillo et al., 2020;
+Mangano et al., 2021), the first of which is the topic of
+this paper. The third mission is Solar Orbiter (Miiller et al.,
+2013, 2020), which had its first Venus flyby about 2 months
+after the first BepiColombo flyby, on 27 December 2020.
+
+This paper focuses on the first BepiColombo flyby that occurred on 15 October 2020. Since this flyby was the first
+opportunity to have scientific planetary observations after
+the instrumental tests performed during the Earth flyby on
+10 April 2020, several science instruments were turned on for
+this planetary encounter. The BepiColombo trajectory was
+such that by making a long transit into the Venusian-induced
+magnetotail, it allowed for a precious opportunity to study
+the dynamics and structures of the tail, including the far tail,
+a region mostly unexplored.
+
+2 Thedata
+
+The first Bep1Colombo flyby occurred on 15 October 2020,
+with the closest approach at 03:58:31 UT and a minimum altitude of 10720.5 km above the planet surface (~ 2 Venus
+radii). BepiColombo was in the solar wind and crossed the
+Venusian bow shock on the day side in the evening sector, and then it did a long transit into the induced magnetotail. The flyby is shown in Fig. | in the Venus solar orbital
+(VSO) coordinate system. In this figure, the Sun is to the left
+(+Xvso), and the different plasma boundaries together with
+BepiColombo’s trajectory are indicated.
+
+The BepiColombo spacecraft (Anselmi and Scoon, 2001;
+Benkhoff et al., 2010) is still in its cruise-phase configuration, which means that there is a stacked formation: the Mercury Transfer Module (MTM), the Mercury Planetary Or
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+Riso (Ry)
+mo oO FR
+
+Yvso (Ry)
+
+Zvso0 (Ry)
+
+Figure 1. The BepiColombo first flyby to Venus in VSO coordinates
+
+(with Ryso = Yes + Zico): The thick black line is the bow
+
+shock (BS) for solar minimum conditions (Zhang et al., 2008b),
+the thin blue line is the ionopause (IP) (Zhang et al., 2008b), and
+the grey dashed lines are the upper mantle boundary (UMB) (Martinecz et al., 2009b). The thin black (dotted) line is the trajectory of
+BepiColombo, with the solid line showing the interval discussed in
+this paper. The purple, green, blue, and red marked intervals are of
+special interest listed in Table 1.
+
+biter (MPO), the Magnetospheric Orbiter Sunshield and Interface Structure (MOSIF), and the Mercury Magnetospheric
+Orbiter (MIO). The main spacecraft MPO and MIO will first
+be detached at Mercury orbit insertion. Naturally, this formation brings limitations to the onboard instruments. With
+MIO behind the MOSIF heat shield many instruments will
+be obstructed (see below) and the magnetometer boom cannot be deployed. For MPO the magnetometer boom could be
+deployed; however, it is rather close to the MTM with its ion
+drives and solar panels, which will create stray fields in the
+measurements.
+
+We use data from the BepiColombo magnetometer MPOMAG onboard the MPO spacecraft (Glassmeier et al., 2010;
+Heyner et al., 2021), at a cadence of 1s (Fig. 2) and a lowpass filter for periods below 5 min (Fig. 3) in order to get
+the large-scale structure of the induced magnetosphere undis
+https://doi.org/10.5194/angeo-39-811-2021
+
+20 T T T T T T 4
+10 ce
+= 0 \ — _— a i di — ae
+x Al ;
+jaa)
+-10 a
+20 t 4 20
+410
+a
+WT ri J) &
+jaa)
+4-10
+"| + -20
+10 fy +
+~ re) \ i _ | , : i r jaa)
+-10 a
+20 + 40
+= 30
+=
+199 =
+=
+jaa)
+410
+| | ! | ! ! (6)
+04:00 05:00 06:00 07:00 08:00 09:00 10:00 11:00 12:00
+UT 15 Oct 2020
+
+Figure 2. Full 1 s resolution MPO-MAG data. Top to bottom panels
+show the By, By, Bz and the absolute magnetic (Bm) field components, respectively. The vertical purple line marks the bow shock
+transit. The purple, green, blue, and red marked intervals are of special interest as in Fig. | and listed in Table 1.
+
+turbed by high-frequency oscillations. We limit the discussion of the observations to the interval of 04:14 UT (crossing of the bow shock) to 12:00 UT, spanning the region of
+~0> Xvso => —40 Ry (Venus radius, Ry = 6052 km).
+
+This work focuses on different regions within the induced
+magnetosphere that are marked with purple, green, blue, and
+red colours along the trajectory in Fig. 1.
+
+In order to interpret the structure of the induced magnetosphere, the cone (@,) and clock (@.) angles of the magnetic
+field are calculated:
+
+2 2
+(Vf Ba+ Be
+
+By
+
+— tan! ( 2
+Oc = tan (F). (2)
+
+These two angles describe the direction of the field: a cone
+angle of €. = 0°/180° indicates an sunward/anti-sunward direction and @ = 90° indicates a field direction perpendicular to the Venus—Sun line. The clock angle shows the direc
+6. = tan
+(1)
+
+Ann. Geophys., 39, 811-831, 2021
+814
+
+tion in the plane perpendicular to the Venus—Sun line, with
+de = 0°/90° indicating a field in the Yysg/Zvso direction.
+In Fig. 3 the magnetometer data are shown as well at the
+cone and clock angles and the location of the spacecraft.
+
+Data from the Planetary Ion Camera (PICAM), part of
+the SERENA (Search for Exospheric Refilling and Emitted Natural Abundances) instrument suite (Orsini et al.,
+2010, 2021a, b), are also used to support the magnetometer data. PICAM is an ion mass spectrometer, which operates
+as an all-sky camera for charged particles. It is optimized
+for Mercury’s observations to study the chain of processes
+by which neutrals are ejected from Mercury’s soil and are
+eventually ionized and transported through the Hermean environment. PICAM operates by scanning through the energy
+and angular distribution of ions effectively from 10eV up to
+3keV and with a field of view of 1.57 sr and a cadence of
+64s. PICAM also provides ion composition for a mass range
+extending up to ~ 132 u (Xenon).
+
+Electron data from the Mercury Plasma Particle Experiment (Saito et al., 2010; Saito et al., 2021) onboard the Mercury Magnetospheric Orbiter (MMO, renamed MIO after
+launch) spacecraft of BepiColombo are also utilized. In particular, data from the Mercury Electron Analyzer (MEA) 1 in
+solar wind mode (3—3000 eV) are used to investigate the lowenergy electron distribution during the flyby at a cadence of
+4s. Since the MMO spacecraft is stuck behind the MOSIF
+Sun shield during the cruise phase, MEA] has a limited field
+of view but, despite this, useful scientific observations can be
+obtained since low-energy electrons are almost isotropic.
+
+In order to account for the solar wind activity responsible for the IMF disturbances around the Venus | flyby, data
+from the BepiColombo Radiation Monitor (BERM) are used
+(Pinto et al., 2021). BERM is a particle detector able to provide radiation information, in a way similar to the Standard
+Radiation Environment Monitor (SREM) instrument aboard
+several ESA missions such as Rosetta (Honig et al., 2019).
+In particular, it is able to measure high-energy charged particles (e.g. electrons from ~ 100 keV to ~ 10 MeV and protons
+from | to ~ 200 MeV), and the higher-energy channel background counts can be used as a proxy for galactic cosmic
+rays.
+
+Moreover, we also use data from the Large Angle and
+Spectrometric Coronagraph (LASCO) instrument onboard
+the Solar and Heliospheric Observatory satellite (SOHO)
+(Brueckner et al., 1995). In particular, we use data from
+the c2 white light coronagraph imaging from 1.5 to 6 solar
+radii. We also use the Heliospheric Imager (HI) instrument,
+which forms part of the Sun Earth Connection Coronal and
+Heliospheric Investigation (SECCHI) suite of remote sensing instruments onboard the Solar TErrestrial RElations Observatory (STEREO)-A spacecraft. The HI is a wide-angle
+visible-light imaging system for the detection of coronal
+mass ejection (CME) events in interplanetary space covering the region of the heliosphere from 4 to 88° elongation
+measured from the Sun’s centre (Howard et al., 2008; Eyles
+
+Ann. Geophys., 39, 811-831, 2021
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+et al., 2009). It consists of two telescopes, HI] and HI2: in
+this study we have used only images from HI].
+
+Finally, we have also used the Space-weather-forecastUsable System Anchored by Numerical Operations and Observations (SUSANOO) model from Nagoya University to
+simulate the solar wind conditions encountered by BepiColombo at Venus during the flyby (Shiota et al., 2014; Shiota and Kataoka, 2016). SUSANOO is a magnetohydrodynamic (MHD) solar wind model of the inner heliosphere between 25 and 425 solar radii using a yin—yang grid, where the
+velocity, density, and temperature are obtained from empirical models of the solar wind (Odstréil and Pizzo, 1999a, b).
+CMEs are included in the inner boundary of the simulation
+as spheromak-type magnetic flux ropes (Shiota et al., 2014;
+Shiota and Kataoka, 2016; Iwai et al., 2019) with initial velocities derived semi-automatically from SOHO-LASCO.
+
+In Fig. 3 there are four regions marked by differently
+coloured vertical lines, which will be discussed in more detail below. These intervals are also marked along the orbit of
+the flyby in Fig. 1. The times when these regions were transited and the distance to the planet when they occurred are
+listed in Table 1.
+
+3 MPO-MAG observations
+
+First the MPO-MAG data, based on the different regions as
+listed in Table 1, will be discussed.
+
+3.1 Magnetosheath draping
+
+After crossing the bow shock at ~ 04:14 UT, the spacecraft
+enters the Venusian magnetosheath. Fig. 4 shows a zoomin on the field in the magnetosheath. It is clear that after
+the crossing of the bow shock (the first purple vertical line),
+the magnetic field rotates strongly from B, (yellow) into B,
+(red), which is also evident from the clock angle, @¢, that
+turns from ~ 90 to ~ 0°. By, is the minor component in this
+interval, as can clearly be seen in the cone angle, 6. ~ 90°.
+
+This means that, in the magnetosheath, the magnetic field
+is mainly in the Yyso direction, i.e. perpendicular to the induced magnetotail direction. This is reminiscent of the pattern described by Delva et al. (2017, their Fig. 1), where
+draped magnetic field lines in the magnetosheath were connected to the IMF, albeit that BepiColombo makes a much
+further excursion away from Venus, in this interval up to
+Xvso © —4 Ry, than VEX. This draping pattern was shown
+to exist in hybrid plasma simulations by Jarvinen et al.
+(2013).
+
+3.2 Magnetotail draping
+
+After passing through the magnetosheath, there is a strong
+rotation of the magnetic field, at ~ 04:44 UT, where B,, decreases and B, increases and the cone angle changes from
+0. © 90 to © 150°, as seen in Fig. 5 between the second pur
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+815
+
+Table 1. Selected time intervals, based on the magnetometer data, showing different regions in Venus’s induced magnetosphere behind the
+bow shock. The distance in the tail behind Venus in Xvsgo is given in Venus radii, Ry.
+
+Region Timein Timeout Distance |Xyso| Box colour
+Bow shock &
+Magnetosheath 04:14 04:44 1.5-4.2 Purple
+Magnetotail 04:48 05:33 4.2-8.5 Green
+Around neutral sheet 05:23 06:08 9.0-15.7 None
+Neutral sheet crossings 06:08 06:15 11.3-12.0 Blue
+Flapping region 06:46 07:01 14.5-15.7 Red
+Magnetotail 07:45 14:00 (?) 15.7-48 (?) None
+| 15 |
+E ha W) E aL
+cs ony Rory card a
+| aol
+20 20
+flap
+715 fs 15
+Cc
+Jig & \
+io
+
+Clock (°)
+
+Loc. (R\)
+
+Xx Y Z
+| | l | | !
+
+07:00 08:00 09:00 10:00 11:00 12:00
+15 Oct 2020
+
+-40
+
+04:00 05:00
+Figure 3. Magnetometer data in the magnetosheath and tail. From
+top to bottom: the three components of the magnetic field in VSO
+coordinates; the magnitude of the magnetic field; the cone angle;
+the clock angle; and the location of the spacecraft in VSO coordinates. The purple, green, blue, and red dotted vertical lines show the
+intervals of interest.
+
+ple and first green vertical lines. Here, the magnetic field
+takes on the shape of a magnetotail, with the main direction
+along the Venus—Sun direction, albeit with a significant By
+contribution.
+
+Because of the conic shape of the bow shock behind
+Venus, the magnetic field in the magnetosheath and magnetotail is not strictly along the Venus—Sun line but flares out
+
+https://doi.org/10.5194/angeo-39-811-2021
+
+ary
+fee)
+oO
+
+<e)
+oO
+
+jo)
+
+Clock (°)
+
+Ke)
+ro)
+
+4
+oo
+ro)
+
+Bm (nT)
+
+Loc. (R\)
+
+Y
+
+04:20 04:40
+
+15 Oct 2020
+
+Figure 4. Zoom-in on the magnetosheath interval (purple), where
+the cone angle 6, © 90° and the clock angle ¢¢ ~ 0°. This indicates
+that the magnetic field is pointing in the Yyso direction.
+
+following this conic shape. A significant By contribution can
+be caused by this flaring of the magnetotail. However, we
+see in Fig. 5 that By < 0 and By > 0, which is incompatible
+with flaring, for which one would expect By < 0. This means
+that the “cross-tail magnetic field” By needs to have its origin elsewhere, e.g. from penetrating IMF into the tail. This
+can be caused via reconnection of the induced magnetic field
+with IMF structures. This process is well known from Earth
+(e.g. Fairfield, 1979; Browett et al., 2017).
+
+Ann. Geophys., 39, 811-831, 2021
+816
+
+Clock (°)
+
+Loc. (R\)
+
+-20
+04:45 05:00 05:15 05:30 05:45 06:00
+15 Oct 2020
+
+Figure 5. Zoom-in on the time interval (green) when BepiColombo
+is in the magnetotail proper. This interval shows a strongly draped
+field with 6, ~ 150°, with a strong By component.
+
+3.3. Neutral sheet crossing
+
+At a bit further distance, BepiColombo encountered the neutral sheet. As can be seen in Fig. 5, at ~ 05:25 UT | B,| starts
+to decrease again (B, — OnT) and after ~ 05:33 UT By, also
+starts to decrease, to end up at a minimum of By © 3nT
+around 05:43 UT, where then B, is the dominant component
+for a short period of time; see Fig. 6. After 05:45 UT, there
+is a drastic change in the cone angle from ~ 90 to ~ 180° as
+well as large oscillations in B,, Bm, and in the clock angle
+that varies between ~ 180 and ~ O°. There are three of these
+oscillations, which then are followed by possible crossings
+of the neutral sheet between 06:08 and 06:15 UT. These neutral sheet crossings are marked by blue vertical lines in Fig. 6
+and are seen as By reaching ¥ 0° nT twice and the cone angle varying from ~ 150 to © 15°.
+
+3.4 Magnetotail flapping
+Between 06:46 and 07:01 UT there are multiple crossings of
+
+B, = OnT, with By ~ —4nT and a negligible B, (see Fig. 7).
+This behaviour is reminiscent of magnetotail flapping ob
+Ann. Geophys., 39, 811-831, 2021
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+Clock (°)
+
+Loc. (Ry)
+
+05:45 06:00 06:15 06:30 06:45
+15 Oct 2020
+
+Figure 6. Zoom-in on the neutral sheet crossings interval (blue).
+Strong oscillations of the field also occur before the selected interval, without crossing By = OnrT.
+
+served at Earth (Sergeev et al., 2003) and also evidenced in
+the Hermean magnetotail (Poh et al., 2020).
+
+At Venus, this phenomenon has also been observed by
+Rong et al. (2015), with a period of ~ 3 min, which is much
+shorter than the ~ 7 min period seen in Fig. 7.
+
+One of the characteristics of flapping is that for consecutive crossings of B, =OnT the normal of the current sheet
+oscillates in the Y—Z plane. We have performed a minimum
+variance analysis on the four crossings to determine the normal direction to the current sheet. The results are shown in
+Table 2. The determination of the direction normal to the current sheet appears robust, with eigenvalues well separated for
+each case and Amax > Aint >> Amin. AS can be seen, the normal, n = (nx,nNy,nz), is mainly in the Y—Z plane. For flapping, one would expect then that for n, > O there is an alternately positive and negative value for n-,. This is only the
+case for the last three crossings.
+
+After these multiple crossings of B, =OnT, there are
+two more excursions from one lobe to another, and then at
+~ 07:45 UT the magnetic field strength basically arrives at
+a more or less constant value of By ~ 5 nT (see Fig. 3). The
+cone angle slowly rotates from 6, © 20 to 6. © 140° and then
+rotates back again, which is a characteristic as well of flap
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+Table 2. Minimum variance direction for the By = OnT crossings
+(cr) rotated such that n, > 0 and the eigenvalues of the MVA, where
+
+the ratio Ajnt/A min Shows that the MVA is well determined.
+
+crl cr2 cr3 cr4
+Start 06:46 06:50 06:54 06:59
+End 06:49 06:53 06:57 07:01
+Nx 0.17 0.16 0.10 0.26
+ny 0.66 0.12 0.93 0.52
+nz —0.74 —0.98 0.34 —0.81
+Amin 1x10-* 2x10 1x1073 1x10~4
+Aint 5x10-*2. 6x10-* 6x1079 8x1073
+Amax 3 3 3 1
+nt /Amin 500 30 6 80
+
+ping activity within the tail. The flapping period is about
+7 min.
+
+3.5 Exiting the bow shock
+
+As BepiColombo continues its path down and across the tail,
+it will eventually encounter the bow shock/wave again. It is
+not clear what this structure may look like so far down the
+tail, and thus from the magnetometer data it is difficult to
+determine where this crossing happened.
+
+In order to get an estimate of where the crossing could
+have happened, we determine where the cone angle of the
+magnetic field varies around the average Parker-spiral angle
+of Op © 36°. This occurs around ~ 14:00 UT at distances of
+Xvso © 48 Ry and Yyso © 11 Ry.
+
+3.6 Magnetic slingshot effect
+
+One phenomenon that may occur in the Venusian magnetotail
+is the so-called magnetic slingshot effect, where draped magnetic field lines, after they have slipped over/diffused through
+the ionosphere, appear as kinked field lines in the tail. The
+kink represents a magnetic tension and ions will be accelerated by the J x B force, as observed with PVO (Slavin et al.,
+1989).
+
+Slowly, down the tail, the field line will “unkink’, which
+means that a spacecraft travelling down the tail and moving
+alternately into the two lobes of the tail, e.g. through flapping
+motions, should see less rotation of the field. Slavin et al.
+(1989) showed that at a distance of ~ 10-11 Ry, the rotations
+of the field when PVO crossed the central current sheet were
+close to Ad © 180° and associated accelerated Ht and OT
+were observed.
+
+With BepiColombo a very long trajectory through Venus’s
+magnetotail was traversed. In Fig. 8 the low-pass-filtered (periods longer than 30min) cone angle is shown for 04:00—
+23:00 UT, corresponding to Xvyso = 0... — 94 Ry. It was already determined above that the magnetotail is flapping, and
+
+https://doi.org/10.5194/angeo-39-811-2021
+
+817
+
+Clock (°)
+
+Loc. (Ry)
+
+l
+06:48 06:50 06:52 06:54 06:56 06:58 07:00
+
+-20
+06:46
+
+15 Oct 2020
+Figure 7. Zoom-in on the magnetotail flapping interval (red). The
+cone angle clearly shows alternating magnetic field directions (tailward 6, > 90° and Venus-ward 6, < 90°). The clock angle remains
+basically the same (¢c = 180° = ¢c = — 180°).
+
+in this case large oscillations of the cone angle are investigated, where the spacecraft moves from one lobe into the
+other. The extrema between the crossings of interest are labelled with numbers. The cone-angle change is listed in Table 3. One can see that there is a small trend that the rotation
+A@, decreases as the spacecraft moves further down the tail.
+However, the orbit of BepiColombo was not optimal for such
+a study because of the large Zyso.
+
+4 Plasma data
+4.1 BepiColombo
+
+Figure 9 shows PICAM, MPO-MAG, and MEAI1 observations. The PICAM data in Fig. 9 (first panel, which are as-yet
+uncalibrated but with the background noise removed) show
+a strong signal of ~ | keV solar wind ions, both upstream of
+the bow shock and inside the induced magnetotail. There are
+variations in the energy of the observed protons Ep, especially in the downstream region of the bow shock, between
+~ 04:45 and ~ 06:00 UT, with 6 x 10° < Ey <2 x 10° eV.
+Clear bursts of increased counts occur at the same time as
+
+Ann. Geophys., 39, 811-831, 2021
+818
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+180
+
+160
+
+140
+
+120
+
+100
+
+Cone (°)
+
+60
+
+40
+
+20
+
+4
+
+0
+0400 0600 0800 1000 1200
+
+-20
+
+1400
+
+1600
+-58
+
+1800 2000 2200
+-67
+
+2400
+
+Figure 8. The cone angle of the magnetic field calculated from low-pass-filtered data, for periods longer than 30 min, for the interval 04:00—
+23:00 UT. The numbered peaks are used to calculate the change in cone angle as BepiColombo moves from one lobe to the other, which is
+listed in Table 3. After 14:00 UT the spacecraft is assumed to have left the magnetotail and to be in the solar wind.
+
+an increase in the MEA electron counts is seen at energies
+between ~ 32 and ~ 100 eV. There are no measurements of
+the S/C (spacecraft) potential, and therefore one caveat is that
+the energies for both electrons and ions might have some
+level of uncertainty. Nevertheless their trend should not be
+affected, as the timescale for changes in the S/C potential is
+often much longer than the time interval of interest.
+Interestingly, after crossing the bow shock, there is no
+clear reduction in the ion energy, which remains at solar wind
+level until ~ 05:35 UT. This is caused by the location of the
+bow shock crossing at ~ [—1.5, —2.3, —1.5] Ry, where the
+reduction of the plasma velocity is much smaller than towards the sub-solar point (see e.g. Spreiter et al., 1966; Spreiter and Stahara, 1994; Schmid et al., 2021). Overall, however, the counts decrease when BepiColombo moves further
+into the downstream region. There are a few significant increases in the count rate, marked by grey and blue transparent boxes in Fig. 9. The grey boxes are when the spacecraft
+has entered the magnetotail, and there does not seem to be a
+good correlation between the PICAM and MPO-MAG data
+as far as these increases in counts are concerned. The first one
+is during a rotation of the field from B, into By, the second
+shows no real peculiarities in the MPO-MAG data, and the
+third shows a strong dip in B,. The lack of one correlation
+between MPO-MAG and PICAM could be due to the field of
+
+Ann. Geophys., 39, 811-831, 2021
+
+view of PICAM, which limits its visibility of the whole sky,
+so that some ion jets might be missed in observations.
+
+For the blue boxes, which occur during the period where
+the magnetic field is oscillating strongly, there seems to be
+a correlation between B,, and the PICAM count rate. The
+bursts of high counts correlate very well with the decreases
+in the total magnetic field.
+
+Finally, during the interval labelled as “magnetotail flapping” (red-edged box), there is no increase in electron energy, but there is a decrease in counts in the low-energy bins
+below 10 eV.
+
+The MEAI instrument was turned on from 14 October 2020 03:45:07 UT until 16 October 2020 04:25:51 UT.
+MEAI measured low-energy electrons during the flyby except during wheel off-loading. The time—energy spectrogram
+of electron omnidirectional counts obtained every 4s in the
+low-resolution telemetry mode is shown in Fig. 9f. Table 4
+shows the crossing times of the various regions as deduced
+from MEAI1 data. The times for some of the crossings are
+slightly off with respect to the magnetometer data (see also
+Table 1).
+
+— The purple box is identified as the magnetosheath where
+the magnetic field was mainly in the Yygo direction.
+The MEA data show after 04:08 UT a different population of electrons than that of the solar wind. The
+
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+819
+
+Table 3. The rotation of the cone angle for large excursions of BepiColombo in the lobes of Venus’s magnetotail. The numbering of the
+
+crossings is shown in Fig. 8.
+
+Xing ]—2 2-3 3-4 5-6
+A@e 132°: 133° «147° 85°
+
+6-7 89 9-10
+76° 84° 72° 43° 60°
+
+10-11 = 11-12
+
+Table 4. A comparison of the boundary crossings determined from MEA and from MAG. There are two intervals for the plasma sheet for
+
+MAG, and the second corresponds to the flapping interval.
+
+MEA Crossing MAG
+Timein Timeout  into/out of Timein ‘Time out
+04:08 13:04 Bow shock 04:14 14:00 (?)
+04:53 07:37 Induced magnetosphere 04:48 07:45
+05:41 06:03 Plasma sheet 05:43 06:15
+— — Plasma sheet 06:46 07:01
+
+main population is at energies between 20 and 40 eV,
+with some variation to lower energies as the spacecraft
+moved deeper into the magnetosheath.
+
+— The green box is identified as the magnetotail, where
+the cone angle is & *¥ 150°. In the MEA data this region shows a much broader distribution of electron energies between 3 and 40eV. Between the purple and
+green boxes a magnetic field rotation takes place from
+0. © 90 to & & 150°. Already before the end of the purple box the electron energy distribution starts to broaden
+and reaches a maximum energy width at 04:53 UT, later
+than the rotation of the magnetic field. At the end of
+the green box, the spacecraft seems to move near the
+neutral sheet, with By < 3 nT, followed by strong oscillations in B, and By. The MEA data show two electron populations, one at 3-10 eV and one at 30-80 eV.
+This splitting of the electron population can be caused
+by acceleration through the electric field generated by
+the magnetic field gradients.
+
+— The blue box shows the actual crossing of a neutral
+sheet, with By * OnT. Interestingly, there is no signature in the MEA data here, just a broad energy distribution of the electrons.
+
+— The red box is the location of the “magnetotail flapping”, the multiple crossings of B, =OnT. The MEA
+data show a decrease in the low-energy electron population.
+
+4.2 Comparison to a Venus Express magnetotail
+flapping event and interplanetary coronal mass
+ejection (ICME) interaction
+
+Venus Express (Svedhem et al., 2007) also observed
+magnetotail flapping in the near-Venus tail around
+
+https://doi.org/10.5194/angeo-39-811-2021
+
+(—1.5,0.1,0.5) Ry on 24 November 2007, as shown in
+Fig. 10 and discussed by Rong et al. (2015). These authors
+stated that, different from the Earth’s magnetotail, where
+the source of flapping is expected at the centre (Sergeev
+et al., 2003; Davey et al., 2012), the source of the flapping
+in Venus’s tail is located near the boundaries between the
+magnetotail current sheet and magnetosheath.
+
+The second and third panels show the magnetometer data
+(Zhang et al., 2006) B,,y,, and Bm. The first and fourth panels show the Analyser of Space Plasma and Energetic Atoms,
+ASPERA-4, IMA ion mass composition sensor-derived proton differential flux at a time resolution of 12s and the
+ASPERA-4 ELS electron sensor-derived electron differential flux time—energy spectrogram at a time resolution of
+4s (Barabash et al., 2007). The black (white) vertical dotted lines show where B, = OnT, and the two magenta vertical dotted lines show where VEX approaches B, = OnT but
+does not cross over.
+
+The IMA time-energy spectrogram shows some weak
+bursts at =1 keV (most likely solar wind protons). At lower
+energies, protons between ~ 20 and ~ 200 eV, there are three
+bursts in the time—energy spectrogram. These seem to be correlated with VEX being in the lobes of the magnetotail, at
+|B,| + 20nT. This is different from what was observed by
+BepiColombo, where the PICAM bursts seemed to be correlated with minimal observed magnetic field strength.
+
+The ELS spectrogram shows that when the spacecraft approaches the centre of the tail, the flux at higher energies
+increases (near the vertical lines in Fig. 10), indicating that
+there are more energetic electrons in the central plasma sheet
+of Venus’s induced magnetotail. Note that the flux is strongly
+reduced when VEX is in the lobes, whenever | B,.| increases,
+indicating that the energetic electrons are a feature of the central plasma sheet.
+
+There are, however, clear differences between the flapping
+events as observed by BepiColombo and VEX. First of all,
+
+Ann. Geophys., 39, 811-831, 2021
+820
+Bowshock
+is
+U2 10
+Oo —
+° 9
+5 &
+“ - ;
+fe 10
+s vu
+Oo 5 rou
+= ©
+Liew ibs Lik ke I
+Tawi jig
+15
+10k
+(a Ae
+0 i Eo
+shan. ||! Bil |
+E on AINA
+Sa | MR YN
+@ “bd a ef)
+> 15
+a 8 Twill Loa
+Oo | (EVE
+= sFW ., Lt, game
+a ee
+15
+ee
+3 | Ad $a
+se eV Poe ve YY
+-—— —___ —_ recon
+oO 10°
+ne)
+8G
+5 “Bo
+s 210°
+=o
+[=
+= 90
+O41
+@ 10
+LU
+04:00 04:30 05:00 05:30 06:00
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+(a
+
+—
+
+—
+oO
+_
+
+Counts (sum)
+
+Not Calibrated
+
+we Nye WO
+ee
+ey I 0x
+eww |
+
+| rc
+|i.
+
+:
+4
+1
+
+‘
+4
+
+;
+:
+
+;
+
+i ee ee eee eee
+
+i$ i dL
+
+ie
+
+-_
+=
+°o
+
+©
+er)
+
+0.6
+
+Normalized count
+
+06:30 07:00
+
+07:30
+
+08:00
+
+Universal Time
+
+Figure 9. Four hours of the Venus 1 flyby as seen by different instruments. Panel (a) shows the PICAM data, where the ~ | keV protons
+
+are clearly visible before and behind the bow shock. The data gap near
+
+~ 04:40 UT is caused by a mode change. Panels (b)—(e) show the
+
+MAG data, B-field magnitude, and components. Panel (f) shows the linearly normalized MEA omnidirectional electron count time—energy
+spectrogram. The coloured lines (purple, green, cyan, and red) and the shaded areas (transparent grey, transparent blue) show the different
+
+intervals as defined in the text.
+
+the flapping amplitude is about twice as large for VEX. Secondly, in the blue boxes in Fig. 9, where we see the splitting
+of the electron populations, there are no B, =OnT crossings, so BepiColombo remains in one lobe of the induced
+magnetotail. Later, in the red box, BepiColombo does cross
+B, = OnT multiple times.
+
+Comparing the electron energy distribution for MEA1 and
+ELS for the blue boxes in Figs. 9 and 10, one can see that for
+ELS there is no splitting of the electron population into two
+energy bands. Also, ELS does not show a drop in flux at the
+B, = OnT crossing, as is observed in the MEA1 data in the
+red box.
+
+Naturally, these differences may well be caused by the difference in location of the spacecraft with VEX near X ©
+—1.5 Ry and BepiColombo near X ~ —15 Ry as well as the
+different spacecraft speeds and instrument cadences.
+
+Ann. Geophys., 39, 811-831, 2021
+
+Dimmock et al. (2018) studied the interaction of an ICME
+with the Venusian-induced magnetosphere, both with numerical simulations and VEX observations. They showed that the
+magnetic environment around Venus can be strongly altered,
+albeit mainly on the dayside, by bringing the bow shock more
+planet-ward, increasing the field strength at the magnetic barrier up to a value of ~ 270nT and magnetizing the ionosphere. The field line draping pattern was similar to “regular”
+conditions, although the simulation did not match the nightside draping pattern very well. The VEX data showed that
+there were large amplitude oscillations in front of and behind the bow shock, which are assumed to be whistler waves.
+Magnetotail dynamics are, unfortunately, not discussed.
+
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+(a) Magnetotail Flapping Event Observed By VEX
+
+IMA
+Proton Energy (eV)
+
+30
+
+(nT)
+
+B
+
+10
+
+(d) °
+
+ELS
+Electron Energy (eV)
+3
+ine)
+
+101
+
+01:56 01:58 02:00 02:02
+
+UT
+
+02:04 02:06 02:08 02:10
+
+821
+
+Log(Diff. Flux)
+#/cm? s sr eV
+
+B (nT)
+
+-20
+
+Log(Diff. Flux)
+#/cm? s sr eV
+
+24 Nov 2007
+
+Figure 10. Magnetotail flapping event at Venus in the near tail near ~ (—1.5, 0.1, 0.5) observed by Venus Express on 24 November 2007 (see
+also Rong et al., 2015). Panel (a) shows the proton differential flux time—energy spectrogram. Panel (b) shows the three components of the
+magnetic field. B, is in a thick blue line showing how it oscillates over the spacecraft moving VEX from one lobe to the other. Panel (c) shows
+By with clear dips when B, = OnT. Panel (d) shows the electron differential flux time—energy spectrogram. The white/black vertical dotted
+lines show the B, = OnT crossings, where magenta lines show times when B, approaches but does not reach 0 nT.
+
+4.3 Mariner 10, Galileo, and Pioneer Venus
+
+As Mariner 10 was on its way to Mercury, it passed through
+Venus’s magnetotail (wake) on 5 February 1974 in a similar orbit in the X—R plane as BepiColombo but at positive Z
+(see Lepping and Behannon, 1978). The wake magnetic field
+data were studied starting at a distance of ~ 100 Ry from
+the planet. No evidence was found for a bow shock crossing entering the far tail. No typical magnetotail structure (as
+
+https://doi.org/10.5194/angeo-39-811-2021
+
+compared to Earth) was observed, but the authors found that,
+when the magnetic field direction and the spacecraft velocity vector aligned, the direction was not predominantly along
+Xvso; as one would expect for a magnetotail along the orbit
+of Mariner 10.
+
+The data were categorized into three bins: quiet, disturbed,
+and mixed. The longitudinal (cylindrical) component of the
+field was observed to rotate clockwise, when the spacecraft
+crossed from a quiet to a disturbed region. Lepping and
+
+Ann. Geophys., 39, 811-831, 2021
+822
+
+Behannon (1978) interpreted this as Mariner 10 entering
+into the planetary magnetotail, however with a significant Y
+component for most crossings. The IMF, after Mariner 10
+crossed the bow shock, exiting the induced magnetosphere,
+was F = 20nT (in the paper denoted as 20y), @ © 360°, and
+0 ~ 0° (Ness et al., 1974). This means a mostly radial magnetic field. These multiple crossings do not seem to happen
+for BepiColombo. During the Solar Orbiter flyby such crossings were observed (Volwerk et al., 2021).
+
+The Galileo spacecraft used a Venus gravitational assist on
+its way to Jupiter. During this Venus flyby, the orbit skimmed
+the bow shock. Kivelson et al. (1991) used the magnetometer
+data to investigate the cross section of the bow shock. They
+found that it seemed to be smaller when its direction was
+aligned with the IMF when compared to when its direction
+was perpendicular to the IMF.
+
+Using Pioneer Venus data, Slavin et al. (1989) studied Venus’s near-tail region, at |X|<S12 Ry. Twelve passes
+through the central induced magnetotail (in the period 198 1-—
+1983) along Pioneer Venus’s polar orbit were studied, and
+it was found that the spacecraft traversed the central current
+sheet multiple times during each crossing. The quasi-period
+of the crossings is <10 min (as estimated from their figures).
+The spacecraft moved between clearly defined oppositely directed fields. This behaviour could be considered magnetotail
+flapping; however, this was not yet a named phenomenon.
+
+The main difference between the BepiColombo passage
+through Venus’s tail and the orbits studied by Slavin et al.
+(1989) is the IMF direction. For BepiColombo the IMF is
+mainly in the Z direction, whereas for the Pioneer Venus
+events the IMF is mainly in the Y direction. This means that
+the morphology of the induced magnetotail is rather different. For the Pioneer Venus orbits the central current sheet
+was almost in the X—Z plane, whereas for BepiColombo the
+central current sheet is almost in the X—Y plane.
+
+5 Solar wind interaction: context for Venus’s
+magnetotail observations
+
+5.1 BepiColombo solar wind conditions
+
+Many of the features seen in the magnetometer data are in
+good agreement with what one would expect for draped magnetic field lines from the solar wind inducing a magnetosphere around Venus. However, it is also clear that the solar
+wind was disturbed based on the significant activity of the
+tail such as the multiple neutral sheet crossings and flapping
+of the tail.
+
+In a pre-flyby study, McKenna-Lawlor et al. (2018) discussed the space weather near Venus during the BepiColombo flybys, where one could expect interactions with
+e.g. ICMEs and corotating interaction regions (CIRs). However, during the actual BepiColombo flyby | our interpretation of the solar wind interaction with the induced mag
+Ann. Geophys., 39, 811-831, 2021
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+netosphere is hampered by the lack of an upstream solar
+wind monitor. Nevertheless, thanks to pre- and post-flyby
+observations made by the MPO-MAG, BERM, and MEA1
+instruments, together with observations made by STEREOA, SOHO, and a solar wind numerical simulation, the space
+weather context of the encounter is reconstructed.
+
+Figure 11 shows some STEREO and SOHO observations
+of a potential CME that may have hit Venus during the BepiColombo flyby. The Space Weather Database Of Notifications, Knowledge, Information (DONKI) catalogue reports a
+single CME event for the period 7-13 October, which corresponds to the time needed for a CME to reach Venus by the
+time of the BepiColombo flyby. The DONKI catalogue indicates that this event was observed by SOHO-LASCO c2, c3
+and STEREO-A SECCHI instruments with a starting time on
+10 October 2020 04:24 UT and a speed of 270.0 km s~!. This
+specific DONKI run also lists a direction right on the western limb (with respect to Earth). Moreover, no clear source
+eruption (filaments or prominence activity) in the Solar Dynamic Observatory (SDO) imagery was observed. This event
+is clearly seen by the SOHO-LASCO instrument in panels c
+and d, where plasma outflows along a western limb streamer
+seen from LI go into Venus’s direction (Venus was near in
+quadrature with respect to Earth; see panel a).
+
+However, the Heliospheric Cataloguing, Analysis and
+Techniques Service (HELCATS), which provides the official interplanetary CME catalogue of the STEREO HI instruments, reveals a rather different scenario. HELCATS (Harrison et al., 2018) catalogues the derivation of CME kinematic
+properties (direction, speed, and launch time) from geometric
+fitting techniques applied to the HI observations, described in
+Davies et al. (2013). The technique applies a self-similar expansion (SSE) approach that assumes a circular CME topology, expanding within two fixed-position angles. The validity of this assumption depends on the nature of the particular event under study, and the derived parameters should
+be regarded as best estimates in the spirit of that assumption. For the event under study (Fig. 10), the SSE fit suggests
+that the HI-observed CME was a weak CME ejected by the
+Sun on 9 October at 23:05 UT with a speed of 283kms7!.
+The first observation of the CME by the HI1 camera was on
+10 October at 10:09 UT, and the fit indicates that it was near
+Earth-directed. No clear arrival was detected in the vicinity
+of Earth, though the solar wind parameters do show some
+signs of disturbance, though, of course, the CME might have
+simply passed near to Earth. However, overall, we conclude
+that there is some evidence that the near-simultaneous weak
+CMEs observed by both STEREO-A and SOHO were not the
+same; that is, we witness a near-Earth-directed CME from the
+STEREO instrumentation and coincident CME activity associated with a streamer with the SOHO data that is directed
+towards Venus. The SOHO-observed CME could well have
+hit BepiColombo at the time of its first flyby to Venus.
+
+In order to estimate the arrival time of this CME at Venus,
+Fig. 12 shows the main outputs of a SUSANOO simulation.
+
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+(a)
+
+phioriar tipi |
+
+Earth
+
+STEREO-CME
+
+Xree (AU)
+
+SOHO-LASCO c2
+
+2020-10-10 00:12 UT
+2020/10/10 00:12
+
+a
+
+823
+
+(b)
+
+STEREO/HI-1A
+2020-10-10 22:09 UT
+
+
+2
+_ a «
+- os
+
+SOHO-LASCO c2
+
+2020-10-10 07:36 UT
+2020/10/10 07:36
+
+Figure 11. STEREO and SOHO observations. (a) Planet and STEREO A (A) positions and elongation range of the field of view in the plane
+of the sky of STEREO-A/HI1 (this is a 20° angle in the two dimensions). The blue and green arrows indicate the direction of the nose of the
+CMEs seen by SOHO and STEREO nearly simultaneously. (b) STEREO-A/HI1 image in a running difference format (where, in each case,
+the previous image is subtracted from the current image to highlight changes). The most northern and southern position angles of the CME
+spans are plotted as black lines, and Venus is the bright dot towards the centre. (c, d) SOHO-LASCO c2 images before and during the CME
+transit, respectively. The white arrow indicates the plasma motion off the western limb, which is more evident at the movie created at the
+SOHO Movie Theater (https://soho.nascom.nasa.gov/data/Theater/, last access: 15 September 2021).
+
+Panels a—c show three stills of the solar wind velocity in the
+ecliptic plane. For completeness, the simulation has also included the following CME observed by SOHO-LASCO that
+was ejected on 13 October 2020 at 21:12 UT, with a close
+direction to Venus as well. Panels d—e show the same simulation in a 3D view. Finally, panel f shows the IMF (magnitude), the density, and the velocity of the solar wind temporal variation. The arrival and ending times of the CME
+transits at BepiColombo are indicated with vertical dashed
+lines in panel f. According to the simulation, the CME arrived at BepiColombo and Venus on 13 October 2020 at
+about noon (UT time). Since the velocity was relatively low,
+it needed a couple of days to transit Venus. The simulation
+predicts that the CME left Venus on 15 October 2020 at about
+15:00 UT. Therefore, the BepiColombo flyby most probably
+occurred while the CME was still transiting Venus. The sec
+https://doi.org/10.5194/angeo-39-811-2021
+
+ond CME most probably also hit Venus after the flyby arriving on 17 October 2020 as predicted by the simulation.
+Figure 13 shows the actual solar wind observations made
+by BepiColombo from 12 to 17 October. In particular, it
+shows the IMF measured by the MPO-MAG in panel (a),
+the proxy for galactic cosmic ray flux measured by BERM in
+panel (b), and the solar wind energetic electron spectra from
+MEAT in panel (c). The reason for the large data gaps in
+panel (c) is that MEA1 only operated for a few hours around
+the closest approach. This figure shows that the solar wind
+was indeed clearly disturbed. The overall magnitude of the
+solar wind is ~ 15 nT for most of the period, similarly to the
+induced magnetic field values observed at Venus (yellowish
+box). The CME arrived at BepiColombo on 13 October at
+04:20 UT (vertical purple dashed line), where a moderate rise
+in the IMF magnitude from 10 to 15 nT was observed simul
+Ann. Geophys., 39, 811-831, 2021
+$24 M. Volwerk et al.: BepiColombo Venus 1 flyby
+(a) Vr [km/s] 2020.10.13 12:04UT (b) Vr [km/s] 2020.10.15 12:00UT (c) Vr [km/s] 2020.10.17 12:02UT
+1.5 =e ay 15 1.5
+V [km/s]
+450
+1.0 1.0 1.0
+S =
+400
+0.5 0.5 0.5
+= z =
+: 7 350
+0.0 ~ 0.0 0.0
+
+—1.0
+—0.5 0.0 0.5
+
+—1.0
+
+(d)
+
+2020/10/17
+
+2020/10/13_12:0300
+
+500
+—-0.5
+
+-1.0 2
+-0.5 0.0 0.5 1.0 1.5 2.0
+xX [AU]
+
+SUSANOO solar wind at BepiColombo position
+i
+
+wo
+NR
+oO
+
+wo
+—
+Oo
+rr
+
+12 13 14 15 16 #17 #=18 #19 = «20
+Days of October 2020 [UT]
+
+Oo
+©
+—
+Oo
+—
+=
+
+Figure 12. Stills from the SUSANOO simulation performed for the period 9-18 October 2020. (a—c) 2D plots of the solar wind velocity
+at the ecliptic plane on 13 October 2020 at 12:04 UT (CME arrival at BepiColombo), 15 October 2020 at 12:00 UT (trailing edge of the
+CME leaves BepiColombo), and 17 October 2020 at 12:02 UT (a second CME arrival at BepiColombo). The Sun is the white largest circle,
+and the different planets and satellites are also labelled and the black arrows show the direction of the solar wind flow. The yellowish blobs
+toward Venus represent the CMEs of this study. The background colours represent the speed, as indicated in the colour scale. (d—e) Same
+as before but in 3D. The green plane is the ecliptic and the white-transparent surface is the heliospheric current sheet. The yellowish blobs
+toward Venus are the CMEs of this study. The colour bar velocity is only applicable to the CME. (f) Time series of IMF (magnitude in black),
+density (in green), and velocity (in light blue) at the BepiColombo location obtained from the simulation. The vertical dashed purple and
+
+green lines indicate the arrival and end time of the CMEs at BepiColombo.
+
+taneously with a rotation in the three components of the field,
+mainly seen in B,. Moreover, starting a few hours before, a
+significant reduction in the GCR flux was observed (purple
+dashed line in panel b), and the GCR flux remained low for
+almost 2d. These kinds of reductions followed by a gradual
+recovery could be associated with Forbush decreases, which
+are produced by the magnetic flux rope inside the CME that
+scatters away the incoming GCR (Witasse et al., 2017). In
+this sense, Forbush decreases are good indicators of CME arrivals. The IMF magnitude was maintained at ~ 15 nT and
+the level of GCR was kept relatively constant until a few
+hours before the encounter with Venus. MEA1 observations
+also agree with the idea of a CME transiting as the variability observed in the solar wind energetic electron observations matches very well with the magnetic variability, especially when the B, and B, components are negative. This
+corroborates the idea that the solar wind was disturbed just
+
+Ann. Geophys., 39, 811-831, 2021
+
+a few hours before BepiColombo’s Venus encounter. These
+small and slow CMEs are transients often seen during low
+solar activity phases of the solar cycle and are often called
+stealth CMEs because, as in this case, no clear source is identified. BepiColombo has already encountered several transient structures of this type, such as that presented in Heyner
+et al. (2021). Although stealth CMEs typically are pushed
+by the solar wind, they have the capacity to interact with the
+planet’s conductive surface and ionosphere plasma: this is especially the case for unmagnetized planets, as demonstrated
+in this study at Venus and also with similar events at Mars by
+Sanchez-Cano et al. (2017) and Kajdic¢ et al. (2021). In addition, we also note that during the closest approach (starting
+and ending right before and after Venus inbound and outbound, respectively), BERM detected a moderate reduction
+of 12% in the GCR flux proxy. The reason for this reduction is unknown and could be a consequence of a solid-angle
+
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+(a) 20, , ,
+—B, BB, __B,,
+
+att Mea
+agar iu oh nh
+
+MN | bil? A
+
+10}
+
+= ; ‘sf iy
+£,
+
+Le \
+
+=
+
+-10 |
+
+|
+
+-20 | ) |
+12-Oct 00:00  12-Oct 12:00 13-Oct 00:00 + 13-Oct 12:00 14-Oct 00:00
+
+z
+
+_
+ul
+
+Proxy for GCR
+[arbitrary units]
+
+=
+a
+
+0 L 1 4 A 1
+12-Oct 00:00 12-Oct 12:00 13-Oct 00:00 13-Oct 12:00 14-Oct 00:00
+
+12-Oct 00:00 12-Oct 12:00 13-Oct 00:00 13-Oct 12:00 14-Oct 00:00
+
+14-Oct 12:00
+
+HL | | | | | Wt AL, i) | l |
+Amd i a hal La alii | AH Aid
+
+14-Oct 12:00
+
+14-Oct 12:00
+
+825
+
+|
+" ts ta
+
+pit
+
+15-Oct 00:00 15-Oct 12:00 16-Oct 00:00 16-Oct 12:00 17-Oct 00:00
+
+A i ill "
+
+—— BERM normalised data
+
+. sesanes bie average ——— Solid Angle
+
+15-Oct 00:00 15-Oct 12:00 16-Oct 00:00 16 Oct 12:00 17-Oct 00:00
+
+Normalized counts
+
+17-Oct 00:00
+
+15-Oct 00:00 15-Oct 12:00 16-Oct 00:00 16-Oct 12:00
+
+Figure 13. Solar wind observations. (a) Magnetic field observations from MPO-MAG in VSO, (b) proxy for galactic cosmic ray (GCR)
+observations from BERM and part of the BepiColombo solid angle not shadowed by Venus, and (c) energy electron spectrograms from
+MEA|1. The arrival time of the coronal mass ejection (CME) is marked with a vertical purple dashed line and the Venus transit (same period
+
+of the observations of this paper) is marked with a yellowish box.
+
+effect from Venus, similarly to those observed at Mars at an
+orbiter periapsis (e.g. Semkova et al., 2018). For this reason,
+panel (b) shows the part of BepiColombo’s solid angle not
+shadowed by Venus in orange, where | stands for null shadowed (null solid angle). The solid angle has been calculated
+as w = 27(1 —cos@), where @ is the linear angle between
+BepiColombo’s distance to the centre of the planet and BepiColombo’s distance to the limb of the planet, which in turn is
+calculated as the arcsine of the ratio between Venus’s radius
+and BepiColombo’s distance to the centre of the planet. The
+part of space not shadowed by the solid angle (orange line) is
+calculated as 1 — (w/4zr). We note that the BERM flux-level
+reduction that can be attributed to the solid-angle effect is
+much shorter than the actual nearly constant reduction found.
+Nevertheless, other effects more difficult to discern may also
+be playing a role, such as shadowing from one’s own spacecraft due to attitude changes. Interestingly, Rosetta also saw
+a similar reduction in the GCR flux of 8 % in the vicinity of
+the comet 67P/Churyumov—Gerasimenko which could not be
+attributed to any known mechanisms (Honig et al., 2019).
+Right after the flyby, there was still significant solar wind
+variability and, according to the simulation in Fig. 12, these
+
+https://doi.org/10.5194/angeo-39-811-2021
+
+perturbations are most probably caused by the trailing edge
+of the CME. This means that during the flyby to Venus, the
+system was most probably immersed in the CME. The MEA1
+observations also corroborate this finding, showing a large
+perturbation in the solar wind electrons on 15 October at
+22:00 UT at the same time that a large variability is observed
+in the MPO-MAG data with B, and B, IMF rotations.
+
+5.2 Venus Express solar wind conditions
+
+Interestingly, Kajdi¢é et al. (2021) noticed that in November 2007 there was a good alignment of Mercury, Venus,
+Earth, and Mars. In the period of 20 to 27 November, during
+the presented VEX event, a CME and two stream interaction regions (SIRs) were observed by ACE, STEREO A and
+B, and Mars Express. With the aforementioned alignment of
+the planets it stands to reason that Venus’s induced magnetosphere was also impacted by these structures.
+
+This means that the solar wind conditions during the VEX
+event, shown in Fig. 10, are very comparable with those during the BepiColombo flyby. Even though VEX traversed the
+tail much closer to the planet, the disturbance of the magneto
+Ann. Geophys., 39, 811-831, 2021
+$26 M. Volwerk et al.: BepiColombo Venus 1 flyby
+Venus 1 flyby
+4 ———
+>
+Oo”
+a 3h _
+= 03:30
+“9 _ = i: _ 10:27
+a> 2 42:57 pi pp 700
++ aaa 06:0 06:30
+B 1p 7
+N> |
+a Bepi SolO BS lonopause UMB
+0 | Pe | | | l | | |
+4 2 0 -2 ~4 6 -8 -10 12 14 -16
+Xvso (Ry)
+
+X.. (R,,)
+
+V
+
+VSO (
+
+Figure 14. A comparison of the first and second Venus flybys by BepiColombo (green) and Solar Orbiter (red). The Venus 1 flyby was on
+
+15 October 2020 for BepiColombo and on 27 December for Solar
+Orbiter and on 10 August for BepiColombo.
+
+sphere through an outside source is clear through the flapping
+motion, driven from outside in (Rong et al., 2015).
+
+6 Conclusions
+
+The first Venus encounter by BepiColombo has shown a new
+view of the Venusian-induced magnetosphere up to about 48
+Venus radii downstream. Until this flyby only one spacecraft
+had ever ventured this far down the magnetotail, Mariner 10
+(Lepping and Behannon, 1978). A few months later, in December 2020, Solar Orbiter also had its Venus flyby over a
+similar distance along the tail investigating its dynamics (see
+e.g. Fig. 14 and Volwerk et al., 2021).
+
+The asymmetric draping of the magnetic field, just behind
+the bow shock in the magnetosheath, as observed by Delva
+et al. (2017) and modelled by Jarvinen et al. (2013), was confirmed by this flyby. The field pointed in the direction perpendicular to the Venus—Sun line before the spacecraft entered
+the magnetotail proper.
+
+The magnetotail was very active, with strong oscillations
+of the magnetic field with AB/B ~ 0.6, with a period of
+~ 7 min. This oscillation or flapping of the magnetotail was
+slower than what was typically measured by VEX in 2007,
+where Rong et al. (2015) determined a period of ~ 3 min.
+However, observations in the Earth’s magnetotail show that
+the magnetotail flapping period varies from ~ 3 min (Sergeev
+et al., 2003) to ~ 20 min (Zhang et al., 2005).
+
+Ann. Geophys., 39, 811-831, 2021
+
+Orbiter. The Venus 2 flybys will take place on 9 August 2021 for Solar
+
+During the strong oscillations of the magnetic field
+SERENA-PICAM measured increased ion fluxes when the
+total field was at a minimum. At the same time MEA showed
+that there were two populations of electrons, one below
+10 eV and one between 32 and 100 eV. The latter “hot” population was also observed by Venus Express much closer to
+the planet.
+
+Despite the low solar activity conditions, the flyby was affected by the impact of a stealth coronal mass ejection that
+was travelling at approximately the same speed as the background solar wind and impacted Venus and BepiColombo
+about 2 d before the closest approach on 13 October. Due to
+the low speed of this CME, in situ magnetic and particle observations together with a solar wind simulation indicate that
+the trailing part of the CME was still affecting Venus at the
+time of BepiColombo’s closest approach and tail transit. A
+second CME may have hit both Venus and BepiColombo on
+17 October, in principle, not affecting the flyby. Therefore,
+the highly dynamic tail observed by BepiColombo may be
+the consequence of space weather activity.
+
+On 10 August 2021, the second Venus flyby will take
+place, where BepiColombo will approach the planet from
+the tail side and pass closely by the planet in the dayside
+magnetosphere, as shown in Fig. 14 bottom panel. One day
+earlier, on 9 August, Solar Orbiter will also have its second
+Venus flyby in a more similar orbit than the first flyby. This
+means that both spacecraft can act as solar wind monitors
+
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+for the other mission during these flybys. This will be an
+unprecedented occasion to obtain two-point global measurements around Venus.
+
+Data availability. The BepiColombo MPO-MAG, PICAM, MEA,
+and BERM data as well as the Venus Express MAG and
+ASPERA-4 data are available through ESA’s Planetary Science Archive (PSA, https://archives.esac.esa.int/psa/#!Table View/
+VenusExpress=mission, PSA, 2021). The STEREO data are available through the HELCATS catalogue (https://www.helcats-fp7.eu/
+catalogues/event_page.html, HELCATS, 2021). The SOHO data
+are available through NASA’s SOHO website (https://soho.nascom.
+nasa.gov/data/Theater/, SOHO, 2021).
+
+Author contributions. MV, BSC, and DH instigated the MPOMAG data investigation. JM and IR calibrated the MPO-MAG data.
+SA and NA provided the MEA data and interpretation. AV, HJ,
+and GL provided the PICAM data and interpretation. YM, IK,
+DS, and YS provided the SUSANOO simulations. RH provided
+the STEREO data and interpretation. FP, DS, CSW, RN, and WB
+helped with interpreting the results. SRM and YF provided the
+Venus Express ASPERA-4 data.
+
+Competing interests. Some authors are members of the editorial
+board of Annales Geophysicae. The peer-review process was guided
+by an independent editor, and the authors have also no other competing interests to declare.
+
+Disclaimer. Publisher’s note: Copernicus Publications remains
+neutral with regard to jurisdictional claims in published maps and
+institutional affiliations.
+
+Acknowledgements. Based on observations obtained with BepiColombo, a joint ESA-JAXA science mission with instruments
+and contributions was directly funded by ESA member states and
+JAXA. MEA data analysis was performed with the CL software
+developed by Emmanuel Penou at IRAP and the AMDA science
+analysis system provided by the Centre de Données de la Physique
+des Plasmas (CDPP) supported by CNRS, CNES, Observatoire de
+Paris, and Université Paul Sabatier, Toulouse.
+
+Financial support. Beatriz Sanchez-Cano was supported by UKSTFC grants ST/S000429/1 and ST/V000209/1. Cyril Simon Wedlund is supported by the Austrian Science Fund (FWF) under
+project P32035-N36. Daniel Heyner was supported by the German Ministerium fiir Wirtschaft und Energie and the German Zentrum fiir Luft- und Raumfahrt under contract 50 QW 1501. Nicolas André and Sae Aizawa were supported by CNES for the BepiColombo mission. Daikou Shiota and David Fischer’s work is financially supported by the Austrian Research Promotion Agency
+(FFG) ASAP MERMAG-4 under contract 865967. Sebastian Ro
+https://doi.org/10.5194/angeo-39-811-2021
+
+827
+
+jas Mata was funded by the Swedish National Space Agency under
+contracts 79/19 and 145/19.
+
+Review statement. This paper was edited by Elias Roussos and reviewed by two anonymous referees.
+
+References
+
+Anselmi, A. and Scoon, G. E. N.: BepiColombo, ESA’s Mercury Cornerstone mission, Planet. Space Sci., 49, 1409-1420,
+https://doi.org/10.1016/S0032-0633(01)00082-4, 2001.
+
+Barabash, S., Sauvaud, J.-A., Gunell, H., Andersson, H., Grigoriev, A., Brinkfeldt, K., Holmstr6m, M., Lundin, R., Yamauchi,
+M., Asamura, K., Baumjohann, W., Zhang, T., Coates, A., Linder, D., Kataria, D., Curtis, C., Hsieh, K., Sandel, B., Fedorov, A., Mazelle, C., Thocaven, J.-J., Grande, M., Kosk1nen, H. E., Kallio, E., Sales, T., Rithela, P., Kozyra, J., Krupp,
+N., Woch, J., Luhmann, J., McKenna-Lawlor, S., Orsini, S.,
+Cerulli-Irelli, R., Mura, M., Milillo, M., Maggi, M., Roelof, E.,
+Brandt, P., Russell, C., Szego, K., Winningham, J., Frahm, R..,
+Scherrer, J., Sharber, J., Wurz, P., and Bochsler, P.: The analyser of space plasmas and energetic atoms (ASPERA-4) for
+the Venus Express mission, Planet. Space Sci., 55, 1772-1792,
+https://doi.org/10.1016/j.pss.2007.01.014, 2007.
+
+Benkhoff, J., Casteren, J.. Hayakawa, H., Fujimoto, M., Laakso,
+H., Novara, M., Ferri, P., Middleton, H. R., and Ziethe, R.:
+BepiColombo comprehensive exploration of Mercury: Mission
+overview and science goals, Planet. Space Sci., 58, 2-20,
+https://doi.org/10.1016/j.pss.2009.09.020, 2010.
+
+Bertucci, C., Duru, F., Edberg, N., Fraenz, M., Martinecz, C.,
+Szego, K., and Vaisberg, O.: The induced magnetospheres
+of Mars, Venus, and Titan, Space Sci. Rev., 162, 113-171,
+https://doi.org/10.1007/s11214-011-9845-1, 2011.
+
+Bowen, T. A., Bale, S. D., Bandyopadhyay, R., Bonnell, J., Case,
+A., Chasapis, A., Chen, C. H. K., Curry, S., Dudok de Wit,
+T., Goetz, K., Goodrich, K., Gruesbeck, J., Halekas, J., Harvey, P. R., Howes, G. G., Kasper, J., Korreck, K., Larson,
+D., Livi, R., MacDowall, R. J., Malaspina, D. M., Mallet, A.,
+McManus, M., Page, B., Pulupa, M., Raouafi, N., Stevens,
+M., and Whittlesey, P.: Kinetic-scale turbulence in the Venusian magnetosheath, Geophys. Res. Lett., 48, e2020GL090783,
+https://doi.org/10.1029/2020GL090783, 2021.
+
+Browett, S. D., Fear, R. C., Grocott, A., and Milan, S. E::
+Timescales for the penetration of IMF By into the
+Earth’s magnetotail, J. Geophys. Res., 122, 579-593,
+https://doi.org/10.1002/2016JA023 198, 2017.
+
+Brueckner, G., Howard, R., Koomen, M., Korendyke, C. M.,
+Michels, D. J., Moses, J. D., Socker, D. G., Dere, K. P., Lamy,
+P. L., Llebaria, A., Bout, M. V., Simnett, R. S. G. M., Bedford,
+D. K., and Eyles, C. J.: The large angle spectroscopic coronagraph (lasco), Sol. Phys., 162, 357-402, 1995.
+
+Davey, E. A., Lester, M., Milan, S. E., and Fear, R. C.::
+Storm and _ substorm’ effects on magnetotail —current sheet motion, J. Geophys. Res., 117, A0Q2202,
+https://doi.org/10.1029/2011JA017112, 2012.
+
+Delva, M., Zhang, T. L., Volwerk, M., V6rds, Z., and Pope, S. A.:
+Proton cyclotron waves in the solar wind at Venus, Geophys.
+
+Ann. Geophys., 39, 811-831, 2021
+828
+
+Res. Lett., 113, EOOBO06, https://doi.org/10.1029/2008JE003148,
+2008.
+
+Delva, M., Bertucci, C., Volwerk, M., Lundin, R., Mazelle,
+C., and Romanelli, N.: Upstream proton cyclotron waves at
+Venus near solar maximum, J. Geophys. Res., 120, 344-354,
+https://doi.org/10.1002/2014JA020318, 2015.
+
+Delva, M., Volwerk, M., Jarvinen, R., and Bertucci, C-::
+Asymmetries in the Magnetosheath field draping on
+Venus’ nightside, J. Geophys. Res., 122, 10396-10407,
+https://doi.org/10.1002/2017JA024604, 2017.
+
+Dimmock, A. P., Alho, M., Kallio, E., Pope, S. A., Zhang, T. L.,
+Pulkkinen, E. K. T. I., Futaana, Y., and Coates, A. J.: The response of the Venusian plasma environment to the passage of
+an ICME: Hybrid simulation results and Venus Express observations, J. Geophys. Res., 123, 3580-3601, 2018.
+
+Dubinin, E., Fraenz, M., Fedorov, A., Lundin, R., Edberg,
+N., Duru, F., and Vaisberg, O.: Ion energization and escape on Mars and Venus, Space Sci. Rev., 162, 173-211,
+https://do1.org/10.1007/s11214-011-9831-7, 2011.
+
+Eroshenko, E. G.: Unipolar induction effects in the magnetic tail of
+Venus, Cosmic Res., 17, 93-105, 1979.
+
+Saito, Y., Delcourt, D., Hirahara, M., et al.: Pre-flight calibration
+and near-earth commissioning results of mercury plasma particle
+experiment (mppe) onboard mmo (mio), Space Sci. Rev., submitted, 2021.
+
+Eyles, C., Harrison, R., and Davis, C.: The heliospheric imagers
+onboard the stereo mission, Sol. Phys., 254, 387-445, 2009.
+
+Fairfield, D. H.: On the average configuraton of the geomagnetic tail, J. Geophys. Res., 84, 1950-1958,
+https://doi.org/10.1029/JA0841A05p01950, 1979.
+
+Fox, N. J., Velli, M. C., Bale, S. D., Decker, R., Driesman,
+A., Howard, R. A., Kasper, J. C., Kinnison, J., Kusterer,
+M., Lario, D., Lockwood, M. K., McComas, D. J., Raouafi,
+N. E., and Szabo, Z.: The Solar Probe Plus mission: Humanity’s first visit to our star, Space Sci. Rev., 204, 7-48,
+https://doi.org/10.1007/s11214-015-0211-6, 2016.
+
+Futaana, Y., Stenberg Wieser, G., Barabash, S., and Luhmann, J. G.: Solar wind interaction and impact on _ the
+Venus Atmosphere, Space Sci. Rev., 212, 1543-1509,
+https://doi.org/10.1007/s11214-017-0362-8, 2017.
+
+Gary, S. P: The Mirror and Ion Cyclotron Anisotropy
+Instabilities, J. Geophys. Res. 97, 8519-8529,
+https://doi.org/10.1029/92JA00299, 1992.
+
+Glassmeier, K. H., Auster, H. U., Heyner, D., Okrafka, K., Carr,
+C., Berghofer, G., Anderson, B. J., Balogh, A., Baumjohann,
+W., Cargill, P., Christensen, U., Delva, M., Dougherty, M., Fornacon, K. H., Horbury, T. S., Lucek, E. A., Magnes, W., Mandea, M., Matsuoka, A., Matsushima, M., Motschmann, U., Nakamura, R., Narita, Y., O’Brien, H., Richter, I., Schwingenschuh,
+K., Shibuya, H., Slavin, J. A., Sotin, C., Stoll, B., Tsunakawa, H..,
+Vennerstrom, S., Vogt, J., and Zhang, T.L.: The fluxgate magnetometer of the BepiColombo Mercury Planetary Orbiter, Planet.
+Space Sci., 58, 287-299, 2010.
+
+Goodrich, K. A., Bonnell, J. W., Curryl, S., Livi, R., Whittlesey 1,
+P., Mozer, F., Malaspina3, D., Halekas4, J., McManus, M., Bale,
+S., Bowen, T., Case, A., Dudok de Wit, T., Goetz, K., Harvey, P.,
+Kasper, J., Larson, D., MacDowall, R., Pulupa, M., and Stevens,
+M.: Evidence of subproton-scale magnetic holes in the Venu
+Ann. Geophys., 39, 811-831, 2021
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+sian magnetosheath, Geophys. Res. Lett., 48, e2020GL090329,
+https://doi.org/10.1002/essoar.10503890.1, 2021.
+
+Harrison, R. A., Davies, J. A., Barnes, D., Byrne, J. P., Perry,
+C. H., Bothmer, V., Eastwood, J. P., Gallagher, P. T., Kilpua, E.
+K. J., Mostl, C., and. A. P. Rouillard, A. P R., and Odstréil,
+D.: CMEs in the heliosphere: I. A statistical analysis of the
+observational properties of CMEs detected in the heliosphere
+from 2007 to 2017 by STEREO/HI-1, Sol. Phys., 293, 77,
+https://doi.org/10.1007/s 11207-018-1297-2, 2018.
+
+HELCATS: Heliospheric Cataloguing, Analysis and Techniques
+Service, solar storms event lists, HELCATS [data set], available at: https://www.helcats-fp7.eu/index.html, last access: 15
+September 2021.
+
+Heyner, D., Auster, H.-U., Fornacon, K.-H., Carr, C., Richter, L.,
+Mieth, J. Z. D., Kolhey, P., Exner, W., Motschmann, U., Baumjohann, W., Matsuoka, A., Magnes, W., Berhofer, G., Fischer, D.,
+Plaschke, KF, Nakamura, R., Narita, Y., Delva, M., Volwerk, M.,
+Balogh, A., Dougherty, M., Horbury, T., lanlais, B., Mandea,
+M., Masters, A., Oliveira, J. S., Sanchez-Cano, B., Slavin, J. A.,
+Vennerstrém, S., Vogt, J., Wicht, J., and Glassmeier, K.-H.: The
+BepiColombo Planetary Magnetometer MPO-MAG: What Can
+We Learn from the Hermean Magnetic Field?, Space Sci. Rev.,
+217, 52, https://doi.org/10.1007/s11214-021-00822-x, 2021.
+
+Honig, T., Witasse, O. G., Evans, H., Nieminen, P., Kuulkers, E.,
+Taylor, M. G. G. T., Heber, B., Guo, J., and Sanchez-Cano, B.:
+Multi-point galactic cosmic ray measurements between 1 and
+4.5 AU over a full solar cycle, Ann. Geophys., 37, 903-918,
+https://do1.org/10.5194/angeo-37-903-2019, 2019.
+
+Howard, R. A., Moses, J. D., Vourlidas, A., Newmark, J., Socker,
+D. G., Plunkett, S. P., Korendyke, C. M., Cook, J. W., Hurley,
+A., Davila, J. M., Thompson, W. T., St Cyr, O. C., Mentzell, E.,
+Mehalick, K., Lemen, J. R., Wuelser, J. P, Duncan, D. W., Tarbell, T. D., Wolfson, C. J., Moore, A., Harrison, R. A., Waltham,
+N. R., Lang, J., Davis, C. J., Eyles, C. J., Mapson-Menard, H.,
+Simnett, G. M., Halain, J. P., Defise, J. M., Mazy, E., Rochus,
+P., Mercier, R., Ravet, M. F, Delmotte, F, Auchere, F, Delaboudiniere, J. P., Bothmer, V., Deutsch, W., Wang, D., Rich,
+N., Cooper, S., Stephens, V., Maahs, G., Baugh, R., McMullin,
+D., and Carter, T.: Sun Earth Connection Coronal and Heliospheric Investigation (SECCHI), Space Sci. Rev., 136, 67-115,
+https://doi.org/10.1007/s11214-008-9341-4, 2008.
+
+Iwai, K., Shiota, D., Tokumaru, M., Fujiki, K., Den, M., and Kubo,
+Y.: Development of a coronal mass ejection arrival time forecasting system using interplanetary scintillation observations, Earth
+Planet. Space, 71, 39, https://doi.org/10.1186/s40623-019-10195, 2019.
+
+Jarvinen, R., Kallio, E., and Dyadechkin, S.: Hemispheric asymmetries of the Venus plasma environment, J. Geophys. Res., 118,
+4551-4563, https://doi.org/10.1002/jgra.50387, 2013.
+
+Kajdi¢, P., Sanchez-Cano, B., Neves-Ribeiro, L., Witasse, O.,
+Bernal, G. C., Rojas-Castillo, D., Nilsson, H., and Fedorov, A.:
+Interaction of Space Weather Phenomena With Mars Plasma Environment During Solar Minimum 23/24, J. Geophys. Res., 126,
+e2020JA028442, https://doi.org/10.1029/2020JA028442, 2021.
+
+Kivelson, M. G., Kennel, C. FR, McPherron, R. L., Southwood, D. J.,
+Walker, R. J., Hammond, C. M., Khurana, K. K., Strangeway,
+R. J., and Coleman, P. J.: Magnetic field studies of the solar
+wind interaction with Venus from the Galileo flyby, Science,
+
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+253, 1518-1522, https://doi.org/10.1126/science.253.5027.1518,
+1991.
+
+Lepping, R. P. and Behannon, K. W.: Mariner 10 magnetic field observations of the Venus wake, J. Geophys. Res., 83, 3709-3720,
+1978.
+
+Luhmann, J. G., Russell, C. T., and Elphic, R. C.: Spatial Distributions of Magnetic Field Fluctuations in the
+Dayside Magnetosheath, J. Geophys. Res., 91, 1711-1715,
+https://do1.org/10.1029/JA0911A02p01711, 1986.
+
+Malaspina, D. M., Goodrich, K., Livi, R., Halekas, J., McManus,
+M., Curry, S., Bale, S. D., Bonnell, J. W., Dudok de Wit,
+T., Goetz, K., Harvey, P. KF, MacDowall, R. J., Pulupa, M.,
+Case, A. W., Kasper, I., Korreck, K. E., Larson, D., Stevens,
+M. L., and Whittlesey, P.: Plasma double layers at the boundary between Venus and the Solar wind, Geophys. Res. Lett., 47,
+e2020GL090115, https://doi.org/10.1029/2020GL090115, 2020.
+
+Mangano, V., Dosa, M., Franz, M., Milillo, A., Lee, J. S. O. Y. J.,
+McKenna-Lawlor, S., Grassi, D., Heyner, D., Kozyrev, A. S.,
+Peron, R., Helbert, J., Besse, S., de la Fuente, S., Montagnon,
+E., Zender, J., Volwerk, M., Chaufray, J., Slavin, J. A., Kriiger,
+H., Maturilli, A., Cornet, T., Iwai, K., Miyoshi, Y., Lucente,
+M., Massetti, S., Schmidt, C. A., Dong, C., Quarati, F., Hirai,
+T., Varsani, A., Belyaev, D., Zhong, J., Kilpua, E. K. J., Jackson, B. V., Odstrcil, D., Plaschke, F, Vainio, R., Jarvinen, R.,
+Lambrov Ivanovski, S., Madar, A., Erd6s, G., Plainaki, C., Alberti, T., Aizawa, S., Benkhoff, J.. Murakami, G., Quemerais, E.,
+Hiesinger, H., Mitrofanov, I. G., 1. Iess, Santoli, F, Orsini, S.,
+Lichtenegger, H., Laky, G., Barabash, S., Moissl, R., Huovelin,
+J., Kasaba, Y., Saito, Y., Kobayashi, M., and Baumjohann, W.:
+BepiColombo Science Investigations During Cruise and Flybys
+at the [Earth, Venus and Mercury, Space Sci. Rev., 217, 23,
+https://do1.org/10.1007/s1 1214-02 1-00797-9, 2021.
+
+Martinecz, C., Boesswetter, A., Frinz, M., Roussos, E., Woch, J.,
+Krupp, N., Dubinin, E., Motschmann, U., Wiehle, S., Simon, S.,
+Barabash, S., Lundin, R., Zhang, T. L., Lammer, H., Lichtenegger, H., and Kulikov, Y.: Correction to “Plasma environment of
+Venus: Comparison of Venus Express ASPERA-4 measurements
+with 3-D hybrid simulations’, J. Geophys. Res., 114, EOOB98,
+https://doi.org/10.1029/2009JE003377, 2009a.
+
+Martinecz, C., Boesswetter, A., Franz, M., Roussos, E., Woch,
+J., Krupp, N., Dubinin, E., Motschmann, U., Wiehle, S., Simon, S., Barabash, S., Lundin, R., Zhang, T. L., Lammer,
+H., Lichtenegger, H., and Kulikov, Y.: Plasma environment of
+Venus: Comparison of Venus Express ASPERA-4 measurements
+with 3-D hybrid simulations, J. Geophys. Res., 114, EO0B30,
+https://doi.org/10.1029/2008JE003174, 2009b.
+
+McKenna-Lawlor, S., Jackson, B., and Odstrcil, D.: Space weather
+at planet Venus during the forthcoming BepiColombo flybys,
+Planet. Space Sci., 152, 176-185, 2018.
+
+Milillo, A., Fujimoto, M., Murakami, G., Benkhoff, J., Zender, J.,
+Dosa, S. A. M., Griton, L., Heyner, D., Ho, G., Imber, S., Jia, X.,
+Karlsson, T., Killen, R., Laurenza, M., Lindsay, S., McKennaLawlor, S., Mura, A., Raines, J., Rothery, D., André, N., Baumjohann, W., Berezhnoy, A., Bourdin, P., Bunce, E., Califano, F.,
+Deca, J., de la Fuente, S., Dong, C., Grava, C., Fatemi, S., Henri,
+P., Ivanovski, S., Jackson, B., James, M., Kallio, E., Kasaba, Y.,
+Kilpua, E., Kobayashi, M., Langlais, B., Leblanc, F., Lhotka,
+C., Mangano, V., Martindale, A., Massetti, S., Masters, A., Morooka, M., Narita, Y., Oliveira, J., Odstrcil, D., Orsini, S., Pelizzo,
+
+https://doi.org/10.5194/angeo-39-811-2021
+
+829
+
+M., Plainaki, C., Plaschke, F, Sahraoui, F., Seki, K., Slavin, J.,
+Vainio, R., Wurz, P., Barabash, S., Carr, C., Delcourt, D., Glassmeier, K.-H., Grande, M., Hirahara, M., Huovelin, J., Korablev,
+O., Kojima, H., Lichtenegger, H., Livia, S., Matsuoka, A., Moiss,
+R., Moncuquet, M., Muinonen, K., Quéemerais, E., Saito, Y., Yagitani, S., Yoshikawa, I., and Wahlund, J.-E.: Investigating Mercury’s Environment with the Two-Spacecraft BepiColombo Mission, Space Sci. Rev., 216, 93, https://doi.org/10.1007/s11214020-00712-8, 2020.
+
+Miiller, D., Marsden, R. G., St. Cyr, O. C., Gilbert, H. R., and
+The Solar Orbiter Team: Solar orbiter: Exploring the Sun—
+Heliosphere connection, Sol. Phys., 285, 25-70, 2013.
+
+Miller, D., St. Cyr, O. C., Zouganelis, I., Gilbert, H. R., Marsden, R., Nieves-Chinchilla, T., Antonucci, E., Auchére, F,
+Berghmans, D., Horbury, T. S., Howard, R. A., Krucker,
+S., Maksimovic, M., Owen, C. J., Rochus, P., RodriguezPacheco, J., Romoli, M., Solanki, S. K., Bruno, R., Carlsson, M., Fludra, A., Harra, L., Hassler, D. M., Livi, S.,
+Louarn, P., Peter, H., Schiihle, U., Teriaca, L., del Toro Iniesta, J. C., Wimmer-Schweingruber, R. F., Marsch, E., Velli,
+M., De Groof, A., Walsh, A., and Williams, D.: The Solar Orbiter mission: science overview, Astron. Astrophys., 642, Al,
+https://doi.org/10.105 1/0004-6361/202038467, 2020.
+
+Ness, N. F., Behannon, K. W., Lepping, R. P., Whang, Y. C.,
+and Schatten, K. H.: Magnetic field observations nere Mercury:
+Preliminary results from Mariner 10, Science, 185, 151-160,
+https://doi.org/10.1126/science.185.4146.151, 1974.
+
+Odstréil, D. and Pizzo, V. J.: Three-dimensional propagation of
+CMEs in a structured solar wind flow: 1. CME launched
+within the streamer belt, J. Geophys. Res., 104, 483-492,
+https://doi.org/10.1029/1998JA900019, 1999a.
+
+Odstrcéil, D. and Pizzo, V. J.: Three-dimensional propagation of
+CMEs in a structured solar wind flow: 2. CME launched adjacent to the streamer belt, J. Geophys. Res., 104, 493-504,
+https://doi.org/10.1029/1998JA900038, 1999b.
+
+Orsini, S., Livi, S., Torkar, K., Barabash, S., Milillo, A., Wurz,
+P., Di Lellis, A. D., Kallio, E., and the SERENA team: SERENA: A suite of four instruments (ELENA, STROFIO, PICAM
+and MIPA) on board BepiColombo-MPO for particle detection
+in the Hermean environment, Planet. Space Sci., 58, 166 —181,
+https://doi.org/10.1016/j.pss.2008.09.012, 2010.
+
+Orsini, S., Livia, S., Lichtenegger, H., Barabasha, S., Milillo, A.,
+De Angelis, E., Phillips, M., Laky, G., Wieser, M., Olivieri, A.,
+Plainaki, C., Ho, G., Killen, R., Slavin, J., Wurz, P., Berthelier,
+J.-J., Dandouras, I., Kallio, E., McKenna-Lawlor, S., Szalai, S.,
+Torkar, K., Vaisberg, O., Allegrini, F., Daglis, I., Dong, C., Escoubet, C., Fatemi, S., Franz, M., Ivanovski, S., Krupp, N., Lammer, H., Leblanc, F., Mangano, V., Mura, A., Nilsson, H., Raines,
+J., Rispoli, R., Sarantos, M., Smith, H., Szego, K., Aronica, A.,
+Camozzi, F, Di Lellis, A., Fremuth, G., Giner, F., Gurnee, R.,
+Hayes, J., Jeszenszky, H., Tominetti, F., Trantham, B., Balaz,
+J., Baumjohann, W., Brienza, D., Bithrke, U., Bush, M., Cantatore, M., Cibella, S., Colasanti, L., Cremonese, G., Cremonesi,
+L., D’ Alessandro, M., Delcourt, D., Delva, M., Desai, M., Fama,
+M., Ferris, M., Fischer, H., Gaggero, A., Gamborino, D., Garnier,
+P., Gibson, W., Goldstein, R., Grande, M., Grishin, V., Haggerty,
+D., Holmstrém, M., Horvath, I., Hsieh, K.-C., Jacques, A., Johnson, R., Kazakov, A., Kecskemety, K., Kriiger, H., Kiitirbisch, C.,
+Lazzarotto, F., Leblanc, F., Leichtfried, M., Leoni, R., Loose, A.,
+
+Ann. Geophys., 39, 811-831, 2021
+830
+
+Maschietti, D., Massetti, S., Mattioli, F., Miller, G., Moissenko,
+D., Morbidini, A., Noschese, R., Nuccilli, RK, Nunez, C., Paschalidis, N., Persyn, S., Piazza, D., Oja, M., Ryno, J., Schmidt, W.,
+Scheer, J., Shestakov, A., Shuvalov, S., Seki, K., Selci, S., Smith,
+K., Sordini, R., Svensson, J., Szalai, L., Toublanc, D., Urdiales,
+C., Varsani, A., Vertolli, N., Wallner, R., Wahlstroem, P., Wilson, P., and Zampieri, S.: SERENA: Particle Instrument Suite for
+Determining the Sun-Mercury Interaction from BepiColombo,
+Space Sci. Rev., 217, 11, https://doi.org/10.1007/a1 1214-02000787-3, 2021a.
+
+Orsini, S., Livia, S., Lichtenegger, H., Barabasha, S., Milillo, A.,
+De Angelis, E., Phillips, M., Laky, G., Wieser, M., Olivieri, A.,
+Plainaki, C., Ho, G., Killen, R., Slavin, J., Wurz, P., Berthelier, J.-J., Dandouras, I., Kallio, E., McKenna-Lawlor, S., Szalai, S., Torkar, K., Vaisberg, O., Allegrini, F., Daglis, I., Dong,
+C., Escoubet, C., Fatemi, S., Franz, M., Ivanovski, S., Krupp,
+N., Lammer, H., Leblanc, F., Mangano, V., Mura, A., Nilsson,
+H., Raines, J., Rispoli, R., Sarantos, M., Smith, H., Szego, K..,
+Aronica, A., Camozzi, EK, Di Lellis, A., Fremuth, G., Giner, F,
+Gurnee, R., Hayes, J., Jeszenszky, H., Tominetti, F., Trantham,
+B., Balaz, J., Baumjohann, W., Brienza, D., Biihrke, U., Bush,
+M., Cantatore, M., Cibella, S., Colasanti, L., Cremonese, G.,
+Cremonesi, L., D’ Alessandro, M., Delcourt, D., Delva, M., Desai, M., Fama, M., Ferris, M., Fischer, H., Gaggero, A., Gamborino, D., Garnier, P., Gibson, W., Goldstein, R., Grande, M.,
+Grishin, V., Haggerty, D., Holmstrém, M., Horvath, I., Hsieh,
+K.-C., Jacques, A., Johnson, R., Kazakov, A., Kecskemety, K.,
+Kriiger, H., Kiitirbisch, C., Lazzarotto, F, Leblanc, F., Leichtfried, M., Leoni, R., Loose, A., Maschietti, D., Massetti, S., Mattioli, KF, Miller, G., Moissenko, D., Morbidini, A., Noschese,
+R., Nuccilli, F., Nunez, C., Paschalidis, N., Persyn, S., Piazza,
+D., Oja, M., Ryno, J., Schmidt, W., Scheer, J., Shestakov, A.,
+Shuvalov, S., Seki, K., Selci, S., Smith, K., Sordini, R., Svensson, J., Szalai, L., Toublanc, D., Urdiales, C., Varsani, A., Vertolli, N., Wallner, R., Wahlstroem, P., Wilson, P., and Zampieri,
+S.: Correction to: SERENA: Particle Instrument Suite for Determining the Sun-Mercury Interaction from BepiColombo, Space
+Sci. Rev., 217, 30, https://doi.org/10.1007/S 1 1214-02 1-00809-8,
+202 1b.
+
+Phillips, J. L. and McComas, D. J.: The magnetosheath
+and magnetotail of Venus, Space Sci. Rev., 55, 1-80,
+https://doi.org/10.1007/BF00177135, 1991.
+
+Pinto, M., Sanchez-Cano, B., Moissl, R., Cardoso, C., Goncalves,
+P., Assis, P., Vainio, R., Oleynik, P., Lehtolainen, A., Grande,
+M., and McComas, A.: The Bepicolombo Radiation Monitor,
+BERM, Space Sci. Rev., submitted, 2021.
+
+Poh, G., Sun, W., Clink, K. M., Slavin, J. A., Dewey, R. M.,
+Jia, X., Raines, J. M., DiBraccio, G. A., and Espley, J. R.:
+Large-Amplitude Oscillatory Motion of Mercury’s CrossTail Current Sheet, J. Geophys. Res., 125, e2020JA027783,
+https://do1.org/10.1029/2020JA027783, 2020.
+
+PSA: ESA’s Planetary Science Archive, Venus Express MAG and
+ASPERA-4 data, PSA [data set], available at: https://archives.
+esac.esa.int/psa/#!Table View/VenusExpress=mission, last access: 15 September 2021.
+
+Rong, J. Z., Barabash, S., Stenberg, G., Futaana, Y., Zhang,
+T. L., Wan, W. X., Wei, Y., Wang, X. D., Chai, L. H., and
+Zhong, J.: The flapping motion of the Venusian magnetotail:
+
+Ann. Geophys., 39, 811-831, 2021
+
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+Venus Express observations, J. Geophys. Res., 120, 5593-5602,
+https://doi.org/10.1002/2015JA021317, 2015.
+
+Russell, C. T., Luhmann, J. G., Elphic, R. C., and Scarf, F. L.:
+The distant bow shock and magnetotail of Venus: Magnetic field
+and plasma wave observations, Geophys. Res. Lett., 8, 843-846,
+https://doi.org/10.1029/GL0081007p00843, 1981.
+
+Saito, Y., Sauvaud, J. A., Hirahara, M., Barabash, S.,
+Delcourt, D., Takashima, T., Asamura, K., and BepiColombo MMO/MPPE team: Scientific objectives and
+instrumentation of Mercury Plasma Particle Experiment
+(MPPE) onboard MMO, Planet. Space Sci., 58, 182-200,
+https://doi.org/10.1016/j.pss.2008.06.003, 2010.
+
+Sanchez-Cano, B., Hall, B. E. S., Lester, M., Mays, M. L., Witasse,
+O., Ambrosi, R., Andrews, D., Cartacci, M., Cicchetti, A., Holstr6m, M., Imber, S., Kajdic, P., Milan, S. E., Noschese, R., Osdtrcil, D., Opgenoorth, H., Plaut, J., Ramstad, R., and ReyesAyala, K. I.: Mars plasma system response to solar wind disturbances during solar minimum, J. Geophys. Res., 122, 6611-—
+6634, https://doi.org/10.1002/2016JA023587, 2017.
+
+Saunders, M. A. and Russell, C. T.: Avarage dimensino and magnetic structure of the distant Venus magnetotail, J. Geophys. Res.,
+91, 5589-5604,  https://doi.org/10.1029/JA0911A05p05589,
+1986.
+
+Schmid, D., Narita, Y., Plaschke, F, Volwerk, M., Nakamura, R., and Baumjohann, W.: Magnetosheath plasma
+flow model around Mercury, Ann. Geophys., 39, 563-570,
+https://doi.org/10.5194/angeo-39-563-2021, 2021.
+
+Semkova, J., Koleva, R., Benghin, V., Dachev, T., Matviichuk, Y.,
+Tomov, B., Krastev, K., Maltchev, S., Dimitrov, P., Mitrofanov,
+I., Malahov, A., Golovin, D., Mokrousov, M., Sanin, A., Litvak,
+M., Kozyrev, A., Tretyakov, V., Nikiforov, S., Vostrukhin, A., Fedosov, F., Grebennikova, N., Zelenyi, L., Shurshakov, V., and
+Drobishev, S.: Charged particles radiation measurements with
+Liulin-MO dosimeter of FREND instrument aboard ExoMars
+Trace Gas Orbiter during the transit and in high elliptic Mars
+orbit, Icarus, 303, 53-66, 2018.
+
+Sergeev, V., Runov, A., Baumjohann, W., Nakamura, R., Zhang,
+T. L., Volwerk, M., Balogh, A., Reme, H., Sauvaud, J.-A., André, M., and Klecker, B.: Current sheet flapping motion and
+structure observed by Cluster, Geophys. Res. Lett., 30, 1327,
+https://doi.org/10.1029/2002GL016500, 2003.
+
+Shiota, D. and Kataoka, R.: Magnetohydrodynamic simulation
+of interplanetary propagation of multiple coronal mass ejections with internal magnetic flux rope (SUSANOO-CMEB), Space
+Weather, 14, 56-75, https://doi.org/10.1002/2015SW001308,
+2016.
+
+Shiota, D., Kataoka, R., Miyoshi, Y., Hara, T., Tao, C., Masunaga, K., Futaana, Y., and Terada, N.: Inner heliosphere
+MHD modeling system applicable to space weather forecasting for the other planets, Space Weather, 12, 187-204,
+https://doi.org/10.1002/2013S WO000989, 2014.
+
+Slavin, J. A., Intrilligator, D. S., and Smith, E. J.: Pioneer Venus
+Orbiter Magnetic Field and Plasma Observations in the Venus
+Magnetotail, J. Geophys. Res., 94, 2383-2398, 1989.
+
+SOHO: NASA’s SOlar and Heliospheric Observatory, Movie Theater, c2 images, SOHO [data set], available at: https://soho.
+nascom.nasa.gov/data/Theater/, last access: 15 September 2021.
+
+https://doi.org/10.5194/angeo-39-811-2021
+M. Volwerk et al.: BepiColombo Venus 1 flyby
+
+Spreiter, J., Summers, A., and Alksne, A.: Hydromagnetic flow
+around the magnetosphere, Planet. Space Sci., 14, 223-253,
+https://doi.org/10.1016/0032-0633(66)90124-3, 1966.
+
+Spreiter, J. R. and Stahara, S. S.: Gasdynamic and magnetohydrodynamic modeling of the magnetosheath: a tutorial, Adv. Space
+Res., 14, 5-19, https://doi.org/10.1016/0273-1177(94)90042-6,
+1994.
+
+Svedhem, H., Titov, D. V., McCoy, D., Lebreton, J.-P., Barabash, S.,
+Bertaux, J.-L., Drossart, P., Formisano, V., Hausler, B., Korablev,
+O., Markiewicz, W. J., Nevejans, D., Patzold, M., Piccioni, G.,
+Zhang, T. L., Taylor, F. W., Lellouch, E., Koschny, D., Witasse,
+O., Eggel, H., Warhaut, M., Accomazzo, A., Rodriguez-Canabal,
+J., Fabrega, J., Schirmann, T., Clochet, A., and Coradini, M.:
+Venus Express: The first European missionn to Venus, Planet.
+Space Sci., 55, 1636-1652, 2007.
+
+Verigin, M. I., Gringauz, K. I., Gombosi, T., Breus, T. K.,
+Bezrukikh, V. V., Remizov, A. P., and Volkov, G. I.: Plasma near
+Venus from the Venera 9 and 10 Wide-Angle analyzer data, J.
+Geophys. Res., 83, 3721-3728, 1978.
+
+Volwerk, M., Zhang, T. L., Delva, M., V6rés, Z., Baumjohann, W.,
+and Glassmeier, K.-H.: First identification of mirror mode waves
+in Venus’ magnetosheath?, Geophys. Res. Lett., 35, L12204,
+2008a.
+
+Volwerk, M., Zhang, T. L., Delva, M., V6rds, Z., Baumjohann, W., and Glassmeier, K.-H.: Mirror-mode-like structures in
+Venus’ induced magnetosphere, J. Geophys. Res., 113, EO0B16,
+https://doi.org/10.1029/2008JE003 154, 2008b.
+
+Volwerk, M., Delva, M., Futaana, Y., Retino, A., V6rés, Z., Zhang,
+T. L., Baumjohann, W., and Barabash, S.: Substorm activity in Venus’s magnetotail, Ann. Geophys., 27, 2321-2330,
+https://doi.org/10.5194/angeo-27-2321-2009, 2009.
+
+Volwerk, M., Delva, M., Futaana, Y., Retino, A., Vérés, Z., Zhang,
+T. L., Baumjohann, W., and Barabash, S.: Corrigendum to
+“Substorm activity in Venus’s magnetotail” published in Ann.
+Geophys., 27, 2321-2330,  https://doi.org/10.5194/angeo27-2321-2009, 2009, Ann. Geophys., 28, 1877-1878,
+https://do1.org/10.5194/angeo-28-1877-2010, 2010.
+
+Volwerk, M., Schmid, D., Tsurutani, B. T., Delva, M., Plaschke,
+F., Narita, Y., Zhang, T. L., and Glassmeier, K.-H.: Miurror mode waves in Venus’s magnetosheath: solar minimum vs. solar maximum, Ann. Geophys., 34, 1099-1108,
+https://doi.org/10.5194/angeo-34- 1099-2016, 2016.
+
+Volwerk, M., Horbury, T. S., Woodham, L. D., Bale, S. D., Simon
+Wedlund, C., Schmid, D., Allen, R. C., Angelini, V., Bauumjohann, W., Berger, L., Edberg, N. J. T., Evans, V., Hadid, L. Z.,
+Ho, G. C., Khotyaintsev, Y. V., Magnes, W., Maksimovic, M.,
+O’Brien, H., Steller, M. B., Rodriguez-Pacheco, J., and WimmerScheingruber, R. F.: Solar Orbiter’s first Venus Flyby: MAG observations of structures and waves associated with the induced
+Venusian magnetosphere, Astron. Astrophys., in press, 2021.
+
+Vorés, Z., Zhang, T., Leubner, M. P., Volwerk, M., Delva, M.,
+Baumjohann, W., and Kudela, K.: Magnetic fluctuations and
+turbulence in the Venus magnetosheath and wake, Geophys.
+Res. Lett., 35, L11102, https://doi.org/10.1029/2008GL033879,
+2008a.
+
+https://doi.org/10.5194/angeo-39-811-2021
+
+831
+
+Vorés, Z., Zhang, T. L., Leaner, M. P., Volwerk, M., Delva,
+M., and Baumjohann, W.: Intermittent turbulence, noisy
+fluctuations, and wavy structures in the Venusian magnetosheath and wake, J. Geophys. Res., 113, EQ0B21,
+https://doi.org/10.1029/2008JE003 159, 2008b.
+
+Witasse, O., Sdanchez-Cano, B., Mays, M. L., Kajdic, P.,
+Opgenoorth, H., Elliott, H. A., Richardson, I. G., Zouganelis,
+I., Zender, J., Wimmer-Schweingruber, R. F., Turc, L., Taylor,
+M. G. G. T., Roussos, E., Rouillard, A., Richter, I., Richardson, J. D., Ramstad, R., Provan, G., Posner, A., Plaut, J. J.,
+Odstrcil, D., Nilsson, H., Niemenen, P., Milan, S. E., Mandt,
+K., Lohf, H., Lester, M., Lebreton, J.-P., Kuulkers, E., Krupp,
+N., Koenders, C., James, M. K., Intzekara, D., Holmstrom, M.,
+Hassler, D. M., Hall, B. E. S., Guo, J., Goldstein, R., Goetz,
+C., Glassmeier, K. H., Génot, V., Evans, H., Espley, J., Edberg, N. J. T., Dougherty, M., Cowley, S. W. H., Burch, J., Behar, E., Barabash, S., Andrews, D. J., and Altobelli, N.: Interplanetary coronal mass ejection observed at STEREO-A, Mars,
+comet 67P/Churyumov-Gerasimenko, Saturn, and New Horizons en route to Pluto: Comparison of its Forbush decreases
+at 1.4, 3.1, and 9.9 AU, J. Geophys. Res., 122, 7865-7890,
+https://doi.org/10.1002/2017JA023884, 2017.
+
+Zhang, T. L., Nakamura, R., Volwerk, M., Runov, A., Baumjohann,
+W., Eichelberger, H. U., Carr, C., Balogh, A., Sergeev, V., Shi,
+J. K., and Fornacgon, K.-H.: Double Star/Cluster observation of
+neutral sheet oscillations on August 5, 2004, Ann. Geophys., 23,
+2909-2914, 2005.
+
+Zhang, T. L., Baumjohann, W., Delva, M., Auster, H.-U., Balogh,
+A., Russell, C. T., Barabash, S., Balikhin, M., Berghofer, G.,
+Biernat, H. K., Lammer, H., Lichtenegger, H., Magnes, W.,
+Nakamura, R., Penz, T., Schwingenschuh, K., V6r6s, Z., Zambelli, W., Fornacon, K.-H., Glassmeier, K.-H., Richter, I., Carr,
+C., Kudela, K., Shi, J. K., Zhao, H., Motschmann, U., and Lebreton, J.-P.: Magnetic field investigation of the Venus plasma
+environment: Expected new results, Planet. Space Sci., 54, 1336—
+1343, https://doi.org/10.1016/j.pss.2006.04.018, 2006.
+
+Zhang, T. L., Delva, M., Baumjohann, W., Volwerk, M., Russell, C. T., Barabash, S., Balikin, M., Pope, S., Glassmeier, K.-H., Wang, C., and Kudela, K.: Initial Venus
+Express magnetic field observations of the magnetic _barrier at solar minimum, Planet. Space Sci., 56, 790-795,
+https://doi.org/10.1016/j.pss.2007.10.013, 2008a.
+
+Zhang, T. L., Delva, M., Baumjohann, W., Volwerk, M., Russell, C. T., Wei, H. Y., Wang, C., Balikhin, M., barabash, S.,
+Auster, H.-U., and Kudela, K.: Induced magnetosphere and
+its outer boundary at Venus, J. Gephys. Res., 113, E00B20,
+https://doi.org/10.1029/2008JE003215, 2008b.
+
+Zhang, T. L., Lu, Q., Baumjohann, W., Russell, C. T., Fedorov,
+A., Barabash, S., Coates, A. J., Du, A. M., Cao, J. B., Nakamura, R., Teh, W. L., Wang, R. S., Dou, X. K., Wang, X., Glassmeier, K. H., Auster, H. U., and Balikin, M.: Magnetic reconnection in the near Venusian magnetotail, Science, 336, 567-570,
+https://doi.org/10.1126/science.1217013, 2010.
+
+Ann. Geophys., 39, 811-831, 2021

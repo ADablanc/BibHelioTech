@@ -1,0 +1,470 @@
+[
+    {
+        "end": 106,
+        "start": 101,
+        "text": "20:41",
+        "timex-value": "T20:41",
+        "type": "TIME",
+        "value": "T20:41"
+    },
+    {
+        "end": 218,
+        "start": 200,
+        "text": "THE 2010 AUGUST 18",
+        "timex-value": "2010-08-18",
+        "type": "DATE",
+        "value": "2010-08-18"
+    },
+    {
+        "end": 723,
+        "start": 709,
+        "text": "18 August 2010",
+        "timex-value": "2010-08-18",
+        "type": "DATE",
+        "value": "2010-08-18"
+    },
+    {
+        "end": 8793,
+        "start": 8779,
+        "text": "18 August 2010",
+        "timex-value": "2010-08-18",
+        "type": "DATE",
+        "value": "2010-08-18"
+    },
+    {
+        "end": 9292,
+        "start": 9278,
+        "text": "18 August 2010",
+        "timex-value": "2010-08-18",
+        "type": "DATE",
+        "value": "2010-08-18"
+    },
+    {
+        "end": 10952,
+        "start": 10947,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 11368,
+        "start": 11364,
+        "text": "4:40",
+        "timex-value": "T04:40",
+        "type": "TIME",
+        "value": "T04:40"
+    },
+    {
+        "end": 11440,
+        "start": 11435,
+        "text": "05:07",
+        "timex-value": "T05:07",
+        "type": "TIME",
+        "value": "T05:07"
+    },
+    {
+        "end": 11525,
+        "start": 11520,
+        "text": "05:10",
+        "timex-value": "T05:10",
+        "type": "TIME",
+        "value": "T05:10"
+    },
+    {
+        "end": 11991,
+        "start": 11986,
+        "text": "05:15",
+        "timex-value": "T05:15",
+        "type": "TIME",
+        "value": "T05:15"
+    },
+    {
+        "end": 13440,
+        "start": 13427,
+        "text": "T04:53:07.840",
+        "timex-value": "T04:53:07.840",
+        "type": "TIME",
+        "value": "T04:53:07.840"
+    },
+    {
+        "end": 13517,
+        "start": 13504,
+        "text": "T05:10:31.840",
+        "timex-value": "T05:10:31.840",
+        "type": "TIME",
+        "value": "T05:10:31.840"
+    },
+    {
+        "end": 13583,
+        "start": 13570,
+        "text": "T06:43:07.840",
+        "timex-value": "T06:43:07.840",
+        "type": "TIME",
+        "value": "T06:43:07.840"
+    },
+    {
+        "end": 13735,
+        "start": 13722,
+        "text": "T04:53:00.010",
+        "timex-value": "T04:53:00.010",
+        "type": "TIME",
+        "value": "T04:53:00.010"
+    },
+    {
+        "end": 13819,
+        "start": 13806,
+        "text": "T05:10:30.007",
+        "timex-value": "T05:10:30.007",
+        "type": "TIME",
+        "value": "T05:10:30.007"
+    },
+    {
+        "end": 13897,
+        "start": 13884,
+        "text": "T06:43:00.008",
+        "timex-value": "T06:43:00.008",
+        "type": "TIME",
+        "value": "T06:43:00.008"
+    },
+    {
+        "end": 13982,
+        "start": 13974,
+        "text": "2010-Aug",
+        "type": "DURATION",
+        "value": {
+            "begin": "2010",
+            "end": "XXXX-08"
+        }
+    },
+    {
+        "end": 13996,
+        "start": 13991,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 14002,
+        "start": 13997,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 14008,
+        "start": 14003,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 14030,
+        "start": 14025,
+        "text": "04:42",
+        "timex-value": "T04:42",
+        "type": "TIME",
+        "value": "T04:42"
+    },
+    {
+        "end": 14036,
+        "start": 14031,
+        "text": "04:48",
+        "timex-value": "T04:48",
+        "type": "TIME",
+        "value": "T04:48"
+    },
+    {
+        "end": 14042,
+        "start": 14037,
+        "text": "04:54",
+        "timex-value": "T04:54",
+        "type": "TIME",
+        "value": "T04:54"
+    },
+    {
+        "end": 14048,
+        "start": 14043,
+        "text": "07:00",
+        "timex-value": "T07:00",
+        "type": "TIME",
+        "value": "T07:00"
+    },
+    {
+        "end": 14054,
+        "start": 14049,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 14060,
+        "start": 14055,
+        "text": "05:06",
+        "timex-value": "T05:06",
+        "type": "TIME",
+        "value": "T05:06"
+    },
+    {
+        "end": 14066,
+        "start": 14061,
+        "text": "05:12",
+        "timex-value": "T05:12",
+        "type": "TIME",
+        "value": "T05:12"
+    },
+    {
+        "end": 14082,
+        "start": 14077,
+        "text": "05:18",
+        "timex-value": "T05:18",
+        "type": "TIME",
+        "value": "T05:18"
+    },
+    {
+        "end": 14125,
+        "start": 14111,
+        "text": "18 August 2010",
+        "timex-value": "2010-08-18",
+        "type": "DATE",
+        "value": "2010-08-18"
+    },
+    {
+        "end": 14989,
+        "start": 14976,
+        "text": "T05:10:48.340",
+        "timex-value": "T05:10:48.340",
+        "type": "TIME",
+        "value": "T05:10:48.340"
+    },
+    {
+        "end": 15020,
+        "start": 15007,
+        "text": "T05:10:51.630",
+        "timex-value": "T05:10:51.630",
+        "type": "TIME",
+        "value": "T05:10:51.630"
+    },
+    {
+        "end": 15041,
+        "start": 15028,
+        "text": "T05:10:43.840",
+        "timex-value": "T05:10:43.840",
+        "type": "TIME",
+        "value": "T05:10:43.840"
+    },
+    {
+        "end": 15060,
+        "start": 15047,
+        "text": "T05:10:50.130",
+        "timex-value": "T05:10:50.130",
+        "type": "TIME",
+        "value": "T05:10:50.130"
+    },
+    {
+        "end": 15094,
+        "start": 15081,
+        "text": "T05:10:48.630",
+        "timex-value": "T05:10:48.630",
+        "type": "TIME",
+        "value": "T05:10:48.630"
+    },
+    {
+        "end": 15129,
+        "start": 15116,
+        "text": "T05:10:45.620",
+        "timex-value": "T05:10:45.620",
+        "type": "TIME",
+        "value": "T05:10:45.620"
+    },
+    {
+        "end": 15444,
+        "start": 15431,
+        "text": "T05:10:55.840",
+        "timex-value": "T05:10:55.840",
+        "type": "TIME",
+        "value": "T05:10:55.840"
+    },
+    {
+        "end": 15586,
+        "start": 15581,
+        "text": "05:10",
+        "timex-value": "T05:10",
+        "type": "TIME",
+        "value": "T05:10"
+    },
+    {
+        "end": 15592,
+        "start": 15587,
+        "text": "05:12",
+        "timex-value": "T05:12",
+        "type": "TIME",
+        "value": "T05:12"
+    },
+    {
+        "end": 15598,
+        "start": 15593,
+        "text": "05:14",
+        "timex-value": "T05:14",
+        "type": "TIME",
+        "value": "T05:14"
+    },
+    {
+        "end": 15604,
+        "start": 15599,
+        "text": "05:16",
+        "timex-value": "T05:16",
+        "type": "TIME",
+        "value": "T05:16"
+    },
+    {
+        "end": 15610,
+        "start": 15605,
+        "text": "05:18",
+        "timex-value": "T05:18",
+        "type": "TIME",
+        "value": "T05:18"
+    },
+    {
+        "end": 15641,
+        "start": 15633,
+        "text": "05:08:07",
+        "timex-value": "T05:08:07",
+        "type": "TIME",
+        "value": "T05:08:07"
+    },
+    {
+        "end": 15648,
+        "start": 15643,
+        "text": "05:10",
+        "timex-value": "T05:10",
+        "type": "TIME",
+        "value": "T05:10"
+    },
+    {
+        "end": 15654,
+        "start": 15649,
+        "text": "05:12",
+        "timex-value": "T05:12",
+        "type": "TIME",
+        "value": "T05:12"
+    },
+    {
+        "end": 15660,
+        "start": 15655,
+        "text": "05:14",
+        "timex-value": "T05:14",
+        "type": "TIME",
+        "value": "T05:14"
+    },
+    {
+        "end": 15666,
+        "start": 15661,
+        "text": "05:16",
+        "timex-value": "T05:16",
+        "type": "TIME",
+        "value": "T05:16"
+    },
+    {
+        "end": 15672,
+        "start": 15667,
+        "text": "05:18",
+        "timex-value": "T05:18",
+        "type": "TIME",
+        "value": "T05:18"
+    },
+    {
+        "end": 15703,
+        "start": 15695,
+        "text": "05:08:07",
+        "timex-value": "T05:08:07",
+        "type": "TIME",
+        "value": "T05:08:07"
+    },
+    {
+        "end": 16375,
+        "start": 16370,
+        "text": "05:10",
+        "timex-value": "T05:10",
+        "type": "TIME",
+        "value": "T05:10"
+    },
+    {
+        "end": 17580,
+        "start": 17567,
+        "text": "T05:12:19.840",
+        "timex-value": "T05:12:19.840",
+        "type": "TIME",
+        "value": "T05:12:19.840"
+    },
+    {
+        "end": 17598,
+        "start": 17585,
+        "text": "T05:12:43.840",
+        "timex-value": "T05:12:43.840",
+        "type": "TIME",
+        "value": "T05:12:43.840"
+    },
+    {
+        "end": 17616,
+        "start": 17603,
+        "text": "T05:12:55.840",
+        "timex-value": "T05:12:55.840",
+        "type": "TIME",
+        "value": "T05:12:55.840"
+    },
+    {
+        "end": 17638,
+        "start": 17625,
+        "text": "T05:13:07.840",
+        "timex-value": "T05:13:07.840",
+        "type": "TIME",
+        "value": "T05:13:07.840"
+    },
+    {
+        "end": 17652,
+        "start": 17639,
+        "text": "T05:13:19.840",
+        "timex-value": "T05:13:19.840",
+        "type": "TIME",
+        "value": "T05:13:19.840"
+    },
+    {
+        "end": 18105,
+        "start": 18092,
+        "text": "T05:12:19.840",
+        "timex-value": "T05:12:19.840",
+        "type": "TIME",
+        "value": "T05:12:19.840"
+    },
+    {
+        "end": 19519,
+        "start": 19505,
+        "text": "18 August 2010",
+        "timex-value": "2010-08-18",
+        "type": "DATE",
+        "value": "2010-08-18"
+    },
+    {
+        "end": 21395,
+        "start": 21368,
+        "text": "between 5:10:30 and 5:11:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:10:30",
+            "end": "T05:11:00"
+        }
+    },
+    {
+        "end": 21424,
+        "start": 21417,
+        "text": "5:11:00",
+        "timex-value": "T05:11:00",
+        "type": "TIME",
+        "value": "T05:11:00"
+    }
+]

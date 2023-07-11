@@ -1,0 +1,1284 @@
+[
+    {
+        "end": 3206,
+        "start": 3193,
+        "text": "01:48 - 02:27",
+        "type": "DURATION",
+        "value": {
+            "begin": "T01:48",
+            "end": "T02:27"
+        }
+    },
+    {
+        "end": 7685,
+        "start": 7678,
+        "text": "16 July",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 7695,
+        "start": 7687,
+        "text": "4 August",
+        "timex-value": "2022-08-04",
+        "type": "DATE",
+        "value": "2022-08-04"
+    },
+    {
+        "end": 7714,
+        "start": 7701,
+        "text": "8 August 2007",
+        "timex-value": "2007-08-08",
+        "type": "DATE",
+        "value": "2007-08-08"
+    },
+    {
+        "end": 9482,
+        "start": 9462,
+        "text": "16 July and 4 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-07-16",
+            "end": "XXXX-08-04"
+        }
+    },
+    {
+        "end": 9574,
+        "start": 9566,
+        "text": "8 August",
+        "timex-value": "2021-08-08",
+        "type": "DATE",
+        "value": "2021-08-08"
+    },
+    {
+        "end": 9826,
+        "start": 9792,
+        "text": "from 19:50 - 20:37 on 16 July 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:50",
+            "end": "2007-07-16T20:37"
+        }
+    },
+    {
+        "end": 9858,
+        "start": 9828,
+        "text": "04:00 - 06:00 on 8 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-08T06:00"
+        }
+    },
+    {
+        "end": 9894,
+        "start": 9864,
+        "text": "04:00 - 12:00 on 4 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-04T12:00"
+        }
+    },
+    {
+        "end": 10162,
+        "start": 10155,
+        "text": "16 July",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 10231,
+        "start": 10223,
+        "text": "8 August",
+        "timex-value": "2022-08-08",
+        "type": "DATE",
+        "value": "2022-08-08"
+    },
+    {
+        "end": 10296,
+        "start": 10288,
+        "text": "4 August",
+        "timex-value": "2022-08-04",
+        "type": "DATE",
+        "value": "2022-08-04"
+    },
+    {
+        "end": 10531,
+        "start": 10524,
+        "text": "16 July",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 10694,
+        "start": 10686,
+        "text": "8 August",
+        "timex-value": "2022-08-08",
+        "type": "DATE",
+        "value": "2022-08-08"
+    },
+    {
+        "end": 10952,
+        "start": 10934,
+        "text": "from 14:00 - 19:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T14:00",
+            "end": "T19:00"
+        }
+    },
+    {
+        "end": 11227,
+        "start": 11197,
+        "text": "from 02:00 - 12:00 on 4 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "T02:00",
+            "end": "XXXX-08-04T12:00"
+        }
+    },
+    {
+        "end": 11711,
+        "start": 11699,
+        "text": "16 Jul.\n2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 11801,
+        "start": 11772,
+        "text": "16:00 - 24:00 on 16 July 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T16:00",
+            "end": "2007-07-16T24:00"
+        }
+    },
+    {
+        "end": 13913,
+        "start": 13893,
+        "text": "16 July and 8 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-07-16",
+            "end": "XXXX-08-08"
+        }
+    },
+    {
+        "end": 13933,
+        "start": 13925,
+        "text": "4 August",
+        "timex-value": "2022-08-04",
+        "type": "DATE",
+        "value": "2022-08-04"
+    },
+    {
+        "end": 14122,
+        "start": 14110,
+        "text": "16 July 2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 14202,
+        "start": 14173,
+        "text": "19:50 - 20:37 on 16 July 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:50",
+            "end": "2007-07-16T20:37"
+        }
+    },
+    {
+        "end": 15339,
+        "start": 15328,
+        "text": "8 Aug.\n2007",
+        "timex-value": "2007-08-08",
+        "type": "DATE",
+        "value": "2007-08-08"
+    },
+    {
+        "end": 15411,
+        "start": 15381,
+        "text": "8 August 2007 at 02:00 - 08:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-08-08T02:00",
+            "end": "T08:00"
+        }
+    },
+    {
+        "end": 16026,
+        "start": 16015,
+        "text": "4 Aug.\n2007",
+        "timex-value": "2007-08-04",
+        "type": "DATE",
+        "value": "2007-08-04"
+    },
+    {
+        "end": 16098,
+        "start": 16068,
+        "text": "4 August 2007 at 00:00 - 24:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "2007-08-04T00:00",
+            "end": "T24:00"
+        }
+    },
+    {
+        "end": 16124,
+        "start": 16118,
+        "text": "16 Jul",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 16358,
+        "start": 16329,
+        "text": "19:50 - 20:37 on July 16 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:50",
+            "end": "2007-07-16T20:37"
+        }
+    },
+    {
+        "end": 16394,
+        "start": 16364,
+        "text": "04:00 - 06:00 on August 8 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-08T06:00"
+        }
+    },
+    {
+        "end": 16430,
+        "start": 16400,
+        "text": "04:00 - 12:00 on August 4 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-04T12:00"
+        }
+    },
+    {
+        "end": 17122,
+        "start": 17109,
+        "text": "19:50 - 19:53",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:50",
+            "end": "T19:53"
+        }
+    },
+    {
+        "end": 18062,
+        "start": 18054,
+        "text": "19:50:40",
+        "timex-value": "T19:50:40",
+        "type": "TIME",
+        "value": "T19:50:40"
+    },
+    {
+        "end": 18105,
+        "start": 18097,
+        "text": "19:51:20",
+        "timex-value": "T19:51:20",
+        "type": "TIME",
+        "value": "T19:51:20"
+    },
+    {
+        "end": 18160,
+        "start": 18152,
+        "text": "19:58:00",
+        "timex-value": "T19:58:00",
+        "type": "TIME",
+        "value": "T19:58:00"
+    },
+    {
+        "end": 19021,
+        "start": 19016,
+        "text": "19:58",
+        "timex-value": "T19:58",
+        "type": "TIME",
+        "value": "T19:58"
+    },
+    {
+        "end": 19572,
+        "start": 19559,
+        "text": "20:11 - 20:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:11",
+            "end": "T20:15"
+        }
+    },
+    {
+        "end": 20051,
+        "start": 20039,
+        "text": "16 Jul.\n2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 20136,
+        "start": 20125,
+        "text": "4 Aug.\n2007",
+        "timex-value": "2007-08-04",
+        "type": "DATE",
+        "value": "2007-08-04"
+    },
+    {
+        "end": 20194,
+        "start": 20187,
+        "text": "16 July",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 20283,
+        "start": 20275,
+        "text": "8 August",
+        "timex-value": "2022-08-08",
+        "type": "DATE",
+        "value": "2022-08-08"
+    },
+    {
+        "end": 20412,
+        "start": 20404,
+        "text": "4 August",
+        "timex-value": "2022-08-04",
+        "type": "DATE",
+        "value": "2022-08-04"
+    },
+    {
+        "end": 20554,
+        "start": 20549,
+        "text": "19:50",
+        "timex-value": "T19:50",
+        "type": "TIME",
+        "value": "T19:50"
+    },
+    {
+        "end": 20637,
+        "start": 20632,
+        "text": "20:00",
+        "timex-value": "T20:00",
+        "type": "TIME",
+        "value": "T20:00"
+    },
+    {
+        "end": 20643,
+        "start": 20638,
+        "text": "20:15",
+        "timex-value": "T20:15",
+        "type": "TIME",
+        "value": "T20:15"
+    },
+    {
+        "end": 20796,
+        "start": 20791,
+        "text": "20:00",
+        "timex-value": "T20:00",
+        "type": "TIME",
+        "value": "T20:00"
+    },
+    {
+        "end": 20816,
+        "start": 20811,
+        "text": "20:15",
+        "timex-value": "T20:15",
+        "type": "TIME",
+        "value": "T20:15"
+    },
+    {
+        "end": 20835,
+        "start": 20830,
+        "text": "20:25",
+        "timex-value": "T20:25",
+        "type": "TIME",
+        "value": "T20:25"
+    },
+    {
+        "end": 20852,
+        "start": 20840,
+        "text": "16 Jul.\n2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 20879,
+        "start": 20874,
+        "text": "20:30",
+        "timex-value": "T20:30",
+        "type": "TIME",
+        "value": "T20:30"
+    },
+    {
+        "end": 21006,
+        "start": 20994,
+        "text": "16 July 2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 21932,
+        "start": 21926,
+        "text": "16 Jul",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 22045,
+        "start": 22034,
+        "text": "08 Aug 0500",
+        "timex-value": "0500-08-08",
+        "type": "DATE",
+        "value": "0500-08-08"
+    },
+    {
+        "end": 23066,
+        "start": 23053,
+        "text": "20:20 - 20:25",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:20",
+            "end": "T20:25"
+        }
+    },
+    {
+        "end": 23121,
+        "start": 23108,
+        "text": "20:25 - 20:33",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:25",
+            "end": "T20:33"
+        }
+    },
+    {
+        "end": 23224,
+        "start": 23212,
+        "text": "16 July 2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 23851,
+        "start": 23833,
+        "text": "From 19:50 - 20:35",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:50",
+            "end": "T20:35"
+        }
+    },
+    {
+        "end": 24122,
+        "start": 24104,
+        "text": "from 19:51 - 20:11",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:51",
+            "end": "T20:11"
+        }
+    },
+    {
+        "end": 24605,
+        "start": 24574,
+        "text": "during 6 min from 19:58 - 20:04",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:04",
+            "end": "T20:04"
+        }
+    },
+    {
+        "end": 26195,
+        "start": 26182,
+        "text": "19:52 - 20:35",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:52",
+            "end": "T20:35"
+        }
+    },
+    {
+        "end": 26893,
+        "start": 26888,
+        "text": "19:50",
+        "timex-value": "T19:50",
+        "type": "TIME",
+        "value": "T19:50"
+    },
+    {
+        "end": 26899,
+        "start": 26894,
+        "text": "20:00",
+        "timex-value": "T20:00",
+        "type": "TIME",
+        "value": "T20:00"
+    },
+    {
+        "end": 26915,
+        "start": 26904,
+        "text": "16 Jul.2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 27033,
+        "start": 27021,
+        "text": "16 July 2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 27181,
+        "start": 27168,
+        "text": "19:50 - 20:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:50",
+            "end": "T20:00"
+        }
+    },
+    {
+        "end": 28429,
+        "start": 28416,
+        "text": "8 August 2007",
+        "timex-value": "2007-08-08",
+        "type": "DATE",
+        "value": "2007-08-08"
+    },
+    {
+        "end": 28607,
+        "start": 28577,
+        "text": "04:00 - 06:00 on 8 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-08T06:00"
+        }
+    },
+    {
+        "end": 29397,
+        "start": 29384,
+        "text": "04:39 - 04:44",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:39",
+            "end": "T04:44"
+        }
+    },
+    {
+        "end": 29510,
+        "start": 29497,
+        "text": "03:30 - 04:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T03:30",
+            "end": "T04:20"
+        }
+    },
+    {
+        "end": 29670,
+        "start": 29652,
+        "text": "from 04:20 - 05:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:20",
+            "end": "T05:20"
+        }
+    },
+    {
+        "end": 30639,
+        "start": 30621,
+        "text": "From 04:18 - 04:38",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:18",
+            "end": "T04:38"
+        }
+    },
+    {
+        "end": 31623,
+        "start": 31610,
+        "text": "04:57 - 05:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:57",
+            "end": "T05:00"
+        }
+    },
+    {
+        "end": 31990,
+        "start": 31972,
+        "text": "From 05:00 - 05:33",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:00",
+            "end": "T05:33"
+        }
+    },
+    {
+        "end": 32415,
+        "start": 32402,
+        "text": "05:00 - 05:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:00",
+            "end": "T05:15"
+        }
+    },
+    {
+        "end": 32938,
+        "start": 32925,
+        "text": "05:06 - 05:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:06",
+            "end": "T05:15"
+        }
+    },
+    {
+        "end": 33077,
+        "start": 33064,
+        "text": "05:20 - 05:25",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:20",
+            "end": "T05:25"
+        }
+    },
+    {
+        "end": 33424,
+        "start": 33411,
+        "text": "05:25 - 05:33",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:25",
+            "end": "T05:33"
+        }
+    },
+    {
+        "end": 34072,
+        "start": 34067,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 35080,
+        "start": 35075,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 35086,
+        "start": 35081,
+        "text": "04:15",
+        "timex-value": "T04:15",
+        "type": "TIME",
+        "value": "T04:15"
+    },
+    {
+        "end": 35092,
+        "start": 35087,
+        "text": "04:45",
+        "timex-value": "T04:45",
+        "type": "TIME",
+        "value": "T04:45"
+    },
+    {
+        "end": 35098,
+        "start": 35093,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 35120,
+        "start": 35103,
+        "text": "8 Aug.\n2007 04:30",
+        "timex-value": "2007-08-08T04:30",
+        "type": "TIME",
+        "value": "2007-08-08T04:30"
+    },
+    {
+        "end": 35132,
+        "start": 35127,
+        "text": "05:46",
+        "timex-value": "T05:46",
+        "type": "TIME",
+        "value": "T05:46"
+    },
+    {
+        "end": 35138,
+        "start": 35133,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 35209,
+        "start": 35179,
+        "text": "04:00 - 06:00 on 8 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-08T06:00"
+        }
+    },
+    {
+        "end": 36703,
+        "start": 36698,
+        "text": "04:30",
+        "timex-value": "T04:30",
+        "type": "TIME",
+        "value": "T04:30"
+    },
+    {
+        "end": 36750,
+        "start": 36745,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 36766,
+        "start": 36755,
+        "text": "8 Aug.\n2007",
+        "timex-value": "2007-08-08",
+        "type": "DATE",
+        "value": "2007-08-08"
+    },
+    {
+        "end": 36799,
+        "start": 36794,
+        "text": "05:30",
+        "timex-value": "T05:30",
+        "type": "TIME",
+        "value": "T05:30"
+    },
+    {
+        "end": 36805,
+        "start": 36800,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 36872,
+        "start": 36859,
+        "text": "8 August 2007",
+        "timex-value": "2007-08-08",
+        "type": "DATE",
+        "value": "2007-08-08"
+    },
+    {
+        "end": 37496,
+        "start": 37478,
+        "text": "from 05:20 - 05:45",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:20",
+            "end": "T05:45"
+        }
+    },
+    {
+        "end": 38429,
+        "start": 38416,
+        "text": "05:00 - 05:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:00",
+            "end": "T05:30"
+        }
+    },
+    {
+        "end": 38462,
+        "start": 38449,
+        "text": "05:15 - 05:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:15",
+            "end": "T05:30"
+        }
+    },
+    {
+        "end": 39622,
+        "start": 39609,
+        "text": "4 August 2007",
+        "timex-value": "2007-08-04",
+        "type": "DATE",
+        "value": "2007-08-04"
+    },
+    {
+        "end": 39706,
+        "start": 39676,
+        "text": "01:00 - 15:00 on 4 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T01:00",
+            "end": "2007-08-04T15:00"
+        }
+    },
+    {
+        "end": 40485,
+        "start": 40472,
+        "text": "04:00 - 12:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "T12:00"
+        }
+    },
+    {
+        "end": 40599,
+        "start": 40579,
+        "text": "During 04:00 - 07:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "T07:00"
+        }
+    },
+    {
+        "end": 41071,
+        "start": 41058,
+        "text": "07:00 - 08:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T07:00",
+            "end": "T08:00"
+        }
+    },
+    {
+        "end": 41439,
+        "start": 41434,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 41445,
+        "start": 41440,
+        "text": "08:00",
+        "timex-value": "T08:00",
+        "type": "TIME",
+        "value": "T08:00"
+    },
+    {
+        "end": 41451,
+        "start": 41446,
+        "text": "10:00",
+        "timex-value": "T10:00",
+        "type": "TIME",
+        "value": "T10:00"
+    },
+    {
+        "end": 41992,
+        "start": 41987,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 41998,
+        "start": 41993,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 42004,
+        "start": 41999,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 42010,
+        "start": 42005,
+        "text": "07:00",
+        "timex-value": "T07:00",
+        "type": "TIME",
+        "value": "T07:00"
+    },
+    {
+        "end": 42016,
+        "start": 42011,
+        "text": "08:00",
+        "timex-value": "T08:00",
+        "type": "TIME",
+        "value": "T08:00"
+    },
+    {
+        "end": 42022,
+        "start": 42017,
+        "text": "09:00",
+        "timex-value": "T09:00",
+        "type": "TIME",
+        "value": "T09:00"
+    },
+    {
+        "end": 42028,
+        "start": 42023,
+        "text": "10:00",
+        "timex-value": "T10:00",
+        "type": "TIME",
+        "value": "T10:00"
+    },
+    {
+        "end": 42034,
+        "start": 42029,
+        "text": "12:00",
+        "timex-value": "T12:00",
+        "type": "TIME",
+        "value": "T12:00"
+    },
+    {
+        "end": 42050,
+        "start": 42039,
+        "text": "4 Aug.\n2007",
+        "timex-value": "2007-08-04",
+        "type": "DATE",
+        "value": "2007-08-04"
+    },
+    {
+        "end": 42121,
+        "start": 42091,
+        "text": "04:00 - 12:00 on 4 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-04T12:00"
+        }
+    },
+    {
+        "end": 42662,
+        "start": 42649,
+        "text": "05:00 - 05:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:00",
+            "end": "T05:20"
+        }
+    },
+    {
+        "end": 43112,
+        "start": 43099,
+        "text": "09:00 - 10:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T09:00",
+            "end": "T10:00"
+        }
+    },
+    {
+        "end": 43295,
+        "start": 43282,
+        "text": "08:20 - 08:40",
+        "type": "DURATION",
+        "value": {
+            "begin": "T08:20",
+            "end": "T08:40"
+        }
+    },
+    {
+        "end": 43310,
+        "start": 43297,
+        "text": "09:30 - 09:45",
+        "type": "DURATION",
+        "value": {
+            "begin": "T09:30",
+            "end": "T09:45"
+        }
+    },
+    {
+        "end": 43329,
+        "start": 43316,
+        "text": "10:40 - 11:10",
+        "type": "DURATION",
+        "value": {
+            "begin": "T10:40",
+            "end": "T11:10"
+        }
+    },
+    {
+        "end": 44392,
+        "start": 44374,
+        "text": "from 08:30 - 09:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T08:30",
+            "end": "T09:00"
+        }
+    },
+    {
+        "end": 44526,
+        "start": 44513,
+        "text": "08:40 - 09:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T08:40",
+            "end": "T09:30"
+        }
+    },
+    {
+        "end": 44541,
+        "start": 44528,
+        "text": "09:45 - 10:40",
+        "type": "DURATION",
+        "value": {
+            "begin": "T09:45",
+            "end": "T10:40"
+        }
+    },
+    {
+        "end": 45865,
+        "start": 45857,
+        "text": "8 August",
+        "timex-value": "2021-08-08",
+        "type": "DATE",
+        "value": "2021-08-08"
+    },
+    {
+        "end": 46308,
+        "start": 46300,
+        "text": "4 August",
+        "timex-value": "2022-08-04",
+        "type": "DATE",
+        "value": "2022-08-04"
+    },
+    {
+        "end": 46765,
+        "start": 46740,
+        "text": "05:33 - 05:35 on 8 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:33",
+            "end": "XXXX-08-08T05:35"
+        }
+    },
+    {
+        "end": 47039,
+        "start": 47026,
+        "text": "20:08 - 20:09",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:08",
+            "end": "T20:09"
+        }
+    },
+    {
+        "end": 47399,
+        "start": 47375,
+        "text": "20:00 - 20:30 on 16 July",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:00",
+            "end": "XXXX-07-16T20:30"
+        }
+    },
+    {
+        "end": 47464,
+        "start": 47439,
+        "text": "05:00 - 05:30 on 8 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "T05:00",
+            "end": "XXXX-08-08T05:30"
+        }
+    },
+    {
+        "end": 47533,
+        "start": 47508,
+        "text": "06:00 - 08:00 on 4 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "T06:00",
+            "end": "XXXX-08-04T08:00"
+        }
+    },
+    {
+        "end": 48118,
+        "start": 48111,
+        "text": "16 July",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 48169,
+        "start": 48161,
+        "text": "8 August",
+        "timex-value": "2022-08-08",
+        "type": "DATE",
+        "value": "2022-08-08"
+    },
+    {
+        "end": 48788,
+        "start": 48783,
+        "text": "1980s",
+        "timex-value": "198X",
+        "type": "SET",
+        "value": "198X"
+    },
+    {
+        "end": 52936,
+        "start": 52929,
+        "text": "16 July",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 56616,
+        "start": 56611,
+        "text": "20:08",
+        "timex-value": "T20:08",
+        "type": "TIME",
+        "value": "T20:08"
+    },
+    {
+        "end": 57333,
+        "start": 57328,
+        "text": "20:08",
+        "timex-value": "T20:08",
+        "type": "TIME",
+        "value": "T20:08"
+    },
+    {
+        "end": 58978,
+        "start": 58966,
+        "text": "16 July 2007",
+        "timex-value": "2007-07-16",
+        "type": "DATE",
+        "value": "2007-07-16"
+    },
+    {
+        "end": 59021,
+        "start": 59008,
+        "text": "8 August 2007",
+        "timex-value": "2007-08-08",
+        "type": "DATE",
+        "value": "2007-08-08"
+    },
+    {
+        "end": 59321,
+        "start": 59308,
+        "text": "4 August 2007",
+        "timex-value": "2007-08-04",
+        "type": "DATE",
+        "value": "2007-08-04"
+    },
+    {
+        "end": 61055,
+        "start": 61050,
+        "text": "20:08",
+        "timex-value": "T20:08",
+        "type": "TIME",
+        "value": "T20:08"
+    },
+    {
+        "end": 61312,
+        "start": 61307,
+        "text": "20:08",
+        "timex-value": "T20:08",
+        "type": "TIME",
+        "value": "T20:08"
+    },
+    {
+        "end": 61621,
+        "start": 61616,
+        "text": "8 Aug",
+        "timex-value": "2022-08-08",
+        "type": "DATE",
+        "value": "2022-08-08"
+    },
+    {
+        "end": 61787,
+        "start": 61779,
+        "text": "16 Jul 9",
+        "timex-value": "2022-07-16",
+        "type": "DATE",
+        "value": "2022-07-16"
+    },
+    {
+        "end": 62064,
+        "start": 62035,
+        "text": "19:50 - 20:37 on 16 July 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T19:50",
+            "end": "2007-07-16T20:37"
+        }
+    },
+    {
+        "end": 62096,
+        "start": 62066,
+        "text": "04:00 - 06:00 on 8 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-08T06:00"
+        }
+    },
+    {
+        "end": 62132,
+        "start": 62102,
+        "text": "04:00 - 12:00 on 4 August 2007",
+        "type": "DURATION",
+        "value": {
+            "begin": "T04:00",
+            "end": "2007-08-04T12:00"
+        }
+    },
+    {
+        "end": 62828,
+        "start": 62808,
+        "text": "16 July and 4 August",
+        "type": "DURATION",
+        "value": {
+            "begin": "XXXX-07-16",
+            "end": "XXXX-08-04"
+        }
+    },
+    {
+        "end": 62948,
+        "start": 62940,
+        "text": "8 August",
+        "timex-value": "2022-08-08",
+        "type": "DATE",
+        "value": "2022-08-08"
+    }
+]

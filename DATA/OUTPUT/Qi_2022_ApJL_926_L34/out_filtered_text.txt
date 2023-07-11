@@ -1,0 +1,261 @@
+  © 2022.
+The Author(s).
+ OPEN ACCESS https: / /doi.org/10.3847 /20:41 - 82:13 /ac5181 CrossMark Magnetic Flux Transport Identification of Active Reconnection: MMS Observations in Earth’s Magnetosphere Yi Qi ®, Tak Chu Li? ®, Christopher T.
+Russell’ ®, Robert E.
+Ergun’, Ying-Dong Jia! ®, and Mark Hubbert! Department of Earth, Planetary, and Space Sciences, University of California, Los Angeles, CA, USA; Yi.Qi@lasp.colorado.edu Laboratory for Atmospheric and Space Physics, University of Colorado Boulder, Boulder, CO, USA Department of Physics and Astronomy, Dartmouth College, Hanover, NH, USA Abstract Magnetic reconnection plays an important role in converting energy while modifying field topology.
+This process takes place under varied plasma conditions during which the transport of magnetic flux is intrinsic.
+Identifying active magnetic reconnection sites with in situ observations is challenging.
+A new technique, Magnetic Flux Transport (MFT) analysis, has been developed recently and proven in numerical simulation for identifying active reconnection efficiently and accurately.
+In this study, we examine the MFT process in 37 previously reported electron diffusion region (EDR)/reconnection-line crossing events at the day-side magnetopause and in the magnetotail and turbulent magnetosheath using Magnetospheric Multiscale measurements.
+The coexisting inward and outward MFT flows at an X-point provides a signature that magnetic field lines become disconnected and reconnected.
+The application of MFT analysis to in-situ observations demonstrates that MFT can successfully identify active reconnection sites under complex varied conditions, including asymmetric and turbulent upstream conditions.
+It also provides a higher rate of identification than plasma outflow jets alone.
+MFT can be applied to in situ measurements from both single- and multi-spacecraft missions and laboratory experiments.
+Unified Astronomy Thesaurus concepts: Solar magnetic reconnection (1504); Solar-terrestrial interactions (1473); Space plasmas (1544) 1.
+Introduction Magnetic reconnection is a fundamental plasma process.
+During reconnection, the magnetic field lines change connectivity (Dungey 1961) and facilitate explosive energy conversion from magnetic to particle kinetic and thermal energies resulting in significant heating and acceleration (e.g., Treumann & Baumjohann 2013).
+Reconnection is ubiquitous in the universe.
+It occurs under various conditions, in both quiet and dynamic environments.
+Reconnection has been observed throughout the heliosphere, including the solar corona (Smartt et al.
+1993; Xue et al.
+2016) and solar wind (Gosling et al.
+2005; Fargette et al.
+2021; Phan et al.
+2020).
+Near Earth, the magnetosphere provides a highly accessible natural laboratory for detailed measurements of reconnection events, which have been recently made by the Magnetospheric Multiscale (MMS) mission (Burch et al.
+2016, Lavraud et al.
+2016; Russell et al.
+2017) Reconnection can couple multiple scales (Hesse & Cassak 2020).
+The center of reconnection is the topological X-point/X-line, where the magnetic field both annihilates and reconnects.
+Around this site is a region on electron scales, known as the electron diffusion region (EDR), where both electrons and ions violate the frozen-in condition and are no longer dynamically coupled to the magnetic field (Ng et al.
+2011; Bessho et al.
+2014; Shay et al.
+2016).
+Signatures of this region include deviation of the electron and ion bulk flow speed from the & x Bdrift, the strong current carried mainly by electrons, electron energization, enhanced energy conversion, crescent-shaped agyrotropic electron velocity distribution Original content from this work may be used under the terms BY of the Creative Commons Attribution 4.0 licence.
+Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
+functions, and a small radius of curvature of the magnetic field (Biichner & Zelenyi 1991; Le et al.
+2013; Webster et al.
+2018; Tang et al.
+2019).
+The larger region in which the EDR is embedded is the ion diffusion region (IDR), where ions are decoupled from the magnetic field while electrons remain coupled.
+Here ions are energized, and electrons form superAlfvénic outflow jets.
+The separation between ions and electrons results in Hall electric and magnetic fields (Graham et al.
+2016; Genestreti et al.
+2020).
+At larger scales, Alfvénic ion outflow jets can be observed.
+The identification of active reconnection has been challenging.
+With high-resolution observations from MMS, we are able to see most of the above-mentioned signatures.
+However, these signatures may not be observed coherently.
+The trajectory of the spacecraft has a significant influence on the observational profile.
+In addition, the asymmetry of upstream conditions (Shay et al.
+2016), the existence of finite guide fields (Ng et al.
+2011; Bessho et al.
+2019), and the strong shear flows (Liu et al.
+2018; Li et al.
+2021) likely in a turbulent system may all distort the signatures, adding complexity to reconnection.
+Recent studies have analyzed the transport of magnetic flux around an X-point in kinetic simulations (Liu & Hesse 2016; Liu et al.
+2018).
+An innovative technique based on Magnetic Flux Transport (MFT) has been developed and carefully analyzed in a two-dimensional gyrokinetic simulation (Li et al.
+2021), where MFT was applied to both symmetric and asymmetric reconnection X-point regions in turbulence generated by a double-vortex setup (Li et al.
+2016).
+MFT successfully captures bidirectional inflows and outflows of magnetic flux around active X-points in a region significantly smaller than the region extended by plasma outflow jets or finite energy conversion, and thus the MFT method can locate the active reconnection sites more accurately than previous methods.
+In addition, although strong background shear flows   Event List of EDR/Reconnection-line Crossings Qi et al.
+Table 1 Date and time Location Guide Field Type Spacecraft Separation [de] Reference 2015-10-16 13:07:02 Day side ~0 Classic ~6 Burch et al.
+(2016) 2015-12-08 11:20:43 Day side ~l Classic ~6 Burch & Phan (2016) 2015-12-06 23:38:31 Day side ~0.2 Classic ~10 Khotyaintsev et al.
+(2016) 2015-10-25 11:07:46 Sheath ~0.5 Classic ~20 Eriksson et al.
+(2018) 2016-12-09 09:03:54 Sheath >5 Electron-only ~5 Phan et al.
+(2018) 2016-11-09 13:39:26 Shock transition region ~0 Classic ~16 Wang et al.
+(2019) 2017-07-11 22:34:02 Tail ~0 Classic ~1 Torbert et al.
+(2018) 2017-06-17 20:24:07 Tail ~0 Electron-only ~4 Lu et al.
+(2020) 2017-08-10 12:18:33 Tail ~0.1 Classic ~2 Zhou et al.
+(2019) 31 EDRs Day side varying Classic 2-70 Webster et al.
+(2018) distort the bidirectional plasma outflow jets, the velocity of MFT U,, maintains its regular pattern, demonstrating that the MFT method is more robust than previous methods.
+Quadrupolar structures are observed in V-Uy,, at the X-points, supporting the active reconnection picture.
+Based on these numerical modeling results, MFT has the potential to be a more accurate indicator of active reconnection.
+This study applies this newly developed technique to MMS in situ observations and validates its functionality under various plasma conditions.
+2.
+Data The data used herein is obtained by the MMS mission.
+This mission is designed to capture the elusively thin and fastmoving diffusion regions of reconnection with unprecedented time resolution (Burch et al.
+2015).
+The orbits cover the most common reconnection locations on both the day side and night side of Earth’s magnetosphere, a natural laboratory for in situ observations of reconnection.
+Four identical spacecraft form a tetrahedron configuration with spacecraft separation varying from ~10 to 150 km which provides spatial resolution down to kinetic scales (Fuselier et al.
+2016).
+The magnetic field is measured by the fluxgate magnetometer (FGM) (Russell et al.
+2016) at its highest sampling rate of 128 Hz.
+We select previously identified EDR or reconnection-line crossing events to represent different environments of reconnection near Earth.
+The events include reconnection in the turbulent shock transition region (Wang et al.
+2019), turbulent magnetosheath (Eriksson et al.
+2018; Phan et al.
+2018), dayside magnetopause (Burch et al.
+2016; Burch & Phan 2016; Khotyaintsev et al.
+2016), magnetotail (Torbert et al.
+2018; Zhou et al.
+2019; Lu et al.
+2020), and a list of EDRs reported by Webster et al.
+(2018).
+The selected events are sufficiently typical, representing symmetric and asymmetric upstream conditions, varying guide field strength, quiet and turbulent regions, as well as classic ion-coupled reconnection and newly discovered electron-only reconnection.
+Requiring events with four spacecraft measurements for calculating spatial gradient, we exclude one event where MMS3 was not available from the 32 EDR events.
+We also note that three out of the nine single events considered overlap with the EDR list (Webster et al.
+2018).
+Thus, in total there are 31 + (9 —3) = 37 events that we apply the MFT analysis to, listed in Table 1, with the average spacecraft separation normalized to the electron inertial length d, based on upstream hybrid densities (Equation 17, Cassak & Shay 2007).
+To apply this technique to observations by MMS and other spacecraft missions, we first validate it with known events.
+With the 37 events of varied plasma conditions, we find this technique robust enough for identifying reconnection.
+3.
+Method The MFT velocity Uy, was previously derived in one and two-dimensions (Liu & Hesse 2016; Liu et al.
+2018).
+The formula of this velocity can be found in Li et al.
+(2021): A A cE;.
+~ A U,; = Vep — (Vep ° b,)b, + B, (Z xX b,), (1) where b, = B, / B, is the unit vector of the magnetic field component (B,,) in the 2D reconnection plane, the LN plane in LMN coordinates; v., is the electron flow in the 2D reconnection plane; and Zz is the out-of-plane (M) direction.
+E, = E + % x B/c is the nonideal electric field in the electron frame.
+The first two terms represent the in-plane electron flow perpendicular to B,, and the last term represents the slippage between magnetic flux and electron flow.
+Without separating the perpendicular electron flow and_ slippage terms, Equation (1) can be simplified to a form without electron velocity (Li et al.
+2021): U) = (cE, /By)(@ by) (2) According to simulation work (Li et al.
+2021), Uy, will form super-Alfvénic jets in both inflow (N) and outflow (L) directions, indicating strong MFT close to the active X-points.
+The upstream hybrid Alfvén speed V4, is calculated using the L component of the magnetic field and ion density on the two upstream sides (Equation 13, Cassak & Shay 2007).
+We subtract the ion bulk flow velocity from U,, (and electron flow) to demonstrate the MFT jets more clearly in the ion frame.
+With four spacecraft measurements, we can estimate the divergence of the magnetic flux transport velocity V-U,, following the linear gradient technique (Chanteur, ISSI, 1998,   Ch.
+11).
+This quantity is able to represent the converging inflows and diverging outflows of magnetic flux.
+In addition to the signature in U,,, these bidirectional inflows and outflows of magnetic flux at an X-point signify active reconnection.
+Transforming the field data to the LMN coordinate is required for the MFT analysis.
+For the nine single events, the coordinate rotation matrices from the literature are used.
+For events from Webster et al.
+(2018), the Minimum Variance Analysis (MVA) technique (Sonnerup & Cahill 1967) is applied to the magnetic field in the interval around the recorded EDR crossings to determine the LMN coordinate.
+The maximum variance direction (L) aligns with the reconnecting field direction, corresponding to the expected outflow direction.
+The minimum variance direction (N) gives the normal of the reconnecting current sheet, the expected inflow direction.
+There are two signatures of active reconnection in MFT analysis.
+They are (1) coexisting magnetic flux (U,,) jets in the inflow (N) and outflow (L) directions, and (2) a significantly enhanced divergence of flux transport (V - U,,,) at the X-point.
+Previous theory and simulation work suggested that U,, is at least ion Alfvénic (= 0.5 V,) and the divergence on the order of 0.1 electron cyclotron frequency (V - Uy, = 0.05 fc.) (Li et al.
+2021).
+Observing either signature identifies an encounter of an active reconnection site.
+For each event, we select a region of interest around the EDR/reconnection-line crossing such that the radius of the field line curvature R.
+becomes < the ion gyroradius p;, indicating agyrotropic 1on motions indicative of the IDR (Rogers et al.
+2019).
+Within the selected region, we record the peak values of U,,, jets and V - U,,.
+4.
+Results 4.1.
+Example of a Successfully Identified Reconnection Site As an example of MFT signatures in MMS data, we summarize in Figure | the analysis of an active reconnection event in the magnetosheath reported by Eriksson et al.
+(2018).
+At the reversal of the magnetic field L component (a), the magnetic curvature increases and R, reaches the electron gyroradius p..
+The MFT velocity demonstrates a bipolar signature in the N direction (blue, (f)) and a unipolar peak in L (red).
+Both peaks exceed the upstream Alfvén speed V, (horizontal dotted line).
+These bidirectional MFT inflows and unidirectional outflow are consistent with (h) the deduced spacecraft trajectory of MMS crossing the actively reconnecting current sheet from upstream to downstream and then upstream on the other side.
+In panel (g) the bipolar structure in V-U,, is consistent with converging MFT inflows and diverging outflows near the X-point, with a peak value exceeding the order of 0.1 f...
+The observed MFT signatures agree well with simulation.
+We plot the L and N components of U,, on each spacecraft in Figure 2.
+The patterns of the velocity are similar on all spacecraft, suggesting the scale of the structure is greater than the spacecraft separation.
+Thus, MMS resolves the structure of U_,,.
+MMS4 and MMS2 detect the two strongest peaks in the L component, in agreement with the X-point being south of the spacecraft and MMS4 and MMS2 being the closest to it.
+Examining U,,, on each spacecraft is generally useful for events with a large spacecraft separation, where the four-spacecraft average may not resolve the structure of U,,,.
+Qi et al.
+4.2.
+Identification in 37 Events The same analysis is applied to the 37 events.
+Figure 3 summarizes the result.
+Events are ordered from left to right with increasing normalized spacecraft separation.
+One of the two MFT signatures for active reconnection is coexisting Alfvénic jets in the inflow and outflow directions.
+Figure 3(a) shows the peaks of MFT jets in the N (circles) and L (crosses) directions for all events.
+U,, is normalized to V4.
+The dashed lines mark -+£0.5 V,, above which they are considered Alfvénic.
+Jets less than 0.5 V4, are masked.
+For almost all events, MMS observed coexisting N and L jets, demonstrating both inflow and outflow MFT in these events.
+Only two events on  18 November 2016  and February 7 do not have this signature.
+For the event on  7 February 2016 , examining U,,, on each spacecraft also reveals coexisting superAlfvénic inflow and outflow jets.
+For the event on  18 November 2016 , the divergence of U,, can be used and also identifies active reconnection (Figure 3(b)).
+The other MFT signature of active reconnection is the divergence of U,,, being of the order of 0.1 of the local electron cyclotron frequency f..
+or higher.
+Plotted in Figure 3(b) is V -U,, normalized to fce- The dashed lines indicate +0.05 foe.
+Values smaller than 0.05 are considered below order 0.1 f,.
+and masked.
+Similar to the MFT jets, in nearly all events, the peak V -U,, exceeds the threshold of O(0.1 f..), confirming active reconnection encounters.
+The typical V-U/,, signature lies within +0.5 f,., consistent with the expected ordering.
+As discussed, the event on  18 November 2016  has a high enough divergence of U,,, as a signature of active reconnection.
+In total, all 37 events are successfully identified as active reconnection through MFT signatures.
+The median value of the +L jet peak is 3.1 /—2.3 V, and that of the N jet peak is 2.0/—2.5 V4.
+They indicate that typical MFT jets are super-Alfvénic around the active reconnection site.
+The median absolute value of V-U,, is 0.3 fc., also meeting the criteria of being of order 0.1 (2, or higher.
+5.
+Discussion The two MFT properties that serve as active reconnection signatures are coexisting Alfvénic inflow and outflow flux jets and a high divergence of flux transport velocity.
+These two properties are observed in 97% and 95% of all the events.
+Satisfying either one of the two criteria will be sufficient for reconnection identification.
+In this case, all 37 events are successfully identified by MFT properties.
+The MFT signatures are also compared with plasma outflow jet signatures.
+To confidently identify reconnection-line crossing using plasma flows, we usually need the flow to be bidirectional.
+The occurrence rates for Alfvénic bidirectional plasma outflow jets are lower than 50% (19% for ion and 43% for electron).
+If we use bidirectional outflow jets as the criteria for active reconnection crossing, we will very likely miss more than half of the events.
+Using only one jet as the criteria, it is not confined as closely around the X-line as the MFT signatures (Li et al.
+2021), and it is harder to establish a straightforward link between the observation of a single plasma jet and the reconnection.
+The existence of a finite guide field will make the situation more complicated.
+It does not only modify the topology at the reconnection sites but also possibly change the planar picture into a more turbulent three-dimensional scenario (Ng et al.
+  Qi et al.
+Bowa O [nT] avg [mV/m] Rc/p i/e Ve sub [km/s] 0 N< X< Seconds  25 Oct 2015  (a) — (a) ome we) fe) Ss ‘o wb oO ? _ | | i ae) oO — ms) 2 { | colli cbt ti a ~~ “= =) —* OMO OKMO ASANO | oO AOAKAMIO | DSomm N 1107: Figure 1.
+MMS observations of an example event on  25 October 2015 .
+Vectors are transformed in LMN coordinates (L = [0.31, —0.91, 0.28], M = [0.31, 0.37, 0.87], N = [—0.90, —0.19, 0.
+40] in GSE).
+Four-spacecraft-averaged (a) magnetic field and (b) electric field.
+(c) Radius of curvature R, normalized to the electron (red) and ion (blue) gyroradius.
+(d), (e) Electron bulk flow velocity (with ion velocity subtracted) and ion bulk flow velocity.
+(f) MFT velocity U,,.
+(with ion velocity subtracted).
+(g) V - Uy, normalized to the local electron cyclotron frequency f,.
+(h) Sketch of the MMS trajectory and expected MFT flows, adapted from Eriksson et al.
+(2018).
+1.5x10* a < = af 1.0x10* U .
+sub w,L [km/s] __5.0x10° eee ee eee a 5.0x10°=(b) a | O+ = U .
+sub E a Ww, N .
+37 4 -1.0x10*— : -1.5x10*- | | : 9.8 9.8 9.8 X 5.6 5.6 5.6 y -4.0 -4.0 -4.0 Z ; 500 .600 .700 econdas  25 Oct 2015  11:07:46 Figure 2.
+MFT velocity on each spacecraft.
+(a) The L and (b) N components of U,, measured by the four spacecraft.
+  Qi et al.
++N jet +N jet +L jet (a) fl PTT]? Tt? Py yy Pt Py yt yy ty yy yy 7 JA A x : 12> J x L jet|ie) oO N jet|8+ re) % 7 L x x | " a” L xy o @ | 4, L o b x : < - fo) o0 66C OR on? »9°°20% Q POC, > cHLULL LT O___x-O_O________- “~~ QO _|____* QO .
+___ Ft x -S 9g -- eo 4 ™— OF eg a a a EL eC SO QR OE OE O-~------- N---m-----@---------- = > F ‘o) .) % @x Qx fo) O x L ; — - ‘e) x OO Oo x OO x, ro x r Oo O x O ; -4- x Oo x Oo OD i x oO 1 — Oo _| gi.
+* | E x Oo -L jet, a -1 y) |_-L jet -L jet -N jet -N jet | ‘i | | | | | (b) 1.2/ | | | | | i A : 0.87 A 7 0.4- A = & ' A A A 7 we L 7 a a AA A = Of--------------- A-4-4-4-4-4--F-F w----5 7.
+eal nn na ine Ina na el A -------- A — A A , L A A 7 > ee.
+A | -0.4- A A A 7 ; A | Py} TE EL PELE ELE ELL EEL EEL EEL TALL Ea Ed NO rrKReMOWADMNnANRAOANOoMAR OTA THN O rmMnrroaeraernaononrRwo Se”MO nmr TWTOnmMr NnwWnoewT,neo7eq*eeeownoeTTrT Dwyer TNO nADMO OA AN TOTO t+ ODODANMNOWONMNR OTN TY NWADOAR WAR AMAR IOANDWDADANADAOAND DRM O —&/ Or OFTenwDTnmMwetyrtTTETrNmMETrrMrO TVW OO Senvanenr nmriaYHw rT OMWewr,rtronrnonnrtOy NnNnreAKR T+T+TOOR OOWTTTHOR NW OWMrodoerovystnNnnrROrAOMDOMrTODR N rr rr orrrionrwrorwrerorero#ererewmwmooo+rsroreoownNo$rseroe oa oO “—_™ —™~™™~—S—o™™~ Oo ™~ ™ sso ™~ ™~ SS ™™~—S——o™~  ™™~—s™~ so ™~ sso ™~ SSS ™~ sori ™™~ so ™~ Sseo™~—Ssso™«S«Sa«™—aisii ™™~=«O«O*™=«O«O«X*™=«OS«O ™~«O«O™<S =SA«s™-~ ™m™-~ ™-~ ™ ™ O ™~ ™ O ™~ ™ O ™ roaomonnroanaandiandindiannrkr A rorwaogaoeadaodiarRTF HO TFT NANA KHOBDOAON DWM OR OD a a Te ee ee a a a ee i a ae | ee © © me ee ee ee ee ee ee ee © © OE, ee @ 0 0, ee ee ee ee @ 6 GD PE @ 0 @N GD EE, oo GD DE @ 0, © GD EE, GD EE.
+oe ©) oP rr Ory Gere ewer Ter Te Ty ere Swe eee rr rrr Se a ~ RnR © OR GOOR KR ORR OONMNOR COONWONMOONMNOR HON NH NH OND ND OW OO W ooo momo momo momomomomomomoMmomomomomomomomomomomomomeomomoMmomomomomomomome) NNANAATANANANANANANAANAANANANAAATNAATNAIANANATHNATNTHTsnaaa Figure 3.
+MFT signatures in 37 events.
+The peak values of (a) U,, in the L and N directions normalized to V4 and (b) V - Uy, normalized to f...
+The red arrows indicate L/N jets and V - U,, out of the plotted range.
+The dashed lines represent (a) +0.5 V4 and (b) £0.05 foe.
+2011; Chen et al.
+2020).
+Our database includes a variety of guide field strengths, and as mentioned earlier, regardless of the guide field strength, the MFT analysis successfully identified active reconnection.
+Thus, we suggest the accuracy of MFT is robust in the presence of varying guide fields.
+In classic reconnection, the IDR is typically elongated in the outflow direction.
+In a steady state, the large aspect ratio of this region translates into much higher outflow than inflow jets (by continuity of density and incompressibility).
+However, MFT flows tend to be highly localized to the X-line.
+This results in a smaller aspect ratio of the MFT flow region and therefore similar amplitudes for MFT inflows and outflows.
+The result in Figure 3(a), where the L and N jets are of the same order of magnitude, is consistent with this picture and also consistent with simulation.
+Regardless of the broad range of normalized spacecraft separations of the 37 events (Table 1), U,, ranges from the order of ion Alfvén to electron Alfvén speeds, and V - U,, is of order 0.1—1 f,.
+(Figure 3), consistent with simulation (Li et al.
+2021).
+The choice of LMN coordinates has an impact on MFT analysis.
+In addition to using MVA on the magnetic field, MVA can also be applied to the electron velocity.
+Other methods including Minimum Faraday Residue (MFR) (Khrabrov & Sonnerup 1998; Haaland et al.
+2019) and Maximum Directional Derivative (MDD) (Shi et al.
+2019) may be considered.
+These methods have been compared in detail in   recent studies (Denton et al.
+2018; Genestreti et al.
+2018).
+While determining the suitable LMN coordinates for MFT is out of the scope of this study, it will be investigated in the future.
+6.
+Conclusions In this study, for the first time we have applied the newly developed MFT technique to MMS data and showed this technique can successfully identify active reconnection.
+The two MFT properties that are signatures of active reconnection encounter are coexisting Alfvénic inflow and outflow flux jets and a high divergence of the flux transport velocity.
+The detection of either one is sufficient for identification.
+We select 37 previously reported EDR/reconnection-line crossing events on Earth’s day-side magnetopause, in the magnetotail and turbulent magnetosheath, to test the capability of MFT under various plasma conditions.
+All events are successfully identified with the two MFT properties.
+The median value of the magnetic flux transport velocity is typically super-Alfvénic, sufficient for locating the active reconnection region.
+The divergence of the flux transport velocity has a median absolute value of 0.27 f.2, above the expected threshold for reconnection.
+The occurrence rates of these two properties are 97% and 95%, much higher success rates compared to using bidirectional plasma outflow jets.
+This application of MFT to the terrestrial data demonstrated its capability to identify reconnection under complex varied plasma conditions, motivating the application of this technique for analyzing reconnection in more heliospheric contexts such as the solar corona and solar wind turbulence, and in laboratory experiments.
+We appreciate the efforts of the entire MMS team, including many individuals in spacecraft operation and data acquisition.
+We thank T.
+Phan, S.
+Schwartz, and S.
+Eriksson for helpful discussions.
+This research was supported by NASA MMS mission NNGO4EB99C and NSF award AGS-2000222.
+We also.
+acknowledge support from NASA _— grant 8O0NSSC21K1691.
+The work at UCLA was supported through subcontract 06-001 with the University of New Hampshire.
+ORCID iDs Yi Qi © https: //orcid.org /O000-00:02 - 09:59-3450 Tak Chu Li © https: //orcid.org /00:00 - 00:02 - 63:67 - 18:86 Christopher T.
+Russell © https: //orcid.org /O000-000316:39 - 82:98 Ying-Dong Jia ® https: //orcid.org /O000-00:02 - 16:31-291X Qi et al.
+.

@@ -1,0 +1,216 @@
+[
+    {
+        "end": 3604,
+        "start": 3590,
+        "text": "12 AUGUST 2004",
+        "timex-value": "2004-08-12",
+        "type": "DATE",
+        "value": "2004-08-12"
+    },
+    {
+        "end": 6833,
+        "start": 6817,
+        "text": "20 November 2001",
+        "timex-value": "2001-11-20",
+        "type": "DATE",
+        "value": "2001-11-20"
+    },
+    {
+        "end": 7402,
+        "start": 7389,
+        "text": "09:30 \u2014 23:30",
+        "type": "DURATION",
+        "value": {
+            "begin": "T09:30",
+            "end": "T23:30"
+        }
+    },
+    {
+        "end": 8197,
+        "start": 8189,
+        "text": "20:27:30",
+        "timex-value": "T20:27:30",
+        "type": "TIME",
+        "value": "T20:27:30"
+    },
+    {
+        "end": 10140,
+        "start": 10135,
+        "text": "20:40",
+        "timex-value": "T20:40",
+        "type": "TIME",
+        "value": "T20:40"
+    },
+    {
+        "end": 10152,
+        "start": 10147,
+        "text": "20:38",
+        "timex-value": "T20:38",
+        "type": "TIME",
+        "value": "T20:38"
+    },
+    {
+        "end": 10164,
+        "start": 10159,
+        "text": "20:36",
+        "timex-value": "T20:36",
+        "type": "TIME",
+        "value": "T20:36"
+    },
+    {
+        "end": 10188,
+        "start": 10183,
+        "text": "20:42",
+        "timex-value": "T20:42",
+        "type": "TIME",
+        "value": "T20:42"
+    },
+    {
+        "end": 10286,
+        "start": 10270,
+        "text": "20 November 2001",
+        "timex-value": "2001-11-20",
+        "type": "DATE",
+        "value": "2001-11-20"
+    },
+    {
+        "end": 10301,
+        "start": 10288,
+        "text": "20:26 \u2014 20:42",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:26",
+            "end": "T20:42"
+        }
+    },
+    {
+        "end": 11176,
+        "start": 11171,
+        "text": "20:34",
+        "timex-value": "T20:34",
+        "type": "TIME",
+        "value": "T20:34"
+    },
+    {
+        "end": 11218,
+        "start": 11213,
+        "text": "20:28",
+        "timex-value": "T20:28",
+        "type": "TIME",
+        "value": "T20:28"
+    },
+    {
+        "end": 11231,
+        "start": 11226,
+        "text": "20:32",
+        "timex-value": "T20:32",
+        "type": "TIME",
+        "value": "T20:32"
+    },
+    {
+        "end": 11242,
+        "start": 11237,
+        "text": "20:30",
+        "timex-value": "T20:30",
+        "type": "TIME",
+        "value": "T20:30"
+    },
+    {
+        "end": 12169,
+        "start": 12155,
+        "text": "12 AUGUST 2004",
+        "timex-value": "2004-08-12",
+        "type": "DATE",
+        "value": "2004-08-12"
+    },
+    {
+        "end": 14724,
+        "start": 14716,
+        "text": "20:32:15",
+        "timex-value": "T20:32:15",
+        "type": "TIME",
+        "value": "T20:32:15"
+    },
+    {
+        "end": 14736,
+        "start": 14728,
+        "text": "20:34:40",
+        "timex-value": "T20:34:40",
+        "type": "TIME",
+        "value": "T20:34:40"
+    },
+    {
+        "end": 15012,
+        "start": 15004,
+        "text": "20:34:40",
+        "timex-value": "T20:34:40",
+        "type": "TIME",
+        "value": "T20:34:40"
+    },
+    {
+        "end": 15124,
+        "start": 15116,
+        "text": "20:32:15",
+        "timex-value": "T20:32:15",
+        "type": "TIME",
+        "value": "T20:32:15"
+    },
+    {
+        "end": 15289,
+        "start": 15281,
+        "text": "20:34:40",
+        "timex-value": "T20:34:40",
+        "type": "TIME",
+        "value": "T20:34:40"
+    },
+    {
+        "end": 15632,
+        "start": 15618,
+        "text": "12 AUGUST 2004",
+        "timex-value": "2004-08-12",
+        "type": "DATE",
+        "value": "2004-08-12"
+    },
+    {
+        "end": 18047,
+        "start": 18042,
+        "text": "21:10",
+        "timex-value": "T21:10",
+        "type": "TIME",
+        "value": "T21:10"
+    },
+    {
+        "end": 18231,
+        "start": 18218,
+        "text": "14:11 - 14:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T14:11",
+            "end": "T14:20"
+        }
+    },
+    {
+        "end": 21754,
+        "start": 21749,
+        "text": "20:00",
+        "timex-value": "T20:00",
+        "type": "TIME",
+        "value": "T20:00"
+    },
+    {
+        "end": 23046,
+        "start": 23041,
+        "text": "21:36",
+        "timex-value": "T21:36",
+        "type": "TIME",
+        "value": "T21:36"
+    },
+    {
+        "end": 28231,
+        "start": 28217,
+        "text": "12 AUGUST 2004",
+        "timex-value": "2004-08-12",
+        "type": "DATE",
+        "value": "2004-08-12"
+    }
+]

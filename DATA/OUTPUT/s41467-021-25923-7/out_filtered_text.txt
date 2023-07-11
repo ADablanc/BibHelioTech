@@ -1,0 +1,395 @@
+A RT| C L F | ® Check for updates | https://doi.org/10.1038/s41467-021-25923-7 OPEN Magnetopause ripples going against the flow form azimuthally stationary surface waves M.
+O.
+Archer® '™ M.
+D.
+Hartinger?, F.
+Plaschke® °, D.
+J.
+Southwood! & L.
+Rastaetter* Surface waves process the turbulent disturbances which drive dynamics in many space, astrophysical and laboratory plasma systems, with the outer boundary of Earth's magnetosphere, the magnetopause, providing an accessible environment to study them.
+Like waves on water, magnetopause surface waves are thought to travel in the direction of the driving solar wind, hence a paradigm in global magnetospheric dynamics of tailward propagation has been well-established.
+Here we show through multi-spacecraft observations, global simulations, and analytic theory that the lowest-frequency impulsively-excited magnetopause surface waves, with standing structure along the terrestrial magnetic field, propagate against the flow outside the boundary.
+Across a wide local time range (09-15h) the waves’ Poynting flux exactly balances the flow’s advective effect, leading to no net energy flux and thus stationary structure across the field also.
+Further down the equatorial flanks, however, advection dominates hence the waves travel downtail, seeding fluctuations at the resonant frequency which subsequently grow in amplitude via the Kelvin-Helmholtz instability and couple to magnetospheric body waves.
+This global response, contrary to the accepted paradigm, has implications on radiation belt, ionospheric, and auroral dynamics and potential applications to other dynamical systems.
+"Space and Atmospheric Physics Group, Department of Physics, Imperial College London, London, UK.
+2 Space Science Institute, Boulder, CO, USA.
+> Space Research Institute, Austrian Academy of Sciences, Graz, Austria.
+4 NASA Goddard Space Flight Center, Greenbelt, MD, USA.
+email: m.archer1O@imperial.ac.uk NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications 1 ARTICLE harp discontinuities separating regions with different phy sical parameters are a key feature of space, astrophysical and laboratory plasmas.
+Their dynamics about pressurebalanced equilibrium, magnetohydrodynamic (MHD) surface waves, act as an efficient mechanism of filtering, accumulating and guiding the turbulent disturbances omnipresent between/ through their respective systems.
+Surface waves have been observed and modelled within tokamak experiments!, plasma tori surrounding planets*, the solar atmosphere (e.g.
+in coronal loops>), the heliopause*, accretion disks? and astrophysical/relativistic jets° to name a few.
+This makes understanding surface waves of universal importance.
+While many of these environments can only be remote sensed, planetary magnetospheres (particularly that of Earth) provide the opportunity for in situ measurements of surface wave processes.
+The motion of the outer boundary of a magnetosphere, the magnetopause, is of primary importance in dictating global magnetospheric dynamics since it controls the flow of mass, energy and momentum from the solar wind into the terrestrial system having direct and indirect space weather impacts on the radiation belts, auroral oval and ionosphere’~?.
+Surface waves on a planetary magnetopause, which occupy the lower ends of the so-called ultra-low-frequency range (ULF; fractions of milliHertz to a few Hertz), are excited either by pressure imbalances (typically on the dayside) or flow shears (on the flanks)!9.!!.
+Magnetopause surface waves are thus similar to surface waves on bodies of water, which form due to and travel in the direction of the wind!2!>, Since magnetopause surface waves impart momentum on the magnetosphere, the antisunward flow of the external driver—the shocked solar wind—has led to a well-accepted paradigm of the tailward propagation of outer magnetospheric ULF waves at all local times!4-!”.
+Surface waves may subsequently become non-linear via the Kelvin-Helmholtz instability at the magnetotail (when sufficient free energy is present to overcome magnetic tension or plasma compressibility) forming vortices that undergo magnetic reconnection, transporting mass across the boundary!®!?.
+The paradigm of tailward propagation in magnetospheric dynamics is thought to hold even in response to the rather common impulsive events that drive intense space weather”, for example, large-scale solar wind pressure pulses and shock waves?!) or smaller (Rg scale or less) kinetically generated bow shock phenomena like magnetosheath jets*>.
+The models predict an exception, in agreement with several observations, only at the early post-noon magnetopause, since pressure fronts aligned with the Parker spiral interplanetary magnetic field (IMF) strike this region before the pre-noon sector.
+Reported instances of sunward propagating ULF waves have been attributed to internal processes, such as energetic particle instabilities** or changes in the magnetotail configuration??®.
+In physics, a common approach to understanding a dynamical system is to determine its normal modes.
+These form in a magnetosphere when system-scale MHD waves become trapped through reflection by boundaries or turning points.
+Transverse Alfvén waves, propagating along field lines due to magnetic tension forces, are reflected by the highly conductive ionosphere resulting in standing waves akin to those on a guitar string”’.
+Fast magnetosonic waves, driven by correlated thermal and magnetic pressure gradients, trapped radially form so-called cavity/waveguide modes*®?, somewhat similar to the resonances of wind instruments.
+These magnetospheric normal modes due to MHD body waves have been well-studied and tend to conform to the aforementioned paradigm!*-!”, However, it had long been proposed that magnetopause surface waves propagating along the terrestrial magnetic field in response to impulsive pressure variations might too reflect at the northern and southern ionospheres, forming a magnetopause surface eigenmode (MSE) NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 somewhat analogous to the vibrations of a drum’s membrane””.
+The theory of these standing waves has been developed using ideal incompressible MHD in box model magnetospheres*!.
+Despite their simplicity, these models have been able to reproduce many features captured by more advanced global MHD simulations**.
+For example, MSE frequencies near the subsolar magnetopause can be approximated in the limit kg <<k, as (Eq.
+(6) of ref.
+°°, using pressure balance at the magnetopause) ~ Boh a/ HoP msh a k 2 Psw Vow (2) Pmsh for angular frequency w, wavenumber k, magnetic field strength B, mass density p and speed v with subscripts sw, msh and sph corresponding to the solar wind, magnetosheath and magnetosphere, respectively.
+MSE thus constitute the lowest-frequency normal mode of the magnetospheric system, given the smaller phase speeds and wavenumbers than other modes.
+Indeed, Eq.
+(2) yields fundamental frequencies below 2 mHz and thus evanescent scales that highly penetrate the dayside magnetosphere**”?.
+However, MSE is thought to be strongly damped due to the finite thickness of the boundary, perhaps persisting for only a few wave periods*®>4>4, Direct evidence of MSE was discovered only recently°°, likely due to the observational challenges in unambiguously demonstrating such a low-frequency normal mode has been excited.
+Fortuitous multi-spacecraft observations of the response to an isolated, broadband magnetosheath jet revealed narrowband magnetopause oscillations and magnetospheric ULF waves that were in excellent agreement with the theoretical predictions of MSE and could not be explained by other known mechanisms.
+These observations in the mid-late morning sector strikingly showed no azimuthal motion of the boundary despite the expectation that surface waves be advected tailward!9, hinting that this eigenmode may challenge the usual paradigm.
+It is currently unclear how to reconcile this with current models, especially since (unlike meridionally) there is no boundary azimuthally for surface waves to reflect against to reverse course.
+In this paper, we address this conundrum by considering surface waves’ energy flux through spacecraft observations, global MHD simulations, and analytic MHD theory in order to explain the resonant response of the magnetospheric system globally.
+We show that magnetopause surface waves propagate against the flow forming an azimuthally stationary wave across a wide local time range.
+Results Spacecraft observations.
+We use Time History of Events and Macroscale Interactions during Substorms (THEMIS)°° spacecraft observations from satellites A-E (THA-THE) during the previously reported event of MSE triggered by a magnetosheath jet on August 7 2007.
+See the spacecraft observations section of ‘Methods’ for further details of instruments and techniques employed.
+The spacecraft were located at ~09:30 MLT (magnetic local time) in a string-of-pearls formation.
+For context, at 22:25 an isolated ~100s magnetosheath jet occurred upstream of the magnetopause which was followed by a period of ~18 min with little pressure variations (demarked by vertical dotted lines) until another jet occurred at 22:45 (Fig.
+2d of ref.
+°°).
+The magnetopause moved in response to the jet, undergoing two boundary oscillations at 1.8 mHz corresponding to the fundamental mode MSE (Figs.
+2g and 3b of ref.
+°°).
+Figure 1 shows magnetospheric observations by the THA (panels a-i) and THE (panels j-r) spacecraft of the magnetic (panels a, j), velocity 2 NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 THA observations [6.1,-5.3,-1.4] R.
+GSM 22 20 22 25 22 30 22 35 22 40 22 45  07 Aug 2007  (219) hour min (UT) -200 22 50 22 20 ARTICLE THE observations [8.1,-5.3,-2.1] R.
+GSM > 5, aa) %& filtered 22 25 22 30 22 35 22 40  07 Aug 2007  (219) hour min (UT) 22 45 22 50 Fig.
+1 THEMIS spacecraft time-series observations in the magnetosphere.
+Shown for THA (a-i) and THE (j-r).
+From top to bottom the first set of panels show perturbations in the magnetic (a, b, j, k), ion velocity (e, d, I, m) and electric (e, f, n, 0) fields.
+In these vertical pairs, top panels show the raw (thin) and LOESS smoothed (thick) data, whereas the bottom panels show the latter once detrended.
+Subsequent panels depict the Poynting vector (g, p) and energy density (h, q), showing instantaneous (thin) and time-averaged (thick) values.
+Finally, the energy velocity (i, r) is shown compared to the absolute magnetosheath flow speed at THB (grey).
+Throughout, standard errors are indicated by shaded areas.
+Vertical dotted lines demark the times of little upstream pressure variations following the isolated impulsive jet that triggered this event.
+(panels c, 1) and electric fields (panels e, n).
+Dynamic spectra of these using the continuous wavelet transform can also be found in Supplementary Fig.
+1 revealing the 1.8 mHz fundamental mode MSE (clearest in the compressional magnetic field components at both spacecraft) and 3.3 mHz second harmonic MSE (e.g., in the perpendicular components of the magnetic field), as well as a 6.7 mHz fundamental toroidal standing Alfvén wave at THA (azimuthal velocity/radial electric field)*°.
+THD _ spacecraft observations proved similar to THE, and the other spacecraft encountered the magnetosheath too often for use here.
+We aim to measure the Poynting vector and corresponding energy velocity associated with MSE, concepts which are further explained in Poynting’s theorem for MHD waves section of ‘Methods’.
+This necessitates extracting the associated wave perturbations from the data, removing noise and other signals as described in the timebased filtering section of ‘Methods’, resulting in the filtered magnetic (panels b, k), velocity (panels d, m) and electric fields (panels f, 0) shown in Fig.
+1.
+These are then used to determine energy densities and fluxes.
+Between the two dotted lines (which indicate the times of little upstream pressure variations), all spacecraft observed time-averaged Poynting vectors with components consistently azimuthally eastward and a slight tendency towards radially outwards too (panels g, p).
+This was also evident at the MSE frequencies in the Poynting vectors computed using NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications 3 ARTICLE Zasm = -2.1 Re THA THB THC THD THE Xggm (Re) Fig.
+2 Directions of the time-averaged Poynting vectors at each THEMIS spacecraft location.
+These are displayed in the Zosj,= — 2.1R_ (a) and Yosm = — 5.3 Re (b) planes.
+Coloured squares represent the THEMIS spacecraft positions.
+Black arrows emanating from these indicate normalised Poynting vectors.
+Grey arrows depict the magnetosheath flow velocity direction.
+A representative geomagnetic field line (grey) and model magnetopause location (black) are also shown.
+the wavelet transforms (see Fourier and wavelet techniques of ‘Methods’ for details) which are shown in Supplementary Fig.
+1 in time-frequency and in Supplementary Fig.
+2 as a function of frequency by averaging over the interval.
+The average Poynting directions at each spacecraft location are shown in Fig.
+2, showing excellent agreement across all spacecraft in the equatorial plane (panel a).
+These observations show MSE do not conform to the typical ULF wave paradigm of tailward propagation®*? (waveguide modes’ Poynting fluxes are directed tailward or have no net azimuthal component?’-*’; Kelvin-Helmholtz generated surface waves travel tailward and radiate energy into the magnetosphere*94!), The wave energy density (Fig.
+lh, q) is dominated by the magnetic component, though the kinetic energy becomes comparable later in the interval.
+The waves’ azimuthal energy velocity (Fig.
+li, r) is comparable to the flow speed in the magnetosheath (absolute value in grey) but oppositely directed, as indicated in Fig.
+2a, suggesting the two forms of opposing energy flux might balance one another out and result in no net energy flow, ie.
+an azimuthally stationary wave.
+This potentially may be behind the lack of azimuthal propagation in the observed boundary motion during this interval’? and may hold the key to how MSE are even possible away from the noon meridian.
+Since surface waves are formulated as collective magnetosonic waves on both sides of the boundary, the component of the NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 Poynting vector towards the magnetopause might be understood in terms of the magnetosonic dispersion relation (Eq.
+(7) of ref.
+1°) w* k, = —ky — kj +- 2 ) wv +20 - Ik-v,| ) r (3) where vy is the Alfvén velocity and c, the speed of sound.
+Under incompressibility, the last term is neglibigle resulting in a purely imaginary k, and thus evanescence over similar scales to the length of the geomagnetic field lines.
+We relax this assumption and use a complex frequency w = we, — iy with damping rate y>0, since surface waves on a boundary of finite thickness are thought to be damped?".
+For the magnetospheric side, the phase of the last term in Eq.
+(3) is negative (approximately twice that of w as the plasma beta is small) and thus k? has a negative imaginary component.
+This implies, for a physically reasonable solution with zero amplitude at infinity, k, should have a small real component pointed towards the magnetopause.
+We estimate that a damping ratio y/Wm,.
+= 0.15 should result in radial phase velocity components of ~10kms~! (and between 1 and 60kms~! for y/@.
+= 0.02 — 19%), ie.
+considerably smaller than the Alfvén speed of ~1000 kms~! and consistent with the average observed radial energy velocities of 9-46 km s~!.
+This sense of propagation is opposite to what is expected for a Kelvin-Helmholtz unstable boundary, where the sign of y is reversed (being a growth rate) and thus results in energy radiating into the magnetosphere.
+By conservation of energy flux across the boundary, the Poynting vector component towards the boundary would imply that damped magnetopause surface waves lose some of their energy to the magnetosheath.
+This energy pathway would be in addition to the theorised irreversible conversion of surface wave energy to the Alfvén continuum**.
+THE and THD both observed significant field-aligned energy flux also, seemingly less prominent at THA.
+One might naively expect no field-aligned energy flux for a standing surface wave.
+However, considering this is a dynamical mode involving surface waves reflecting and interfering along the field under asymmetric conditions and driving, a resultant flux in this direction may be expected.
+For example, reflection at the ionospheres is neither perfect nor is the absorption north-south symmetric**.
+This will yield a superposition of standing and propagating waves with a null point, shifted slightly from the standing wave’s nodes/antinodes, either side of which some resultant wave energy propagates to the respective ionospheres where it is dissipated*>.
+The field-aligned flux at THE and THD peaks approximately one MSE bounce time after the driving jet.
+The corresponding energy velocity is consistent with the surface wave phase speed (Eq.
+(1)).
+It, therefore, seems plausible that these signatures are due to both the dipole tilt (Fig.
+2b) resulting in different reflectances in both hemispheres and the localised driver exciting multiple harmonics with different relative phases causing shifts in the interference pattern.
+To the first point, the dipole tilt for this event was 17°, hence different conductances in the northern and southern ionospheres would be expected.
+Further, THA’s footpoint (66° geomagnetic latitudes) could also have a different conductance to that for THD and THE (71°, i.e.
+near/in the auroral oval)*4, which could result in a difference in the proportion of wave energy reflected back to the spacecrafts’ respective locations.
+To the second point, the wavelet transform demonstrates differences in the field-aligned Poynting fluxes for the two harmonics, most clearly shown in Supplementary Fig.
+2 where averaging over time has been applied.
+The time-averaged Poynting flux at the fundamental MSE frequency of 1.8mHz has a component in the direction of the geomagnetic field at all spacecraft, 4 NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 a Magnetopause normal displacement Return to Half wave equilibrium — period +1 +1 +0.01 Emp (Re) 0 10 2 30 40 50 60 t (min) b Power spectra of magnetopause perturbations 18 145 ine) — — Ke) ine) o>) oO T 10 15 h) MLT ( Secondary peaks Normalised PSD x1000 (Hz) Simp 2 5 W/277 (mHz) Azimuthal propagation of boundary perturbations 40 ; 4 6 8 10 12 14 16 18 20 MLT (h) Fig.
+3 Magnetopause motion in MHD simulation.
+a Normal displacement with magnetic local time (MLT).
+b Spectra of the displacement normalised by total power for each MLT (colour scale), with the root mean squared (RMS) also given inset.
+Azimuthal slowness (¢) and effective wavenumber (d) of filtered magnetopause perturbations for the raw data (lighter) as well as after applying MLT smoothing (darker), with corresponding standard errors shown in both cases as shaded areas.
+ARTICLE indicating the spacecraft were all located above this harmonic’s null point.
+The direction of the Poynting vectors agreed to within 26° and thus are consistent, taking noise into account.
+However, at the second harmonic MSE of 3.3mHz, while the Poynting vectors’ projections in the equatorial plane are similar (to within 9°), along the field we find that THE/THD observed southward fluxes, whereas at THA they were slightly northward (though not statistically significant from noise).
+A second harmonic wave has a node in displacement near the equator, thus at this frequency, the spacecraft observations are sensitive to which side of the null point they are located.
+In addition, smaller wavelength surface waves are less penetrating into the magnetosphere (Eq.
+(3)) which would weaken the signal at THA’s location.
+We conclude that THA was very close to the second harmonic MSE’s null point, whereas THE/THD were slightly below it.
+Nonetheless, the main result of interest in this paper, i.e.
+the fluxes radially and azimuthally, are in good agreement across all spacecraft at both frequencies.
+MSE’s fieldaligned energy flux may have implications on energy deposition in the ionosphere and warrants investigation in future work.
+The above analysis was limited to a relatively short interval of confirmed MSE activity following an isolated magnetosheath jet.
+However, several other jets were also observed on this day and it was noted that similarly directed Poynting vectors followed many of them.
+We, therefore, take a wider interval and compute the time-averaged Poynting vector as a function of frequency, as detailed in the Fourier and wavelet techniques section of ‘Methods’.
+This was performed for THA as it was the only spacecraft to experience uninterrupted magnetospheric observations.
+Supplementary Fig.
+3 shows that at MSE frequencies (dotted lines) the radial and azimuthal Poynting vector components were statistically significant and in agreement with the previous results, namely outward and eastward.
+The parallel Poynting flux is positive at MSE frequencies indicating that THA was overall located above the respective null points of these waves“, We note that there is a reversal of the parallel Poynting flux around the local Alfvén mode frequency (6.7 mHz) thus unrelated to MSE.
+The typical tailward energy-flow paradigm emerges only at much higher frequencies (>10 mHz).
+Global MHD simulations.
+To further test our hypotheses from the THEMIS observations, global MHD simulations of the global magnetospheric response to a 1 min large-scale solar wind density pulse are now employed (see Global MHD simulations in ‘Methods').
+This reproduces a previous simulation**, where the subsolar response could only be explained by MSE and not other mechanisms.
+The normal displacement of the magnetopause in the XY plane is shown in Fig.
+3a.
+This highlights the dayside magnetopause undergoes a strong compression when the pulse arrives, rebounds returning to equilibrium (dashed line) but overshoots, subsequently undergoing damped oscillations.
+Results are identical on both flanks due to the symmetry of the system and driver.
+The oscillations’ primary frequency is 1.4 mHz at all local times (panel b), consistent with a fundamental MSE*.
+A secondary peak in the spectra, not previously reported, grows further downtail between 2.5 and 3.3 mHz.
+Both spectral peaks are associated with the damped oscillations and not the broadband initial compression/rebound motions, as checked by a wavelet transform.
+The secondary mode is likely due to (and at the frequency which maximises) the Kelvin-Helmholtz instability, given the increasing flow shear across the boundary down the flanks*°.
+Both modes become larger in amplitude (panel b and inset) and persist longer (panel a) further downtail, though the primary mode is always dominant.
+This suggests that MSE at NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications 5 ARTICLE Sun-Earth Line (Y ar or = ep) O NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 Z ~<,, =0) GSM —~“GSM Magnetopause (km s!) OV 0 10.
+20 40 50 60 t (min) Fig.
+4 Unfiltered perturbations in MHD simulation along the Sun-Earth line.
+Panel a shows motion of the bow shock (grey) and magnetopause (black) about equilibrium.
+Subsequent panels show perturbations in the b radial velocity, ¢ azimuthal velocity and d compressional magnetic field components (note the bi-symmetric log scale).
+Median absolute perturbations by distance are displayed to the right as the dark grey areas on a logarithmic scale.
+The bow shock (light grey) and magnetopause (black) locations are also plotted.
+1.4mHz, which originates on the dayside magnetopause, seeds fluctuations that subsequently grow via Kelvin-Helmholtz in the flanks despite not being at the instability’s peak growth frequency.
+We now investigate the propagation of the 1.4mHz magnetopause oscillations, extracted as described in the time-based filtering section of ‘Methods’.
+From Fig.
+3a it appears that across much of the dayside the waves do not propagate azimuthally (the phase fronts are vertical), whereas it is clear in the flanks that tailward propagating waves are present (inclined fronts, see also Supplementary Movie 1).
+Here, we quantify this propagation via the azimuthal slowness sg (reciprocal of apparent phase speed, see slowness in 'Methods') since the slowness vector is always normal to phase fronts*®.
+The results are shown in Fig.
+3c.
+This reveals that between ~09-15h MLT the slowness is zero and thus the surface wave is apparently azimuthally stationary in this region.
+Further down both flanks though, the usual tailward motion is recovered.
+It may be instructive to express effective local azimuthal wavenumbers mg = syWP np (¢), shown in panel d (inp (@) is the magnetopause geocentric distance at each azimuth).
+Care must be taken in interpreting these since the magnetopause crosses L-shells and is not azimuthally symmetric, so the dependence cannot be expressed simply as exp (im@) everywhere.
+Instead, a superposition of wavenumbers will be present, with my capturing the local azimuthal propagation of the overall phase*’.
+gy is zero in the stationary wave region, rises slowly to ~0.5 by the terminator, then more rapidly increases to ~1 within a further 2h of LT.
+This global structure cannot be attributed to the driver, since the intersection of the pressure pulse with the magnetopause on arrival spans 08-16h MLT, ice.
+larger than the stationary region.
+We now look at the grid point data within the simulation.
+Supplementary Movie 1 shows the compressional magnetic field perturbations in the XY and XZ planes.
+Figure 4 shows boundary (panel a), radial (b) and azimuthal (c) velocity, and compressional magnetic field (d) perturbations along the Sun—Earth line These demonstrate that the arrival of the pressure pulse and inward magnetopause motion launches a compressional wave into the dayside magnetosphere which reflects at/near the simulation’s inner boundary and subsequently leaks into the magnetosheath where it dissipates.
+This all happens within ~2 min (i.e.
+before the magnetopause has finished rebounding) in agreement with the magnetosonic speed profile.
+Such a short timescale provides further evidence (in addition to that in ref.
+>*) that the subsequent magnetopause oscillations on the dayside cannot be attributed to cavity/waveguide modes as the lowest-frequency (quarter wavelength*®) mode should be2=4mHz.
+Azimuthal velocities are negligible, hence there is no evidence of toroidal Alfvén waves in this region.
+The MSE signatures instead are radial plasma motions and associated compressions/rarefactions of the 6 NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 Terminator (X 0.2 ani c o 2 19.2 102 _ 101 ® 100 g ) ~ -10° > “a { -10 -107 20 7 65 10 > 5 10! c 10° Cc — O MO -10° -10! 0 10 20 GSM — ARTICLE Z osm =9) Magnetopause |55 -1 OV 5 (kms) 40 50 60 t (min) Fig.
+5 Unfiltered perturbations in MHD simulation along the equatorial terminator.
+Formatting is the same as Fig.
+4.
+a shows the motion of the magnetopause (black) about equilibrium.
+Subsequent panels show perturbations in the b radial velocity, ¢ azimuthal velocity and d compressional magnetic field components (note the bi-symmetric log scale).
+Median absolute perturbations by distance are displayed to the right as the dark grey areas ona logarithmic scale.
+The magnetopause (black) location is also plotted.
+magnetic field, both of which decay in amplitude with distance from the magnetopause as indicated by the median absolute perturbations (grey areas in Fig.
+4).
+The phase fronts, however, are not purely evanescent and can be seen propagating towards the magnetopause on the magnetospheric side.
+This occurs rather slowly though at around 30-40kms~! near the boundary, in agreement with the estimates due to damping made earlier.
+Deeper into the magnetosphere more evanescent and _ less propagating behaviour is found, as expected from Eq.
+(3) due to the greater Alfvén speeds.
+The magnetic field perturbations on either side of the boundary are in approximate antiphase with one another throughout the dayside (note the magnetopause thickness in the simulation is ~1.5 Rpg, considerably larger than in reality since gyroradius-scales are not resolved*?).
+There is evidence of large-scale bow shock motion related to MSE, a consequence that has not been considered before.
+At the subsolar point (see Fig.
+4) the bow shock lags the magnetopause motion by ~1 min, consistent with the fast magnetosonic travel time through the magnetosheath, confirming that the resonance is occurring at the magnetopause and subsequently driving the shock oscillations.
+This lag occurs because magnetosheath plasma is highly compressible?! 7°, thereby deviating from the evanescent behaviour expected under incompressibility.
+Since both the magnetopause and bow shock move asynchronously, the patterns present in the subsolar magnetosheath are somewhat complicated.
+These could be explored further in the future.
+In Supplementary Movie 1, magnetic field perturbations in the equatorial plane are in phase across much of the dayside showing little evidence of azimuthal propagation, confirming that ky is much smaller than k, and k,.
+Tailward travelling disturbances can be seen emanating from the oscillations near the dayside magnetopause only at ~09 h and 15h MLT, hence are associated with the propagating surface waves discussed earlier.
+Supplementary Movie 2 separates out these two regimes for further clarity.
+Further down the flanks, at ~07 h and 17h MLT, structure normal to the magnetopause emerges with strong peaks/ troughs ~2R; inwards from the boundary.
+Figure 5 shows cuts along the terminator.
+This reveals, in addition to the surface waves, the presence of a quarter wavelength waveguide mode*”*8 (at the magnetopause there is a dv, antinode and 6B, node; dB exhibits nodal structure radially).
+The waveguide mode couples to a toroidal Alfvén mode”? at Yoo, ~11.5 Rg (dvg antinode).
+These two modes occur at the same ~ 10 min period as the surface waves that originate at the subsolar point.
+Therefore, MSE can couple to body eigenmodes in regions of the magnetosphere where their frequencies sufficiently match (checked through timeof-flight estimates).
+Magnetospheric Alfvén speed profiles are highly variable and significantly alter the eigenfrequencies of both body modes?!, thus we expect that whether and where this coupling may occur will vary substantially.
+In the XZ plane, Supplementary Movie 1 reveals that the ~10 min period oscillations do not extend beyond the cusps NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications 7 ARTICLE [8.0,-5.0,0.0] R.
+GSM 10 _ a Raw a .
+mM 6) at) E 8 — © m= © a se! C Raw 7 ————e a \\wW A a _ 1 = -10 | 2 S10 "8 EQ z=” ~ Ore ip Raw E 10 / \ i= Ss  -10 0.2 Filt iE [\_ 7 EB r fN — -_ as _ 5E, SUI oo ES Jv | 200 .
+02 * 400 ee S i) = SZ 200f inst | Ww E,| > oF — — — — — 0 5 10 15 20 25 30 35 40 45 #450 Fig.
+6 Virtual spacecraft observations within MHD simulation.
+Displayed in a similar format to Fig.
+1.
+From top to bottom the first set of panels show perturbations in the magnetic (a, b), ion velocity (¢, d) and electric (e, f) fields.
+In these vertical pairs, top panels show the raw data, whereas the bottom panels show the filtered data.
+Subsequent panels depict the Poynting vector (g) and energy density (h), showing instantaneous (thin) and time-averaged (thick) values.
+Finally, the energy velocity (i) is shown compared to the absolute magnetosheath flow speed (grey).
+Note the bisymmetric log scale on panels a, ¢, e.
+into the northern and southern tail lobes.
+The waves are thus confined to closed magnetic field lines, further backing the surface eigenmode interpretation.
+We finally study energy propagation throughout the simulation.
+Figure 6 shows results from a virtual spacecraft in the magnetosphere close to the boundary at roughly the same location as THE.
+Computing the Poynting vector as before (panel g) shows it to be directed azimuthally towards the subsolar point and slightly radially outwards, similarly to the observations.
+This corresponds to an energy velocity (panel i) approximately equal but opposite to the background magnetosheath flow speeds (grey) at this local time, like in the observations.
+Figure 7 shows equatorial maps of the time-averaged Poynting (panel a) and advective (panel b) energy fluxes as well as the sum of the two (panel c).
+Within the magnetosphere, the Poynting vectors are directed azimuthally towards the subsolar point across the NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 entire dayside, flipping direction at around the terminator to recover the more usual tailward energy flux associated with Kelvin-Helmholtz generated surface waves and waveguide modes?’404!, Later within the simulation, however, this point of reversal does slowly move slightly towards noon by ~1 h of MLT on both flanks as the wave energy dissipates.
+A component directed towards the magnetopause is also present across the dayside until well into the flanks and the continuity of this energy flux into the magnetosheath is apparent.
+The advective energy flux in Fig.
+7b consists predominantly of the tailward flow throughout the magnetosheath.
+Therefore, the sum of the two clearly shows across the dayside that energy fluxes tangential to the magnetopause are in opposition to one another on either side.
+A small amount of energy flows across the boundary from the magnetosphere into the magnetosheath, which will then be swept downtail.
+We, therefore, investigate the potential balance of tangential energy fluxes on either side of the magnetopause in Fig.
+8.
+At each local time, we construct rays normal to the equilibrium magnetopause and interpolate the time-averaged Poynting (panel a) and advective (panel b) energy fluxes, taking the component tangential to the boundary.
+Integrating these along the normal, we arrive at panel c showing the total tangential energy flux across both sides of the magnetopause.
+This demonstrates the tailward energy flow due to advection (green) and opposing Poynting flux (purple) across the dayside.
+Taking the sum of these shows that they cancel out between 08:40 and 15:20 MLT, i.e.
+the local time range for which the magnetopause oscillations were found to be azimuthally stationary.
+This range is stable in time for the duration of the oscillations.
+The results, therefore, demonstrate that the stationary nature of MSE azimuthally is due to a balance of the surface wave Poynting flux directed towards the subsolar point opposing the tailward magnetosheath flow.
+Outside of this region, however, even when the Poynting flux is in opposition to the magnetosheath flow it is unable to overcome advection and thus travelling surface waves result.
+Analytic MHD theory.
+Finally, we look to incompressible MHD theory (where k; + kj +k); =0 for surface waves!®31) to understand this picture of the energy flow and azimuthal propagation present within MSE.
+We consider a fundamental mode magnetopause surface wave of amplitude A in displacement within a box model magnetosphere with homogeneous half-spaces as depicted in Fig.
+9a.
+The azimuthal component of the Poynting vector at the equator on the magnetosphere side of the boundary for northward IMF is given by (Eq.
+(15) of ref.
+49) eo Bo S ) = A*ak I SP ( ,sph "ks 4 k; 2Uy exp (—2|Sm(k,) | + — rnp] (4) with its equivalent on the magnetosheath side being Bo sh / Bo sph times this and thus negligible.
+The wave energy densities are (following Eqs.
+(11) and (13) of ref.
+4°) 2 4 Bo sph A? ki a .
+as) = NS d — Ne & s = NS | 4uy kg + kj 1 2e +h (Umsh) io (ie msh ) — Posi A? F530 eX (—2/Sm(k,) | + rnp Constructing the net energy velocity of the surface wave and 8 NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 Poynting Yesm (Re) -10 “2 ARTICLE Advective t=25min Eastward Westward 7 6 log, [Energy Flux (W mi*)] Fig.
+7 Wave energy flux maps.
+Panels show time-averaged wave Poynting (a), advective (b) and total (¢) energy fluxes.
+Magnitude (colour) and direction (arrows) are shown along with the equilibrium magnetopause (white dashed) and virtual spacecraft location from Fig.
+6 (star).
+simplifying using Eq.
+(1) gives (Sy, ) + (Sinsh) + (Umsh)Vo.msh VE.tot — ° (tsp + Unsh kk Bo oh 1 Bo sph k7(2k2 + i ORK Quy FT 4Po.msh dopo man ILO TS) YOmsh (7) Bi ft oR (oa 2\) Z i + w+ (2k; + ki) ak ‘ 2k 7 ky : Yo.
+msh g bey ks + k 2(k; 4 kK) By setting this to zero, ie.
+no net azimuthal energy flow, and solving for real azimuthal wavenumbers yields the requirement W —2 ! This sets a limit on where it is possible for surface wave energy to be trapped locally due to the speed of the adjacent magnetosheath.
+We can frame this limit purely in terms of solar wind and magnetosheath conditions using Eq.
+(2) as 2V0 msh (9) Yew (10) According to gas-dynamic models of magnetosheath plasma conditions’, this is satisfied for 08:40 - 15:20 h MLT, in excellent agreement with the stationary region in the global MHD simulation.
+This extent should vary only slightly with solar wind conditions (based on previous magnetosheath and MSE variability studies*>*), however, future work could test this.
+Discussion In this paper, we show that the recently discovered magnetopause surface eigenmode (MSE), the lowest-frequency normal mode of a magnetosphere, does not conform to the well-established paradigm in global magnetospheric dynamics of tailward propagation.
+Multi-spacecraft observations, global MHD simulations and analytic MHD theory are employed.
+Both the observations and simulation show Poynting vectors in the magnetosphere which point towards the subsolar point across the dayside, contrary to current models of the magnetospheric response to impulsive driving”.
+This energy flux thus opposes advection by the magnetosheath and we find from the simulation that these two cancel one another in the region 09-15 h magnetic local time, resulting in an azimuthally stationary surface wave.
+Outside of this region, however, the waves travel tailward.
+Considering surface wave energy fluxes in a simple box model of the magnetosphere shows excellent agreement with the simulation on the conditions required for a stationary wave to be possible.
+Our conclusions are summarised in Fig.
+9 within this box model.
+When an impulsive solar wind transient arrives at the magnetopause, its broadband nature excites surface waves on the boundary with a wide range of frequencies w and wavevectors k.
+The boundary conditions at the northern and southern ionospheres quantise the possible values of k, largely determining a, however, ky will be unconstrained as depicted in panel a.
+For large magnetosheath flow speeds (panel b), none of the excited wavevectors are able to compete with advection and the resultant motion is tailward, in line with expectations.
+In the regime of small magnetosheath flow speeds (panel c), however, there exists an excited ky in opposition to the magnetosheath flow which is able to exactly balance its advective effect.
+This leads to surface wave energy being trapped locally as an azimuthally stationary wave.
+All waves of other kg will be lost down the tail.
+This picture not only explains the global propagation of magnetopause surface waves but also how MSE on the dayside can seed fluctuations into the magnetospheric flanks.
+The simulation shows that these seeded waves which originate on the dayside subsequently grow in amplitude via the Kelvin-Helmholtz instability, despite being at a lower frequency to its intrinsic one, and may couple to cavity/ waveguide and Alfvén modes in regions of the magnetosphere where their frequencies match.
+This reveals MSE’s effects are not confined merely to the dayside (standing) region, instead having global effects on the magnetosphere as its most fundamental normal mode.
+The cartoon highlights that, at each location on the boundary, after the other (blue) wavevectors have been swept downtail and the boundary has formed its resonance, the physics of the azimuthally stationary surface wave is confined to a small local time region, i.e.
+a single meridian of geomagnetic field lines.
+While the initial perturbation on the boundary and the corresponding transient response will depend on the specifics of the driving NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications 9 ARTICLE Tangential Energy Flux (4Wm~*) -0.1 -0.05 0 0.05 0.1 + Westward Eastward ——> msh Normal distance (R_) ash, |b Advective cc" DD ————<—$———— me 0 > e 19 DO xe) -2 = = sph 1-3 9 -4 5 c Integrated — Poynting | = = 5 = 5 8 LL Lu > > © ul 5 pe: Fa £ D © S od) cab) E 5 6 8 10 12 14 16 18 MLT (h) Fig.
+8 Wave energy fluxes tangential to the magnetopause.
+Panels show Poynting (a) and advective (b) energy fluxes tangential to the magnetopause along magnetopause normals.
+Integrals along the normal are shown in panel ¢ for the Poynting (purple) and advective (green) fluxes along with their sum (black).
+pressure variation (scale sizes, location of impact etc.), one can simply decompose the initial perturbation at each local time into the normal modes along the field (MSE) and this should entirely dictate the subsequent resonant response at that local time.
+Indeed, the local boundary motion and Poynting fluxes were in agreement across both observations and simulations despite different scale size drivers being leveraged.
+The locality to the physics means that the azimuthally stationary wave should be limited to the local times in which the driver impacted the magnetopause, hence the scale of the driver in azimuth (within the 09-15h local time range) would be imprinted in the stationary waves excited.
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 a Box Model Setup N lonosphere Magnetopause f v = £ g 2) n = L o ae 2 S = = ] b ts Impulsive & Broadband .
+Pressure Pulse b Large Magnetosheath Flow (MLT < 09h or MLT > 15h) <— low advects surface wave energy No k vector exists where surface wave energy velocity can compete with magnetosheath flow Tailward propagating surface waves (Typical paradigm) c Small Magnetosheath Flow (09h < MLT < 15h) k vector where surface wave energy velocity is equal and opposite to magnetosheath flow Azimuthally stationary surface waves (Contrary to typical paradigm) Fig.
+9 Cartoon illustrating the results of this study.
+a shows the box model magnetosphere, magnetosheath flow (white), and surface mode wavevectors (dark blue) excited by the pressure pulse (orange).
+Subsequent panels depict the resultant energy flow (lighter coloured arrows) of the surface mode wavevectors for (b) large and (¢) small magnetosheath flows.
+These results raise the question why only tailward propagating dynamics are reported in current models and observations of the magnetospheric response to impulsive driving®.
+It is clear that the models do not incorporate the possibility of surface wave reflection due to bounding by the ionosphere, which is key to our results, since while this was proposed long ago? it has only recently been discovered**°.
+MSE constitute the lowest possible frequency normal mode of the magnetospheric system and its fundamental frequencies can often be fractions of milliHertz*?.
+10 NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 Such long-period narrowband waves are challenging to identify observationally in general, either by orbiting spacecraft or ground-based measurements, due to potential spatio-temporal mixing*“ and the difficultly in distinguishing from turbulence/ noise>>°®.
+For these reasons global magnetospheric dynamics and their associated ULF waves have often concentrated on the continuous pulsation (Pc) bands above 2 mHz”’, which would not typically incorporate the effects presented here.
+Furthermore, Fig.
+9 shows that the majority of surface wave energy excited by the driver does still propagate tailward, with only a small amount being trapped locally that propagate against the flow.
+Therefore, if further upstream driving by pressure variations occurs during these oscillations, the superposition of waves present could easily mask the sunward Poynting vectors associated with MSE thereby showing only a net tailward energy flow.
+Future work is required in developing less restrictive observational criteria for the detection of MSE in general and to undertake statistical studies of MSE occurrence to better understand how common this mode, and the results presented on its energy flow, may be in reality to the variety of impulsive drivers that impact on geospace.
+The global waves associated with this normal mode of Earth’s magnetosphere, possible due to the surface wave propagation against the magnetosheath flow, will have important implications upon radiation belt dynamics”®.
+The large-scale oscillations of the magnetopause may cause the further shadowing of radiation belt electrons than predicted simply by a pressure-balanced quasistatic response to the driver.
+Furthermore, MSE’s ULF wave signatures present coherent and slowly varying perturbations in compressional magnetic fields and azimuthal electric fields which deeply penetrate across the entire dayside magnetosphere, which may be ideal for the drift-resonant interaction and/or radial diffusion of radiation belt particles.
+However, current methods of understanding these processes are suited only to the inner magnetosphere since they assume azimuthal symmetry, therefore, more work is required in assessing the impact on the radiation belts of this normal mode and asymmetric outer magnetospheric waves in general.
+While the observations confirm significant energy flow along the magnetic field towards the polar regions, the wide region of stationarity from the simulations suggests weak coupling of the surface waves to the Alfvén mode across the dayside.
+This implies MSE have auroral, ionospheric, and ground magnetometer signatures unlike other known ULF waves, with these remaining poorly understood**?.
+In the flanks, however, it seems likely that MSE-seeded waves could at times easily be mistaken for intrinsic Kelvin-Helmholtz waves or waveguide modes, despite the origin of the fluctuations on the dayside as shown in the simulation.
+These factors may be why previous ground-based searches, through widely used diagnostics for other wave modes, called MSE’s existence into question?®°’.
+The work thus highlights that care needs to be taken in understanding the mechanisms which result in various dynamical modes in nearEarth space since they can all be intimately coupled.
+Surface waves are known to be present at the other planetary magnetospheres®.°!, which span a vast range of sizes, morphologies and plasma conditions®’.
+The surface eigenmode in principle should be a _ universal feature of boundaries in magnetospheres*”, and thus the simple analytic theory presented here (in the magnetospheric reference frame) may be instructive in assessing where and in what frequency ranges these fundamental dynamics of the boundary may be prevalent at other environments.
+The simple predictions could then be compared to tailored global MHD simulations of these systems as well as spacecraft observations.
+Many other space and astrophysical systems too exhibit surface waves where, like in the case of a magnetopause, substantial ARTICLE background flows may be present.
+A notable example is the sausage and kink modes of coronal loops, which share many conceptual similarities to the surface eigenmodes—they are standing (though sometimes propagating) transverse oscillations of the dense flux tubes in coronal active regions, anchored on both ends by the chromosphere, excited by loop displacements from coronal eruptions or shear flows in coronal plasma nonuniformities*°’.
+Asymmetric and/or inhomogeneous _ flows around/along these structures affect surface wave evolution, with important space weather consequences such as causing coronal mass ejections to turn away from their original propagation direction®*, though these effects are not typically incorporated into models of coronal loop oscillations.
+Our results from in situ observations at the magnetopause (not possible for the corona and other space/astrophysical environments) challenge the paradigm that surface waves necessarily propagate in the direction of the driving flow/pressure, as when discontinuities are bounded the trapping of surface waves may occur in opposition to advective effects, allowing these waves to form across broader regions and to persist longer than would otherwise be expected.
+The work may therefore have insights into the structure and stability of these universal dynamical modes elsewhere.
+Methods Poynting’s theorem for MHD waves.
+Energy conservation for MHD wave perturbations (denoted by 6's with subscript 0’s representing equilibrium values) involves the wave energy density |SB|? 11 Duly (11) 1 (consisting of magnetic ug and kinetic ux contributions) and wave energy flux given by the Poynting vector®° OEx 6B S= Ho where E is the electric field.
+Time-averaging and taking their ratio yields the socalled energy velocity (12) v=" E (u) ) equivalent to the group velocity for stable waves®°.
+In a moving medium, wave energy advects with the background plasma, giving an additional flux uvp.
+These principles are applied throughout.
+(13) Spacecraft observations.
+Observations in this paper are taken from the Time History of Events and Macroscale Interactions during Substorms (THEMIS**;) spacecraft taken during the previously reported interval of MSE%°.
+The five spacecraft were close to the equilibrium magnetopause in a string-of-pearls formation.
+Data from the fluxgate magnetometer (FGM)°”, electrostatic analyser (ESA)® and electric field (EFI)®? instruments are used.
+Note for the latter, we use the E- B=0 approximation (valid over ULF timescales) for THD and THE to replace the measured axial fields at each time, however, the instrument was not yet deployed by THA so E= —v~x Bo is used, which was found to be reliable for the other spacecraft.
+We note that THA plasma measurements were not available prior to 22:08 UT.
+Magnetosheath intervals have been removed from THA, THD and THE observations, identified when the electron density was greater than 5 cm~? or the magnetic field strength was less than 45 nT.
+Vectors within the magnetosphere have been rotated into local orthogonal field-aligned coordinates (r, ¢, ||).
+The fieldaligned direction (||) is given based on a robust linear regression of the magnetic field vectors’®”!, with the azimuthal (¢) direction being the cross product of || with the spacecraft’s geocentric position thus pointing eastward, and the radial (r) direction completing the right-handed set directed away from the Earth.
+While this coordinate rotation may result in some small E), these are negligible compared to the other components and do not influence the results.
+Global MHD simulations.
+We reproduce a high-resolution (; — Rg in the regions considered in this paper, see Supplementary Fig.
+4 for grid) Space Weather Modeling Framework (SWMF’”?;) simulation run of MSE excited by a 1 min solar wind density pulse (with sunward normal) under northward IMF°?.
+Full details of the run are given in Supplementary Table 1.
+For all simulation quantities, perturbations are defined as the difference to the linear trend before (t = 0 min) and after (t = 60 min) the response to the pulse.
+Vectors are rotated into similar local field-aligned coordinates.
+The magnetopause location is determined as the last closed field line along geocentric rays through a bisection method accurate to NATURE COMMUNICATIONS | (2021)12:5697 | https://doi.org/10.1038/s41467-021-25923-7 | www.nature.com/naturecommunications 11 ARTICLE 0.01 Rp.
+The bow shock standoff distance has been identified via interpolation as the point where the density is half that in the solar wind.
+In displaying perturbations in the simulation, a bi-symmetric log transform” is often employed due to the much larger amplitudes present during compression and rebound phases.
+Time-based filtering.
+A time-based filtering technique is used to extract MSE wave perturbations and suppress noise and higher/lower frequency signals.
+This was chosen to avoid the potential influence of ringing artefacts or edge effects when using frequency-based methods due to the nonstationary process.
+Nonetheless, several different filtering methods were tested and the main results of the paper remained robust.
+In the method presented for the spacecraft observations, first the raw data are smoothed using a 400 s robust LOESS method’?.
+For stationary processes, this has a corresponding cutoff frequency of 3.6 mHz, therefore retains both the 1.8 mHz fundamental and 3.3 mHz second harmonic MSE signals present>>.
+To remove any lower frequency trends still present, the mean envelope from cubic Hermite interpolation”® is subtracted.
+These effectively bandpass filtered quantities are used for calculating the instantaneous wave Poynting vectors and energy densities.
+A time-averaging method is performed also by using the mean envelope from interpolation.
+The time-based methods used also allow uncertainties to be estimated.
+This is done via a running root-mean-squared (RMS) deviation between the raw and LOESS smoothed time-series, which are then propagated through the subsequent methods used’”78, To extract the MSE signal from the simulation, either in magnetopause location or grid point data, we firstly neglect the initial large amplitude compression and rebound.
+This is done by only using data from half an MSE period after the magnetopause’s return to equilibrium, i.e.
+after the dotted line in Fig.
+3a.
+For grid point data, the timing at the magnetopause with the same X coordinate is used.
+The secondary spectral peak is then suppressed using the same filtering procedure as for the THEMIS data.
+The only differences are that standard (rather than robust) LOESS is used due to reduced temporal resolution, and the window size used was 570 s corresponding to a 2.4 mHz cutoff.
+Fourier and wavelet techniques.
+To compute time-averaged Poynting vectors as a function of frequency a standard complex Fourier approach is used (Eq.
+(2) of ref.
+79) _ Re(E(w)x B*(@)) (S(o)) 7 2Uo This is done both in frequency—space using Welch’s method®? in computing onesided cross spectra, i.e.
+the products of electric and magnetic field components, and in time-frequency space using products of analytic Morse continuous wavelet transforms®*!.
+In both cases, a null hypothesis of autoregressive noise is assumed, where the AR(1) parameters for each component of the electric and magnetic fields are estimated using constrained maximum likelihood and 500 independent Monte Carlo simulations are performed based on these models®*, with 95% confidence intervals being constructed by taking percentiles (2.5 and 97.5%) of the resulting time-averaged Poynting vectors.
+(14) Slowness.
+To quantify the propagation of MSE boundary perturbations, the slowness was computed through cross-correlating the filtered magnetopause signals between adjacent local times.
+By interpolating the peak to find its corresponding time lag At, the azimuthal slowness is given by At sy = — * [Ar where |Ar| is the distance between the two points on the boundary used.
+Standard errors in the correlation coefficient were also calculated and propagated through the interpolation procedure to arrive at uncertainties.
+(15) Data availability The THEMIS spacecraft data are available at http://themis.ssl.berkeley.edu/data/themis/ where level-2 data from the FGM, ESA and EFI instruments on each spacecraft has been used in this study.
+The SWMF simulation data generated in this study are available in the Community Coordinated Modeling Center (CCMC) at https://ccmc.gsfc.nasa.gov/ results/viewrun.php?domain=GM &runnumber=Michael_Hartinger_061418_1.
+Code availability The SWMEF and BATS-R-US (Block-Adaptive Tree Solarwind Roe-type Upwind Scheme) software are available at https://github.com/MSTEM-QUDA.
+The SWMEF and BATS-RUS tools used are available at https://ccmce.gsfc.nasa.gov.
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-021-25923-7 .

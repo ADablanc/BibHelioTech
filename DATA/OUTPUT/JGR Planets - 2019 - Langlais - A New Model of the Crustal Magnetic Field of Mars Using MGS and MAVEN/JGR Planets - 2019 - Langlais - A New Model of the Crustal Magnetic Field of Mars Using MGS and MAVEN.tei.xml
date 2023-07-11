@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">A New Model of the Crustal Magnetic Field of Mars Using MGS and MAVEN</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2019">12 JUN 2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Benoit</forename><surname>Langlais</surname></persName>
+							<email>benoit.langlais@univ-nantes.fr</email>
+							<idno type="ORCID">0000-0001-5207-304X</idno>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Erwan</forename><surname>Thébault</surname></persName>
+							<idno type="ORCID">0000-0003-0578-517X</idno>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Aymeric</forename><surname>Houliez</surname></persName>
+							<idno type="ORCID">0000-0003-0880-3310</idno>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Michael</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+							<idno type="ORCID">0000-0003-0880-3310</idno>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+							<idno type="ORCID">0000-0003-0578-517X</idno>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+							<affiliation key="aff0">
+								<address>
+									<region>&apos; , , , Royal , , Planetary</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">A New Model of the Crustal Magnetic Field of Mars Using MGS and MAVEN</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2019">12 JUN 2019</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">E7379EF834777DAD1983269AF11867D6</idno>
+					<idno type="DOI">10.1029/2018JE005854</idno>
+					<note type="submission">Received 15 OCT 2018 Accepted 26 APR 2019 Accepted article online 1 MAY 2019</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T14:48+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>• Supporting Information S1 • Table S1</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>While devoid of an active magnetic dynamo field today, Mars possesses a remanent magnetic field that may reach several thousand nanoteslas locally. The exact origin and the events that have shaped the crustal magnetization remain largely enigmatic. Three magnetic field data sets from two spacecraft collected over 13 cumulative years have sampled the Martian magnetic field over a range of altitudes from 90 up to 6,000 km: (a) Mars Global Surveyor (MGS) magnetometer (1997)(1998)(1999)(2000)(2001)(2002)(2003)(2004)(2005)(2006), (b) MGS Electron  Reflectometer (1999<ref type="bibr" target="#b64">-2006)</ref>, and (c) Mars Atmosphere and Volatile EvolutioN (MAVEN) magnetometer (2014 to today). In this paper we combine these complementary data sets for the first time to build a new model of the Martian internal magnetic field. This new model improves upon previous ones in several aspects: comprehensive data coverage, refined data selection scheme, modified modeling scheme, discrete-to-continuous transformation of the model, and increased model resolution. The new model has a spatial resolution of ∼160 km at the surface, corresponding to spherical harmonic degree 134. It shows small scales and well-defined features, which can now be associated with geological signatures.</p><p>The origin of the Martian magnetic field remains, however, debated. The characteristics of the past dynamo are unknown. Different core regimes and magnetization acquisition processes have been proposed. These</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The Mars Global Surveyor (MGS) mission <ref type="bibr">(1996)</ref><ref type="bibr">(1997)</ref><ref type="bibr">(1998)</ref><ref type="bibr">(1999)</ref><ref type="bibr">(2000)</ref><ref type="bibr">(2001)</ref><ref type="bibr">(2002)</ref><ref type="bibr">(2003)</ref><ref type="bibr">(2004)</ref><ref type="bibr">(2005)</ref><ref type="bibr">(2006)</ref> led to major discoveries, including the discovery of the enigmatic crustal magnetic field <ref type="bibr" target="#b2">(Acuña et al., 1998)</ref>. Before this mission it was not known if Mars possessed an internally generated magnetic field or not. Based on the sparse measurements available, some defended a weak planetary field <ref type="bibr" target="#b21">(Dolginov &amp; Zhuzgov, 1991;</ref><ref type="bibr" target="#b49">Moehlmann et al., 1991;</ref><ref type="bibr" target="#b67">Slavin et al., 1991)</ref>, while some argued for localized magnetic anomalies <ref type="bibr" target="#b48">(Moehlmann, 1992)</ref>. For instance, <ref type="bibr" target="#b26">Hood and Hartdegen (1997)</ref> suggested that a maximum remanent magnetic field could be recorded above Tharsis region, reaching an amplitude of 5 nT at 300-km altitude.</p><p>The actual figure of the Martian magnetic field is very different from what was anticipated. Like all other terrestrial bodies <ref type="bibr" target="#b15">(Connerney, 2007)</ref>, Mars has its own and unique magnetic signature. Measurements by MGS and models derived from these measurements show a planet that is devoid of a planetary scale magnetic field of deep, core origin, as is the case for the Earth (e.g., <ref type="bibr" target="#b71">Thébault et al., 2015)</ref> or for Mercury (e.g., <ref type="bibr" target="#b6">Anderson et al., 2011)</ref>. Instead, it possesses very localized magnetic field anomalies. Such anomalies are also found on the Earth (e.g., <ref type="bibr" target="#b39">Lesur et al., 2016)</ref>, the Moon (e.g., <ref type="bibr" target="#b59">Purucker &amp; Nicholas, 2010)</ref>, and Mercury <ref type="bibr" target="#b25">(Hood, 2016;</ref><ref type="bibr" target="#b29">Johnson et al., 2015)</ref>, but the Martian anomalies are 1 or 2 orders of magnitude more intense than on these bodies.</p><p>There is a wealth of maps and models based on MGS measurements, which display a similar picture (e.g., <ref type="bibr" target="#b7">Arkani-Hamed, 2007;</ref><ref type="bibr" target="#b9">Cain et al., 2003;</ref><ref type="bibr" target="#b12">Chiao et al., 2006;</ref><ref type="bibr" target="#b37">Langlais et al., 2004;</ref><ref type="bibr">Lillis et al., 2008;</ref><ref type="bibr" target="#b52">Morschhauser et al., 2014;</ref><ref type="bibr" target="#b60">Purucker et al., 2000;</ref><ref type="bibr" target="#b77">Whaler &amp; Purucker, 2005)</ref>. To first order, the magnetic field distribution mimics that of the topography. Most of the highly magnetized terrains are found in the southern highlands; most of the easily identified giant basins, volcanic provinces, and the northern lowlands are devoid of significant magnetic fields at spacecraft altitudes (above 150 km or so). It is universally accepted that these measurements and models imply that Mars once possessed a global magnetic field powered by a core dynamo, during a time period long enough for minerals to acquire a strong magnetization which has persisted until today.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Geophysical Research: Planets</head><p>10.1029/2018JE005854 include, for instance, a dynamo driven by a hemispheric heat flux pattern at the core mantle boundary <ref type="bibr" target="#b5">(Amit et al., 2011;</ref><ref type="bibr" target="#b20">Dietrich &amp; Wicht, 2013;</ref><ref type="bibr" target="#b69">Stanley et al., 2008)</ref> and a dynamo alternatively stopped by or initiated by a giant impact <ref type="bibr" target="#b50">(Monteux et al., 2015, and</ref><ref type="bibr">Roberts et al., 2009, respectively)</ref>. Whether the northern plains were once magnetized or not is uncertain. It is possible that only the southern highlands got magnetized <ref type="bibr" target="#b13">(Citron &amp; Zhong, 2012;</ref><ref type="bibr" target="#b64">Rochette, 2006;</ref><ref type="bibr" target="#b62">Quesnel et al., 2009)</ref> or that the entire northern hemisphere later demagnetized <ref type="bibr" target="#b53">(Nimmo et al., 2008)</ref>. The timing of the dynamo cessation is also important. This event may have provoked an important change in the internal dynamics <ref type="bibr" target="#b8">(Bouley et al., 2016)</ref>, which is also related to the growth of crustal material and to the building of the initial atmosphere (see the recent review of <ref type="bibr" target="#b43">Mangold et al., 2016)</ref>. It had drastic consequences on the atmospheric escape. This loss of atmospheric material to space may be due to several mechanisms, some of them being driven by both the solar wind and the planetary magnetic field <ref type="bibr" target="#b11">(Chassefière et al., 2007;</ref><ref type="bibr" target="#b27">Jakosky et al., 2018;</ref><ref type="bibr" target="#b32">Lammer et al., 2013)</ref>. This latter point is the main objective of the Mars Atmosphere and Volatile EvolutioN (MAVEN) mission, which was launched in November 2013 <ref type="bibr" target="#b28">(Jakosky et al., 2015)</ref>. MAVEN carries a suite of instruments to study the Martian upper atmosphere and ionosphere, the interactions with the solar wind, and the current loss of gas to space. By quantifying the current atmospheric escape, it is possible to characterize the different processes and drivers and to extrapolate this escape back in time <ref type="bibr" target="#b27">(Jakosky et al., 2018)</ref>. Because the crustal magnetic field may reach in some places a few thousand nanoteslas, it creates so-called minimagnetospheres, locally modifying the interactions of the Martian atmosphere with the solar wind. For this reason, MAVEN's instruments include a dual sensor magnetic field experiment <ref type="bibr" target="#b17">(Connerney et al., 2015)</ref>.</p><p>Most hypotheses of Mars's Martian magnetic field history and evolution nonetheless rely on models, which were solely based on MGS magnetic field measurements. In the following paper we combine these magnetic field measurements with those of the MAVEN mission to derive a high-resolution model of the Martian crustal magnetic field. The modeling scheme is based on equivalent source dipoles as in our previous study <ref type="bibr" target="#b37">(Langlais et al., 2004)</ref>, although the inversion scheme has been significantly modified in order to accommodate both scalar and vector measurements. This scheme is described in section 2. The data sets and data selection criteria are presented in section 3. We then present the new model in section 4 and discuss it in section 5.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Modeling Scheme</head><p>We extend the modeling scheme presented by <ref type="bibr" target="#b60">Purucker et al. (2000)</ref> and <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>. The model is based on Equivalent Source Dipoles (ESD). One advantage of the ESD approach is that it is relatively insensitive to inhomogeneous data distribution. In addition it does not need a formal, explicit regularization, as spherical harmonic (SH) models may (e.g., <ref type="bibr" target="#b14">Connerney, 1981;</ref><ref type="bibr" target="#b76">Whaler &amp; Gubbins, 1981)</ref>. It has been successfully used to model the crustal field of the Earth (e.g., <ref type="bibr" target="#b22">Dyment &amp; Arkani-Hamed, 1998;</ref><ref type="bibr" target="#b31">Kother et al., 2015;</ref><ref type="bibr" target="#b45">Mayhew, 1979;</ref><ref type="bibr" target="#b75">Von Frese et al., 1981)</ref>, the Moon (e.g., <ref type="bibr" target="#b58">Purucker, 2008)</ref>, and Mars. This method was also modified to model the core magnetic field of Mercury <ref type="bibr" target="#b54">(Oliveira et al., 2015)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.1.">General Setting</head><p>In the ESD scheme the magnetic field of internal origin measured at any source-free location around the planet is assumed to result from the contribution of a large number of dipolar sources homogeneously located below the surface of the planet. The direct problem may be expressed as follows. Considering a dipole of magnetization M located at radius r d , colatitude 𝜃 d , and longitude 𝜙 d , its magnetic potential observed in r o , 𝜃 o , and 𝜙 o is</p><formula xml:id="formula_0">V = −M • ∇ 1 l , (<label>1</label></formula><formula xml:id="formula_1">)</formula><p>where l is the distance between the measurement and the dipole locations:</p><formula xml:id="formula_2">l = [ r 2 d + r 2 o − 2r d r o ( cos ( 𝜃 o ) cos ( 𝜃 d ) + sin ( 𝜃 o ) sin ( 𝜃 d ) cos ( 𝜙 o − 𝜙 d ))] 1 2 .</formula><p>(2)</p><p>The three magnetic field components B r (radial), B 𝜃 (horizontal south), and B 𝜙 (horizontal east) are related to the magnetic potential 10.1029/2018JE005854</p><formula xml:id="formula_3">B = − 𝛁 V = − ( 𝜕 𝜕r , 𝜕 r𝜕𝜃 , 𝜕 r sin(𝜃)𝜕𝜙 ) V.</formula><p>(3)</p><p>The complete expressions for each component can be found in <ref type="bibr">Langlais et al. (2004, Appendix A)</ref>. The magnetic field associated with a number of dipoles is obtained by summing the contributions of all dipoles. However, the influence of a dipole decays with the cube of the distance l. Therefore, only a limited number of dipoles will have significant contributions for a given observation point. This is generally accounted for by setting a maximum distance, or threshold value, beyond which dipoles are not considered <ref type="bibr" target="#b61">(Purucker et al., 1996)</ref>. For this study we use 1,800 km as the maximum threshold. This is slightly more than the 1,500 km used by <ref type="bibr" target="#b60">Purucker et al. (2000)</ref> and <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>.</p><p>The problem is written as</p><formula xml:id="formula_4">b v = G v m + v v , (<label>4</label></formula><formula xml:id="formula_5">)</formula><p>where b v contains the magnetic field vector observations; m is the vector containing the model parameters, that is, magnetization components, to be found; G v is the geometric source function relating m and b v (i.e., the partial derivatives between B and M); and 𝜈 v is the vector containing the observation noise.</p><p>Assuming this noise is of zero mean, the inverse problem can be solved by minimizing the quantity</p><formula xml:id="formula_6">L (m) = v T v v v , (<label>5</label></formula><formula xml:id="formula_7">)</formula><p>which corresponds to solving</p><formula xml:id="formula_8">G T v G v m = G T v b v . (<label>6</label></formula><formula xml:id="formula_9">)</formula><p>We use an iterative scheme based on a conjugate gradient approach <ref type="bibr" target="#b57">(Press et al., 1992)</ref>. The solution is found when ∇L = G v m − b v tends to 0, with at each iteration k a new solution given by</p><formula xml:id="formula_10">m k + 𝛼 k p k = m k+1 , (<label>7</label></formula><formula xml:id="formula_11">)</formula><p>with</p><formula xml:id="formula_12">𝛼 k a scalar minimizing L ( m k+1 ) in the direction p k , with 𝛼 k = r T k r k p T k G T v G v p k . r k is the residual vector at iteration k, G T v b v − G T v G v m.</formula></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.">Improvements of the Method</head><p>In previous studies, <ref type="bibr" target="#b60">Purucker et al. (2000)</ref> used binned measurements of the radial field as input and solved only for the radial component of the magnetization. <ref type="bibr" target="#b37">Langlais et al. (2004)</ref> used the three components of binned measurements to derive the full magnetization vector. And <ref type="bibr" target="#b35">Langlais and Purucker (2007)</ref> restricted their study to a limited area, using true measurements.</p><p>In this study we bring a number of improvements. We improve the resolution of the dipole mesh, therefore leading to a finer-resolution model of the Martian crustal field. We use actual vector field measurements that are first carefully selected (see next section). And we also consider total field indirect estimates (from the Electron Reflectometer [ER] instrument), which requires the inversion scheme to be adapted.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.1.">Mesh Definition and Resolution</head><p>The ESD scheme is called "equivalent" because the solution can be transformed into another equivalent solution, which predicts a magnetic field similar to that of the true distribution. There are nonuniqueness issues, like with all potential field methods. The first and most obvious one are so-called magnetic annihilators, that is, magnetization distributions that do not produce magnetic field outside the source volume. An example of these annihilators would be a constant magnetization or a toroidal magnetization (e.g., <ref type="bibr" target="#b24">Gubbins et al., 2011;</ref><ref type="bibr" target="#b33">Langel &amp; Hinze, 1998;</ref><ref type="bibr" target="#b74">Vervelidou et al., 2017)</ref>.</p><p>In this study we use a polar coordinate subdivision <ref type="bibr" target="#b30">(Katanforoush &amp; Shahshahani, 2003)</ref> to define the ESD mesh. Its implementation is described in the following. We first set N 𝜃 as the number of latitudinal bands. The separation between each band is constant and equal to 180∕(N 𝜃 − 1). For each colatitude we place (the nearest integer of) N 𝜙 = 1 2 + √ 3N 𝜃 sin(𝜃) points equally distributed. A phase shift is imposed on alternate colatitudes in order to get a distribution as symmetric as possible. For the same reason, only odd N 𝜃 values are considered (i.e., a band is located along the equator). This mesh is preferred over the icosahedral distribution <ref type="bibr" target="#b18">(Covington, 1993)</ref> as it is associated with fewer artifacts, as shown in Appendix A.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Geophysical Research: Planets</head><p>10.1029/2018JE005854</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.2.">Scalar Measurements</head><p>When considering vector field components the partial derivatives relating one field component to one magnetization component can be easily computed. This becomes more complex when dealing with the field intensity. Indeed,</p><formula xml:id="formula_13">B = ( B 2 r + B 2 𝜃 + B 2 𝜙 ) 1 2 . (<label>8</label></formula><formula xml:id="formula_14">)</formula><p>This is equivalent to</p><formula xml:id="formula_15">B = −B r sin I − B 𝜃 cos I cos D + B 𝜙 cos I sin D, (<label>9</label></formula><formula xml:id="formula_16">)</formula><p>where I and D are the inclination and declination of the field due to the ensemble of dipoles at the observation location. The partial derivatives between B and M are nonlinear. One usually linearizes this equation using a Taylor series expansion to first order (e.g., <ref type="bibr" target="#b10">Cain et al., 1967)</ref>, leading to an expression of the form</p><formula xml:id="formula_17">B = B 0 + ΔB<label>(10)</label></formula><p>or in its matrix form, to</p><formula xml:id="formula_18">b s = b s 0 + Δb s , (<label>11</label></formula><formula xml:id="formula_19">)</formula><p>where b s is the vector containing the scalar measurements, b s 0 is the vector containing the scalar predictions by an a priori magnetization model m 0 , and 𝛥b s is the vector containing the incremental scalar field associated with the modification 𝛥m of the magnetization model m. The solution can be estimated in a similar way to equation (4):</p><formula xml:id="formula_20">b s = b s 0 + G s | m 0 Δm + v s . (<label>12</label></formula><formula xml:id="formula_21">)</formula><p>Here G s | m 0 contains the partial derivatives relating 𝛥b s and 𝛥m knowing m o , with 𝛥m much smaller than m o (e.g., <ref type="bibr" target="#b66">Santosa &amp; Symes, 2015)</ref>, and 𝜈 v is a vector containing the observation noise for scalar observations. 𝜈 v and 𝜈 s can be given different values.</p><p>Combining equations ( <ref type="formula" target="#formula_4">4</ref>) and ( <ref type="formula" target="#formula_20">12</ref>), we then have</p><formula xml:id="formula_22">b = Gm + v b = ( b v b s ) = ( G v G s ) m + ( v v v s ) = b 0 + ( G v G s | m 0 ) Δm + ( v v v s ) . (<label>13</label></formula><formula xml:id="formula_23">)</formula><p>The vector b 0 contains the field components and intensity predicted by model m 0 . This initial model is based on vector observations only to start with. The matrix G s is not computed. We note that G v and G s | m 0 can be treated independently. The terms for the vector components remain identical, and only those of G s | m 0 must be reevaluated at each iteration, when 𝛥m modifies the magnetization model. The solution m results from the successive modifications of m 0 by 𝛥m, the latter being iteratively estimated by substituting (𝜈 v , 𝜈 s ) to 𝜈, and (G v , G s |m 0 ) to G in equations ( <ref type="formula" target="#formula_6">5</ref>) and (6), respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.2.3.">Revised Scheme and Convergence Criteria</head><p>The complete inversion scheme is described in Figure <ref type="figure" target="#fig_0">1</ref>. It relies on two steps. In the first one, only vector data are used to derive a magnetization model using the conjugate gradient approach. Then in the second as well as a similar quantity associated with the magnetization distribution,</p><formula xml:id="formula_24">𝜎 b,i = √ √ √ √ ( b − Gm i ) T ( b − Gm i ) N obs , (<label>14</label></formula><formula xml:id="formula_25">)</formula><formula xml:id="formula_26">𝜎 m,i = √ m T i m i N dip . (<label>15</label></formula><formula xml:id="formula_27">)</formula><p>N obs and N dip are the number of measured components and of magnetization components, respectively. While the first quantity reflects the adequacy of the model to explain the observations, the second one represents the energy (or the smoothness) of the solution. This quantity is monitored, but it is not used to choose the iteration number and the final model. The only criterion is evolution of the misfit to the data. In the case studied by <ref type="bibr" target="#b61">Purucker et al. (1996)</ref>, the solution was found to be relatively stable, with very little evolution 10.1029/2018JE005854</p><p>after nearly 200 iterations. On the contrary, <ref type="bibr" target="#b37">Langlais et al. (2004)</ref> concluded that the 𝜎 b,i was not significantly decreasing after dozens of iterations, while 𝜎 m,i was still increasing. They monitored a posteriori the relative evolution of 𝜎 b,i to choose a solution, with</p><formula xml:id="formula_28">Δ𝜎 b,i = 𝜎 b, i − 𝜎 b,i−1 𝜎 b,i * 100, (<label>16</label></formula><formula xml:id="formula_29">)</formula><p>and empirically found that limiting 𝛥𝜎 b,i to 𝜖 1 = 1% was satisfactory.</p><p>We use here the same kind of criteria. During the first step, only the selected vector field measurements are considered. The matrix G v is computed only once. We a posteriori monitor 𝛥𝜎 bv,i the evolution of misfit to the vector data to choose a model m. This model then becomes m 0 and is used as input in step 2 to predict a magnetic field intensity, which is subtracted from the scalar measurements and to compute G s | m 0 . A new model m i is then computed at each successive iteration during the second step, with a new matrix G s | m i computed each time. As it will be shown in section 4 the solution is very stable, with no or very little increase of 𝜎 m,i . This in turn means that we let the inversion scheme run until a very small limit 𝜖 2 for 𝛥𝜎 b,i is reached or until 100 iterations are performed, whichever comes first. The final model is chosen a posteriori with a procedure which is described in section 4 and in Appendix D.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Data Sets and Data Selection</head><p>In this section we describe the different data sets. Although MGS main orbital characteristics have been extensively described in the past (e.g., <ref type="bibr" target="#b4">Albee et al., 2001)</ref>, we recall them here as they are compared to MAVEN ones.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">MGS 3.1.1. MGS-MAG</head><p>One can categorize MGS vector measurements into two low-and high-altitude data sets. The first is from the premapping phases of the mission, namely, the AeroBraking and the Science Phase Orbits (AB/SPO; <ref type="bibr" target="#b4">Albee et al., 2001)</ref>. MGS was in a quasi-polar, elliptical orbit with a periapsis oscillating between 90 and 160 km. Low-altitude measurements (i.e., those useful to describe and model the crustal magnetic field) were mostly acquired on the dayside. The AB/SPO phase lasted from orbit insertion in September 1997 until March 1999, whereupon the Mapping Orbits (MO) phases (nominal and extended) started. These phases lasted until November 2006. The orbit was almost circular, with a quasi-constant altitude at about 360 km close to the south pole and 415 km close to the north pole. The periapsis remained constant in latitude. The orbit was Sun synchronous, on a 2:00 a.m. to 2:00 p.m. plane.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.2.">MGS ER</head><p>MGS also carried an ER instrument <ref type="bibr" target="#b46">(Mitchell et al., 2001)</ref>, designed to remotely detect weak crustal magnetic fields via the magnetic mirror effect <ref type="bibr" target="#b3">(Acuña et al., 1992)</ref>. By simultaneously measuring magnetic field and suprathermal (&gt;90 eV) electron angular distributions at MGS's ≃ 400-km mapping orbit, it is possible to remotely estimate the crustal magnetic field magnitude at the average altitude where incident electrons are absorbed by the Martian atmosphere, that is, 185 km above the Martian areoid. Initially, straight magnetic field lines between 400 and 185 km were assumed to locate each individual measurement. Note that the field magnitude cannot be measured in regions where magnetic fields at 400 km are always closed (i.e., they intersect the collisional atmosphere at both ends). About 2.3 million measurements were combined to create a 0.5 • resolution map of B at 185 km. This map was used, along with vector magnetic field measurements, to create an earlier ESD model <ref type="bibr" target="#b36">(Langlais et al., 2010)</ref>. This model also used all available vector measurements by MGS (although the data selection scheme was not designed to eliminate transient events as is the case with the current one), as well as ER estimates at 185-km altitude. It further used a modeling scheme similar to that one presented in this study (Figure <ref type="figure" target="#fig_0">1</ref>).</p><p>Magnetic field lines from this ESD model were then used to correct the tracing of each ER measurement from 400 to 185 km, resulting in a corrected 0.5 • ER map of crustal magnetic field, which we use in the current study. Uncertainties in each 0.5 • × 0.5 • pixel are proportional to the square root of the field strength, though with a minimum error of 3 nT. We use these individual uncertainties to fill 𝜈 s (equation ( <ref type="formula" target="#formula_20">12</ref>)). Full details of the ER technique and map construction can be found in <ref type="bibr" target="#b40">Lillis, Frey, et al. (2008)</ref> and <ref type="bibr">Lillis, Mitchell, et al. (2008)</ref>, respectively.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Geophysical Research: Planets</head><p>10.1029/2018JE005854</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">MAVEN</head><p>The MAVEN spacecraft was launched on 18 November 2013. It reached Mars's orbit on 21 September 2014, and its scientific operation started about 2 months later. In contrast to MGS, MAVEN has a nonpolar orbit, with an inclination of 74 • and a period of 4.5 hr. Its periapsis is close to 150 km, but it is periodically lowered to 125 km during so-called deep-dip campaigns. Its periapsis precesses both in latitude and local time. These orbital parameters were chosen in order to provide a three-dimensional coverage (latitude, longitude, and local time) of the relevant plasma regions in Mars's near environment during the primary mission (one Earth year).</p><p>MAVEN carries two vector magnetometers that are located at the end of the two solar arrays <ref type="bibr" target="#b17">(Connerney et al., 2015)</ref>. This configuration brings direct heritage from the MGS mission <ref type="bibr" target="#b0">(Acuña, 2003)</ref> for which the final measurement accuracy was better than 1 nT per component. As for MGS, MAVEN measurements are available through the Planetary Plasma Interaction node of the Planetary data system. In this study, we use measurements until mid-May 2017.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3.">Data Selection and Decimation: Minimization of External Fields</head><p>When dealing with the modeling of magnetic field, one typically faces a problem related to the enormous amount of available measurements. MGS returned more than 180 million vector triplets, and MAVEN will possibly return more data. These numbers make it impossible to use all measurements, and data selection/decimation procedures have to be defined. They are usually optimized so that those measurements possibly more influenced by external fields are eliminated or reduced.</p><p>Several options have been pursued in the past. Data can be stacked and binned over relatively small volumes, in an attempt to average out time varying magnetic fields <ref type="bibr" target="#b1">(Acuña et al., 1999;</ref><ref type="bibr" target="#b60">Purucker et al., 2000)</ref>.</p><p>A nighttime selection can be performed before this binning procedure <ref type="bibr" target="#b16">(Connerney et al., 2005;</ref><ref type="bibr" target="#b37">Langlais et al., 2004)</ref>. True measurements can be instead considered but selected on regular grids so that the data distribution is as homogeneous as possible in space <ref type="bibr" target="#b51">(Moore &amp; Bloxham, 2017;</ref><ref type="bibr" target="#b52">Morschhauser et al., 2014)</ref>.</p><p>With the exception of local time selection, none of these downsampling procedures attempt to select magnetic field measurements acquired during quiet magnetic times as is the case for terrestrial studies. Of course such Earth's studies are facilitated by the derivation of magnetic indices, based on measurements made at magnetic observatories <ref type="bibr" target="#b42">(Love &amp; Remick, 2007)</ref>. Such indices do not exist on Mars, but the orbital configuration of MGS during its MO phase makes it possible to consider these measurements in a virtual observatory scheme to derive a magnetic field index. This is the approach followed by <ref type="bibr" target="#b34">Langlais et al. (2017)</ref>.</p><p>The index is based on nightside measurements, sorted geographically, from which the local median value is computed and subtracted before statistics are computed on a daily basis. There is no dependence on any a priori magnetic field model to remove the crustal field, making the index model independent. This in situ index (measured around Mars) was compared to the extrapolation of interplanetary magnetic field measurements made on board Advanced Composition Explorer (ACE) at the L1 Lagrange point between the Earth and the Sun. Such extrapolation is possible only when the Earth (and ACE) and Mars were close to the same Parker spiral arm. In situ and remote (extrapolated) time series have correlation coefficients, exceeding 0.6 when the solar cycle was close to its minimum at the end of the MGS mission in 2006. This high correlation supports the pertinence of such locally derived proxies for magnetic data selection in order to minimize the external field perturbations.</p><p>The daily index series covers the entire time period when MGS was in the MO phase. The index varies from 2.5 to 31.1 nT, with a mean value of 7.1 nT. We impose a maximum daily root-mean-square (rms) value of 4.5 nT. This arbitrary choice is actually consistent with terrestrial studies, as this corresponds to keeping only the quietest 10% of days. Most of the selected measurements were acquired during the last Martian year of the MGS mission. This epoch is closer to the solar minimum, which was reached in 2008 (see <ref type="bibr">Langlais et al., 2017, for details)</ref>. This selection leads to a data set made of 5.8 million vector triplets. This large number is further decreased using an along-track filtering procedure, which is described below and in Appendix C.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4.">Data Selection and Decimation: Along-Track Filtering</head><p>The magnetic index as computed by <ref type="bibr" target="#b34">Langlais et al. (2017)</ref> cannot be straightforwardly derived when measurements are acquired at variable altitudes. Using the remote proxy (derived with ACE data) is not possible as it does not cover the entire time period; restricting the selection to the appropriate periods would reduce the number of data points too drastically. Instead, we use a two-step data selection scheme. First, we compare the measurements separately for each orbit with a preliminary model we derive for that purpose. This model uses only MGS vector measurements. Because we do not want the data selection to be overconstrained by the model, we chose to not consider the misfit between observations and predictions. We only evaluate the correlation coefficients between observed and predicted series for the three components. After looking at all orbits we defined the following criteria: (i) the correlation coefficient has to be larger than 0.4 for at least two components, and (ii) it has to be larger than 0 for the last component (see Figures <ref type="figure" target="#fig_10">C1 and C2</ref>). These criteria may seem to be loose, but they are preferable to include more measurements than to exclude too many. This scheme leads to the selection of about 65% of the low-altitude orbit tracks, that is, 633 out of 967 for the MGS AB and SPO orbits.</p><p>The same selection was made for MAVEN tracks below 600 km, except that only nightside measurements (between 19:00 and 5:00 local time) were initially kept. Using the correlation coefficients between observations and predictions, 1,585 out of 1,972 orbits (on the nightside) were selected, or approximately 80% of the data set.  Note. For MGS MO and MAVEN, these numbers are for nightside measurements. The number of selected data corresponds to data available on selected orbits. "Final" and "second run" numbers are those after along-track decimation and after outliers removal, respectively. n/a = not applicable; MGS = Mars Global Surveyor; AB/SPO = AeroBraking and the Science Phase Orbits; MO = Mapping Orbits; ER = Electron Reflectometer instrument; MAVEN = Mars Atmosphere and Volatile EvolutioN.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Geophysical</head><p>The second selection step is designed to reduce the number of consecutive measurements along track. The across track distance is indeed larger than the along track one. The altitude of the measurements varies, from about 100 up to 600 km. The lower-altitude measurements are much more sensitive to the crustal field than the high altitude one. In addition, we aim to select more measurements where the crustal field changes or varies rapidly as the spacecraft orbits over it. This is why we define an along-track downsampling scheme, in which we monitor both the altitude and the variability of the measurements to compute the optimal distance between two consecutive measurements. This distance is found to vary between 20 and 111 km, depending on the measurement altitude and on the rate at which the magnetic field changes (this is illustrated by the upper panels in Figures <ref type="figure" target="#fig_10">C1 and C2</ref>). A maximum distance between consecutive selected measurements is also taken into account. The data selection scheme is described in Appendix C, together with examples of orbits accepted or rejected based on the correlation coefficients.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.5.">Summary of Data Selection</head><p>We conclude this section with Table <ref type="table" target="#tab_0">1</ref>, which summarizes the data selection process for MGS and MAVEN. The first step of the model (upper box in Figure <ref type="figure" target="#fig_0">1</ref>) is constrained by 608,765 vector triplets. The second step (lower box in Figure <ref type="figure" target="#fig_0">1</ref>) additionally uses 218,436 scalar measurements. The last column of Table <ref type="table" target="#tab_0">1</ref> further indicates the number of measurements constraining the final model, which is essentially a second run after some outliers have been identified and removed (see Appendix D): Measurements that have differences with model predictions exceeding 3𝜎 b for any field component are excluded.</p><p>We also show in Figure <ref type="figure" target="#fig_1">2</ref> how each data set constrains the ESD model. A given dipole is constrained by the observations, which lie within the 1,800-km threshold distance. The measurements contribute to a level, which is inversely proportional to the cube of their distance l (equation ( <ref type="formula">2</ref>)) to the dipole. By summing the quantity 1∕l 3 for all measurements within the threshold distance of each dipole, we can evaluate how much each dipole is constrained. This is what is shown in Figure <ref type="figure" target="#fig_1">2a</ref>. This quantity can also be computed separately for each data set, which allows to see where and how much each data set contributes the most, as shown in Figures <ref type="figure" target="#fig_1">2b-2e</ref>. For each dipole, the relative contribution of each data set is plotted. Because l is typically of the order of 1,000 km, the plotted total quantity remains very small and tops at 0.001 km −3 . The maximum is reached over the south pole area, where the effect of the minimum altitude of MGS over 8 years during its MO phases combines with the denser data coverage due to the almost polar orbit. A secondary maximum is found close to 74 • S, which corresponds to the southernmost measurements by MAVEN. Except for the polar areas, the data constraint on the dipoles is relatively homogeneous, with a minimum reached in the vicinity of Alba Patera (40 </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">ESD Model Statistics</head><p>We use a dipole mesh with N 𝜃 = 115 latitudinal bands. This corresponds to 14,386 dipolar sources, or 43,158 unknown magnetization components. Each dipole has a mean surface area equal to ∼10,000 km 2 , with a mean spacing of 1.91  is set to 20 km, following conclusions of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>. Measurement noise for 𝜈 v is set to be constant and equal to 3 nT, that is, the minimum noise associate with 𝜈 s (see section 3.1.2).</p><p>The final model is iteration 29 of the second step. Details on the convergence criteria and choice of the final solution are given in Appendix D. Misfits associated with each of the four data sets are given in Table <ref type="table" target="#tab_3">2</ref>. The final rms misfit is equal to 9.18 nT. Those associated with the AB/SPO data set below 350-km altitude are given for a comparison with those of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>. In their model, AB/SPO data were limited to a maximum altitude of 350 km, before being spatially averaged. Associated rms misfits were close to 20 nT, to be compared to about 17 nT here.</p><p>For each data set and field components, histograms of the residuals are shown in Figure <ref type="figure" target="#fig_3">3</ref>. The residuals are globally symmetrically distributed, with the exception of the ER data set: the mean misfit is positive, with very few residuals below −1𝜎 and many more above +1𝜎. The lowest mean misfits are associated with the high-altitude MGS MO data set and with the radial component. Correlation coefficients are all above 0.92 and even excess 0.98 for the radial components. High-altitude measurements are associated with remarkably low misfits, below 4 nT. <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> had misfit between 5.7 and 7.2 nT, depending on the component. Misfits associated with the MGS AB/SPO data set are comparable with those of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref>, closer to 16 nT. We interpret the better high-altitude misfits of our model as being a direct consequence of the external magnetic field proxy we used for data selection. The horizontal components are associated with slightly poorer rms misfits while showing nonzero biases. These are usually interpreted as being caused by nonlithospheric contributions, that is, external magnetic field contributions <ref type="bibr" target="#b37">(Langlais et al., 2004;</ref><ref type="bibr" target="#b52">Morschhauser et al., 2014)</ref>. The mean misfit of B 𝜃 and B 𝜙 have opposite signs for the MGS AB/SPO and MAVEN data sets, respectively. The MAVEN data set contains exclusively nightside data (as does the MGS MO one), while the MGS AB/SPO one is strongly dominated by dayside measurements. The sign difference could be explained by, for example, external magnetic fields having opposite directions on day and nightsides <ref type="bibr" target="#b34">(Langlais et al., 2017)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Transformation Into Spherical Harmonics and Extrapolation to the Surface</head><p>One major disadvantage of the ESD approach is that it does not allow to extrapolate the field below an altitude which is equal, to first order, to the mean distance between adjacent dipoles. Before discussing the morphology of the Martian magnetic field and what this new model brings, we go one step further and convert the discrete ESD model into a continuous SH one.</p><p>We start by a forward problem. The three components of the magnetic field are computed from the ESD model on a quasi-equisurface grid at an altitude of 150 km. The grid contains 100,000 locations. The set of Gauss coefficients (g m n , h m n ) is found by a least squares inversion process. The number of points on the grid is defined so that a model can be estimated without aliasing up to at least SH degree n 250 or so, but we restrict the expansion up to degree 160. The misfit to the predicted field at 150 km is below 1 nT. This model is also discussed in the following section.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">A Field Spectrum</head><p>We start the discussion by computing the Mauersberger-Lowes spatial power spectrum of the Martian magnetic field <ref type="bibr" target="#b43">(Lowes, 1966;</ref><ref type="bibr" target="#b44">Mauersberger, 1956)</ref> associated with our SH model up to n, m = 160. This quantity represents a measure of the energy of the magnetic field as a function of the degree. It is written as</p><formula xml:id="formula_30">R n (r) = (n + 1) ( a r ) 2n+4 n ∑ m=0 ( ( g m n ) 2 + ( h m n ) 2 ) . (<label>17</label></formula><formula xml:id="formula_31">)</formula><p>This quantity can be expressed at any radius r above the mean planetary radius a, assuming that the magnetic sources are located within the planet. We show in Figure <ref type="figure" target="#fig_4">4</ref> the magnetic spectrum of our model together with that of previously published ones, by <ref type="bibr" target="#b9">Cain et al. (2003)</ref>, <ref type="bibr" target="#b37">Langlais et al. (2004), and</ref><ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref>. For comparison we also present the unpublished model <ref type="bibr" target="#b36">(Langlais et al., 2010)</ref>, which was used for the ER data set (section 3.1.2). The spectra are plotted at the Martian surface and at an altitude of 120 km.</p><p>The models by <ref type="bibr" target="#b9">Cain et al. (2003)</ref> and <ref type="bibr" target="#b37">Langlais et al. (2004)</ref> used MGS vector measurements taken before mid-2001 or so, but with different modeling techniques (SH vs. ESD, respectively). <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> used all available vector measurements by MGS, with a more sophisticated data weighting scheme to decrease the importance of measurement outliers. They further regularized the solution with an L1 norm in the spatial domain, which led to a rapid drop of coefficients beyond n, m = 107. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>10.1029/2018JE005854</head><p>Our new model and the two previously published models have-to first order-a similar shape. Their energy is similar up to n ∼ 55. Then that of <ref type="bibr" target="#b9">Cain et al. (2003)</ref> shows no convergence, while the models of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> and of <ref type="bibr" target="#b36">Langlais et al. (2010)</ref> decrease and remain very close up to degree 107 (none used MAVEN measurements). Our new model has a lower energy per degree than these two other models. At degree 125 it is about half an order of magnitude below that of <ref type="bibr" target="#b36">Langlais et al. (2010)</ref>. It continues to decrease almost monotonically until n = 134, where it reaches a minimum at 200 nT 2 per degree. It then starts to diverge, with increasing energy per degree.</p><p>In order to understand why the behavior of the spectrum changes at this SH degree, we compute it at an altitude of 120 km and plot it also in Figure <ref type="figure" target="#fig_4">4b</ref>. At n = 134, the energy of the Martian magnetic field model drops below 1.5 × 10 −2 nT 2 per degree. The fact that the spectrum slope changes and becomes more or less flat can be interpreted as the maximum resolution of our model. For this reason we choose to truncate our model to n = 134. The misfit between that truncated solution and the grid derived from the ESD solution at 150 km remains below 1 nT. The truncated model has a spatial resolution of about 160 km at the Martian surface. This model is available in the supporting information of this paper.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Field Map at 200-km Altitude</head><p>We compute the magnetic field at constant altitude of 200 km using our ESD model and plot it in Figure <ref type="figure" target="#fig_5">5</ref>.</p><p>The main characteristics of the Martian magnetic field remain similar to those described in previous studies. At this altitude the magnetic field ranges between −410 and +650 nT for the radial component, with a field intensity up to 700 nT. Vast regions are devoid of significant magnetic field signatures. These include most of the northern lowlands, the eastern part of Tharsis bulge, and the southern hemisphere east of Argyre and west of Hellas. The most intense anomalies are found above Terra Cimmeria and Terra Sirenum, within a ∼2,000-km-radius circle centered on 45 • S, 180 • E. In this area intense anomalies with opposite signs (in the radial direction) are found, but they do not show a large-scale trend or pattern.</p><p>This total field map is also compared to the model of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>, as this new model is a direct improvement on it. The differences (old model-new model) are shown in Figure <ref type="figure" target="#fig_5">5e</ref>. The old model is on average 1.3 nT less intense than the new one, with an rms difference of 7.7 nT. A closer look reveals that there are both medium-and small-scale intensity differences. They are on average slightly positive where the magnetic field is weak. They become more intense, more negative, and much more small scale where the largest anomalies are found, ranging within ±100 nT, or about 15% of the modeled field. These differences are interpreted as resulting both from an increased signal-to-noise ratio (especially in the northern hemisphere) and from an improved spatial resolution.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.3.">Field Map at the Surface</head><p>We now turn to modeled surface fields. We use the SH model based on our ESD solution to predict the field on a spherical surface of radius 3,393.5 km. We plot the intensity and the field components in Figure <ref type="figure" target="#fig_6">6</ref>. The SH model is truncated to n, m = 134, accordingly to the observed convergence of the spectrum until that degree.</p><p>At the surface the total field reaches ∼ 11,280 nT. The field components range between −8,520 and 11,260 nT, between −8,330 and 7,580 nT, and between −5,460 and 5,570 nT for B r , B 𝜃 , and B 𝜙 , respectively. The mean intensity is 460 nT. These values are compared to the predicted field associated with the model of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref>. Its extreme values are 10% larger or so, while the mean value is lower, down to 330 nT for the total field. The mean difference, computed as the model of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> minus ours, is close to −105 nT. Our model nonetheless predicts much weaker field intensities than the local solution of <ref type="bibr" target="#b56">Plattner and Simons (2015)</ref>, who reported values reaching 63,000 nT over Terra Cimmeria, computed at a spherical surface of 3,376 km (corresponding to the polar radius).</p><p>We verified that the differences with the model of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> are not associated with our model larger degree truncation, that is, 134 versus 106 (see Appendix E). The maximum modeled magnetic field is 11,270 nT when our model is truncated to n = 106. The observed differences are related to the information carried by the model itself. A closer inspection of the differences, again computed as the model of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> minus ours, here truncated to n = 106, reveals two things. First, our truncated model is in general still more intense, 110 nT on average, where the magnetic field predicted by our model is below 1,500 nT. This mean difference decreases to −6 nT where higher fields are found. This mean difference actually corresponds to a very dynamic difference range. The maximum differences are found over  the eastern part of Terra Cimmeria, around 166 • E, 45 • S, where they range from −2,410 to 4,670 nT. Over this area the total field exceeds several thousands of nanoteslas; that is, the differences and the signal are similar in magnitude. This is also over the same area that our model and that of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref> differ the most (see Figure <ref type="figure" target="#fig_5">5e</ref>).</p><p>It is nonetheless interesting to note that the modeled magnetic field anomalies at the surface of Mars are associated with very small wavelengths. This is especially visible for the field components. Very few large-scale structures seem to stand out, with the possible exception of a 1,500-km-long negative radial magnetic field structure associated with a negative B 𝜃 component in the southern cap area, from 160 • E, 70 • S to about 230 • E, 65 • S. This feature is less prominent in the total field map, and it is possible that the origin of this anomaly is related to multiple sources. More generally, it is also possible that smaller spatial scale magnetic fields (below the spatial resolution of the model) exist and overlap with what is currently detectable from orbit.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.4.">Magnetization Map</head><p>One direct output of the ESD approach is the magnetization. It must be noted that the computed magnetization components may differ from the actual ones. In the ESD scheme, the magnetization is estimated over a relatively large area, nearly 10,000 km 2 in our case. This is much larger than the meter to kilometer spatial scale at which the Earth's crustal magnetic field is known to vary (e.g., <ref type="bibr" target="#b39">Lesur et al., 2016;</ref><ref type="bibr" target="#b72">Théebault et al., 2010)</ref>. Because there is no reason that the Martian and terrestrial crustal field would be associated with different spatial scales, we can extrapolate they also exist on Mars. Our model resolution simply reflects the scales, which can be resolved by the remote measurements. In addition, there are nonuniqueness issues, such as the previously mentioned magnetic annihilators. One further limitation comes from the fact that only the vertically integrated magnetization can be estimated. Assuming a thinner magnetized layer would have resulted in a more intense magnetization. Our results simply indicate a possible magnetization distribution, which well reproduces the magnetic field measurements at orbit altitudes given our modeling assumptions.</p><p>The magnetization values reported here have to be seen as typical values at spatial scales representing the resolution of the model. The properties of the final magnetization model are given in Table <ref type="table" target="#tab_4">3</ref>. The mean magnetization is equal to 1.01 A/m, while the rms value is 1.26 A/m (equation ( <ref type="formula" target="#formula_26">15</ref>)). Almost 90% of the dipoles possess a magnetization lower than 2 A/m. Extrema are consistent with the lower upper bound of the magnetization, found to be at lease 4.76 A/m for a 50-km-thick magnetized layer <ref type="bibr" target="#b55">(Parker, 2003)</ref>. These reflect the very heterogeneous distribution of the magnetization in the lithosphere of Mars.</p><p>We plot the magnetization distribution in Figure <ref type="figure">7</ref>. Only the radial and the total magnetization are shown, but similar properties are observed for the horizontal components. Two kinds of maps are displayed. First, we plot the magnetization for each dipole, without any interpolation. Because the dipole mesh is based on a polar subdivision scheme, nearly equisurface, the global map appears distorted above the polar areas. This apparent distortion disappears when the magnetization is plotted in orthographic polar views. Second, we interpolate the magnetization onto a regular 0.25 × 0.25 • grid. This makes the maps more readable, but it introduces severe biases in the polar areas, which are visible for the radial component over the south pole, near longitude 180 • .</p><p>There is a strong correlation between the magnetization and the predicted magnetic field (Figures <ref type="figure" target="#fig_6">7 and 6</ref>).</p><p>There are however some differences. For instance, the magnetic field anomalies over the north pole area, with alternating positive and negative radial polarities, can be explained by a negative radial magnetization only, with the exception of a small positive feature at the north pole. The case is different over the south pole area, where both maps (field and magnetization) show alternating radial polarities. However, there exists a large area, from −120 to +120 • in longitude and between 60 • S and 75 • S latitude, where a weak 0.5to 0.6-A/m total magnetization is found. It does not produce a visible magnetic field (with the exception of the anomalies described in the next section). Such patterns are not found above the north pole; they are therefore not systematic biases. We nonetheless consider this magnetization level, 0.5 to 0.6 A/m, to be the possible error range associated with our magnetization distribution. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.5.">A Focus on Noachis Terra</head><p>Instead of describing and discussing the new model in its entirety, we choose to study in detail one particular area, located southwest of Hellas basin and comprising Noachis Terra and Malea Planum. This area illustrates the different comparisons with geology our model could allow.</p><p>We compute the surface magnetic field and plot it in Figure <ref type="figure" target="#fig_8">8</ref>. Noachis Terra area is marked by numerous impact craters, especially on its western side. Only those larger than about 100 km in diameter are shown in the figure. The largest one is Greeley, at 457 km. To the east we find four of the six oldest central volcanoes on Mars <ref type="bibr" target="#b78">(Williams et al., 2009)</ref>. These are Amphitrites, Malea, Peneus, and Pityusa Paterae. These volcanoes are thought to have formed after the Hellas impact basin, between 3.5 and 3.8 Ga.</p><p>We show in Figure <ref type="figure" target="#fig_8">8</ref> only the radial component and the total field, but the observations we discuss below are also valid for the horizontal components. At the surface the magnetic field above this area is very weak, generally below 80 nT. Very few magnetic field anomalies are found inside Hellas basin, and they are all below 100 nT. Some anomalies may be found about 5 in this area are associated with undetectable magnetic fields (e.g., Proctor or Neukum). Many other craters are characterized with close-to-0 magnetic fields, but some are actually associated with magnetic lows. This is the case for the craters South, Mitchel, Darwin, or Kaiser, where the plotted circular rims almost match the magnetic field lows. None of the mentioned paterae are clearly related with magnetic field features, with the possible exception of Pityusa Patera, as discussed below. Instead, there is a large area, centered around Malea Patera, where the magnetic field remains very low.</p><p>The maximum magnetic field is close to 1,200 nT. It occurs in the vicinity of two craters, Roddenberry (diameter 139 km) and Green (182 km). These two craters, as well as the nearby Maunder (91 km, to the east of Roddenberry) show distinct lava flows <ref type="bibr" target="#b38">(Leone, 2016)</ref>. Their spatial extent and detailed characteristics remain to be studied, possibly in relation to their magnetic field anomalies. This particular anomaly is extremely well marked in its radial component, with a circular feature of negative field surrounded by a positive anomaly. A similar pattern, although less intense, can be found to the northwest, east of the crater Lhose. These ringed magnetic structures are in general associated with a single magnetization direction source and were also reported by <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> and <ref type="bibr" target="#b73">Thomas et al. (2018)</ref>.</p><p>Another significant anomaly is found northwest of Pityusa Patera, over a formation known as Pityusa Rupes.</p><p>The maximum predicted field is close to 930 nT. This formation is a S-N lobate scarp, a feature which is associated with a compression structure <ref type="bibr" target="#b70">(Tanaka et al., 2014)</ref>. Its age is estimated to be 3.5-3.6 Ga <ref type="bibr" target="#b23">(Egea-Gonzalez et al., 2017)</ref>. It is tempting to associate the source of the magnetic field anomaly with this compression, that is, thicker, structure. The magnetic anomaly, however, extends largely away from Pityusa Rupes, along a more SE-NW direction (this is more visible in the radial field map). In addition, there is a similar structure to the northwest of Pityusa Rupes. It is known as Chalcopores Rupes and was also studied by Egea-Gonzalez et al. ( <ref type="formula">2017</ref>) who found an older age at 3.9 Ga. This compression structure is not associated with a clear magnetic field, and that located below Pityusa Rupes has therefore to be explained by a different origin.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Concluding Remarks</head><p>In this paper we present a new model of the Martian magnetic field. The is the first model combining vector field measurements and intensity estimates derived from Electron Reflectometry. It further incorporates MGS and MAVEN measurements, spanning a period of nearly 20 years. And it uses a data selection scheme designed to minimize external magnetic fields variations. The model is based on a discrete ESD scheme, with a mean spacing of 1.91 • between adjacent sources assuming a 40-km-thick magnetized layer. We solve the three components of the magnetization without any a priori. The ESD model is then used to predict the field at a constant altitude above the Martian surface and is converted into a SH model.</p><p>At the Martian surface the field components range within ± ∼10,000 nT. The magnetic field energy spectrum converges until degree 134, corresponding to a length scale of about 160 km at the Martian surface. Although it does not change the global picture, it brings several improvements, which should ease future interpretation. As demonstrated over Noachis Terra, small magnetic field anomalies can be detected and tentatively interpreted or associated with surface geological features. Further interpretation of this new model can be envisaged, in terms of dynamo cessation timing, ancient magnetizing field directions, or interactions with the solar wind to create so-called minimagnetospheres. Upcoming surface measurements of the Martian magnetic field by the InSight mission <ref type="bibr" target="#b68">(Smrekar et al., 2019)</ref>, or by future landers/rovers carrying appropriate instrumentation <ref type="bibr" target="#b19">(Diaz-Michelena et al., 2017)</ref>, will also help to constrain the surface intensity (even if this will be only locally) and to possibly monitor the magnetic field external variations <ref type="bibr" target="#b47">(Mittelholz et al., 2017)</ref>. nodes of these triangles. Due to the subdivision process, each dipole has six immediate neighbors, as it is at the center of six adjacent triangles. This is the case everywhere but at the poles and along two colatitudes (60 • and 120 • ) where dipoles are surrounded by only five other dipoles.</p><p>Any perfect dipole distribution on a spherical shell should not produce any magnetic field outside if its magnetization components (strength and directions) are imposed by an internal dipole. This is known as the <ref type="bibr" target="#b65">Runcorn's (1975)</ref> theorem . The icosahedral and polar subdivision meshes are tested with this approach. We consider two meshes with a very similar resolution of 119.5 km (mean distance between adjacent dipoles) corresponding to 37 subdivisions for the icosahedral (12,962 dipoles) or N 𝜃 = 109 (12,922 dipoles) for the polar coordinate subdivision mesh. Note that the distribution we use later in this study has a finer resolution. The magnetized shell is 40 km thick. The magnetization is set to be parallel to a centered axial dipole, with a magnetization equal to 1 A/m at the equator.</p><p>The resulting magnetic field is computed at an altitude of 125 km. Results are shown in Figure <ref type="figure" target="#fig_9">A1</ref> for the two input dipole meshes. The input rms magnetization is 1.17 A/m. This is comparable to the magnetization model of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>, which predicts field values exceeding 1,500 nT at a similar altitude. Here the predicted radial magnetic field is, as expected, very close to 0. It is lower than 5 nT everywhere but within 2.5 • of the poles. There are, however, some artifacts associated with the icosahedral mesh, with two anomaly bands located at colatitudes 𝜃 = 60 • and 120 • (Figure <ref type="figure" target="#fig_9">A1b</ref>). These coincide with those dipoles having five immediate neighbors instead of six. Poleward regions show also more intense magnetic fields than those obtained with the polar coordinate subdivision mesh. This latter mesh shows only two weak large-scale anomalies located around the poles, similar to a weak dipole structure (Figure <ref type="figure" target="#fig_9">A1a</ref>). The mean absolute radial field for the icosahedral and polar coordinate subdivision meshes is 2.25 and 1.36 nT, respectively. a direct consequence of the too sparse model resolution of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>: At low altitude, the effect of individual ESDs dominates that of the sum of the ESDs. When compared to our preliminary model the correlation coefficients improve up to 0.992, 0.991, and 0.976 for B r , B 𝜃 , and B 𝜙 , respectively. For each of these two specific orbits, the along-track subsampling scheme reduces the number of measurements from 600 to about 200 below 600-km altitude.</p><p>In the case of MAVEN, the two tracks are more distant (about 26 • in longitude at their periapsis), as the orbit period of MAVEN is longer. The magnetic anomalies that may be seen on both track are likely to differ, although none show high amplitudes. For these orbits, the decimation scheme retains only ∼150 measurements. Most of the measurements were acquired on the nightside, as shown by the bottom panel of Figures <ref type="figure" target="#fig_10">C1 and C2</ref>. The general behavior is nonetheless very different, as there is a clear mismatch between measurements and predictions by the two models we used. Correlation coefficients are negative for the two horizontal components when measurements are compared to the model of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>. The situation slightly improves when they are compared to our preliminary model but not enough to retain this specific orbit. On the next day, there is a good correlation between the measurements and the two models, even if that of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref> continues to predict very small scale variations. Correlation coefficients for that orbit exceed 0.8 for all three components when compared to our preliminary model. Using the convergence criteria, iteration number 15 is retained to be used as the a priori model for the second step. In addition to the 593,728 vector field measurements we now use the 214,675 scalar measurements.</p><p>After each iteration, the newly derived model is used to recompute G s (equation ( <ref type="formula" target="#formula_20">12</ref>)) following the scheme described in Figure <ref type="figure" target="#fig_0">1</ref>. The inversion process is continued as long as 𝜎 b i (equation ( <ref type="formula" target="#formula_24">14</ref>)) converges, or until a maximum number of 100 iterations is performed.</p><p>The final solution is chosen using Δ𝜎 b i (equation ( <ref type="formula" target="#formula_28">16</ref>)). The evolution of the misfit versus the evolution of the solution is shown in Figure <ref type="figure" target="#fig_0">D1</ref>. The a priori model m 0 is that chosen in the first step and has therefore the same 𝜎 m . The a priori misfit to the measurements 𝜎 b is larger than the one with the first step in which only vector measurements are considered. There is a progressive decrease of the misfit together with a moderate increase of the model energy. The evolution is however much slower than in the first step. After 20 iterations or so, the evolution of 𝜎 m is less important, with more important Δ𝜎 b i . This quantity becomes lower than 0.1% after 29 iterations is the second step, and the evolution of the model becomes almost insignificant.</p><p>In order to validate our choice, we also considered different values for Δ𝜎 bv i in the first step. Models after 14, 16, and 18 iterations were successively used as inputs in the second step. Very similar evolution of 𝜎 b i versus 𝜎 m i were observed, with a final 𝜎 b i ranging between 9.24 and 9.43 nT.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Inversion scheme. During the first step (top box) only vector data are considered. Once 𝛥𝜎 b,i reaches some value 𝜖 1 , a model m is chosen and the second step starts (bottom). The matrix G s | m 0 associated with the scalar measurements is then computed using the model of step 1, which becomes m 0 . The iterative process continues; G s | m i is computed at each iteration until 𝛥𝜎 b,i reaches an empirically set value 𝜖 2 .</figDesc><graphic coords="5,219,35,90,65,309,98,476,54" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. (a) Data constraints on each dipole, expressed as ∑ 1∕l 3 , in units of per cubic kilometer. (b-e) Relative contribution of each data set to (a). Each dipole is individually plotted over a shaded relief Martian map background.</figDesc><graphic coords="8,180,83,91,97,390,62,434,90" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Histograms of the residuals for each data set and components. Misfits are normalized with respect to individual 𝜎 as given in Table 2. MO = Mapping Orbits; MAVEN = Mars Atmosphere and Volatile EvolutioN; AB/SPO = AeroBraking and the Science Phase Orbits.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Martian magnetic field power spectrum. (a) The comparison of several models at the surface. Dashed line represents terms for n &gt; 134. (b) The spectrum of our model at the surface and at 120-km altitude. SH = spherical harmonic.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Maps of the Martian magnetic field at 200 km from the Equivalent Source Dipoles model. (a) B, (b) B r , (c) B 𝜃 , (d) B 𝜙 , and (e) total field difference between the Equivalent Source Dipoles model of Langlais et al. (2004) and the one presented in this study.</figDesc><graphic coords="13,203,51,92,57,349,58,596,06" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Maps of the Martian magnetic field at the surface, as predicted by the spherical harmonic model up to n, m = 134. (a) B, (b) B r , (c) B 𝜃 , (d) B 𝜙 , and (e) field difference between the Spherical Harmonics model of Morschhauser et al. (2014) and the one presented in this study.</figDesc><graphic coords="15,204,71,95,81,346,46,590,30" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure</head><label></label><figDesc>Figure of the Martian equivalent magnetization. (a and b) Total magnetization. (c and d) Radial magnetization. For each case the magnetization is plotted at the dipole locations or interpolated on a regular grid.</figDesc><graphic coords="17,196,55,92,45,363,98,489,38" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Maps of the Martian magnetic field at the surface, as predicted by the SH model up to n, m = 134. (a) Total and (b) radial fields are shown. (c) Total field together with the location of several features discussed in the text.</figDesc><graphic coords="18,262,79,92,09,214,70,435,26" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure A1 .</head><label>A1</label><figDesc>Figure A1. Predicted radial field at 150-km altitude from (a) a polar coordinate subdivision mesh and (b) an icosahedral mesh.</figDesc><graphic coords="20,269,15,92,81,219,50,334,70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure C1 .</head><label>C1</label><figDesc>Figure C1. Mars Global Surveyor measurements on days 2 (left column) and 3 (right column) of 1999. The lowermost panels display local time (in blue), altitude (in red), and latitude (in black). The three middle panels display the measured field components (in orange), those subselected by the scheme described in the text (red stars), the predictions by the model of<ref type="bibr" target="#b37">Langlais et al. (2004;</ref>  in light blue), and by a preliminary model developed here (in blue) as a function of absolute time. On each panel the dark green triangles correspond to the binned measurements used by<ref type="bibr" target="#b37">Langlais et al. (2004)</ref> below 350 km. The uppermost panel is a close-up for the radial component as a function of latitude, from periapsis to 5 min afterward. Only the measured field (orange stars) and that subselected (red stars) are shown.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure E1 .</head><label>E1</label><figDesc>Figure E1. Total field difference at the surface between the model (Morschhauser et al., 2014) and our model, truncated to (a) n, m = 106 or (b) n, m = 134. This last figure is shown in Figure 6e and is reproduced here for comparison purposes.</figDesc><graphic coords="25,208,55,91,49,338,78,229,70" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1</head><label>1</label><figDesc>Number of Data Before and After SelectionData set# of orbits # of orbits selected # of data selected # of data, final # of data, second run</figDesc><table><row><cell>MGS AB/SPO</cell><cell>967</cell><cell>633</cell><cell>453,161</cell><cell>105,871</cell><cell>101,956</cell></row><row><cell>MGS MO</cell><cell>n/a</cell><cell>n/a</cell><cell>5,803,137</cell><cell>338,748</cell><cell>333,670</cell></row><row><cell>MGS ER</cell><cell>n/a</cell><cell>n/a</cell><cell>n/a</cell><cell>218,436</cell><cell>214,675</cell></row><row><cell>MAVEN</cell><cell>1,972</cell><cell>1,585</cell><cell>1,254,770</cell><cell>164,146</cell><cell>158,102</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head></head><label></label><figDesc>• N, 250 • E). Relatively speaking, the MGS MO and MAVEN measurements globally contribute equally, at 32.9% and 29.5%, respectively. The MGS ER data set has the weakest contribution, at 17.1%. It nonetheless remains important as it well constrains dipoles over the northern hemisphere giant basins.</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2</head><label>2</label><figDesc>Mean (Computed as Data-Model Predictions), rms Misfits (Equation (14)), and Correlation Coefficients Associated With the Final Model for Each Data Set Statistics for the field intensity are calculated from the field components for the vector data sets. For the MGS AB/SPO data, statistics are also given for a subset below 350 km. AB/SPO = AeroBraking and the Science Phase Orbits; MO = Mapping Orbits; ER = Electron Reflectometer instrument; MAVEN = Mars Atmosphere and Volatile EvolutioN.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Mean misfit (nT)</cell><cell></cell><cell></cell><cell cols="2">rms misfit 𝜎 (nT)</cell><cell></cell><cell></cell><cell cols="2">Correlation coefficient</cell><cell></cell></row><row><cell>Data set</cell><cell>B r</cell><cell>B 𝜃</cell><cell>B 𝜙</cell><cell>B</cell><cell>B r</cell><cell>B 𝜃</cell><cell>B 𝜙</cell><cell>B</cell><cell>B r</cell><cell>B 𝜃</cell><cell>B 𝜙</cell><cell>B</cell></row><row><cell>AB/SPO</cell><cell>0.57</cell><cell>2.52</cell><cell>−2.80</cell><cell>11.05</cell><cell>14.03</cell><cell>17.37</cell><cell>18.90</cell><cell>17.05</cell><cell>0.981</cell><cell>0.959</cell><cell>0.923</cell><cell>0.982</cell></row><row><cell>id, h &lt; 350 km</cell><cell>0.65</cell><cell>2.23</cell><cell>−3.00</cell><cell>8.32</cell><cell>15.70</cell><cell>17.38</cell><cell>18.19</cell><cell>17.22</cell><cell>0.982</cell><cell>0.969</cell><cell>0.944</cell><cell>0.986</cell></row><row><cell>MO</cell><cell>0.02</cell><cell>−0.42</cell><cell>0.24</cell><cell>2.22</cell><cell>3.81</cell><cell>3.87</cell><cell>3.86</cell><cell>3.93</cell><cell>0.988</cell><cell>0.981</cell><cell>0.955</cell><cell>0.990</cell></row><row><cell>ER</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>1.90</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>10.83</cell><cell>-</cell><cell>-</cell><cell>-</cell><cell>0.974</cell></row><row><cell>MAVEN</cell><cell>−0.25</cell><cell>−0.11</cell><cell>0.95</cell><cell>4.68</cell><cell>8.11</cell><cell>9.23</cell><cell>9.65</cell><cell>9.42</cell><cell>0.992</cell><cell>0.986</cell><cell>0.968</cell><cell>0.993</cell></row><row><cell>Note.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3</head><label>3</label><figDesc>Statistics Associated With the Magnetization Model (in Amperes per Meter)</figDesc><table><row><cell></cell><cell>M r</cell><cell>M 𝜃</cell><cell>M 𝜙</cell><cell>|M|</cell></row><row><cell>Mean</cell><cell>−0.03</cell><cell>0.03</cell><cell>0.14</cell><cell>1.01</cell></row><row><cell>𝜎 m</cell><cell>1.11</cell><cell>0.88</cell><cell>0.76</cell><cell>1.26</cell></row><row><cell>Minimum</cell><cell>−12.71</cell><cell>−10.76</cell><cell>−7.53</cell><cell>0.02</cell></row><row><cell>Maximum</cell><cell>16.30</cell><cell>15.80</cell><cell>8.60</cell><cell>18.86</cell></row><row><cell>Fraction above ±1𝜎 m</cell><cell>12.8%</cell><cell>12.7%</cell><cell>16.9%</cell><cell>22.2%</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head></head><label></label><figDesc>• away from Hellas's main rim. Most of the craters found</figDesc><table><row><cell>Journal of Geophysical Research: Planets</cell><cell>10.1029/2018JE005854</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>This work is part of a project (NEWTON) that has received funding from the European Union's Horizon 2020 research and innovation program under grant agreement 730041. It is also supported by CNES in the frame of the InSight mission. It further benefited from the financial support from Région Pays de la Loire, project GeoPlaNet (convention 2016-10982). The MGS and MAVEN magnetic field data used in this study are archived in the Planetary Data System (http://pds. nasa.gov). We acknowledge the unselfish efforts of technicians, engineers, and scientists working on instruments, without whom none of these results would be possible. We also acknowledge Achim Morschhauser and an anonymous reviewer for very constructive comments.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A: Test of ESD Mesh</head><p>An uneven dipole mesh may lead to some unwanted magnetized signatures. The ESD scheme relies on a homogeneous distribution, and each dipole should represent the same volume (or surface area, if the thickness is assumed to be constant). <ref type="bibr" target="#b37">Langlais et al. (2004)</ref> used an icosahedral distribution <ref type="bibr" target="#b18">(Covington, 1993)</ref>, following the work of <ref type="bibr" target="#b61">Purucker et al. (1996)</ref> and <ref type="bibr" target="#b60">Purucker et al. (2000)</ref>. The sphere is divided into three latitudinal bands. The northern and southern ones are subdivided into five equal-area spherical triangles, while the central band is subdivided into 10 triangles. Each of the sides of the 20 triangles is subdivided into smaller equal-length arcs, forming a mesh of smaller equal-area triangles. The dipoles are placed at the</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Geophysical Research: Planets</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>10.1029/2018JE005854</head><p>Based on these tests, and also considering the fact that the Martian magnetic field does not bear any significant planetary scale dipolar feature, we retain the polar coordinate subdivision mesh in the following.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B: Linearization of the Solution</head><p>Combining equations ( <ref type="formula">9</ref>) and ( <ref type="formula">10</ref>), one obtains the following equation, relating partial derivatives between the magnetic field and the magnetization components at a given location:</p><p>Magnetic field angles I and D, as well as the magnetic field intensity B 0 , are predicted by an a priori known magnetization distribution m 0 . Once a new model m 1 is obtained, new partial derivatives must be computed. For simplicity, we do not update the model labels and refer to the newly computed model m 1 also as m 0 .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix C: Along-Track Selection Procedure</head><p>For measurements acquired along satellite tracks with varying altitude it is important to define an optimal data selection scheme. Lower-altitude measurements bear more information because they are closer to the sources. There are also locations where the measured magnetic field changes slowly and almost linearly along track, while it may be very rapid and important variations elsewhere. Wherever this happens, the distance between consecutive measurements shall be smaller.</p><p>We therefore design a scheme in which the minimal distance between two consecutive measurements is proportional to the altitude h, with an actual distance which depends on the measured magnetic field variations.</p><p>The minimal along-track distance is set to</p><p>This corresponds to a minimal distance of 0.35 • (or 20 km) at an altitude of 100 km, or 0.63 • (37 km) at an altitude of 600 km. When a measurement B i is kept, the scheme does not select another measurement B j until this minimal distance 𝛥d is reached. Then the rms difference between actual and linearly interpolated measurements (at those locations which are skipped, between B i and B j ) is computed. If this rms difference is larger than 0.5 nT for any component, the measurement B j is selected. If it is lower than this value, B j is skipped, and the following measurement B j+1 is considered. A new rms difference is computed between actual and linearly interpolated measurements and compared to the 0.5-nT tolerance limit. This loop is repeated until a maximum distance, equal to 3 × 𝛥d, is reached. The selected measurement becomes B i and the process is repeated until the end of the orbital track.</p><p>The results of these selections are illustrated in Figures <ref type="figure">C1 and C2</ref> for MGS and MAVEN, respectively. Two orbit tracks are shown on two consecutive days for both spacecrafts.</p><p>In the case of MGS, the two tracks are separated by 3 • in longitude at their lowest altitude. The first one (on day 2 of 1999) does not correlate with predicted measurements at the same location (correlation coefficients are lower than 0.4 for two components). There is a clear shift, possibly related to an erroneous time stamp and/or orbit location (this was also noticed by <ref type="bibr" target="#b52">Morschhauser et al., 2014)</ref>. The second one (on day 3 of 1999) flew over a nearby location (as can be seen from the similar shape of the measurements). Correlation coefficients are better and exceed 0.9 when compared to predictions by the model of <ref type="bibr" target="#b37">Langlais et al. (2004)</ref>. The predicted measurements are, however, associated with rapid and short length scale variations, which are not present in the observations. These variations are especially important at low altitude. This is </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Geophysical</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix D: Convergence of the Solution</head><p>The results we describe here are those associated with the final model. It is built on a data set from which outliers have been individually identified and removed using a preliminary model. This preliminary model is built with the exact same procedure and outliers are later identified by comparing measurements to the predictions of the preliminary model and by excluding those measurements which are associated with dif- ferences larger than 3 𝜎 b (see equation ( <ref type="formula">14</ref>)) for any field component. This corresponds to excluding 2.5% of the initial measurements, as shown in Table <ref type="table">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Journal of Geophysical</head><p>As described in the section 2.2.3, the inverse problem consists of two steps. During the first step only 593,728 vector field measurements are considered. The goal is to derive a magnetization model, which is used in the second step to linearize the inverse problem once scalar measurements are included. It is thus important to not choose a model which would overfit the vector observations, so that the scalar measurements can make it converge to a better solution. We use a loose converging criterion, with Δ𝜎 bv i = 2% (equation ( <ref type="formula">16</ref>)). The convergence of the solution during this first step is shown in Figure <ref type="figure">D1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix E: Effects of SH Model Truncation</head><p>Two different cases are considered: we compute the differences between the model of <ref type="bibr" target="#b52">Morschhauser et al. (2014;</ref><ref type="bibr">up to n, m = 110)</ref> and ours, either up to n, m = 134 or 106. The lower truncation degree is consistent with the drop in magnetic field energy observed in Figure <ref type="figure">4</ref>. The differences are shown in Figure <ref type="figure">E1</ref>.</p><p>The two maps are strikingly similar. They are associated with a correlation coefficient of 0.9. This means that the differences between our model and that of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> are not related to the higher model truncation degree but rather to the modeled field below n, m = 106. The only area where differences are noticeable is found south of 65 • S latitude. Differences between our model and that of <ref type="bibr" target="#b52">Morschhauser et al. (2014)</ref> are larger when our model is truncated to n, n = 134. This may be related to an improved model resolution in that area. This improvement is not likely to be caused by the addition of MAVEN measurements, as MAVEN does not fly poleward of 74 • . ER measurements are also less numerous over this area (see Figure <ref type="figure">2</ref>). In addition, such effects are not observed above the northern polar cap. We conclude that Journal of Geophysical Research: Planets 10.1029/2018JE005854</p><p>the improved spatial resolution of our model over this specific area is directly related to the improved data selection scheme.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">The magnetic field of Mars. The Leading Edge</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="769" to="771" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Global distribution of crustal magnetization discovered by the Mars Global Surveyor MAG/ER experiment</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.284.5415.790</idno>
+		<ptr target="https://doi.org/10.1126/science.284.5415.790" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">284</biblScope>
+			<biblScope unit="page">790</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Magnetic field and plasma observations at Mars: Initial results of Mars Global Surveyor mission</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wasilewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.279.5357.1676</idno>
+		<ptr target="https://doi.org/10.1126/science.279.5357.1676" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="1676" to="1680" />
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Mars Observer magnetic fields investigation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wasilewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="7799" to="7814" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Overview of the Mars Global Surveyor mission</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Albee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Arvidson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Palluconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Thorpe</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000JE001306</idno>
+		<ptr target="https://doi.org/10.1029/2000JE001306" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="291" to="314" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The influence of degree-1 mantle heterogeneity on the past dynamo of Mars</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Amit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">R</forename><surname>Christensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pepi.2011.07.008</idno>
+		<ptr target="https://doi.org/10.1016/j.pepi.2011.07.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Physics of the Earth and Planetary Interiors</title>
+		<imprint>
+			<biblScope unit="volume">189</biblScope>
+			<biblScope unit="page" from="63" to="79" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The global magnetic field of Mercury from MESSENGER orbital observations</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Korth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Winslow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Slavin</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1211001</idno>
+		<ptr target="https://doi.org/10.1126/science.1211001" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">333</biblScope>
+			<biblScope unit="page" from="1859" to="1862" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Magnetization of Martian lower crust: Revisited</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arkani-Hamed</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006JE002824</idno>
+		<ptr target="https://doi.org/10.1029/2006JE002824" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Late Tharsis formation and implications for early Mars</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bouley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baratoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Matsuyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Forget</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Séjourné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Turbet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Costard</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature17171</idno>
+		<ptr target="https://doi.org/10.1038/nature17171" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">531</biblScope>
+			<biblScope unit="page" from="344" to="347" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">An n = 90 internal potential function of the Martian crustal magnetic field</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mozzoni</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000JE001487</idno>
+		<ptr target="https://doi.org/10.1029/2000JE001487" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page">5008</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A proposed model for the International Geomagnetic Reference Field-1965</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Cain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hendricks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Langel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">V</forename><surname>Hudson</surname></persName>
+		</author>
+		<idno type="DOI">10.5636/jgg.19.335</idno>
+		<ptr target="https://doi.org/10.5636/jgg.19.335" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geomagnetism and Geoelectricity</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="335" to="355" />
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The combined effects of escape and magnetic field histories at Mars</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chassefière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Leblanc</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2006.02.003</idno>
+		<ptr target="https://doi.org/10.1016/j.pss.2006.02.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Planetary and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="343" to="357" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Crustal magnetization equivalent source model of Mars constructed from a hierarchical multiresolution inversion of the Mars Global Surveyor data</title>
+		<author>
+			<persName><forename type="first">L.-Y</forename><surname>Chiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-R</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Gung</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006JE002725</idno>
+		<ptr target="https://doi.org/10.1029/2006JE002725" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Constraints on the formation of the Martian crustal dichotomy from remnant crustal magnetism</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Citron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhong</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pepi.2012.09.008</idno>
+		<ptr target="https://doi.org/10.1016/j.pepi.2012.09.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Physics of the Earth and Planetary Interiors</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="page" from="55" to="63" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The magnetic field of Jupiter-A generalized inverse approach</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="7679" to="7693" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Planetary magnetism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Treatise on geophysics</title>
+				<editor>
+			<persName><forename type="first">G</forename><surname>Schubert</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Amsterdam, The Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="243" to="280" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Tectonic implications of Mars crustal magnetism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">F</forename><surname>Ness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kletetschka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Reme</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0507469102</idno>
+		<ptr target="https://doi.org/10.1073/pnas.0507469102" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences of the United States of America</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page" from="970" to="984" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">The MAVEN magnetic field investigation</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Espley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lawton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Murphy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Odom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Oliversen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sheppard</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0169-4</idno>
+		<ptr target="https://doi.org/10.1007/s11214-015-0169-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="257" to="291" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Improvement of equivalent source inversion technique with a more symmetric dipole distribution model</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Covington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physics of the Earth and Planetary Interiors</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page" from="199" to="208" />
+			<date type="published" when="1993">1993</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A novel induction-based device for measurement of the complex magnetic susceptibility</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Diaz-Michelena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mesa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pérez-Jiménez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Maicas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cobos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hernández-Ros</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.1065978</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.1065978" />
+	</analytic>
+	<monogr>
+		<title level="j">Sensors and Actuators</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="471" to="479" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A hemispherical dynamo model: Implications for the Martian crustal magnetization</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wicht</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pepi.2013.01.001</idno>
+		<ptr target="https://doi.org/10.1016/j.pepi.2013.01.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Physics of the Earth and Planetary Interiors</title>
+		<imprint>
+			<biblScope unit="volume">217</biblScope>
+			<biblScope unit="page" from="10" to="21" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">The magnetic field and magnetosphere of the planet Mars</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Dolginov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">N</forename><surname>Zhuzgov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planetary and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1493" to="1510" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Equivalent source magnetic dipoles revisited</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dyment</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Arkani-Hamed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<date type="published" when="1998">1998. 2003-2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Thrust fault modeling and Late-Noachian lithospheric structure of the circum-Hellas region, Mars</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Egea-Gonzalez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jiménez-Díaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Parro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ruiz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2017.01.028</idno>
+		<ptr target="https://doi.org/10.1016/j.icarus.2017.01.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">288</biblScope>
+			<biblScope unit="page" from="53" to="68" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Analysis of lithospheric magnetization in vector spherical harmonics</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gubbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ivers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Masterton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Winch</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-246X.2011.05153.x</idno>
+		<ptr target="https://doi.org/10.1111/j.1365-246X.2011.05153.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Journal International</title>
+		<imprint>
+			<biblScope unit="volume">187</biblScope>
+			<biblScope unit="page" from="99" to="117" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Magnetic anomalies concentrated near and within Mercury&apos;s impact basins: Early mapping and interpretation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Hood</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JE005048</idno>
+		<ptr target="https://doi.org/10.1002/2016JE005048" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page" from="1016" to="1025" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">A crustal magnetization model for the magnetic field of Mars: A preliminary study of the Tharsis Region</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Hood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hartdegen</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/97GL00497</idno>
+		<ptr target="https://doi.org/10.1029/97GL00497" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="727" to="730" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Loss of the Martian atmosphere to space: Present-day loss rates determined from MAVEN observations and integrated loss through time</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chaffin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Curry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deighan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grebowsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2018.05.030</idno>
+		<ptr target="https://doi.org/10.1016/j.icarus.2018.05.030" />
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">315</biblScope>
+			<biblScope unit="page" from="146" to="157" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">The Mars Atmosphere and Volatile Evolution (MAVEN) mission</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Jakosky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Grebowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Luhmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Beutelschies</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0139-x</idno>
+		<ptr target="https://doi.org/10.1007/s11214-015-0139-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">195</biblScope>
+			<biblScope unit="page" from="3" to="48" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Low-altitude magnetic field measurements by MESSENGER reveal Mercury&apos;s ancient crustal field</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">K</forename><surname>Byrne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Denevi</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aaa8720</idno>
+		<ptr target="https://doi.org/10.1126/science.aaa8720" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">348</biblScope>
+			<biblScope unit="page" from="892" to="895" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Distributing points on the sphere</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Katanforoush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shahshahani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">I. Experimental Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="199" to="209" />
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">An equivalent source method for modelling the global lithospheric magnetic field</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kother</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Hammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Finlay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Olsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gji/ggv317</idno>
+		<ptr target="https://doi.org/10.1093/gji/ggv31710.1029/2018JE005854" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Journal International</title>
+		<imprint>
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="page" from="553" to="566" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Outgassing history and escape of the Martian atmosphere and water inventory</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Chassefière</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Karatekin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morschhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">B</forename><surname>Niles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mousis</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-012-9943-8</idno>
+		<ptr target="https://doi.org/10.1007/s11214-012-9943-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">174</biblScope>
+			<biblScope unit="page" from="113" to="154" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">The magnetic field of the Earth&apos;s lithosphere</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Langel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Hinze</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998">1998</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>Cambridge, UK</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">In situ and remote characterization of the external field temporal variations at Mars</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Civet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thébault</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JE005060</idno>
+		<ptr target="https://doi.org/10.1002/2016JE005060" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="110" to="123" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A polar magnetic paleopole associated with Apollinaris Patera</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2006.03.008</idno>
+		<ptr target="https://doi.org/10.1016/j.pss.2006.03.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Planetary and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="270" to="279" />
+			<date type="published" when="2007">2007</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">An improved model of the magnetic lithospheric field of Mars using both MGS-MAG and MGS-ER measurements</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Eur. Planet. Sci. Conf , Italy</title>
+				<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="393" to="C2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Crustal magnetic field of Mars</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mandea</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2003JE002048</idno>
+		<ptr target="https://doi.org/10.1029/2003JE002048" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<date type="published" when="2004">2004</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Alignments of volcanic features in the southern Hemisphere of Mars produced by migrating mantle plumes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Leone</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jvolgeores.2015.10.028</idno>
+		<ptr target="https://doi.org/10.1016/j.jvolgeores.2015.10.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Volcanology and Geothermal Research</title>
+		<imprint>
+			<biblScope unit="volume">309</biblScope>
+			<biblScope unit="page" from="78" to="95" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Building the second version of the World Digital Magnetic Anomaly Map (WDMAM)</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lesur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hamoudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dyment</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thébault</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40623-016-0404-6</idno>
+		<ptr target="https://doi.org/10.1186/s40623-016-0404-6" />
+		<imprint>
+			<date type="published" when="2016">2016</date>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+	<note>Earth Planets Space</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">An improved crustal magnetic field map of Mars from electron reflectometry: Highland volcano magmatic history and the end of the Martian dynamo</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">W</forename><surname>Bougher</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2007.09.032</idno>
+		<ptr target="https://doi.org/10.1016/j.icarus.2007.09.032" />
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page" from="575" to="596" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Electron reflectometry in the Martian atmosphere</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2007.09.030</idno>
+		<ptr target="https://doi.org/10.1016/j.icarus.2007.09.030" />
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page" from="544" to="561" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Magnetic indices</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Love</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Remick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Encyclopedia of geomagnetism and paleomagnetism</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>Gubbins</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">&amp;</forename><forename type="middle">E</forename><surname>Herrero-Bervera</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2007">2007</date>
+			<biblScope unit="page" from="509" to="512" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Mean square values on the sphere of spherical harmonic vector fields</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Lowes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mangold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baratoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Witasse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Encrenaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sotin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00159-016-0099-5</idno>
+		<ptr target="https://doi.org/10.1007/s00159-016-0099-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">107</biblScope>
+			<date type="published" when="1966">1966. 2179. 2016</date>
+		</imprint>
+	</monogr>
+	<note>Astron. Astrophys. Rev.</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Das mittel der energiedichte des geomagnetischen hauptfeldes an der erdoberflä und seine säkulare änderung</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mauersberger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gerlands Beiträge zur Geophysik</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="207" to="215" />
+			<date type="published" when="1956">1956</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Inversion of satellite magnetic anomaly data</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Mayhew</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="119" to="128" />
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Probing Mars&apos; crustal magnetic field and ionosphere with the MGS Electron Reflectometer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mazelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rème</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Cloutier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E P</forename><surname>Connerney</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000JE001435</idno>
+		<ptr target="https://doi.org/10.1029/2000JE001435" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="419" to="423" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Global-scale external magnetic fields at Mars measured at satellite altitude</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mittelholz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JE005308</idno>
+		<ptr target="https://doi.org/10.1002/2017JE005308" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1243" to="1257" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">The question of a Martian planetary magnetic field</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moehlmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Space Research</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="213" to="217" />
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">The question of an internal Martian magnetic field</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moehlmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Riedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rustenbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schwingenschuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kurths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Motschmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Planetary and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="83" to="88" />
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Giant impacts, heterogeneous mantle heating and a past hemispheric dynamo on Mars</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Monteux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Amit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Choblet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tobie</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pepi.2014.12.005</idno>
+		<ptr target="https://doi.org/10.1016/j.pepi.2014.12.005" />
+	</analytic>
+	<monogr>
+		<title level="j">Physics of the Earth and Planetary Interiors</title>
+		<imprint>
+			<biblScope unit="volume">240</biblScope>
+			<biblScope unit="page" from="114" to="124" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">The construction of sparse models of Mars&apos;s crustal magnetic field</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bloxham</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JE005238</idno>
+		<ptr target="https://doi.org/10.1002/2016JE005238" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1443" to="1457" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">A spherical harmonic model of the lithospheric magnetic field of Mars</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morschhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lesur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grott</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2013JE004555</idno>
+		<ptr target="https://doi.org/10.1002/2013JE004555" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="1162" to="1188" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Implications of an impact origin for the Martian hemispheric dichotomy</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nimmo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Hart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Korycansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Agnor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">453</biblScope>
+			<biblScope unit="page" from="1220" to="1223" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A modified equivalent source dipole method to model partially distributed magnetic field measurements, with application to Mercury</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Pais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Amit</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JE004734</idno>
+		<ptr target="https://doi.org/10.1002/2014JE004734" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="1075" to="1094" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Ideal bodies for Mars magnetics</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Parker</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2001JE001760</idno>
+		<ptr target="https://doi.org/10.1029/2001JE001760" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="issue">E1</biblScope>
+			<biblScope unit="page">5006</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">High-resolution local magnetic field models for the Martian south pole from Mars Global Surveyor data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Plattner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Simons</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015JE004869</idno>
+		<ptr target="https://doi.org/10.1002/2015JE004869" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page" from="1543" to="1566" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Numerical recipes in C. The art of scientific computing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Press</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Teukolsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">T</forename><surname>Vetterling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Flannery</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992">1992</date>
+			<publisher>Cambridge University Press</publisher>
+			<pubPlace>New York, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A global model of the internal magnetic field of the Moon based on Lunar Prospector magnetometer observations</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.icarus.2008.03.016</idno>
+		<ptr target="https://doi.org/10.1016/j.icarus.2008.03.016" />
+	</analytic>
+	<monogr>
+		<title level="j">Icarus</title>
+		<imprint>
+			<biblScope unit="volume">197</biblScope>
+			<biblScope unit="page" from="19" to="23" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Global spherical harmonic models of the internal magnetic field of the Moon based on sequential and coestimation approaches</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Nicholas</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2010JE003650</idno>
+		<ptr target="https://doi.org/10.1029/2010JE003650" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">An altitude-normalized magnetic map of Mars and its interpretation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ravat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Frey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Voorhies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sabaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Acuña</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000GL000072</idno>
+		<ptr target="https://doi.org/10.1029/2000GL000072" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="2449" to="2452" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Conjugate gradient analysis: A new tool for studying satellite magnetic data sets</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Sabaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Langel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="507" to="510" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Serpentinization of the Martian crust during Noachian</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Quesnel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sotin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Costin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mandea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gottschalk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dyment</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.epsl.2008.10.012</idno>
+		<ptr target="https://doi.org/10.1016/j.epsl.2008.10.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Earth and Planetary Science Letters</title>
+		<imprint>
+			<biblScope unit="volume">277</biblScope>
+			<biblScope unit="page" from="184" to="193" />
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Giant impact on early Mars and the cessation of the Martian dynamo</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Lillis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Manga</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2008JE003287</idno>
+		<ptr target="https://doi.org/10.1029/2008JE003287" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Crustal magnetization of Mars controlled by lithology or cooling rate in a reversing dynamo</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rochette</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2005GL024280</idno>
+		<ptr target="https://doi.org/10.1029/2005GL024280" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">L23202</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">On the interpretation of Lunar magnetism</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Runcorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physics of the Earth and Planetary Interiors</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="327" to="335" />
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">IV.15 Inverse problems</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Santosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Symes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Princeton companion to applied mathematics pp</title>
+				<editor>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Higham</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Dennis</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><surname>Glendinning</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Martin</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">F</forename><surname>Santosa</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">&amp;</forename><forename type="middle">J</forename><surname>Tanner</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Princeton, NJ, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Princeton University Press</publisher>
+			<date type="published" when="2015">2015</date>
+			<biblScope unit="page" from="327" to="335" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The solar wind interaction with Mars-Mariner 4, Mars 2, Mars 3, Mars 5, and PHOBOS 2 observations of bow shock position and shape</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Slavin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schwingenschuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Riedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eroshenko</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">241</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Pre-mission InSights on the interior of Mars</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Smrekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lognonné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Spohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Banerdt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Breuer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Christensen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-018-0563-9n/a</idno>
+		<ptr target="https://doi.org/10.1007/s11214-018-0563-9n/a10.1029/2018JE005854" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">215</biblScope>
+			<biblScope unit="page">72</biblScope>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Mars&apos; paleomagnetic field as the result of a single-hemisphere dynamo</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Elkins-Tanton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Zuber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Parmentier</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1161119</idno>
+		<ptr target="https://doi.org/10.1126/science.1161119" />
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">321</biblScope>
+			<biblScope unit="page" from="1822" to="1825" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">The digital global geologic map of Mars: Chronostratigraphic ages, topographic and crater morphologic characteristics, and updated resurfacing history</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Robbins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Fortezzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Skinner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Hare</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2013.03.006</idno>
+		<ptr target="https://doi.org/10.1016/j.pss.2013.03.006" />
+	</analytic>
+	<monogr>
+		<title level="j">Planetary and Space Science</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="11" to="24" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">International Geomagnetic Reference Field: The twelfth generation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Thébault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Finlay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Beggan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Alken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aubert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Barrois</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40623-015-0228-9</idno>
+		<ptr target="https://doi.org/10.1186/s40623-015-0228-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Earth Planets Space</title>
+		<imprint>
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">The magnetic field of the Earth&apos;s lithosphere</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Théebault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Whaler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Langlais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Sabaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-010-9667-6</idno>
+		<ptr target="https://doi.org/10.1007/s11214-010-9667-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">155</biblScope>
+			<biblScope unit="page" from="95" to="127" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Paleopole reconstruction of Martian magnetic field anomalies</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morschhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vervelidou</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JE005511</idno>
+		<ptr target="https://doi.org/10.1002/2017JE005511" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Planets</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="1140" to="1155" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">On the accuracy of palaeopole estimations from magnetic field measurements</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vervelidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Lesur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Morschhauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/gji/ggx400</idno>
+		<ptr target="https://doi.org/10.1093/gji/ggx400" />
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Journal International</title>
+		<imprint>
+			<biblScope unit="volume">211</biblScope>
+			<biblScope unit="page" from="1669" to="1678" />
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Spherical Earth gravity and magnetic anomaly analysis by equivalent point source inversion</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R B</forename><surname>Von Frese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Hinze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Braile</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth and Planetary Science Letters</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="69" to="83" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Spherical harmonic analysis of the geomagnetic field: An example of a linear inverse problem</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Whaler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gubbins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Journal of the Royal Astronomical Society</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="645" to="693" />
+			<date type="published" when="1981">1981</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">A spatially continuous magnetization model for Mars</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Whaler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Purucker</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2004JE002393</idno>
+		<ptr target="https://doi.org/10.1029/2004JE002393" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Greeley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Fergason</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kuzmin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Mccord</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Combe</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2008.08.010</idno>
+		<ptr target="https://doi.org/10.1016/j.pss.2008.08.010" />
+	</analytic>
+	<monogr>
+		<title level="m">The Circum-Hellas Volcanic Province</title>
+				<imprint>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="895" to="916" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

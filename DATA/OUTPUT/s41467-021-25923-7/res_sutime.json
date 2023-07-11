@@ -1,0 +1,78 @@
+[
+    {
+        "end": 8864,
+        "start": 8851,
+        "text": "August 7 2007",
+        "timex-value": "2007-08-07",
+        "type": "DATE",
+        "value": "2007-08-07"
+    },
+    {
+        "end": 9016,
+        "start": 9011,
+        "text": "09:30",
+        "timex-value": "T09:30",
+        "type": "TIME",
+        "value": "T09:30"
+    },
+    {
+        "end": 9097,
+        "start": 9092,
+        "text": "22:25",
+        "timex-value": "T22:25",
+        "type": "TIME",
+        "value": "T22:25"
+    },
+    {
+        "end": 9317,
+        "start": 9312,
+        "text": "22:45",
+        "timex-value": "T22:45",
+        "type": "TIME",
+        "value": "T22:45"
+    },
+    {
+        "end": 9924,
+        "start": 9913,
+        "text": "07 Aug 2007",
+        "timex-value": "2007-08-07",
+        "type": "DATE",
+        "value": "2007-08-07"
+    },
+    {
+        "end": 10068,
+        "start": 10057,
+        "text": "07 Aug 2007",
+        "timex-value": "2007-08-07",
+        "type": "DATE",
+        "value": "2007-08-07"
+    },
+    {
+        "end": 35070,
+        "start": 35047,
+        "text": "between 08:40 and 15:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T08:40",
+            "end": "T15:20"
+        }
+    },
+    {
+        "end": 37916,
+        "start": 37903,
+        "text": "08:40 - 15:20",
+        "type": "DURATION",
+        "value": {
+            "begin": "T08:40",
+            "end": "T15:20"
+        }
+    },
+    {
+        "end": 51257,
+        "start": 51252,
+        "text": "22:08",
+        "timex-value": "T22:08",
+        "type": "TIME",
+        "value": "T22:08"
+    }
+]

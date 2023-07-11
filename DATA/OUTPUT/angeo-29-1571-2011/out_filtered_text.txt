@@ -1,0 +1,239 @@
+Ann.
+Geophys., 29, 15:71 - 15:79, 2011 www.ann-geophys.net/29/1571/2011/ doi:10.5194/angeo-29-15:71 - 20:11 © Author(s) 2011.
+CC Attribution 3.0 License.
+Annales Geophysicae © coornnnales The proton pressure tensor as a new proxy of the proton decoupling region in collisionless magnetic reconnection N.
+Aunai!, A.
+Retind!, G.
+Belmont!, R.
+Smets!, B.
+Lavraud2’, and A.
+Vaivads* 'T aboratoire de Physique des Plasmas, UMR 7648, Ecole Polytechnique, Route de Saclay, 91128 Palaiseau, France “Institut de Recherche en Astrophysique et Planétologie, Université de Toulouse (UPS), France 3Centre National de la Recherche Scientifique, UMR 5277, Toulouse, France 4Swedish Institute of Space Physics, PO.
+Box 537, 75121 Uppsala, Sweden Abstract.
+Cluster data is analyzed to test the proton pressure tensor variations as a proxy of the proton decoupling region in collisionless magnetic reconnection.
+The Hall electric potential well created in the proton decoupling region results in bounce trajectories of the protons which appears as a characteristic variation of one of the in-plane off-diagonal components of the proton pressure tensor in this region.
+The event studied in this paper is found to be consistent with classical Hall field signatures with a possible 20 % guide field.
+Moreover, correlations between this pressure tensor component, magnetic field and bulk flow are proposed and validated, together with the expected counterstreaming proton distribution functions.
+Keywords.
+Space plasma physics (Magnetic reconnection) 1 Introduction Magnetic reconnection is an important plasma phenomenon transferring the magnetic energy stored in current sheets into fluid kinetic energy and heat and allowing the breaking of the large scale flux freezing constraint.
+It has important consequences regarding the dynamics of many astrophysical environments like the Earth’s magnetosphere and its interaction with the solar wind (Dungey, 1961; Priest and Forbes, 2000; Birn and Priest, 2007; Yamada et al., 2010).
+One of the most remarkable consequences of magnetic reconnection is the formation of plasma jets.
+In collisionless environments, these jets are formed within a microscopic region surrounding the reconnection site, called the ion decoupling region.
+When the scale of the current sheet reaches the ion inertial scale, the ion fluid (hereafter considered to be a proton fluid) cannot follow the magnetic field motion Correspondence to: N.
+Aunai BY (nicolas.aunai @ lpp.polytechnique.fr) and decouples from it.
+At this scale, the latter is therefore only frozen in the electron fluid, which, because it is much lighter, can move very much faster.
+The decoupling of the protons enables Hall electric fields which in return accelerate them away from the reconnection site up to a large fraction of the upstream Alfvén speed within a few proton inertial lengths.
+This mechanism self-consistently adjusts the reconnection geometry and therefore the rate at which the phenomenon proceeds (Birn et al., 2001).
+The proton decoupling region is so small compared to the magnetosphere characteristic scale that it is rarely crossed in spite of the increasing number of space probes.
+When it is crossed, the highly dynamic and multiscale behavior of plasma structures makes the analysis so difficult that we only begin to gather enough evidences for just being convinced that reconnection is indeed happening and seem to be consistent with the numerical models (Paschmann, 2008).
+Among these evidences are the repeated observations of electromagnetic and bulk flow correlations consistent with the classic two-dimensional Hall model (Eastwood et al., 2010a).
+As uncertainties on the physical interpretation of spacecraft measurements are today almost impossible to evaluate, a detailed study of the collisionless reconnection mechanism itself by observational means 1s still very challenging and requires as much observational proxies of the critical Hall region as possible.
+Recently, an interesting study based on Cluster satellites measurements revealed the presence of strong inward electric field in a divergent exhaust structure formed in a very thin current sheet (Wygant et al., 2005).
+The corresponding electric force on the proton fluid along the direction normal to the main current sheet was found to be balanced by a pressure gradient, the exhaust region being hot compared to the upstream region.
+They have shown that the temperature enhancement has a kinetic origin due to the appearance of counterstreaming beams in the normal direction, as one enters the exhaust region.
+These beams were interpreted as 1572 Table 1.
+Position of Cluster spacecraft in the GSM coordinate system at 17:00 UT.
+Position/satellite Cluster1 Cluster2 Cluster3 Cluster 4 X Pos.
+(RE) —17.3 —17.8 —17.7 —17.9 Y Pos.
+(Rp) —5.1 —4.7 —5.0 —5.2 Z Pos.
+(Rp) 3.6 3.6 3.1 3.6 protons bouncing in the electrostatic potential well.
+Similar beams were also observed in kinetic numerical simulations and sometimes interpreted as well as the result of bounce trajectories of the protons between the separatrices in the decoupling region (Pei et al., 2001; Shay et al., 1998).
+It is worth noticing, however, that counterstreaming beams seem to be a common feature in space plasma observations and may appear in different contexts in numerical simulations as well (Nagai et al., 2001; Drake et al., 2009; Gosling et al., 2005).
+Recently, an analysis of the proton acceleration within the decoupling region, from both fluid and kinetic point of views, using two-dimensional hybrid simulations confirmed the scenario of Wygant et al.
+(2005): protons bounce in the Hall electrostatic potential well, create counterstreaming beam distributions that effectively increase the pressure inside the exhaust and balance the normal inward electric force (Aunai et al., 2011a,b).
+Their analysis went a step beyond and can be summarized in the following way: they revealed that the outflow directed component of the Hall electric force (en Ex), was also partly balanced by a pressure force, also linked to the kinetic bounce mechanism.
+They showed that as the protons bounce between the separatrices, the small aperture angle of the electrostatic potential well makes them to deviate at each bounce and transfer the velocity gained from the potential, from the normal (z) to the outflow direction (x).
+At a fixed position within the exhaust region, the collisionless mixing of protons having bounced a different number of times thus statistically couples the normal and outflow velocity component of particle velocity in phase space, which macroscopically appears as non-zero inplane off-diagonal component of the proton pressure tensor (Py, in LMN coordinates).
+They also showed that as the strong Hall electric field disappears as one moves away from the decoupling region in the downstream direction, the bounce mechanism ceases and the spatial structure of the in-plane off-diagonal component of the pressure tensor changes.
+These results, beyond the study of the fundamental acceleration mechanism, therefore suggest the spatial structure of this component of the proton pressure tensor as an additional observational proxy of the proton decoupling region.
+The present paper investigates, by means of spacecraft data analysis, the proton acceleration in the vicinity of the decoupling (Hall) region and focuses on the relationship between the bounce mechanism and the fluid consequences via Ann.
+Geophys., 29, 15:71 - 15:79, 2011 N.
+Aunai et al.: Ion pressure tensor in magnetic reconnection the study of the pressure tensor structure.
+The paper is structured as follows.
+The second section presents the dataset in terms of spacecraft orbit, tetrahedron configuration and instruments used.
+The third section presents an overview of the electromagnetic and proton moments during the time interval of interest.
+In the fourth section, we show the study of the “classical” correlations of the magnetic field and the proton bulk flow and compare it to the classical 2-D Hall reconnection scenario.
+Deducing roughly the spatial structure from the previous analysis, we present in the fifth section, theoretical predictions for the correlation of the in-plane offdiagonal component of the proton pressure tensor with the electromagnetic field and bulk flow based on previous simulation results (Aunai et al., 2011a,b), and confront it with observations.
+In the sixth section, we present the in-plane projection of the measured proton distribution functions in specific regions where we expect to see beams consistent with the bounce proton motion in the open potential well.
+The last section summarizes our results and discusses future work.
+2 Dataset and orbit This study focuses on the data measured by the Cluster spacecraft (Escoubet et al., 2001) during the time interval 17:05 - 17:35 UT, on 18 August 2002.
+At this time, the four satellites are located near the magnetotail current sheet.
+The tetrahedron configuration is given in the Fig.
+1 and the position of the satellites at the time of the event is reported in Table 1.
+In this study, we have used the data measured by the Flux-Gate Magnetometer (FGM) experiment (Balogh et al., 2001) with full resolution.
+The proton moments were measured by Cluster Ion Spectrometry (CIS) experiment (Reme et al., 2001) with the CODIF instrument, and proton distribution functions were measured by the HIA instrument, both with spin (4s) resolution.
+The electric field and spacecraft potential were measured by the Electric Field and Waves (EFW) instrument (Gustafsson et al., 2001).
+3 Event overview Figure 2 summarizes some of the data measured by Cluster 1 and 4 spacecraft during the time interval of interest.
+The magnetic field (Bx, By, Bz), proton bulk flow (Vx) and proton pressure tensor component (Px,) are presented in panels (c), (d), (e), (f) and (g), respectively.
+These components are given in the GSM coordinate system.
+One can first notice that the data measured by the two spacecraft have globally the same properties, indicating that they both measured the same phenomena.
+The two other spacecraft, because of their position, didn’t observed this structure, their data is therefore not reported here.
+This event has been reported before as a proton decoupling region crossing (Eastwood et al., 2010a; Asnes et al., 2008) and has already been studied in detail from the www.ann-geophys.net/29/1571/2011/ N.
+Aunai et al.: Ion pressure tensor in magnetic reconnection Z GSM 2.5 y \ iN 2.0 Fe tt 16.0 16.5 17.0 17.5 18.0 18.5 19.0 —X GSM (RE) —Y GSM aR .
+| L GSM 4.0F 3.55 1 —X GSM (RE) Fig.
+1.
+Tetrahedron configuration in the GSM coordinate system for 18 August 2002 between 15:00:00 and 18:00:00 UT.
+Red circles indicate the configuration at 17:00:00, approximate time of the event.
+Black, Red, Green and Blue indicate Cluster 1, 2, 3 and 4, respectively.
+electron physics point of view (Asnes et al., 2008).
+The magnetic reversal seen around t = 17:07:40, followed by the bulk flow reversal in the x-direction around t = 17:08:40 are interesting features when considering magnetic reconnection.
+Also consistent with the reconnection scenario is the reversal of the B, magnetic component.
+When combined together, these features might indicate that the spacecraft crossed a reconnection region from its northern tailward side to its southern earthward side (cf.
+Fig.
+3).
+Two flow reversals are also measured afterwards and might indicate the crossing of the same fluctuating X-line or the crossing of other X-lines.
+It is worth noticing that in the mean time, C,; and C4 measured variations of the By component of the magnetic field correlated with the bulk flow reversals, as expected for a crossing of the proton decoupling region from the 2-D Hall reconnection model where the reconnection would happen in the (x,z) plane.
+We will analyze in detail the variations of the magnetic and velocity field and compare it to theoretical predictions in Sect.
+4.
+Figure 2g presents the variations of the Px, component of the proton pressure tensor.
+Let us note for the moment that first, it is not zero, indicating an anisotropy of the distribution function of the protons.
+Then it shows variations and changes sign in correlation with the flow and magnetic measurements.
+These variations and their correlation with the other quantities will be discussed in detail in Sect.
+5.
+www.ann-geophys.net/29/1571/2011/ Vo (km/s) —200 & —400 —600 0.03 0.02 0.01 P,,, 9-00 17:14:00 17:06:00 17:08:00 17:10:00 17:12:00 Fig.
+2.
+Overview of the data measured by Cluster 1 and 4 spacecraft on 18 August 2002.
+Vectors are presented in the GSM coordinate system.
+Figure 2a presents the proton density and the spacecraft potential measured by Cluster 1.
+One can notice that the proton density calculated from the particle instrument is consistent with the variations of the spacecraft potential.
+The presence of density and potential dips in the signal at about 17:07:00, 17:08:00 and 17:09:00 will be discussed as possible proxies for the reconnection region structure.
+Finally, Fig.
+2b presents the electric field in the z-direction of the DeSpun Inverted (DSI) coordinate system measured by C4.
+This component is calculated using the E- B = 0 hypothesis, when the magnetic field angle with the spacecraft plane is more than 15°.
+Ann.
+Geophys., 29, 15:71 - 15:79, 2011 1574 Table 2.
+LMN basis for Cluster 1 (11M ,Nj1) and Cluster 4 (L4M4N4) in GSE coordinates.
+Xx y z Ly 0.9708 0.2362 —0.0417 M, = —0.2487 0.9286 0.2754 Nj 0.1006 —0.2668 0.9585 L4 0.9949 0.0645 —0.0774 M4, -—0.1769 0.9107 0.3731 N4 0.1142 —0.4131 0.9034 4 Proton decoupling region: Hall signatures 4.1 LMN coordinate system The data overview presented in Fig.
+2 shows variations in the By component, correlated with those of the bulk flow and magnetic field in the x-direction.
+In this section, we analyze more closely these correlations and compare it to what is expected from the two-dimensional collisionless reconnection model.
+Assuming the reconnection process to be planar, we first need to identify the appropriate basis to project vectors and compare them with classical Hall reconnection model.
+When crossing a reconnection outflow region, one can usually distinguish the variation scales of the three magnetic components.
+The largest variation is attributed to the reconnecting component, which in the magnetotail is usually close to the x-direction.
+The intermediate variation is attributed to the Hall magnetic component, which points in the out-of-plane direction (usually the y-direction in the tail).
+And finally the negligible variation 1s attributed to the normal component (close to z-direction).
+We performed a minimum variance analysis (MVA) centered on the B, reversal time to determine these largest, intermediate and smallest variation directions and found, for each spacecraft, the corresponding LMN vectors, for which the GSE components are given in Table 2.
+Both matrices are roughly similar to the GSM coordinate system.
+In the following, the LMN coordinate system is used to perform and present our analysis since the various features a more consistent with the reconnection scenario when the data is projected in this basis.
+4.2 Evidences for a small guide field Looking carefully at the data overview presented in Fig.
+2, one can note that the By component is not zero when Bx changes its sign.
+Because the Hall magnetic component is quadrupolar around the reconnection site, this might indicate the presence of a small guide field, whose value would then be precisely the By value when Bx =0, that is Bop © 4nT.
+This suggestion is consistent with the fact that By is also about 4nT at the bulk flow reversal (Fig.
+2).
+Figure 3 represents scatter plots of the By component of the magnetic Ann.
+Geophys., 29, 15:71 - 15:79, 2011 N.
+Aunai et al.: Ion pressure tensor in magnetic reconnection field in the (Bz, Vz) plane for Cy and C4 between 17:06:40 and 17:09:45.
+For each spacecraft, we have also represented a scatter plot of Bi in the same plane, defined as By — Bor.
+Each scatter plot is accompanied by a cartoon, illustrating the possible trajectory of the spacecraft in the reconnection region, the sign and relative amplitude of the out-of-plane magnetic component.
+A moderate guide field has recently been shown to be responsible for the distortion of the classical quadrupolar structure of the out of plane magnetic field (Eastwood et al., 2010b).
+Although such effect might apply for the present case, it is worth noticing that for weak to moderate guide fields, the global shape of the out of plane magnetic field structure roughly looks like the quadrupolar one shifted by some constant close to the guide field value.
+In other words, the guide field being positive, the negative Hall field amplitude should be diminished while the positive quadrants should be increased (Eastwood et al., 2010b).
+If one subtract the small guide field value, assuming it is constant and uniform, the out-of-plane component structure should then be closer to the classical quadrupolar pattern.
+This operation allows us to compare visually the structure with the classic reconnection picture easily by making scatter plots.
+These scatter plots, by the way, meet our expectations.
+It is worth noticing this analysis is consistent with previous results (Asnes et al., 2008).
+4.3 Hall electric field Both the sign and the high values taken by E, as presented in Fig.
+2 are consistent with average values (~8 mV m7!) of the Hall electric field on separatrices (Eastwood et al., 2010a).
+It is interesting to note that the peak of the electric field component FE, is measured at about the same time as a dip in the proton density or spacecraft potential (panel a of Fig.
+2).
+Density and potential dips have been reported previously as good proxies of the separatrices (Cattell et al., 2005; Shay et al., 2001; Drake et al., 2008).
+The small time difference between those two features may be related to the fact that EF, is measured by C4 and the spacecraft potential is measured by C,.
+Note also that part of the measured electric field may be outside of the decoupling region.
+Indeed, as long as the spacecraft are in the outflow region, no matter if they are in the decoupling region or not, there is an inward electric field, that is, depending on the location, associated to the motion of the whole plasma or only electrons (Aunai et al., 201 1a; Drake et al., 2009).
+4.4 Timing analysis While the magnetic field and proton moments measured by the two spacecraft are globally identical, a careful examination reveals few differences.
+These can be explained by considering the separation of the two spacecraft relatively to the expected spatial variations of the plasma and field quantities in a tailward moving and steady reconnection site.
+We www.ann-geophys.net/29/1571/2011/ N.
+Aunai et al.: Ion pressure tensor in magnetic reconnection With a guide field To Earth vai 1000 500 Om 15:75 - 10:00 1000 500 0 -500 - 1000 (@] -500 Vi (kms) V (kms) Fig.
+3.
+Left: cartoons representing the reconnection plane, magnetic field lines in black, blue and red circles represent the out-of-plane negative and positive component of the magnetic field, respectively.
+Green arrows represent the plasma jets and the yellow curve is the possible trajectory of the Cluster spacecraft.
+Right: scatter plot of the out-of-plane component of the magnetic field represented as colored circles in the (V;,, By) plane.
+As for the cartoon on the left, the size of the circle represents the amplitude of the field.
+Blue and red circles code negative and positive values, respectively.
+Lower panels represent the same data as upper panel but where 4nT has been subtracted from the out-of-plane magnetic component.
+will now identify key instants in the signal of the two spacecraft and calculate roughly the spatial scales of the observed structures.
+The derived numbers are to be considered as nothing more than rough estimations since many hypotheses are done and come with uncertainties that are difficult to estimate.
+Let us call Vz; and Vz4 the bulk flow reversal seen by C, and C4, respectively.
+These points, indicated in Fig.
+4, are measured at ty; © 17:08:40 and tyz4 © 17:08:58.
+At these times, the separation between the two spacecraft along the L coordinate is about 56;, where 6; =c/wp; is the local proton inertial length.
+Assuming that this separation is the only source of delay between the two measurements of the bulk flow reversal, one can estimate that the velocity of the X-line is about —56;/18s ~ —0.36;/s.
+The proton inertial length at this time is about 690 km, the X-line velocity thus approaches ~ —200kms7!.
+Knowing the approximate X-line velocity, we can now estimate the spatial extent of the observed structure.
+One can notice on the fourth panel of Fig.
+4, that B), has a kind of plateau around zero between two maxima of opposite signs.
+This could be considered as the region southern of the Xline where the magnetic field lines have not been reconnected yet.
+This interpretation is comforted by the observation of the reversal of By at about the same time (Fig.
+4).
+In this www.ann-geophys.net/29/1571/2011/ region, the Hall magnetic component is indeed expected to be about zero.
+This interpretation is consistent with the observation of dips in proton density and spacecraft potential (Fig.
+2) just before and after the plateau, which mark the location of separatrices.
+The plateau begins at rr! ~~ 17:08:15 and 14 ~ 17:08:30 and ends at rh ~ 17:08:41 and v4 7 17:08:51, for Cluster 1 and 4, respectively.
+The average time interval spent in this region is thus tg © 23 s, which, for the tailward velocity of the X-line, corresponds to a distance of A + 76;.
+Assuming that the reconnection rate is around E, ~ 0.1, one finds from the MHD picture that the spacecraft crossed the proton decoupling region at a distance of 6= E,A/2=0.356; = 15/d¢ southern of the X-line.
+The crossing of the By reversal is measured at tg, = 17:07:38, which, assuming a constant X-line velocity and a steady reconnection process, would then be located at D ¥ 196; from the bulk flow reversal.
+This rough estimate would indicate that this crossing of the outflow region is outside of the proton decoupling region, whose extent is often measured to be roughly 106; in numerical simulations (Shay et al., 2001; Aunai et al., 201 1a).
+Ann.
+Geophys., 29, 15:71 - 15:79, 2011 1576 SSS 17:07:00 17:08:00 17:09:00 17:10:00 Fig.
+4.
+From top to bottom: separation between Cluster 1 and Cluster 4 along the LZ direction measured in local proton inertial length unit, By, By and By magnetic components and V7, component of the proton bulk flow measured as a function of time for Cluster 1 (black) and 4 (blue).
+The green line indicates the time tg;,,.
+The black and blue dashed lines indicate ie and io respectively.
+The red lines indicate indicate the flow reversals at ty; and ty 4.
+5 Pressure tensor This section focuses on the correlation of the Pyz component of the proton pressure tensor with the magnetic field and the bulk proton flow.
+Following our previous results concerning the spatial structure of the reconnection region, we consider the time interval t; = 17:07:50, t2 = 17:09:50 during which the spacecraft are exploring the southern region of the X-line, from the southern tailward quadrant to the southern Earthward quadrant.
+Figure 5 shows a cartoon of the reconnection plane, and represents the expected sign of the Pnx component, as it has been evidenced by (Aunai et al., 2011a), and which can be understood as follows: the en FE, electric force, accelerating the protons away is opposed to the L component of the pressure force —dy Pyy (—0z, PLL being negligible (Aunai et al., 201 1a)).
+The variation of this off-diagonal term is the result of the bounce motion of the protons inside the exhaust.
+Outside, in the “not reconnected” region, the plasma distribution is assumed to be an isotropic drifting Maxwellian function, so that Py; =O.
+For the pressure force to be opposed to the electric force, it is easy to calculate the correct sign of the derivative of Py;, and then, considering isotropy in the upstream region, to deduce the sign of Pyzy inside each quadrant.
+For example, the electric force is negative at the southern tailward separatrix so —dy Pyz > O there, which means that Py has to be negative in the quadrant.
+By symmetry, one immediately deduce the three other signs around the X-line, and in particular Py 7 has to be positive within the southern earthward quadrant.
+Ann.
+Geophys., 29, 15:71 - 15:79, 2011 N.
+Aunai et al.: Ion pressure tensor in magnetic reconnection From the southern tailward quadrant to the southern earthward quadrant, the Py; component therefore has to go from negative to positive values, while B4, goes from positive to negative values, and V7 goes from negative to positive values.
+This expected correlation is clearly observed in the scatter plots for the two spacecraft, displayed in Fig.
+5.
+6 Distribution functions The correlation of the in-plane off-diagonal component of the proton pressure tensor seems consistent with the theoretical predictions.
+Let us now look at the proton distribution functions and check whether they are consistent with the suspected underlying proton bounce dynamics (Aunai et al., 201 1a).
+From the timing analysis we choose two time intervals At; = [ 17:07:54 - 17:08:22 ] and Ato = [ 17:08:42 — 17:09:45 ] where the spacecraft are suspected to be in the southern tailward and southern earthward quadrants, respectively.
+Although the spacecraft are in burst mode, the very low density of the plasma makes the 4s distributions quite noisy.
+To have a better insight, we decide to average all the 4s resolution distributions during each of the the two time intervals At; and Af> and project them into the (v,, v-) plane.
+The result of this operation is shown in Fig.
+6.
+One can notice that these distributions consist of large beams with high positive vz velocities and opposed vx velocities, consistently with what is expected for proton populations repelled from the southern separatrices on each side of the X-line.
+One can also note that smaller beams are detected with negative velocities and might be interpreted as beams accelerated by the opposite separatrices.
+At last, we can also notice the elongated cigar-shape of the large beam on the right panel.
+This shape seems consistent with the bounce mechanism and the statistical coupling of the normal and outflow directions in velocity space, as presented by Aunai et al.
+(2011la).
+The “temperature” and the shape of each beams 1s related to the mixing in velocity space of protons having bounced a different number of times appearing at larger vx but lower v, due to the aperture angle of the electrostatic potential well.
+7 Conclusions In this paper, we have analyzed data measured by the Cluster spacecraft to study the correlation of one component of the proton pressure tensor with the proton bulk flow and the electromagnetic fields.
+Based on the “classical” analysis of the correlation of the electromagnetic field with the proton bulk flow, we have shown that the data during the time interval considered here is consistent with the two-dimensional steady Hall reconnection scenario, with a small guide field (~4nT).
+Given a plausible spacecraft trajectory within the reconnection structure and comparing the data to the reconnection model cartoon, we have deduced a rough estimate of the scale and the velocity of the structure measured by www.ann-geophys.net/29/1571/2011/ N.
+Aunai et al.: Ion pressure tensor in magnetic reconnection Pnyr <0 NL L 1577 5 1000 500 0 —500 — 1000 Vz (km/s) Fig.
+5.
+Left: sketch of the reconnection plane.
+Black lines represent the in-plane magnetic field lines, red and blue circles represent the sign and amplitude of the quadrupolar out-of-plane Hall magnetic field component, green arrows represent the proton outflow, red arrows represent the hall electric force, balanced by the blue arrows representing the pressure gradient force.
+This force balance, in the x-direction, —0z Pix, ~~ —enEx lead to the prediction of the sign of Py, colored in each quadrant of the decoupling region (dashed black square).
+The possible spacecraft trajectory is represented as the yellow curve.
+The solid part of this curve is the location where the data presented in the right panel is thought to be.
+Right: scatter plot for C; (top) and C4 (bottom) of the sign and amplitude of Pay, coded as colored and variable radius circles in the (B " Vz).
+Blue and red circles means negative and positive values, respectively, as in the sketch on the left.
+2000 1000 oD N & 0 N > —10:00 - 20:00 —270:00 - 10:00 O 1000 2000 Vx (km/s) 1000 wo ™ — 0 N > — 10:00 - 20:00 — 20:00 - 10:00 O 1000 2000 Vx (km/s) Fig.
+6.
+Proton distribution functions projected in the (vy, vz) plane measured by C; averaged during the time intervals indicated on Fig.
+4 (left:blue, right:red).
+Cluster 1 and Cluster 4.
+We could therefore predict, for the selected time intervals, the variation of the in-plane offdiagonal component of the proton pressure tensor as reported in numerical simulations (Aunai et al., 201 1a).
+The observations agree with expectations, both for the variations of the in-plane pressure tensor component and the proton distribution functions.
+This study is thus consistent with the bounce mechanism scenario for proton acceleration, and with its relationship with the behavior of the fluid, via the spatial variations of the proton pressure tensor.
+As a consequence of the symmetry of the Hall potential well, the bounce motion, and www.ann-geophys.net/29/1571/2011/ thus the pressure tensor signature is not expected in asymmetric current sheet or large guide field configurations.
+This latter case would happen when the guide field exceeds the typical value of the Hall quadrupolar field, which is usually about 0.5Bo.
+This study nevertheless shows that the proton pressure tensor, having a characteristic structure around the X-line, might be considered as an additional proxy of this critical region.
+This case study results should be considered in more events in future statistical studies and future higher resolution data expected from the MMS mission.
+Ann.
+Geophys., 29, 15:71 - 15:79, 2011 1578 Acknowledgements.
+The authors would like to thank J.
+Eastwood for helpful discussions about the reconnection event presented in the paper.
+We would also like to acknowledge the Cluster Active Archive (http://caa.estec.esa.int/) team, the AMDA team (http: //cdpp-amda.cesr.fr), and the ANR MAGNET for partly funding this work.
+Guest Editor A.
+Masson thanks two anonymous referees for their help in evaluating this paper.
+INSU Institut national des sciences de I'Univers The publication of this article is financed by CNRS-INSU.
+.

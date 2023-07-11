@@ -1,0 +1,37 @@
+# Name: 1010022015JA022327_bibheliotech_V1;
+# Creation Date: 2022-07-20T11:36:05.422735;
+# Description: Catalogue of events resulting from the HelioNER code (Dablanc & Génot, "https://github.com/ADablanc/BibHelioTech.git") on the paper "https://doi.org/10.1002/2015JA022327". The two first columns are the start/stop times of the event. the third column is the DOI of the paper, the fourth column is the mission that observed the event with the list of instruments (1 or more) listed in the fifth column. The sixth column is the most probable region of space where the observation took place (SPASE ObservedRegions term);
+# Parameter 1: id:column1; name:DOI; size:1; type:char;
+# Parameter 2: id:column2; name:SATS; size:1; type:char;
+# Parameter 3: id:column3; name:INSTS; size:1; type:char;
+# Parameter 4: id:column4; name:REGS; size:1; type:char;
+# Parameter 5: id:column5; name:D; size:1; type:int;
+# Parameter 6: id:column6; name:R; size:1; type:int;
+# Parameter 7: id:column7; name:SO; size:1; type:int;
+# Parameter 8: id:column8; name:occur_sat; size:1; type:int;
+# Parameter 9: id:column9; name:nb_durations; size:1; type:int;
+# Parameter 10: id:column10; name:conf; size:1; type:float;
+2001-10-01T00:00:00.000 2003-10-28T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MGS" "" "Heliosphere.Outer" 78 1 2 24 8 0.011959521619135235 
+2001-10-01T00:00:00.000 2003-10-28T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MGS" "" "Heliosphere.Outer" 328 1 2 24 8 0.050291321680466114 
+2001-10-01T00:00:00.000 2003-10-28T23:59:59.000 https://doi.org/10.1002/2015JA022327 "Mars-Odyssey" "MARIE,Gamma-Ray-Spectrometer" "Earth.Magnetosphere.Polar" 134 1 1 24 8 0.0410916896657467 
+2015-02-01T00:00:00.000 2015-03-28T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 24732 1 16 24 8 0.47401103955841767 
+2015-02-01T00:00:00.000 2015-03-28T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 26079 1 16 24 8 0.499827506899724 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "IMAGE" "" "Earth.Magnetosphere" 6522 2 4 24 8 1.0 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "IMAGE" "" "Earth.Magnetosphere" 6513 2 4 24 8 0.9986200551977921 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 7591 2 16 24 8 0.2909766942655627 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 7174 2 16 24 8 0.2749923336399877 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 6930 2 16 24 8 0.265639374425023 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 4816 2 16 24 8 0.1846059490953695 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 1571 1 16 24 8 0.030109628948175406 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 161 1 16 24 8 0.003085709904937136 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 1059 1 16 24 8 0.0202966881324747 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 1221 1 16 24 8 0.023401563937442502 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 437 1 16 24 8 0.008375498313400797 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "" "Mars" 6367 2 16 24 8 0.24405857099049372 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "" "Mars" 5061 2 16 24 8 0.1939972401103956 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "MEX" "" "Mars" 2987 1 1 24 8 0.9159766942655627 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "IMAGE" "" "Earth.Magnetosphere" 6522 2 4 24 8 1.0 
+2015-02-25T00:00:00.000 2015-03-15T23:59:59.000 https://doi.org/10.1002/2015JA022327 "IMAGE" "" "Earth.Magnetosphere" 6513 2 4 24 8 0.9986200551977921 
+2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 2439 1 16 24 8 0.04674563017479301 
+2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 20144 1 16 24 8 0.38607789021772465 
+2015-02-25T15:00:00.000 2015-03-15T16:00:00.000 https://doi.org/10.1002/2015JA022327 "MAVEN" "SEP,SWIA" "Mars" 24796 1 16 24 8 0.47523765716038024 

@@ -1,0 +1,1493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Massive Multi-Mission Statistical Study and Analytical Modeling of the Earth&apos;s Magnetopause: 1. A Gradient Boosting Based Automatic Detection of Near-Earth Regions</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">G</forename><surname>Nguyen</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">N</forename><surname>Aunai</surname></persName>
+							<idno type="ORCID">0000-0003-4955-9924</idno>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Michotte De Welle</surname></persName>
+							<idno type="ORCID">0000-0002-9862-4318</idno>
+						</author>
+						<author>
+							<persName><forename type="first">A</forename><surname>Jeandet</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><surname>Fontaine</surname></persName>
+							<idno type="ORCID">0000-0001-6807-8494</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 CNRS, Ecole polytechnique, Sorbonne Université, Université Paris Sud, Observatoire de Paris, Institut Polytechnique de Paris, Université Paris-Saclay, PSL Research Univsersity, Laboratoire de Physique des Plasmas, </orgName>
+								<address><addrLine>Palaiseau, France, Paris, France, France, Toulouse, France</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 Direction Générale de l&apos;Armement, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 Laboratoire d&apos;astrophysique de Bordeaux, University of Bordeaux, CNRS, Pessac, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 4 Institut de Recherche en Astrophysique et Planétologie, Université de Toulouse, CNRS, CNES,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Massive Multi-Mission Statistical Study and Analytical Modeling of the Earth&apos;s Magnetopause: 1. A Gradient Boosting Based Automatic Detection of Near-Earth Regions</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+					<idno type="MD5">2C7F112B2C5362CD64054858ED5B679E</idno>
+					<idno type="DOI">10.1029/2021JA029773</idno>
+					<note type="submission">Received 9 JUL 2021 Accepted 5 DEC 2021 10.1029/2021JA029773</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T15:14+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We present an automatic classification method of the three near-Earth regions, the magnetosphere, the magnetosheath and the solar wind from their in situ data measurement by multiple spacecraft. Based on gradient boosting classifier, this very simple and very fast method outperforms the detection routines based on manually set thresholds. The method is used to identify 15,062 magnetopause crossings and 17,227 bow shock crossings in the data of 11 different spacecraft of the THEMIS, ARTEMIS, Cluster, MMS, and Double Star missions and for a total of 83 cumulated years. These multi-mission catalogs are easily reproducible, can be automatically enlarged with additional data and their elaboration paves the way for future massive statistical analysis of near-Earth boundaries.</p><p>NGUYEN ET AL.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The magnetopause is the boundary where magnetospheric and magnetosheath pressures balance, and where magnetic fields of terrestrial and solar origin interact. It acts like an obstacle for the upcoming supersonic solar wind and is thus located downstream a collisionless bow shock <ref type="bibr" target="#b8">(Burgess, 1995)</ref> across which the solar wind becomes subsonic. The magnetopause and the bow shock are the boundaries of the three main near-Earth regions: the magnetosphere, the magnetosheath and the solar wind. By definition, the shape, location and properties of these boundaries depend on the upstream solar wind conditions <ref type="bibr" target="#b11">(Fairfield, 1971)</ref>. The ever-growing quantity of near-Earth in situ data allowed the realisation of statistical studies dedicated to the physical properties of the different near-Earth regions and to the position, shape and dynamics of both the magnetopause <ref type="bibr" target="#b3">(Berchem &amp; Russell, 1982;</ref><ref type="bibr" target="#b16">Haaland et al., 2014;</ref><ref type="bibr" target="#b17">Hasegawa, 2012;</ref><ref type="bibr" target="#b24">Lukin et al., 2019;</ref><ref type="bibr" target="#b27">Němeček et al., 2020;</ref><ref type="bibr" target="#b34">Panov et al., 2008</ref><ref type="bibr" target="#b35">, Paschmann et al., 2018;</ref><ref type="bibr">Phan &amp; Paschmann, 1996 and references therein)</ref> and the bow shock <ref type="bibr">(Kruparova et al., 2019 and references therein)</ref>. Such studies also led to the development of numerous magnetopause <ref type="bibr" target="#b22">(Lin et al., 2010;</ref><ref type="bibr" target="#b23">Liu et al., 2015;</ref><ref type="bibr" target="#b42">Shue et al., 1997;</ref><ref type="bibr">Wang et al., 2013 and references therein)</ref> and bow shock <ref type="bibr" target="#b12">(Farris &amp; Russell, 1994;</ref><ref type="bibr" target="#b19">Jeřáb et al., 2005;</ref><ref type="bibr">Wu et al., 2000 and references therein)</ref> surface models.</p><p>The first step of both empirical modeling and statistical studies is always the same: establishing a consistent catalog of boundary crossings from the streaming in situ data provided by missions of interest. This, in addition to being time-consuming, is an ambiguous task, strongly linked to the interpretation of an external observer and thus poorly reproducible. As a result, catalogs of events are difficult to make and their size represents, with time, an ever decreasing proportion of the total and massive amount of public multi-mission data that has been accumulating for decades. This severely hampers the development of a statistically relevant and global vision of our near space environment and plasma processes therein. Consequently, the elaboration of automatic event detection methods in streaming in situ time series data provided by spacecraft appears as an interesting option to accelerate the collection of boundary crossings and improve the reproducibility and robustness of statistical studies. Figure <ref type="figure" target="#fig_0">1</ref> shows typical observations from a spacecraft traveling outbound through the three regions. From top to bottom are represented the proton density, the magnetic field components, the ion velocity components and the omnidirectional energy flux of ions measured by THEMIS B. The last panel will be explained in the following sections. The three regions are easily distinguishable by eye and the first method we could think about in this classification task would be to use manually set thresholds on wisely chosen physical quantities. Using the data provided by the five THEMIS spacecraft coupled with the solar wind conditions provided by WIND, <ref type="bibr" target="#b18">Jelínek et al. (2012)</ref> established a method based on thresholds on the magnetic field amplitude B and the proton density N p normalized by the interplanetary magnetic field (IMF) amplitude and proton density. They used this method to identify the three near-Earth regions and eventually build lists of crossings from this classification. The principle of the method consists in manually setting the two straight lines that best separate the three regions in the (N p , B) plane in a way that is similar to what is shown in Figure <ref type="figure" target="#fig_7">8</ref>. Nevertheless, this still requires the manual setting of thresholds on a reduced number of parameters. There is no guarantee on how well they will do on an unknown set of data and the separability of the two features presented here is not guaranteed on the whole magnetopause, especially in the case of nightside, flanks or high latitude boundary crossings. Additional, less obvious observational examples of this case are shown in Appendix E. The method could thus be improved with additional features such as the amplitude of the ion bulk velocity or the ion temperature but this would lead to the establishment of manual thresholds in an N-dimensional space, which is a tricky task if done manually. A way to go beyond this solution stands in using supervised machine learning algorithms that usually have the advantage of rapidly finding the intrinsic differences between different labeled points in complex multi-dimensional datasets. The use of these algorithms to classify time series into several categories is not new in the field of space physics. They have especially proved their effectiveness in classifying the solar wind into several categories <ref type="bibr" target="#b9">(Camporeale et al., 2017)</ref> or to determine if an interval of data contains a Flux Transfer Event (FTE) <ref type="bibr" target="#b20">(Karimabadi et al., 2009)</ref>. Recently, <ref type="bibr">Olshevsky et al. (2019)</ref>, <ref type="bibr" target="#b6">Breuillard et al. (2020)</ref> and <ref type="bibr" target="#b0">Argall et al. (2020)</ref> all proposed neural network based methods to classify the different near-Earth regions from the MMS data. The high performances reached by the three methods confirms the potential and the efficiency of statistical learning algorithms for such a classification task. Although providing interesting results, the high level of flexibility offered by such deep learning methods is generally balanced by the large amount of labeled data samples needed and the very long time they require to converge in their training. It thus appears important to establish reliable methods that require shorter convergence time.</p><p>In this study, we establish such a method by training a gradient boosting algorithm to automatically classify the three near-Earth regions from the magnetic field and plasma moments of the THEMIS mission. After presenting the data and the associated labels, we present the algorithm we use and explain this choice. We then evaluate its performances and investigate its adaptability to the various missions that explore the different parts of the magnetosphere boundaries: Double Star, MMS, Cluster and ARTEMIS. The outcome is then compared to the one obtained by setting thresholds manually for the different missions. The gradient boosting prediction is then used to automatically elaborate multi-mission catalogs of boundary crossings. The established catalogs are available online at: https://doi.org/10.5281/zenodo.5668298.</p><p>In particular, the massive magnetopause crossing catalog obtained in this study is the preamble to companion studies, focusing on the statistical analysis of the shape and location of the surface and its dependency on solar wind and seasonal parameters (hereafter <ref type="bibr" target="#b28">Nguyen et al., 2022a)</ref>, the subsequent building of a new analytical and dynamical model of the magnetopause surface as a function of relevant upstream and seasonal control parameters (hereafter <ref type="bibr" target="#b29">Nguyen et al., 2022b)</ref>, and that re-visits the question of the indentation of the magnetopause surface in the near-cusp regions (hereafter <ref type="bibr" target="#b30">Nguyen et al., 2022c)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">THEMIS Data Set</head><p>We used plasma moments and magnetic field data from the five THEMIS spacecraft, between April 2007 and January 2010 for THEMIS B and C and until June 2019 for the three remaining spacecraft. In particular, we considered the data measured during the dayside, dawn and dusk operation phases. The magnetic field data were provided by the Fluxgate Magnetometer (FGM, <ref type="bibr" target="#b1">Auster et al., 2008)</ref> with a temporal resolution of 3s. Concerning the plasma moments, we used the Fast-Survey mode of the data provided by the electrostatic analyzer <ref type="bibr">(ESA, McFadden et al., 2008)</ref> for which the distribution functions are composed of 24 energy channels and 50 solid-angle distributions with a temporal resolution of 4s. We use the onboard moments to fill in the data gaps in the Slow-Survey mode. The remaining holes in the plasma moments are filled with the data measured in the full mode and linearly time interpolated in order to obtain streaming time series of the ion density, velocity, and temperature with a uniform resolution of 4s. The ESA and FGM measurements are then synchronized to obtain a unique data set with a common resolution of 1 min in order to erase the noise due to very punctual partial crossings that will be particularly hard to label and detect.</p><p>Due to the important differences existing between the different missions in the specificities of the distribution functions and particle energy or pitch angle spectrograms, we chose to focus on the plasma moments and magnetic field only. The ion omnidirectional differential energy fluxes shown in Figure <ref type="figure" target="#fig_0">1</ref> are then only be used for visual inspection of data and to provide visual guidance in our labeling process.</p><p>For each spacecraft, the associated data set then consists in eight distinct input features: the ion bulk velocity components, V x , V y , V z , the magnetic field and its components, B x , B y , B z , the ion density N p , and the temperature T.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Label</head><p>We start our work by considering the THEMIS B data set, the remaining sets will be used when we will perform the massive detection of boundary crossings in Section 7.</p><p>Each datapoint is associated to a given label that indicates the region in which the spacecraft is at the measurement time:</p><p>1. Points in tenuous regions with almost no ion bulk flow and comparatively large magnetic field values are identified as magnetosphere points. 2. Points in comparatively dense regions with a fast ion bulk flow and low temperature are identified as solar wind points. 3. Points that are not identified as solar wind or magnetosphere are identified as magnetosheath. Those points correspond to the denser regions with an intermediate plasma velocity with a wide range energy flux. With this definition, any region downstream of the bow shock that is not the magnetosphere is considered as the magnetosheath. This will thus concern pristine magnetosheath points but also the regions composed of mixed plasmas such as the reconnection outflows, the cusp dense and hot plasma or the different magnetosphere and magnetosheath boundary layers.</p><p>While only considering the above three classes is enough for the purpose of the statistical analysis performed in the companion papers of this study <ref type="bibr" target="#b28">(Nguyen et al., 2022a</ref><ref type="bibr" target="#b29">(Nguyen et al., , 2022b</ref><ref type="bibr" target="#b30">(Nguyen et al., , 2022c))</ref>, the classification could be extended to additional classes. Having a single model classifying many different regions (e.g., solar wind, foreshock, cusps, boundary layers, lobes, plasma sheet, etc.) may appear appealing at first glance. However, it is worth mentioning that statistical studies rarely need that many classes, and moreover that multiplying classes often needlessly complicates the classification. Indeed, not only this may require more evolved algorithms thereby increasing the training time, it also introduces errors that basic knowledge of the Earth environment would prevent. For instance classifying automatically the ion foreshock from pristine solar wind can much more easily be done on a data set where all but solar wind data (in a sense of our classification above) has been removed by a first pass of our classification than on a whole-orbit data set. By construction, this prevents any non-physical errors an observer would never make in confusing unrelated regions, but also provides a better chance to fine tune the algorithm to a well defined task, and reduce training time.</p><p>We make those labels by inspecting the data visually and deciding, by selecting intervals, to which class their points belong to.</p><p>The typical labeling of the three regions for a 1 min resampled data interval is shown on the last panel of Figure <ref type="figure" target="#fig_0">1</ref> where the theoretical label, shown in blue has been slightly shifted vertically for visualization purposes. With modern visualization and data science tools <ref type="bibr" target="#b15">(Génot et al., 2010;</ref><ref type="bibr" target="#b26">McKinney, 2010)</ref>, the interval selection and labeling of all the points enclosed is an easy and fast task, in particular because the regions are easily identified visually and without much ambiguity. Following this process, our data set is made of 59,798 magnetosphere points, 48,056 magnetosheath points and 150,415 solar wind points.</p><p>We selected data measured during the dawn, dayside and dusk operation phases of THEMIS and thus expect a good Magnetic Local Time (MLT) coverage of both magnetopause and shock surfaces. This is confirmed by the spatial coverage of our labeled data set shown in Figure <ref type="figure" target="#fig_1">2</ref>. With such coverage, we expect the method to be robust enough regarding the variability of the data through the three different THEMIS operation phases.</p><p>In the following, we will designate the subset that has been used to fit our algorithm by training set. We will designate by test set the remaining subset of data that is used to evaluate the performance of our model. For each of the configurations we have been testing our algorithm with, the training set represents 70% of the data set while the test set represents the remaining 30% of the data set. To ensure there is no bias in our evaluation of the performance, the train and test sets are chosen in distinct time intervals of the THEMIS B mission.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Algorithm</head><p>The recently developed automatic near-Earth classification routines were all based on the application of a neural network algorithms <ref type="bibr" target="#b0">(Argall et al., 2020;</ref><ref type="bibr" target="#b6">Breuillard et al., 2020;</ref><ref type="bibr">Olshevsky et al., 2019)</ref>. These deep learning methods typically offer a great flexibility leading to good results on complex problems, at the cost of requiring lots of training data points and long convergence times. In this study, we choose to train a Gradient Boosting algorithm <ref type="bibr" target="#b14">(Friedman, 2001)</ref>. Such a method may not offer as much flexibility as deep learning methods, but has been recognized to perform well on complex, eventually imbalanced classification problems <ref type="bibr" target="#b7">(Brown &amp; Mues, 2012)</ref> while typically needing much less labeled data and being much lighter to train. The Gradient Boosting is based on the iterative fit of the residuals obtained by the successive training and predictions made by weak learner algorithms, here a decision tree. The final prediction results from the convergence of the ensemble of decision trees on the smallness of the residuals or when the maximum number of trees is reached, and corresponds to the class with the highest probability.</p><p>Since our massive prediction relies on this probabilistic output, and since the Gradient Boosting is known to result in possibly not-well calibrated probabilities <ref type="bibr" target="#b32">(Niculescu-Mizil &amp; Caruana, 2005)</ref>, we calibrate it before performing the massive prediction. We show in Appendix B that our model is well-calibrated and that its probabilistic output can then be used as is.</p><p>We computed the method using its Python implementation provided by Scikit-Learn <ref type="bibr" target="#b36">(Pedregosa et al., 2011)</ref> with the default hyperparameters (described here: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble. GradientBoostingClassifier.html). With the actual size of our data set, it took 2 min for our algorithms to train on an AMD ryzen TM threadripper TM 2990wx processor.  <ref type="bibr" target="#b19">(Jeřáb et al., 2005)</ref> model while the dotted black line represent the magnetopause model of <ref type="bibr" target="#b22">(Lin et al., 2010)</ref>. Labels are spatially represented in a log-scale 2D histogram. Magnetosphere bins in blue vary between 1 and 901, Magnetosheath bins in red vary between 1 and 1,421, solar wind bins in green vary between 1 and 788.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Results</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.1.">Performances</head><p>After fitting our Gradient Boosting model to our training set, we evaluate its performance by comparing its prediction on the test set with the corresponding labels. The value of the prediction for a given time interval can be shown in the last subplot of Figure <ref type="figure" target="#fig_0">1</ref>. From then on, a prediction made by our model can be split into four categories for each class:</p><p>1. A true positive (TP) is a point of a class that has been predicted correctly as such, 2. A true negative (TN) is a point not belonging to the concerned class that has been predicted correctly (e.g., a magnetosheath point that has not been predicted as a magnetosphere point when considering the magnetospheric case). 3. A false negative (FN) is a point of a class that has not been correctly predicted as such (e.g., a magnetosphere point that has been predicted as a Magnetosheath point). 4. A false positive (FP) is a point not belonging to the concerned class that has been predicted as belonging to the class (e.g., a Magnetosheath point that has been predicted as a magnetosphere point when considering the magnetospheric case).</p><p>With these four categories, we can define the true positive rate TPR as the ratio between the number of TPs over the total number of expected positives points:</p><formula xml:id="formula_0">𝑇𝑇 𝑇𝑇 𝑇𝑇 = 𝑁𝑁𝑇𝑇𝑇𝑇𝑇𝑇 𝑁𝑁𝑇𝑇𝑇𝑇𝑇𝑇 + 𝑁𝑁𝐹𝐹𝑁𝑁𝑇𝑇 (1)</formula><p>The false positive rate FPR is defined as the ratio between the number of FNs over the total number of expected negative points:</p><formula xml:id="formula_1">𝐹𝐹 𝐹𝐹 𝐹𝐹 = 𝑁𝑁𝐹𝐹𝐹𝐹𝐹𝐹 𝑁𝑁𝐹𝐹𝐹𝐹𝐹𝐹 + 𝑁𝑁𝑇𝑇𝑁𝑁𝐹𝐹 (2)</formula><p>An ideal model would be a model without any FN or FP. In this case, we would then expect the TPR to be equal to 1 and the FPR to be equal to 0 for the three classes. These two values are obtained for a given decision threshold based on the predicted probability as explained in the previous subsection. We show the value of the FPR and the TPR obtained for the generic decision threshold of 0.5 in 1. For each classes, the high TPR and the low FPR give a first indication on the actual efficiency of our model. Logically, low decision thresholds would imply more points predicted as belonging to a certain class and then raise both FPR and TPR. By contrast, higher decision thresholds would decrease the number of positive points and thus decrease the FPR and the TPR.</p><p>The evolution of the TPR as a function of the FPR for continuously varying decision threshold can be represented as the Receiving Operator Curve (ROC) shown in Figure <ref type="figure" target="#fig_2">3</ref> for the three classes. As expected, we notice an increasing TPR with an increasing FPR. The main interest in this curve stands in the inflexion point that correspond to the best compromise we can find between low FPR and high TPR. We want this point to be as close to the top left of each curve as possible as this would imply a FPR close to 0 and a TPR close to 1. A random classifier would, for each decision threshold, increase the TPR and FPR by the same amount and the associated ROC curve would then be a straight line of slope 1 as shown with the black dashed lines of Figure <ref type="figure" target="#fig_2">3</ref>.</p><p>The quality of the ROC can be quantified by computing the area under curve (AUC) of each of the ROCs and we then expect this AUC to be as close to 1 as possible. To ensure the independence of the result from the split we made between training and test set, we trained and predicted our model 10 times for 10 different splits and computed the AUC. The average AUC we obtained for each class is shown on the first row of Table <ref type="table" target="#tab_0">1</ref>. At first, the high AUC obtained for the three classes indicate how well our model perform in classifying the three regions. Moreover, the standard deviation we obtain is lower than 1e − 3. This shows that our method is independent from the split we make between our two sets.</p><p>Compared with the short required training time, this legitimates our initial choice of fitting a gradient boosting classifier.</p><p>In addition to these metrics, we can also evaluate the efficiency of our algorithm by using the Heidke Skill Score.</p><p>The principle of this metrics and the values we obtain are presented in Appendix C</p><p>The manual labeling process can be an important source of prediction errors. Thus, the label can eventually contain errors that could affect the quality of our prediction and high AUC would then not indicate the classification ability of our model but its ability to learn from an erroneous label. To figure this out, we investigate the influence of the manual labeling in Appendix D.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.2.">Comparison With Other Algorithms</head><p>As we just saw in the previous subsections, gradient boosting performs well after a very short required training time. This indicates that more complex algorithms such as neural networks <ref type="bibr" target="#b6">(Breuillard et al., 2020;</ref><ref type="bibr">Olshevsky et al., 2019)</ref> are not necessary for this classification task. However, one legitimate question could be to ask whether even lighter machine learning algorithm would perform as well. Therefore, in addition to the gradient boosting classifier, we train and evaluate the performances of two simpler classification algorithms: a Logistic Regression <ref type="bibr" target="#b4">(Berkson, 1944)</ref> and a Classification Tree <ref type="bibr" target="#b5">(Breiman et al., 1984)</ref>. The FPR, TPR and AUC of both these algorithms and the one developed by <ref type="bibr" target="#b6">Breuillard et al. (2020)</ref> and <ref type="bibr">Olshevsky et al. (2019)</ref> are shown in Table <ref type="table" target="#tab_3">2</ref>. Even if their performances are not exactly comparable, this because <ref type="bibr" target="#b6">Breuillard et al. (2020)</ref> and <ref type="bibr">Olshevsky et al. (2019)</ref> considered additional classes when fitting their model, Gradient Boosting appears as being among the algorithm that performs best on differentiating the three regions, often equaling or even overpassing the detection scores of the Convolutional Neural Networks while requiring a much shorter training time. It is also worth noting here that even the simplest algorithms result in fair performances already after a training phase as long as the one we have for Gradient Boosting.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Adaptability</head><p>Having trained an algorithm to detect the three near-Earth regions with high reliability, we should not have difficulties to adapt it to the data provided by additional spacecraft that go through those regions. Even if a similar work can be adapted on the numerous past missions that went through the three near-Earth regions, we focus here on the most recent missions that offer the advantage of providing the data with the best quality, which removes an additional complexity that would appear with older missions.</p><p>To do so, we label data points of each of the missions we are working on and compare this label to the predictions of our model trained with THEMIS data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.1.">Double Star</head><p>We use the data of the TC1 spacecraft on the whole mission period (between the 1st of January 2004 and the 1st of january 2008) The magnetic field data are provided by the Fluxgate Magnetometer <ref type="bibr" target="#b10">(Carr et al., 2005)</ref> with a temporal resolution of 2s. The plasma moments are provided by the CIS-HIA instrument <ref type="bibr" target="#b13">(Fazakerley et al., 2005)</ref> with a temporal resolution of 4s. Just like for the THEMIS data set, we resampled the data to a 1 min resolution.</p><p>A typical representation of the data is shown in Figure <ref type="figure" target="#fig_3">4</ref>.</p><p>Here the part of the data we labeled is made of 20,671 magnetosphere points, 23,091 magnetosheath points and 4,944 solar wind points taken at the beginning of the year 2005. The main reason explaining the noticed imbalance in the data stands in the orbit of TC1 itself that is not supposed to cross the bow shock.</p><p>The spatial distribution of our labeled data is also shown in Appendix A.</p><p>Since Double Star also has an equatorial orbit, we expect the model trained on THEMIS to perform well even without having to be retrained and this is the main reason why our label does not have to provide an entire coverage of the (X-Z) plane. And this is confirmed by the high AUC, HSS, FPR, and TPR we have in Tables <ref type="table" target="#tab_1">1 and the</ref> comparison of the HSS obtained for the different missions shown in Table <ref type="table" target="#tab_1">C1</ref>.</p><p>Refitting the model would then allow a finer detection that would be specific to the quality of the data provided by Double Star in comparison to the THEMIS data but can be skipped as it does not bring a significant gain in AUC, FPR and TPR according to Table <ref type="table" target="#tab_0">1</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.2.">MMS</head><p>We used the data of the MMS 1 spacecraft between September 2015 and July 2019. The magnetic field data were provided by the Fluxgate Magnetometer <ref type="bibr" target="#b40">(Russell et al., 2016)</ref> with a temporal resolution of 4.5s. The plasma moments were provided by the Fast-survey mode of the Fast Plasma Investigation instrument (FPI, <ref type="bibr" target="#b38">Pollock et al., 2016)</ref> with a temporal resolution of 4.5s. Just like THEMIS, the data were resampled to a 1 min resolution.</p><p>A typical representation of the data is shown in Figure <ref type="figure" target="#fig_4">5</ref>.  Since MMS also has an equatorial orbit, we once again expect the model trained on THEMIS to provide a very good classification of the three regions on MMS data as for the case of what has been shown for Double Star.</p><p>To figure it out, we label 7,612 magnetosphere points, 19,272 magnetosheath points and 3,651 solar wind points during the first year of MMS and these labels the associated prediction of the classifier. The spatial coverage of these labeled points is shown in Figure <ref type="figure" target="#fig_15">A2</ref>.</p><p>The high metrics shown in Tables <ref type="table" target="#tab_1">1 and C1</ref> confirms the adaptability of our classifier to equatorial missions without further additional fitting. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.3.">Cluster</head><p>We use the available data from Cluster 1 spacecraft between the 1 January 2001 and the 1 January 2013 and from Cluster 3 spacecraft between the 1 January 2001 and the 1 December 2009. The magnetic field data are provided by the Fluxgate Magnetometer with a temporal resolution of 4s <ref type="bibr" target="#b2">(Balogh et al., 2001)</ref>. The plasma moments are provided by the Hot Ion Analyzer instrument <ref type="bibr" target="#b39">(Rème et al., 2001)</ref> when the instrument is working under the magnetosphere or the magnetosheath mode. Here again, the data is resampled to a 1 min resolution.</p><p>In comparison with Double Star and MMS, this case might be more challenging because of the orbit, here polar, and the regions visited that have different physical properties than the one visited by equatorial missions. The data provided by THEMIS and Cluster can therefore be substantially different and there is no real clue on how an algorithm trained on equatorial orbit data would perform on predicting on polar orbit data.</p><p>One minute sampled Cluster data are shown in Figure <ref type="figure" target="#fig_5">6</ref> and we here label 50,277 points of magnetosphere, 76,468 points of magnetosheath and 22,017 of solar wind between the years 2005 and 2006 which spatial distribution is shown in Figure <ref type="figure" target="#fig_16">A3</ref>. Those two years will constitute the time period on which we will test the adaptability of the region classifier. One third of these labeled points are used to evaluate the performances of the models while we kept the remaining two thirds in the case refitting the algorithm is needed. Applying our THEMIS-trained model, we notice a lower AUC, TPR and FPR for each of the three classes, especially for the magnetosheath. This indicates the difficulties the classifier has to adapt to polar orbit data.</p><p>We then adapt our classifier to the polar case by refitting the model trained on THEMIS with the Cluster labels.</p><p>The increasing metrics we obtained, shown in Table <ref type="table" target="#tab_0">1</ref> and the associated high HSS also shown in C1 proves the necessity we had to adapt our algorithm to the specificity of the Cluster data. It also shows our model can be easily adapted to the data of another mission, exploring regions with significant statistical deviations of the features, after a small labeling and refitting phase. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.4.">ARTEMIS</head><p>The mission ARTEMIS actually corresponds to the THEMIS B and C spacecraft when they were moved from a terrestrial to a lunar orbit at the end of 2009. The data we used in this case are then the one provided by the same THEMIS B instruments than in Section 2 between the 1 January 2010 and the 1 June 2019.</p><p>The orbit of the ARTEMIS spacecraft is different from the orbit of the mission we have been investigating so far. This difference comes with a lot of change in the nature of the data measured by the spacecraft.</p><p>First of all, the spacecraft orbit the moon and are much farther (around 60 Re) from the Earth than the spacecraft of the other missions we have used. This implies the spacecraft does not explore the dayside regions and crosses the magnetopause and the bow shock in the nightside. At these distances, the magnetosheath plasma becomes almost as fast and as tenuous as the solar wind and small magnetosheath fluctuations could easily be confused with either a magnetopause or a bow shock crossing. Second, the spacecraft spend most of their time in the solar wind, which may make statistical properties of their measurements more sensitive to the data variability induced by the solar cycle that we neglected for the previous missions.</p><p>Finally, this specific type of orbit also introduces time intervals during which the data does not take values statistically close to any of our regions of interest. Indeed, once per orbit, ARTEMIS explores the lunar wake, characterized by an extremely low density and fluctuating velocity in many directions. These intervals, for which a typical representation of the data is shown in Figure <ref type="figure" target="#fig_6">7</ref>, cannot be considered to belong to any of our existing region classes.</p><p>For these three reasons, the method we presented in the previous sections and successfully adapted to Double Star, MMS and Cluster cannot be used as is and the entire process from the labeling to the choice of the feature has to be designed from scratch.</p><p>To cope with the variability induced by the solar cycle we label a month per year. We furthermore add the lunar wake as a fourth explored region (with an associated value of 3). The final labeled data set is made of 26,560 magnetosphere points, 131,656 magnetosheath points, 429,283 solar wind points and 15,070 points of lunar wake which spatial distribution is shown in Figure <ref type="figure" target="#fig_3">A4</ref>.</p><p>We cope with the increasing difficulty to distinguish magnetosheath and solar wind by adding the spacecraft GSM coordinates as a feature of the data set which will then consist in 11 input variables.</p><p>Having a different data set and a different number of classes, we here cannot use the model trained in the previous section and we will then focus on the specific model we trained for this mission. The resulting high metrics shown in Table <ref type="table" target="#tab_0">1</ref> shows the gradient boosting also performs well in a significantly different region and with more classes. This especially confirmed with the AUC and the HSS we found for the lunar wake region, that we respectively found equal to 0.97 and 0.947.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7.">Comparison With Manually Set Thresholds</head><p>Having shown the efficiency of gradient boosting on different missions. Additional prediction examples can be found in Appendix E, we want to compare it to the state of the art non-learning methods such as the one elaborated by <ref type="bibr" target="#b18">Jelínek et al. (2012)</ref> that we described in the introduction.</p><p>Figure <ref type="figure" target="#fig_7">8</ref> represents the 2D histogram of B and N p for THEMIS B, Double Star and Cluster 1 on the periods on which we labeled the different associated datasets. We divided these parameters by the corresponding solar wind density and the IMF amplitude that we obtained from the OMNI data shifted from the actual measurement time using the two-step propagation algorithm described in <ref type="bibr">Šafránková et al. (2002)</ref>. At first sight, one can easily distinguish three main regions that are separated with the solid red lines for the three missions. Nevertheless, these linear boundaries have been set manually and we cannot ensure these could be the best choice for the three missions. To evaluate the quality of the classification, we compute the TPR and the FPR for the three missions and for varying boundary lines. We then use these values to compute the AUCs that are shown in Table <ref type="table" target="#tab_4">3</ref>.</p><p>Once again, we notice a lower AUC in the case of Cluster which is consistent with the difference we have between equatorial and polar orbits as explained in the previous section. Additionally, even if the boundaries plotted in Figure <ref type="figure" target="#fig_7">8</ref> seem to provide a decent separation between the three regions, the AUC is lower than the one we obtained with the gradient boosting. This indicates our model performs better in classifying the three regions by setting more flexible boundaries on supplementary features while requiring less fitting time than the one required to manually set the thresholds used in Figure <ref type="figure" target="#fig_7">8</ref>.</p><p>The same kind of histogram gets messier with a much less obvious transition from the magnetosheath to the solar wind and the addition of the moon's wake as shown with the ARTEMIS data in Figure <ref type="figure" target="#fig_8">9</ref>. This shows the difficulty manually set thresholds would have for far night side oriented missions and the interest of using machine learning in this case.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.">Massive Detection of Boundary Crossings</head><p>In the previous sections, we have shown the efficiency, the reliability and the adaptability of our classifiers on data from several missions and spacecraft. From now on, these classifiers can be used to elaborate our magnetopause and bow shock crossings catalogs by classifying the in situ data provided by any near-Earth spacecraft and by selecting time intervals enclosing two predicted regions. To do so, we train our three different models, THEMIS, Cluster, and ARTEMIS on their whole labeled datasets. Those trained models can be found at https:// doi.org/10.5281/zenodo.5668298. In the following, these models will be respectively named the equatorial, high-latitude and lunar models.</p><p>In addition to the performances on the labeled data set of the different missions in use in this study, shown in the previous sections, we make sure the massive prediction of the three models are consistent with the labeled data by comparing the physical characteristics of the classified and the labeled data points of each regions. Figure <ref type="figure" target="#fig_9">10</ref> compares the average prediction of the three different models to their associated average training label for each bin of the (N p , B) plane.</p><p>At first, the binned average of the labels, shown in the right column exhibits three main zones where there is almost no doubt on the region visited by the spacecraft. The transition from a zone to another appears as a zone where the label is transient consistently with what is expected for the crossing of one of the near-Earth boundaries. It is worth noting that the transitions between the different colored regions are far from being linear and this is even more true when we look at the distributions for the polar and lunar models. Following the discussion of Section 7, this confirms the limits of an automatic detection method based on the manual setting of thresholds on the densities and magnetic field amplitudes and give a further support in favor of the application of machine learning for such classification task.</p><p>Despite an expected increased noise, the pattern in the left column is similar to the one in the right column. This suggests that the massive prediction obtained from the equatorial, the polar and the lunar model is consistent with our labeled data. For both the equatorial and the polar model, we notice bins at low densities for which the average prediction is rather equal to magnetosheath or solar wind than magnetosphere. This indicate the presence of low density datapoints that have either been classified as magnetosheath or magnetosphere. However, these bins all contain less than 100 datapoints and are actually within the margin of error of our model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.1.">Magnetopause Catalog</head><p>We then elaborate a complete magnetopause crossing catalog by running the THEMIS classifier on the data provided by THEMIS A, B, C, D, and E spacecraft. To gain time in the construction of the crossings and because we do not expect any magnetopause crossing in the nightside operation phase, we restrict ourselves to the dayside, dawn and dusk operation phase. As no crossing is expected far away in the solar wind or close to the Earth dipole, we also only the parts of the spacecraft orbit that were less than 5 Re away from the magnetopause distance predicted by Lin et al. ( <ref type="formula">2010</ref>) for a dynamic  pressure of 2 nPa and a null IMF B z . The raw predictions of the classifier are then smoothed by applying a median filter with a window size of 3 min. We then define a magnetopause crossing as a 1 hr interval that contains as many magnetosheath points as magnetosphere points making sure every detected events were disjoints.</p><p>The same model is used on the in situ data provided by Double Star between 2004 and 2007 and MMS between 2015 and 2020.</p><p>We finally apply the same process on the in situ data provided by Cluster 1 on the 2001-2013 period, by Cluster 3 on the 2001-2009 period and on ARTEMIS between 2010 and 2019 by using the corresponding trained model. The total number of crossings we obtained are summarized in Table <ref type="table" target="#tab_6">4</ref>. All of the magnetopause lists can be found online at https://doi.org/10.5281/zenodo.5668298.</p><p>Our detection method has been evaluated on regions where the spacecraft is not expected to cross a boundary. In these regions, the algorithm is less likely to hesitate on its prediction. On the other hand, it is more probable it hesitates on the predictions made close to the boundaries. Consequently, we have to ensure the classification is still of decent quality there.</p><p>Figure <ref type="figure" target="#fig_11">11</ref> represents the ROC we have on the classification between magnetosphere and magnetosheath points for THEMIS B, Cluster 1 and Double Star for the subset of our test set that lies in the proximity of a magnetopause or shock crossing. These predictions have been obtained with a model that has been trained with the complement part of the data set, that is, the subset that excludes the proximity of the crossings. The obtained AUC is here lower than the one presented in the previous sections. This can be explained by the fact, the manual labels made in this region is more ambiguous than the one made in the parts of orbit that are far from one of the boundaries, resulting in a more hesitant classifier. The AUC value is still high enough to ensure the good quality of the classification when a spacecraft arrives close to the magnetopause and thus our capacity of building crossings from the prediction made by our model.</p><p>We then computed the mean probability of each crossing by averaging the probabilities of belonging to the predicted class of each point present in the crossing.</p><p>Events with high probability would correspond to undoubtful crossings while the events with the lowest probability would be less likely to be actual crossings. The probability distribution of our 15,062 events is shown in Figure <ref type="figure" target="#fig_12">12</ref>.</p><p>Having a high probability for the greatest part of our events then ensures the consistency of our magnetopause list.   Finally, the spatial distributions of the crossings that have a probability higher than 75% in the GSM XZ, XY, and YZ planes is shown in Figure <ref type="figure" target="#fig_13">13</ref>. These crossings represent 98.5% of the crossings built with our models and are then expected to be the most likely to be actual magnetopause crossings. The solid black lines represent the position of the magnetopause model established by <ref type="bibr" target="#b22">(Lin et al., 2010)</ref> and computed for a dynamic pressure of 2 nPa, a null B z and assuming no dipole-tilt. The proximity between this distance and our actual crossings ends up proving the capacity our method has to elaborate a magnetopause crossings catalog with a decent coverage of the surface at different latitudes and longitudes.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8.2.">Bow Shock Catalog</head><p>We define a bow shock crossing event as 10 min interval that contains as much magnetosheath points as solar wind points. We then run the models we trained for the different missions detailed in Section 3 on the same data set we used to elaborate the magnetopause crossing catalog. The total number of obtained crossings is once again summarized in Table <ref type="table" target="#tab_6">4</ref> and the bow shock lists can once again be found at https://doi.org/10.5281/zenodo.5668298.</p><p>The spatial distribution of the crossings with a probability higher than 75% in the GSM XZ, XY and YZ planes is shown in </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="9.">Conclusion</head><p>Using a Gradient Boosting Classifier, we established an automatic detection method of the different near-Earth regions as observed by the THEMIS spacecraft during the dawn, dusk and dayside mission phases. This method was successfully adapted on other equatorial dayside missions (Double Star and MMS) and, after a small retraining phase necessary to consider the  orbital differences between different missions, was also successful on non-equatorial dayside missions such as Cluster. The adaptability of the method has even been tested on missions with a substantially different orbit such as ARTEMIS for which we provided a successful region classification after a small redesign of the observed features, implying the addition of the spacecraft GSM position, and the way the label was made, by considering an additional region with the lunar wake. Having proved this adaptability, we may also think of using the data of additional near-Earth missions, such as WIND, Geotail, Hawkeye, Polar or Interball, provided enough information about the plasma moments with a sufficient resolution is provided.</p><p>For every mission we considered, our method outperformed the quality of the detection provided by manually set thresholds and reached similar AUC, FPR and TPR values as the one achieved by neural networks based methods <ref type="bibr" target="#b6">(Breuillard et al., 2020;</ref><ref type="bibr">Olshevsky et al., 2019)</ref>, with the advantage of being much faster to train. Using the plasma moments paved the way to an easy adaptability from a specific type of mission to another and the production of light-weight algorithms that could eventually be taken onboard of upcoming missions to automatically select the data of interest and thus automatically decide the data that should be stored (and at which resolution) for further analysis. This would allow a significant gain in time regarding the data selection process that are either threshold triggered or human monitored like the Scientist In The Loop process in charge of the manual selection of MMS data. Moreover, the method does not use the specificity of being in the near-Earth environment and could also be adapted to other planetary missions in the solar system.</p><p>For simplification, we only considered three classes and defined as magnetosheath any region where plasma differed from pristine solar wind and magnetospheric ones. The classification could be enhanced by the consideration of additional regions depending on the scientific objectives.</p><p>We used this method to elaborate one of the most exhaustive public magnetopause and bow shock crossing catalogs to our knowledge. A bonus to our method is that these catalogs can be readily and automatically grown as new data are made available. Having a large list of events also gives the opportunity to study these two near-Earth boundaries and physical processes occurring in their vicinity, from a statistical point of view. One could especially think of exploiting the magnetopause crossings to provide an automatic detection method of the typical in situ signature of accelerated plasma flow induced by magnetic reconnection, which will be the topic of a forthcoming study.</p><p>Last but not least, the fast and reproducible of one of the most exhaustive existing boundary crossings catalogs is the preamble for the massive statistical analysis of the position of both the magnetopause and the bow shock for various solar wind and seasonal conditions. In the specific case of the magnetopause, this is the purpose to the three companion papers of this study <ref type="bibr" target="#b28">(Nguyen et al., 2022a</ref><ref type="bibr" target="#b29">(Nguyen et al., , 2022b</ref><ref type="bibr" target="#b30">(Nguyen et al., , 2022c))</ref>.    Having a more significant drop in the performances for the magnetosheath is not surprising as this is the class that will be most affected by our mislabeling process. Noticing that drop for the three different classes proves the model does not simply follow the indications provided from the labels but tries to find an intrinsic difference in the physical parameters of the three classes.</p><p>This shows the real capacity of our algorithm to classify the three near-Earth regions as well as the reliability of our label.   </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. In situ measurement provided by THEMIS B spacecraft on the 12 May 2008. From the top to the bottom are represented: the ion density, the magnetic field components, the velocity components the omnidirectional differential energy fluxes of ions. The last bottom panel represents the evolution of the label (blue), intentionally shifted for visual inspection and the prediction made by our algorithm (black).</figDesc><graphic coords="2,72,45,89,02,455,04,463,32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure2. Spatial coverage of our labeled THEMIS data set projected in the (X-Y) GSM plane, the solid black line represent a stand-off position the bow shock following<ref type="bibr" target="#b19">(Jeřáb et al., 2005)</ref> model while the dotted black line represent the magnetopause model of<ref type="bibr" target="#b22">(Lin et al., 2010)</ref>. Labels are spatially represented in a log-scale 2D histogram. Magnetosphere bins in blue vary between 1 and 901, Magnetosheath bins in red vary between 1 and 1,421, solar wind bins in green vary between 1 and 788.</figDesc><graphic coords="5,52,65,89,02,494,64,411,12" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Receiving Operator Curve (ROC) curve of our model trained and predicting on THEMIS B data in the case of a temporal split between the training set and the test set. From left to right are represented the ROC curve concerning the magnetosphere, the magnetosheath and the solar wind. The colored point indicates the true positive rate and the false positive rate obtained for a decision threshold of 0.5. These values are indicated in Table1.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. In situ measurement provided by Double Star TC1 spacecraft on the 1st of January 2005. The legend is the same than in Figure 1.</figDesc><graphic coords="9,72,45,89,02,455,04,463,44" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. In situ measurement provided by MMS spacecraft on the 31st of December 2015. The legend is the same than in Figure 1.</figDesc><graphic coords="10,73,17,89,02,453,60,426,72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. In situ measurement provided by Cluster 1 spacecraft on the 6th of February 2005. The legend is the same than in Figure 1.</figDesc><graphic coords="11,73,17,89,02,453,60,461,88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. In situ measurement provided by the ARTEMIS B spacecraft on the 13th of August 2016. The legend is the same than in Figure 1.</figDesc><graphic coords="12,74,17,256,14,453,60,461,88" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 8 .</head><label>8</label><figDesc>Figure 8. Two-dimensional histogram of B and N p divided by the corresponding OMNI data for the three missions: THEMIS B (left), Cluster 1 (middle), and Double Star TC1 (right). The solid red lines indicate a possible set of linear boundaries we could define to separate the three regions.</figDesc><graphic coords="14,52,77,89,02,494,40,173,64" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_8"><head>Figure 9 .</head><label>9</label><figDesc>Figure 9. Two-dimensional histogram of B and N p divided by the corresponding OMNI data for ARTEMIS B.</figDesc><graphic coords="15,196,64,89,02,344,16,186,84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_9"><head>Figure 10 .</head><label>10</label><figDesc>Figure 10. Binned average of the massive prediction (left column) and the training label (right column) of the equatorial (first row), the polar (second row) and the lunar (third row) models projected in the (N p , B) plane.</figDesc><graphic coords="16,72,87,89,02,454,20,452,04" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_10"><head>Figure 15 .</head><label>15</label><figDesc>The solid black line here represents the location of the Jeřáb et al. (2005) bow shock model computed for a dynamic pressure of 2 nPa, a null B z and an Alfven Mach of 8.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_11"><head>Figure 11 .</head><label>11</label><figDesc>Figure 11. Receiving Operator Curve curves evaluated on the labeled crossings for the three missions THEMIS B (left), Cluster 1 (middle) and Double Star (right) for the three classes: magnetosphere (top), magnetosheath (middle) and solar wind (bottom). The indicated true positive rate and the false positive rate have heen obtained for a decision threshold of 0.5, which corresponds to the colored dot in each panel.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_12"><head>Figure 12 .</head><label>12</label><figDesc>Figure 12. Distribution of the probability of the 15,062 magnetopause crossings we built and summarized in Table 4. The solid dashed line represent the probability threshold we chose for Figure 13.</figDesc><graphic coords="17,43,57,547,30,226,80,150,72" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_13"><head>Figure 13 .</head><label>13</label><figDesc>Figure 13. Spatial distribution of the crossings above the threshold in Figure 12 in the XY (left), XZ (middle), YZ (right) GSM planes. The solid black line indicate the Lin et al. (2010) magnetopause model with a dynamic pressure of 2 nPa and a null B z .</figDesc><graphic coords="18,52,71,89,02,494,52,125,16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_14"><head>Figure 14 .</head><label>14</label><figDesc>Figure 14. Distribution of the probability of the 17,227 bow shock crossings we built and summarized in Table 4. The solid dashed line represent the probability threshold we chose for Figure 15.</figDesc><graphic coords="18,43,57,528,63,226,80,150,96" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_15"><head>Figure A2 .</head><label>A2</label><figDesc>Figure A2. Spatial coverage of the MMS labeled data set. The legend is the same than in Figure 2.</figDesc><graphic coords="20,170,60,89,02,396,24,339,36" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_16"><head>Figure A3 .</head><label>A3</label><figDesc>Figure A3. Spatial coverage of the Cluster labeled data set. The legend is the same than in Figure 2.</figDesc><graphic coords="21,170,60,89,02,396,24,333,84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_17"><head>Figure E2 .</head><label>E2</label><figDesc>Figure E2. In situ measurement provided by Double Star TC 1 spacecraft on the 15th of January 2005. The legend is the same than in Figure 1.</figDesc><graphic coords="26,73,45,89,02,455,04,463,20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_18"><head>Figure E3 .</head><label>E3</label><figDesc>Figure E3. In situ measurement provided by MMS 1 spacecraft on the 2nd of December 2015. The legend is the same than in Figure 1.</figDesc><graphic coords="27,73,45,89,02,455,04,427,92" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_19"><head>Figure E5 .</head><label>E5</label><figDesc>Figure E5. In situ measurement provided by ARTEMIS B spacecraft on the 24th of April 2013. The legend is the same than in Figure 1.</figDesc><graphic coords="29,73,45,89,02,455,04,463,20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,170,60,318,50,396,24,334,32" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="19,53,83,89,02,494,28,125,16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="22,170,60,89,02,396,24,333,84" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="24,52,21,477,67,497,52,182,16" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="25,73,45,254,82,455,04,463,20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0"><head></head><label></label><figDesc></figDesc><graphic coords="28,73,45,89,02,455,04,463,20" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 .</head><label>1</label><figDesc></figDesc><table><row><cell></cell><cell cols="3">Magnetosphere</cell><cell cols="3">Magnetosheath</cell><cell></cell><cell>Solar wind</cell><cell></cell></row><row><cell>Mission</cell><cell>FPR</cell><cell>TPR</cell><cell>AUC</cell><cell>FPR</cell><cell>TPR</cell><cell>AUC</cell><cell>FPR</cell><cell>TPR</cell><cell>AUC</cell></row><row><cell>THEMIS</cell><cell cols="6">0.0091 0.991 0.999 0.029 0.978 0.997</cell><cell>0.027</cell><cell cols="2">0.942 0.999</cell></row><row><cell>Cluster 1 (without retraining)</cell><cell>0.039</cell><cell cols="5">0.936 0.988 0.045 0.868 0.983</cell><cell>0.048</cell><cell cols="2">0.988 0.996</cell></row><row><cell>Cluster 1 (with retraining)</cell><cell>0.01</cell><cell cols="5">0.985 0.999 0.013 0.984 0.998</cell><cell cols="3">0.0062 0.993 0.999</cell></row><row><cell>Double Star TC1 (without retraining)</cell><cell>0.015</cell><cell cols="4">0.967 0.996 0.033 0.93</cell><cell>0.992</cell><cell>0.026</cell><cell cols="2">0.963 0.996</cell></row><row><cell>Double Star TC1 (with retraining)</cell><cell>0.093</cell><cell cols="5">0.987 0.999 0.013 0.984 0.998</cell><cell>0.025</cell><cell cols="2">0.983 0.999</cell></row><row><cell>MMS (without retraining)</cell><cell>0.007</cell><cell cols="5">0.980 0.997 0.004 0.989 0.994</cell><cell>0.005</cell><cell cols="2">0.965 0.995</cell></row><row><cell>ARTEMIS</cell><cell>0.004</cell><cell cols="5">0.959 0.999 0.081 0.948 0.999</cell><cell>0.059</cell><cell cols="2">0.935 0.999</cell></row></table><note>Note. AUC, area under curve; FPR, false positive rate; ROC, Receiving Operator Curve; TPR, true positive rate.</note></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 1</head><label>1</label><figDesc>Comparison of the TPR, the FPR and the AUC of the ROC of Our Detection Algorithms for Different Missions</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head></head><label></label><figDesc>For each metric, the highest score is shown in bold. AUC, area under curve; FPR, false positive rate; TPR, true positive rate.</figDesc><table><row><cell></cell><cell></cell><cell>Magnetosphere</cell><cell></cell><cell></cell><cell>Magnetosheath</cell><cell></cell><cell></cell><cell>Solar wind</cell><cell></cell></row><row><cell>Algorithm</cell><cell>FPR</cell><cell>TPR</cell><cell>AUC</cell><cell>FPR</cell><cell>TPR</cell><cell>AUC</cell><cell>FPR</cell><cell>TPR</cell><cell>AUC</cell></row><row><cell>Logistic Regression</cell><cell>0.003</cell><cell>0.979</cell><cell>0.998</cell><cell>0.017</cell><cell>0.885</cell><cell>0.954</cell><cell>0.049</cell><cell>0.933</cell><cell>0.937</cell></row><row><cell>Decision Tree</cell><cell>0.026</cell><cell>0.986</cell><cell>0.976</cell><cell>0.037</cell><cell>0.923</cell><cell>0.937</cell><cell>0.023</cell><cell>0.781</cell><cell>0.881</cell></row><row><cell>Breuillard et al. (2020)</cell><cell>0.006</cell><cell>0.949</cell><cell>0.999</cell><cell>0.015</cell><cell>0.912</cell><cell>0.999</cell><cell>0.008</cell><cell>0.918</cell><cell>0.999</cell></row><row><cell>Olshevsky et al. (2019)</cell><cell>0.017</cell><cell>0.983</cell><cell></cell><cell>0.022</cell><cell>0.978</cell><cell></cell><cell>0.016</cell><cell>0.984</cell><cell></cell></row><row><cell>Our model</cell><cell>0.009 1</cell><cell>0.991</cell><cell>0.999</cell><cell>0.029</cell><cell>0.978</cell><cell>0.997</cell><cell>0.027</cell><cell>0.942</cell><cell>0.999</cell></row><row><cell>Note.</cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 2</head><label>2</label><figDesc>FPR, TPR, AUC and Training Time Obtained for Different Algorithms for Several Train-Test Split</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 3</head><label>3</label><figDesc>AUC for the Threshold-Based Method</figDesc><table /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_6"><head>Table 4</head><label>4</label><figDesc>Number of Magnetopause and Bow Shock Crossings We Have for Different Missions</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">Figure E4. In situ measurement provided by Cluster 3 spacecraft on the 23rd of June 2003. The legend is the same than in Figure 1.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>The authors thank the French Ministry of Defense for the funding of this work. The authors acknowledge the support of the THEMIS, Cluster, Double Star and MMS instrument and science team as well as Zdenek Němeček for the fruitful discussions and support.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A: Spatial Distribution of the Different Labeled Datasets</head><p>In this section, we represent the spatial distribution of the labeled data set of Double Star (Figure <ref type="figure">A1</ref>), MMS (Figure <ref type="figure">A2</ref>), Cluster (Figure <ref type="figure">A3</ref>), and ARTEMIS (Figure <ref type="figure">A4</ref>).  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B: Probability Calibration of the Model</head><p>A well calibrated classifier is a classifier for which the probabilistic output gives a correct representation of the data seen by the algorithm. For instance, we expect 50% of the points predicted with a probability of 50% to be actual positives (either TP or FN). This verification is necessary as soon as the probabilistic output of a model is at stake. Nevertheless, boosted algorithms such as gradient boosting are known to have calibration issues <ref type="bibr" target="#b32">(Niculescu-Mizil &amp; Caruana, 2005)</ref>. We then have to ensure our model is well-calibrated before using its probabilistic output in the way we did it in Section 5. To do so, we plot the Calibration curve shown in Figure <ref type="figure">B1</ref> that represents the evolution of the fraction of actual positive in our test set for each probability bin. For a perfectly calibrated classifier, the calibration curves should be linear and stick to the black dashed line for the three classes. Having a linear calibration curve close enough to the perfect calibration curve for the three regions, we consider the probabilistic output of our model to be decently well-calibrated. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix C: Heidke Skill Score</head><p>The Heidke Skill Score HSS is a metric that compares the performance of our algorithm to what would come from a random classifier:</p><p>where N denotes the total number of points on which the prediction was lead. A negative HSS indicates randomness performs better than the classifier while a perfect forecast would be associated to a HSS of 1. The Evolution of the HSS for varying probabilistic decision threshold is shown in Figure <ref type="figure">C1</ref>. The high value reached by the HSS for each class for a wide range of decision thresholds confirms the efficiency of our model. Finding decreasing HSS for high decision threshold is not surprising as the number of FN will slightly increase in this case. The main interest in this curve then stands in the value of the HSS we do find for the decision threshold we set for our prediction, that is to say 0.5. The value of the HSS we have in this case is shown in Table <ref type="table">C1</ref> and finding it pretty close to 1 indicates how well our model performs in the classification of the three regions.  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix D: Influence of the Manual Labeling</head><p>To investigate the influence of the manual labeling on the performances, we perform trainings and evaluations of the algorithm by voluntarily mislabeling an ever-growing percentage of the data set. If our model completely follows the indicated label in the training set, we expect a high AUC whatever this percentage might be. The mislabeling process is done as follows:</p><p>1. We select a fraction of random points in the data set. 2. The magnetosphere and the solar wind points are labeled as magnetosheath points. 3. Magnetosheath points are randomly mislabeled between the two other classes.</p><p>The main reason that justifies this process stands in the fact that a human observer will never confuse magnetosphere and solar wind and and the fact there is of course some ambiguity in the labeling for classes concerned with a physical interface, where data points do not strictly belong to either one or the other but rather represent the finite transition region, omitted in our model. We repeat the process for an ever growing percentage of the data set until the proportion of the mislabeled points reaches 50% of the data set. The random mislabeling and associated training and AUC computation are repeated 10 times at each step. The evolution of the AUC with the mislabeling proportion is shown in Figure <ref type="figure">D1</ref> for the three classes of the THEMIS data set. The gray dashed lines represent the standard deviation we have between the different iterations of a given percentage of mislabeling.   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix E: Additional Detection Examples</head><p>In this section, we show additional detection examples of the region classifier on the data of THEMIS B (Figure <ref type="figure">E1</ref>), Double Star (Figure <ref type="figure">E2</ref>), MMS (Figure <ref type="figure">E3</ref>), Cluster (Figure <ref type="figure">E4</ref>) and ARTEMIS (Figure <ref type="figure">E5</ref>). </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Data Availability Statement</head><p>THEMIS data are accessible via the NASA Coordinated Data Analysis web (https://cdaweb.sci.gsfc.nasa.gov/ index.html/). Cluster and Double Star data are accessible via the Cluster and Double Star Science archive (http:// csa.esac.esa.int/). All of our trained algorithms and events list can be found online at https://doi.org/10.5281/ zenodo.5668298 <ref type="bibr" target="#b31">(Nguyen, 2021)</ref>.</p></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Mms sitl ground loop: Automating the burst data selection process</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Argall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Piatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Petrik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kokkonen</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fspas.2020.00054</idno>
+		<ptr target="https://doi.org/10.3389/fspas.2020.00054" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Astronomy and Space Sciences</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">54</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">The THEMIS fluxgate magnetometer</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">U</forename><surname>Auster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">H</forename><surname>Glassmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Magnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aydogar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Constantinescu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-008-9365-9</idno>
+		<ptr target="https://doi.org/10.1007/s11214-008-9365-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Studies of Reading</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="235" to="264" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">The cluster magnetic field investigation: Overview of in-flight performance and initial results</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Balogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Acuña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dunlop</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Beek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/angeo-19-1207-2001</idno>
+		<ptr target="https://doi.org/10.5194/angeo-19-1207-2001" />
+	</analytic>
+	<monogr>
+		<title level="j">Annales Geophysicae</title>
+		<imprint>
+			<biblScope unit="page">19</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The thickness of the magnetopause current layer: ISEE 1 and 2 observations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berchem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/ja087ia04p02108</idno>
+		<ptr target="https://doi.org/10.1029/ja087ia04p02108" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">A4</biblScope>
+			<biblScope unit="page" from="2108" to="2114" />
+			<date type="published" when="1982">1982</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Application of the logistic function to bio-assay</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Berkson</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01621459.1944.10500699</idno>
+		<ptr target="https://doi.org/10.1080/01621459.1944.10500699" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Statistical Association</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">227</biblScope>
+			<biblScope unit="page" from="357" to="365" />
+			<date type="published" when="1944">1944</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Classification and regression trees</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Olshen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/9781315139470</idno>
+		<ptr target="https://doi.org/10.1201/9781315139470" />
+		<imprint>
+			<date type="published" when="1984">1984</date>
+			<publisher>Wadsworth and Brooks</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Automatic classification of plasma regions in near-earth space with supervised machine learning: Application to magnetospheric multi scale 2016-2019 observations</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Breuillard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Dupuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Retino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Le Contel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Amaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lapenta</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fspas.2020.00055</idno>
+		<ptr target="https://doi.org/10.3389/fspas.2020.00055" />
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Astronomy and Space Sciences</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">An experimental comparison of classification algorithms for imbalanced credit scoring data sets</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mues</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2011.09.033</idno>
+		<ptr target="https://doi.org/10.1016/j.eswa.2011.09.033" />
+	</analytic>
+	<monogr>
+		<title level="j">Expert Systems with Applications</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="3446" to="3453" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Foreshock-shock interaction at collisionless quasi-parallel shocks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Burgess</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0273-1177(94)00098-L</idno>
+		<ptr target="https://doi.org/10.1016/0273-1177(94)00098-l" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Space Research</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">8-9</biblScope>
+			<biblScope unit="page" from="159" to="169" />
+			<date type="published" when="1995">1995</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Classification of solar wind with machine learning</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Camporeale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Carè</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Borovsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JA024383</idno>
+		<ptr target="https://doi.org/10.1002/2017JA024383" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="910920" to="911010" />
+			<date type="published" when="1110">2017. 1110</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">The double star magnetic field investigation: Instrument design, performance and s of the first year&apos;s observations</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Carr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gloag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Horbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lucek</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/angeo-23-2713-2005</idno>
+		<ptr target="https://doi.org/10.5194/angeo-23-2713-2005" />
+	</analytic>
+	<monogr>
+		<title level="j">Annales Geophysicae</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2713" to="2732" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Average and unusual locations of the Earth&apos;s magnetopause and bow shock</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Fairfield</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA076i028p06700</idno>
+		<ptr target="https://doi.org/10.1029/ja076i028p06700" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="6700" to="6716" />
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Determining the standoff distance of the bow shock: Mach number dependence and use of models</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Farris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/94JA01020</idno>
+		<ptr target="https://doi.org/10.1029/94ja01020" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="issue">A9</biblScope>
+			<biblScope unit="page">17681</biblScope>
+			<date type="published" when="1994">1994</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">The double star plasma electron and current experiment</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">N</forename><surname>Fazakerley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Watson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Spencer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Q</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Coker</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/angeo-23-2733-2005</idno>
+		<ptr target="https://doi.org/10.5194/angeo-23-2733-2005" />
+	</analytic>
+	<monogr>
+		<title level="j">Annales Geophysicae</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2733" to="2756" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Greedy function approximation: A gradient boosting machine</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Friedman</surname></persName>
+		</author>
+		<idno type="DOI">10.1214/aos/1013203451</idno>
+		<ptr target="https://doi.org/10.1214/aos/1013203451" />
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Statistics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1189" to="1232" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Space weather applications with CDPP/AMDA</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Génot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jacquey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bouchemit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gangloff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fedorov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2009.11.010</idno>
+		<ptr target="https://doi.org/10.1016/j.asr.2009.11.010" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Space Research</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1145" to="1155" />
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Characteristics of the flank magnetopause: Cluster observations</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Haaland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Reistad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tenfjord</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gjerloev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Maes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dekeyser</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014ja020539</idno>
+		<ptr target="https://doi.org/10.1002/2014ja020539" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="9019" to="9037" />
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Structure and dynamics of the magnetopause and its boundary layers</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hasegawa</surname></persName>
+		</author>
+		<idno type="DOI">10.5047/meep.2012.00102.0071</idno>
+		<ptr target="https://doi.org/10.5047/meep.2012.00102.0071" />
+	</analytic>
+	<monogr>
+		<title level="j">Monographs on Environment, Earth and Planets</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="71" to="119" />
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A new approach to magnetopause and bow shock modeling based on automated region identification</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jelínek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Němeček</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Šafránková</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2011JA017252</idno>
+		<ptr target="https://doi.org/10.1029/2011ja017252" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="issue">A5</biblScope>
+			<biblScope unit="page">117</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Improved bow shock model with dependence on the IMF strength. Planetary and Space Science</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jeřáb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Němeček</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Šafránková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jelínek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Měrka</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pss.2004.09.032</idno>
+		<ptr target="https://doi.org/10.1016/j.pss.2004.09.032" />
+		<imprint>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="85" to="93" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A new multivariate time series data analysis technique: Automated detection of flux transfer events using Cluster data</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karimabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Sipes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009JA014202</idno>
+		<ptr target="https://doi.org/10.1029/2009ja014202" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="issue">A6</biblScope>
+			<biblScope unit="page">114</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Statistical survey of the terrestrial bow shock observed by the cluster spacecraft</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kruparova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Krupar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Němeček</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Santolik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename></persName>
+		</author>
+		<idno type="DOI">10.1029/2018JA026272</idno>
+		<ptr target="https://doi.org/10.1029/2018JA026272" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1539" to="1547" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A three-dimensional asymmetric magnetopause model</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Gong</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2009JA014235</idno>
+		<ptr target="https://doi.org/10.1029/2009ja014235" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="issue">A4</biblScope>
+			<biblScope unit="page">115</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Space Physics A three-dimensional high Mach number asymmetric magnetopause model from global MHD simulation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kabin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2014JA020961</idno>
+		<ptr target="https://doi.org/10.1002/2014JA020961" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research</title>
+		<imprint>
+			<biblScope unit="page" from="5645" to="5666" />
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Spatial scales and plasma properties of the distant magnetopause: Evidence for selective ion and electron transport</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Lukin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Artemyev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Petrukovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Angelopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Runov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C.-P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Yushkov</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2019ja026638</idno>
+		<ptr target="https://doi.org/10.1029/2019ja026638" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="5027" to="5041" />
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The THEMIS ESA plasma instrument and in-flight calibration</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mcfadden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Carlson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ludlam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abiad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Elliott</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-008-9440-2</idno>
+		<ptr target="https://doi.org/10.1007/s11214-008-9440-2" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="277" to="302" />
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Data structures for statistical computing in Python</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Mckinney</surname></persName>
+		</author>
+		<idno type="DOI">10.25080/Majora-92bf1922-00a</idno>
+		<ptr target="https://doi.org/10.25080/Majora-92bf1922-00a" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 9th Python in Science Conference</title>
+				<editor>
+			<persName><forename type="first">S</forename><surname>Van Der Walt</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">&amp;</forename><forename type="middle">J</forename><surname>Millman</surname></persName>
+		</editor>
+		<meeting>the 9th Python in Science Conference</meeting>
+		<imprint>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page" from="56" to="61" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">An examination of the magnetopause position and shape based upon new observations</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Němeček</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Šafránková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Šimůnek</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/9781119509592.ch8</idno>
+		<ptr target="https://doi.org/10.1002/9781119509592.ch8" />
+		<imprint>
+			<date type="published" when="2020">2020</date>
+			<publisher>AGU</publisher>
+			<biblScope unit="page" from="135" to="151" />
+		</imprint>
+	</monogr>
+	<note>In Dayside magnetosphere interactions (pp.</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Massive multi-mission statistical study and analytical modeling of the Earth&apos;s magnetopause: 2. Shape and location</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aunai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Michotte De Welle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jeandet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fontaine</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2021ja029774</idno>
+		<ptr target="https://doi.org/10.1029/2021ja029774" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<date type="published" when="2022">2022a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Massive multi-mission statistical study and analytical modeling of the Earth&apos;s magnetopause: 3. An asymmetric non indented magnetopause analytical model</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aunai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Michotte De Welle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jeandet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fontaine</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2021ja030112</idno>
+		<ptr target="https://doi.org/10.1029/2021ja030112" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="e2021J" to="A30112" />
+			<date type="published" when="2022">2022b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Massive multi-mission statistical study and analytical modeling of the Earth&apos;s magnetopause: 4. On the near-cusp magnetopause indentation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aunai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Michotte De Welle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jeandet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fontaine</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2021ja029776</idno>
+		<ptr target="https://doi.org/10.1029/2021ja029776" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">127</biblScope>
+			<biblScope unit="page" from="e2021J" to="A29776" />
+			<date type="published" when="2022">2022c</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Gautiernguyen/in-situ_Events_lists: In-situ events list</title>
+		<author>
+			<persName><surname>Nguyen</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.5668298</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.5668298" />
+		<imprint>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Obtaining calibrated probabilities from boosting</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Niculescu-Mizil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caruana</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the twenty-first conference on uncertainty in artificial intelligence</title>
+				<meeting>the twenty-first conference on uncertainty in artificial intelligence</meeting>
+		<imprint>
+			<publisher>AUAI Press</publisher>
+			<date type="published" when="2005">2005</date>
+			<biblScope unit="page" from="413" to="420" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Automated classification of plasma regions using 3D particle energy distributions</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Olshevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">V</forename><surname>Khotyaintsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lalti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Divin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Delzanno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anderzen</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2021ja029620</idno>
+		<ptr target="https://doi.org/10.1029/2021ja029620" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">126</biblScope>
+			<date type="published" when="2021">2021</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">High-latitude Earth&apos;s magnetopause outside the cusp: Cluster observations</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">V</forename><surname>Panov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Büchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fränz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Korth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Savin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rème</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Fornaçon</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006ja012123</idno>
+		<ptr target="https://doi.org/10.1029/2006ja012123" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="issue">A1</biblScope>
+			<biblScope unit="page">113</biblScope>
+			<date type="published" when="2008">2008</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Large-scale survey of the structure of the dayside magnetopause by MMS</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Haaland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">U Ö</forename><surname>Sonnerup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Torbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JA025121</idno>
+		<ptr target="https://doi.org/10.1002/2017ja025121" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="2018" to="2033" />
+			<date type="published" when="2018">2018</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Scikit-learn: Machine learning in Python</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pedregosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Varoquaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gramfort</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Michel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thirion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Grisel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2825" to="2830" />
+			<date type="published" when="2011">2011</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Low-latitude dayside magnetopause and boundary layer for high magnetic shear: 1. Structure and motion</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Paschmann</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/95ja03752</idno>
+		<ptr target="https://doi.org/10.1029/95ja03752" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">A4</biblScope>
+			<biblScope unit="page" from="7801" to="7815" />
+			<date type="published" when="1996">1996</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Fast plasma investigation for magnetospheric multiscale</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pollock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jacques</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Burch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Gliese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saito</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-016-0245-4</idno>
+		<ptr target="https://doi.org/10.1007/s11214-016-0245-4" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="331" to="406" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">First multispacecraft ion measurements in and near the Earth&apos;s magnetosphere with the identical Cluster ion spectrometry (CIS) experiment</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rème</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aoustin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Bosqued</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dand Ouras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lavraud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Sauvaud</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/angeo-19-1303-2001</idno>
+		<ptr target="https://doi.org/10.5194/angeo-19-1303-2001" />
+	</analytic>
+	<monogr>
+		<title level="j">Annales Geophysicae</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1303" to="1354" />
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">The magnetospheric multiscale magnetometers</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Anderson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Baumjohann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Bromund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dearborn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fischer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-014-0057-3</idno>
+		<ptr target="https://doi.org/10.1007/s11214-014-0057-3" />
+	</analytic>
+	<monogr>
+		<title level="j">Space Science Reviews</title>
+		<imprint>
+			<biblScope unit="volume">199</biblScope>
+			<biblScope unit="issue">1-4</biblScope>
+			<biblScope unit="page" from="189" to="256" />
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The magnetopause shape and location: A comparison of the interball and geotail observations with models</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Šafránková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Nĕmeček</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dušík</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Přech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Sibeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">N</forename><surname>Borodkova</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/angeo-20-301-2002</idno>
+		<ptr target="https://doi.org/10.5194/angeo-20-301-2002" />
+	</analytic>
+	<monogr>
+		<title level="j">Annales Geophysicae</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="301" to="309" />
+			<date type="published" when="2002">2002</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A new functional form to study the solar wind control of the magnetopause size and shape</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Shue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Khurana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Singer</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/97JA00196</idno>
+		<ptr target="https://doi.org/10.1029/97ja00196" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="issue">A5</biblScope>
+			<biblScope unit="page" from="9497" to="9512" />
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A new three-dimensional magnetopause model with a support vector regression machine and a large database of multiple spacecraft observations</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Sibeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Merka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Boardsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Karimabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Sipes</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jgra.50226</idno>
+		<ptr target="https://doi.org/10.1002/jgra.50226" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2173" to="2184" />
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Interaction between an interplanetary magnetic cloud and the earth&apos;s magnetosphere: Motions of the bow shock</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Chao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Lepping</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/1999ja000265</idno>
+		<ptr target="https://doi.org/10.1029/1999ja000265" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Space Physics</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">A6</biblScope>
+			<biblScope unit="page" from="12627" to="12638" />
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

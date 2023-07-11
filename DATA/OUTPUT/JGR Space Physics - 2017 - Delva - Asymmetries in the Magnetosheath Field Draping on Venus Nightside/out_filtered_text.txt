@@ -1,0 +1,294 @@
+MAGU! Journal of Geophysical Research: Space Physics RESEARCH ARTICLE 10.1002/2017JA024604 Key Points: - For oblique solar wind velocity and IMF direction, fieldline draping in the nightside magnetosheath is asymmetric with kink only on the quasi-parallel shock side - Asymmetry not related to direction of motional electric field Correspondence to: M.
+Delva, magda.delva@oeaw.ac.at Citation: Delva, M., Volwerk, M., Jarvinen, R., & Bertucci, C.
+(2017).
+Asymmetries in the magnetosheath field draping on Venus’ nightside.
+Journal of Geophysical Research: Space Physics, 122, 10,396-10,407.
+https://doi.org/10.1002/ 2017JA024604  ©2017.
+American Geophysical Union.
+All Rights Reserved.
+DELVA ET AL.
+Asymmetries in the Magnetosheath Field Draping on Venus’ Nightside M.
+Delva', M.
+Volwerk' ©, R.
+Jarvinen? “, and C.
+Bertucci? 'Space Research Institute, Austrian Academy of Sciences, Graz, Austria, “Finnish Meteorological Institute, Helsinki, Finland, *Institute for Astronomy and Space Physics, Buenos Aires, Argentina Abstract Draping features of the interplanetary magnetic field around nonmagnetic bodies, especially Venus, have been studied in detail in numerical simulations and also from observations.
+Existing analytical and numerical work for nonperpendicular interplanetary magnetic field and solar wind velocity direction show a kink in the draped fieldlines in the near magnetosheath on the quasi-parallel side of the bow shock.
+Here long-term magnetic field data from the Venus Express mission (20:06 - 20:14) are analyzed in the near-nightside region of the magnetosheath, searching for differences in the draping pattern between the quasi-parallel and quasi-perpendicular side of the shock.
+From these magnetometer (MAG) data, the kink in the fieldlines occurring only on the quasi-parallel side is clearly identified from the change of sign in the field component parallel to the solar wind velocity.
+Furthermore, an asymmetry in the deflection of the out-of-plane field component due to the slipping of the fieldlines over the planetary obstacle is also found, which confirms predictions from numeral studies and from earlier work.
+1.
+Introduction The basics of the Venus plasma environment have been revealed using data from the earliest Venus orbiters Venera-9 and Venera-10 (e.g., Vaisberg et al., 1976) and further by analyses of data from the Pioneer Venus Orbiter mission (PVO) (e.g., Russell & Vaisberg, 1983).
+In general, the different interaction regions of the solar wind flow with a planet are described or modeled as function of the solar wind velocity Vsyw and the direction of the interplanetary magnetic field Boy.
+Also, the motional electric field E= —Vsw X Bsw, which is perpendicular to the (Vsw,Bsy) plane, plays an important role for the interaction with charged particles and leads to asymmetries in the interaction region.
+The bow shock and bilobed nature of the plasma tail were already detected by Venera-9 and Venera-10 (Dolginov et al., 1981; Vaisberg et al., 1976; Zelenyi & Vaisberg, 1982).
+Different asymmetry effects were reported from PVO for different regions of the tail (magnetosheath and plasma tail), mainly depending on the direction of the upstream motional electric field E (e.g., Slavin et al., 1989).
+The bilobed nature of the inner plasma tail was also confirmed from PVO data (e.g., Saunders & Russell, 1986), and asymmetries were found in the draping of the interplanetary magnetic field (IMF) in the magnetosheath, which depend on the upstream IMF component transverse to the solar wind velocity (e.g., Phillips et al., 1986).
+In detail, Phillips et al.
+(1986) found stronger fluctuations of the magnetic field in the magnetosheath near or downstream from the quasiparallel section of the bow shock.
+Several numerical simulations showed more details of the inner structure in the magnetosheath and tail (e.g., Soreiter & Stahara, 1980), which were compared to results from further data analyses (e.g., Luhmann et al., 1985; McComas et al., 1986; Slavin et al., 1983).
+Recently, more details have been added with data from the Venus Express spacecraft.
+The PVO and Venus Express spacecraft have visited a different range in space around the planet, especially in the tail: PVO passed through the distant tail, whereas Venus Express only visited the near-tail region.
+From magnetometer and plasma data from Venus Express, already known asymmetry effects have been confirmed and new ones discovered: Zhang et al.
+(2010) confirmed the bilobed nature of the tail and found also an asymmetry in closer wrapping of the IMF around the planet in the hemisphere where E points toward the planet.
+Dubinin et al.
+(2013) reported about plasma sheet asymmetries controlled by the direction of the motional electric field, with higher acceleration and lower plasma density in the hemisphere where E is pointing away from the planet (positive E hemisphere).
+A stronger magnetosheath magnetic field in the positive E hemisphere was found by Du et al.
+(2013); these authors also confirmed the closer wrapping around the planet in the negative E hemisphere.
+In the near-Venus magnetotail, Rong et al.
+(2014) found VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,396 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604 DELVA ET AL.
+that the asymmetry of the cross-flow component By (with more negative By in the negative E hemisphere) is formed near the terminator plane and transported tailward, as well as a sinking E equatorward of the draped magnetic fieldlines in the near tail.
+Also, other hemispheric asymmetries occur when the undisturbed IMF and the solar wind velocity are not perpendicular, but there exists a flow-aligned component of the IMF.
+This work studies specifically cases of oblique IMF and solar wind velocity and searches for draping asymmetries depending on the direction of the IMF to or away from the Sun.
+The paper is organized as follows: first, the basic reference frames used are explained.
+Then the details of the asymmetric IMF draping from global numerical simulations of the Venus-solar wind interaction for oblique IMF and solar wind velocity are described, and what effects will be searched for in the Venus Express data.
+The method for the data analysis, the observations, and new findings are presented, and a comparison with previously reported asymmetries is discussed.
+The paper is completed by a summary and conclusions of our findings.
+2.
+Reference Frames and Terminology The basic coordinate systems, both Venus centered, used in this study are the Venus-Solar Orbital (VSO) reference frame and the Venus electromagnetical (VBE) reference frame.
+The solar wind velocity Vsw is taken radially outward from the Sun, that is, the aberration caused by the orbital motion of Venus around the Sun is neglected as it is not expected to be a major factor in our analysis.
+The VSO frame has the (x,y)yso plane coinciding with the Venus orbital plane, where xvso is directed to the Sun, Yyso is opposite to the planet's orbital velocity, and Zyso is perpendicular to the (x,y)yvso plane and positive to ecliptic north.
+In the VBE reference frame Xvype is positive toward the Sun and opposite to the upstream solar wind velocity Vsw (i.e., XvBE = Xvso), Wee is along the cross-flow component of the upstream IMF, and Zyge points in the direction of the upstream motional electric field E.
+The VBE frame is obtained from the VSO frame through a rotation around the xvyso axis such that the ype axis is aligned with the IMF component perpendicular to the xyso axis, that is, rotation over the clock angle ¢ = atan(Bzyso/Byyso).
+Then the vector Boy is in the (x,y)vge plane and the cross-flow component Bysw vee is always positive and B cw vee is zero.
+The hemisphere around Venus with the upstream solar wind motional electric field pointing away from the planet is called the positive E hemisphere (Zvge > 0), and the upstream solar wind motional electric pointing toward the planet is called the negative E hemisphere (Zyge < 0).
+The hemisphere containing the quasi-parallel side of the bow shock is called the BS,a, hemisphere, and the corresponding region in the magnetosheath is called MS,3,.
+The hemisphere with the quasi-perpendicular side of the bow shock is called the BS,er, hemisphere, and the corresponding region in the magnetosheath is called MSperp.
+The radius of Venus is used as the unit of length (Ry = 6051.5 km).
+3.
+Asymmetries in the Magnetosheath for Oblique IMF and Vcw Global numerical simulations produce hemispheric asymmetries between the BS,a, and BSperp hemispheres in the Venus-induced magnetosphere depending on the angle (Bsw,Vsw) between the upstream IMF and solar wind velocity vectors.
+Notably, models show asymmetries for strongly nonperpendicular upstream IMF and the solar wind velocity (Jarvinen et al., 2013; Kallio et al., 2006; Ma et al., 2013; Terada et al., 2009).
+The sign of the flow-aligned component (B,) of the IMF defines the BS,a, and BSperp hemispheres when the simulation is performed in the VBE coordinate system.
+The BS,a, hemisphere is the yvge < 0 hemisphere, and BSperp hemisphere is the yvge > 0 hemisphere when the flow-aligned component of the IMF points away from the Sun (B, < 0).
+With the flow-aligned component of the IMF pointing toward the Sun (B, > 0), the BS, a, hemisphere is the yyge > 0 hemisphere and BS,pe,, hemisphere is the yyge < 0 hemisphere.
+Jarvinen et al.
+(2008) derived the correlation of the upstream IMF B, and By components showing variations around the Parker spiral at Venus based on the Pioneer Venus Orbiter observations.
+Figure 1 (from Jarvinen et al., 2013, Figure 6 therein) shows the three-dimensional draped IMF pattern for the outward Parker spiral from three view points in a global hybrid simulation of the Venus-solar wind interaction.
+The authors especially analyze the magnetic fieldlines and plasma velocities in the plasma environment near to the planet and farther down in the tail.
+A strong asymmetry in the IMF draping is evident between the BSpar ANd BSperp Hemispheres, with stronger magnetic barrier on the BSperp side.
+But the IMF draping on the BS,a, hemisphere is much stronger: the fieldlines are connected to the undisturbed IMF upstream of VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,397 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604 a) xz (y=0) b) xy (z=0) C) YZ (x=-2) Figure 1.
+Magnetic field lines attached close to the Venus upper atmosphere under the nominal outward IMF Parker spiral angle configuration of 36° in a global hybrid simulation in the VBE reference frame (after Jarvinen et al., 2013).
+The coloring of the field lines gives the B, component of the magnetic field.
+The background coloring shows the solar wind density in the (X,Z) plane at Y = 0, (X,Y) plane at Z= 0 and (Y,Z) plane at X = —2 Ry for context (white/transparent is lower density and black is higher density).
+The three-dimensional magnetic field line tracing was started in 100 points on a spherical shell at r= Ry + 1,000 km.
+The arrows give the orientation of the upstream solar wind electric field (Esw), velocity (Vsy), and the IMF (Bsy).
+The sphere has the radius of Venus, and the white hemisphere of the sphere is the dayside and the black hemisphere is the nightside of the planet.
+The region of interest is MS,a,, marked by the red rectangle in the middle panel.
+DELVA ET AL.
+the induced magnetosphere, which leads to a kink, whereas on the BSperp hemisphere the connection to the upstream IMF occurs far beyond the terminator plane (beyond the simulation domain).
+The region of interest in our study is marked with a red rectangle in the (x,y)vge plane (Figure 1b), indicating the kink in the fieldlines, only present on the BS,,, side of the magnetosheath.
+The change from the outward upstream IMF direction (B, < 0) to the draped configuration directed perpendicular to the upstream solar wind velocity (B, = 0) and finally toward the Sun and to the planet (B, > 0) occurs in a narrow region in the near-nightside magnetosheath within the red rectangle.
+In contrast, the opposite side (BSpe,5) shows a smooth transition from the draped IMF back to the upstream Bow direction.
+Furthermore, an analytical solution for the draping of the fieldlines was developed for the idealized case of a steady state magnetohydrodynamic flow around an unmagnetized conducting sphere by Romanelli et al.
+(2014).
+Here a clear distinction is found for oblique Bsy and Vsw, with a kink in the tailward draped fieldlines on the quasi-parallel side of the shock.
+So far, the asymmetry in the IMF draping in the magnetosheath for nonperpendicular IMF and the solar wind velocity as function of the angle (Bsy,Wsw) was not verified from the Venus Express data.
+It is the purpose of this paper to search for the asymmetry in the magnetosheath draping pattern from the Venus Express MAG data of the full mission time interval.
+4.
+Data Analysis Method The MAG data available from the Venus Express spacecraft in elliptical orbits soan the long time interval from 10 May 2006 to 25 November 2014 (12.8 Venus years); time resolution of the data is 1 Hz continually for each full orbital period of 24 h (Zhang et al., 2006) or shorter orbital period in the later stages of the mission.
+The spacecraft’s polar orbit is an ellipse with pericenter near the Venus’ north pole; the pericenter altitude was mainly at 280-400 km but lowered to 180 km during some time intervals in a later stage of the mission.
+The pericenter is always located within the bow shock; the space visited on the nightside is restricted to the near tail (x,.
+> —3.2 Venus radii Ry).
+The reference frame of the MAG data set is the VSO coordinate system.
+The time span covers part of the solar minimum of Solar Cycle 23 (20:06 - 20:09) and of increasing solar activity to solar maximum of the next cycle (20:10 - 20:14).
+For inward IMF and in/near the Venus’ orbital plane (Bsw is directed toward the Sun), the motional electric field E points to Venus’ south pole; thus, the spacecraft's apocenter (at altitude 66,000 km) is in the positive E hemisphere leading to more data in that hemisphere.
+For outward IMF and in/near the Venus’ orbital plane (Bsyw is directed away from the Sun), the motional electric field E points to Venus’ north pole with the orbital pericenter and less data are sampled in the positive E hemisphere.
+So for a data set of a full orbit and constant data sampling at 1 Hz, the VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,398 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604 BS perp i BS ar Fieldline draping configuration for inward IMF (@< 90°) spacecraft soends more time and samples more data near the apocenter, always leading to a higher data availability in one specific E hemisphere.
+Moreover, there is a significant difference in the occurrence of inward or of -— shan outward IMF during the time interval considered: for the declining phase of Solar Cycle 23, outward IMF was prevalent, for the rising phase of Solar Cycle 24, inward IMF was prevalent at the Venus orbit (see, e.g., Delva et al., 2015; Mursula & Virtanen, 2012).
+These factors have to be taken into account to keep the data analysis unbiased by the larger number of BS ya: BS perp available data samples in one specific hemisphere during parts of the investigated time interval.
+Therefore, simple time averaging of the data ¢q------ i A Fieldline draping configuration Change from Bx > 0 in IMF to Bx < 0 in MSpar for outward IMF (@> 90°) shall be omitted.
+Change from Bx <0 in IMF To study the orientation of the draped field in the nightside region of the to Bx > 0 in MSpar magnetosheath and near tail, we use only orbits with steady conditions of the unshocked IMF.
+For the available data set, the average Bsy compo Figure 2.
+Sketch of the field line draping configuration for (left) inward IMF nents were determined before each inbound and after the outbound and (right) outward IMF (top panels).
+The region of interest is marked in bow shock (BS) crossing (with the pericenter pass in between), which have red; the respective changes in the field components are indicated in the bottom panels.
+DELVA ET AL.
+a time difference of ~2—4 h.
+The average Boy is determined from a 20 min time interval at least 20 min out of the BS crossings; the clock angle d& = atan(Byyso/Byso) and cone angle @ = acos(Byyso/B;) of the mean Boy at the inbound BS crossing are calculated; B, denotes the total field value.
+To guarantee sufficiently stable IMF conditions per orbit, only the orbits with an angular variation in the direction of the mean Bsy less than 30° are selected.
+Although fluctuations of the IMF direction also occur on a shorter time scale, the limit of max.
+30° change in the B direction between the BS crossings is an often used criterion for sufficiently stable IMF conditions (see, e.g., Du et al., 2013; Dubinin et al., 2013).
+Furthermore, all orbits with cone angle 6 < 10°, respectively, 9 > 170° are excluded, to omit uncertainties in the inward/outward direction of the IMF.
+For these selected orbits with steady IMF, the magnetic field data and the spacecraft position, both in VSO, are rotated over the clock angle into the VBE reference frame.
+From here on, we use only the VBE reference frame (unless otherwise stated), and therefore, the subscripts VBE are dropped in the rest of the paper.
+For each of the stable orbits, only data in the spatial region of interest are selected, that is, for X,.
+in [—3.2, —1.2], Ysc, and Z,< in [—3.0, +3.0].
+In the (Y,Z) plane, a grid is defined with grid size [0.2 x 0.2]; for X only one interval was used, within [—3.2, —1.2], but with size depending on the case under study (see next chapter).
+For each single-spacecraft orbit, the data sampled in one box of the grid are averaged and the data stored, which means that each orbit represents only one count and one value per spatial bin visited by the spacecraft.
+This omits the problem of a stronger contribution of data bins closer to the apocenter, while those always contain a larger number of 1 Hz data samples.
+Taking simple time averages of all 1 Hz, data sampled in one spatial bin would bias the data in one or the other E hemisphere, depending on the value of the cone angle.
+This would especially be the case here, since the timely distribution of the cone angles is not symmetric in terms of inward or outward IMF for the investigated time interval.
+For the orbits with steady IMF passing through the spatial region of interest, the values are stored and statistics per bin are made, according to positive and negative values of the components B, and B,.
+We are interested in the spatial variation of the field orientation in the magnetosheath (MS) per orbit, that is, per case of stable IMF conditions and independent from the actual field strength.
+Several numerical simulations in an electromagnetical reference frame show that the draping on the quasiparallel side of the BS (in the MS,,, hemisphere) is characterized by a change in sign of the B, component, sometimes accompanied by a By, component tending from Bysw > 0 to small values (e.g., Jarvinen et al., 2013; Ma et al., 2013; Zhang et al., 2010).
+Figure 2 shows a sketch of the situation for both inward and outward IMF; the kink in the fieldlines in the MS is only found on the quasi-parallel side of the BS.
+Due to the small size of the dayside BS at Venus, the kink is seen mainly beyond the terminator plane.
+For inward Bsw (@ < 90°, left panel), the kink can be detected from a change of sign in B, from Bysyw > 0 in the undraped IMF to B, < 0 inside the MS.
+For outward Bow (@ > 90°, right panel), the kink’s signature is a change from B,syw < 0 in the undraped IMF to B, > 0 in the MS.
+If draping VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,399 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604 DELVA ET AL.
+in the MS is strong, B may be nearly parallel to the x axis before and after the change of sign, that is, the By component may also decrease to a small value.
+5.
+Observations 5.1.
+Draping in Near-Nightside Magnetosheath, X,, € [—3.2, —1.2] Ry As indicated in Chapter 2, we search for the signature of the kink in the draped magnetic field inside the BS, which is expected on the magnetosheath quasi-parallel side (MS,a,).
+We separate the selected data into two cases, for cone angle 6 < 90° and @ > 90°, and calculate the percentage [%] of counts (i.e., orbits) with positive component B,, respectively, negative B, per spatial bin.
+There were 543 orbits with stable IMF conditions passing through the spatial region of interest.
+The spatial distribution of the orbits or counts (since one orbit passing through the bin is one count) is depicted in Figure 3, for both IMF cone angle cases.
+The nonuniformity of the counts in the respective E hemispheres is due to the polar spacecraft orbit with pericenter near VSO north.
+This means that due the spacecraft orbit, for inward IMF laying approximately in the Venus orbit, the spacecraft spends more time near apocenter in the positive E hemisphere, whereas for outward IMF, more time is spent near apocenter in the negative E hemisphere.
+Since all orbits pass through the pericenter, the highest number of counts occurs always around the pericenter for both cone angle cases.
+Normal averaging of the initial B data with 1 Hz data resolution over the bins would have favored the apocenter region and the respective E hemisphere.
+The BS intersection with the terminator plane, indicated in all figures, was calculated from a static BS model determined by Zhang et al.
+(2008) for solar minimum conditions; however, its actual size is not relevant here.
+The change of sign in B, should be visible inside the BS only in MS,ar as signature of the kink in the draped fieldlines.
+Figure 4 (left) shows the percentage (%) of counts per bin with positive B, (left) for inward IMF with 8 < 90° and B,sw > 0.
+The change in the of sign from B, > 0 to B, < 0 with more than 70% of cases per bin occurs in the right-hand hemisphere of the MS, which is MS, a.
+Figure 4 (right) shows the results for outward IMF with 8 > 90° and By<sw < 0; the change in sign in B, occurs in the left-hand hemisphere of the MS, which is MSpar, but not on the right side (MSperp), again in up to 70% of cases.
+This geometry is clearly in agreement with the sketch in Figure 2.
+5.2.
+B, in Near-Nightside Magnetosheath, X,, € [—3.2, —1.2] Ry The B, orientation of the draped field downstream of the terminator plane requires special attention.
+The magnetic polarity of the quasi-parallel and quasi-perpendicular side of the MS depends on the cone angle 0 in the IMF, since the draping happens in the MS.
+In Figure 4 it can be clearly seen that the original IMF orientation and sign of B, is maintained on the quasi-perpendicular side of the BS and reversed on the quasiparallel side.
+In case of equal occurrence rate of inward and outward IMF the averaged value of the B, component for all cone angles in the near-nightside MS is expected to be approximately zero on both sides of the shock, because the one-sided change in sign of B, for the first case (9 < 90°) is canceled out by the change of sign on the other side for the second case (8 > 90°).
+However, a predominance of one IMF direction in the studied time interval would result in a bilobed magnetosheath.
+In a study presented by Zhang et al.
+(2010) from Venus Express MAG observations for the time interval May 2006 to December 2008 a bilobed MS was found with more positive B, values for Yc < 0 in the near magnetotail (X,.
+€ [—3.2, —1.2]).
+There, no separation according to the inward or outward direction of the IMF was made, which makes the result unexpected in the light of our present discussion.
+However, our additional investigation of the cone angle distribution indeed shows a predominance of outward IMF for that time interval (Delva et al., 2015), which leads to B, < 0 for Y<c > 0 and B, > 0 for Y<- < 0 and explains the result.
+A study by Dubinin et al.
+(2013) discusses the inner tail (within 1 Ry distance from the tail axis) from Venus Express MAG observations (August 2006 to January 2011) of the current sheet crossings; using median values for the B, component, the authors find a clearly bilobed structure, with Bymegian > O for Ysc < O and Bymedian < 0 for Ysc > O.
+VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,400 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604  10 May 2006  to  25 Nov 2014 ; Xsc in [-3.2,-1.2] Counts per bin; cone an > pi/2  ailiilaaaaa ‘as a nese eesies an: ‘en eee es ; 20 i 0 % .
+3 [No] Y [R] Y [RJ Figure 3.
+Number of counts of data per bin for X,- in [—3.2, —1.2], for 8 < 90° (left) and 6 > 90° (right).
+Representation as seen from the Sun, in VBE reference frame.
+The solid circle indicates Venus, the dashed circle the model bow shock at terminator.
+(left) For inward IMF (8 < 90°, Bysyw < 0) and approximately in the Venus orbit, the motional electric field points to the —Zyso direction, that is, the pericenter of the orbit lays in the negative E hemisphere and the rest of the orbit mainly in E+.
+Since all orbits pass through the pericenter, a high number of data counts occurs there in the negative E hemisphere.
+(right) For outward IMF (0 > 90°, Bysw > 0), the motional electric field points to the +Zyso direction, here the positive E hemisphere contains the pericenter of the orbit, but the rest of the data is mainly sampled in the negative E hemisphere.
+To enable a comparison with that study, we here also calculate the median values of the B, component (Figure 5 but here with color coding according to the value of Bymegian).
+From this figure, left panel, for 8 < 90° we have initially positive B, in the SW but Bymnegian Changes sign in the MS on the right-hand side (MSpar) for Y > 0.
+For 8 > 90° (Figure 5, right), B, is initially negative in the SW and Bymedian Changes sign on the left-hand side (MS,,,) for Y < 0.
+The change of sign of Bymedian Occurs in both cases in the MS on the quasi-parallel side of the shock.
+Therefore, the field polarity in the inner tail is always toward the planet (B, > 0) for Y < 0 and away from the planet (B, < 0) for Y > 0, independent of the cone angle.
+This confirms the bilobed nature of the inner tail, in agreement with Dubinin et al.
+(2013), Rong et al.
+(2014), and other studies.
+The kink with change of sign in B, occurs outside of the inner tail region in the MS, and only on the quasi-parallel side of the shock.
+It has to be pointed out that the use of median values of B, shows a different effect in the magnetosheath than the counts of B, values per orbit and space bin.
+The Bymedian Value is near zero on the MS,,, side, which  10 May 2006  to  26 Nov 2014 ; Xsc in [-3.2, -1.2]  10 May 2006  to  25 Nov 2014 ; Xsc in [-3.2,-1.2] Cases Bx > 0 [%]; cone an < pi/2 Cases Bx <= 0 [%]; cone an > pi/2 nani — is i ee aaa laine a ian alia — ‘ai 100 Z IR,] Figure 4.
+Cases per bin with change in sign of By, in % of observed cases, X<- in [—3.2, —1.2], representation as in previous figure.
+(left) For inward IMF, 6 < 90° and Bysw > 0; the initially positive Bysy value is changed to negative values on the right-hand side of the MS, which here is MSpar.
+(right) For outward IMF, @ > 90° and Bysw < 0; the initially negative Bysy value changes to positive values on the left-hand side, which here is MSpar.
+DELVA ET AL.
+VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,401 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604  10 May 2006  to  25 Nov 2014 ; Xsc in [-3.2,-1.2] Median(Bx) [nT]; cone an < pi/2 Median(Bx) [nT]; cone an > pi/2 : : 3 : : | cccaaads Saamndiane pentane penmeny aaa qpecennes : 10 0 Y IR] Figure 5.
+Median values of the B, component in (nT) per bin, for X,¢ in [—3.2, —1.2], for 0 < 90° and Bysw < 0 (left, with MSpar on the right side); 0 > 90° and Bysw > 0 (right, with MSpar on the left side).
+Representation as in previous figure.
+DELVA ET AL.
+is consistent with B, changing sign from negative in the SW to positive (for 8 < 90°) and from positive in the SW to negative (for 0 > 90°).
+The MS side with no change in the sign of B, has strongly positive (for 8 < 90°) or negative (for 6 > 90°) values for Bymedian: 5.3.
+B, in Near-Nightside Magnetosheath, X,, < [—3.2, —1.2] Ry The B, component in the near-nightside MS reveals more specific details of the field directional variations behind the obstacle.
+In the VBE reference frame, the undraped field outside of the bow shock is confined to the (X,Y) plane and the B, component is zero.
+Therefore, nonzero values of B, in the near-nightside magnetosheath are presumably generated by the draping process.
+Figure 6 shows the B, and B, components along the IMF field lines draping around the positive E hemisphere of Venus in the Parker spiral run of Jarvinen et al.
+(2013).
+The field line tracing is started in the (X,Y) plane at Z = 800 km in the upstream region of the bow shock.
+On the dayside the field lines climb to the positive E hemisphere reaching an altitude of more than the radius of Venus (Z > 6,081.5 km) at the terminator.
+After slipping past the terminator the field lines start sinking back toward lower Z coordinates in the nightside.
+The coloring of the field displays negative B, in the upstream region and the BSperp hemisphere caused by the away sector of the Parker spiral (blue color in Figures 6a and 6b).
+At the kink B, turns to zero (white color) and becomes positive in the magnetic lobe in the BS,3, hemisphere.
+The climbing of the field lines toward the positive E hemisphere at higher Z values means that the field confined in the (X,Y) plane, that is, B, = 0, in the upstream regions gains nonzero B, components when it drapes around the planet.
+Figures 6c and 6d show the draped B, becoming positive (red) in the BS,a, hemisphere and negative (blue) in the BS,.e,, hemisphere.
+In the negative E hemisphere (not shown) the slipping fieldlines gain a negative B, component on the BS,a, hemisphere and positive B, component on the BSperp hemisphere near the terminator (figure not shown).
+From the MAG data, the cases for the B, component are displayed in Figure 7.
+Negative values of B, occur mainly in the (+Y,+Z) quadrant and in the (—Y,—Z) quadrant; positive B, values are found mainly in the (—Y,+Z) quadrant and in the (+Y,—Z) quadrant; the effect is seen for inward (top row) and outward (bottom row) IMF.
+This is in agreement with the predictions from numerical simulations.
+The data analysis also confirms that slipover of the fieldline at the highest (lowest) point occurs with a B, > 0 component only and B, = 0 (data not shown).
+Such an effect of “sinking equatorward” of the fieldlines behind the planet was also reported by Rong et al.
+(2014) from another analysis of the Venus Express MAG data in a shorter time interval (April 2006 to December 2012).
+VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,402 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604 me 387 Pa 5 10 15 -2 -5 0 -1 0 From +E, c) From +E, Figure 6.
+Magnetic field lines of the IMF draping around the positive E hemisphere of Venus in the nominal outward IMF Parker spiral angle configuration of 36° in a global hybrid simulation by Jarvinen et al.
+(2013).
+The coloring of the field lines gives the (a, b) B, and (c, d) B, components of the magnetic field.
+The background coloring shows the solar wind density in the (X,Y) plane at Z = O for context (white/transparent is lower density and black is higher density).
+The three-dimensional magnetic field line tracing was started in the upstream region of the bow shock in the (X,Y) plane at Z = 800 km.
+The arrows give the orientation of the upstream solar wind electric field (E.y), velocity (V<y), and the IMF (B.y).
+The sphere has the radius of Venus and the white hemisphere of the sphere is the dayside and the black hemisphere is the nightside of the planet.
+DELVA ET AL.
+6.
+Discussion Earlier studies reported about asymmetries found in the Venus plasma environment; we discuss our findings and set them into relation with these reports.
+6.1.
+Asymmetries in the Magnetosheath In the presented study, we find the kink in the MS fieldlines on the quasi-parallel side of the bow shock, which is absent on the quasi-perpendicular side.
+This means that the fieldlines on the quasi-perpendicular side are smoothly connected with unshocked IMF; the direction of B, (inward or outward) remains unchanged throughout the MS and into the central tail.
+However, on the quasi-parallel side, the fieldlines show a directional change from the original IMF-B, direction to the opposite direction, that is, two opposite B directions occur on that side of the MS, confined in a narrow space between the bow shock and the magnetic barrier.
+Since the plasma itself reacts on the magnetic field and its changes, a distinct difference in the plasma behavior is expected between the two magnetosheath sides.
+Indeed, the numerical hybrid simulations performed by Jarvinen et al.
+(2013) for the nominal Parker spiral angle case with outward IMF display significant differences in the magnetic field and plasma properties between MS,a, and MSperp.
+As described in detail in Chapter 2, significant influences on the plasma properties are found.
+The planetary ion escape fluxes are concentrated on the BS,4, hemisphere, and the velocities of planetary ions are smaller than those in the perpendicular IMF case.
+A study of magnetosheath plasma data, separated for the two cone angle cases, could give observational evidence for these differences.
+However, this is beyond the scope of this paper.
+VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,403 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604 Z IR] Cases Bz <=0 [%]; cone an < pi/2 (Cc) Cases Bz > 0 [%]; cone an < pi/2 Cases Bz <= 0 [%]; cone an > pi/2 (d) Cases Bz > 0 [%]; cone an > pi/2  10 May 2006  to  25 Nov 2014 ; Xsc in [-3.2,-1.2]  10 May 2006  to  25 Nov 2014 ; Xsc in [-3.2,-1.2] : : .
+3 % Y [RJ] Y IR] [%] Figure 7.
+Cases in % per bin with (a, b) B, <0 and (c, d) B, > 0, X¢¢ in [—3.2, —1.2], for 9 < 90° (Figures 7a and 7c, with MSpa,; on the left side) and 6 > 90° (Figures 7b and 7d, with MSpar on the right side).
+Representation as in previous figure.
+DELVA ET AL.
+6.2.
+Asymmetries in the Plasma Sheet and Tail As already discussed in Chapter 4.2, numerous previous studies, for example, from PVO at Venus, at other nonmagnetic bodies and from simulations reported that a bilobed structure of the inner tail is established, independent of the cone angle of the unshocked outer IMF.
+The regular draping pattern is such that in the VBE reference frame, the negative Y tailside has a B field toward the planet (B, > 0) and the positive Y tailside has B field tailward from the planet (B, < 0).
+Our study confirms the independency of the bilobed nature of the inner tail from the cone angle, but this is valid only for the inner tail.
+In the magnetosheath, we find that the situation is different and depends on the inward or outward direction of the undisturbed Bcy.
+In a previous study from the Venus Express MAG data and for a shorter time interval in the first stage of the mission (May 2006 to December 2008), Zhang et al.
+(2010) reported also about an asymmetry in the magnetic field polarity distribution in the E+ and E— hemisphere in inner near tail (for X in [—3.0, —1.2] and Y,Z in [—2, +2]).
+The cross-flow component B, becomes negative in the negative E hemisphere, which is interpreted as closer wrapping of B fieldlines to the planet there.
+The reversal from B, > 0 in the IMF to By < 0 produces B field stress directed to the planet and also can modify the plasma transport into the tail in the negative E hemisphere.
+Simulations in that paper show the same effect in the near tail (X > —1.5) with negative cross-flow component only in the negative E hemisphere.
+To shed more light on this “closer wrapping” of the fieldlines in the near tail, we separate our data now according to the distance in the tail: X,.
+in [—2.2, —1.2] closer to the planet and X,, in [—3.2, —2.2] deeper VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,404 @AGU Z IR] Z IR] Cases By <=0 [%J]; all cone angles Counts per bin; all cone angles Journal of Geophysical Research: Space Physics 10.1002/2017JA024604  10 May 2006  to  25 Nov 2014 ; Xsc in [-2.2,-1.2]  10 May 2006  to  25 Nov 2014 ; Xsc in [-2.2,-1.2] ee nisi: | eitcotedslane | ne : : : 30 27 coe! C a 21 18 ee 15 12 a 2 siaiereugiees: eae 6 | 3 a tn one eek 3 INo} Y IR] (%] Y [R,]  10 May 2006  to  25 Nov 2014 ; Xsc in [-3.2,-2.2]  10 May 2006  to  25 Nov 2014 ; Xsc in [-3.2,-2.2] : | nena ae — ———— —_— one Z IR] “1 0 1 2 3 3 Y IR] [%] [No] Figure 8.
+(left) Cases in % per bin with By, < 0 for all cone angles in [10°, 170°].
+(top left) Near the planet, for Xs in [—2.2, —1.2]; (bottom left) farther down the tail, for Xs- in [—3.2, —2.2].
+(right) Counts (orbits) per bin for all cone angles in [10°, 170°] on same absolute scale.
+(top right) Near the planet, for X<_ in [—2.2, —1.2] with 543 orbits in spatial range; (bottom right) farther down the tail, for X,< in [—3.2, —2.2] with total counts = 333.
+In the top left panel, closer to the planet, more zero and negative values for By occur over a large range in the negative E hemisphere.
+In the bottom left panel, farther downstream, By < 0 occurs more frequently on the +Y side.
+DELVA ET AL.
+in the nightside.
+Here a separation into cone angle cases is omitted, because the orbital coverage closer to the planet is always near the pericenter and therefore poor in the E hemisphere not containing the pericenter.
+Figure 8 shows the results for the two distances in X: negative values for the cross-flow component By occur mainly in the negative E hemisphere in the very near tail, X,_ in [—2.2, —1.2].
+Farther downstream for X,.
+in [—3.2, —2.2], less negative By values are found and these are located near the E field equator, in both hemispheres; an E hemisphere asymmetry is not seen there.
+This result in the farther downstream area, however, is from a much smaller number of orbits, due to the specific orbit of the spacecraft (Figure 8, right).
+We may conclude that the asymmetric “close wrapping” in the negative E hemisphere is a well-localized effect close to the planet, which is not seen farther downstream in the tail.
+A similar result was reported by Du et al.
+(2013), from a smaller Venus Express MAG data set (April 2006 to December 2009): the closer wrapping for negative cross-flow component By is found in the negative E hemisphere on the dayside and near nightside, very close to the planet (within 1.5 Rv from the planet tail axis and X > —0.4 Ry) but farther out (X < —0.4 Ry) is found only near the equator, that is, the asymmetry disappears.
+An explanation for the more close wrapping of the fieldlines in the negative E hemisphere is still outstanding.
+From the Venus Express plasma data Dubinin et al.
+(2013) reported on a different asymmetry in the plasma sheet (approximately within 1 Ry from the tail center line); the authors found a distinct asymmetry in supply of the plasma sheet between the positive and negative E hemisphere.
+The negative E hemisphere is denser, which is explained by more ion supply due to the j x B force; the positive E hemisphere is less dense and the ions have higher velocities.
+This asymmetry is attributed to the action of the motional electric field.
+With a VENUS MAGNETOSHEATH DRAPING ASYMMETRIES 10,405 QWAG U Journal of Geophysical Research: Space Physics 10.1002/2017JA024604 Acknowledgments We thank the Venus Express MAG team for providing the data, which are also available in the ESA Venus Express Data Archive.
+Figures 1 and 7 were created using the Vislt open source visualization tool (Childs et al., 2012).
+Simulations were performed using the HYB code distributed under the open source GPL v3 license by the Finnish Meteorological Institute (http://github.com/fmihpc/ hyb).
+DELVA ET AL.
+similar argumentation Saunders & Russell (1986) explained an enhanced field strength in the negative E hemisphere, as seen in the distant tail from the PVO data.
+Rong et al.
+(2014) studied asymmetries in the narrow region Y, Z in [—1.5, +1.5] but separated into two distances X,.
+in [—3.0, —1.5] and [—1.5, 0.0], from the Venus Express MAG data for the time interval April 2006 to December 2012.
+The data were binned and averaged, and the bilobed structure was confirmed.
+The cross-flow component By was found to have an asymmetry with more By, < 0 in the negative E hemisphere in the region closest to the planet but mainly positive B, everywhere in the outer region.
+This is in agreement with our result here that the close wrapping with B, < 0 in the negative E hemisphere is confined to the space closest to the planet.
+In our work, we do not identify a distinct difference between the two E hemispheres; all described effects are approximately symmetric with respect to the E equatorial plane.
+7.
+Summary and Conclusions We investigated the orientation of the magnetic field in the near-nightside magnetosheath of Venus using the magnetometer data from the Venus Express spacecraft for the time duration of the whole mission (May 2006 to 25 November 2014), in search for asymmetries depending on the inward or outward direction of the IMF.
+From theory and numerical simulations, it is known that for oblique orientation of the solar wind magnetic field Bsy and velocity Vsw, the fieldlines are draped differently on the quasi-parallel or quasiperpendicular side of the shock: on the quasi-parallel side, the component parallel to Vcw is reversed, leading to a kink in the fieldlines, whereas on the quasi-perpendicular side, a smooth transition from the unshocked IMF to the draped field inside the MS occurs.
+From the available data set of 12.8 Venus years, the orbits with steady IMF directions between BS inbound and outbound crossing were selected, and the field components in the MS range behind the terminator plane (X<-< in [—3.2, —1.2], Ysc, Zsc in [—3.0, +3.0] in Ry) analyzed.
+The predicted asymmetry between the quasi-parallel und quasi-perpendicular side of the MS was clearly demonstrated.
+The quasi-perpendicular side maintains the original IMF orientation nearly uniformly throughout the whole MS half until the noonmidnight plane, whereas the quasi-parallel side experiences the change in the flow-aligned field component (B,) from the original IMF direction at the BS to the opposite sign near the magnetic barrier, leading to a kink in the draped fieldlines.
+The asymmetric magnetic configuration in the MS has significant effects on the plasma; hybrid numerical simulations have shown different plasma properties in the MS sides, but these have not yet been verified from plasma data.
+However, such analysis is beyond the scope of the present work.
+Furthermore, the magnetic field was found to develop an out-of-the-plane component B,, such that the field direction returns to the original upstream plane (Bsy in Z = 0 plane) behind the planet: in the positive (negative) E hemisphere and looking in direction of the draped field, a positive (negative) B, component develops before the fieldline slips over (under) the planet and a negative (positive) B, after the slip over (under) the planet, that is, the fieldlines sink back to the original plane Z = 0.
+This is a confirmation of the findings of Rong et al.
+(2014).
+The more “close wrapping” of the fieldlines with a change of sign in the cross-flow component By behind the planet in the negative E hemisphere was confirmed but is found to be confined to a small region just behind the terminator plane.
+Farther downstream in the nightside, a change of sign in By is only found near the equatorial plane of the E hemispheres, with no noticeable asymmetry.
+This is in agreement with earlier findings by Du et al.
+(2013).
+So far, an explanation for the asymmetry effect of more close wrapping in the negative E hemisphere is still outstanding.
+.

@@ -1,0 +1,160 @@
+[
+    {
+        "end": 70,
+        "start": 65,
+        "text": "20:41",
+        "timex-value": "T20:41",
+        "type": "TIME",
+        "value": "T20:41"
+    },
+    {
+        "end": 6118,
+        "start": 6099,
+        "text": "2015-10-16 13:07:02",
+        "timex-value": "2015-10-16T13:07:02",
+        "type": "TIME",
+        "value": "2015-10-16T13:07:02"
+    },
+    {
+        "end": 6181,
+        "start": 6162,
+        "text": "2015-12-08 11:20:43",
+        "timex-value": "2015-12-08T11:20:43",
+        "type": "TIME",
+        "value": "2015-12-08T11:20:43"
+    },
+    {
+        "end": 6244,
+        "start": 6225,
+        "text": "2015-12-06 23:38:31",
+        "timex-value": "2015-12-06T23:38:31",
+        "type": "TIME",
+        "value": "2015-12-06T23:38:31"
+    },
+    {
+        "end": 6317,
+        "start": 6298,
+        "text": "2015-10-25 11:07:46",
+        "timex-value": "2015-10-25T11:07:46",
+        "type": "TIME",
+        "value": "2015-10-25T11:07:46"
+    },
+    {
+        "end": 6384,
+        "start": 6365,
+        "text": "2016-12-09 09:03:54",
+        "timex-value": "2016-12-09T09:03:54",
+        "type": "TIME",
+        "value": "2016-12-09T09:03:54"
+    },
+    {
+        "end": 6450,
+        "start": 6431,
+        "text": "2016-11-09 13:39:26",
+        "timex-value": "2016-11-09T13:39:26",
+        "type": "TIME",
+        "value": "2016-11-09T13:39:26"
+    },
+    {
+        "end": 6528,
+        "start": 6509,
+        "text": "2017-07-11 22:34:02",
+        "timex-value": "2017-07-11T22:34:02",
+        "type": "TIME",
+        "value": "2017-07-11T22:34:02"
+    },
+    {
+        "end": 6589,
+        "start": 6570,
+        "text": "2017-06-17 20:24:07",
+        "timex-value": "2017-06-17T20:24:07",
+        "type": "TIME",
+        "value": "2017-06-17T20:24:07"
+    },
+    {
+        "end": 6651,
+        "start": 6632,
+        "text": "2017-08-10 12:18:33",
+        "timex-value": "2017-08-10T12:18:33",
+        "type": "TIME",
+        "value": "2017-08-10T12:18:33"
+    },
+    {
+        "end": 15215,
+        "start": 15183,
+        "text": "18 November 2016  and February 7",
+        "type": "DURATION",
+        "value": {
+            "begin": "2016-11-18",
+            "end": "XXXX-02-07"
+        }
+    },
+    {
+        "end": 15277,
+        "start": 15262,
+        "text": "7 February 2016",
+        "timex-value": "2016-02-07",
+        "type": "DATE",
+        "value": "2016-02-07"
+    },
+    {
+        "end": 15411,
+        "start": 15395,
+        "text": "18 November 2016",
+        "timex-value": "2016-11-18",
+        "type": "DATE",
+        "value": "2016-11-18"
+    },
+    {
+        "end": 16097,
+        "start": 16081,
+        "text": "18 November 2016",
+        "timex-value": "2016-11-18",
+        "type": "DATE",
+        "value": "2016-11-18"
+    },
+    {
+        "end": 18230,
+        "start": 18215,
+        "text": "25 October 2015",
+        "timex-value": "2015-10-25",
+        "type": "DATE",
+        "value": "2015-10-25"
+    },
+    {
+        "end": 19061,
+        "start": 19040,
+        "text": "25 Oct 2015  11:07:46",
+        "timex-value": "2015-10-25T11:07:46",
+        "type": "TIME",
+        "value": "2015-10-25T11:07:46"
+    },
+    {
+        "end": 25014,
+        "start": 25009,
+        "text": "00:02",
+        "timex-value": "T00:02",
+        "type": "TIME",
+        "value": "T00:02"
+    },
+    {
+        "end": 25074,
+        "start": 25061,
+        "text": "00:00 - 00:02",
+        "type": "DURATION",
+        "value": {
+            "begin": "T00:00",
+            "end": "T00:02"
+        }
+    },
+    {
+        "end": 25213,
+        "start": 25200,
+        "text": "00:02 - 16:31",
+        "type": "DURATION",
+        "value": {
+            "begin": "T00:02",
+            "end": "T16:31"
+        }
+    }
+]

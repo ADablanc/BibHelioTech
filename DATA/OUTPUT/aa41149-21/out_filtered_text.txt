@@ -1,0 +1,413 @@
+A&A 656, A37 (2021) https://doi.org/10.1051/00:04 - 63:61/202141149 tro no my © B.
+Lavraud et al.
+2021 Astrophysics Solar Orbiter First Results (Cruise Phase) Special issue Magnetic reconnection as a mechanism to produce multiple thermal proton populations and beams locally in the solar wind B.
+Lavraud!?®, R.
+Kieokaew?, N.
+Fargette’, P.
+Louarn?, A.
+Fedorov’, N.
+André, G.
+Fruit”, V.
+Génot?, V.
+Réville?, A.
+P.
+Rouillard?, I.
+Plotnikov?, E.
+Penou”, A.
+Barthe*, L.
+Prech*, C.
+J.
+Owen>, R.
+Bruno®, F.
+Allegrini’”®, M.
+Berthomier’, D.
+Kataria>, S.
+Livi’’’, J.
+M.
+Raines!2, R.
+D’Amicis®, J.
+P.
+Eastwood!!, C.
+Froment!*, R.
+Laker!!, M.
+Maksimovic!?, F Marcucci®, S.
+Perri!*, D.
+Perrone!>, T.
+D.
+Phan!®, D.
+Stansby? J.
+Stawarz!!, S.
+Toledo-Redondo!’, A.
+Vaivads!®, D.
+Verscharen>?:!’, I.
+Zouganelis~”, V.
+Angelini!!, V.
+Evans!!, T.S.
+Horbury!!, and H.
+O’Brien!! ' Laboratoire d’astrophysique de Bordeaux, Univ.
+Bordeaux, CNRS, Pessac, France * Institut de Recherche en Astrophysique et Planétologie, CNRS, UPS, CNES, Toulouse, France e-mail: benoit.
+lavraud@irap.omp.eu 3 AKKA, Toulouse, France + Department of Surface and Plasma Science, Faculty of Mathematics and Physics, Charles University, Prague, Czech Republic > Mullard Space Science Laboratory, University College London, Holmbury St.
+Mary, Dorking, Surrey, UK ° INAF-Istituto di Astrofisica e Planetologia Spaziali, Via Fosso del Cavaliere 100, 00133 Roma, Italy ’ Southwest Research Institute, San Antonio, USA 2 Department of Physics and Astronomy, University of Texas at San Antonio, San Antonio, Texas, USA ? Laboratoire de Physique des Plasmas, Ecole Polytechnique, Palaiseau, France 10 Department of Climate and Space Sciences and Engineering, The University of Michigan, Ann Arbor, USA 'l_ Space and Atmospheric Physics, The Blackett Laboratory, Imperial College London, London, UK 2 LPC2E, CNRS, University of Orléans, CNES, Orléans, France 13, LESIA, Meudon, France 4 Dipartimento di Fisica, Universita della Calabria, Rende, Italy 5 ASI — Italian Space Agency, Rome, Italy 16 Space Sciences Laboratory, University of California, Berkeley, USA '7 University of Murcia, Murcia, Spain 18 KTH, Stockholm, Sweden !9 Space Science Center, University of New Hampshire, Durham, NH 03824, USA 20 European Space Agency (ESA), European Space Astronomy Centre (ESAC), Camino Bajo del Castillo s/n, 28692 Villanueva de la Canada, Madrid, Spain ABSTRACT Context.
+Spacecraft data revealed early on the frequent observation of multiple near-thermal proton populations in the solar wind.
+Decades of research on their origin have focused on processes such as magnetic reconnection in the low corona and wave-particle interactions in the corona and locally in the solar wind.
+Aims.
+This study aims to highlight the fact that such multiple thermal proton populations and beams are also produced by magnetic reconnection occurring locally in the solar wind.
+Methods.
+We used high-resolution Solar Orbiter proton velocity distribution function measurements, complemented by electron and magnetic field data, to analyze the association of multiple thermal proton populations and beams with magnetic reconnection during a period of slow Alfvénic solar wind on 16 July 2020.
+Results.
+At least six reconnecting current sheets with associated multiple thermal proton populations and beams, including a case of magnetic reconnection at a switchback boundary, were found on this day.
+This represents 2% of the measured distribution functions.
+We discuss how this proportion may be underestimated, and how it may depend on solar wind type and distance from the Sun.
+Conclusions.
+Although suggesting a likely small contribution, but which remains to be quantitatively assessed, Solar Orbiter observations show that magnetic reconnection must be considered as one of the mechanisms that produce multiple thermal proton populations and beams locally in the solar wind.
+Key words.
+solar wind — Sun: magnetic fields 1.
+Introduction thermal energies, was reported early in the space exploration era (Feldman et al.
+1973).
+Note that we focus here on popula The observation of solar wind proton distribution functions made __ tions or beams that we call “near-thermal or thermal’ as they of two components, a core and a beam population at nearly- are observed at energies relatively close to the core population A37, page | of 8 Open Access article, published by EDP Sciences, under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+A&A 656, A37 (2021) (with respect to the core thermal speed).
+This is in contrast to proton beams and energetic particles often observed at significantly higher energies in association with solar flares, coronal mass ejections, shocks, turbulence or reconnection in the solar wind (e.g., Kahler et al.
+1978; Desai & Giacalone 2016; Khabarova et al.
+2021).
+Feldman et al.
+(1974, 1996) argued that such near-thermal proton beams, typically of lower intensity than the core, might stem from proton injections into the nascent solar wind in the low corona or at chromospheric level.
+They pointed to the likely role of magnetic reconnection between open field lines and closed loops in the low corona, a mechanism that is widely used to explain various types of coronal and solar wind observations, such as the magnetic switchbacks that got recent strong focus with Parker Solar Probe (PSP) data (e.g., Kasper et al.
+2019; Bale et al.
+2019).
+In addition, we refer to Belcher & Davis (1971) for early observations of large-scale Alfvénic structures akin to switchbacks.
+A very large body of work, based on observations, theory, and simulations, has investigated the origin of multiple proton populations and beams in the solar wind (at various energies).
+Most recent studies have led to a paradigm shift whereby the proton multiple populations and beams are born out of wave-particle interactions (of various types) and turbulence (e.g., Montgomery et al.
+1976; Livi & Marsch 1987; Gary 1991; Daughton & Gary 1998; Daughton et al.
+1999; Tam & Chang 1999; Tu et al.
+2002, 2004; Araneda et al.
+2008; Matteini et al.
+2010; Osmane et al.
+2010; Pierrard & Voitenko 2010; Valentini et al.
+2011; Voitenko & Pierrard 2015; Alterman 2019).
+Many studies also focused on the instabilities that result from the presence of the beam, and on their effects back on the proton distributions themselves (e.g., Wong & Goldstein 1988; Gomberoff 2006; Matteini et al.
+2010, 2015; Hellinger & Travnicek 2011, 2013; Chen et al.
+2016; Wicks et al.
+2016; Verscharen et al.
+2016; Shaaban et al.
+2020; Klein et al.
+2021; Louarn et al.
+2021).
+Yet, in parallel, it was realized that reconnection produces a mixing of particle populations from the upstream inflow regions (the boundary conditions of the reconnecting current sheet), leading among other effects to the production of proton distribution functions comprising multiple populations and beams at near-thermal energies (e.g., Lottermoser et al.
+1998; Shay et al.
+1998; Hoshino et al.
+1998; Phan et al.
+2007; Drake et al.
+2009; Aunai et al.
+2011; Eastwood et al.
+2015; Innocenti et al.
+2017).
+Apart from Chen et al.
+(2016) (who cite Gosling et al.
+2005), our thorough but yet non-exhaustive bibliographic search did not reveal any other work indicating magnetic reconnection as a local mechanism to produce near-thermal proton beams in the solar wind.
+Farrugia et al.
+(2001) and Gosling et al.
+(2005) demonstrated that magnetic reconnection occurs locally in the solar wind.
+Gosling et al.
+(2005) specifically showed that the transport of plasmas from the two upstream regions produces interpenetrating thermal proton populations in the exhaust.
+This is a demonstration that at least a portion of multiple ion populations in the solar wind is produced locally by magnetic reconnection.
+Since then, among the numerous studies of magnetic reconnection in the solar wind (e.g., Phan et al.
+2006; Davis et al.
+2006; Lavraud et al.
+2009; Tian et al.
+2010; Feng et al.
+2011; Xu et al.
+2011; Enzl et al.
+2014; Mistry et al.
+2017; Feng et al.
+2017; He et al.
+2018; Eastwood et al.
+2018; Khabarova et al.
+2021), none specifically studied the presence of multiple nearthermal proton populations, apart from Huttunen et al.
+(2008) who showed secondary proton enhancements consistent with a beam in the vicinity of the separatrix (a fact also reported here).
+The Gosling et al.
+(2005) event was special because it occurred within a coronal mass ejection (CMES) with low 6 A37, page 2 of 8 and high Alfvén speed.
+Because the separation between the two beams scales with the Alfvén speed (cf.
+Sect.
+2), the high Alfvén speed allowed the interpenetrating beams to be easily distinguished, whereas for regular higher 6 solar wind their identification requires higher energy and angular ion measurements, or may not be distinguishable at all.
+In the present paper, we report further cases showing multiple thermal proton populations and beams in the solar wind as a result of local magnetic reconnection, both in the exhaust and in the boundary layers on the outside, thanks to the new high-resolution ion measurements on board Solar Orbiter.
+We purport that magnetic reconnection is a mechanism that must be considered when investigating the origin of multiple thermal proton populations and beams in the solar wind.
+For sake of clarity, note that, from now on, we do not systematically refer to the populations or beams as thermal.
+2.
+Observations We analyze observations from the Solar Orbiter mission on 16 July 2020 during a slow Alfvénic solar wind interval at a distance of about 0.64 AU (see D’ Amicis et al.
+2021a).
+This period was chosen because it contains substantial amounts of multiple proton populations, as explained next.
+We primarily make use of in situ data from the Solar Orbiter SWA (Solar Wind Analyzer; Owen et al.
+2020) instrument suite that provides ion (PAS: Proton and Alpha Sensor) and electron (EAS: Electron Analyzer System) 3D velocity distribution functions with cadences up to 4 Hz and high angular and energy resolutions.
+We also use magnetic field data from the magnetometer (MAG Horbury et al.
+2020) instrument with a cadence of 8 Hz.
+Figure | displays the data for 16 July 2020.
+Panel a often shows a broad ion energy spectrum, in particular around the beginning and end of the interval, consistent with the higher parallel ion temperature observed in panel f.
+This higher parallel temperature does not represent a mere bulk heating, but rather signals the presence of an ion beam on top of the core proton population, aligned with the magnetic field.
+During radial magnetic field periods (such as the end of this interval for instance), this translates into the beam being observed clearly in the energy spectrum of panel a.
+The multiple proton populations are observed very clearly in the 3D ion distribution functions, as exemplified later in Fig.
+2h and | for instance.
+Although it is not central to the present study, we note the presence of several magnetic switchbacks (Kasper et al.
+2019; Bale et al.
+2019) during this interval.
+We remind here that such large-scale Alfvénic structures have been observed in the past (Belcher & Davis 1971) and that their steepening was proposed to explain the formation of sharp discontinuities with magnetic decreases at their edges (e.g., Tsurutani & Ho 1999; Tsurutani et al.
+2002).
+The main switchback signature during the present interval is marked in panel c of Fig.
+1.
+During most of the day, the magnetic field and velocity vectors are strongly anti-correlated, as expected for such a slow Alfvénic wind interval (cf.
+D’Amicis et al.
+2021a).
+The periods of switchbacks, where the radial magnetic field component reverses, are accompanied by increases in the radial velocity component.
+These increases are not as strong as expected, however (from pure Alfvénicity; not shown).
+These may yet be called magnetic switchbacks since the magnetic field radial component does reverse and strahl electrons do not change direction (as discussed next with respect to Fig.
+2).
+The question of the exact definition of switchbacks, however, is not wihtin the scope of the present paper.
+B.
+Lavraud et al.: Magnetic reconnection as a mechanism to produce multiple proton populations and beams Solar Orbiter 16 July 2020 > © 1000 10 5 ke Cc 0 -5 16 Switchback ~ 14 = ; N ion v a 460 W 446 = “ Vr ion 25 | Vt ion 4d 1 1 : Hh F WO re ret A ee ate AES e 1 AWAY fd : v Vn ion Tpara ion > lad mw Ttot i f ot ion Wont cd A dla oe ..
+Ht roniennicneiingernrsnt Tperp ion 00:00 04:00 08:00 12:00 16:00 20:00 00300 Fig.
+1.
+Solar Orbiter ion and magnetic field observations on 16 July 2020: (a) Energy time spectrogram for all ions.
+(b) Magnetic field components and magnitude.
+(c) Ion density.
+(d) Radial ion velocity component.
+(e) Tangential and normal ion velocity components.
+(f) Parallel, perpendicular and total ion temperatures.
+The location of a main magnetic switchback is marked in panel c.
+The reconnection exhausts listed in Table | are marked with green arrows (panels d and e).
+One main feature stands out, however, upon exit of the main switchback, at 18:35:00 and marked by a green arrow in panel d.
+A decrease in the magnetic field, associated with a strong decrease in radial velocity, marks the presence of a reconnection jet at the exit boundary of the switchback, confirming recent observations by Froment et al.
+(2021) (see also Fedorov et al.
+2021).
+Figure 2 focuses on this reconnection event.
+It shows the same observations as in Fig.
+1, here complemented by suprathermal electron pitch angle distributions for energies above 75 eV and several cuts of the ion distribution functions in key regions.
+We note that the electron data (panel g) demonstrate that the directionality of the strahl (the field-aligned population near 0°) does not change across the event as the radial magnetic field changes from sunward to anti-sunward, consistent with the interpretation of the event highlighted in Fig.
+| as a large switchback.
+The reconnection event shows a clear bifurcated current sheet structure embedding a jet with decreased radial speed.
+The spacecraft is thus located sunward of the X-line.
+The exhaust boundaries are marked with vertical dashed black lines, and lasts about 9:30 min.
+It shows an anti-correlation between ion velocity and magnetic field upon entry and a correlation upon exit (cf.
+for this event also D’Amicis et al.
+2021a).
+Clear electron (broader pitch angle distributions) and ion boundary layers (signatures in ion flows, temperatures and distribution functions in particular) are also observed outside the exhaust boundaries, as reported in previous solar wind reconnection studies (Huttunen et al.
+2008; Lavraud et al.
+2009).
+The full extent of the exhaust and its boundary layers is 19 min (cf.
+Table 1), as marked with solid vertical black lines.
+Applying a minimum variance analysis (MVA; e.g., Sonnerup & Cahill 1967) on this event, D’ Amicis et al.
+(2021a) determined a normal to the reconnecting current sheet directed as [—0.49, —0.18, 0.85] in RT'N coordinates.
+Taking a mostly radial bulk solar wind speed of 400kms7! (outside the exhaust), an exhaust duration of 9:30 min, but with a spacecraft trajectory accounting for the normal orientation given above, we find an exhaust width of 111720 km.
+Assuming an opening angle of the reconnection exhaust in the solar wind following a typical Xline aspect ratio of 10, this means the spacecraft is crossing the exhaust about 10°km away from the X-line, athough this type of calculation likely underestimates the distance.
+The total magnetic shear across the exhaust is about 125°.
+The normal magnetic field component is found to be close to zero but generally negative.
+The ratio of the magnetic field along the M and L components, or guide field, is on the order of 0.5.
+D’ Amicis et al.
+(2021a) also performed the Walén test (Hudson 1970; Paschmann et al.
+1979) on this event, which showed very nicely Alfvénic and anti-correlated magnetic field and velocity components upon entry, and correlated upon exit.
+A37, page 3 of 8 A&A 656, A37 (2021) Solar Orbiter 16 July 2020 eon 33 > 8.2 8) 7.1 6.0 Br fk = Bt Bn |B| a = N ion O WY) e Vrion a, wa Vt ion ~ E | ~ Vn ion Tpara ion > Ttot i Wy otion Tperp ion VY) = VU oo = cB) —_ we — — B QO = eS las = 5 18:10 18:15 18:20 18:25 18:50 18:55 18:40 18:45 na _ 18:18:31:240 ; 18:25:39:241 18:33:23:242 18:40:23:492 18:42:59:243 100 100: = 5 os jos = > ; 100.
+Core -100: : : | -200 ns —£ -20:04 - 20:04-—--______- + -200 1 - -200+- a -200 -100 Vperp 100 200 -200 -100 Vperp 100 200 -200 -100 Vperp 100 200 -200 -100 Vperp 100 200 -200 -100 Vperp 100 200 Fig.
+2.
+Solar Orbiter ion and magnetic field observations zoomed on the vicinity of the reconnection event around 18:35 on 16 July 2020 (Event 4 in Table 1).
+(a) Energy time spectrogram for all ions.
+(b) Magnetic field components and magnitude.
+(c) Ion density.
+(d) Radial ion velocity component.
+(e) Tangential and normal ion velocity components.
+(f) Parallel, perpendicular and total ion temperatures.
+(g) Electron pitch angle distribution above 75 eV.
+The reconnection exhaust (based on flows and current sheets) is located in between the vertical dashed lines.
+The extents of the external ion boundary layers are marked with solid vertical black lines.
+In panels h through J, five cuts of the ion distribution functions in the Vpar-Vperp plane are shown.
+Thin arrows show the magnetic field direction, which is always toward the top in such a Vpar-Vperp display.
+Here, Vperp is defined along the convection direction and the distributions are displayed in the plasma bulk flow frame.
+Corresponding times are marked with green arrows in panel f.
+These are characteristic ion distribution functions for each interval shown, as detailed in the text.
+In distribution (h), the locations of the proton core, proton beam, and alpha populations are highlighted for clarity.
+The phase space density is displayed with the same color scale for all distributions.
+We now focus on the details of the ion distribution functions in these various regions.
+Distribution (h), at the bottom of Fig.
+2, corresponds to the slow Alfvénic solar wind ahead and upstream of the exhaust.
+It shows a core proton distribution with the addition of a significant shoulder in the field-aligned direction.
+This type of distributions is often observed in the solar wind and is typically interpreted as the result of the presence of a lower density proton beam aligned with the magnetic field (cf.
+introduction).
+Note that as highlighted in distribution (h), the solar wind alpha particle population is also observed at higher velocities (i.e., energies).
+This is due to the fact that the PAS instrument A37, page 4 of 8 measures particles as a function of energy per charge, so that alphas are measured at higher energies than protons.
+We note that the alpha particle population is also observed in Fig.
+2a, for example as the green population around 1.5 keV at the beginning of the interval.
+In distribution (h), the proton beam is measured sunward of the proton core, which is consistent with the fact that the field lines are folded back towards the Sun at this time, as compared to distribution (1) outside the switchback, where the proton beam is flowing anti-sunward faster than the core distribution (also along the magnetic field).
+This is consistent with a switchback scenario where ions follow the kinks of B.
+Lavraud et al.: Magnetic reconnection as a mechanism to produce multiple proton populations and beams the field lines, as already explained by Neugebauer & Goldstein (2013).
+Note that the ion population at higher velocities in the bottom-right quadrant of distribution (h) corresponds to the solar wind alpha population.
+It is also seen in the top-right quadrants of distributions (j), (k), and (1).
+We do not analyse this population further in the present study.
+Upon entry of the spacecraft into the outer boundary layer (ion separatrix), at the first solid vertical black line, the ion distribution function (i) significantly changes compared to previous times (h).
+A much stronger and faster (relative drift) proton beam, caused by reconnection, is observed flowing away from the exhaust (along the magnetic field direction).
+As the spacecraft enters the exhaust, through the first vertical dashed line, the distribution function drastically changes again.
+Distribution function (j) indeed shows two proton populations of similar intensities (rather than a beam and stronger core), drifting relative to each other along the magnetic field.
+Such wellresolved beams in a solar wind reconnection exhaust had been reported so far only in the seminal paper of Gosling et al.
+(2005), although parallel ion heating likely due to interpenetrating beams produced by reconnection has been observed (e.g., Phan et al.
+2006, 2021; He et al.
+2018; Eastwood et al.
+2018).
+In such a case of two similar populations drifting relative to each other, both populations can be described as thermal.
+As explained by Gosling et al.
+(2005), within the exhaust the separation in velocity space between the two populations is expected to be the sum of the two upstream Alfvén speed (Va, + Vaz) because this is the speed of the kink through which each population is penetrating to form the exhaust.
+For the event of Fig.
+2, the Alfvén speed is on the order of V4; ~ 49km so] before entry and V4, ~ 54kms~! upon exit (outside the thick vertical black lines), yielding an expected separation between the populations along the magnetic field of a bit more than a 100kms~!.
+This is on the order of the separation observed in Fig.
+2], albeit somewhat larger.
+As already noted in Gosling et al.
+(2005), the lower separation is consistent with the electromagnetic ion beam instability which may limit the relative speed to ~1.5V, (Goldstein et al.
+2000), roughly as observed.
+After the spacecraft exits into the second boundary layer (second vertical dashed line), ion measurement display yet more complex structures with increased parallel and perpendicular temperatures (panel 2f).
+The distribution function of Fig.
+2k, representative of that region, shows the presence of possibly more than 2 populations, including a small beam possibly propagating anti-parallel to the magnetic field direction (towards the bottom).
+This is consistent with protons exiting the exhaust and thus propagating anti-parallel to the magnetic field on this side of the reconnection exhaust.
+Although detailed kinetic modeling is left for future work, Fig.
+3 provides a schematic description of the initial proton populations and their observed mixing in the various regions associated with the reconnection event of Fig.
+2.
+The proton distribution functions on each side of the reconnecting current sheet are grossly sketched using circles whose size represent the beam intensity.
+These are colored red and blue, respectively for the left and right upstream regions.
+The upstream populations both show the presence of a core and a beam, with different relative drifts and intensities (cf.
+Figs.
+2h and 1 and their counterparts in Fig.
+3).
+As discussed in the next section, the presence of pre-existing beams in upstream populations is of interest for reconnection dynamics, but is of course not needed a priori for reconnection to occur.
+As the spacecraft crosses into the first boundary layer a fieldaligned population of stronger intensity and larger relative drift appears (Figs.
+21 and 31).
+It is interpreted as a population produced by reconnection and likely originates from the other side of the exhaust.
+This population is thus colored in blue in distribution (i) of Fig.
+3, and it likely overlaps with the pre-existing proton beam population on this side of the exhaust, which is represented by a red circle but is dashed since it is likely hidden by the population produced by reconnection, and not observable.
+In the exhaust itself, Fig.
+2] is made of two main populations of similar intensities, which are interpreted as coming from the mixing of the two main upstream proton core populations.
+In Fig.
+2), a longer tail 1s observed towards higher field-aligned velocities, which is consistent with the remnants of the proton beam from the right-hand side (small blue circle) population while the proton beam from the left-hand side is likely hidden by the other populations and is thus represented by a dashed red circle.
+The distribution function of Fig.
+2k in the boundary layer observed upon exit is more complex, with overall higher temperatures, both parallel and perpendicular to the magnetic field.
+This is interpreted as the superposition of proton core and beam populations from each side as described in distribution k of Fig.
+3.
+A proton beam coming from the other side of the exhaust is expected to propagate this time anti-parallel to the magnetic field (small blue circle towards negative parallel velocities).
+This latter population is somewhat less well resolved.
+This may be due to the effect of wave-particle interactions that are likely at work for such structured distributions.
+Higher angular and energy resolutions would be needed to ascertain the presence of all the populations sketched in Fig.
+3k.
+In addition to this reconnection event, we found six other clear reconnection cases during that day.
+They are listed in Table 1.
+Only the event of Fig.
+2 occurred at the boundary of a switchback.
+When taking both the exhausts and boundary layers (when identified) of all six events, the total duration amounts to 28:20 min, or about 2% of the measurements of this one-day interval.
+This is a minimum estimate because current Sheets at 03:15:20, 05:47:50, 06:06:00, 14:28:15, 22:02:00, and 23:21:10 are ambiguous, with possible reconnection signatures (decreased magnetic field, bifurcated current sheet, ion jets or multiple component proton distributions).
+There are also two clean bifurcated current sheets at 07:01:45 and 07:04:55 UT, which are likely reconnecting, but occurring during a data gap in ion measurements.
+Finally, there might be other current sheets of interest, but too small or too low shear to be properly identified.
+3.
+Discussion The reconnection event in Fig.
+2 constitutes a textbook example of multiple thermal proton populations and beam production by magnetic reconnection locally in the solar wind.
+Yet, this event has special boundary conditions, with pre-existing multiple populations on either side of the exhaust in the upstream regions.
+Had the event been observed in solar wind conditions with no such beams, only the reconnection exhaust and its boundary layers would have featured multiple component populations and beams, as the sole result of reconnection.
+Indeed, the preexistence of such beams in upstream conditions is not needed for reconnection to proceed.
+However, we recall here that a recent work (Alterman 2019) suggests that about 70% of solar wind proton measurements display discernable multiple populations, so that such conditions are likely preponderant in the solar wind.
+The fact that magnetic reconnection may create multiple proton populations is known from some time, from both observations and simulations (e.g., Lottermoser et al.
+1998; Shay et al.
+1998; Hoshino et al.
+1998; Phan et al.
+2007; Drake et al.
+2009; A37, page 5 of 8 A&A 656, A37 (2021) Vper (k) Nip? (i) Per $f = Nioka ! ' Vp a, \ ! \ I \ I ' Exhaust S/C trajectory \ outflow I Nee (h) (1) yet ‘Per Upstream Var inflow Fig.
+3.
+Schematic description of the distribution functions and magnetic reconnection geometry observed in the vicinity of the event analyzed in Fig.
+2.
+The schematic distributions are meant to be in the plasma frame, as for the distribution displayed in Fig.
+2.
+Initial upstream proton populations are colored red and blue.
+Circles are used to represent the populations in phase space, and their diameter is meant to represent the intensity of the population.
+Their mixing in the various regions is illustrated through the use of the same color coding to identify the origin of each population.
+The magnetic field lines are shown with solid black lines (thick ones show the separatrices) and the exhaust boundaries (current sheets) are shown with dashed lines, thus using the same coding as for the vertical lines of Fig.
+2.
+It should be noted that the pre-existence of beams in the upstream regions is not required for reconnection to occur, and that the exact details of the mixing of the various populations given in this figure are simplified as it does not account for kinetic behaviors that would require dedicated analysis (e.g., Cowley 1982).
+See text for further details.
+Aunai et al.
+2011; Eastwood et al.
+2015; Innocenti et al.
+2017).
+For solar wind configurations, complex reconnection exhaust boundaries have been observed and modeled (e.g., Huttunen et al.
+2008; Lavraud et al.
+2009; Innocenti et al.
+2017; Feng et al.
+2017; Enz] et al.
+2017; He et al.
+2018).
+What the observations of Fig.
+2 show is that during a substantial portion of the time, multiple proton populations already exist in the solar wind and can constitute the boundary conditions of magnetic reconnection.
+The high-resolution Solar Orbiter ion measurements nicely highlight that very complex distributions may arise from such conditions in the exhausts and its boundary layers.
+The structure of the distribution functions in each region associated to the reconnection geometry can be explained by the mixing and superposition of the upstream populations, as described in Fig.
+3.
+In the future, more detailed theoretical and simulation works should aim to confirm this scenario, and further constrain the kinetic behavior of protons associated with reconnection in the solar wind in the presence of pre-existing A37, page 6 of 8 multiple populations.
+In particular, determining exactly which parts of the proton populations are able to cross each given boundary, and mix or escape, require a kinetic treatment of the proton properties (e.g., Cowley 1982).
+Solar wind reconnection exhausts are rather ubiquitous in the solar wind, even if they are not omnipresent.
+They are known to have significant extents both along the X-line and along the exhaust, and to be operating at times for hours (Phan et al.
+2006; Gosling et al.
+2007; Lavraud et al.
+2009).
+The jet orientation and proximity to the X-line are two other random factors that influence the time spent by the spacecraft inside the exhaust and its boundary layers (note the large differences in duration in Table 1).
+Also, it remains unknown whether beams produced by reconnection may be observed at large distances in the solar wind without local signatures of reconnection (such as local bifurcated current sheets or ion jets).
+In addition, flux ropes, folded magnetic fields, and switchbacks are all structures that are potentially related to magnetic reconnection in the corona or B.
+Lavraud et al.: Magnetic reconnection as a mechanism to produce multiple proton populations and beams Table 1.
+Confirmed reconnection events on 16 July 2020, with the duration of the interval that includes the exhaust and its boundary layers, and presence or absence of associated multiple populations with Tpara > Tperp in the distribution functions.
+Event Time (hh:mm:ss) Duration(mm:ss) Multiple pop.
+1 06:56:50 01:30 Yes 2 12:36:02 06:00 Likely 3 14:56:30 00:30 Yes 4 18:35:00 19:00 Yes 5 21:56:50 00:20 Yes 6 23:01:30 01:00 Yes solar wind.
+Multiple proton populations in the vicinity of such structures are thus also possibly the result of magnetic reconnection, suggesting the role of this process may not be limited to exhaust regions (bifurcated current sheets) and their separatrices, but could create broader regions of multiple ion populations if such structures are produced closer to the Sun.
+All these facts lead us to the conclusion that reconnection may be a non-negligible process in the production of multiple proton populations in the solar wind, despite the apparent modest 2% contribution found in the present study.
+Future works are needed to determine this possibility more quantitatively.
+Based on multi-spacecraft observations, Gosling (2007) found that current sheets, and thus also reconnection X-lines, in the turbulent, high-speed wind are considerably more localized than in the low speed wind or in interplanetary coronal mass ejections.
+It must be noted that proton beams have been observed in all types of solar wind.
+The solar wind interval studied here, on 16 July 2020, corresponds to a specific type of slow Alfvénic solar wind associated to a pseudostreamer (cf.
+D’Amicis et al.
+2021a).
+This type of wind resembles fast solar wind in various respects (e.g., D’ Amicis et al.
+2019, 2021b; Stansby et al.
+2020).
+By contrast, the regular slow solar wind is known to be formed of various structures, current sheets, and flux ropes likely resulting from reconnection closer to the Sun (e.g., Viall et al.
+2008; Viall & Vourlidas 2015; Kepko et al.
+2016; Sanchez-Diaz et al.
+2019; Lavraud et al.
+2020).
+The slow solar wind has been shown to contain larger amounts of proton beams (e.g., Alterman 2019).
+The proportion of multiple proton populations produced locally by magnetic reconnection might thus be larger in the slow solar wind.
+Early works by Gosling et al.
+(2006a,b) have shown that magnetic reconnection inside |AU (down to 0.3AU with Helios) is somewhat less frequent, while observations beyond 1 AU show that solar wind reconnection at large heliocentric distances occurs about as frequently and with similar characteristics as at 1 AU (apart from some properties related to the higher £).
+The suggestion that magnetic reconnection exhausts in the solar wind closer to the Sun are less frequent remains to be quantified more thoroughly on the basis of PSP data analysis (e.g., Phan et al.
+2020), although we already know it is prevalent at the heliospheric current sheet close to the Sun (Szabo et al.
+2020; Lavraud et al.
+2020; Phan et al.
+2021) and we expect that acceleration and heating properties there may be different given the different plasma regime (e.g., higher Alfvén speeds).
+Therefore, the proton beams regularly observed close to the Sun with PSP (far from the HCS) are most likely unrelated to reconnection occurring locally in the solar wind (e.g., Verniero et al.
+2020), although a reconnection-related process down in the low corona remains one of the proposed mechanisms (e.g., Feldman et al.
+1996).
+It has previously been noted that proton beams in the fast solar wind are generally less resolved as the heliocentric radial distance increases (Marsch et al.
+1982).
+These arguments all suggest that the proportion of multiple proton populations produced by magnetic reconnection locally in the solar wind should increase with distance from the Sun.
+Although not the subject of the present paper, we also finally note that as distance from the Sun increases, proton beams produced at interplanetary and planetary shocks are also expected to populate the solar wind.
+4.
+Conclusions We have analyzed recent high-resolution ion, electron, and magnetic field observations from the Solar Orbiter mission during an interesting interval of slow Alfvénic solar wind on 16 July 2020.
+We focused on the presence of multiple near-thermal proton populations and beams.
+We found that: (1) high-resolution Solar Orbiter observations confirm magnetic reconnection as a ubiquitous process in the solar wind, (2) it produces interpenetrating proton populations of equivalent intensities in the exhaust, as well as (3) lower density beams outside the exhaust along ion separatrix layers, (4) and, therefore, it constitutes a nonnegligible mechanism to produce multiple near-thermal proton populations and beams in the solar wind.
+We find that 2% of the multiple populations observed during the one-day interval under study are related to magnetic reconnection.
+There are reasons to believe that this proportion may be underestimated, and that it should depend on the type of solar wind and distance from the Sun.
+This study suggests that magnetic reconnection is not a dominant process for producing such proton distributions in the solar wind.
+The found proportion may be viewed as small, or large, given that this process has not been considered in the past.
+Future studies shall assess its role more quantitatively, and Solar Orbiter is particularly well equipped for that purpose.
+Three interesting side conclusions of the present study are the confirmation that: (1) magnetic reconnection in the solar wind should often involve upstream conditions that are already made up of multiple particle populations; (2) the multiple proton beam structures follow the magnetic field geometry as it folds back on itself in switchbacks, as first explained by Neugebauer & Goldstein (2013); and (3) magnetic reconnection does occur at the boundaries of at least some switchbacks (Froment et al.
+2021).
+Acknowledgements.
+Solar Orbiter is a space mission of international collaboration between ESA and NASA, operated by ESA.
+We thank all the ESA, NASA and instrument team members who made Solar Orbiter a success.
+We are grateful to the International Space Science Institute (ISSI) for its support of the team “Unravelling solar wind microphysics in the inner heliosphere” dedicated in part to the analysis of Solar Orbiter data.
+Work at LAB and IRAP was supported by CNES and CNRS.
+Solar Orbiter magnetometer operations are funded by the UK Space Agency (grant ST/T001062/1).
+T.S.H.
+and J.P.E.
+are supported by STFC grant ST/S000364/1.
+D.V.
+1s supported by STFC Ernest Rutherford Fellowship ST/P003826/1 and STFC Consolidated Grant ST/S000240/1.
+L.P.
+was supported by the Czech Science Foundation, grant no.
+19-18993S.
+.

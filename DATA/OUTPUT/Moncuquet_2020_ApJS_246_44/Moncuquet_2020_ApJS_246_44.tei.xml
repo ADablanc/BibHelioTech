@@ -1,0 +1,1903 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">First In Situ Measurements of Electron Density and Temperature from Quasi-thermal Noise Spectroscopy with Parker Solar Probe/FIELDS</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2020-02-03">2020 February 3</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author role="corresp">
+							<persName><forename type="first">Michel</forename><surname>Moncuquet</surname></persName>
+							<email>michel.moncuquet@obspm.fr</email>
+							<idno type="ORCID">0000-0002-9621-0365</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Nicole</forename><surname>Meyer-Vernet</surname></persName>
+							<idno type="ORCID">0000-0001-6449-5274</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Karine</forename><surname>Issautier</surname></persName>
+							<idno type="ORCID">0000-0002-2757-101X</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Marc</forename><surname>Pulupa</surname></persName>
+							<idno type="ORCID">0000-0002-1573-7457</idno>
+						</author>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bonnell</surname></persName>
+							<idno type="ORCID">0000-0002-0675-7907</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Stuart</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+							<idno type="ORCID">0000-0002-1989-3596</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Thierry</forename><surname>Dudok De Wit</surname></persName>
+							<idno type="ORCID">0000-0002-4401-0943</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Keith</forename><surname>Goetz</surname></persName>
+							<idno type="ORCID">0000-0003-0420-3633</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Léa</forename><surname>Griton</surname></persName>
+							<idno type="ORCID">0000-0001-8956-2824</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Peter</forename><forename type="middle">R</forename><surname>Harvey</surname></persName>
+							<idno type="ORCID">0000-0002-6938-0166</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Macdowall</surname></persName>
+							<idno type="ORCID">0000-0003-3112-4201</idno>
+						</author>
+						<author>
+							<persName><forename type="first">Milan</forename><surname>Maksimovic</surname></persName>
+							<idno type="ORCID">0000-0001-6172-5062</idno>
+						</author>
+						<author>
+							<persName><forename type="first">David</forename><forename type="middle">M</forename><surname>Malaspina</surname></persName>
+							<idno type="ORCID">0000-0003-1191-1558</idno>
+						</author>
+						<author>
+							<affiliation>
+								<orgName>1 LESIA, Observatoire de Paris, Université PSL, CNRS, Sorbonne Université, Université de Paris, 5 place Jules Janssen, </orgName>
+								<address><addrLine>F-92195 Meudon, France Berkeley, CA 94720-7450, USA Berkeley, CA 94720-7300, USA London, SW7 2AZ, UK London E1 4NS, UK Orléans, France Minneapolis, MN 55455, USA Toulouse, France Greenbelt, MD 20771, USA Boulder, CO 80303, USA</addrLine></address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 2 Space Sciences Laboratory, University of California, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 3 Physics Department, University of California, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 4 The Blackett Laboratory, Imperial College London, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 5 School of Physics and Astronomy, Queen Mary University of London, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 6 LPC2E, CNRS and University of Orléans, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 7 School of Physics and Astronomy, University of Minnesota, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 8 IRAP, Université Toulouse III-Paul Sabatier, CNRS, CNES, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 9 Solar System Exploration Division, NASA/Goddard Space Flight Center, </orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation>
+								<orgName> 10 Laboratory for Atmospheric and Space Physics, University of Colorado,</orgName>
+							</affiliation>
+						</author>
+						<title level="a" type="main">First In Situ Measurements of Electron Density and Temperature from Quasi-thermal Noise Spectroscopy with Parker Solar Probe/FIELDS</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2020-02-03">2020 February 3</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">16BB2EC888A977A477D84F3F5D2FB784</idno>
+					<idno type="DOI">10.3847/1538-4365/ab5a84</idno>
+					<note type="submission">Received 2019 September 19; revised 2019 November 8; accepted 2019 November 20;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T15:10+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Heat transport in the solar corona and wind is still a major unsolved astrophysical problem. Because of the key role played by electrons, the electron density and temperature(s) are important prerequisites for understanding these plasmas. We present such in situ measurements along the two first solar encounters of the Parker Solar Probe, between 0.5 and 0.17 au from the Sun, revealing different states of the emerging solar wind near the solar activity minimum. These preliminary results are obtained from a simplified analysis of the plasma quasi-thermal noise (QTN) spectrum measured by the Radio Frequency Spectrometer (FIELDS). The local electron density is deduced from the tracking of the plasma line, which enables accurate measurements, independent of calibrations and spacecraft perturbations, whereas the temperatures of the thermal and suprathermal components of the velocity distribution, as well as the average kinetic temperature, are deduced from the shape of the plasma line. The temperature of the weakly collisional thermal population, similar for both encounters, decreases with the distance as R −0.74 , which is much slower than adiabatic. In contrast, the temperature of the nearly collisionless suprathermal population exhibits a virtually flat radial variation. The 7 s resolution of the density measurements enables us to deduce the low-frequency spectrum of compressive fluctuations around perihelion, varying as f −1.4 . This is the first time that QTN spectroscopy is implemented with an electric antenna length not exceeding the plasma Debye length. As PSP will approach the Sun, the decrease in the Debye length is expected to considerably improve the accuracy of the temperature measurements.</p><p>Unified Astronomy Thesaurus concepts: Solar wind (1534); Space probes (1545); Plasma astrophysics (1261); Space plasmas (1544); Radio spectroscopy (1359); Space vehicle instruments (1548)</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>The Parker Solar Probe (PSP) spacecraft <ref type="bibr" target="#b19">(Fox et al. 2016)</ref>, launched on 2018 August 12, is orbiting the Sun on highly elliptical trajectories of perihelion gradually decreasing from 35.7 solar radii (R ☉ ) to the closest approach of 9.86 R ☉ from the center of the Sun, via Venus gravity assists. The present paper deals with the two first encounters that took place in 2018 October-November (E01) and 2019 March-April (E02), close to the heliographic equator, with perihelions of 0.17 au (35.7 R ☉ ), therefore largely extending inward the Helios exploration. The trajectory crossed several times the heliospheric current sheet, thus revealing different types of wind and dynamic structures <ref type="bibr" target="#b12">(Bale et al. 2019)</ref>. During the so-called encounter phases of the trajectory, inward of 0.25 au (54 R ☉ ), all instruments record data at a high rate (7 s cadence). In order to increase the radial extension of the results, we have also analyzed data farther away from the Sun, up to about 100 R ☉ (0.46 au), despite the reduced rate (56 s cadence).</p><p>Our results are based on power spectra acquired by the lowfrequency receiver (LFR) of the Radio Frequency Spectrometer (RFS), which is a part of the FIELDS instrument suite on PSP <ref type="bibr" target="#b13">(Bale et al. 2016)</ref>. The RFS instrument <ref type="bibr" target="#b65">(Pulupa et al. 2017</ref>) is a two-channel receiver and spectrometer, at the terminals of four 2 m monopole electric antennas mounted near the front of the spacecraft close to the extremities of the heat shield diagonals, so that the two corresponding linear dipoles are 7 m tip-to-tip in length and are perpendicular to the axis of the spacecraft. The present preliminary results are based on data from only one dipole (V 1 -V 2 ). The LFR (10.5 kHz-1.7 MHz) spectra are analyzed with the technique of quasi-thermal noise (QTN) spectroscopy, which yields the electron density and the temperatures of the thermal (core) and suprathermal components of the velocity distribution, as well as the total kinetic temperature (e.g., <ref type="bibr">Meyer-Vernet et al. 2017 and references therein)</ref>.</p><p>The radial temperature profiles have never been measured in situ inward of 0.3 au. Helios I and II-from 0.3 to 1 au-and Ulysses -from about 1 to 4 au-found approximate power-law decreases with the distance of indices typically between −0.3 and −0.9 for the thermal core, with a flatter gradient for fast streams <ref type="bibr" target="#b76">(Sittler &amp; Scudder 1980;</ref><ref type="bibr" target="#b63">Pilipp et al. 1990;</ref><ref type="bibr" target="#b60">Phillips et al. 1995a;</ref><ref type="bibr" target="#b24">Issautier et al. 1998</ref><ref type="bibr" target="#b25">Issautier et al. , 1999a;;</ref><ref type="bibr" target="#b38">Maksimovic et al. 2000)</ref>. The suprathermal part, which includes a beaming component aligned to the magnetic field (also known as Strahl), was previously found to represent 4%-10% of the distribution <ref type="bibr" target="#b42">(McComas et al. 1992;</ref><ref type="bibr" target="#b77">Štverák et al. 2009)</ref> and was found to have a temperature decreasing weakly with the distance <ref type="bibr" target="#b61">(Phillips et al. 1995b;</ref><ref type="bibr" target="#b62">Pierrard et al. 2016)</ref>.</p><p>Despite decades of study, the turbulence in the solar wind is still not fully understood, especially the role of compressive fluctuations in the transport of energy in a weakly collisional plasma. A question of considerable importance is the relationship between the small-scale structure associated with density fluctuations and large-scale plasma properties <ref type="bibr" target="#b11">(Alexandrova et al. 2013;</ref><ref type="bibr" target="#b33">Lacombe et al. 2014;</ref><ref type="bibr" target="#b36">Lion et al. 2016)</ref>. The accurate electron density samples obtained from QTN on PSP at perihelion enable us to study these compressive fluctuations much closer to the Sun than previously possible <ref type="bibr" target="#b14">(Celnikier et al. 1983;</ref><ref type="bibr" target="#b41">Marsch &amp; Tu 1990;</ref><ref type="bibr" target="#b67">Šafránková et al. 2015)</ref>.</p><p>This paper is organized as follow. Section 2 recalls the main properties of QTN under PSP conditions and gives complete radio spectrograms for both solar encounters. Section 3 presents the methods to deduce the electron density and temperatures with some analytical approximations. Section 4 shows the radial variations of the electron thermal and suprathermal temperatures during the two first extended encounters and discusses the results and produces statistics. Section 5 uses the electron density data sets around 35.7 R ☉ to deduce the low-frequency spectrum of compressive fluctuations. Final remarks as conclusions are given in Section 6.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">QTN Spectroscopy</head><p>Plasma particle properties in space are classically measured in situ by particle analyzers, pioneered in the solar wind by the "solar plasma experiment" on board Mariner 2 that provided (more than half a century ago; <ref type="bibr" target="#b56">Neugebauer &amp; Snyder 1962;</ref><ref type="bibr" target="#b54">Neugebauer 1997</ref>) the ultimate proof that this supersonic wind was more than a mere theoretician's dream <ref type="bibr" target="#b57">(Parker 1958</ref><ref type="bibr" target="#b58">(Parker , 2001))</ref>.</p><p>In contrast, the technique of QTN spectroscopy measures particles via electrostatic fields, exploiting the strong coupling between plasma particles and fields <ref type="bibr" target="#b75">(Sitenko 1967)</ref>. Introduced on board the International Sun-Earth Explorer-3 <ref type="bibr" target="#b43">(Meyer-Vernet 1979)</ref> and pioneered to measure the cold <ref type="bibr" target="#b44">(Meyer-Vernet et al. 1986a</ref>) and hot <ref type="bibr" target="#b45">(Meyer-Vernet et al. 1986b</ref>) electrons in the tail of a comet, this technique uses the power spectrum of the voltage induced on an electric antenna by the particle quasithermal motions, measured by a radio receiver connected to an electric antenna. The signature of the electrons is a line at the electron plasma frequency, f p , which reveals the total electron density, µ n f p 2 , whereas the shape of the line reveals the electron kinetic temperature, as well as its thermal (core) and suprathermal components <ref type="bibr">(Meyer-Vernet et al. 2017 and references therein)</ref>.</p><p>The f p plasma line is produced by Langmuir waves induced by the particle quasi-thermal motions. Since the Langmuir wavelength, λ L , exceeds the ambient Debye length, L D , the detection requires an electric antenna of a length exceeding L D . However, electrons interact with waves of a phase speed equal to their proper speed, and since l  ¥ L as the frequency  f f p , so does the Langmuir wave phase speed. Hence, suprathermal electrons can increase considerably the spectral density at f p , producing a peak of amplitude characteristic of them <ref type="bibr" target="#b50">(Meyer-Vernet &amp; Perche 1989)</ref>. On the other hand, the electrons passing by the antenna closer than L D induce transient voltages of duration 1/f p , which thus produce a flat spectrum for f&lt;f p , characteristic of the thermal core of the electron velocity distribution. Furthermore, the high-frequency spectrum is proportional to the total electron pressure.</p><p>Because l  ¥ L as  f f p , the technique is equivalent to a detector of a large cross section-much larger than that of conventional spaceborne detectors-and it is relatively immune to spacecraft perturbations, photoelectrons, and charging effects <ref type="bibr">(Meyer-Vernet et al. 1998)</ref>. For these reasons, QTN spectroscopy is complementary to particle analyzers, serving routinely to calibrate them (e.g., <ref type="bibr" target="#b39">Maksimovic et al. 1995;</ref><ref type="bibr" target="#b28">Issautier et al. 2001;</ref><ref type="bibr" target="#b68">Salem et al. 2001)</ref>, and has been and will be implemented on a number of spacecraft in various environments (see, e.g., <ref type="bibr" target="#b53">Moncuquet et al. 2009)</ref>.</p><p>These properties are especially suitable on PSP because near the Sun, the 2 m electric antennas will be adequately longer than L D , whereas the expected complex environment of the spacecraft <ref type="bibr" target="#b17">(Ergun et al. 2010)</ref> will require a technique immune to spacecraft perturbations in order to measure the genuine plasma particle properties. However, the perihelion of the first PSP orbits, lying outward of 35R ☉ , is not close enough to the Sun for the Debye length to be smaller than the antenna length, which was unfortunately restricted by spacecraft safety considerations. Nevertheless, the suprathermal electrons, of a speed close to the phase speed of Langmuir waves near f p , enables the plasma line to emerge (Figure <ref type="figure" target="#fig_0">1</ref>).</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Deducing the Electron Density and Temperatures</head><p>The electron density and temperatures are usually obtained from the QTN technique by assuming a model for the velocity distribution, calculating the theoretical QTN power spectral density, and deducing the parameters of the model by fitting the theory to the observations (e.g., <ref type="bibr" target="#b24">Issautier et al. 1998)</ref>. However, for the present preliminary results, we used a simpler method, based on simplified estimates of the relevant parts of the spectrum, similar to the method used on Cassini in Saturn's magnetosphere <ref type="bibr" target="#b51">(Moncuquet et al. 2005;</ref><ref type="bibr" target="#b70">Schippers et al. 2013</ref>); albeit at Saturn, the Debye length was short compared to the antenna length, whereas the opposite is true for these two first encounters (see Figure <ref type="figure" target="#fig_1">2</ref>). Instead of using the whole spectra in the LFR-RFS frequency range with the model fitting, we determine the electron density from the frequency of the detected peak and the temperatures of thermal and suprathermal components of the electron distribution from the power level reached at the peak and the minimum level below the peak.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1.">Electron Density</head><p>First of all, the local electron density is deduced from the tracking of the plasma line at f p (see an example in Figure <ref type="figure" target="#fig_7">7</ref>), with elimination of questionable measurements . Miscellaneous algorithms may be used for tracking the plasma line from the raw power spectrum at the inputs of the receiver, without any calibration, and a software to do so is implemented in RFS/ FIELDS <ref type="bibr" target="#b65">(Pulupa et al. 2017</ref>). In the present study, we use instead the algorithm developed for the Spectroscopie Ondes &amp; Bruit Electrostatique Thermique radio receiver <ref type="bibr" target="#b52">(Moncuquet et al. 2006;</ref><ref type="bibr" target="#b29">Kasaba et al. 2019</ref>) on the BepiColombo mission (European Space Agency &amp; Japan Aerospace eXploration Agency (ESA-JAXA)), which is mainly based on detecting the steepest growth rate in each raw spectrum. This algorithm (somewhat improved for LFR-RSF) is efficient; for example, during the high-rate data period in the first encounter (E01), the peak is detected in 95% of the available spectra (∼130,000 spectra). The main improvement of the algorithm was to withdraw the false positives (for example, with type III bursts or strong interferences). We used the fact that a supposedly high f p must provide a relative high peak level if it is bona-fide QTN (since the peak behaves roughly as f p , see Equation (2) below); otherwise, the detection is withdrawn. This represents about 2% of the initial selection (3% for the second encounter, likely because of the numerous type III bursts and the dilute wind around perihelion).</p><p>The deduced electron density is plotted (black dots) on Figure <ref type="figure" target="#fig_1">2</ref>. Because they stem from a detection algorithm (instead of a model fitting), these results are stepped since LFR-RFS uses only 64 pseudo-logarithmically spaced frequencies in the range of 10 kHz-1.7 MHz. As a consequence, the lowest densities (say &lt; 100 cm −3 ) are more stepped than the higher ones, with larger error bars.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2.">Electron Temperatures</head><p>1. The temperature, T c , of the thermal component of the velocity distribution, assumed to be Maxwellian, is then deduced from the voltage spectral density just below f p , hereafter noted as V min 2 (see Figure <ref type="figure" target="#fig_7">7</ref>). This quantity is essentially the plateau QTN spectrum, hereafter noted as V 0 2 , and is produced by electrons passing around the antennas closer than L D on which the effect of the separation of the antenna arms is discussed in the Appendix A. To calculate V 0 2 at the receiver inputs, one must take into account the antenna gain calculated from the load/stray capacitance and the impedance of the antenna modified by the plasma. The QTN plateau is then given as a function of the core temperature, T c , and the Debye length, L D , by (from</p><formula xml:id="formula_0">Moncuquet et al. 2005) ( ) ( ) [ ] ( ) ò p e » + + ¥ V m k T C C F kL kL k L dk 8 2 1 1 1 e B c B A D D 0 2 3 2 0 2 0 2 2 2 2 in S.I. units, V 0 2 being in V Hz 2 .</formula><p>Here, F(kL) is the PSP wire antenna response (detailed in Appendix A), with L as the single wire length (L;2 m);</p><formula xml:id="formula_1">( ) pe = C L L a ln A D 0</formula><p>is an approximation of the dipole antenna capacitance at low frequencies, with a as the wire radius (a;1.5 mm); and C B is the (dipole) stray capacitance (∼18 pF). Two (generally minor) contributions must be added to this plateau QTN: the shot noise, V shot 2 , produced by the currents flowing between the antennas and the plasma, possibly mitigated/enhanced by the antenna biasing, and the Doppler-shifted protons, QTN V p 2 . Finally, we use an iterative method to solve the implicit Equation (1) and deduce T c from the observable V min 2 , taking into account at each step some approximations of V shot 2 and V p 2 (see Appendix B).</p><p>The deduced core temperature, T c , during the first (top) and second (bottom) extended solar encounters is plotted in blue in Figure <ref type="figure" target="#fig_1">2</ref>. The vertical dashed lines indicate the beginning and end of the high-rate data (7 s). The vertical dotted lines indicate a period when the data are perturbed by biasing or a change in modes; this is unfortunate because this day is one of the rare periods of high wind speed in E01, therefore preventing us from measuring the thermal electron properties in high speed wind. 2. The temperature of the suprathermal component of the velocity distribution is obtained using the ratio V V max 2 min 2 between the peak level and the level V min 2 (see Figure <ref type="figure" target="#fig_7">7</ref>), and is, therefore, independent of calibration or biasing that affect the two levels in the same way. Statistically, this ratio is well centered with regular variance. Modeling the suprathermal electrons by a Kappa distribution (which includes the Maxwellian case k  ¥), the peak level may be estimated using Equations (59)-(60) from <ref type="bibr" target="#b48">Meyer-Vernet et al. (2017;</ref><ref type="bibr"></ref> with range of validity therein, including the case L D &gt; L). We deduce the following estimate for the temperature T h of the suprathermal electrons:</p><formula xml:id="formula_2">( ) ( ) ( ) k k p » - D V V F A L L F L L f f T T T 3 2 12 , 2 D D p h c max 2 min 2 0</formula><p>where Δf is the frequency resolution of the instrument at the plasma frequency, f p ; T is the electron kinetic temperature,  D A T T f f 2 3 c p ; and F 0 is the value of the integral in Equation (1) (also detailed in Appendix A).</p><p>Given the uncertainties on the whole electron velocity distribution and the approximations made in our QTN modeling, which presently does not take into account the anisotropy of the Strahl, we will only exploit the centered estimator V V max 2 min 2 obtained from the data,  without trying to match a value of kappa. In other words, we deduce a proxy T h of the temperature of the suprathermal component of the distribution assuming merely µ T V V h max 2 min 2 and using Equation (2) to dimensionate, with κ=5. These temperatures are plotted in gold at the bottom of Figure <ref type="figure" target="#fig_1">2</ref> for the first (top) and second (bottom) extended solar encounters. Note that the results for different values of kappa can be deduced from Equation (2); for example, with Maxwellians, T h would be 30% smaller. 3. The electron kinetic temperature, T, is deduced from the high-frequency part of the spectrum. For antennas long enough with respect to L D , the high-frequency QTN varies as f −3 and is directly proportional to the kinetic temperature and is independent of the separation between the antenna arms (Meyer-Vernet &amp; Perche 1989) ; a result independent of the velocity distribution provided it is isotropic <ref type="bibr" target="#b15">(Chateau &amp; Meyer-Vernet 1991)</ref>. However, for the first and second PSP orbits, the Debye length is not small enough, so the kinetic temperature can be estimated from fitting the high-frequency part of the spectrum, after subtraction of the galactic noise and the receiver noise <ref type="bibr">(Maksimovic et al. 2019)</ref>. Note that, contrary to the determination of T c , such a simplified method cannot be implemented in the presence of electromagnetic emissions, which were frequent during encounter E02 <ref type="bibr" target="#b64">(Pulupa et al. 2020)</ref>; it is also much less accurate than if obtained by fitting the whole spectrum, since at high frequencies, the QTN is of the same order of magnitude as the receiver noise and the galactic noise.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Large-scale Variations</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Radial Profiles of Electron Temperatures</head><p>Figure <ref type="figure" target="#fig_3">3</ref> shows the thermal (core, in blue) and suprathermal (in gold) electron temperatures as a function of heliocentric distance R in units of solar radius R ☉ , with the fitted power laws (in red) given by for the first and second extended encounters, respectively. Note that these results are obtained using robust straight-line fits, i.e., minimizing the mean absolute deviation. From its value, we estimate an error on the logarithmic slopes of the profiles of about ±0.03.</p><p>Both extended encounters have similar temperature profiles despite the differences in densities. The thermal temperature is about 3.5×10 5 K at 36 R ☉ (0.17 au) and 2.3×10 5 K at 64 R ☉ (0.3 au). The latter value and the radial profile are similar to those found by Helios <ref type="bibr" target="#b63">(Pilipp et al. 1990;</ref><ref type="bibr" target="#b40">Maksimovic et al. 2005)</ref>, despite the general decrease in solar activity until the Helios epoch and the expected overall decrease in coronal temperature <ref type="bibr" target="#b71">(Schwadron et al. 2014)</ref>. In contrast, the radial profile of the suprathermal electron temperature is nearly flat. The flatness of T h agrees with the Helios results inward of 1 au <ref type="bibr" target="#b40">(Maksimovic et al. 2005;</ref><ref type="bibr" target="#b62">Pierrard et al. 2016</ref>), but the absolute values are somewhat higher (1.6 million degrees at 64 R ☉ (0.3 au)). This might be due to the crudeness of our T h measurements (see Section 3), for which the logarithmic slope of the T h profile is more accurate than the absolute values. However, extrapolating to 1.5 R ☉ yields a temperature of (1.7-2.1)×10 6 K, which is in the range of electron temperatures measured in the quiet corona <ref type="bibr" target="#b16">(David et al. 1998)</ref> and in streamers at the solar activity minimum <ref type="bibr" target="#b32">(Kohl et al. 1997;</ref><ref type="bibr" target="#b20">Gibson et al. 1999)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Discussion</head><p>With the density and core temperature measured at 0.17 au, the mean free path of thermal electrons is of the same order of magnitude of the pressure scale height, i.e., their Knudsen number is of order of magnitude unity. Under such weakly collisional conditions, the heat flux is not given by the Spitzer-Härm value, whose validity requires a much smaller Knudsen number <ref type="bibr" target="#b73">(Scudder &amp; Olbert 1979;</ref><ref type="bibr" target="#b74">Shoub 1983</ref>), but collisions are not negligible, requiring numerical kinetic simulations. Such simulations, taking into account Coulomb collisions, spherical expansion with a radial magnetic field, and the electrostatic field produced by the electron-proton mass difference being computed self-consistently, yield a thermal electron temperature that decreases with the distance with a logarithmic slope in the range of 0.6-0.9 and an antisunward drifting suprathermal component, which tends to have an isothermal profile <ref type="bibr" target="#b34">(Landi et al. 2012)</ref>.</p><p>This nearly isothermal behavior of suprathermal electrons, with a nearly constant relative density of a few times ( ) m m e p 1 2 (m e and m p being the electron and proton masses) were predicted by Meyer-Vernet &amp; Issautier (1998) using an analytical approximation of an exospheric solar wind model <ref type="bibr" target="#b35">(Lemaire &amp; Scherer 1971)</ref> with a radial magnetic field. The constant kinetic temperature of suprathermal electrons is a simple consequence of conservation of energy and magnetic momentum for electrons escaping from the solar electrostatic potential and is consistent with an adiabatic anisotropic fluid behavior, whereas the value of the relative density comes from the equality of electron and proton densities and escaping fluxes. The suitability of exospheric models for suprathermal electrons is due to the increase in the Coulomb free path as the square of the energy, making them collisionless. This assumes that if instabilities <ref type="bibr" target="#b40">(Marsch 2006</ref>) and scattering by turbulent fluctuations at electronic scales change the velocity directions, they also negligibly change the kinetic energy per particle of this component of the distribution. However, as expected, this agreement does not hold for the collisional thermal electrons, for which exospheric theory predicts an adiabatic radial variation with a logarithmic slope of −4/3, as a consequence of their trapping by the solar electrostatic potential <ref type="bibr" target="#b49">(Meyer-Vernet et al. 2003)</ref>. The weaker observed slope is presumably due to the heat flux carried by the suprathermal electrons, which decreases radially faster than R −2 <ref type="bibr" target="#b72">(Scime et al. 2001)</ref>, implying heat deposition in the plasma. A more detailed comparison should take into account that our measurements of T c and T h concern the temperatures of the two untruncated components of the velocity distribution, whereas the exospheric distinction between populations involves truncations in velocity space.</p><p>Finally, from the relation</p><formula xml:id="formula_3">( ) = + T T n n T c h</formula><p>h , where T is the electron kinetic temperature; T c and T h are those of the thermal (core) and suprathermal component of the distribution, respectively; and n n h is the relative density of the suprathermals, assumed to be about 10% from Helios measurements <ref type="bibr">(Štverák et al. 2009</ref>). We obtain T;5× 10 5 K at 0.17 au, which is in agreement with the highfrequency QTN <ref type="bibr" target="#b37">(Maksimovic et al. 2020)</ref>.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Statistics of the Electron Density and Core Temperature during E01 and E02</head><p>Most of the large-scale differences in density between E01 and E02 that are apparent in Figure <ref type="figure" target="#fig_1">2</ref> do not seem to have counterparts in the electron thermal temperatures. To examine this point, below we use our large data set to study the different regimes encountered.</p><p>The top panels of Figure <ref type="figure" target="#fig_4">4</ref> represent the histograms of the electron density (∼115,000 data points) and the core electron temperature (∼112,500 data points) during the first encounter E01, i.e., 2018 October 31 to November 11, with a 7 s resolution (solid line histograms). We normalize each histogram to 0.17 au, using an R −2 density dependence and the R −0.74 power law determined in Section 4 for T c . During the approach to E01, PSP showed a complex solar wind structure with different regimes, i.e., slow and intermediate wind from streamers and flow interactions, in addition to sporadic faster flows from small equatorial coronal holes, which are typical of equatorial regions <ref type="bibr" target="#b59">(Phillips et al. 1995c;</ref><ref type="bibr" target="#b24">Issautier et al. 1998</ref><ref type="bibr" target="#b27">Issautier et al. , 2005;;</ref><ref type="bibr" target="#b55">Neugebauer 2001</ref>). For E01, the electron density histogram exhibits two main kinds of populations: a dilute electron population (with a mean value ;130 cm −3 at 35.7 R ☉ ) and a dense electron population (with a mean value ;330 cm −3 ). We superimpose a gray dotted-dashed histogram obtained during E01, from 2018 November 3-6; we do see that this period mainly contains a denser wind population with a mean value of ∼370 cm −3 . The red dotted-dashed histogram is obtained midday on 2018 November 9-11, where a faster solar wind is measured <ref type="bibr" target="#b31">(Kasper et al. 2019)</ref>. We can thus attribute the most dilute electron distribution to the fastest wind, which is in agreement with the well-known anticorrelation between the solar wind density and speed <ref type="bibr" target="#b55">(Neugebauer 2001)</ref>. In contrast, the shape of the core electron temperature histogram shows mainly one single population for E01. It has a mean value of 26 eV, whereas the gray dotted-dashed core temperature has a mean around 29 eV. Contrary to the electron density, the core temperature is more difficult to associate to specific structures. In particular, many interplanetary events from denser populations could be correlated with the same kind of temperature distributions <ref type="bibr" target="#b69">(Salem et al. 2003)</ref>.</p><p>We have also plotted the distributions of the scaled electron density (∼120,000 data points) and core temperature (∼105,000 data points) at 0.17 au for E02 in the bottom panels of Figure <ref type="figure" target="#fig_4">4</ref>. We normalize each histogram to 0.17 au as we did for E01. The density populations are likely to be associated with three major classes of solar wind: the quiet undisturbed wind with lower mean values of density ;120 cm −3 , which dominates for E02; the denser heliospheric plasma sheet with intermediate values of density (;290 cm −3 ); and the overdense disturbed wind with interplanetary shocks, density compressions regions, etc., with higher mean values of density (;400 cm −3 ). Note that these mean values correspond to those obtained at 1 au, but shifted to 35.7 R ☉ . The gray dotted-dashed histogram is obtained from 2019 April 3-6, where the density is 50% smaller than the one obtained during E01, i.e., ;160 cm −3 . The corresponding core temperature has a mean value around 31.5 eV. We can conclude that for this period, the dilute density is correlated to the highest core electron temperature. Future works will need a detailed study on the largescale structure of the wind, using in particular the wind speed data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Low-frequency Compressive Turbulence in the Pristine Solar Wind</head><p>The 7 s resolution of the density measurements obtained by the QTN analysis on PSP enables us to deduce the spectrum of compressive fluctuations at ∼36 R ☉ , during the two first encounters. To analyze the electron density fluctuations, we use the Morlet wavelet transforms, which are convenient for unfolding turbulence signals into both space (or time) and scale <ref type="bibr" target="#b18">(Farge 1992)</ref>. Figure <ref type="figure" target="#fig_5">5</ref> shows the spectrum of the electron density fluctuations, normalized to the corresponding mean density value, for each perihelion where the radial distance is almost constant, close to 0.17 au. Spectra vary as an f −1.4 power law (blue solid line) in the 10 −4 -10 −2 Hz frequency range, which is in agreement with some previous analyses in this frequency range at 1 au <ref type="bibr" target="#b22">(Intriligator 1975;</ref><ref type="bibr" target="#b23">Issautier et al. 2010;</ref><ref type="bibr" target="#b66">Roberts et al. 2017)</ref>. For E01, from 2018 November 3-6, the density measurements (see Figures <ref type="figure" target="#fig_4">2 and 4</ref>) of . Histograms of the electron density (left) and the core (thermal) electron temperature (right) for both encounters. For E01 in the top panels, we superimpose a dilute wind period (November 9-10) as a red dotted-dashed line and a period of dense wind (gray distribution) around the first perihelion (November 3-6). For E02 in the bottom panels, we overplot a dotted-dashed gray line as the histogram of density and temperature measured around the second perihelion (2019 April 3-6).</p><p>the mean value at ;370 cm −3 suggest a low speed wind stream <ref type="bibr" target="#b31">(Kasper et al. 2019)</ref>. In contrast, for E02, from 2019 April 4-6, the plasma is more dilute with a mean density of ;160 cm −3 (see Section 4.3). Although PSP explores different types of wind in E01 and E02, the corresponding amplitude of the normalized power spectrum of the electron density is similar, around 1 at 10 −3 Hz. However, at higher frequencies, i.e., above 2 at 10 −3 Hz, the amplitude of the spectrum is twice as high for E02 than for E01. We have checked that the enhancement of this part of the spectrum corresponds to the electron density structure of 2019 April 5 (see Figure <ref type="figure" target="#fig_1">2</ref>), coming from the fastest solar wind stream, with Alfvénic turbulent fluctuations <ref type="bibr" target="#b31">(Kasper et al. 2019</ref>). Hence, this dilute solar wind has a higher level of turbulence fluctuations.</p><p>A detailed study of the 3D structure of the turbulence needs, in particular, to correlate the density spectrum with macroscopic plasma parameters; radial distances; values of the plasma, β; and local magnetic field switch back fluctuations, which are outside the scope of this paper. As it approaches closer to the Sun, PSP will give new crucial clues.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Concluding Remarks</head><p>For these preliminary results on far solar encounters, QTN spectroscopy has been implemented in a simplified way, mainly due to the small antenna length, whereas the suprathermal electrons have been considered globally, neglecting their anisotropy. These simplifications did not affect the accuracy of the density measurements; concerning the temperatures, the present preliminary determinations of the radial profiles are expected to be more robust than the absolute values.</p><p>For both studied encounters, the radial profile of the temperature, T c , of the thermal component varies as R −0.74 with similar values at equal distances. These values are in the range of Helios measurements. The temperature T h of the suprathermal component has a very weak radial variation, as expected from its virtually collisionless state, with extrapolated values at the corona compatible with previous coronal measurements close to the solar equator. As a by-product, the accurate determination of the electron density by the QTN enables us to deduce the lowfrequency spectrum of compressive fluctuations around perihelion, varying as f −1.4 . Future works will require a detailed study of the structure of the wind, using the parameters available, especially the magnetic field and the velocity. In particular, we intend to study the electron density and temperature(s) behavior during the magnetic field reversals and jumps in speed <ref type="bibr" target="#b12">(Bale et al. 2019)</ref> and to explore the relation between density and core temperature with radial distances. We will also exploit the measured electron temperature gradient to study the interplanetary potential and the heat transport.</p><p>Note that the present results have been obtained independently of those from the onboard electron analyzer of the Solar Wind Electrons Alphas and Protons instrument suite <ref type="bibr" target="#b30">(Kasper et al. 2016;</ref><ref type="bibr" target="#b21">Halekas et al. 2020)</ref>. Comparisons between the latter results and those from QTN spectroscopy should benefit to both techniques. Concerning QTN spectroscopy, we intend to model the suprathermal electrons by taking into account the anisotropy of the Strahl component and to implement the technique via fitting the whole QTN spectrum, when PSP will be close enough to the Sun for the Debye length to be smaller than the antenna length. </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A Antenna Arms Separation</head><p>The response F(kL) of a dipole made of two collinear wires of length L with a gap of length s between the wires reads as (from Equation (32) by Meyer-Vernet &amp; Perche 1989)</p><formula xml:id="formula_4">( ) ( ) ( ) { ( ) ( ( )) ( ) ( ) ( ( ) ) ( ) ( ( ) ) ( )} = + + + - + + - - + 5 F kL J ka k L k L s k L s kL kL k L s k L s ks ks k L s kL 2 Si Si 2 Si 2 2 Si 4 sin 2 sin 2 0 2 2 2 2 2</formula><p>(Si denotes the sine integral function and J 0 denotes the Bessel function of the order of 0). In particular, from the asymptotic values of F(kL), an equivalent dipole wire length may be defined as (L+s) for  kL 0 and L for  ¥ kL . The QTN plateau level V 0 2 given in Equation (1) depends on the response F(kL), including the separation, s, via the integral over wavenumbers, k, noted as F 0 given by</p><formula xml:id="formula_5">( ) [ ] ( ) ò = + ¥ F F kL kL k L dk 1 . 6 D D 0 0 2 2 2 2</formula><p>Hence, the effect on the QTN plateau level may be calculated as a function of the dimensionless ratios L L D and s/L at each step of the algorithm used to derive the thermal electron temperature. When using the asymptotic values of F(kL) sketched above, note that the effect of the wire separation on the QTN plateau level is equivalent to that produced by a wire length of (L+s) for L D ?L, whereas for L D =L (which may happen closer to the Sun), the separation effect will be negligible. The function F 0 is shown in Figure <ref type="figure" target="#fig_6">6</ref> as a function of L L D for different values of the separation in the range of [0-3]m.</p><p>On PSP, the physical separation between the antenna wires V1 and V2 is ∼3 m but is alleviated by the presence of the spacecraft, so that the effective separation is much smaller. By fitting s in the range of [0-3]m with the algorithm used to solve the implicit Equation (1), we have empirically determined s∼1.5 m, so that, for large L D and for frequencies below f p , V1-V2 behaves as a dipole of 2×3.5 m.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix B</head><p>The Simplified QTN Method and Other Noises Figure <ref type="figure" target="#fig_7">7</ref> shows an example of implementation of the simplified QTN method (without fitting) to obtain the preliminary results reported in the present paper, based on the plasma peak, f p , and the minimum, V min 2 , and maximum, V max 2 , noise levels.</p><p>Dealing with shot and proton noises-As indicated in Section 3.2, the observed QTN minimum below f p reads as</p><formula xml:id="formula_6">= + + V V V V p min 2 0 2 shot 2 2</formula><p>, where the main contribution is the QTN plateau, V 0 2 , given by Equation (1). We focus here on the minor contributions arising from the shot noise, V shot 2 , and the Doppler-shifted proton noise, V p 2 , which are both varying as T c but whose variation depends on unknown parameters that are the antenna direct current potential, f, and, mainly, the wind bulk velocity, respectively:</p><p>(1) The shot noise, including photoelectron, plasma, and bias currents, is detailed in <ref type="bibr" target="#b48">Meyer-Vernet et al. (2017)</ref>, with estimations for PSP in the case of L D =L. Our simplified method computes the shot noise for any L D (from Equation (2) by <ref type="bibr" target="#b51">Moncuquet et al. 2005)</ref>, assuming f=0 and that antenna biasing yields a stable noise modifying V shot 2 by a fixed factor. The ratio V V shot 2 0 2 has been confirmed to be less than 10% for both encounters. Note that we have kept all the available spectra for the first encounter, whereas for the second encounter, we have withdrawn the short (half-hour) periodic tests of unbiasing. That explains why, for the first encounter, we can see some periodic short (and unphysical) drops of T c values in Figure <ref type="figure" target="#fig_1">2</ref> (top panel).</p><p>(2) The QTN V p 2 produced by the plasma protons, Dopplershifted by the solar wind speed, and especially its variation with T c for different values of L L D is given by <ref type="bibr">Issautier et al. (1999b, Equation (22)</ref> and Figure <ref type="figure" target="#fig_0">1</ref> therein). With a wind speed varying from 200 to 400 km s −1 and with L L D between 0.5 and 2 (i.e., typical ranges for both encounters), this yields a ratio of = r V V p 2 0 2 less than 5% within these ranges. So, for each spectrum, we fit r in the range of [0 − 0.05] in our algorithm used to determine T c . Finally, note that V p 2 is expected to be negligible as PSP will approach the Sun <ref type="bibr">(Meyer-Vernet et al. 2017, Section 2.8)</ref>.  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. Twenty-one days spectrograms acquired during the first (2018 October 25-November 15, left panel) and second (2019 March 22-April 11, right panel) PSP solar encounters, showing the plasma quasi-thermal noise on which the plasma line at f p emerges clearly (cyan line varying between 80 and 200 kHz).</figDesc><graphic coords="3,64,01,60,44,491,49,126,31" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Electron total density (black, in cm −3 , with an arbitrary ´-R 10 AU 2 variation superimposed in red) and temperatures (in eV, with the fitted radial variations shown in Figure 3 superimposed in red) of the thermal (core, in blue) and suprathermal (in gold) components of the electron velocity distribution for the first (2018 October 15-November 18, top panel) and second (2019 March 12-April 18, bottom panel) extended encounters. The solid black line over the T c and T h values is a one-hour smoothing. The corresponding plasma Debye length (m) is plotted in gray (compared to the 2 m antenna length in black). The heliocentric distance (in the Sun radius) is indicated at the top of each panel (in red for each PSP perihelion).</figDesc><graphic coords="4,95,93,53,06,420,16,631,99" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 3 .</head><label>3</label><figDesc>Figure 3. Variation with the heliocentric distance of the temperatures of the thermal (core, in blue) and suprathermal (in gold) components of the electron velocity distribution for the extended E01 (top) and EO2 (bottom), with the fitted profiles superimposed in red.</figDesc><graphic coords="6,95,93,53,06,420,16,544,51" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head>Figure 4</head><label>4</label><figDesc>Figure4. Histograms of the electron density (left) and the core (thermal) electron temperature (right) for both encounters. For E01 in the top panels, we superimpose a dilute wind period (November 9-10) as a red dotted-dashed line and a period of dense wind (gray distribution) around the first perihelion (November 3-6). For E02 in the bottom panels, we overplot a dotted-dashed gray line as the histogram of density and temperature measured around the second perihelion (2019 April 3-6).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Normalized power spectrum of density fluctuations obtained at ∼36 R ☉ , for both E01 (solid line) and E02 (dashed line). The blue solid line shows the corresponding power-law spectrum, varying as f −1.4 .</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_6"><head>Figure 6 .</head><label>6</label><figDesc>Figure 6. Effect of the separation of the antenna arms: QTN plateau in V 2 /Hz with T c in K, normalized to´-T 8.14 10 c 16 as a function of L L D with separation (dashed color lines) and without separation (continuous black line).</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_7"><head>Figure 7 .</head><label>7</label><figDesc>Figure 7. Top panel: example of a daily spectrogram (2018 October 30, 57 s acquisition cadence) in the LFR-RFS frequency range, with the detected plasma peaks, f p , superimposed as black bars, which enables us to deduce the electron density. Bottom panel: example of three consecutive calibrated spectra (middle acquisition UT indicated on the top and by the arrow from the spectrogram time line), showing f p and the two noise levels (dashed lines) used in this paper to determine the thermal and suprathermal temperatures.</figDesc><graphic coords="10,95,93,53,06,420,16,523,45" type="bitmap" /></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head></head><label></label><figDesc>Parker Solar Probe was designed, built, and is now operated by the Johns Hopkins Applied Physics Laboratory as part of NASA's Living with a Star (LWS) program (contract NNN06AA01C). Support from the LWS management and technical team has played a critical role in the success of the Parker Solar Probe mission. We warmly congratulate all the scientists, technicians, engineers, and administrators who contributed to this outstanding mission. This work is based on observations with the FIELDS instrument suite embarked on Parker Solar Probe whose data are publicly available at http:// fields.ssl.berkeley.edu/data/. In France, this work was supported by CNES and by CNRS/INSU. We thank O. Alexandrova for helpful discussions. S.D.B. acknowledges the support of the Leverhulme Trust Visiting Professorship program.</figDesc><table /></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">The Astrophysical Journal Supplement Series, 246:44 (11pp), 2020 February https://doi.org/10.3847/1538-4365/ab5a84© 2020. The American Astronomical Society. All rights reserved.</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot">The Astrophysical Journal Supplement Series, 246:44 (11pp), 2020 February Moncuquet et al.</note>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Nicole</forename><surname>Meyer</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0001-6449-5274</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Marc</forename><surname>Pulupa</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-1573-7457</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bonnell</surname></persName>
+		</author>
+		<idno>https://orcid.org/0000-0002-0675-7907</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stuart</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-1989-3596</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Thierry Dudok De</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-4401-0943</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Keith</forename><surname>Goetz</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0003-0420-3633</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<idno>https:/ /orcid.org/0000-0001-8956-2824</idno>
+		<title level="m">Léa Griton</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Harvey</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0002-6938-0166</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">J</forename><surname>Macdowall</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0003- 3112-4201</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Milan</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<idno>https:/ /orcid.org/0000-0001-6172-5062</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">M</forename><surname>Malaspina</surname></persName>
+		</author>
+		<idno>https://orcid.org/0000-0003- 1191-1558</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><surname>References Alexandrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sorriso-Valvo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-013-0004-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">178</biblScope>
+			<biblScope unit="page">101</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Badman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bonnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-019-1818-7</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page">237</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Goetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Harvey</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-016-0244-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page">49</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">L</forename><surname>Celnikier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Harvey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jegou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Moricet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kemp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page">293</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Chateau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/90JA02565</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">96</biblScope>
+			<biblScope unit="page">5825</biblScope>
+			<date type="published" when="1991">1991</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gabriel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bely-Dubau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">A&amp;A</title>
+		<imprint>
+			<biblScope unit="volume">336</biblScope>
+			<biblScope unit="page">L90</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ergun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Malaspina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<idno type="DOI">10.1063/1.3457484</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PhPl</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">72903</biblScope>
+			<date type="published" when="2010">2010</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Farge</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev.fl.24.010192.002143</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AnRFM</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">395</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Fox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Velli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0211-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fludra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bagenal</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/98JA02681</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">9691</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Halekas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Whittlesey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Larson</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab4cec</idno>
+		<idno>doi:10.3847/ 1538-4365/ab4cec</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Intriligator</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/153479</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">196</biblScope>
+			<biblScope unit="page">879</biblScope>
+			<date type="published" when="1975">1975</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mangeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Alexandrova</surname></persName>
+		</author>
+		<title level="m">AIP Conf. Proc. 1216, 12th SOLAR WIND Conf</title>
+				<editor>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Melville, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>AIP</publisher>
+			<date type="published" when="2010">2010</date>
+			<biblScope unit="page">148</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/97JA02661</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<date type="published" when="1969">1998. 1969</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<title level="m">AIP Conf. Proc. 471, SOLAR WIND 9</title>
+				<editor>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Melville, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>AIP</publisher>
+			<date type="published" when="1999">1999a</date>
+			<biblScope unit="page">581</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/1998JA900165</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page">15665</biblScope>
+			<date type="published" when="1999">1999b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2005.04.085</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page">2141</biblScope>
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000JA000412</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">15665</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kasaba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kojima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+		</imprint>
+	</monogr>
+	<note>submitted</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abiad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Austin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11214-015-0206-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="page">131</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Kasper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Belcher</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41586-019-1813-z</idno>
+		<imprint>
+			<date type="published" when="2019">2019</date>
+			<biblScope unit="volume">576</biblScope>
+			<biblScope unit="page">228</biblScope>
+			<pubPlace>Natur</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Kohl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Noci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Antonucci</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1004903206467</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">175</biblScope>
+			<biblScope unit="page">613</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lacombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Alexandrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Matteini</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/796/1/5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">796</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Landi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Matteini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pantellini</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/760/2/143</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">760</biblScope>
+			<biblScope unit="page">143</biblScope>
+			<date type="published" when="2012">2012</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lemaire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Scherer</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA076i031p07479</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">76</biblScope>
+			<biblScope unit="page">7479</biblScope>
+			<date type="published" when="1971">1971</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Alexandrova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zaslavsky</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/0004-637X/824/1/47</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">824</biblScope>
+			<biblScope unit="page">47</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Berčič</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab61fc</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2000JA900039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">18337</biblScope>
+			<date type="published" when="2000">2000</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/95JA01550</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<date type="published" when="1995">1995. 19881</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zouganelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chaufray</surname></persName>
+		</author>
+		<idno type="DOI">10.12942/lrsp-2006-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">LRSP</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2005">2005. 2006</date>
+		</imprint>
+	</monogr>
+	<note>JGR</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Marsch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Tu</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA095iA08p11945</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">11945</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/92GL00631</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">1291</biblScope>
+			<date type="published" when="1992">1992</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA084iA09p05373</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">5373</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.232.4748.370</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page">370</biblScope>
+			<date type="published" when="1986">1986a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Couturier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Steinberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/GL013i003p00279</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">279</biblScope>
+			<date type="published" when="1986">1986b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/GM103p0205</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GMS</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">205</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/98JA02853</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page">29705</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2017JA024449</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">7925</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mangeney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pantellini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<title level="m">AIP Conf. Proc. 679, 10th SOLAR WIND Conf</title>
+				<editor>
+			<persName><forename type="first">M</forename><surname>Velli</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Melville, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>AIP</publisher>
+			<date type="published" when="2003">2003</date>
+			<biblScope unit="page">263</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perche</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA094iA03p02405</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="page">2405</biblScope>
+			<date type="published" when="1989">1989</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lecacheux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Cecconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Kurth</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2005GL022508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="L20S" to="22" />
+			<date type="published" when="2005">2005</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Matsumoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Bougeret</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2006.01.020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page">680</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mayer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-L</forename><surname>Bougeret</surname></persName>
+		</author>
+		<title level="m">AIP Conf. Proc. 1144, Future Perspectives of Space Plasma and Particle Instrumentation</title>
+				<editor>
+			<persName><forename type="first">M</forename><surname>Hirahara</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Melville, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>AIP</publisher>
+			<date type="published" when="2009">2009</date>
+			<biblScope unit="page">59</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/97JA02444</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">102</biblScope>
+			<biblScope unit="page">26887</biblScope>
+			<date type="published" when="1997">1997</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<title level="m">The Heliosphere near Solar Minimum</title>
+				<editor>
+			<persName><forename type="first">A</forename><surname>Balogh</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Marsden</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">&amp;</forename><forename type="middle">E J</forename><surname>Smith</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page">43</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Neugebauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Snyder</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.138.3545.1095-a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci</title>
+		<imprint>
+			<biblScope unit="volume">138</biblScope>
+			<biblScope unit="page">1095</biblScope>
+			<date type="published" when="1962">1962</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Parker</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/146579</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">128</biblScope>
+			<biblScope unit="page">664</biblScope>
+			<date type="published" when="1958">1958</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Parker</surname></persName>
+		</author>
+		<title level="m">The Century of Science</title>
+				<editor>
+			<persName><forename type="first">J</forename><forename type="middle">A M</forename><surname>Bleeker</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">J</forename><surname>Geiss</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">M</forename><forename type="middle">C E</forename><surname>Huber</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Kluwer</publisher>
+			<date type="published" when="2001">2001</date>
+			<biblScope unit="page">225</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barnes</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/95GL03094</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">3301</biblScope>
+			<date type="published" when="1995">1995c</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Bame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00768763</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SSRv</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page">109</biblScope>
+			<date type="published" when="1995">1995a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Phillips</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Scime</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">95</biblScope>
+			<date type="published" when="1995">1995b</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">V</forename><surname>Pierrard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lazar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Poedts</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11207-016-0961-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SoPh</title>
+		<imprint>
+			<biblScope unit="volume">291</biblScope>
+			<biblScope unit="page">2165</biblScope>
+			<date type="published" when="2016">2016</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Pilipp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Miggenrieder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K.-H</forename><surname>Muhlhausen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rosenbauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schwenn</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA095iA05p06305</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page">6305</biblScope>
+			<date type="published" when="1990">1990</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pulupa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Badman</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4365/ab5dc0</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJS</title>
+		<imprint>
+			<date type="published" when="2020">2020</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pulupa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Bale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Bonnell</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA023345</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">2836</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">W</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Narita</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Escoubet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Laakso</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2016JA023552</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGRA</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page">6940</biblScope>
+			<date type="published" when="2017">2017</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><surname>Šafránková</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Němeček</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Němec</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/0004-637X/803/2/107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">803</biblScope>
+			<biblScope unit="page">107</biblScope>
+			<date type="published" when="2015">2015</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>Bosqued</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Larson</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2001JA900031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page">21701</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><surname>Salem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Issautier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perche</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0273-1177(03)00354-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AdSpR</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">491</biblScope>
+			<date type="published" when="2003">2003</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schippers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moncuquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meyer-Vernet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lecacheux</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2013JA019199</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="page">7170</biblScope>
+			<date type="published" when="2013">2013</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">A</forename><surname>Schwadron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Goelzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2013JA019397</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page">1486</biblScope>
+			<date type="published" when="2014">2014</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">E</forename><surname>Scime</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Littleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Gary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Skoug</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2001GL012925</idno>
+	</analytic>
+	<monogr>
+		<title level="j">GeoRL</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">2169</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Scudder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Olbert</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA084iA06p02755</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page">2755</biblScope>
+			<date type="published" when="1979">1979</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Shoub</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/160783</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ApJ</title>
+		<imprint>
+			<biblScope unit="volume">266</biblScope>
+			<biblScope unit="page">339</biblScope>
+			<date type="published" when="1983">1983</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Sitenko</surname></persName>
+		</author>
+		<title level="m">Electromagnetic Fluctuations in Plasma</title>
+				<meeting><address><addrLine>San Diego, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1967">1967</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Sittler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Scudder</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/JA085iA10p05131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page">5131</biblScope>
+			<date type="published" when="1980">1980</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Š</forename><surname>Štverák</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maksimovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Trávníček</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2008JA013883</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JGR</title>
+		<imprint>
+			<biblScope unit="volume">114</biblScope>
+			<biblScope unit="page">A05104</biblScope>
+			<date type="published" when="2009">2009</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

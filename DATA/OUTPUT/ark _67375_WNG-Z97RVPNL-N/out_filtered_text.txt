@@ -1,0 +1,349 @@
+JOURNAL OF GEOPHYSICAL RESEARCH: SPACE PHYSICS, VOL.
+118, 997-1008, doi:10.1002/jgra.50123, 2013 MESSENGER observations of magnetopause structure and dynamics at Mercury Gina A.
+DiBraccio,'’ James A.
+Slavin,’ Scott A.
+Boardsen,”* Brian J.
+Anderson,” Haye Korth,* Thomas H.
+Zurbuchen,' Jim M.
+Raines,’ Daniel N.
+Baker,° Ralph L.
+McNutt Jr.,* and Sean C.
+Solomon’ [1] On 18 March 2011, MErcury Surface, Space ENvironment, GEochemistry, and Ranging (MESSENGER) became the first spacecraft to orbit Mercury, providing a new opportunity to study the outer boundary of the planet’s magnetosphere—the magnetopause.
+Here we characterize Mercury’s magnetopause using measurements collected by MESSENGER’s Magnetometer and Fast Imaging Plasma Spectrometer.
+Analysis of measurements from two of MESSENGER’s “hot seasons,” when the orbital periapsis is on Mercury’s dayside and the magnetopause crossing takes place in the subsolar region, resulted in 43 events with well-determined boundary normals.
+The typical duration of a magnetopause traversal was ~5 s.
+The average normal magnetic field component was ~20 nT, and the dimensionless reconnection rate, 1.e., the ratio of the normal magnetic field component to the total field magnitude just inside the magnetopause, was 0.15 + 0.02.
+This rate is a factor of ~3 larger than values found during the most extensive surveys at Earth.
+The ratio of the reconnection rate at Mercury to that of the Earth 1s comparable to the ratio of the solar wind Alfvén speeds at their respective orbits.
+We also find that the magnetopause reconnection rate at Mercury is independent of magnetic field shear angle, but it varies inversely with plasma f, the ratio of total thermal pressure to magnetic pressure, in the magnetosheath.
+These results suggest that reconnection at Mercury is not only more intense than at Earth but also that it occurs for nearly all orientations of the interplanetary magnetic field due to the low-f nature of the solar wind in the inner heliosphere.
+Citation: DiBraccio, G.
+A., J.
+A.
+Slavin, S.
+A.
+Boardsen, B.
+J.
+Anderson, H.
+Korth, T.
+H.
+Zurbuchen, J.
+M.
+Raines, D.
+N.
+Baker, R.
+L.
+McNutt Jr., and S.
+C.
+Solomon (2013), MESSENGER observations of magnetopause structure and dynamics at Mercury, J.
+Geophys.
+Res.
+Space Physics, 118, 997-1008, doi:10.1002/jgra.50123.
+1.
+Introduction [2] On 18 March 2011, MErcury Surface, Space ENvironment, GEochemistry, and Ranging (MESSENGER) became ‘Department of Atmospheric, Oceanic and Space Sciences, University of Michigan, Ann Arbor, Michigan, USA.
+*Heliophysics Science Division, NASA Goddard Space Flight Center, Greenbelt, Maryland, USA.
+>Goddard Planetary Heliophysics Institute, University of Maryland, Baltimore County, Maryland, USA.
+“The Johns Hopkins University Applied Physics Laboratory, Laurel, Maryland, USA.
+Laboratory for Atmospheric and Space Physics, University of Colorado, Boulder, Colorado, USA.
+‘Department of Terrestrial Magnetism, Carnegie Institution of Washington, Washington, D.C., USA.
+’Lamont-Doherty Earth Observatory, Columbia University, Palisades, New York, USA.
+Corresponding author: G.
+A.
+DiBraccio, Department of Atmospheric, Oceanic and Space Sciences, University of Michigan, Ann Arbor, MI 48109, USA.
+(gdibracc@umich.edu) ©2013.
+American Geophysical Union.
+All Rights Reserved.
+21:69 - 93:80/13/10.1002/jgra.50123 the first spacecraft to orbit the planet Mercury, which possesses an intrinsic magnetic field discovered by Mariner 10 [Ness et al., 1974, 1975].
+MESSENGER data from three Mercury flybys and the first Mercury year in orbit (1 Mercury year = 88 Earth days) confirmed this discovery and refined the strength and orientation of the magnetic dipole.
+We now know that Mercury’s magnetic moment is 195 + 10 nT-R?, (where Rw 18 Mercury’s radius, or 2440 km) [Anderson et al., 2008, 2010; Alexeev et al., 2010].
+Furthermore, the MESSENGER magnetic field data show a clear northward offset of the dipole moment from the center of the planet by 484 + 11 km [Anderson et al., 2011], approximately 20% of the planet’s radius.
+The interaction between the solar wind and the planetary magnetic field creates a highly dynamic magnetosphere exhibiting many of the processes observed at Earth, including magnetopause and magnetotail reconnection [Slavin et al., 2008, 2009], ultralow-frequency and KelvinHelmholtz waves [Boardsen et al., 2009, 2010; Sundberg et al., 2010], and substorm-type magnetotail loading and unloading, near-tail dipolarization, and plasmoid ejection [Slavin et al., 2010, 2012; Sundberg et al., 2012], but on much shorter temporal scales than have been observed in previously explored magnetospheric systems.
+997 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY [3] The magnetopause is arguably the most important boundary in the magnetospheric system for the reason that it controls the flux of solar wind mass, energy, and momentum into the magnetosphere.
+The magnetopause current sheet forms as a result of the interaction between the incident solar and planetary magnetic fields [Chapman and Ferraro, 1931].
+Its location corresponds to the surface across which the pressures of the internal magnetospheric magnetic fields and charged particles are balanced by the external solar wind pressure [Spreiter et al., 1966].
+The pressure balance equation for the magnetopause is R MSP RB MSH 0 0 i where [lg 1s the magnetic field permeability of free space, B?/2119 denotes the pressure of the magnetic field B, and the subscripts MSP and MSH designate the magnetosphere and magnetosheath regions, respectively.
+The number density and temperature of ions and electrons are represented by n;, 7;, n,, and T,, respectively, where k is the Boltzmann constant, and the sums are over all ionic species.
+[4] Both Mercury and Earth have southward-directed planetary dipoles, and their average magnetopause standoff distances are ~1.4 Ry, [Ness et al., 1976; Russell, 1977; Slavin et al., 2010; Moldovan et al., 2011] and ~10 Rx (where Rp 1s Earth’s radius, or 6371 km) [Fairfield, 1971], respectively.
+Hence, Earth occupies a much smaller volume fraction of its magnetosphere than does Mercury.
+By comparison, the combination of solar wind dynamic pressure falling off as 1/° with increasing Heliocentric distance r and stronger planetary dipole moments results in average magnetopause standoff distances of 75 Ry (where Ry is Jupiter’s radius) and 24 Rs (where Rg is Saturn’s radius) at Jupiter and Saturn, respectively [Joy et al., 2002; Achilleos et al., 2008; Went et al., 2011].
+[5] Magnetic reconnection in the magnetopause current layer, between the draped interplanetary magnetic field (IMF) in the magnetosheath and the intrinsic planetary field, occurs at sites called X-lines [Dungey, 1961; Levy et al., 1964].
+This merging of magnetic field lines is responsible for the transfer of magnetic flux from the dayside magnetosphere into the magnetotail.
+Locally, such reconnection also heats the charged particles, converts magnetic energy into kinetic energy, and produces Alfvénic jets of plasma directed away from the X-line along the magnetopause | F'uselier and Lewis, 2011].
+When reconnection takes place at the magnetopause, a component of the magnetic field B normal to the boundary (Bx) is generated, creating a rotational discontinuity and changing the configuration into a newly opened magnetosphere.
+A finite By also enables some of the solar wind plasma to cross the magnetopause and enter the magnetospheric system [Sonnerup and Cahill, 1967; Sonnerup and Ledley, 1979; Fuselier et al., 2005].
+[6] The large-scale circulation of the terrestrial magnetosphere driven by solar wind interaction with the planetary magnetic field is described as the Dungey cycle [Dungey, 1961].
+This cycle, which is expected to be especially vigorous at Mercury because of the strong solar wind close to the Sun [Siscoe et al., 1975], begins with the process of magnetic reconnection at the dayside magnetopause, as described above.
+The new field lines, with one end attached to the planet and the other in the solar wind, are pulled into the magnetotail, where they reconnect once again before convecting back to the dayside as a closed field, completing the sequence.
+Typical Dungey cycle times are ~1 h at Earth but are much shorter at Mercury, with convection times of only ~2 min [Siscoe et al., 1975; Slavin et al., 2009, 2010].
+[7] The rate of reconnection is often defined as the ratio of the reconnection inflow velocity to the speed of the Alfvénic outflow (Vin/Va) [Petschek, 1964; Sonnerup, 1974].
+MESSENGER is not ideally instrumented to measure these flows.
+However, the reconnection rate can also be expressed as the ratio of the normal magnetic field component to the total field just inside the magnetopause (By/Byp) [Sonnerup et al., 198la] or using measurements of the tangential electric field E, and plasma density p, (E,p!/?/Be,») [Mozer and Retino, 2007].
+At Earth, most reported values have been from case studies and do not represent a statistical survey.
+The results range from values on the order of 0.01 [Sonnerup and Ledley, 1979; Mozer et al., 2002; Fuselier et al., 2005; Fuselier et al., 2010] to a maximum of ~0.1 [Sonnerup et al., 198la; Phan et al., 2001; Vaivads et al., 2004].
+Furthermore, due to the relative weakness of the normal field component compared with the background fluctuations and uncertainties in the derivation of boundary-normal coordinates, the reported By/Byyp values at Earth may be biased toward events for which By 1s large.
+For example, using assumptions to derive E,, Lindqvist and Mozer [1990] reported an average reconnection rate of 0.15, but there was substantial scatter in the data.
+In contrast, Phan et al.
+[1996] reported a survey in which the mean J/;,/V, value was <0.01.
+In the most extensive statistical study at Earth to date, Mozer and Retino [2007] calculated an average reconnection rate of 0.046 for 22 events.
+[3] Slavin and Holzer [1979] predicted high reconnection rates at Mercury’s magnetopause on the basis of the low Alfvén Mach number and decreased plasma f, the ratio of total thermal pressure to magnetic pressure, 1n the inner solar system.
+With increasing distance from the Sun, the solar wind magnetic pressure decreases more rapidly than thermal pressure [e.g., Slavin and Holzer, 1981].
+As a result, the solar wind Mach number grows and the plasma fs increases between the orbits of Mercury and Earth.
+[9] These changes result in the magnetosheath at Mercury being strongly affected by magnetic stresses, whereas at Earth and the more distant planets, the magnetosheath is primarily influenced by plasma pressures [Paschmann et al., 1986; Huddleston et al., 1997].
+In turn, this behavior is expected to cause the rate of reconnection between the IMF in the magnetosheath and the planetary field to decrease with distance from the Sun [Slavin and Holzer, 1979; Scurry and Russell, 1991; Scurry et al., 1994; Mozer and Hull, 2010; Masters et al., 2012].
+An initial analysis of observations during a MESSENGER flyby magnetopause crossing with an incident magnetosheath of strong, steady southward IMF, yielded a substantial By/Byp ratio of ~0.13 at Mercury| Slavin et al., 2009 | that was larger than all but the most intense events at Earth [e.g., Sonnerup et al., 198 1a].
+[10] In this paper, we present an analysis of 43 dayside magnetopause passes, during the first three Mercury years of the MESSENGER mission orbital phase, with welldetermined By values.
+Magnetometer (MAG) [Anderson et al., 2007] and Fast Imaging Plasma Spectrometer (FIPS) 998 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY [Andrews et al., 2007] measurements taken during this interval yielded a minimum of two dayside magnetopause encounters per day as a result of MESSENGER’s 12-h orbit.
+Because the magnetopause is constantly in motion at velocities greater than the spacecraft, it is not unusual to see multiple crossings for a single encounter.
+Each individual crossing during this time period was systematically examined with minimum variance analysis (MVA).
+Our extended analysis confirms the initial MESSENGER results indicating that reconnection is frequent and intense at Mercury.
+Our results indicate that the low-6 magnetosheath at Mercury [| Swisdak et al., 2010; Masters et al., 2012] enables reconnection the majority of the time.
+Furthermore, we observe an inverse relationship between magnetosheath plasma f and reconnection rate.
+2.
+Methodology [11] From MESSENGER magnetic field data, with a sampling rate of 20 s_', we identified magnetopause crossings in Mercury solar magnetic (MSM) coordinates as sharp discontinuities as the boundary moved past the spacecraft.
+In MSM coordinates, the X)yjsy axis is directed from Mercury’s offset magnetic dipole toward the center of the Sun, the Zyjsm axis 1S normal to Mercury’s orbital plane toward the north celestial pole, and the Yyisnyq axis completes the right-handed system with the positive direction oriented opposite to orbital motion.
+As at Earth, directional rotations and a change in field magnitude serve as indicators of magnetopause crossings.
+At low latitudes on the dayside, the predominantly northward (+87) intrinsic field of the planet has a typical magnitude of ~100 nT.
+The transition from this stable dipole field to the more variable and somewhat weaker field of the magnetosheath IMF usually provides a distinct signature for magnetopause identification.
+Because of the strong IMF and low plasma f in the inner solar system, the magnetic field magnitude in Mercury’s magnetosheath is often only slightly weaker than the field inside the magnetosphere.
+This fact makes it difficult to detect the magnetopause boundary for strongly northward IMF (1.e., low values of the shear angle 6, defined as the rotation of the magnetic field from the magnetosheath into the magnetosphere).
+For this reason, we used the MESSENGER plasma data to assist in the accurate identification of magnetopause crossings.
+[12] FIPS measures time of flight, energy per charge (E/q), and incident angle for ions within the ranges E/g = 0.05—13 keV e | and m/q = 1-60 amu e_', where m/q is the mass per charge of detected ions.
+Near the magnetopause, the instrument completes one scan over the entire range of E/g values every 8 s.
+FIPS has a conical field of view (FOV) of ~1.47 sr.
+The instrument’s orientation with respect to the spacecraft sunshade causes ~30% of the FOV to be obstructed and, depending on its attitude, one of the solar panels may cause an additional FOV obstruction.
+The reader is referred to Raines et al.
+[2011] for further details on the FIPS FOV limitation and data analysis procedures.
+[13] The FIPS FOV direction with respect to the planet is described in spherical coordinates whereby the polar angle Oroy 18 the angle between the Zysm axis and the FIPS boresight vector and ranges over 0°—180°.
+The azimuthal angle droy 1s the angle between the X\ysjy axis and the FIPS boresight vector and ranges over +180°; the sign of @rov follows the sign of Yysm.
+There is considerable variation in the orientation of FIPS for the magnetopause crossings in this study (Figure 1).
+These changes in spacecraft pointing are part of normal observations for other MESSENGER instruments.
+FIPS orientations naturally fall into two groups, on the basis of the sign of the Yyysy coordinate of the spacecraft at the time of the crossing; those groups are indicated on Figure 1.
+[14] Strong decreases in the proton flux are typically observed as MESSENGER crosses the magnetopause and enters the magnetosphere.
+In this study, the change in flux serves as an indicator of a magnetopause crossing.
+Conversely, when MESSENGER exits the magnetosphere, increases in proton counts and differential energy flux signal the spacecraft’s entry into the dense, hot magnetosheath.
+The effects of the FIPS orientation changes on the magnetopause plasma signatures are expected to be minimal because of the high contrast between the stagnant, hot plasma in the magnetosheath and the tenuous plasma inside the magnetosphere.
+[15] In order to determine the structure of Mercury’s magnetopause, MVA [Sonnerup and Cahill, 1967] was used TSS -Y sm LL.
++Y MSM Z ; dl dl / dl l dl y V4] p g Z Z g G Ue WO Vy) WV) YG Dray (deg) Figure 1.
+Direction of the FIPS FOV in spherical MSM coordinates for the magnetopause crossings in this study.
+The polar angle (@go0v) is the angle between the Zyysguy axis and the FIPS boresight vector.
+The azimuthal angle (frov) ranges from —180° to 180°, where 0° is directed sunward along the Xyjsm axis and the sign of droy follows the sign of Yusm.
+Changes in FIPS orientation result from spacecraft maneuvers made to acquire observations with other MESSENGER instruments.
+999 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY to transform the MAG measurements from MSM coordinates into boundary-normal coordinates.
+The MVA _ technique calculates the eigenvalues and associated eigenvectors of a magnetic field covariance matrix (V/ P) defined by M?, = (BiBj) — (Bi) (Bi) (2) where i, 7 = 1, 2, 3 correspond to the By, By, and Bz components of B in MSM coordinates and the brackets denote a temporal average.
+The resulting eigenvectors are orthogonal and represent the directions of minimum, intermediate, and maximum variance in the magnetic field.
+In the new coordinate system, the minimum variance component (8;, which is equivalent to By) is directed outward and normal to the local magnetopause surface.
+The directions of intermediate (B82) and maximum (B83) magnetic field variance lie within the plane of the magnetopause and are free to rotate in response to magnetic field variation to complete an orthogonal Cartesian system.
+[16] We utilize a discontinuity jump condition, according to which the magnetic field magnitude is discontinuous but the normal field component is continuous across the boundary, whether that component is zero in the case of a tangential discontinuity or a constant, nonzero value for the case of a rotational discontinuity [Sonnerup and Cahill, 1967; Sonnerup and Scheible, 1998].
+Numerous studies have relied on the magnitude of the normal component [e.g., Sonnerup et al., 198la] to investigate the boundary configuration, whereas others have differentiated between rotational and tangential discontinuities on the basis of By/P;,; and AB, ot/Biot, Where Biot is the total field magnitude and AB, is the change in magnitude across the boundary [Lepping and Behannon, 1980; Knetter et al., 2004].
+The latter method is designed to separate rotational discontinuities with a modest By from tangential discontinuities, but classification becomes difficult when both of these ratios are small.
+For this study, our interest in determining the intensity of magnetic reconnection has led us to direct our attention to the substantial By component prevalent at Mercury.
+[17] The accuracy of the MVA transformation is inferred from the number of vector measurements and the ratios of the eigenvalues corresponding to the directions of minimum, intermediate, and maximum variance: /;, 22, and 43.
+A high ratio of intermediate to minimum eigenvalue (A>//,) indicates a well-determined normal vector (and associated eigenvector) acquired for a particular data set.
+There are many approaches to determining the error associated with the MVA principal axis directions [Sonnerup, 1971; Lepping and Behannon, 1980; Hoppe et al., 1981; Kawano and Higuchi, 1995; Khrabrov and Sonnerup, 1998].
+Whereas the bootstrap method performed by Kawano and Higuchi [1995] proved to quantify the amount of error more accurately than the method of Sonnerup [1971], the former technique requires considerable computational power.
+Khrabrov and Sonnerup [1998] developed an error estimation procedure that produces results equivalent to the bootstrap method without the associated computational requirements.
+Their method was further developed by Sonnerup and Scheible [1998].
+[18] We used the Sonnerup and Scheible [1998] method of error estimation here to establish a criterion for acceptable magnetopause crossings.
+In following this approach, we required A>/A, => 5 for crossings included in this study.
+Earlier MVA studies required minimum eigenvalue ratios of 1.5—3 [Sonnerup and Cahill, 1967; Collier and Lepping, 1996].
+To further refine the selection, we retained only those crossings with a normal field component greater than or equal to twice the uncertainty in By, indicating a rotational discontinuity.
+Knetter et al.
+[2004] implemented a selection criterion for solar wind discontinuities using a magnetic shear angle threshold, 6 > 60°, in order to increase the validity of the MVA results.
+However, reconnection rates are hypothesized to be strongly dependent on shear angle, and low-shear reconnection events are not uncommon for interplanetary discontinuities [Gosling et al., 2007], as well as for some solar wind-magnetosphere interactions [e.g., Paschmann et al., 1993].
+Therefore, we required a large A>/41, but we did not set a minimum shear angle.
+Additional error estimation results are discussed below, following two examples of magnetopause crossings that serve to illustrate high-shear and low-shear open magnetosphere configurations.
+[19] For this study, a magnetopause crossing interval was defined by first identifying the magnitude of the magnetic field inside both the magnetosphere (Bysp) and the magnetosheath (Bysy).
+These values served as guides to determine the initial and final points of the interval.
+That is, as the spacecraft exited the magnetosphere, the last measurement to equal Byysp before the field rotation began was designated as the “start” and the first measurement to equal Byisy was the “stop.” This designation ensured that we chose a full magnetopause crossing and avoided any partial crossings that resulted from boundary dynamics.
+If the magnetopause was being compressed toward the planet, causing the spacecraft to re-enter the magnetosphere as indicated by multiple crossings for a single encounter, Bysy and Bysp signal the beginning and end of the interval, respectively.
+The duration of a magnetopause crossing was calculated from the time span of the MVA intervals.
+The method of defining the MVA intervals ensured that the duration captured the entirety of the current sheet with a full rotation of the field.
+3.
+MESSENGER Observations 3.1.
+[20] Trajectories of the orbits from 21 and 24 November 2011 are displayed in Figure 2.
+The outbound crossings at the dayside magnetopause occurred slightly after MESSENGER reached periapsis and were chosen as a result of their close proximity to the subsolar point.
+The magnetopause model [Moldovan et al., 2011] was corrected for solar wind aberration due to Mercury’s orbital velocity around the Sun, which varies over the planet’s highly eccentric orbit.
+[21] For the 24 November 2011 dayside pass, the magnetopause crossing was marked by a distinct shift in magnetic field data at T10:29:04.49 .
+After applying MVA to a 2.2 Ss interval spanning the magnetopause crossing, the normal component of the magnetic field has a magnitude of 9.1 nT.
+The eigenvalue ratio indicated by the analysis, Ao/A1 = 64.24, is well above the threshold value of 5 mentioned above, indicating that the normal direction is well determined.
+The error analysis reveals an uncertainty of +1 nT in the magnitude of By, calculated from the following [Sonnerup and Scheible, 1998]: High- and Low-Shear Magnetopause Reconnection 1000 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY 24 November 2011 21 November 2011 Magnetopause Yusm (Ry) Magnetopause Zusm (Rey) “4 2 0 -2 -4 -6 Xusm (Ry) Figure 2.
+MESSENGER orbital trajectories on 21 and 24 November 2011; the magnetopause model of Moldovan et al.
+[2011] 1s shown in MSM coordinates.
+The magnetopause has been corrected for solar wind aberration for an average solar wind velocity of 400 km s~' and an average orbital velocity for Mercury of 50 km s_'.
+Observed outbound magnetopause crossings are indicated by triangles.
+(3) Ay N-1 + (Ap,,B2)° + (Ay)3B3)” (4) where N is the number of measured vectors and Ay); is the expected angular uncertainty in the given normal direction, indexed by intermediate and maximum directions 7.
+Since the nonzero magnitude of By is greater than twice the calculated error, this crossing was classified as a rotational discontinuity and met the criteria for this study.
+[22] The plasma and magnetic field data transformed into boundary-normal coordinates are plotted for this crossing in Figure 3.
+The minimum variance component B, 1s the flattest and smoothest curve, whereas the direction of maximum variance B3 shows a full rotation of the field through the magnetopause.
+This rotation is indicated by a change from positive to negative orientation with a large shift in amplitude from ~+120 nT in the magnetosphere to ~—90 nT in the magnetosheath.
+The change in polarity evident in B3 signifies a northward planetary field interacting with a southward IMF—a configuration highly conducive to dayside reconnection.
+The magnetopause shear angle was calculated to be 148.9°.
+As the spacecraft entered the magnetosheath, the plasma data showed an increase in the number of proton counts.
+Furthermore, high values for differential energy flux (red in Figure 3) spread across more of the E/q range, indicating that the plasma was hotter in the magnetosheath than inside the magnetosphere.
+Although this example focuses on a single magnetopause crossing, multiple crossings actually took place because of the dynamic evolution of the boundary, as identified in the figure.
+[23] In contrast, the magnetopause crossing on 21 November 2011 (Figure 4) is an example of a low-shear magnetopause reconnection event.
+A dominant northward Bz of ~145 nT just inside the magnetopause 1s indicative of a compressed dayside magnetosphere and higher than usual solar wind pressure.
+The draped IMF in the magnetosheath exhibited a northward orientation for the duration of the crossing.
+A magnetopause crossing at T10:29:22.39  was identified by a strong increase in proton count rate over a wide range of energies accompanied by a decrease in B3 and |B].
+[24] The magnetic field data transformed by the MVA results (Figure 4) of this 5.6 s interval show the rotation of the field as the spacecraft traversed from the magnetosphere into the magnetosheath region.
+The magnetopause current sheet is defined by the abrupt change of ~10 nT in the B; component, and the boundary-normal direction is well determined as indicated by a ratio of intermediate to minimum eigenvalue of 5.55.
+The analysis results in a normal component with a magnitude of By = 6.7 nT.
+The error analysis produces an uncertainty of +3.2 nT in the calculated magnitude of By, which meets our definition of a rotational discontinuity.
+Computing the shear between the fields of solar and planetary origin indicates an extremely low shear angle of ? = 1.2° for this open magnetosphere configuration.
+The plasma data reinforce the crossing identification and show a sharp increase of nearly 10-fold in count rate across the interval.
+For low-shear cases such as this, component reconnection results in a highly inclined, north-south X-line between the planetary and IMF fields [Sonnerup, 1974; Fuselier et al., 2011].
+3.2.
+Statistical Analysis [25] The MVA-based analysis procedures described above were applied to MAG and FIPS data from orbits during two of MESSENGER’s “hot seasons,” when the periapsis of the orbit was over Mercury’s subsolar region.
+We analyzed 15 days of magnetopause crossings during the first hot season, spanning the period from 15 May to 7 June 2011, and 21 days during the third hot season, from 8 to 28 November 2011.
+During 10 days of the first hot season, both instruments were inoperative for the fraction of the orbit when MESSENGER passed directly in front of the planet as a precaution against excessive thermal inputs to the spacecraft.
+The first continuous, simultaneous measurements by MAG and FIPS were taken during the third hot season.
+[26] For the intervals noted above, MVA was performed on every distinct dayside magnetopause crossing exhibiting a clear rotation as the field transitioned from a Bz magnitude representative of the magnetosphere to that of the magnetosheath.
+Magnetopause identification was confirmed by identifying transitions in the plasma data that coincided with the field rotation, from the tenuous magnetosphere into the hot, dense 1001 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY 10° 10° 107 10° 10 MESSENGER 0.0 £ = 24 November 2011 E/q (keV/e) H + ScanTotal Zusm M Rus (Ry) Figure 3.
+Plasma and magnetic field data in MVA coordinates transformed from the magnetopause crossing beginning at T10:29:04.49  on 24 November 2011.
+Vertical black lines mark the accepted (solid) and rejected (dashed) magnetopause crossings ste The to op two panels include a proton energy spectrogram with differential energy flux (color scale, in cm” s_' kV~’) and total proton counts, respectively.
+The next four panels are the minimum, intermediate, and maximum variance components of the magnetic field and the field magnitude, respectively.
+Rysm 1s distance from the center of the planet.
+The minimum, intermediate, and maximum eigenvectors are B; = By = (0.91, —0.39, 0.11), Bs = (0.40, 0.76, —0.52), and B3 = (0.12, 0.51, 0.85).
+The MVA utilized 44 magnetic field vector measurements, and the ratios of maximum to intermediate and intermediate to minimum eigenvalues are 16.51 and 64.24, respectively.
+MESSENGER 0.0 sFTTTT E/Q (keV/e) H + ScanTotal = —= 140  tat) 10:29:00 10:29:10 10:29:20 10:29:30 10:29:40 10:29:50 X (R,,) 1.49 1.49 1.50 1.51 1.51 1.52 ys RM -0.06 -0.06 -0.06 -0.06 -0.06 -0.06 ys (FM M -0.03 -0.04 -0.05 -0.06 -0.07 -0.08 Rorear (Ray 1.49 1.49 1.50 1.51 1.52 1.52 Figure 4.
+Plasma and magnetic field data in MVA coordinates transformed from the magnetopause crossing beginning at T10:29:22.39  on 21 November 2011.
+Solid vertical lines mark the magnetopause crossing.
+The 210? we © pane’s include a proton energy spectrogram with differential energy flux (color scale, in cm” V~') and total proton counts.
+The minimum, intermediate, and maximum eigenvectors are B, = By = = Hee.
+—0.46, 0.00), B.
+= (0.45, 0.87, 0.22), and Bz; = (—0.10, —0.20, 0.98).
+The MVA utilized 114 magnetic field vector measurements, and the ratios of maximum to intermediate and intermediate to minimum eigenvalues are 4.33 and 5.55, respectively.
+plasma of the magnetosheath.
+A total of 89 magnetopause crossings were identified.
+Of these, 65 met the eigenvalue ratio criterion (A2/A; => 5).
+However, nine of these crossings were eliminated because the field magnitude in the magnetosheath exceeded that of the magnetosphere.
+The unusual situations when Bysp/Bmysp > | are likely the result 1002 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY of large, rapid changes in solar wind pressure that are incompatible with the assumptions made for our single-satellite analysis techniques.
+From the remaining 56 crossings, three were excluded because the error in By was larger than 8 nT.
+Finally, 10 more crossings were removed for having a normal field component that was less than twice the uncertainty in By.
+We determined that 48% of the crossings 1n our initial set were rotational discontinuities on the basis of these stringent requirements to account for single-spacecraft limitations.
+This procedure admits the possibility that some of the 49 eliminated cases were also rotational discontinuities, but their inability to meet the criteria listed above caused them to be rejected.
+Therefore, we cannot say how often the magnetopause is a rotational discontinuity, but our survey indicates that this configuration is not uncommon.
+[27] The locations of the 43 selected crossings fall within the confines of the subsolar region between 08:00 - 16:00 local time and +20° latitude.
+These magnetopause crossings are compared with the boundary model of Moldovan et al.
+[2011] in Figure 5.
+The magnetopause model is projected onto the terminator plane (X\ysm = 0 Rm) in Figure 5b to illustrate boundary location from the perspective of the Sun.
+Close agreement between the location of the crossings considered here and those predicted by the model of Moldovan et al.
+[2011] 1s evident.
+[28] In order to characterize the magnetopause, a statistical analysis was applied to the 43 crossings with well-determined boundary normals.
+Figure 6a displays a histogram of the ratios of intermediate to minimum eigenvalue from the surveyed dayside crossings, indicating an average value of 14 and a lower limit of 5, as predetermined by the selection criteria.
+This distribution strongly supports the validity of the normal directions derived from MVA.
+The corresponding results from the error analysis, illustrated in Figure 6b with an average error of 2.21 + 0.20 nT, validate the confidence in the selected events.
+The standard error, in this case £0.20 nT, is calculated from the ratio of the standard deviation to the square root of the number of events (¢/\/N) and is implemented for all succeeding calculations.
+[29] The distribution of the normal magnetic field component for rotational discontinuity magnetopause crossings 1s X’usm (Ru) Y’usm (Ru) Figure 5.
+Survey of observed magnetopause crossings and the model magnetopause surface of Moldovan et al.
+[2011] in solar wind—aberrated MSM coordinates.
+Triangles represent dayside magnetopause crossings.
+(a) Equatorial view of the crossings between local times of 08:00 - 16:00.
+(b) View from the Sun to Mercury illustrating that all crossings occur within +20° latitude.
+The model magnetopause location is shown at the terminator plane.
+N= 483 Average = 14.2 Std Dev = 14.8 Median = 8.05 N= 43 Average = 2.21 nT Std Dev = 1.33 nT Median = 1.75 nT IAByl (nT) Figure 6.
+(a) Histogram of the ratios of intermediate to minimum eigenvalue for the observed dayside magnetopause crossings.
+Two ratios have values greater than 40 and are not shown on this graph.
+(b) Results of MVA error analysis (equation 4) derived following the method of Sonnerup and Scheible [1998] to describe the spread of errors in the calculated magnitude of By.
+illustrated in Figure 7.
+The magnitude of By ranges from 1.31 to 91.41 nT, but most of the normal field components were smaller, with a mean of 20.1 nT.
+N= 43 Average = 20.1 nT Std Dev = 19.1 nT Median = 16.1 nT Figure 7.
+Distribution of the normal component of the magnetic field at the magnetopause calculated from MVA.
+Three observations have magnitudes greater than 50 nT and are not shown on the graph.
+1003 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY [30] The average duration of the magnetopause crossings was calculated from the time span of the MVA intervals, as discussed in section 2.
+The mean, 5 s, is comparable to the standard deviation, 4 s, and most likely indicative of the natural variability in the normal magnetopause velocity (Vx), which we cannot measure directly.
+During several longer encounters, the magnetopause and the spacecraft were likely to have been moving simultaneously, causing an extended rendezvous.
+Figure 8 displays a histogram of magnetopause crossing durations.
+[31] At the reconnection X-line, magnetic flux is delivered to the diffusion region at the plasma inflow speed (Vj,).
+Following reconnection, the newly created open flux tubes leave the diffusion region at the outflow jet velocity, which is equal to the Alfvén speed (V,).
+The rate of magnetic flux transport into the X-line V;,B)yp and the transport in the outflow region V,By must match: D = Vy By = VinBup (5) where ® is the intensity or rate of reconnection.
+However, for many purposes, it is desirable to use a dimensionless reconnection rate « [Sonnerup et al., 198la; Mozer and Retino, 2007; Mozer and Hull, 2010]: By _ Vj ° Bye Va ©) This dimensionless reconnection rate « removes the dependence of flux transfer rate on the strength of the magnetic field and the Alfvén speed, but not other intrinsic factors such as magnetic field shear angle or plasma f.
+Figure 9 displays the distribution of the inferred reconnection rate By/Byp from the 43 accepted magnetopause crossings.
+The average ratio of 0.15 + 0.02 is ~3 times larger than the best available statistical value of 0.046 at Earth [Mozer and Retino, 2007].
+N=43 Average = 97.3 km, 5s Std Dev = 86.3 km, 4s Median = 82.4 km, 4s d (km) Figure 8.
+Histogram of magnetopause thickness d on the dayside magnetopause determined from measurements of the duration At of each magnetopause crossing and for a normal component of the magnetopause velocity of 20 km s~'.
+The calculated gyroradius r, of a solar wind proton (16 km) is indicated.
+A single crossing with duration longer than 15 s is not included on the histogram.
+N=48 Average = 0.15 Std Dev = 0.13 Median = 0.11 0.0 0.2 0.4 0.6 0.8 1.0 IB, VIB, yo Figure 9.
+Histogram of reconnection rates calculated from the ratio of the normal component of the magnetic field determined from MVA to the magnitude of the total field just inside the magnetopause.
+4.
+Discussion [32] In this paper, MVA has been applied to magnetic field data acquired by the MESSENGER spacecraft as it crossed the dayside magnetopause boundary.
+These boundaries were identified in the Magnetometer data and confirmed with FIPS plasma measurements.
+This procedure allowed the identification of magnetopause crossings with significant By, even under low-shear conditions.
+MVA appears well suited to the study of magnetopause reconnection at Mercury by virtue of the strong magnetic fields in the inner solar system.
+Just as at Earth, there are some cases for which large temporal variations or extremely large-amplitude fluctuations result in a poorly determined boundary normal.
+Furthermore, if a northward IMF threads the magnetosheath such that it has a magnitude comparable to that of the planetary field and is parallel to the field inside the magnetosphere, then the vanishing field shear and gradient can make boundary identification impossible, especially if KelvinHelmholtz waves are present.
+[33] International Sun-Earth Explorer and Cluster multispacecraft observations have shown that the magnetopause thickness at Earth is on the order of 5—10 gyroradii for a solar wind proton in the magnetosheath [Berchem and Russell, 1982; Haaland et al., 2004], as predicted by single particle motion [ Willis, 1975].
+The gyroradi of solar wind protons (H') at Mercury are calculated to be 16 km for typical magnetic field strengths inside the magnetopause and a magnetosheath plasma temperature of 10° K.
+If, following Masters et al.
+[2011], we assume an average magnetopause thickness of seven proton gyroradii, the mean magnetopause thickness at Mercury is ~100 km.
+Given the observed duration of ~5 s in the MESSENGER observations, the calculated magnetopause velocity is 20 km s‘.
+This value is well within the range of terrestrial multispacecraft observations [e.g., Russell and Elphic, 1978].
+The calculated thickness of ~100 km for Mercury’s magnetopause is much less than that of any other planet possessing an intrinsic magnetic field, e.g., ~400—1000 km for Earth [Russell and Elphic, 1978; Berchem and Russell, 1982], ~35:00 - 52:00 km at Jupiter [Sonnerup et al., 1981b], and ~5000 km as estimated from surface waves at Saturn [Lepping et al., 1981].
+1004 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY [34] The normal component of the magnetic field at the magnetopause, with a mean value of 20.1 nT, is in agreement with the MESSENGER flyby results of Slavin et al.
+[2009] and supports the high rates of reconnection and ~2 min time scale computed for the convection of energy, plasma, and magnetic flux in Mercury’s Dungey cycle.
+This time scale was inferred from the cross-magnetosphere electric potential drop calculated from By and confirmed by the direct observation of ~1- to 3-min-long intervals of tail loading and unloading [Slavin et al., 2010].
+[35] The dependence of the computed reconnection rate on the magnetopause shear angle is displayed in Figure 10.
+We have calculated the average reconnection rate over intervals of 30° (red) to examine the variance of the individual events from the overall average reconnection rate of 0.15.
+For the crossings examined in this study, the magnetopause shear angle ranges over 1°—170°, but as indicated by the binned averages, there is minimal variation among the calculated reconnection rates.
+In contrast with studies of Earth’s magnetopause [Fuselier and Lewis, 2011], our results indicate that the dimensionless reconnection rate at Mercury does not increase with an increase in shear angle.
+Instead, By/Byp remains constrained between 0.1 and 0.3 for the majority of the events with a mean of 0.15.
+Even the events with the lowest shear angle (0°—30°) have an average reconnection rate of ~0.1.
+[36] Previous studies have explored other factors that control the occurrence and intensity of reconnection at Earth, including plasma f, solar wind Mach number, and magnetopause shear angle [Sonnerup, 1974; Scurry and Russell, 1991; Scurry et al., 1994; Trenchi et al., 2008].
+Sonnerup [1974] described how reconnection is.
+still possible when field lines are not antiparallel but instead are positioned at only a small angle @ with respect to each other.
+For reconnection to occur at such low shear angles, the magnetic fields on either side of the magnetopause must have an equal field component parallel to the reconnection X-line B) known as the guide field.
+The perpendicular IB, V/IByyp! 0 (deg) Figure 10.
+Magnetopause shear angle 0 compared with the rate of reconnection for the magnetopause crossings meeting the criteria of this study.
+The average reconnection rate was calculated in 30° bins, as indicated by the red rectangles.
+Little correlation between the two quantities is evident, indicating that reconnection occurs at Mercury for a large range of shear angles.
+components are then oriented in the same or opposite direction.
+However, these conditions for low shear reconnection are best met when the magnetic fields on either side of the current sheet are similar in magnitude as, for example, occurs at the interplanetary current sheet [Gosling et al., 2007; Phan et al., 2010].
+This effect at Mercury was illustrated in the low-shear magnetopause reconnection example in Figure 4, a case for which the field magnitudes on either side of the magnetopause differed by less than 10%.
+We suggest that the underlying reason for the strong magnetic fields in Mercury’s magnetosheath is the low Alfvénic Mach number, M, ~ 3-4, in the inner solar system [Slavin and Holzer, 1979].
+Under these conditions, the electromagnetic terms in the magnetohydrodynamic (MHD) equations are more important than for high-M, conditions.
+For example, as the IMF encounters the magnetopause, there is a tendency for fb to decrease as the plasma is lost to flow along the draped flux tubes, which leads to the formation of a plasma depletion layer (PDL) [e.g., Anderson and Fuselier, 1993].
+As first described by Zwan and Wolf [1976], the PDL is greatly enhanced for low solar wind Alfvén Mach number such as is found at Mercury, a result supported by global hybrid and MHD simulations [Travnicek et al., 2010; Benna et al., 2010].
+[37] A statistical survey of the terrestrial magnetopause by Scurry et al.
+[1994] showed that a low-f environment is required for low-shear reconnection.
+It has also been established that the frequency of reconnection is higher for both low-f and low-M, conditions [Trenchi et al., 2008], a result attributed to the fact that reconnection is possible over a wider range of shear angles under these conditions.
+To understand why f in the magnetosheath affects the range of shear angles at which magnetopause reconnection may occur, Swisdak et al.
+[2003] used particle-in-cell simulations to study asymmetric reconnection in collisionless plasmas.
+Their results showed that a diamagnetic drift, produced when a pressure gradient is present across the current sheet, prompts advection of the reconnection X-line and may inhibit reconnection when the drift velocity is super-Alfvénic (Vs > Va).
+Swisdak et al.
+[2003] found that reconnection is more likely to be suppressed for cases of high M,, and they established a condition on /-dependent diamagnetic effects, By 2L p> Bup di; (7) where L represents the pressure scale length and d; is the ion inertial length.
+This relation implies that magnetic reconnection is prevented at high values of 6, even when a substantial guide field is present.
+However, in the low-f case at Mercury, we can expect a high occurrence of reconnection for a wide range of shear angles.
+[38] The condition in equation (7) was reformulated to relate the restriction of reconnection to the magnetic shear angle: ap > Ftan( 5) (8) where Af is the change in plasma f across the current layer [Swisdak et al., 2010].
+As part of a study of magnetopause reconnection at Saturn, Masters et al.
+[2012] measured the magnetized plasma conditions to explore whether the 1005 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY parameters satisfy the diamagnetic suppression condition (equation 8).
+With the majority of the events meeting this criterion, they determined that high-/ conditions restrict reconnection at the planet.
+[39] It is possible to calculate f in the magnetosheath for our chosen magnetopause crossings by assuming that the plasma pressure inside the magnetosphere is negligible.
+After applying this assumption to the rotational discontinuity pressure balance given in equation (1), we are able to determine the magnetosheath plasma pressure: B B MSP _ “MSH (9) This value may then be used to calculate the ratio of the plasma pressure to magnetic pressure in the magnetosheath: Y 2 2 Pos _ Byisp ~ Bus _ Byrsp | Bus = a3 5 — = (10) wen Byasu/2Mo Bass Basu where fysy is the plasma f in the magnetosheath.
+Since we are assuming f = 0 inside the magnetosphere, AP = Pusu — bsp = Bsn: [40] The calculated [/)yjsq and measured shear angle are compared in Figure lla using the relation of equation (8) for L = d;.
+This relation separates the parameter space into two regions denoting whether reconnection is possible or suppressed.
+Above the curve, the diamagnetic suppression condition is not satisfied, and reconnection is possible according to the necessary, but not sufficient, low-f requirement.
+In the region below the curve, the f-shear condition for diamagnetic suppression is satisfied, and reconnection is prevented.
+The majority of the low-f events lie above the curve, including all crossings with reconnection rates of >0.25 (red triangles), suggesting conditions that are favorable for reconnection, a result in agreement with the conclusions of Masters et al.
+[2012] for high fb.
+Furthermore, a comparison of {4s With the reconnection rate in Figure 1 1b demonstrates that instances of high By/Byp occur for low-f cases, in correspondence with the results of Scurry et al.
+[1994].
+[41] The total electric potential drop across the magnetosphere for a normal magnetic field By, a solar wind speed Vsw, and a dayside X-line length L 1s given by the expression [Siscoe et al., 1975}: Oy = ByVswl (11) [42] For a magnetosheath flow velocity of 200 km s_' at the terminator plane and a reconnection X-line length of 3 Rm, Values of the potential drop are as shown in Figure 12.
+The average value of 29 kV is in good agreement with the 30 kV estimate derived from measurements taken during MESSENGER’s second flyby of Mercury [S/avin et al., 2009].
+It is also lower than typical values for the magnetospheric potential drop of about 60 kV at Earth [Lindqvist and Mozer, 1990], 250 kV at Jupiter, and 45 kV at Saturn [Badman and Cowley, 2007], consistent with the smaller magnetosphere dimensions but stronger IMF and reconnection rate at Mercury.
+[43] We conclude that Mercury’s dayside magnetopause is frequently experiencing reconnection as a result of the low-f 150 50 0.01 0.01 1.00 10.00 Bush Figure 11.
+(a) Comparison of f to magnetic shear, together with the condition of Swisdak et al.
+[2010] for diamagnetic suppression of reconnection for L = d; (dashed line), to assess reconnection enhancements in the low-f environment.
+Black triangles are crossings with a reconnection rate of <0.25, and red triangles show reconnection rates of =0.25.
+(b) Evaluation of the correlation between f and the rate of reconnection with a power law fit (dashed line) to observations for the magnetopause crossings meeting the criteria of this study.
+One event with f > 10 is not shown on the plots.
+N=483 Average = 29 kV Std Dev = 28 kV Median = 24 kV Figure 12.
+Histogram of magnetopause reconnection contribution to magnetosphere potential for a solar wind velocity of 200 km s~! and an X-line length of 3 Ry.
+Three magnetopause crossings for which the estimated contribution to the potential exceeds 80 kV are not included on the plot.
+1006 DIBRACCIO ET AL.: MAGNETOPAUSE RECONNECTION AT MERCURY and low-M, conditions in the magnetosheath associated with the planet’s location in the inner heliosphere.
+This environment facilitates reconnection over a wide range of magnetopause shear angles and contributes to a high reconnection rate and, for its small dimensions, a high magnetospheric potential.
+As a result, Mercury’s magnetosphere is subjected to the most intense solar wind forcing of any planet in the solar system.
+[44] Acknowledgments.
+The MESSENGER project is supported by the NASA Discovery Program under contracts NASW-00002 to the Carnegie Institution of Washington and NAS5-97271 to The Johns Hopkins University Applied Physics Laboratory.
+Gina DiBraccio was supported, in part, by the NASA GSFC Cooperative Education Program.
+.

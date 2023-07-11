@@ -1,0 +1,673 @@
+QAGUPUB
+
+nell
+
+Geophysical Research Letters
+
+RESEARCH LETTER
+10.1002/2016GL068327
+
+Key Points:
+
+- We report the discovery and first
+quantitative extraterrestrial measurements of an ionospheric ambipolar
+electric field at the planet Venus
+
+- A persistent, stable, and global phenomenon, accelerating any ion lighter
+than 18 amu to escape velocity
+
+- Planets can lose heavy ions to space
+entirely through electrical forces in
+their ionospheres
+
+Supporting Information:
+« Supporting Information S1
+
+Correspondence to:
+G. A. Collinson,
+glyn.a.collinson@nasa.gov
+
+Citation:
+
+Collinson, G. A., et al. (2016), The electric
+wind of Venus: A global and persistent
+
+“polar wind”-like ambipolar electric field
+sufficient for the direct escape of heavy
+ionospheric ions, Geophys. Res. Lett., 43,
+doi:10.1002/2016GL068327.
+
+Received 18 FEB 2016
+Accepted 4 APR 2016
+
+©2016. American Geophysical Union.
+All Rights Reserved.
+
+COLLINSON ET AL.
+
+The electric wind of Venus: A global and persistent
+“polar wind”-like ambipolar electric field sufficient
+for the direct escape of heavy ionospheric ions
+
+Glyn A. Collinson’’”?, Rudy A. Frahm’, Alex Glocer’, Andrew J. Coates”, Joseph M. Grebowsky',
+
+Stas Barabash”, Shawn D. Domagal-Goldman', Andrei Fedorov’’, Yoshifumi Futaana’, Lin K. Gilbert,
+George Khazanov', Tom A. Nordheim, David Mitchell?, Thomas E. Moore’, William K. Peterson’°,
+John D. Winningham’, and Tielong L. Zhang"!
+
+"NASA Goddard Space Flight Center, Greenbelt, Maryland, USA, *Mullard Space Science Laboratory, University College
+London, Surrey, UK, *Institute for Astrophysics and Computational Sciences, Catholic University of America, Washington,
+District of Columbia, USA, *Southwest Research Institute, San Antonio, Texas, USA, *Institutet for rymdfysik, Swedish
+Institute of Space Physics, Kiruna, Sweden, °L’Institut de Recherche en Astrophysique et Planétologie, CNRS, Toulouse,
+France, “University Paul Sabatier, Toulouse, France, °Jet Propulsion Laboratory, California Institute of Technology, Pasadena,
+California, USA, °Space Sciences Laboratory, University of California, Berkeley, California, USA, '°Laboratory for Atmospheric
+and Space Physics, Boulder, Colorado, USA, ''Space Research Institute, Austrian Academy of Sciences, Graz, Austria
+
+Abstract Understanding what processes govern atmospheric escape and the loss of planetary water is of
+paramount importance for understanding how life in the universe can exist. One mechanism thought to be
+important at all planets is an “ambipolar” electric field that helps ions overcome gravity. We report the discovery
+and first quantitative extraterrestrial measurements of such a field at the planet Venus. Unexpectedly, despite
+comparable gravity, we show the field to be five times stronger than in Earth’s similar ionosphere. Contrary to our
+understanding, Venus would still lose heavy ions (including oxygen and all water-group species) to space, even if
+there were no stripping by the solar wind. We therefore find that it is possible for planets to lose heavy ions to
+space entirely through electric forces in their ionospheres and such an “electric wind” must be considered when
+studying the evolution and potential habitability of any planet in any star system.
+
+1. Venus and the Polarization Electric Field
+
+Discovering what processes govern the evolution of atmospheres, and specifically the loss of planetary water
+and oxygen, is key to determining what makes planets habitable and is a driving science objective behind
+recent missions including the NASA Mars Atmosphere and Volatile EvolutioN (MAVEN) mission, the
+European Space Agency (ESA) Mars Express, and the ESA Venus Express. Of all other planets, Venus is in many
+respects the most Earth-like. Its atmosphere, however, is incredibly dry, with four to five orders of magnitude
+less water than Earth [De Bergh et al., 1991]. The high deuterium-to-hydrogen ratio [McElroy and Hunten, 1969;
+Donahue et al., 1982; De Bergh et al., 1991] is indicative that this was not always the case, and that Venus once
+had a substantial quantity of water [Donahue and Hodges, 1992; Hartle et al., 1996; Donahue, 1999], possibly
+even forming Earth-like oceans [Svedhem et al., 2007]. Although it is thought that Venus lost much of its water
+early in its history [Kulikov et al., 2006], one of the major early discoveries of the ESA Venus Express [Svedhem
+et al., 2009] mission was that the primary ion species escaping down the comet-like plasma tail were H* and
+O* ions in a water-like stoichiometric ratio of 2:1. Thus, regardless of the original water inventory, atmospheric
+escape mechanisms at Venus today appear to be far more effective at driving water and oxygen loss than at
+nearby Earth, with a comparable size and gravity. Without an intrinsic magnetic dipole field [Zhang et al.,
+2008; Bridge et al., 1967], the prevailing wisdom has been that atmospheric loss is dominated by mechanisms
+resulting from stripping by the solar wind [Dubinin et al., 2011]. However, one planetary-driven mechanism
+thought to play a supportive (but important) role in both atmospheric evolution [Barabash et al., 2007b;
+Dubinin et al., 2011], and the enrichment of light (H", D*) ion escape [Hartle and Grebowsky, 1990, 1993,
+1995; Barabash et al., 2007b] is that of a long hypothesized “ambipolar” electric field (also referred to as a
+“oolarization” electric field at Venus [Barabash et al., 2007b)).
+
+The ionosphere of any planet consists of ions and electrons in approximately equal numbers. In the absence
+of electrical forces, electrons, being three to four orders of magnitude lighter than ions, would easily escape
+
+VENUS HAS POTENTIAL 1
+QWAG U Geophysical Research Letters 10.1002/2016GL068327
+
+COLLINSON ET AL.
+
+Sketch showing the formation of the Electric Wind of Venus
+| i
+
+1.) Electron pressure 2.) lons feel the
+pushes outwards
+
+3.) Polarization electric fleld
+- forms to bind e toi*
+
+i’ are accelerated
+
+Figure 1. The induced magnetosphere of Venus and formation of the electric wind.
+
+the pull of gravity guided along the draped magnetic field. However, the Coulomb force restricts their motion
+away from the ions. As the electrons pull away, an ambipolar electric field forms to resist their separation, preventing a net charge from forming and satisfying quasineutrality (see Figure 1). The more energetic the electrons, the stronger the electric field must be to restrain them. “Superthermal” (1-70 eV) photoelectrons,
+generated by photoionization of the atmosphere, play an especially potent role in generating this field
+[Lemaire, 1972] even though they make up a small fraction of the total electron population [Khazanov et al.,
+1997]. The potential drop that results from this electric field assists terrestrial atmospheric escape [Moore
+et al., 1997] since it reduces the potential barrier required for heavier ions (such as O") to escape and accelerates
+light ions (such as H") to escape velocity. An identical physical process is also hypothesized to occur in the solar
+wind [Lemaire and Scherer, 1973] (and in the stellar winds from all stars [Scudder and Karimabadi, 2013]),
+although it is very difficult to measure and thus has remained theoretical. This potential drop is critical to the
+formation of Earth’s “polar wind,” which flows outward along open magnetic fields above our polar caps
+[Hanks and Holzer, 1968]. However, given that that the scientific term “polar wind” also encompasses other
+acceleration mechanisms, and that at an unmagnetized planet it would not be confined to the poles, we adopt
+the nomenclature of “electric wind” as a shorthand to refer to this specific mechanism: the ambipolar electric
+field, electric potential drop, and outflow of decelerated electrons and accelerated ions.
+
+Although vital to our understanding of the evolution of our atmosphere, this field is extremely challenging to
+measure given its small magnitude. The few attempts made to measure it in Earth’s ionosphere were only
+able to estimate an upper bound on the electric potential drop (i.e., the total drop below the observing spacecraft) of <2 V [Coates et al., 1985; Fung and Hoffman, 1991]. In addition to these weak ionospheric fields, larger
+(20 V) [Kitamura et al., 2012; Winningham and Gurgiolo, 1983; Wilson et al., 1997] parallel potential drops are
+frequently observed above spacecraft (i.e., between ~3800 km and infinity [Kitamura et al., 2012]). However,
+these higher-altitude potential drops occur entirely above the bulk of our ionosphere and are not to be confused with the ionospheric (<500 km) potential drops discussed in this study.
+
+Similarly, recent investigations of the ionospheric potential drop at other worlds (specifically Mars [Collinson
+et al., 2015] and Titan [Coates et al., 2015a] have also only been able to put an upper limit of <+2V due to
+instrumentational limitations and the field’s diminutive strength. Although an ambipolar electric potential
+has never been successfully measured in a planetary ionosphere, there is abundant indirect evidence for
+the presence of an electric wind at Venus. Hartle and Grebowsky [1990, 1993, 1995] theorized the presence
+of an ambipolar electric field from observations of escaping H" and D”, by the NASA Pioneer Venus
+
+VENUS HAS POTENTIAL 2
+QWAG U Geophysical Research Letters 10.1002/2016GL068327
+
+COLLINSON ET AL.
+
+15 1.5
+
+U/,
+
+se Ly _—_
+ee oe =a
+= ——
+
+0.5; 0.5;
+
+. S
+© ©
+o oO
+3 ot i
+< 0.0 < 0.0}
+) L o)
+> S
+N -0.5 > -0.5
+1oP ao 7------ 1oP aol 7-----_
+-1.5 -1.0 -0.5 0.0 0.5 1.0 1.5 -1.5 -1.0 -0.5 0.0 0.5 1.0 15
+X_.. (Venus Radii) X_.. (Venus Radii)
+
+VSO VSO
+
+Figure 2. Map of orbit Ne 357 of the ESA Venus Express in Venus Solar Orbital coordinates where X points toward the Sun, Y
+is perpendicular to X and points in the opposite direction to the planet's velocity vector, and Z completes the right-handed
+system pointing up out of the plane of the Cytherean ecliptic. The progress of the spacecraft is marked at 5 min intervals in
+Greenwich Mean Time. (a) x versus z view from the “side” of the planet, (b) x versus y, the “top down” view over the north
+geographic pole. Approximate locations of the bow shock [Slavin et al., 1980] (solid line) and ionopause [Martinecz et al.,
+2008] (dashed line) are included for orientation.
+
+Orbiter and presumed that this electric field dominated light ion escape. Additionally, the observation of hot
+superthermal photoelectrons (created in the dayside ionosphere [Coates et al., 2008] and observed in the
+magnetotail of Venus [Tsang et al., 2015; Coates et al., 2011, 2015b]) was also presented as indirect evidence
+that a “polar wind like” process may be occurring [Tsang et al., 2015; Coates et al., 2011, 2015b]. Similar outflows of photoelectrons and associated outflowing ions have also been observed in the induced magnetotails of Mars [Frahm et al., 2006, 2010; Coates et al., 2011] and Titan [Coates et al., 2007; Coates, 2009;
+Coates et al., 2011; Wellbrock et al., 2012; Coates et al., 2015a] and are also possibly indicative of ambipolar outflow. In addition, the photoelectron and escaping ion fluxes were used to estimate the relevant electric windrelated escape rates at Titan [Coates et al., 2012], Mars [Frahm et al., 2010], and Venus [Coates et al., 2015b].
+
+Although an electric potential drop should theoretically occur at any planet or moon with an atmosphere,
+without an understanding of the magnitude of the potential, it is not possible to determine the role and relative importance that the electric wind plays in atmospheric escape.
+
+2. Measuring the Electric Potential of a Planet
+
+The ionosphere of Venus is a rich source of hot photoelectrons [Coates et al., 2008], which were observed
+escaping down the plasma tail on practically every orbit of the European Space Agency’s (ESA) Venus
+Express at altitudes of up to 2.3 Venus radii (r,) [Coates et al., 2015b]. Photoelectrons are key to both the generation and measurement of the electric wind. The energy spectra of Cytherean photoelectrons exhibit bright
+spectral peaks resulting from the photoionization of atomic oxygen by ultraviolet (He-Il 30.4nm) photons
+including two peaks at 22.3 eV and 23.7 eV, resolved by our instrument as a single merged peak at 23 eV
+[Coates et al., 2008, 2011], in addition to a third peak at 27.2 eV. The energy of photopeaks is dictated by atomic
+physics. Therefore, any observed shift in their energy can be used to determine the presence, polarity, and magnitude of an external electric potential drop between the ionosphere where the photoelectrons are generated
+and the detector onboard the spacecraft [Coates et al., 1985, 2015a; Collinson et al., 2015].This potential drop has
+two components: one associated with the electric wind and the other due to spacecraft charging.
+
+To measure the strength of the electric wind using the ESA Venus Express, we therefore require the following:
+(1) The spacecraft must be in the right location: on an open magnetic field line connected to both the solar
+wind and ionosphere. (2) The spacecraft must carry an electron spectrometer capable of resolving any shift in
+known spectral features. (3) The spacecraft must carry a magnetometer so that electrons can be binned by
+
+VENUS HAS POTENTIAL 3
+AG U Geophysical Research Letters
+
+COLLINSON ET AL.
+
+Altitude
+1500F y Region
+of
+
+Altitude (km)
+
+13.06
+
+lonospheric
+EPhotoelectrons 12.19
+
+Energy (eV)
+
+11.31
+
+al *.
+ee Sa
+
+iuboan et Ay Cth i eee an 10.44
+
+q =
+88
+25
+25
+ne oO
+_ 180 a
+2. 135ETailwards fe)
+<—
+£2 90 x a
+oO & 45 Planetwards o
+O—E | yi Lu
+
+06:10:00 06:13:00 06:16:00 06:19:00 06:22:00 06:25:00
+Greenwich Mean Time (GMT)
+
+Figure 3. Magnetic and particle observations from the ESA Venus Express on
+13 April 2007. (a) Spacecraft altitude for context, (b) magnetic observations
+from the Venus Express Magnetometer, and (c) ASPERA-ELS electron
+spectrogram (time versus energy), with the color scale showing the log of
+the differential energy flux, integrated over all 16 anodes; spacecraft
+potential measured from the spacecraft charging line, providing a known
+and stable electrostatic environment during the region of interest; and the
+pitch angle of ELS anodes 14 and 6, showing a fortuitously good and stable
+pitch angle coverage during the region of interest.
+
+10.1002/2016GL068327
+
+“oitch angle” (the angle of observation relative to the magnetic field),
+so that we examine only fieldaligned electrons coming from the
+ionospheric source. (4) We require a
+measurement of the electrostatic
+potential due to spacecraft charging
+in order to determine what portion
+of the observed potential drop is
+due to the electric wind. (5) The
+Spacecraft potential must remain
+constant for the 60s integration
+required to gain sufficient counting
+Statistics with our instrument.
+
+3. Evidence for an Electric
+Potential: Orbit No 357
+
+Figure 2 shows a map of orbit Ne
+357, representing our current best
+example satisfying our measurement criteria, and Figure 3 shows
+Venus Express co-incident observations from near periapsis. The spacecraft, orbiting in a highly elliptical
+24h polar orbit, was flying on a
+midnight-midday pass with periapsis in the ionosphere over the north
+geographic pole. Shortly after the
+Venus Express flew into daylight
+there was a brief window (06:15
+Greenwich Mean Time (GMT) to
+06:17 GMT) where it was possible to
+make a _ direct measurement of
+electric potential drop at Venus.
+This region of interest was additionally fortuitous in that magnetic conditions (Figure 3b) were calm, resulting
+in stable magnetic connectivity to the
+same approximate region of the
+ionosphere during our electron
+observations. Before 06:14 GMT, the
+only particles measured by the
+Analyser of Space Plasmas and
+Energetic Atoms (ASPERA-4) Electron
+Spectrometer (ELS) [Barabash et al.,
+
+2007a; Collinson et al., 2009] (Figure 3c) were a hot population of shocked solar wind electrons. At lower
+altitudes (>06:19 GMT) this population disappears, indicating that the spacecraft was no longer in magnetic connection to the solar wind, and instead ELS measured solely ionospheric photoelectrons with the He-Il photopeak
+visible as a line in the spectrogram (Figure 3c). This photoelectron population is highly typical in terms of spectral
+features and flux [Cui et al., 2011]. In the region of interest, both populations are observed, and therefore the Venus
+Express was in the right place, with the right magnetic connection to both ionosphere and solar wind, to observe
+
+the electric wind.
+
+VENUS HAS POTENTIAL
+QWAG U Geophysical Research Letters
+
+COLLINSON ET AL.
+
+ELS Anode 14: 06:15 to 06:16
+
+Spacecraft
+
+10.1002/2016GL068327
+
+Between 06:14 and 06:19 GMT, we
+observe a spacecraft charging line
+from which we may determine the
+
+charging line
+S :
+_ Photopeak electrostatic potential of the space
+=> measured craft Vlohnstone et al., 1997]. Any
+1 « (12.4eV) Photopeak
+on : Formation electron with energy below the
+© 4 spacecraft potential is accelerated,
+ihe . ,
+a.” resulting in a sharp cutoff in the specS& trum. Therefore, the energy of this
+Y Oo
+23 cutoff directly corresponds to the
+af spacecraft potential. In the region of
+interest, this held stable for 2 min,
+10° Corrected permitting two 60s_ integrations
+0. 10 50 30 A0 using the ASPERA-4 ELS. Anode 14
+Energy (eV) was selected to measure the electric
+ELS Anode 14: 06:16 to 06:17 wind on the grounds that it had an
+unimpeded field of view, was looking
+Spacecraft
+eal ing line planetward (see Figure 3d), and had
+_ ; measured excellent pitch angle coverage to
+> } + Photopeak
+= 2 Foopea observe photoelectrons outflowing
+ie : from the ionosphere.
+® 310% |
+ii ho Figure 4 shows the results of these
+Ba two ASPERA-4 ELS __ integrations.
+D 5 Original uncorrected spectra as meaoO Ww ;
+= St sured at Venus are shown in red.
+~~ : Final spectra corrected for the +6V
+“some : spacecraft potential (using Liouville’s
+10° :_ Potential: orrected theorem; see Section $1 in the sup
+0 10 20 30 40
+Energy (eV)
+
+porting information) are shown in
+blue. Having corrected the spectra
+
+Figure 4. Corrected and uncorrected electron spectra from the region of we may now examine the He-Il photo
+interest from ELS anode 14, showing key spectral features and the final peak for any shift and find that
+12.4 eV spectral shift resulting from a 10.6 V electric potential drop below although it must have been generthe ESA Venus Express. (a) First ELS integration. (b) Second integration. ated in the ionosphere at 23 eV, it
+
+arrived at the spacecraft at 12.4 eV.
+We thus find that these ionospheric photoelectrons have been retarded by a significant planetary electric
+
+potential of Dyenus = 10.6 V.
+
+Although the electrons have lost energy, such an electric potential would impart +10.6 eV to all planetary
+ions. This is sufficient to counter the gravitational binding energy of even an O” ion and directly accelerate
+it to escape velocity. Although the ASPERA plasma suite carried an lon Mass Analyzer (IMA) [Barabash
+et al., 2007a], taking into account the spacecraft potential, the lowest energy that IMA could see in the region
+of interest was 18 eV and the peak of a 10.6 eV ion distribution would be below its reach. Although their
+populations could not be fully resolved (full details of ASPERA-IMA observations can be found in
+Section $2), clear evidence for cold outflowing ionospheric O* and H™ ions was observed on orbit Ne 357.
+
+4. A Persistent, Global Feature
+
+In order to see if this potential drop was typical, we searched for more instances of the electron spectral conditions required for measurement: specifically, the confluence of solar wind, photoelectrons, and stable
+spacecraft charging line. Venus Express spends only 5 to 10 min out of each 24h orbit in a region where it
+might even be theoretically possible to observe the electric wind. This necessitated a search through two
+earth-years of data, from which we identified 14 regions of interest, from six orbits, full details of which are
+shown in Table 1. Although the electric wind could only be measured occasionally, we found that (a) any time
+
+VENUS HAS POTENTIAL 5
+QWAG U Geophysical Research Letters
+
+COLLINSON ET AL.
+
+10.1002/2016GL068327
+
+Table 1. Collected Venus Express Measurements of the Total Electric Potential Drop*
+
+Date of Observation Start of Region of Interest (GMT) Altitude (km) Photopeak Energy (eV) Potential Drop (V)
+2007-03-29 06:27:00 550 km 11.5 eV 11.5V
+2007-04-13 06:15:00 629 km 12.4 eV 10.6 V
+06:16:00 532 km 12.4 eV 10.6 V
+2007-12-05 02:40:00 353 km 12.4 eV 10.6 V
+2008-02-04 04:45:00 349 km 13.5 eV 9.5V
+04:46:00 420 km 12.4 eV 10.6 V
+04:47:00 514 km 13.5 eV 9.5V
+04:48:00 628 km 13.5 eV 9.5V
+04:49:00 763 km 14.6 eV 8.4V
+2008-03-31 04:05:30 450 km 15.8 eV 7.2V
+2008-04-08 03:56:00 335 km 12.4 eV 10.6 V
+03:57:00 382 km 13.5 eV 9.5V
+03:58:00 453 km 12.4 eV 10.6 V
+03:59:00 545 km 13.5 eV 9.5V
+Mean: 493 km 13.1 eV 9.9+1.1V
+
+“Times denote the beginning of a 60 s ASPERA-4 ELS integration; altitude denotes the minimum altitude of the spacecraft during the measurement. The energy is that of the He-Il generated photoelectron peak, corrected for spacecraft
+potential, and the potential is that of the total integrated potential drop below the spacecraft.
+
+it was possible to measure an electric potential drop, one was observed, and (b) the magnitude of this drop
+was very consistent, with a mean value of Dyenys = +9.9 V+ 1.1 V.
+
+Figure 5 shows a map of the location where these observations occurred. We find that this force drives escape
+from all electric latitudes, whereas at magnetized planets, it is confined to the magnetic poles. For each orbit we
+sampled data from the solar wind as near to the region of interest possible (the standard technique when no
+second spacecraft is available [Collinson et al., 2014]), finding no evidence for any bias in upstream conditions.
+Given this, and the consistency in its strength, our collected observations indicate that the electric wind is a persistent, stable, and global phenomenon, flowing tailward from behind the entire terminator.
+
+5. The Importance of the Electric Wind
+
+Contrary to all expectations [Hartle and Grebowsky, 1993], the electric potential drop in the ionosphere of Venus
+is at least five times greater than the upper limits we have in Earth’s topside ionosphere [Coates et al., 1985; Fung
+and Hoffman, 1991]. Although parallel electric potentials of comparable magnitude have been observed at
+Earth [Kitamura et al., 2012; Winningham and Gurgiolo, 1983; Wilson et al., 1997], all occur at much higher altitudes (3800 km — infinity) [Kitamura et al., 2012], far above the bulk of the terrestrial ionosphere where they
+cannot directly act upon ionospheric particles. We therefore discover that it is possible for two terrestrial planets
+with similar sizes, surface gravities, and ionospheres [Brace et al., 1983] to have significantly different polarization electric fields. Based on models developed for Earth [Khazanov et al., 1997], we speculate that one possible
+contributing factor in explaining its unexpected strength may be a higher proportion of photoelectrons at
+Venus due to its closer distance to the Sun and higher photoionization rates. The greater the admixture of
+photoelectrons, the greater the electric field needs to be to restrain then and satisfy quasineutrality. For a
+first-order approximation of this ratio at Venus, we used a model derived from the NASA Pioneer Venus
+Orbiter Langmuir probe measurements [Theis et al., 1980] to estimate thermal electron densities. When compared to superthermal densities measured by ASPERA-ELS, it corresponds to a ratio between 0.1 and 1%.
+This would be a very high fraction for Earth [Khazanov and Liemohn, 1996], and according to Khazanov et al.
+[1997], this would translate to a potential drop of approximately 7 V. This is reasonably consistent with our
+measurements and supports our hypothesis that the higher admixture of superthermal electrons at Venus is
+a contributor to the enhancement of the polarization electric field. For full details of how this approximation
+was made, see Section S3, and for the source code of the Theis et al. [1980] model (converted into IDL from
+the original Fortran), see Section S4.
+
+The first measurement of an ionospheric ambipolar potential drop is noteworthy, but the unexpected discovery that its magnitude can be so large has profound implications for our understanding of atmospheric loss
+processes for all planets. Whilst other loss mechanisms are present [Dubinin et al., 2011], the newly discovered
+
+VENUS HAS POTENTIAL 6
+QWAG U Geophysical Research Letters 10.1002/2016GL068327
+
+Acknowledgments
+
+The ASPERA-4 team are grateful to
+NASA for allowing the ELS flight spare
+(constructed under contract NASW00003) to be flown on the Venus Express
+as part of the ASPERA-4 suite. This work
+was supported by NASA Solar System
+Workings Program grant NNX15A176G.
+We thank Rhiannon Shelagh Lewis for
+her assistance in initiating this investigation. Venus Express data are available
+from the ESA Planetary Science Archive.
+
+COLLINSON ET AL.
+
+1 8 g 10 11 12 electric potential is quite sufficient all
+by itself for any ion lighter than
+18 amu (which includes O* and all
+water group ions) to overcome gravity and be directly accelerated to
+escape velocities. Thus we find that
+it is possible for planets to lose heavy
+ions to space entirely through electrical forces in their ionospheres
+and that ambipolar fields can play
+an even more dominant role in planetary atmospheric escape than previously considered. We also find that,
+contrary to our current understanding, Venus would still lose heavy ions
+
+such as O* to space regardless of any
+© atmospheric stripping by the solar
+wind. Additionally, however, the
+electric wind will further enhance
+these other escape processes (such
+as pickup and acceleration by the
+motional electric field of the solar
+wind) by transporting ions from the
+bulk of the ionosphere (150km
+[Brace et al., 1983]) to the ionopause
+(300+ km [Martinecz et al., 2008]) and
+above, where these solar wind dri
+Potential drop below Venus Express (V)
+
+1.0
+
+0.0
+
+1.0 -0.5 0.0 0.5 1.0
+Y¥ (1)
+
+V ven mechanisms can take effect.
+
+Thus, given their importance,
+Figure 5. Map of where the total electric potential drop has been measured,
+
+, ; ; felds m
+in Venus Solar Electric coordinates where X points toward the Sun, Y is rotated lonieaprienie amnolpolar ° as ust
+to lie in the plane of the interplanetary magnetic field, and Z completes the therefore always be included in any
+right-handed system. Units are Venus radii (r,). study of the atmospheric evolution
+
+of Venus, Earth, Mars, Titan, or
+indeed any planet in any star system.
+
+The discovery of a powerful electric wind at Venus, an Earth-like terrestrial planet, also has important consequences for the study of exoplanets by missions such as Kepler. If, for example, the electric potential drop in
+Earth’s (or another Earth-like planet’s) ionosphere was a Venus-like +12 V, then a similar direct loss of heavy
+ions would likely occur, regardless of the presence or absence of a planetary dynamo magnetic field, leading
+to higher rates of loss. Significant changes to planetary escape rates could impact the ability of a planet to
+retain an atmosphere [Zahnle and Catling, 2013; Cohen and Glocer, 2012] and maintain liquid water oceans
+and increase the likelihood that a planet loses its oceans during the moist greenhouse phase [Chassefieére,
+1997]. Such a strong escape mechanism could also impact the redox evolution of a planetary surface
+[Caitling et al., 2001]. Given that we believe Venus’ stronger polarization field may arise from its closer proximity to the Sun, and that most known exoplanets have been found relatively close to their stars (since these
+are easier to detect), the possibility of a strong electric wind must be considered when assessing planetary
+evolution or the potential for habitability on exoplanets.
+
+References
+
+Barabash, S., et al. (2007a), The Analyser of Space Plasmas and Energetic Atoms (ASPERA-4), Planet. Space Sci., 55, 1772-1792.
+
+Barabash, S., et al. (2007b), The loss of ions from Venus through the plasma wake, Nature, 450, 650-653.
+
+Brace, L. H., H. A. Taylor Jr., T. |. Gombosi, A. J. Kliore, W. C. Knudsen, and A. F. Nagy (1983), The ionosphere of Venus: Observations and their
+interpretation, in Venus, edited by D. M. Hunten et al., pp. 779-840, Univ. of Ariz. Press, Tuscon, Ariz.
+
+Bridge, H. S., A. J. Lazarus, C. W. Snyder, E. J. Smith, L. Davis Jr., P. J. Coleman Jr., and D. E. Jones (1967), Mariner V: Plasma and magnetic fields
+observed near Venus, Science, 158, 1669-1673.
+
+VENUS HAS POTENTIAL 7
+QWAG U Geophysical Research Letters 10.1002/2016GL068327
+
+COLLINSON ET AL.
+
+Caitling, D. C., K. J. Zahnle, and C. P. McKay (2001), Biogenic methane, hydrogen escape, and the irreversible oxidation of early Earth, Science,
+293, 839-843.
+
+Chassefiére, E. (1997), Loss of water on the young Venus: The effect of a strong primitive solar wind, Icarus, 126(1), 229-232.
+
+Coates, A. J. (2009), Interaction of Titan’s ionosphere with Saturn’s magnetosphere, Philos. Trans. R. Soc. A, 367, 773-788.
+
+Coates, A. J., A. D. Johnstone, J. J. Sojka, and G. L. Wrenn (1985), lonospheric photoelectrons observed in the magnetosphere at distances up
+to 7 Earth radii, Planet. Space Sci., 11, 1267-1275.
+
+Coates, A. J., F. J. Crary, D. T. Young, K. Szego, C. S. Arridge, Z. Bebesi, E. C. Sittler Jr., R. E. Hartle, and T. W. Hill (2007), lonospheric electrons in
+Titan’s tail: Plasma structure during the Cassini T9 encounter, Geophys. Res. Lett., 34, L24S05, doi:10.1029/2007GL030919.
+
+Coates, A. J., et al. (2008), lonospheric photoelectrons at Venus: Initial observations by ASPERA-4 ELS, Planet. Space Sci., 56, 802-806.
+
+Coates, A. J.,S. M.E. Tsang, A. Wellbrock, R. A. Frahm, J.D. Winningham, S. Barabash, R. Lundin, D. T. Young, and F. J. Crary (2011), lonospheric
+photoelectrons: Comparing Venus, Earth, Mars and Titan, Planet. Space Sci., 59, 1019-1027.
+
+Coates, A. J., et al. (2012), Cassini in Titan’s tail: CAPS observations of plasma escape, J. Geophys. Res., 117, A05324, doi:10.1029/2012JA017595.
+
+Coates, A. J., A. Wellbrock, J. H. Waite, and G. H. Jones (2015a), A new upper limit to the field-aligned potential near Titan, Geophys. Res. Lett.,
+42, 4676-4684, doi:10.1002/2015GL064474.
+
+Coates, A. J., A. Wellbrock, R. A. Frahm, J. D. Winningham, A. Fedorov, S. Barabash, and R. Lundin (2015b), Distant ionospheric photoelectron
+energy peak observations at Venus, Planet. Space Sci., 113-114, 378-384.
+
+Cohen, O., and A. Glocer (2012), Ambipolar electric field, photoelectrons, and their role in atmospheric escape from hot Jupiters, Astrophys. J.
+Lett., 753, L4.
+
+Collinson, G. A., et al. (2009), Electron optical study of the Venus Express ASPREA-4 Electron Spectrometer (ELS) top-hat electrostatic analyser,
+Meas. Sci. Technol., 20, 055204.
+
+Collinson, G. A., et al. (2014), The extension of ionospheric holes into the tail of Venus, J. Geophys. Res. Space Physics, 119, 6940-6953,
+doi:10.1002/2014JA019851.
+
+Collinson, G. A., et al. (2015), Electric Mars: The first direct measurement of an upper limit for the Martian “polar wind” electric potential,
+Geophys. Res. Lett., 42, 9128-9134, doi:10.1002/2015GL065084.
+
+Cui, J., M. Galand, A. J. Coates, T. L. Zhang, and I. C. F. Muller-Wodarg (2011), Suprathermal electron spectra in the Venus ionosphere,
+
+J. Geophys. Res., 116, A04321, doi:10.1029/2010JA016153.
+
+De Bergh, C., B. Bézard, T. Owen, D. Crisp, J.-P. Maillard, and B. L. Lutz (1991), Deuterium on Venus: Observations From Earth, Science, 251,
+547-549.
+
+Donahue, T. M. (1999), New analysis of hydrogen and deuterium escape from Venus, Icarus, 141, 226-235.
+
+Donahue, T. M., and R. R. Hodges (1992), Past and present water budget of Venus, J. Geophys. Res., 97, 6083-6091, doi:10.1029/92JE00343.
+
+Donahue, T. M., J. H. Hoffman, R. R. Hodges Jr., and A. J. Watson (1982), Venus was wet: A measurement of the ratio of deuterium to hydrogen,
+Science, 216, 630-633.
+
+Dubinin, E., M. Fraenz, A. Fedorov, R. Lundin, N. Edberg, F. Duru, and O. Vaisberg (2011), lon energization and escape on Mars and Venus,
+Space Sci. Rev., 162, 173-211.
+
+Frahm, R. A., et al. (2006), Locations of atmospheric photoelectron energy peaks within the Mars environment, Space Sci. Rev., 126, 389-402.
+
+Frahm, R. A., et al. (2010), Estimation of the escape of photoelectrons from Mars in 2004 liberated by the ionization of carbon dioxide and
+atomic oxygen, /carus, 206, 50-63.
+
+Fung, S. F., and R. A. Hoffman (1991), A search for parallel electric fields by observing secondary electrons and photoelectrons in the lowaltitude auroral zone, J. Geophys. Res., 96, 3533-3548, doi:10.1029/90JA02244.
+
+Hanks, P. M., and T. E. Holzer (1968), The polar wind, J. Geophys. Res., 73, 6846-6854, doi:10.1029/JA073i021p06846.
+
+Hartle, R. E., and J. M. Grebowsky (1990), Upward ion flow in ionospheric holes on Venus, J. Geophys. Res., 95, 31-37, doi:10.1029/
+JAO095iA01p00031.
+
+Hartle, R. E., and J. M. Grebowsky (1993), Light ion flow in the nightside ionosphere of Venus, J. Geophys. Res., 98, 7437-7445, doi:10.1029/
+93JE00399.
+
+Hartle, R. E., and J. M. Grebowsky (1995), Planetary loss from light ion escape on Venus, Adv. Space Res., 15(4), 117-122.
+
+Hartle, R. E., et al. (1996), Hydrogen and deuterium in the thermosphere of Venus: Solar cycle variations and escape, J. Geophys. Res., 101, 4325-4538.
+
+Johnstone, A. D., et al. (1997), PEACE: A Plasma Electron and Current Experiment, Space Sci. Rev., 79, 351-398.
+
+Khazanov, G. V., and M. W. Liemohn (1996), Nonsteady state ionosphere-plasmasphere coupling of superthermal electrons, J. Geophys. Res.,
+100, 9669-9681, doi:10.1029/95JA00526.
+
+Khazanov, G. V., M. W. Liemohn, and T. E. Moore (1997), Photoelectron effects on the self-consistent potential in the collisionless polar wind,
+J. Geophys. Res., 102, 7509-7521, doi:10.1029/96JA03343.
+
+Kitamura, N., K. Seki, Y. Nishimura, N. Terada, T. Ono, T. Hori, and R. J. Strangeway (2012), Photoelectrons flows in the polar wind during
+geomagnetically quiet periods, J. Geophys. Res., 117, A07214, doi:10.1029/201 1JA017459.
+
+Kulikov, Y. N., et al. (2006), Atmospheric and water loss from early Venus, Planet. Space Sci., 54, 1425-1444.
+
+Lemaire, J. (1972), Effect of escaping photoelectrons in a polar exospheric model, in Space Research XII, pp. 1413-1416, Akademie-Verlag, Berlin.
+
+Lemaire, J., and M. Scherer (1973), Kinetic models of the solar and polar winds, Rev. Geophys. Space Phys., 11(2), 427-468.
+
+Martinecz, C., et al. (2008), Location of the bow shock and ion composition boundaries at Venus—lInitial determinations from Venus Express
+ASPERA-4, Planet. Space Sci., 56, 780-784.
+
+McElroy, M. B., and D. M. Hunten (1969), The ratio of deuterium to hydrogen in the Venus atmosphere, J. Geophys. Res., 74, 1720-1739,
+doi:10.1029/JA074i007p01 720.
+
+Moore, T. E., et al. (1997), High-altitude observations of the polar wind, Science, 227, 349-351.
+
+Scudder, J. D., and H. Karimabadi (2013), Ubiquitous non-thermals in astrophysical plasmas: Restating the difficulty of maintaining
+Maxwellians, Astrophys. J., 26, 770.
+
+Slavin, J. A., R. C. Elphic, C. T. Russell, F. L. Scarf, J. H. Wolfe, J.D. Mihalov, D. S. Intriligator, L. H. Brace, H. A. Taylor Jr., and R. E. Daniell Jr. (1980),
+The solar wind interaction with Venus: Pioneer Venus observations of bow shock location and structure, J. Geophys. Res., 85, 7625-7641,
+doi:10.1029/JA085iA13p07625.
+
+Svedhem, H., D. V. Titov, F. W. Taylor, and O. Witasse (2007), Venus as a more Earth-like planet, Nature, 450, 629-632.
+
+Svedhem, H., D. Titov, F. Taylor, and O. Witasse (2009), Venus Express mission, J. Geophys. Res., 114, E00B33, doi:10.1029/2008JE003290.
+
+Theis, R. F., L. H. Brace, and H. G. Mayr (1980), Empirical models of the electron temperature and density in the Venus ionosphere, J. Geophys.
+Res., 85, 7787-7794, doi:10.1029/JA085iA13p07787.
+
+Tsang, S. M. E., A. J. Coates, G. H. Jones, R. A. Frahm, J. D. Winningham, S. Barabash, R. Lundin, and A. Fedorov (2015), lonospheric photoelectrons at Venus: Case studies and first observation in the tail, Planet. Space Sci., 113-114, 385-394.
+
+VENUS HAS POTENTIAL 8
+QWAG U Geophysical Research Letters 10.1002/2016GL068327
+
+COLLINSON ET AL.
+
+Wellbrock, A., A. J. Coates, I. Sillanpaa, G. H. Jones, C. S. Arridge, G. R. Lewis, D. T. Young, F. J. Crary, and A. D. Aylward (2012), Cassini observations of ionospheric photoelectrons at large distances from Titan: Implications for Titan’s exospheric environment and magnetic tail,
+J. Geophys. Res., 117, A03216, doi:10.1029/2011JA017113.
+
+Wilson, G. R., G. Khazanov, and J. L. Horwitz (1997), Achieving zero current for polar wind outflow on open flux tubes subjected to large
+photoelectron fluxes, Geophys. Res. Lett., 24, 1183-1186, doi:10.1029/97GL00923.
+
+Winningham, J. D., and C. Gurgiolo (1983), DE-2 Photoelectron measurements consistent with a large scale parallel electric field over the
+polar cap, Geophys. Res. Lett., 9, 977-979, doi:10.1029/GLO09i009p00977.
+
+Zahnle, K. J., and D. C. Catling (2013), The cosmic shoreline, in 44th Lunar and Planetary Science Conference, LPI Contrib. 1719, p. 2787,
+The Woodlands, Tex.
+
+Zhang, T.L., et al. (2008), Induced magnetosphere and its outer boundary at Venus, J. Geophys. Res., 113, EOOB20, doi:10.1029/2008JE003215.
+
+VENUS HAS POTENTIAL 9

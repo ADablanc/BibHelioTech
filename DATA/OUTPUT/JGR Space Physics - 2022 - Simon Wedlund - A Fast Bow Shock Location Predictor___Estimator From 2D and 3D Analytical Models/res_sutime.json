@@ -1,0 +1,579 @@
+[
+    {
+        "end": 3021,
+        "start": 3008,
+        "text": "20:14 - 20:21",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:14",
+            "end": "T20:21"
+        }
+    },
+    {
+        "end": 6507,
+        "start": 6490,
+        "text": "22 September 2014",
+        "timex-value": "2014-09-22",
+        "type": "DATE",
+        "value": "2014-09-22"
+    },
+    {
+        "end": 11520,
+        "start": 11489,
+        "text": "November 2014 and February 2021",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11",
+            "end": "2021-02"
+        }
+    },
+    {
+        "end": 15308,
+        "start": 15289,
+        "text": "1997-02",
+        "timex-value": "1997-02",
+        "type": "DATE",
+        "value": "1997-02"
+    },
+    {
+        "end": 15383,
+        "start": 15364,
+        "text": "1997-02",
+        "timex-value": "1997-02",
+        "type": "DATE",
+        "value": "1997-02"
+    },
+    {
+        "end": 15459,
+        "start": 15446,
+        "text": "20:04 - 20:08",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:04",
+            "end": "T20:08"
+        }
+    },
+    {
+        "end": 15637,
+        "start": 15624,
+        "text": "20:08 - 20:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:08",
+            "end": "T20:15"
+        }
+    },
+    {
+        "end": 17099,
+        "start": 17066,
+        "text": "from 31 July 2013 to 17 June 2015",
+        "type": "DURATION",
+        "value": {
+            "begin": "2013-07-31",
+            "end": "2015-06-17"
+        }
+    },
+    {
+        "end": 17207,
+        "start": 17176,
+        "text": "from 18 June 2015 to 4 May 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2015-06-18",
+            "end": "2017-05-04"
+        }
+    },
+    {
+        "end": 17918,
+        "start": 17898,
+        "text": "the end of the 1970s",
+        "timex-value": "197X",
+        "type": "DATE",
+        "value": "197X"
+    },
+    {
+        "end": 20159,
+        "start": 20136,
+        "text": "the years 20:04 - 20:17",
+        "type": "DURATION",
+        "value": {
+            "end": "T20:17"
+        }
+    },
+    {
+        "end": 21070,
+        "start": 21057,
+        "text": "20:04 - 20:15",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:04",
+            "end": "T20:15"
+        }
+    },
+    {
+        "end": 21869,
+        "start": 21856,
+        "text": "20:05 - 20:16",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:05",
+            "end": "T20:16"
+        }
+    },
+    {
+        "end": 22479,
+        "start": 22446,
+        "text": "between October 2014 and May 2016",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-10",
+            "end": "2016-05"
+        }
+    },
+    {
+        "end": 35422,
+        "start": 35398,
+        "text": "November 2014\u2014April 2017",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11",
+            "end": "2017-04"
+        }
+    },
+    {
+        "end": 56106,
+        "start": 56067,
+        "text": "between November 2014 and February 2021",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11",
+            "end": "2021-02"
+        }
+    },
+    {
+        "end": 57495,
+        "start": 57483,
+        "text": "23 June 2018",
+        "timex-value": "2018-06-23",
+        "type": "DATE",
+        "value": "2018-06-23"
+    },
+    {
+        "end": 57509,
+        "start": 57504,
+        "text": "01:00",
+        "timex-value": "T01:00",
+        "type": "TIME",
+        "value": "T01:00"
+    },
+    {
+        "end": 58250,
+        "start": 58226,
+        "text": "2014-10-10 to 2021-01-21",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-10-10",
+            "end": "2021-01-21"
+        }
+    },
+    {
+        "end": 58552,
+        "start": 58509,
+        "text": "between 1 November 2014 and 7 February 2021",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11-01",
+            "end": "2021-02-07"
+        }
+    },
+    {
+        "end": 60020,
+        "start": 60015,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 60026,
+        "start": 60021,
+        "text": "13:00",
+        "timex-value": "T13:00",
+        "type": "TIME",
+        "value": "T13:00"
+    },
+    {
+        "end": 60044,
+        "start": 60027,
+        "text": "14:00 Dec 25 2014",
+        "timex-value": "2022-12-25T14:00",
+        "type": "TIME",
+        "value": "2022-12-25T14:00"
+    },
+    {
+        "end": 60111,
+        "start": 60106,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 60117,
+        "start": 60112,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 60123,
+        "start": 60118,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 60147,
+        "start": 60124,
+        "text": "Sep 23 2016-Sep 24 2016",
+        "type": "DURATION",
+        "value": {
+            "begin": "2016-09-23",
+            "end": "2016-09-24"
+        }
+    },
+    {
+        "end": 60168,
+        "start": 60163,
+        "text": "02:00",
+        "timex-value": "T02:00",
+        "type": "TIME",
+        "value": "T02:00"
+    },
+    {
+        "end": 60174,
+        "start": 60169,
+        "text": "03:00",
+        "timex-value": "T03:00",
+        "type": "TIME",
+        "value": "T03:00"
+    },
+    {
+        "end": 60180,
+        "start": 60175,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 60186,
+        "start": 60181,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 60192,
+        "start": 60187,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 60198,
+        "start": 60193,
+        "text": "07:00",
+        "timex-value": "T07:00",
+        "type": "TIME",
+        "value": "T07:00"
+    },
+    {
+        "end": 60204,
+        "start": 60199,
+        "text": "08:00",
+        "timex-value": "T08:00",
+        "type": "TIME",
+        "value": "T08:00"
+    },
+    {
+        "end": 60210,
+        "start": 60205,
+        "text": "02:00",
+        "timex-value": "T02:00",
+        "type": "TIME",
+        "value": "T02:00"
+    },
+    {
+        "end": 60216,
+        "start": 60211,
+        "text": "03:00",
+        "timex-value": "T03:00",
+        "type": "TIME",
+        "value": "T03:00"
+    },
+    {
+        "end": 60222,
+        "start": 60217,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 60228,
+        "start": 60223,
+        "text": "05:00",
+        "timex-value": "T05:00",
+        "type": "TIME",
+        "value": "T05:00"
+    },
+    {
+        "end": 60234,
+        "start": 60229,
+        "text": "06:00",
+        "timex-value": "T06:00",
+        "type": "TIME",
+        "value": "T06:00"
+    },
+    {
+        "end": 60240,
+        "start": 60235,
+        "text": "07:00",
+        "timex-value": "T07:00",
+        "type": "TIME",
+        "value": "T07:00"
+    },
+    {
+        "end": 60246,
+        "start": 60241,
+        "text": "08:00",
+        "timex-value": "T08:00",
+        "type": "TIME",
+        "value": "T08:00"
+    },
+    {
+        "end": 60268,
+        "start": 60257,
+        "text": "Mar 28 2020",
+        "timex-value": "2020-03-28",
+        "type": "DATE",
+        "value": "2020-03-28"
+    },
+    {
+        "end": 60522,
+        "start": 60506,
+        "text": "25 December 2014",
+        "timex-value": "2014-12-25",
+        "type": "DATE",
+        "value": "2014-12-25"
+    },
+    {
+        "end": 60691,
+        "start": 60654,
+        "text": "23 September 2016 - 24 September 2016",
+        "type": "DURATION",
+        "value": {
+            "begin": "2016-09-23",
+            "end": "2016-09-24"
+        }
+    },
+    {
+        "end": 60800,
+        "start": 60788,
+        "text": "23 June 2018",
+        "timex-value": "2018-06-23",
+        "type": "DATE",
+        "value": "2018-06-23"
+    },
+    {
+        "end": 60865,
+        "start": 60852,
+        "text": "28 March 2020",
+        "timex-value": "2020-03-28",
+        "type": "DATE",
+        "value": "2020-03-28"
+    },
+    {
+        "end": 69906,
+        "start": 69893,
+        "text": "December 2014",
+        "timex-value": "2014-12",
+        "type": "DATE",
+        "value": "2014-12"
+    },
+    {
+        "end": 70305,
+        "start": 70291,
+        "text": "September 2016",
+        "timex-value": "2016-09",
+        "type": "DATE",
+        "value": "2016-09"
+    },
+    {
+        "end": 70593,
+        "start": 70570,
+        "text": "between 22:00 and 01:00",
+        "type": "DURATION",
+        "value": {
+            "begin": "T22:00",
+            "end": "T01:00"
+        }
+    },
+    {
+        "end": 70741,
+        "start": 70726,
+        "text": "03:30 and 04:45",
+        "type": "DURATION",
+        "value": {
+            "begin": "T03:30",
+            "end": "T04:45"
+        }
+    },
+    {
+        "end": 71130,
+        "start": 71125,
+        "text": "01:00",
+        "timex-value": "T01:00",
+        "type": "TIME",
+        "value": "T01:00"
+    },
+    {
+        "end": 72981,
+        "start": 72948,
+        "text": "01 November 2014\u201407 February 2021",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11-01",
+            "end": "2021-02-07"
+        }
+    },
+    {
+        "end": 75061,
+        "start": 75030,
+        "text": "1 November 2014\u20147 February 2021",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11-01",
+            "end": "2021-02-07"
+        }
+    },
+    {
+        "end": 76164,
+        "start": 76151,
+        "text": "20:14 - 20:21",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:14",
+            "end": "T20:21"
+        }
+    },
+    {
+        "end": 81558,
+        "start": 81550,
+        "text": "Jan 2021",
+        "timex-value": "2021-01",
+        "type": "DATE",
+        "value": "2021-01"
+    },
+    {
+        "end": 81697,
+        "start": 81689,
+        "text": "Jan 2020",
+        "timex-value": "2020-01",
+        "type": "DATE",
+        "value": "2020-01"
+    },
+    {
+        "end": 81714,
+        "start": 81706,
+        "text": "Jan 2019",
+        "timex-value": "2019-01",
+        "type": "DATE",
+        "value": "2019-01"
+    },
+    {
+        "end": 81725,
+        "start": 81717,
+        "text": "Jan 2018",
+        "timex-value": "2018-01",
+        "type": "DATE",
+        "value": "2018-01"
+    },
+    {
+        "end": 81877,
+        "start": 81869,
+        "text": "Jan 2017",
+        "timex-value": "2017-01",
+        "type": "DATE",
+        "value": "2017-01"
+    },
+    {
+        "end": 81890,
+        "start": 81882,
+        "text": "Jan 2016",
+        "timex-value": "2016-01",
+        "type": "DATE",
+        "value": "2016-01"
+    },
+    {
+        "end": 81911,
+        "start": 81903,
+        "text": "Jan 2015",
+        "timex-value": "2015-01",
+        "type": "DATE",
+        "value": "2015-01"
+    },
+    {
+        "end": 82079,
+        "start": 82066,
+        "text": "20:14 - 20:21",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:14",
+            "end": "T20:21"
+        }
+    },
+    {
+        "end": 86741,
+        "start": 86731,
+        "text": "March 2020",
+        "timex-value": "2020-03",
+        "type": "DATE",
+        "value": "2020-03"
+    },
+    {
+        "end": 90966,
+        "start": 90953,
+        "text": "20:14 - 20:21",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:14",
+            "end": "T20:21"
+        }
+    },
+    {
+        "end": 102364,
+        "start": 102325,
+        "text": "between November 2014 and February 2021",
+        "type": "DURATION",
+        "value": {
+            "begin": "2014-11",
+            "end": "2021-02"
+        }
+    },
+    {
+        "end": 113196,
+        "start": 113183,
+        "text": "20:14 - 20:21",
+        "type": "DURATION",
+        "value": {
+            "begin": "T20:14",
+            "end": "T20:21"
+        }
+    }
+]

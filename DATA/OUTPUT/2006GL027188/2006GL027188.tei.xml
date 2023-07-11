@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Magnetic reconnection at the heliospheric current sheet and the formation of closed magnetic field lines in the solar wind</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+				<date type="published" when="2006-09-13">13 September 2006.</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="laboratory">Laboratory for Atmospheric and Space Physics</orgName>
+								<orgName type="institution">University of Colorado</orgName>
+								<address>
+									<settlement>Boulder</settlement>
+									<region>Colorado</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+							<affiliation key="aff1">
+								<orgName type="department">Also at Southwest Research Institute</orgName>
+								<address>
+									<addrLine>San Antonio</addrLine>
+									<region>Texas</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+							<affiliation key="aff2">
+								<orgName type="department">Space Science and Engineering Division</orgName>
+								<orgName type="institution">Southwest Research Institute</orgName>
+								<address>
+									<addrLine>San Antonio</addrLine>
+									<region>Texas</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+							<affiliation key="aff3">
+								<orgName type="department">Space Science and Applications</orgName>
+								<orgName type="institution">Los Alamos National Laboratory</orgName>
+								<address>
+									<settlement>Los Alamos</settlement>
+									<region>New Mexico</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+							<affiliation key="aff4">
+								<orgName type="department" key="dep1">Department of Physics and Space Science Center</orgName>
+								<orgName type="department" key="dep2">Institute for Earth, Oceans and Space</orgName>
+								<orgName type="institution">University of New Hampshire</orgName>
+								<address>
+									<settlement>Durham</settlement>
+									<region>New Hampshire</region>
+									<country key="US">USA</country>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Magnetic reconnection at the heliospheric current sheet and the formation of closed magnetic field lines in the solar wind</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date type="published" when="2006-09-13">13 September 2006.</date>
+						</imprint>
+					</monogr>
+					<idno type="MD5">AB316B6792B610D2861D97ED91451F09</idno>
+					<idno type="DOI">10.1029/2006GL027188</idno>
+					<note type="submission">Received 12 June 2006; revised 31 July 2006; accepted 10 August 2006;</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.7.1" ident="GROBID" when="2022-07-18T15:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>We have identified a sunward-directed reconnection exhaust in the solar wind at a crossing of the heliospheric current sheet, HCS, by the ACE spacecraft. The exhaust was embedded within an interval of counterstreaming suprathermal electron strahls that provides direct evidence that reconnection produced closed (i.e., doubly connected to the Sun) magnetic field lines sunward of the reconnection site. We suggest that local, quasi-stationary reconnection at the HCS may, in general, be an important source of closed magnetic field lines often observed in the vicinity of the HCS.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>[2] Magnetic field lines embedded in the solar wind flow are largely open to the outer boundary of the heliosphere [e.g., <ref type="bibr" target="#b7">Parker, 1963]</ref>, although field lines threading interplanetary coronal mass ejections, ICMEs, are at least initially closed, being connected to the Sun at both ends [e.g., <ref type="bibr">Hundhausen,1988]</ref>. Closed field lines apparently unrelated to ICMEs are also often observed [e.g., <ref type="bibr" target="#b10">Pilipp et al., 1987]</ref> in the vicinity of the heliospheric current sheet, HCS, that wraps around the Sun and that separates solar wind regions of opposite (outward or inward-directed) magnetic polarity.</p><p>[3] Open and closed field lines in the solar wind can usually be distinguished from one another using observations of the solar wind electron strahl, a relatively intense beam of suprathermal electrons with energies &gt; $70 eV that is always directed outward from the Sun along the heliospheric magnetic field, HMF [e.g., <ref type="bibr" target="#b12">Rosenbauer et al., 1977]</ref>.</p><p>In particular, open HMF lines are distinguished by unidirectional strahls, closed field lines are distinguished by two strahls counterstreaming relative to one another in opposite directions along the HMF, and HMF lines disconnected from the Sun can at times be distinguished by the loss of strahl electrons [e.g., <ref type="bibr" target="#b2">Gosling et al., 2005b]</ref>. Moreover, crossings of the HCS are distinguished by simultaneous reversals in the polarity of the strahl flow (parallel or antiparallel to the HMF) and the polarity of the HMF.</p><p>[4] Magnetic reconnection, a process that converts magnetic field energy to bulk flow energy and plasma heating [e.g., <ref type="bibr">Priest and Forbes, 2000]</ref>, causes the topology of the HMF to evolve in space and time. We have recently demonstrated <ref type="bibr" target="#b1">[Gosling et al., 2005a</ref><ref type="bibr" target="#b3">[Gosling et al., , 2006a</ref><ref type="bibr" target="#b3">[Gosling et al., , 2006b;;</ref><ref type="bibr" target="#b9">Phan et al., 2006</ref>] that local, quasi-stationary reconnection occurs relatively frequently in the solar wind and produces Petschek-type exhausts, i.e., exhausts of jetting plasma bounded by Alfve ´n or slow mode waves <ref type="bibr" target="#b8">[Petschek, 1964;</ref><ref type="bibr" target="#b5">Levy et al., 1964]</ref>, emanating from reconnection sites. The exhausts are identified in solar wind data as brief (typically minutes) intervals of roughly Alfve ´nic accelerated or decelerated plasma flow confined to magnetic field reversal regions that usually take the form of bifurcated current sheets. Reconnection exhausts are observed almost exclusively in either low-speed solar wind or in association with ICMEs in plasma predominantly having low (&lt;1 and often (1) proton beta [e.g., <ref type="bibr" target="#b3">Gosling et al., 2006a</ref><ref type="bibr" target="#b3">Gosling et al., , 2006b]]</ref>. In one case instruments on the Advanced Composition Explorer (ACE) and Wind observed the oppositely directed exhausts from a common reconnection site between the two spacecraft (M. S. Davis et al., Detection of oppositely directed reconnection jets in a solar wind current sheet, submitted to Geophysical Research Letters, 2006).</p><p>[5] In an earlier paper <ref type="bibr" target="#b2">[Gosling et al., 2005b]</ref> we noted that only one out of the 42 reconnection exhausts initially identified in an extended survey of the ACE data occurred at the HCS. Our analysis of suprathermal electron distributions obtained in the vicinity of that anti-sunward-directed exhaust on 17 September 1998 demonstrated that field lines there were disconnected from the Sun, as expected for reconnection at the HCS. Continued examination of the ACE data has revealed a number of additional solar wind reconnection exhausts. Our purpose here is to present and discuss observations associated with a sunward-directed exhaust observed at the HCS on 25 December 1998. These observations nicely complement observations and interpretations of the 17 September 1998 event.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Observations</head><p>[6] ACE was launched on 25 August 1997 into an orbit about the L1 Lagrange point $0.01 AU upstream from Earth in the solar wind. For the period of interest here the Solar Wind Electron Proton Alpha Monitor, SWEPAM, on ACE provided 3-dimensional measurements of solar wind ion velocity distributions, f(v), every 64 s and 3-dimensional measurements of suprathermal electron distributions every 128 s <ref type="bibr" target="#b6">[McComas et al., 1998</ref>]. The Magnetic Field Experiment, MAG, on ACE generally provided measurements of the magnetic field vector, B, at a cadence of 3 vectors/s <ref type="bibr" target="#b14">[Smith et al., 1998</ref>]. Here we show magnetic field data at the cadence of the ion measurements.</p><p>[7] Figure <ref type="figure" target="#fig_0">1</ref> provides an overview of the 25 December 1998 HCS crossing associated with a 124°rotation of the magnetic field near 05:36 UT. In the top panel the strahl is the moderately intense beam centered on 180°pitch angle (PA) before the HCS crossing and the beam of somewhat greater intensity centered on 0°PA well after the crossing. Counterstreaming strahls were present beginning near the HCS crossing and continuing for a number of minutes thereafter.</p><p>[8] Figures <ref type="figure" target="#fig_2">2 and 3</ref> show plasma and magnetic field data for a 1-hr interval encompassing the HCS crossing. Figure <ref type="figure" target="#fig_1">2</ref> illustrates that: 1) the HCS separated regions of distinctly different flow velocities, V; 2) the HCS was a bifurcated current sheet characterized by a pair of sharp field rotations bounding a region of intermediate field orientation (this is more obvious in the high time resolution field data, not shown); 3) the field reversal region was filled with a deflected and decelerated plasma flow; and 4) the changes in V and B were anti-correlated at the leading edge of the field reversal region and correlated at the trailing edge. Since Alfve ´n waves propagating parallel (anti-parallel) to B produce anti-correlated (correlated) variations in B and V, the latter, as well as the decrease in V r within the field reversal region, indicate that the field reversal was bounded by Alfve ´n waves propagating back toward the Sun in opposite directions along the HMF. Thus, we identify this crossing of the HCS as being associated with a sunwarddirected Petschek-type reconnection exhaust with the maximum magnitude of the vector change in velocity, jDVj, associated with the exhaust being $38 km/s.</p><p>[9] Figure <ref type="figure" target="#fig_2">3</ref> illustrates that: 1) the exhaust separated solar wind having distinctly different characteristics, although both external regions were low-beta plasma; 2) the exhaust was associated with a large increase in the parallel (to B) proton temperature and the temperature anisotropy and a small decrease in magnetic field strength; 3) proton number densities within the exhaust were generally intermediate to   those observed immediately outside; and 4) the external Alfve ´n speeds (43 km/s and 60 km/s) were comparable to, but somewhat greater than, the observed maximum jDVj associated with the exhaust (38 km/s). All of the above are characteristic of observed solar wind reconnection exhausts [e.g., <ref type="bibr" target="#b1">Gosling et al., 2005a</ref><ref type="bibr" target="#b3">Gosling et al., , 2006a] ]</ref> except for the intermediate densities. Proton densities usually are higher within the exhausts than in the external regions, although exceptions to that rule have been noted <ref type="bibr" target="#b3">[Gosling et al., 2006b]</ref>. Such exceptions indicate that the transitions from outside to inside solar wind exhausts are not always slowmode-like on both sides. We note that this event was apparently driven by the external flow since it occurred on the rising speed portion of a modest high-speed stream that eventually peaked at $600 km/s near 1320 UT on this same day.</p><p>[10] Figure <ref type="figure" target="#fig_3">4</ref> shows how the suprathermal electron pitch angle distributions, PADs, evolved in the vicinity of the HCS. Well before the HCS crossing (05:07:37 and 05:28:57 UT) the strahl peaked at PA 180°and was less intense than the strahl well after the crossing (06:30:49 and 06:32:57 UT), which peaked at PA 0°. In addition, the halo (the weaker and generally more isotropic suprathermal electron component) well before the HCS crossing contained a relatively strong depletion centered on PA 90°, indicative of magnetic connection to a region of stronger B at greater heliocentric distance <ref type="bibr" target="#b0">[Gosling et al., 2001;</ref><ref type="bibr" target="#b13">Skoug et al., 2006]</ref>. Immediately prior to the HCS crossing (05:33:13 UT) ACE first observed counterstreaming strahls having intensities at PAs 0°and 180°nearly identical to those of the unidirectional strahls on the opposite adjacent open field lines. As ACE penetrated into the field reversal region (05:35:21 and 05:37:29 UT) the halo depletion at PA 90°g radually filled in and the counterstreaming strahls remained at comparable intensities. Upon exit from the field reversal region (05:39:37 UT) the 90°depletion essentially vanished, whereas the counterstreaming strahls continued with undiminished intensity until 06:30:49 UT, after which time only the PA 0°strahl and a roughly isotropic halo population remained. The absence of a PA 90°depletion on those field lines indicates they were not connected to a region of stronger B at greater heliocentric distances either because the local field strength was higher than before the HCS crossing (Figure <ref type="figure" target="#fig_2">3</ref>) or because those field lines simply extended out into the heliosphere in a different direction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Interpretation</head><p>[11] The observations presented in the previous section can consistently be interpreted as resulting from reconnection at a site initially positioned sunward and to the east and south (i.e., in the -t and -n directions) of ACE. Figure <ref type="figure" target="#fig_5">5</ref> provides an idealized planar sketch of the field line geometry associated with the event as well as idealized sketches illustrating the expected evolution of suprathermal electron PADs on the sunward side (along B) of the reconnection site. For simplicity, the PAD sketches do not show the halo depletion at PA 90°prior to the exhaust or the evolution of that depletion within the exhaust. The sketches also neglect any time-dependent effects such as those associated with magnetic mirroring on field lines connecting to the inner heliosphere.</p><p>[12] Reconnection of open field lines at the HCS creates closed field lines sunward and disconnected field lines antisunward of the reconnection site and a pair of oppositely directed Petschek-type reconnection exhausts, the boundaries of which are marked by dashed lines in Figure <ref type="figure" target="#fig_5">5</ref>. Since ACE observed sunward-deflected flow within the HCS, it sampled the sunward (along B) side of the reconnection site, as drawn, and observed anti-correlated changes in V and B as it entered the exhaust and correlated changes in V and B as it exited.</p><p>[13] As indicated in Figure <ref type="figure" target="#fig_5">5</ref>, ACE should have successively sampled 1) open field lines of toward (the Sun)</p><p>polarity not yet merged at the reconnection site; 2) merged closed field lines of toward magnetic polarity that lay outside the reconnection exhaust in the so-called ''separatrix layer''; 3) the region of deflected and decelerated flow (i.e., the reconnection exhaust) containing closed field lines and the field reversal region; 4) closed field lines of away magnetic polarity that lay outside the exhaust region in the other separatrix layer; and 5) open field lines of away polarity not yet merged at the reconnection site. Since the suprathermal electrons have very high speeds (a 272 eV electron travels at 9.8 x 10 3 km/s), to a first approximation one expects to observe suprathermal electron PADs on the closed field lines (positions 2 -4 in Figure <ref type="figure" target="#fig_5">5</ref>) that are a simple combination of the anti-sunward-directed portions of the two PADs of different intensity (each shaded differently in Figure <ref type="figure" target="#fig_5">5</ref>) on the adjacent open field lines of opposite [14] For 272 eV electrons streaming nearly parallel or anti-parallel to B, time-of flight effects are negligibly small reasonably close to a reconnection site. However, it appears likely that time-of-flight effects, as well as mirroring closer to the Sun, were responsible for the evolution of the halo electron distribution in the vicinity of the exhaust near PA 90°, at which pitch angles the field-aligned speeds are much smaller. In particular, at those pitch angles one also initially expects to observe electrons that prior to reconnection were traveling sunward on field lines, thereby accounting for the symmetric PA 90°depletions observed upon first contact with closed field lines, and the gradual disappearance of the PA 90°depletion upon deeper penetration into the reconnection exhaust.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Discussion</head><p>[15] The ACE observations of the 25 December 1998 crossing of the HCS thus provide convincing evidence both for reconnection at the HCS and for the formation of closed field lines sunward of the reconnection site. As such, they nicely complement our earlier report of disconnected (from the Sun) magnetic field lines anti-sunward of a reconnection site at the HCS on 17 September 1998. In that case the strahl disappeared in the vicinity of the exhaust and the asymmetric halo observed there was a composite of the sunward-directed halo electrons on open field lines of opposite magnetic polarity adjacent to the exhaust.</p><p>[16] Counterstreaming strahls and, by inference, closed field lines are relatively common in the vicinity of the HCS [e.g., <ref type="bibr" target="#b10">Pilipp et al., 1987]</ref>. Our analysis of the 25 December 1998 event clearly indicates that such closed field lines can be the direct result of local reconnection in the solar wind far from the Sun, although it does not rule out the possibility that some intervals of closed field lines in the vicinity of the HCS originate as such in the corona, for example as outward propagating magnetic loops from active regions [e.g., <ref type="bibr" target="#b15">Uchida et al., 1999]</ref>. Further analysis is required to determine the overall importance of reconnection in this respect.</p><p>[17] Finally, we note that the closed field lines were asymmetrically positioned relative to the HCS and the reconnection exhaust in the 25 December 1998 event, with a longer interval of closed field lines being observed after the HCS crossing than before it. An examination of other intervals of counterstreaming electrons strahls and, by inference, closed field lines in the vicinity of the HCS in the ACE data reveals that such asymmetries are the rule rather than the exception. In the case of reconnected loops we are presently uncertain of the reason for those asymmetries, although they may be a consequence of the fact that the reconnected field line loops did not lie in the ecliptic plane (as sketched in Figure <ref type="figure" target="#fig_5">5</ref>), but rather were inclined to it.</p><p>[18] Acknowledgments. This  </p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 .</head><label>1</label><figDesc>Figure 1. ACE suprathermal electron and magnetic field data for 25 December 1998. (top) Color-coded pitch angle distributions of 272 eV electrons. (bottom) The heliospheric magnetic field latitude, Q B , and longitude, F B , in GSE coordinates. Color-coding in the top panel is logarithmic with blue (red) corresponding to weakest (strongest) intensities.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 .</head><label>2</label><figDesc>Figure 2. Magnetic field and proton flow velocity components in r,t,n coordinates in the 05:00-06:00 UT interval on 25 December 1998. Vertical lines bracket the field reversal region associated with the HCS.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 3 .</head><label>3</label><figDesc>Figure3. Selected plasma and magnetic field data in the 05:00-06:00 interval on 25 December 1998. From top to bottom the parameters shown are proton number density, parallel and perpendicular components of the proton temperature, flow speed, magnetic field strength, ratio of alpha particle and proton number densities, Alfve ´n speed, and proton beta (ratio of thermal and magnetic field pressures). Vertical lines bracket the field reversal region.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 4 .</head><label>4</label><figDesc>Figure 4. Selected sequence of 272 eV electron PADs in the solar wind frame obtained in the vicinity of the HCS crossing. Solid points denote the two PADs obtained within the field reversal region, i.e., the exhaust. Similar PADs were obtained at all suprathermal energies from 73 to 1370 eV. At PA 90°successive spectra run approximately (a) from bottom to top and (b) from top to bottom.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_4"><head></head><label></label><figDesc>work has been supported by NASA's ACE program and by NASA grant NNG05GJ55G at the University of Colorado. Work at Los Alamos was performed under the auspices of the U.S. Department of Energy.</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_5"><head>Figure 5 .</head><label>5</label><figDesc>Figure 5. Idealized planar sketch (not to scale) of the field line geometry for the 25 December 1998 HCS crossing together with sketches illustrating the expected evolution of the suprathermal electron PADs in the vicinity of the crossing at the points indicated along the effective spacecraft trajectory. Note that all of the PADs are oriented with the direction of B to the right. These idealized PAD sketches ignore time-of-flight effects and effects associated with the mirroring of electrons with large pitch angles closer to the Sun. Dashed lines denote the boundaries of the oppositely directed reconnection exhausts and, on the sunward side of the reconnection site, are labeled A1 and A2.</figDesc></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Solar wind electron halo depletions at 90°pitch angle</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page">4155</biblScope>
+			<date type="published" when="2001">2001</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Direct evidence for magnetic reconnection in the solar wind near 1 AU</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno>doi:10.1029/ 2004JA010809</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">110</biblScope>
+			<biblScope unit="page">A01107</biblScope>
+			<date type="published" when="2005">2005a</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Magnetic disconnection from the Sun: Observations of a reconnection exhaust in the solar wind at the heliospheric current sheet</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno>doi:10.1029</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geophys. Res. Lett</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">L05105</biblScope>
+			<date type="published" when="2005">2005b. 2005GL022406</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Petschek-type magnetic reconnection exhausts in the solar wind well inside 1 AU: Helios</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno>doi:10.1029/ 2006JA011863</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">644</biblScope>
+			<biblScope unit="page">613</biblScope>
+			<date type="published" when="2006">2006a. 2006b</date>
+		</imprint>
+	</monogr>
+	<note>Astrophys. J.. in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The origin and propagation of coronal mass ejections</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Hundhausen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of Sixth International Solar Wind Conference</title>
+				<editor>
+			<persName><forename type="first">V</forename><surname>Pizzo</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Holzer</surname></persName>
+		</editor>
+		<editor>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Sime</surname></persName>
+		</editor>
+		<meeting>Sixth International Solar Wind Conference<address><addrLine>Boulder, Colo</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988">1988</date>
+			<biblScope unit="page">181</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Aerodynamic aspects of the magnetospheric flow</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Levy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AIAA J</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">2065</biblScope>
+			<date type="published" when="1964">1964</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Solar wind electron proton alpha monitor (SWEPAM) for the Advanced Composition Explorer</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">563</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">N</forename><surname>Parker</surname></persName>
+		</author>
+		<title level="m">Interplanetary Dynamical Processes</title>
+				<meeting><address><addrLine>Hoboken, N. J</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley-Intersci</publisher>
+			<date type="published" when="1963">1963</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Magnetic annihilation, NASA Spec. Publ., SP-50</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">E</forename><surname>Petschek</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1964">1964</date>
+			<biblScope unit="volume">425</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A magnetic x-line extending more than 390 Earth radii in the solar wind</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Phan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="page">175</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Variations of electron distribution functions in the solar wind</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Pilipp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page">1103</biblScope>
+			<date type="published" when="1987">1987</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Priest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Forbes Magnetic Reconnection</surname></persName>
+		</author>
+		<title level="m">MHD Theory and Applications</title>
+				<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge Univ. Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A survey of initial results of the Helios plasma experiment</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rosenbauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page">561</biblScope>
+			<date type="published" when="1977">1977</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Suprathermal electron 90°depletions at reverse shocks in the solar wind</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Skoug</surname></persName>
+		</author>
+		<idno>doi:10.1029/ 2005JA011316</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Geophys. Res</title>
+		<imprint>
+			<biblScope unit="volume">111</biblScope>
+			<biblScope unit="page">A01101</biblScope>
+			<date type="published" when="2006">2006</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">The ACE magnetic fields experiment</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Space Sci. Rev</title>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page">613</biblScope>
+			<date type="published" when="1998">1998</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Observations of flares and active regions from Yohkoh, and magnetodyamic models explaining them</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Uchida</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Astrophys. Space Phys</title>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="page">145</biblScope>
+			<date type="published" when="1999">1999</date>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">University of Colorado, 1234 Innovation Drive</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Gosling</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Boulder, CO 80303, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Laboratory for Atmospheric and Space Physics. jack.gosling@lasp.colorado.edu</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">TX 78228-0510</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Mccomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Usa</forename><forename type="middle">R M</forename><surname>Skoug</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Space Science and Applications</title>
+				<editor>
+			<persName><forename type="middle">C W</forename><surname>Usa</surname></persName>
+		</editor>
+		<editor>
+			<persName><surname>Smith</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Antonio; Group ISR-1, MS D466 Los Alamos National Laboratory, Los Alamos, NM</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="volume">28510</biblScope>
+			<biblScope unit="page">207</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Space Science and Engineering Division, Southwest Research Institute ; Department of Physics and Space Science Center, Institute for Earth, Oceans and Space, University of New Hampshire</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">39 College Road</title>
+		<author>
+			<persName><forename type="first">Morse</forename><surname>Hall</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Durham, NH 03824, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

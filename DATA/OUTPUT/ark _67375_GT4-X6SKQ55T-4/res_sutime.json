@@ -1,0 +1,228 @@
+[
+    {
+        "end": 23,
+        "start": 8,
+        "text": "12 January 2006",
+        "timex-value": "2006-01-12",
+        "type": "DATE",
+        "value": "2006-01-12"
+    },
+    {
+        "end": 5995,
+        "start": 5977,
+        "text": "01:00  02 Feb 2002",
+        "timex-value": "2022-02-02T01:00",
+        "type": "TIME",
+        "value": "2022-02-02T01:00"
+    },
+    {
+        "end": 6002,
+        "start": 5997,
+        "text": "02:00",
+        "timex-value": "T02:00",
+        "type": "TIME",
+        "value": "T02:00"
+    },
+    {
+        "end": 6122,
+        "start": 6107,
+        "text": "2 February 2002",
+        "timex-value": "2002-02-02",
+        "type": "DATE",
+        "value": "2002-02-02"
+    },
+    {
+        "end": 6947,
+        "start": 6932,
+        "text": "2 February 2002",
+        "timex-value": "2002-02-02",
+        "type": "DATE",
+        "value": "2002-02-02"
+    },
+    {
+        "end": 8313,
+        "start": 8287,
+        "text": "about this 2 February 2002",
+        "timex-value": "2002-02-02",
+        "type": "DATE",
+        "value": "2002-02-02"
+    },
+    {
+        "end": 8639,
+        "start": 8624,
+        "text": "12 January 2006",
+        "timex-value": "2006-01-12",
+        "type": "DATE",
+        "value": "2006-01-12"
+    },
+    {
+        "end": 8677,
+        "start": 8672,
+        "text": "03:00",
+        "timex-value": "T03:00",
+        "type": "TIME",
+        "value": "T03:00"
+    },
+    {
+        "end": 8693,
+        "start": 8688,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 9511,
+        "start": 9506,
+        "text": "01:32",
+        "timex-value": "T01:32",
+        "type": "TIME",
+        "value": "T01:32"
+    },
+    {
+        "end": 9560,
+        "start": 9555,
+        "text": "02:32",
+        "timex-value": "T02:32",
+        "type": "TIME",
+        "value": "T02:32"
+    },
+    {
+        "end": 9610,
+        "start": 9605,
+        "text": "03:57",
+        "timex-value": "T03:57",
+        "type": "TIME",
+        "value": "T03:57"
+    },
+    {
+        "end": 11381,
+        "start": 11366,
+        "text": "12 January 2006",
+        "timex-value": "2006-01-12",
+        "type": "DATE",
+        "value": "2006-01-12"
+    },
+    {
+        "end": 11409,
+        "start": 11404,
+        "text": "03:55",
+        "timex-value": "T03:55",
+        "type": "TIME",
+        "value": "T03:55"
+    },
+    {
+        "end": 11415,
+        "start": 11410,
+        "text": "04:00",
+        "timex-value": "T04:00",
+        "type": "TIME",
+        "value": "T04:00"
+    },
+    {
+        "end": 11431,
+        "start": 11426,
+        "text": "04:05",
+        "timex-value": "T04:05",
+        "type": "TIME",
+        "value": "T04:05"
+    },
+    {
+        "end": 11450,
+        "start": 11439,
+        "text": "02 Feb 2002",
+        "timex-value": "2002-02-02",
+        "type": "DATE",
+        "value": "2002-02-02"
+    },
+    {
+        "end": 13025,
+        "start": 13020,
+        "text": "03:59",
+        "timex-value": "T03:59",
+        "type": "TIME",
+        "value": "T03:59"
+    },
+    {
+        "end": 17851,
+        "start": 17846,
+        "text": "11:03",
+        "timex-value": "T11:03",
+        "type": "TIME",
+        "value": "T11:03"
+    },
+    {
+        "end": 18332,
+        "start": 18327,
+        "text": "21:59",
+        "timex-value": "T21:59",
+        "type": "TIME",
+        "value": "T21:59"
+    },
+    {
+        "end": 18487,
+        "start": 18474,
+        "text": "15:09 - 15:22",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:09",
+            "end": "T15:22"
+        }
+    },
+    {
+        "end": 19892,
+        "start": 19859,
+        "text": "28 October 1963 - 30 October 1963",
+        "type": "DURATION",
+        "value": {
+            "begin": "1963-10-28",
+            "end": "1963-10-30"
+        }
+    },
+    {
+        "end": 20199,
+        "start": 20184,
+        "text": "12 January 2006",
+        "timex-value": "2006-01-12",
+        "type": "DATE",
+        "value": "2006-01-12"
+    },
+    {
+        "end": 20348,
+        "start": 20335,
+        "text": "15:46 - 15:49",
+        "type": "DURATION",
+        "value": {
+            "begin": "T15:46",
+            "end": "T15:49"
+        }
+    },
+    {
+        "end": 20485,
+        "start": 20472,
+        "text": "21:47 - 21:58",
+        "type": "DURATION",
+        "value": {
+            "begin": "T21:47",
+            "end": "T21:58"
+        }
+    },
+    {
+        "end": 20761,
+        "start": 20756,
+        "text": "23:55",
+        "timex-value": "T23:55",
+        "type": "TIME",
+        "value": "T23:55"
+    },
+    {
+        "end": 21046,
+        "start": 21033,
+        "text": "16:11 - 16:22",
+        "type": "DURATION",
+        "value": {
+            "begin": "T16:11",
+            "end": "T16:22"
+        }
+    }
+]
