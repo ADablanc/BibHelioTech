@@ -1,5 +1,6 @@
 from OCRiser import *
 import shutil
+import time
 import os
 
 INPUT_PATH = "../DATA/INPUT"
@@ -14,5 +15,6 @@ for files in os.listdir(INPUT_PATH):
 
         shutil.move(os.path.join(INPUT_PATH,f"{filename}.pdf"),os.path.join(os.path.join(OUTPUT_PATH,filename),f"{filename}.pdf")) # Move file to OUTPUT directory
 
-
+        print(f"-- OCR of {filename} --")
+        time.sleep(0.01)
         PDF_OCRiser(os.path.join(OUTPUT_PATH,filename),f"{filename}.pdf")
