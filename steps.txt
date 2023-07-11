@@ -1,0 +1,11 @@
+Collecte et préparation des données : Rassemblez un ensemble de données comprenant des publications scientifiques en héliophysique, en veillant à inclure des informations sur les satellites, les régions spatiales, les périodes de mesure, les instruments et les DOI des articles.
+
+Annotation des données : Pour former votre IA, vous devrez annoter les données en identifiant et en reliant les informations pertinentes. Par exemple, identifiez les mentions des noms de satellites, des régions spatiales, des périodes de mesure, des instruments, etc. Établissez les correspondances entre ces informations et associez-les correctement.
+
+Choix du modèle d'apprentissage automatique : Sélectionnez un modèle d'apprentissage automatique approprié pour résoudre ce problème. Vous pourriez envisager des modèles de traitement du langage naturel (NLP) tels que les réseaux de neurones récurrents (RNN) ou les transformers.
+
+Entraînement du modèle : Utilisez vos données annotées pour entraîner le modèle. Le modèle doit être capable de reconnaître et de lier les informations spécifiques concernant les satellites, les régions spatiales, les périodes de mesure, les instruments, etc., dans les publications.
+
+Évaluation et ajustement du modèle : Évaluez les performances de votre modèle en utilisant des données de validation ou en effectuant des tests. Si nécessaire, ajustez les paramètres du modèle ou ajoutez plus de données d'entraînement pour améliorer ses performances.
+
+Intégration de l'IA dans un système : Une fois que vous êtes satisfait des performances de l'IA, vous pouvez l'intégrer dans un système qui permet de saisir un article en entrée, de le traiter avec l'IA et d'extraire les informations souhaitées sur les satellites, les instruments, etc.
