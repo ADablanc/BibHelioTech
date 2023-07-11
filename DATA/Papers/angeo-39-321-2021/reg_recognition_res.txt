@@ -1,1 +1,0 @@
-{'start_time': '2009-07-23T17:30:00.000', 'stop_time': '2009-07-23T17:30:59.000', 'DOI': '10.5194/angeo-39-321-2021', 'sat': 'Thule', 'inst': '', 'reg': 'Earth.NearSurface', 'D': 4114, 'R': 1, 'SO': 1, 'conf': 1.0}
